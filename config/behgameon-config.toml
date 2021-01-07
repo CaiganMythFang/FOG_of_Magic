@@ -1,0 +1,13 @@
+
+[general]
+	#Add loot to Chest loot system
+	USE_CHESTLOOTSYSTEM = true
+
+[gear]
+	#Accessory Max Damage
+	ACCESSORY_MAXDAMAGE = 1000
+	#Shield Damage
+	SHIELD_MAXDAMAGE = 1000
+	#Ring Max Damage
+	RING_MAXDAMAGE = 1000
+

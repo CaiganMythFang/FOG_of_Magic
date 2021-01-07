@@ -1,0 +1,10 @@
+
+#Common configuration settings
+[common]
+	#The amount of ticks to wait while petting before it heals the dog
+	#Range: 1 ~ 1000
+	healIntervalTicks = 100
+	#The amount of health the tameable mob recieves from being pet
+	#Range: 0.5 ~ 20.0
+	healAmount = 1.0
+

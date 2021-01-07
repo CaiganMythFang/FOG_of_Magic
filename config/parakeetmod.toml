@@ -1,0 +1,11 @@
+
+[extra]
+	#Enables shoulder perching goal, affects performance when in 3rd person
+	shoulderGoal = false
+	#Cockatiel spawn weight - 40 is true, 0 is false (Requires restart)
+	#Range: 0 ~ 40
+	cockatielSpawnWeight = 40
+	#Parakeet spawn weight - 40 is true, 0 is false (Requires restart)
+	#Range: 0 ~ 40
+	parakeetSpawnWeight = 40
+

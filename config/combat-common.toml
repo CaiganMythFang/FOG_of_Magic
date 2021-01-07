@@ -1,0 +1,329 @@
+
+["Leveling Stats"]
+	#
+	#The base amount of experience taken for each upgrade
+	#Default: 7
+	#Range: 1 ~ 1000
+	"Base Experience Cost" = 7
+	#Disabling this will disable any effects from the leveling system
+	#NOTE: The amount of a stat you recieve at certain level is ((currentLevel/maxLevel)*maxLevelModifier)+defaultModifier where currentLevel is the level you are currently at, maxLevel is the maximum level the stat can
+	#reach, maxLevelModifer is the maximum you can add to your stat at the max level and defaultModifier is the amount added or removed by default
+	"Enable Leveling System" = true
+	#
+	#The amount of experience added to the base cost taken for each upgrade
+	#This number is multiplied by the current level of the stat to determine the cost of the next upgrade
+	#Default: 2
+	#Range: 1 ~ 1000
+	"Experience Cost Step" = 2
+
+	["Leveling Stats"."Max Mana"]
+		#
+		#Enable the Max Mana stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Max Mana by
+		#Default: -312.5
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = -312.5
+		#
+		#The amount of Max Mana added to player at the maximum level
+		#Default: 10000.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 10000.0
+		#
+		#The maximum level that Max Mana can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Jump Height"]
+		#
+		#Enable the Jump Height stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Jump Height by
+		#Default: 0.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = 0.0
+		#
+		#The amount of Jump Height added to player at the maximum level
+		#Default: 1.5
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 1.5
+		#
+		#The maximum level that Jump Height can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Dig Speed"]
+		#
+		#Enable the Dig Speed stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Dig Speed by
+		#Default: 0.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = 0.0
+		#
+		#The amount of Dig Speed added to player at the maximum level
+		#Default: 5.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 5.0
+		#
+		#The maximum level that Dig Speed can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Magic Strength"]
+		#
+		#Enable the Magic Strength stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Magic Strength by
+		#Default: -0.15625
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = -0.15625
+		#
+		#The amount of Magic Strength added to player at the maximum level
+		#Default: 5.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 5.0
+		#
+		#The maximum level that Magic Strength can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Physical Strength"]
+		#
+		#Enable the Physical Strength stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Physical Strength by
+		#Default: 0.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = 0.0
+		#
+		#The amount of Physical Strength added to player at the maximum level
+		#Default: 4.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 4.0
+		#
+		#The maximum level that Physical Strength can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Movement Speed"]
+		#
+		#Enable the Movement Speed stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Movement Speed by
+		#Default: -0.0015625
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = -0.0015625
+		#
+		#The amount of Movement Speed added to player at the maximum level
+		#Default: 0.05
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 0.05
+		#
+		#The maximum level that Movement Speed can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Max Health"]
+		#
+		#Enable the Max Health stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Max Health by
+		#Default: -8.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = -8.0
+		#
+		#The amount of Max Health added to player at the maximum level
+		#Default: 48.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 48.0
+		#
+		#The maximum level that Max Health can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Mana Regeneration"]
+		#
+		#Enable the Mana Regeneration stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Mana Regeneration by
+		#Default: -1.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = -1.0
+		#
+		#The amount of Mana Regeneration added to player at the maximum level
+		#Default: 32.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 32.0
+		#
+		#The maximum level that Mana Regeneration can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Swim Speed"]
+		#
+		#Enable the Swim Speed stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Swim Speed by
+		#Default: -0.0015625
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = -0.0015625
+		#
+		#The amount of Swim Speed added to player at the maximum level
+		#Default: 2.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 2.0
+		#
+		#The maximum level that Swim Speed can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Health Regeneration"]
+		#
+		#Enable the Health Regeneration stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Health Regeneration by
+		#Default: 0.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = 0.0
+		#
+		#The amount of Health Regeneration added to player at the maximum level
+		#Default: 5.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 5.0
+		#
+		#The maximum level that Health Regeneration can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats"."Attack Speed"]
+		#
+		#Enable the Attack Speed stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Attack Speed by
+		#Default: 0.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = 0.0
+		#
+		#The amount of Attack Speed added to player at the maximum level
+		#Default: 4.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 4.0
+		#
+		#The maximum level that Attack Speed can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats".Luck]
+		#
+		#Enable the Luck stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Luck by
+		#Default: -0.15625
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = -0.15625
+		#
+		#The amount of Luck added to player at the maximum level
+		#Default: 5.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 5.0
+		#
+		#The maximum level that Luck can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+	["Leveling Stats".Defence]
+		#
+		#Enable the Defence stat
+		#Default: true
+		Enable = true
+		#
+		#The amount to modify the starting Defence by
+		#Default: 0.0
+		#Range: -1000.0 ~ 1000.0
+		"Default Modifier" = 0.0
+		#
+		#The amount of Defence added to player at the maximum level
+		#Default: 20.0
+		#Range: 0.0 ~ 100000.0
+		"Maximum Modifier" = 20.0
+		#
+		#The maximum level that Defence can reach
+		#Default: LEVEL_32
+		#Allowed Values: LEVEL_4, LEVEL_8, LEVEL_14, LEVEL_16, LEVEL_28, LEVEL_32
+		"Maximum Level" = "LEVEL_32"
+
+[Miscellaneous]
+	#
+	#This determines the amount of experience you gain fro breaking crops
+	#Set this to zero to disable this feature
+	#Default: 1
+	#Range: 0 ~ 1000
+	"Experience Gained From Farming" = 1
+	#Disabling this would prevent the guns in this mod from loading in your game
+	"Load Guns" = true
+	#Enable to see debug messages sent by this mod in the console
+	"Debug Mode" = false
+	#
+	#The rate at which snow layers will increase
+	#The lower this number, the quicker snow layers will increase
+	#Set this to zero to disable this feature
+	#Default: 10
+	#Range: 0 ~ 1000
+	"Snow Pileup Rate" = 10
+	#Disabling this will prevent you from using the fletching table to create arrows from this mod.
+	"Enable Fletching" = true
+
+[Battle]
+	#
+	#This is a list of swords that can be classified as double edge and straight weapons.
+	#Entries are in the format "namespace:path"
+	#Default: []
+	"Double Edge and Straight Weapons" = ["combat:bronze_katana", "combat:steel_katana", "combat:pasquem_katana", "combat:pelgan_katana", "combat:lozyne_katana", "combat:serable_katana", "combat:etherion_katana", "combat:blood_katana", "combat:soul_katana", "combat:bronze_rapier", "combat:steel_rapier", "combat:pasquem_rapier", "combat:pelgan_rapier", "combat:lozyne_rapier", "combat:serable_rapier", "combat:etherion_rapier", "combat:blood_rapier", "combat:soul_rapier"]
+	#
+	#This is a list of swords that can be classified as edgeless and thrusting weapons.
+	#Entries are in the format "namespace:path"
+	#Default: ["combat:bronze_katana", "combat:steel_katana", "combat:pasquem_katana", "combat:pelgan_katana", "combat:lozyne_katana", "combat:serable_katana", "combat:etherion_katana", "combat:blood_katana", "combat:soul_katana", "combat:bronze_rapier", "combat:steel_rapier", "combat:pasquem_rapier", "combat:pelgan_rapier", "combat:lozyne_rapier", "combat:serable_rapier", "combat:etherion_rapier", "combat:blood_rapier", "combat:soul_rapier"]
+	"Edgeless and Thrusting Weapons" = ["combat:bronze_katana", "combat:steel_katana", "combat:pasquem_katana", "combat:pelgan_katana", "combat:lozyne_katana", "combat:serable_katana", "combat:etherion_katana", "combat:blood_katana", "combat:soul_katana", "combat:bronze_rapier", "combat:steel_rapier", "combat:pasquem_rapier", "combat:pelgan_rapier", "combat:lozyne_rapier", "combat:serable_rapier", "combat:etherion_rapier", "combat:blood_rapier", "combat:soul_rapier"]
+	#
+	#This is a list of swords that can be classified as single edge and curved weapons.
+	#Entries are in the format "namespace:path"
+	#Default: ["combat:bronze_katana", "combat:steel_katana", "combat:pasquem_katana", "combat:pelgan_katana", "combat:lozyne_katana", "combat:serable_katana", "combat:etherion_katana", "combat:blood_katana", "combat:soul_katana"]
+	"Single Edge and Curved Weapons" = ["combat:bronze_katana", "combat:steel_katana", "combat:pasquem_katana", "combat:pelgan_katana", "combat:lozyne_katana", "combat:serable_katana", "combat:etherion_katana", "combat:blood_katana", "combat:soul_katana", "combat:bronze_rapier", "combat:steel_rapier", "combat:pasquem_rapier", "combat:pelgan_rapier", "combat:lozyne_rapier", "combat:serable_rapier", "combat:etherion_rapier", "combat:blood_rapier", "combat:soul_rapier"]
+

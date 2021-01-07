@@ -1,0 +1,42 @@
+
+[Magic]
+	#
+	#This is a list of blocks that if broken with the correct tool and the Treasure Hunter skill will drop loot.
+	#Entries are in the format "namespace:path"
+	#Default: ["minecraft:dirt"]
+	"Treasure Hunting Blocks" = ["minecraft:dirt"]
+	#Disabling this will allow all spells to be viewable by everybody even if they've never used the spell before
+	"Enable Spell Knowledge" = true
+	#
+	#The chance a monster will be an abomination when spawned
+	#The lower this value, the less likely one is to become one
+	#Set to zero to prevent monsters from becoming abominations
+	#Default: 20
+	#Range: 0 ~ 1000
+	"Abomination Chance" = 20
+	#Disabling this will turn off the affinity system and will allow you to cast spells in every class
+	"Enable Affinities" = true
+	#
+	#The chance that an abomination monster will become a rare abomination
+	#The lower this value, the less likely one is to become one
+	#Set to zero to prevent abominations from becoming rare abominations
+	#Default: 2
+	#Range: 0 ~ 1000
+	"Rare Abomination Chance" = 2
+	#
+	#The chance a monster will drop a spell scroll upon death when the cause of death is not by a player
+	#The lower this value, the less likely a spell scroll will drop
+	#Set to zero to prevent spell scrolls from dropping from monsters
+	#Default: 0
+	#Range: 0 ~ 1000
+	"Scroll Drop Chance" = 0
+	#
+	#The chance a monster when killed by a player, will drop a spell scroll
+	#The lower this value, the less likely a spell scroll will drop
+	#Set to zero to prevent spell scrolls from dropping from vanquished monsters
+	#Default: 99
+	#Range: 0 ~ 1000
+	"Scroll Drop Chance From Kills" = 99
+	#Disabling this will prevent spells from gaining strength depending on how many times its cast
+	"Enable Spell Training" = true
+

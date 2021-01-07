@@ -1,0 +1,314 @@
+
+#atomic bomb settings
+[nuclear_craft]
+	#Max number of ammo of water drop rocket launcher
+	#Range: 0 ~ 32767
+	water_drop_ammo = 1
+	#Range: 0.0 ~ 999999.0
+	speed_silver_762 = 9.09999942779541
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Desolator 12 gauge
+	#Range: 0.0 ~ 999999.0
+	damage_short_gun_desolator_12_ga = 7.0
+	#Range: 0.0 ~ 999999.0
+	speed_explosive_9mm = 5.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 9mm
+	#Range: 0.0 ~ 999999.0
+	damage_nuke_9mm = 30.0
+	#Range: 0.0 ~ 999999.0
+	speed_silver_127 = 9.800000190734863
+	#Range: 0.0 ~ 999999.0
+	speed_explosive_556 = 7.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 5.56mm
+	#Range: 0.0 ~ 999999.0
+	damage_nuke_556 = 21.0
+	#Range: 0.0 ~ 999999.0
+	speed_normal_556 = 7.0
+	#Range: 0.0 ~ 999999.0
+	gravity_silver_556 = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	speed_anti_gravity_127 = 7.0
+	#Range: 0.0 ~ 999999.0
+	speed_nuke_9mm = 6.0
+	#Range: 0.0 ~ 999999.0
+	speed_nuke_556 = 8.399999618530273
+	#Range: 0.0 ~ 999999.0
+	gravity_silver_9mm = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	speed_normal_9mm = 5.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 7.62mm
+	#Range: 0.0 ~ 999999.0
+	damage_explosive_762 = 16.0
+	#Range: 0.0 ~ 999999.0
+	gravity_explosive_127 = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	speed_incendiary_762 = 6.5
+	#Range: 0.0 ~ 999999.0
+	speed_incendiary_127 = 7.0
+	#Range: 0.0 ~ 999999.0
+	gravity_explosive_762 = 0.029999999329447746
+	#Max number of ammo of high explosive rocket launcher
+	#Range: 0 ~ 32767
+	high_explosive_ammo = 1
+	#Number of birdshots in short gun ammo: Blight
+	#Range: 0 ~ 999999
+	n_birdshot_short_gun_blight = 10
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 12.7mm
+	#Range: 0.0 ~ 999999.0
+	damage_explosive_127 = 40.0
+	#Number of flames from incendiary
+	#Range: 0 ~ 10000
+	incendiary_bomb = 100
+	#M4A4 damage modify
+	#Range: 0.0 ~ 999999.0
+	m4a4_damage_modify = 1.3
+	#Range: 0.0 ~ 999999.0
+	gravity_short_gun_blight_12_ga = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	speed_anti_gravity_762 = 6.5
+	#Range: 0.0 ~ 999999.0
+	gravity_nuke_556 = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	gravity_nuke_9mm = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 7.62mm
+	#Range: 0.0 ~ 999999.0
+	damage_anti_gravity_762 = 20.0
+	#AK47 speed modify
+	#Range: 0.0 ~ 999999.0
+	ak47_speed_modify = 1.5
+	#Energy loss of ammo (SILVER) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_silver_ricochet_loss = 0.5
+	#AWP damage modify
+	#Range: 0.0 ~ 999999.0
+	awp_damage_modify = 3.0
+	#Range: 0.0 ~ 999999.0
+	speed_incendiary_556 = 7.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 12.7mm
+	#Range: 0.0 ~ 999999.0
+	damage_normal_127 = 54.0
+	#Energy loss of ammo (TUNGSTEN) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_tungsten_ricochet_loss = 0.5
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 5.56mm
+	#Range: 0.0 ~ 999999.0
+	damage_explosive_556 = 14.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 9mm
+	#Range: 0.0 ~ 999999.0
+	damage_explosive_9mm = 20.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 7.62mm
+	#Range: 0.0 ~ 999999.0
+	damage_normal_762 = 21.600000381469727
+	#Range: 0.0 ~ 999999.0
+	speed_incendiary_9mm = 5.0
+	#DESERT_EAGLE damage modify
+	#Range: 0.0 ~ 999999.0
+	desert_eagle_damage_modify = 1.4
+	#Range: 0.0 ~ 999999.0
+	gravity_anti_gravity_556 = 0.0
+	#Range: 0.0 ~ 999999.0
+	gravity_anti_gravity_9mm = 0.0
+	#Range: 0.0 ~ 999999.0
+	speed_tungsten_127 = 11.199999809265137
+	#Range: 0.0 ~ 999999.0
+	gravity_short_gun_desolator_12_ga = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	speed_tungsten_762 = 10.399999618530273
+	#USP speed modify
+	#Range: 0.0 ~ 999999.0
+	usp_speed_modify = 1.0
+	#Max number of ammo of smoke rocket launcher
+	#Range: 0 ~ 32767
+	smoke_ammo = 1
+	#Range: 0.0 ~ 999999.0
+	gravity_incendiary_556 = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 9mm
+	#Range: 0.0 ~ 999999.0
+	damage_incendiary_9mm = 20.0
+	#Range: 0.0 ~ 999999.0
+	gravity_incendiary_9mm = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 5.56mm
+	#Range: 0.0 ~ 999999.0
+	damage_incendiary_556 = 14.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 5.56mm
+	#Range: 0.0 ~ 999999.0
+	damage_anti_gravity_556 = 17.5
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 7.62mm
+	#Range: 0.0 ~ 999999.0
+	damage_silver_762 = 32.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 12.7mm
+	#Range: 0.0 ~ 999999.0
+	damage_silver_127 = 80.0
+	#Range: 0.0 ~ 999999.0
+	gravity_silver_127 = 0.029999999329447746
+	#DESERT_EAGLE speed modify
+	#Range: 0.0 ~ 999999.0
+	desert_eagle_speed_modify = 1.4
+	#Range: 0.0 ~ 999999.0
+	gravity_silver_762 = 0.029999999329447746
+	#BARRETT speed modify
+	#Range: 0.0 ~ 999999.0
+	barrett_speed_modify = 4.0
+	#Range: 0.0 ~ 999999.0
+	gravity_normal_127 = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	gravity_normal_762 = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	speed_short_gun_normal_12_ga = 5.0
+	#M4A4 speed modify
+	#Range: 0.0 ~ 999999.0
+	m4a4_speed_modify = 1.35
+	#Range: 0.0 ~ 999999.0
+	gravity_explosive_556 = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	gravity_tungsten_556 = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 12 gauge
+	#Range: 0.0 ~ 999999.0
+	damage_short_gun_normal_12_ga = 7.0
+	#Range: 0.0 ~ 999999.0
+	gravity_tungsten_9mm = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	gravity_explosive_9mm = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 9mm
+	#Range: 0.0 ~ 999999.0
+	damage_silver_9mm = 40.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 5.56mm
+	#Range: 0.0 ~ 999999.0
+	damage_silver_556 = 28.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 9mm
+	#Range: 0.0 ~ 999999.0
+	damage_tungsten_9mm = 50.0
+	#Range: 0.0 ~ 999999.0
+	gravity_nuke_127 = 0.029999999329447746
+	#Atomic bomb explosion power(i.e. max blast resistance block to break) 3,600,000 for bedrock, 1200 for obsidian, 100 for water
+	#Range: 0.0 ~ 9.99999999E8
+	nuke_blast_power = 1500.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 5.56mm
+	#Range: 0.0 ~ 999999.0
+	damage_tungsten_556 = 35.0
+	#Number of birdshots in short gun ammo: Normal
+	#Range: 0 ~ 999999
+	n_birdshot_short_gun_normal = 10
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 9mm
+	#Range: 0.0 ~ 999999.0
+	damage_anti_gravity_9mm = 25.0
+	#Range: 0.0 ~ 999999.0
+	gravity_nuke_762 = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 7.62mm
+	#Range: 0.0 ~ 999999.0
+	damage_nuke_762 = 24.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Blight 12 gauge
+	#Range: 0.0 ~ 999999.0
+	damage_short_gun_blight_12_ga = 7.0
+	#Number of birdshots in short gun ammo: Desolator
+	#Range: 0 ~ 999999
+	n_birdshot_short_gun_desolator = 10
+	#AWP speed modify
+	#Range: 0.0 ~ 999999.0
+	awp_speed_modify = 2.0
+	#Range: 0.0 ~ 999999.0
+	speed_explosive_762 = 6.5
+	#Range: 0.0 ~ 999999.0
+	speed_silver_9mm = 7.0
+	#Range: 0.0 ~ 999999.0
+	speed_explosive_127 = 7.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 12.7mm
+	#Range: 0.0 ~ 999999.0
+	damage_nuke_127 = 60.0
+	#Range: 0.0 ~ 999999.0
+	speed_silver_556 = 9.800000190734863
+	#Range: 0.0 ~ 999999.0
+	speed_anti_gravity_9mm = 5.0
+	#Range: 0.0 ~ 999999.0
+	gravity_short_gun_normal_12_ga = 0.029999999329447746
+	#Smoke bomb radius
+	#Range: 0.0 ~ 256.0
+	smoke_bomb = 30.0
+	#Range: 0.0 ~ 999999.0
+	speed_anti_gravity_556 = 7.0
+	#Range: 0.0 ~ 999999.0
+	gravity_incendiary_127 = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 12.7mm
+	#Range: 0.0 ~ 999999.0
+	damage_incendiary_127 = 40.0
+	#Range: 0.0 ~ 999999.0
+	gravity_normal_9mm = 0.029999999329447746
+	#Range: 0.0 ~ 999999.0
+	gravity_incendiary_762 = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 12.7mm
+	#Range: 0.0 ~ 999999.0
+	damage_anti_gravity_127 = 50.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 7.62mm
+	#Range: 0.0 ~ 999999.0
+	damage_incendiary_762 = 16.0
+	#BARRETT damage modify
+	#Range: 0.0 ~ 999999.0
+	barrett_damage_modify = 5.0
+	#High explosive bomb radius
+	#Range: 0.0 ~ 80.0
+	high_explosive = 10.0
+	#Range: 0.0 ~ 999999.0
+	gravity_normal_556 = 0.029999999329447746
+	#AK47 damage modify
+	#Range: 0.0 ~ 999999.0
+	ak47_damage_modify = 1.7
+	#Max number of ammo of incendiary rocket launcher
+	#Range: 0 ~ 32767
+	incendiary_ammo = 1
+	#USP damage modify
+	#Range: 0.0 ~ 999999.0
+	usp_damage_modify = 1.0
+	#Range: 0.0 ~ 999999.0
+	gravity_tungsten_127 = 0.029999999329447746
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 5.56mm
+	#Range: 0.0 ~ 999999.0
+	damage_normal_556 = 18.899999618530273
+	#Range: 0.0 ~ 999999.0
+	gravity_anti_gravity_762 = 0.0
+	#Range: 0.0 ~ 999999.0
+	gravity_tungsten_762 = 0.029999999329447746
+	#GLOCK damage modify
+	#Range: 0.0 ~ 999999.0
+	glock_damage_modify = 1.1
+	#Range: 0.0 ~ 999999.0
+	gravity_anti_gravity_127 = 0.0
+	#Range: 0.0 ~ 999999.0
+	speed_nuke_762 = 7.799999713897705
+	#Range: 0.0 ~ 999999.0
+	speed_normal_127 = 7.0
+	#Range: 0.0 ~ 999999.0
+	speed_tungsten_556 = 11.199999809265137
+	#GLOCK speed modify
+	#Range: 0.0 ~ 999999.0
+	glock_speed_modify = 1.0
+	#Range: 0.0 ~ 999999.0
+	speed_tungsten_9mm = 8.0
+	#Atomic bomb explosion radius
+	#Range: 0.0 ~ 256.0
+	nuke_radius = 80.0
+	#Energy loss of ammo (Normal) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_normal_ricochet_loss = 0.5
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 12.7mm
+	#Range: 0.0 ~ 999999.0
+	damage_tungsten_127 = 100.0
+	#Range: 0.0 ~ 999999.0
+	speed_normal_762 = 6.5
+	#Range: 0.0 ~ 999999.0
+	speed_nuke_127 = 8.399999618530273
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 7.62mm
+	#Range: 0.0 ~ 999999.0
+	damage_tungsten_762 = 40.0
+	#Range: 0.0 ~ 999999.0
+	speed_short_gun_blight_12_ga = 5.0
+	#Range: 0.0 ~ 999999.0
+	speed_short_gun_desolator_12_ga = 5.0
+	#High explosive bomb explosion power(i.e. max blast resistance block to break) 3,600,000 for bedrock, 1200 for obsidian, 100 for water
+	#Range: 0.0 ~ 9.99999999E8
+	high_explosive_blast_power = 101.0
+	#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 9mm
+	#Range: 0.0 ~ 999999.0
+	damage_normal_9mm = 27.0
+	#Energy loss of ammo (Anti-Gravity) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_anti_gravity_ricochet_loss = 0.5
+

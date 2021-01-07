@@ -1,0 +1,7 @@
+
+[Customization]
+	#Disabling This Would Prevent Enchantment Descriptions From Showing on Enchanted Books
+	"Enable Enchantment Descriptions" = true
+	#Would you prefer to use the mods main menu panorama
+	"Use Custom Main Menu" = true
+
