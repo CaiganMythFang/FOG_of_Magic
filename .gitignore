@@ -3,3 +3,30 @@
 
 crash-reports/
 /local/ftbchunks/data
+
+logs/
+
+minecraftinstance.json
+
+mods/
+
+options.txt
+
+BotaniaVars.dat
+
+.vote2020_marker
+
+patchouli_data.json
+
+realms_persistence.json
+
+resourcepacks/Quark Programmer Art.zip
+
+saves/
+/XaeroWaypoints
+/XaeroWaypoints_BACKUP062020
+/XaeroWorldMap
+
+usercache.json
+
+usernamecache.json
