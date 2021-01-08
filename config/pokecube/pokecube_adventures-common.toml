@@ -45,7 +45,7 @@
 	# how many trainers spawn in trainerBox
 	trainerDensity = 2.0
 	# How far trainers will check for targets to battle
-	trainerSightRange = 8
+	trainerSightRange = 2
 	# If true, trainers will occasionally battle wild pokemobs
 	trainersBattlePokemobs = true
 
