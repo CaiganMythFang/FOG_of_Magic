@@ -1,0 +1,16 @@
+
+#Albedo Config
+[Albedo]
+	#Enables default torch item implementation.
+	enableTorchImplementation = true
+	#The maximum number of lights allowed to render in a scene. Lights are sorted nearest-first, so further-away lights will be culled after nearer lights.
+	#Range: 0 ~ 200
+	maxLights = 20
+	#The maximum distance lights can be before being culled.
+	#Range: 16 ~ 256
+	maxDistance = 64
+	#Enables retro mode.
+	eightBitNightmare = false
+	#Disables albedo lighting.
+	disableLights = false
+
