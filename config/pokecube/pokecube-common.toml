@@ -91,7 +91,7 @@
 	# If true, lakes will be removed from pokecube structure spawns, disable this if that interferes with other mod's worldgen!
 	lakeFeatureMixin = true
 	# If true, killing non-pokemobs will provide exp to pokemobs
-	nonPokemobExp = false
+	nonPokemobExp = true
 	pokecubeAutoSendOutDelay = 20
 	extraVars = ["jc:3.5", "rc:4.5", "eggDpl:2.0", "eggDpm:4.0"]
 	reputs = false
@@ -175,7 +175,7 @@
 	# Maximum distance a tame pokemob will try to move while idle wandering
 	idleMaxPathTame = 4
 	# Wild pokemobs will check for a player to attack every approximately this many ticks, large values decrease the chance of pokemob agression
-	mobAgroRate = 200
+	mobAgroRate = 400
 	# if true, hungry lithovores might eat gravel to nothing
 	pokemobsEatGravel = false
 	# This is how far away tame pokemobs will look for items to collect
