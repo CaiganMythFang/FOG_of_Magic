@@ -37,7 +37,7 @@
 	# MobIDs listed here will be added as custom trainers if npcsAreTrainers is true, this is for mobs that are not INPCs, but should be
 	custom_trainers = ["player_mobs:player_mob"]
 	# Trainers will look for targets every this many ticks
-	trainerAgroRate = 20
+	trainerAgroRate = 500
 	# if true, trainers that are non agressive (ie on cooldown or bribed) will offer item trades
 	trainersTradeItems = true
 	# if true, if there is no player within aiPauseDistance, the trainer will not tick
