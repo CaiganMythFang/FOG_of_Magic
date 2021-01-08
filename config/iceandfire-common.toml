@@ -45,7 +45,7 @@
 	#True if ghosts can rarely spawn from brutal PvP deaths.
 	"Ghost Spawn from PvP deaths" = true
 	#Whether or not cyclops can break logs or leaves in their way
-	"Cyclops Griefing" = true
+	"Cyclops Griefing" = false
 	#Disable this to remove easter egg with tinkers installed.
 	Weezer = true
 	#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
@@ -233,7 +233,7 @@
 	"Generate Dragon Cave Chance" = 180
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
-	"Dragon Griefing" = 0
+	"Dragon Griefing" = 2
 	#A double check to see if the game can spawn cockatrices. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
 	"Cockatrice Spawn Check Chance" = 0
@@ -289,7 +289,7 @@
 	"Death Worm Spawn Weight" = 30
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
 	#Range: 0.0 ~ 1.0
-	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
+	"Easter Egg Tinkers Tool Disarm chance" = 0.0
 	#Whether to generate amethyst ore or not
 	"Generate Amethyst Ore" = true
 	#Ratio of Stone(this number) to Ores in Dragon Caves
