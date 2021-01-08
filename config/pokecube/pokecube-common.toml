@@ -307,7 +307,7 @@
 	# If true, the mob's favourite berry can be used to speed up breeding.
 	berryBreeding = true
 	# If true, your items which fit in PC will be sent there when you die
-	pcOnDrop = true
+	pcOnDrop = false
 	# A list of NBT tags to remove before saving the pokemob in its pokecube
 	persistent_tag_blacklist = []
 	# Scaling factor for EXP yield from fighting another player's pokemobs
