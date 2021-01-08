@@ -13,7 +13,7 @@
 	# This determines how sparsely trainers spawn, there will only be trainerDensity trainers spawn every this far, excluding special spawns like villages
 	trainerBox = 256
 	# If false, pokemobs will not be able to hurt NPCs
-	pokemobsHarmNPCs = false
+	pokemobsHarmNPCs = true
 	# if true, trainers with no pokemobs will despawn
 	cullNoMobs = false
 	# If there are more than this many trainers within trainer_crowding_radius, then the trainers will not agress players
