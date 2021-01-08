@@ -37,7 +37,7 @@
 	# Pokemobs will not spawn in the dimensions listed here
 	spawnDimBlacklist = ["compactmachines:compact_world"]
 	# similar to deactivateMonsters, but for vanilla animals
-	deactivateAnimals = true
+	deactivateAnimals = false
 	# This number, multiplied by mobDensityMultiplier will determine how many pokemobs will spawn within maxSpawnRadius of the player, this occurs at a rate based on spawnRate
 	mobSpawnNumber = 10
 	# similar to disableVanillaAnimals, but for vanilla animals
@@ -250,6 +250,8 @@
 	swimPathingSpeedFactor = 1.25
 	# if true, player's in the same team can still battle each other
 	teamsBattleEachOther = true
+	# If true, pokemobs will slowly heal while out of combat
+	outOfCombatHealing = true
 	# How long the exit cube animation effects last for
 	exitCubeDuration = 40
 	# if true, pokemobs will vanish if they are more than cullDistance from a player
