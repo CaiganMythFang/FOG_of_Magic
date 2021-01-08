@@ -16,7 +16,7 @@
 	#Disable Illuminati Pet gives items ability (default:false)
 	disableIlluminatiGiveItems = false
 	#Disable the Grave pet (default:false)
-	disableGrave = false
+	disableGrave = true
 	#Disable the Loot pet (default:false)
 	disableLoot = false
 	#Disable Machines that can Activate items (default:false)
