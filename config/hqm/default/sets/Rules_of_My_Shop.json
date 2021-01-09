@@ -1,0 +1,22 @@
+{
+  "name": "Rules of My Shop",
+  "quests": [
+    {
+      "uuid": "7829fb82-52e7-4513-b757-0917c0117302",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 16,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:bread",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
