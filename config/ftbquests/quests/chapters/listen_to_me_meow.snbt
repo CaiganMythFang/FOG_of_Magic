@@ -1,0 +1,254 @@
+{
+	id: 12,
+	filename: "listen_to_me_meow",
+	order_index: 2,
+	title: "Listen to Me, Meow",
+	icon: "botania:cosmetic_cat_ears",
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: -1.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "fom:textures/quests/mysteriouscat.png",
+		hover: [],
+		click: "",
+		dev: false
+	}],
+	quests: [
+		{
+			title: "&dAnd Who Are You?",
+			icon: "botania:cosmetic_questgiver_mark",
+			x: 0.0d,
+			y: -3.0d,
+			subtitle: "A strange cat approaches?",
+			description: [
+				"Okay, who the heck are you, and why are you in my tablet?",
+				"",
+				"&dNo, who are YOU? And... WHAT are you?",
+				"",
+				"I asked first, you know?",
+				"",
+				"&dTch, I guess the connection was &dsuccesful. Not what I expected, &dhowever...",
+				"",
+				"HEY, I asked a...",
+				"",
+				"&dQuiet! I'm making sure I didn't get the &dritual wrong...",
+				"",
+				"Ritual? What the heck are you talking about?!"
+			],
+			dependencies: [I;10],
+			id: 13,
+			tasks: [{
+				id: 14,
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "&dDrat, It was successful...",
+			icon: "immersiveengineering:wire_copper",
+			x: 1.5d,
+			y: -1.5d,
+			subtitle: "The Stare Down",
+			description: [
+				"Look, if you don't answer, I'm throwing this tablet into the nearest lake...",
+				"",
+				"&dGo ahead.",
+				"",
+				"Wait...what?",
+				"",
+				"&dDo it. It'd probably save both of us a &dheadache. ",
+				"",
+				"...",
+				"",
+				"&dDid you do it yet? Hurry up. Come on, &dwizards don't have all day!",
+				"",
+				"Uh...",
+				"",
+				"&dOh, listening now? "
+			],
+			dependencies: [I;13],
+			id: 17,
+			tasks: [{
+				id: 18,
+				type: "checkmark",
+				title: "A Strange Friend"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "A wizard with no hat?",
+			description: [
+				"Wait, wizard? Bull...",
+				"",
+				"&dLanguage. But yes. I'm a wizard. Can &dwe skip the whole 'O M G prove it' and &d'do a trick!' rigamarole? It gets tired &dafter the 50th time...",
+				"",
+				"But how...",
+				"",
+				"&dI'm literally writing in your personal &dtablet, that has no internet &dconnection, and which is not running &dout of battery.",
+				"",
+				"Oh. Point.",
+				"",
+				"&dFINALLY someone with a brain cell! Now &dwe can help each other."
+			],
+			dependencies: [I;17],
+			id: 19,
+			tasks: [{
+				id: 20,
+				type: "checkmark",
+				title: "&dYes, I said Wizard",
+				icon: {
+					id: "eidolon:warlock_hat",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "A Test of Iron",
+			icon: {
+				id: "extendedcrafting:singularity",
+				Count: true,
+				tag: {
+					Id: "extendedcrafting:iron"
+				}
+			},
+			x: 0.0d,
+			y: 2.0d,
+			shape: "diamond",
+			subtitle: "Self Sufficiency",
+			description: [
+				"So who the hell are you?",
+				"",
+				"&dAgain, language. But I am Kow, &dtechnically a technomancer. That &dmeans I work magic with &dtechnology.",
+				"",
+				"Okay that sounds cool. So where are you?",
+				"",
+				"&dShouldn't you be asking where are &dYOU? That's more important, I think.",
+				"",
+				"Point...",
+				"",
+				"&dRight, you ain't in Kansas anymore, &dtraveler. I can tell you that much.",
+				"",
+				"No kidding!",
+				"",
+				"&dSnarky and observant. We'll get along &dwell. Okay, traveler, I need you to &dprove you are self-sufficient while I &dexplain things to you. Go get me some &dIron Ingots."
+			],
+			dependencies: [I;19],
+			id: 21,
+			tasks: [{
+				id: 22,
+				type: "item",
+				title: "2 Iron Ingots",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:ingots/iron"
+					}
+				},
+				count: 2L
+			}],
+			rewards: [{
+				id: 23,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: true,
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			subtitle: "Am I seriously in another one of these?!?!",
+			description: [
+				"&dOkay, so, I've figured out which &ddimension you are from...",
+				"",
+				"D...dimension?!",
+				"",
+				"&dStop interrupting. Yes, this is why I &dcall you Traveler. You've stepped out &dof your dimension and into... well, one &dI've not seen before.",
+				"",
+				"Oh no. Oh no no no I'm in an Isekai?!",
+				"",
+				"&dPhahahaha, not quite how I'd put it, but &dyeah, sure, think of it like that.",
+				"",
+				"Can you get me home?!",
+				"",
+				"&dMmm, by what I can tell? No..."
+			],
+			dependencies: [I;21],
+			id: 24,
+			tasks: [{
+				id: 25,
+				type: "checkmark",
+				title: "Where in the World...",
+				icon: "chanceglobe:chance_globe"
+			}]
+		},
+		{
+			title: "Breaking of Bread",
+			x: 0.0d,
+			y: 4.0d,
+			shape: "diamond",
+			subtitle: "What an old tradition....",
+			description: [
+				"Where the heck did the Iron Ingots go?!",
+				"",
+				"&dMagic.",
+				"",
+				"...",
+				"",
+				"&dFine. I used some of my code-spell to &dinstall a matter transmitter to your &dtablet. That Iron was just to test it.",
+				"",
+				"Wait...a dimensional teleporter... And if it failed?!",
+				"",
+				"&dRemember the lake threat? No, but &dreally it'd probably just burn our &dconnection and you'd be on your own.",
+				"",
+				"Okay, so it works. Now what?",
+				"",
+				"&dI got a bit more to explain to you. But &dbefore I &dreally start helping you, we &dneed to break bread."
+			],
+			dependencies: [I;
+				21,
+				24
+			],
+			id: 26,
+			tasks: [{
+				id: 27,
+				type: "item",
+				title: "Bread",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:bread/bread"
+					}
+				},
+				consume_items: true
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			dependencies: [I;
+				24,
+				26
+			],
+			id: 28,
+			tasks: [{
+				id: 29,
+				type: "checkmark",
+				title: "Sticky Situation",
+				icon: "minecraft:map"
+			}]
+		}
+	]
+}
