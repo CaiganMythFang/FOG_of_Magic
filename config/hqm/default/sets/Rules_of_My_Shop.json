@@ -3,20 +3,45 @@
   "quests": [
     {
       "uuid": "7829fb82-52e7-4513-b757-0917c0117302",
-      "name": "Unnamed",
-      "description": "Unnamed quest",
+      "name": "About My Shop",
+      "description": "    Excellent, welcome to my shop, Traveler. I\u0027ve got wares from all over, including what Kow says is your old world. \n    This stuff doesn\u0027t come cheap, however. Kow and I have to do a lot of magic rituals to get this stuff to work in your dimension.\n    The good news? Not only can you earn money by following Kow\u0027s instructions, but I\u0027ll also buy many things from you!",
       "x": 16,
       "y": 19,
       "icon": {
-        "id": "minecraft:bread",
+        "id": "minecraft:writable_book",
         "Count": 1
       },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Classic Payments",
+          "longDescription": "    For now, bring me a \"Pile of Dubloons\". This is the standard payment for items, and you can craft it by combining 5 Single Dubloons together.\n    Bring me one Pile, and I\u0027ll give you a gift for super cheap, deal?",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mining_helmet:mining_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }
   ],
-  "reputationBar": []
+  "reputationBar": [],
+  "description": "Before you peruse my wares, you might want to see what my shop is all about?"
 }
