@@ -19,6 +19,8 @@
 		#Set false to disable enchantment
 		ender = true
 		#Set false to disable enchantment
+		launch = true
+		#Set false to disable enchantment
 		disarm = true
 		#Set false to disable enchantment
 		excavate = true

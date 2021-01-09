@@ -7,6 +7,8 @@
 	#1 out of this number chance for leaves to drop a banana when broken. Fortune is automatically factored in
 	#Range: > 0
 	bananaChance = 200
+	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.
+	soulVultureSpawnOnFossil = true
 	#Whether wild raccoons steal food from chests.
 	raccoonStealFromChests = true
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.
@@ -15,6 +17,8 @@
 	mimicreamRepair = true
 	#Whether bananas should drop from blocks tagged with #alexsmobs:drops_bananas
 	bananasDropFromLeaves = true
+	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
+	acaciaBlossomsDropFromLeaves = true
 	#Whether lava can be bottled with a right click of a glass bottle.
 	lavaBottleEnabled = true
 	#Lava Opacity for the Lava Vision Potion.
@@ -51,6 +55,9 @@
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		endergradeSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		elephantSpawnWeight = 30
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		endergradeSpawnWeight = 10
@@ -98,6 +105,9 @@
 		blobfishSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
+		elephantSpawnRolls = 0
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
 		raccoonSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
@@ -122,6 +132,9 @@
 		rattlesnakeSpawnWeight = 12
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
+		soulVultureSpawnWeight = 30
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
 		mooseSpawnWeight = 15
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
@@ -129,6 +142,9 @@
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		crocodileSpawnWeight = 40
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		soulVultureSpawnRolls = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		orcaSpawnRolls = 6
