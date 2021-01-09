@@ -236,8 +236,29 @@
 			}]
 		},
 		{
+			icon: "rats:rat_upgrade_angel",
 			x: 2.0d,
 			y: 4.0d,
+			subtitle: "Indecipherable Whims",
+			description: [
+				"&dI know the next question. And the &danswer is: I don't know, but I have &dideas.",
+				"",
+				"You don't know why you can't get me home?",
+				"",
+				"&dBingo. This isn't the first time, really. &dLike I said... you get tired of this spiel &dafter fifty times, &dright?",
+				"",
+				"Ugh, right... So what is your idea?",
+				"",
+				"&dIdeas. The main thought is some God &dor Goddess has locked ya'll here for &da reason.",
+				"",
+				"Those don't...",
+				"",
+				"&dOh they exist, at least in your &ddimension. But you don't gotta believe &dIN them. Subtle difference.",
+				"",
+				"That is...a very weird way to put it...",
+				"",
+				"&dBut true. Anyways, another &dthought is &dyour dimension is a one way &dtrip."
+			],
 			dependencies: [I;
 				24,
 				26
@@ -248,6 +269,76 @@
 				type: "checkmark",
 				title: "Sticky Situation",
 				icon: "minecraft:map"
+			}]
+		},
+		{
+			title: "The Price of Knowledge",
+			icon: "economyinc:item_oneb",
+			x: 0.0d,
+			y: 6.0d,
+			shape: "diamond",
+			subtitle: "Knowledge is Power, and Money is Power",
+			description: [
+				"&dGood, the bread is broken. One last &dthing, traveler... you should probably &dget the help of my brother.",
+				"",
+				"Brother? Why?",
+				"",
+				"&dGiven where you come from, I think &dyou'll be missing more than just your &dsmartphone and your tablet soon.",
+				"",
+				"I don't understand.",
+				"",
+				"&dWell, this dimension? It kind of lacks &dthose luxuries, right? Lot of magic, &dnot a lot of tech. My brother can fix &dthat for you.",
+				"",
+				"Let me guess, for a price?",
+				"",
+				"&dOn the nose. Bring him a Single &dDubloon. You should be able to find &dthem on various monsters."
+			],
+			dependencies: [I;
+				26,
+				28
+			],
+			id: 30,
+			tasks: [{
+				id: 31,
+				type: "item",
+				item: "economyinc:item_oneb",
+				consume_items: true
+			}],
+			rewards: [{
+				id: 32,
+				type: "item",
+				item: "hardcorequesting:quest_book"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.0d,
+			subtitle: "Small Techs",
+			description: [
+				"&dSorry, it kind of sucks to get stuck here like this. But I'll help you out as much as I can.",
+				"",
+				"So why does this help come at a price for you and your brother?",
+				"",
+				"&dOnly some of it is at a price. Keeping this interdimensional connection open is a bit costly in reagents.",
+				"",
+				"Oh. I'm going to guess wherever you are isn't some grand utopia.",
+				"",
+				"&dFull to the brim of free energy and unlimited resources. I damn well wish. ",
+				"",
+				"Damn.",
+				"",
+				"&dWork with what we got. And as they say, you scratch our back, we'll scratch yours, okay?"
+			],
+			dependencies: [I;
+				28,
+				30
+			],
+			id: 33,
+			tasks: [{
+				id: 34,
+				type: "checkmark",
+				title: "Grand Magics",
+				icon: "ars_nouveau:mana_fiber"
 			}]
 		}
 	]
