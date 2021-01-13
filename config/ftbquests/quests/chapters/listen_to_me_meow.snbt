@@ -110,13 +110,6 @@
 		},
 		{
 			title: "A Test of Iron",
-			icon: {
-				id: "extendedcrafting:singularity",
-				Count: true,
-				tag: {
-					Id: "extendedcrafting:iron"
-				}
-			},
 			x: 0.0d,
 			y: 2.0d,
 			shape: "diamond",
