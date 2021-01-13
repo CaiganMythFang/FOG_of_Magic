@@ -1,0 +1,10 @@
+{
+	"x": 0,
+	"y": 0,
+	"width": 98,
+	"height": 20,
+	"langKey": "packmenu.music_attribute",
+	"anchor": "BOTTOM_CENTER",
+	"action": "OPEN_URL",
+	"data": "http://teknoaxe.com/Link_Code_3.php?q=1547"
+}
