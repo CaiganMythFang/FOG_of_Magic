@@ -1,0 +1,82 @@
+{
+  "name": "Minerals and Metals",
+  "quests": [
+    {
+      "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
+      "name": " Oratchalcum (Sell)",
+      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
+      "x": 299,
+      "y": 20,
+      "icon": {
+        "id": "rats:oratchalcum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "rats:oratchalcum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e2b1cb4c-70bd-423c-85f2-bc0e1721ba68",
+      "name": " Oratchalcum (Buy)",
+      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
+      "x": 16,
+      "y": 21,
+      "icon": {
+        "id": "rats:oratchalcum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "rats:oratchalcum_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Mining trip not gone so well? Missing a bit of metal?"
+}

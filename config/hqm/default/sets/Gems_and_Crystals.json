@@ -1,0 +1,82 @@
+{
+  "name": "Gems and Crystals",
+  "quests": [
+    {
+      "uuid": "1426dafd-50db-40d3-b678-aeec296c0383",
+      "name": " Gem of Ratlantis (Buy)",
+      "description": "    These gems are steeped in the magical tech power of Ratlantis, and are found in rare pockets deep under those islands. They help power much of the magitech of Ratlanteans.",
+      "x": 17,
+      "y": 19,
+      "icon": {
+        "id": "rats:gem_of_ratlantis",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "rats:gem_of_ratlantis",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "73a602b7-eaad-4c2e-a65e-716c4c06d4ca",
+      "name": " Gem of Ratlantis (Sell)",
+      "description": "    These gems are steeped in the magical tech power of Ratlantis, and are found in rare pockets deep under those islands. They help power much of the magitech of Ratlanteans.",
+      "x": 299,
+      "y": 21,
+      "icon": {
+        "id": "rats:gem_of_ratlantis",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "rats:gem_of_ratlantis",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Rare and beautiful and useful. And oh, so shiny, aren\u0027t they?"
+}
