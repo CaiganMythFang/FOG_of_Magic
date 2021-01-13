@@ -2,6 +2,45 @@
   "name": "Rules of My Shop",
   "quests": [
     {
+      "uuid": "8f91f03c-ca9e-4f0a-a13e-24e786d42af1",
+      "name": " Selling Goods",
+      "description": "    Now, Kow is providing you some rewards for following her lessons right? Well, and selling her some stuff she requests, of course. That\u0027s all good.\n    But she generally will only make the offer good once. I, however, will always purchase things I list.\n    Most things I wish to purchase will be on the RIGHT side of the tablet, okay? For example, I\u0027ll always buy simple Sushi. ",
+      "x": 297,
+      "y": 18,
+      "icon": {
+        "id": "economyinc:item_oneb",
+        "Count": 1,
+        "tag": {}
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "aquaculture:sushi",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7829fb82-52e7-4513-b757-0917c0117302",
       "name": "About My Shop",
       "description": "    Excellent, welcome to my shop, Traveler. I\u0027ve got wares from all over, including what Kow says is your old world. \n    This stuff doesn\u0027t come cheap, however. Kow and I have to do a lot of magic rituals to get this stuff to work in your dimension.\n    The good news? Not only can you earn money by following Kow\u0027s instructions, but I\u0027ll also buy many things from you!",
