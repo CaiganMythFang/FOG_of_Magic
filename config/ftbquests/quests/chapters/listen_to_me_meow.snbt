@@ -6,8 +6,8 @@
 	icon: "botania:cosmetic_cat_ears",
 	default_quest_shape: "",
 	images: [{
-		x: 0.0d,
-		y: -1.5d,
+		x: 1.0d,
+		y: -0.5d,
 		width: 3.0d,
 		height: 3.0d,
 		rotation: 0.0d,
@@ -20,8 +20,8 @@
 		{
 			title: "&dAnd Who Are You?",
 			icon: "botania:cosmetic_questgiver_mark",
-			x: 0.0d,
-			y: -3.0d,
+			x: 1.0d,
+			y: -2.0d,
 			subtitle: "A strange cat approaches?",
 			description: [
 				"Okay, who the heck are you, and why are you in my tablet?",
@@ -48,8 +48,8 @@
 		{
 			title: "&dDrat, It was successful...",
 			icon: "immersiveengineering:wire_copper",
-			x: 1.5d,
-			y: -1.5d,
+			x: 2.5d,
+			y: -0.5d,
 			subtitle: "The Stare Down",
 			description: [
 				"Look, if you don't answer, I'm throwing this tablet into the nearest lake...",
@@ -77,8 +77,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 0.0d,
+			x: 1.0d,
+			y: 1.0d,
 			subtitle: "A wizard with no hat?",
 			description: [
 				"Wait, wizard? Bull...",
@@ -274,8 +274,8 @@
 		{
 			title: "The Price of Knowledge",
 			icon: "economyinc:item_oneb",
-			x: 0.0d,
-			y: 6.0d,
+			x: -2.0d,
+			y: 4.0d,
 			shape: "diamond",
 			subtitle: "Knowledge is Power, and Money is Power",
 			description: [
@@ -311,23 +311,23 @@
 			}]
 		},
 		{
-			x: 2.0d,
-			y: 6.0d,
+			x: 4.0d,
+			y: 4.0d,
 			subtitle: "Small Techs",
 			description: [
-				"&dSorry, it kind of sucks to get stuck here like this. But I'll help you out as much as I can.",
+				"&dSorry, it kind of sucks to get stuck &dhere like this. But I'll help you out as &dmuch as I can.",
 				"",
 				"So why does this help come at a price for you and your brother?",
 				"",
-				"&dOnly some of it is at a price. Keeping this interdimensional connection open is a bit costly in reagents.",
+				"&dOnly some of it is at a price. Keeping &dthis interdimensional connection open &dis a bit costly in reagents.",
 				"",
 				"Oh. I'm going to guess wherever you are isn't some grand utopia.",
 				"",
-				"&dFull to the brim of free energy and unlimited resources. I damn well wish. ",
+				"&dFull to the brim of free energy and &dunlimited resources. I damn well wish. ",
 				"",
 				"Damn.",
 				"",
-				"&dWork with what we got. And as they say, you scratch our back, we'll scratch yours, okay?"
+				"&dWork with what we got. And as they &dsay, you scratch our back, we'll &dscratch yours, okay?"
 			],
 			dependencies: [I;
 				28,
@@ -339,6 +339,115 @@
 				type: "checkmark",
 				title: "Grand Magics",
 				icon: "ars_nouveau:mana_fiber"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 6.0d,
+			subtitle: "Sit up straight and take notes.",
+			description: [
+				"&dNow, Traveler. You'll have access to &dmy classes on various schools of &dmagic and tech available to you.",
+				"",
+				"I thought you said tech didn't work here?",
+				"",
+				"&dYOUR tech level doesn't without some &dexpensive rituals. But there are some &dsimple technologies robust enough to &dwork. ",
+				"",
+				"Do I gotta pay for these lessons?",
+				"",
+				"&dHere and there, but I'll make you a &ddeal. I'll reward you for following my &dlessons, and occasionally give you &dtasks for extra money. Deal?",
+				"",
+				"I don't quite trust you, but I guess I got little choice?"
+			],
+			dependencies: [I;
+				30,
+				33
+			],
+			id: 37,
+			tasks: [{
+				id: 38,
+				type: "checkmark",
+				title: "&dClass Shall Begin",
+				icon: "minecraft:lectern"
+			}]
+		},
+		{
+			icon: "minecraft:oak_sign",
+			x: 3.0d,
+			y: 6.0d,
+			shape: "gear",
+			subtitle: "Things to note!",
+			description: [
+				"&6Hey there! Pack maker Caigan here. &6This pack will go through many of the &6mods in it, but not like The Ferret &6Business did!",
+				"",
+				"&6I will not be going through nearly &6every single item in each mod. Instead &6I will go through various parts that &6are interesting, and nice starting &6points for players to work from.",
+				"",
+				"&6The main focus of the pack is just &6another open world Isekai adventure, &6with a way to trade in items and &6purchase items, as I tend to do.",
+				"",
+				"&6Hope you enjoy!"
+			],
+			dependencies: [I;37],
+			id: 39,
+			tasks: [{
+				id: 40,
+				type: "checkmark",
+				title: "PACK NOTES 2"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 8.0d,
+			description: [
+				"Okay... These lessons will probably be pretty detailed. I don't think I'll write down every single note in this QUEST Journal. ",
+				"",
+				"Instead I'll go through the important notes and figure out my next task.",
+				"",
+				"&dAnd I shall provide commentary for &dyou.",
+				"",
+				"Could you not?",
+				"",
+				"&dI'll take it into consideration. No.",
+				"",
+				"Sigh, fine. Let's just get started.",
+				"",
+				"&dYou may choose which lessons to &dfollow freely."
+			],
+			dependencies: [I;37],
+			id: 46,
+			tasks: [{
+				id: 47,
+				type: "checkmark",
+				title: "Lessons and Notes",
+				icon: {
+					id: "astralsorcery:constellation_paper",
+					Count: true,
+					tag: {
+						astralsorcery: {
+							constellationName: "astralsorcery:armara"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 7.0d,
+			shape: "gear",
+			description: [
+				"&6An important thing to note if you &6aren't used to modded Minecraft is the &6search and recipe look up function in &6your inventory!",
+				"",
+				"&6Down at the bottom center of the &6screen is a search bar. You can click &6it and start typing an item name to find &6it in the right panel.",
+				"",
+				"&6At the right, you can Left Click to see &6the recipe or how to obtain the item &6(usually). Right Click an item to see &6what recipes you can use it in!",
+				"",
+				"&6You can start the search with @ to &6find all items from a mod. Do @rats for &6Rat mod, or @botania for Botania for &6example!"
+			],
+			dependencies: [I;39],
+			id: 69,
+			tasks: [{
+				id: 70,
+				type: "checkmark",
+				title: "Pack Notes 3",
+				icon: "pneumaticcraft:inventory_upgrade"
 			}]
 		}
 	]

@@ -1,0 +1,820 @@
+{
+	id: 41,
+	filename: "rats",
+	order_index: 3,
+	title: "Rodent Magic",
+	icon: "rats:marbled_cheese_rat_head",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Rodentia Magic",
+			icon: "rats:cheese",
+			x: 0.5d,
+			y: -2.0d,
+			shape: "square",
+			subtitle: "&dRespect Your Food",
+			description: [
+				"Rat magic is... really that's not something I ever expected to hear, you know? But having it described sounds only part like magic, and part like running a crazy dog kennel or something.",
+				"",
+				"But Kow's explanation of what all it can do? Probably equip that dog kennel with some kind of tank and nuclear technology.",
+				"",
+				"So, first lesson is apparently to get some cheese making going. I'll need a Cauldron, and to pour some Milk (from a cow, obviously) into it. ",
+				"",
+				"Then we just wait. And we'll need a lot of cheese, Kow assures me rats are pretty hungry and I'll want tons of rats."
+			],
+			dependencies: [I;46],
+			id: 42,
+			tasks: [
+				{
+					id: 44,
+					type: "item",
+					item: "minecraft:cauldron",
+					consume_items: false
+				},
+				{
+					id: 45,
+					type: "item",
+					item: "rats:cheese",
+					count: 16L,
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 50,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 2
+			}]
+		},
+		{
+			title: "Attracting a Friend",
+			icon: "rats:garbage_pile",
+			x: 0.5d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dOne Cat's Trash, Another Rat's &dTreasure",
+			description: [
+				"So, now that I've got some cheese, I need to find some rats.",
+				"",
+				"Now, I COULD explore and find some wandering around at night. Especially if I find some garbage piles. But you know what else is out at night?",
+				"",
+				"&dGhosts.",
+				"",
+				"Right, mons....GHOSTS ARE REAL?",
+				"",
+				"Errr, where was I... Right, finding rats. Instead of going out TO the rats, I could bring them TO me instead! I can make a Trash Can, and Right Click blocks and items I no longer need to generate Garbage Piles. ",
+				"",
+				"If I place these in a dark area, it should attrack some wild rodents.",
+				"",
+				"Oh, if I dig the Garbage up, I could find some Plastic Waste. That should be useful."
+			],
+			dependencies: [I;42],
+			id: 48,
+			tasks: [
+				{
+					id: 49,
+					type: "item",
+					item: "rats:trash_can",
+					consume_items: false
+				},
+				{
+					id: 51,
+					type: "item",
+					item: "rats:garbage_pile",
+					count: 9L,
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 52,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 3
+			}]
+		},
+		{
+			title: "Request: Garbage",
+			icon: "rats:compressed_garbage",
+			x: 1.5d,
+			y: -1.0d,
+			shape: "diamond",
+			subtitle: "&dI need to bolster my reserves",
+			description: [
+				"&dSo, I keep some Rats in my place, to &dhelp out with tending my garden. I &dcould always use more.",
+				"",
+				"&dThe normal garbage piles are nice, &dbut you can craft 9 of them together &dto make a Compressed Garbage Pile, &dwhich works much better.",
+				"",
+				"&dSend me 10 of the Compressed &dGarbage Piles for some extra &dDubloons."
+			],
+			dependencies: [I;48],
+			id: 53,
+			tasks: [{
+				id: 54,
+				type: "item",
+				item: "rats:compressed_garbage",
+				count: 10L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: 55,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Taming the Rodent",
+			icon: "rats:rat_paw",
+			x: 0.5d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dTreat them well.",
+			description: [
+				"Okay, so I have some Rats scurrying about, but they are afraid of me. And one of them looks.... unhealthy.... I'll deal with those later I guess.",
+				"",
+				"So, to tame a Rat, I just need to throw the cheese onto the floor. Kow says it might take up to 20 chunks of cheese to be friends?",
+				"",
+				"&dHungry little punks.",
+				"",
+				"They are cute, though.",
+				"",
+				"&dCute fuzzy little punks. Ah, don't &dforget the tools I showed you.",
+				"",
+				'Right. The Cheese Stick lets me command them around, the Rat Whistle lets me send them back to their "home", whatever that is, and the Rat Flute lets me gather all Rats around me.'
+			],
+			dependencies: [I;48],
+			id: 56,
+			tasks: [
+				{
+					id: 57,
+					type: "item",
+					item: {
+						id: "rats:cheese_stick",
+						Count: true,
+						tag: {}
+					},
+					consume_items: false
+				},
+				{
+					id: 58,
+					type: "item",
+					item: {
+						id: "rats:rat_whistle",
+						Count: true,
+						tag: {}
+					},
+					consume_items: false
+				},
+				{
+					id: 59,
+					type: "item",
+					item: {
+						id: "rats:rat_flute",
+						Count: true,
+						tag: {}
+					},
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 60,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 3
+			}]
+		},
+		{
+			title: "The Rat King",
+			icon: "rats:filth_corruption",
+			x: 1.5d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "&dR.O.U.S. eh?",
+			description: [
+				"Kow warned me about messing with Garbage Piles too much.",
+				"",
+				"&dOther than it makes you smell?",
+				"",
+				"Duh. So, compressing compressed garbage piles down further makes Filth. Then compressing THEM down makes a Ball of Filth.",
+				"",
+				"&dDisgusting....",
+				"",
+				"And Right Clicking THAT on a Rat turns it into the Rat King. Which is a very angry army of rats?",
+				"",
+				"&dYou better have some really good &darmor and weapons or magic, traveler. &dA rat flying &da bullet speeds hurts.",
+				"",
+				"...WHAT?",
+				"",
+				"&dGet me a Rat King bundled set of tails &dand I'll pay you well."
+			],
+			dependencies: [I;56],
+			id: 61,
+			tasks: [{
+				id: 62,
+				type: "item",
+				item: "rats:tangled_rat_tails",
+				consume_items: true
+			}],
+			rewards: [
+				{
+					id: 63,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 64,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 25
+				}
+			]
+		},
+		{
+			title: "A Gilded King's Power",
+			icon: {
+				id: "rats:gilded_rat_flute",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 2.5d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "&dI'm pretty sure it's just a repurposed &dpotato cannon...",
+			description: [
+				"&dThere's a few other things you can &dsend to me that need Rat King tails.",
+				"",
+				"Like the Gilded Flute?",
+				"",
+				"&dYes. Launching rats is a unique power &dof the Rat King. The Gilded Flute &dreplicates it."
+			],
+			dependencies: [I;61],
+			id: 65,
+			tasks: [{
+				id: 66,
+				type: "item",
+				icon: {
+					id: "rats:gilded_rat_flute",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				item: {
+					id: "rats:gilded_rat_flute",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				consume_items: true
+			}],
+			rewards: [
+				{
+					id: 67,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 68,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				}
+			]
+		},
+		{
+			title: "Rat Housing",
+			icon: "rats:rat_cage",
+			x: -1.0d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dHouse your troops, traveler",
+			description: [
+				"It's not enough to just feed my new Rat army, but to properly take care of them, I will need to house them too.",
+				"",
+				"I can Sneak + Right Click a rat to pick it up, then Right Click on a Cage to put them into it. I can connect multiple cages together with Rat Tubes, which I can make with plastic from smelting Plastic Waste from Garbage Piles.",
+				"",
+				"There's a bunch of other things I can decorate cages with. Seed bowls, water dispensers, hammocks, igloos. Even some Breeding Lanterns for... well...",
+				"",
+				"&dI would hope that's obvious, traveler."
+			],
+			dependencies: [I;
+				48,
+				56
+			],
+			id: 71,
+			tasks: [
+				{
+					id: 72,
+					type: "item",
+					item: "rats:rat_cage",
+					consume_items: false
+				},
+				{
+					id: 73,
+					type: "item",
+					title: "Any Rat Tube Color",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "rats:rat_tube"
+						}
+					},
+					count: 10L
+				}
+			]
+		},
+		{
+			title: "Rodent Upgrades",
+			icon: "rats:rat_upgrade_basic",
+			x: -1.0d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dA well trained army.",
+			description: [
+				"Rats are persistant little creatures, but they aren't very hardy. At least, not at first. ",
+				"",
+				"I can 'train' my rats to be stronger, more hardy, and to do various tasks with Rat Upgrades.",
+				"",
+				"Each rat can only hold one Upgrade, and they may need a special tool or piece of equipment to function as well. Such as the Rat Upgrade: Crafting rat will need a Rat Crafting Table to craft with.",
+				"",
+				"Upgrades like the basic Strength one need no extra items to function.",
+				""
+			],
+			dependencies: [I;56],
+			id: 74,
+			tasks: [
+				{
+					id: 75,
+					type: "item",
+					item: "rats:rat_upgrade_basic",
+					consume_items: false
+				},
+				{
+					id: 76,
+					type: "item",
+					item: "rats:rat_upgrade_strength",
+					consume_items: false
+				},
+				{
+					id: 77,
+					type: "item",
+					item: "rats:rat_upgrade_crafting",
+					consume_items: false
+				},
+				{
+					id: 78,
+					type: "item",
+					item: "rats:rat_crafting_table",
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 79,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Low End Rat Upgrades",
+			icon: "rats:rat_upgrade_platter",
+			x: -2.5d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dSimple but Useful",
+			description: [
+				"There's a whole lot of upgrades. I don't think I'll note down all of them but give a sample of some of them, at least.",
+				"",
+				"The Platter upgrade is quite useful for rats I'm having move things around. Usually they just pick things up one at a time, unless they have this upgrade.",
+				"",
+				"The Chicken Mount upgrade gives the rat a battle mount. That's super weird and super neat, honestly.",
+				"",
+				"Last, the Flight upgrade just skips the chicken and puts wings on the dang things instead. Kind of scary."
+			],
+			dependencies: [I;74],
+			id: 80,
+			tasks: [
+				{
+					id: 81,
+					type: "item",
+					item: "rats:rat_upgrade_platter",
+					consume_items: false
+				},
+				{
+					id: 82,
+					type: "item",
+					item: "rats:rat_upgrade_chicken_mount",
+					consume_items: false
+				},
+				{
+					id: 83,
+					type: "item",
+					item: "rats:rat_upgrade_flight",
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 84,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Mid-Range Rat Upgrades",
+			icon: "rats:rat_upgrade_aristocrat",
+			x: -4.0d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dPowerful and Strange",
+			description: [
+				"Rat Upgrades get steadily more powerful and expensive, to say the least. They also get.... very weird.",
+				"",
+				"Take the Aristoc-Rat upgrade. This makes the rat drop a Tiny Coin every once in a while, as well as drop them when it kills an enemy.",
+				"",
+				"Another weird upgrade is the Bee upgrade. It's not a mount, the rat doens't fly on top of a bee. It becomes a bee. This is equal parts adorable and scary."
+			],
+			dependencies: [I;80],
+			id: 85,
+			tasks: [
+				{
+					id: 86,
+					type: "item",
+					item: "rats:rat_upgrade_aristocrat",
+					consume_items: false
+				},
+				{
+					id: 87,
+					type: "item",
+					item: "rats:tiny_coin",
+					consume_items: false
+				},
+				{
+					id: 88,
+					type: "item",
+					item: "rats:rat_upgrade_bee",
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 89,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 25
+			}]
+		},
+		{
+			title: "High Rat Upgrades",
+			icon: "rats:rat_upgrade_god",
+			x: -5.5d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dCream of the Rat Crop",
+			description: [
+				"Some of these upgrades take a lot of special materials, but the price seems to be worth it to me. I can't even begin to fathom how some of these work without seeing them myself.",
+				"",
+				"Heck, some of these upgrades take materials only available in the Ratlantis dimension. Crazy.",
+				"",
+				"Take the Battle-God upgrade. Whew, I wouldn't want to be on the opposing end of a Rat with that on. Terrifying and awe inspiring."
+			],
+			dependencies: [I;85],
+			id: 90,
+			tasks: [{
+				id: 91,
+				type: "item",
+				item: "rats:rat_upgrade_god",
+				consume_items: false
+			}],
+			rewards: [
+				{
+					id: 92,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 93,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				}
+			]
+		},
+		{
+			title: "Lost and Forgotten",
+			icon: "rats:chunky_cheese_token",
+			x: -2.5d,
+			y: 2.5d,
+			shape: "square",
+			subtitle: "&dMore worlds than you know",
+			description: [
+				"So, Kow has informed me of another dimension connected to this one. I was about to throw out these Tiny Coins, but was told to keep them.",
+				"",
+				"&dEverything is useful at some point, &dalways keep it",
+				"",
+				"You sound like a ferret.",
+				"",
+				"&d...",
+				"",
+				"But right, I have to collect a TON of these, but I can piece them together into a Chunky Cheese Token, which can open a portal to a place called Ratlantis.",
+				"",
+				"&dA very dangerous place. Be well &dequipped for battle.",
+				"",
+				"Or, apparently, I can just find one on a Rat after killing it. Like this one, see?",
+				"",
+				"&dYour luck continually surprises me, &dTraveler. That's 1 in 10 thousand at &dleast..."
+			],
+			dependencies: [I;85],
+			id: 94,
+			tasks: [{
+				id: 95,
+				type: "item",
+				item: "rats:chunky_cheese_token"
+			}]
+		},
+		{
+			title: "Plants and Minerals of Ratlantis",
+			icon: "rats:ratglove_petals",
+			x: -1.0d,
+			y: 2.5d,
+			shape: "square",
+			subtitle: "&dSeek high and low",
+			description: [
+				"Ratlantis is quite a dangerous place. It seems like the Ratlanteans, somehow, devolved? Or went feral? There's hints of grand technology here, but there's so many feral ratlanteans it's dangerous to travel at night.",
+				"",
+				"There's three resources I should try to find, according to Kow. The first is Ratglove, which is supposed to grow in abundance on the island surface. Though apparently, not all the time?",
+				"",
+				"&dIf you need, my brother has some for &dsale. It's very hard to cultivate &doutside of Ratlantis though...",
+				"",
+				"Hm, okay. I'll keep that in mind. The other two are... Gems of Ratlantis and Oratchalcum, both found deep under ground. ",
+				"",
+				"&dCheck with my brother, he has tools &dyou can use to help find rare ore."
+			],
+			dependencies: [I;94],
+			id: 96,
+			tasks: [
+				{
+					id: 97,
+					type: "item",
+					item: "rats:ratglove_petals",
+					consume_items: false
+				},
+				{
+					id: 98,
+					type: "item",
+					item: "rats:gem_of_ratlantis",
+					consume_items: false
+				},
+				{
+					id: 99,
+					type: "item",
+					item: "rats:oratchalcum_ingot",
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 100,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 30
+			}]
+		},
+		{
+			title: "Rat in Dee Miner",
+			icon: "rats:rat_upgrade_miner_ore",
+			x: -2.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "&dSmall Helpers",
+			description: [
+				"&dTraveler, if you could provide me with &da Mining rat upgrade, it would be &dappreciated. ",
+				"",
+				"What for?",
+				"",
+				"&dI have a special set up with some... &dmagical flowers, that produces ores. I &dhave rats helping me to mine these.",
+				"",
+				"Flowers that produce ores? You'll need to tell me more later."
+			],
+			dependencies: [I;80],
+			id: 101,
+			tasks: [{
+				id: 102,
+				type: "item",
+				item: "rats:rat_upgrade_miner_ore",
+				consume_items: true
+			}],
+			rewards: [{
+				id: 103,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 12
+			}]
+		},
+		{
+			title: "Ratat....",
+			icon: "rats:rat_upgrade_chef",
+			x: -4.0d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "&dDon't finish that word, we already &dknow.",
+			description: [
+				"&dTraveler, rats can help in more than &djust the farming side of things. They &dcan also help cook as well.",
+				"",
+				"Really? I thought they didn't taste certain things that a cook really should notice?",
+				"",
+				"&dDon't worry, these rats are careful. &dIn fact, bring me a Chef upgrade, I &dgifted my last rat chef to a friend.",
+				"",
+				"Gifted? Oh, you can trade rats to another player with a deed, right."
+			],
+			dependencies: [I;85],
+			id: 104,
+			tasks: [{
+				id: 105,
+				type: "item",
+				item: "rats:rat_upgrade_chef",
+				consume_items: true
+			}],
+			rewards: [{
+				id: 106,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 40
+			}]
+		},
+		{
+			title: "Yarr",
+			icon: "rats:rat_upgrade_buccaneer",
+			x: -5.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "&dDangerous Seas",
+			description: [
+				"&dTraveler, the Ratlantis seas are quite &ddangerous. Full of pirates.",
+				"",
+				"&dAs well, there is big flying pirate ship &dto be careful of. The Flying Dutchrat. ",
+				"",
+				"Isn't it Dutchm... nevermind. Pirats, huh?",
+				"",
+				"&dYes. In fact, I have my own pirat crew &dyou could help out with. There's an &dupgrade you can make: Buccaneer. It's &dquite dangerous if your rats aren't &dcareful. I'll buy one from you."
+			],
+			dependencies: [I;90],
+			id: 107,
+			tasks: [{
+				id: 108,
+				type: "item",
+				item: "rats:rat_upgrade_buccaneer",
+				consume_items: true
+			}],
+			rewards: [
+				{
+					id: 109,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 110,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 25
+				}
+			]
+		},
+		{
+			title: "Automatons of Ratlantis",
+			icon: "rats:marbled_cheese_rat_head",
+			x: -2.5d,
+			y: 4.0d,
+			shape: "square",
+			subtitle: "&dMecha-Ratto",
+			description: [
+				"Not all ancient inhabitants of Ratlantis still walk today. Some of them we need to bring back to study and face off against, according to Kow.",
+				"",
+				"I need to place the Marbled Cheese in a T pattern, like if I was summoning the Wither. Except the 'chest' is the Automaton Core. And then I place the Automaton Head on top, since it obviously forms the Head.",
+				"",
+				"I better make an arena or at least summon it somewhere away from important things, as it is apparently quite deadly and destructive.",
+				"",
+				"It should drop a useful Sawblade for me."
+			],
+			dependencies: [I;96],
+			id: 111,
+			tasks: [
+				{
+					id: 112,
+					type: "item",
+					item: "rats:marbled_cheese_rat_head",
+					consume_items: false
+				},
+				{
+					id: 113,
+					type: "item",
+					item: "rats:marbled_cheese_golem_core",
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 114,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 40
+			}]
+		},
+		{
+			title: "The Flying Dutchrat",
+			icon: "rats:dutchrat_bell",
+			x: -1.0d,
+			y: 4.0d,
+			shape: "square",
+			subtitle: "&dSpooky Ghost PiRats ",
+			description: [
+				"Not only do I have to worry about living Pirats on this dangerous island, but also ghost pirats! And a big ghost pirat ship floating off shore!",
+				"",
+				"Though the Flying Dutchrat is a formiddable foe I should face at some point, as the most powerful Rat upgrades require something from him.",
+				"",
+				"To summon him, I'll need the Flying Dutchrat's Bell. There is one on th Flying Dutchrat ship, but I might not survive my first fight if I am not prepared.",
+				"",
+				"I can make a Bell from things dropped by Ghost Pirats that appear on that ship. Then I ring it at night, and prepare for a fight!"
+			],
+			dependencies: [I;96],
+			id: 115,
+			tasks: [{
+				id: 116,
+				type: "item",
+				item: "rats:dutchrat_bell",
+				consume_items: false
+			}],
+			rewards: [{
+				id: 117,
+				type: "item",
+				icon: "economyinc:item_fiveb",
+				item: "economyinc:item_fiveb",
+				count: 40
+			}]
+		},
+		{
+			title: "Ancestral Rage",
+			icon: "rats:vial_of_sentience",
+			x: 0.5d,
+			y: 4.0d,
+			shape: "square",
+			subtitle: "&dReality is Pain",
+			description: [
+				"Why am I doing this again?",
+				"",
+				"&dBecause. You should understand &dwhere they came from.",
+				"",
+				"I guess. So this Vial of Consciousness should...",
+				"",
+				"&dUndo the de-evolution of a single &dRatlantean.",
+				"",
+				"Oh. I don't suppose they were peaceful?",
+				"",
+				"&dThis one won't be. They live thousands &dof years, and all that memory rushing &din with sentience? I'd prepare for the &dbiggest fight of your life."
+			],
+			dependencies: [I;96],
+			id: 118,
+			tasks: [{
+				id: 119,
+				type: "item",
+				item: "rats:vial_of_sentience",
+				consume_items: false
+			}],
+			rewards: [{
+				id: 120,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 40
+			}]
+		},
+		{
+			title: "Terror of the Skies",
+			icon: "rats:air_raid_siren",
+			x: 0.5d,
+			y: 2.5d,
+			shape: "square",
+			subtitle: "&dFight on and fly on",
+			description: [
+				"&dRatlanteans have their own historical &dfigures you may be interested in, &dsimilar to your own.",
+				"",
+				"Such as?",
+				"",
+				"&dThe Rat Baron. You can call him by &dusing an Air-Raid Siren. Place it, and &dRight Click it.",
+				"",
+				"I.... am not surprised at all, at this point."
+			],
+			dependencies: [I;96],
+			id: 122,
+			tasks: [{
+				id: 123,
+				type: "item",
+				item: "rats:air_raid_siren"
+			}]
+		}
+	]
+}
