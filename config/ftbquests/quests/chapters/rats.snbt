@@ -815,6 +815,57 @@
 				type: "item",
 				item: "rats:air_raid_siren"
 			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.0d,
+			shape: "heart",
+			subtitle: "&dEaten out of house and home",
+			description: [
+				"&dBe careful about using garbage to &dattract wild Rats, Traveler. Many bring &dPlague with them.",
+				"",
+				"&dThey are also dangerous for your &dfood supplies and safety, as they can &dweaken your defenses."
+			],
+			dependencies: [I;53],
+			id: 124,
+			tasks: [{
+				id: 125,
+				type: "kill",
+				title: "Wild Rats",
+				icon: "rats:rat_skull",
+				entity: "rats:rat",
+				value: 25L
+			}],
+			rewards: [{
+				id: 128,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Feral Dangers",
+			x: -4.0d,
+			y: 2.5d,
+			shape: "heart",
+			subtitle: "&dWild and Strong",
+			description: [
+				"&dFeral Ratlanteans live a long time, &dTraveler. The magic and technology of &dthe island has bolstered their power, &dand trapped their minds in limbo.",
+				"",
+				"&dDispatching them is a bit of a mercy, &das if you watch, they strike out and &dmurder everything around them in &drage.",
+				"",
+				""
+			],
+			dependencies: [I;94],
+			id: 126,
+			tasks: [{
+				id: 127,
+				type: "kill",
+				title: "Feral Ratlanteans",
+				icon: "rats:ratlantis_rat_skull",
+				entity: "rats:feral_ratlantean",
+				value: 25L
+			}]
 		}
 	]
 }
