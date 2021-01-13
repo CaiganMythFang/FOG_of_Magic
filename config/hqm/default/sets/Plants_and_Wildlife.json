@@ -1,0 +1,45 @@
+{
+  "name": "Plants and Wildlife",
+  "quests": [
+    {
+      "uuid": "5657267a-9915-43a2-907d-d27871d8c982",
+      "name": "Ratglove",
+      "description": "    This rare plant can usually only be found in Ratlantis, and even then it is super rare.\n    Thankfully, Kow has been able to make a small cultivation of it in a magical greenhouse.",
+      "x": 24,
+      "y": 22,
+      "icon": {
+        "id": "rats:ratglove_flower",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "rats:ratglove_flower",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Need some special plants? Perhaps a rare animal? I can get you what you need."
+}
