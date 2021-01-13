@@ -1,0 +1,1084 @@
+
+[plant-set-bno-emerald]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	seed-spawn-chance-from-shard = 25.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=7.0)
+	chance-to-grow = 7.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=1)
+	number-of-produce-drops = 1
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=1.5)
+	seed-spawn-chance-from-ore = 1.5
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-pink_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-iron]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=6.0)
+	seed-spawn-chance-from-organic-ore = 6.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=40.0)
+	chance-to-grow = 40.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=6.0)
+	seed-spawn-chance-from-ore = 6.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-magenta_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-aluminium]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=6.0)
+	seed-spawn-chance-from-organic-ore = 6.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=30.0)
+	chance-to-grow = 30.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=6.0)
+	seed-spawn-chance-from-ore = 6.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-light_gray_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-lime_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-nickel]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-organic-ore = 8.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-ore = 8.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-orange_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-tin]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=7.0)
+	seed-spawn-chance-from-organic-ore = 7.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=35.0)
+	chance-to-grow = 35.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=7.0)
+	seed-spawn-chance-from-ore = 7.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-redstone]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=75.0)
+	seed-spawn-chance-from-shard = 75.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=65.0)
+	chance-to-grow = 65.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=4)
+	number-of-produce-drops = 4
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=1.0)
+	seed-spawn-chance-from-ore = 1.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-silver]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-organic-ore = 8.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	chance-to-grow = 20.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-ore = 8.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-uranium]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=4.0)
+	seed-spawn-chance-from-organic-ore = 4.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=15.0)
+	chance-to-grow = 15.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=4.0)
+	seed-spawn-chance-from-ore = 4.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-red_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-light_blue_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-cyan_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-purple_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-diamond]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	seed-spawn-chance-from-shard = 25.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	chance-to-grow = 8.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=1)
+	number-of-produce-drops = 1
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=1.2999999523162842)
+	seed-spawn-chance-from-ore = 1.2999999523162842
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-blue_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-gold]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=5.0)
+	seed-spawn-chance-from-organic-ore = 5.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=5.0)
+	seed-spawn-chance-from-ore = 5.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-lead]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-organic-ore = 8.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-ore = 8.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-copper]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=7.0)
+	seed-spawn-chance-from-organic-ore = 7.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=35.0)
+	chance-to-grow = 35.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=7.0)
+	seed-spawn-chance-from-ore = 7.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-coal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=50.0)
+	seed-spawn-chance-from-shard = 50.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=75.0)
+	chance-to-grow = 75.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=0.5)
+	seed-spawn-chance-from-ore = 0.5
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-bno-lapis_lazuli]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=50.0)
+	seed-spawn-chance-from-shard = 50.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=45.0)
+	chance-to-grow = 45.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=3)
+	number-of-produce-drops = 3
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=2.0)
+	seed-spawn-chance-from-ore = 2.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-white_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-gray_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-brown_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-black_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-yellow_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+[plant-set-botania-green_petal]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plants produce (shard) is left in water to despawn.
+	#Set this to 0 to prevent seed spawning from shards.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	seed-spawn-chance-from-shard = 20.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The number of produce item drops this plant type will drop when fully grown
+	#and broken.
+	#(type=integer, min=1, max=64, default=2)
+	number-of-produce-drops = 2
+	#The chance (percentage) that this plant types seed will spawn
+	#when mining the growable resources ore block. Set this to 0 to
+	#prevent the seeds from spawning when mining the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=10.0)
+	seed-spawn-chance-from-ore = 10.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
