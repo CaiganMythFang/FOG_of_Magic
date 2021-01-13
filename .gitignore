@@ -32,3 +32,7 @@ usercache.json
 usernamecache.json
 
 backups/
+
+local/ftbutilities/backups.json
+
+config/jei/bookmarks.ini
