@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "caigan",
+      "uniqueId": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+    },
+    "time": 1610488328081,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#Q4Bh0BoFA6"
+    }
+  }
+]
