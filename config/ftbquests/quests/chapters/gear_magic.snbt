@@ -9,8 +9,8 @@
 		{
 			title: "Create : The Power of Rotation",
 			icon: "create:copper_valve_handle",
-			x: 10.5d,
-			y: 0.0d,
+			x: 12.0d,
+			y: 1.5d,
 			shape: "square",
 			subtitle: "&dDeceptively low tech",
 			description: [
@@ -71,7 +71,7 @@
 			title: "Purveyors of Force",
 			icon: "create:cogwheel",
 			x: 10.5d,
-			y: 1.5d,
+			y: 3.0d,
 			shape: "square",
 			subtitle: "&dMove and rotate with style",
 			description: [
@@ -118,7 +118,7 @@
 			title: "Wheel of Creation",
 			icon: "create:water_wheel",
 			x: 10.5d,
-			y: 3.0d,
+			y: 4.5d,
 			shape: "square",
 			subtitle: "&dFlow like Water",
 			description: [
@@ -155,7 +155,7 @@
 				}
 			},
 			x: 12.0d,
-			y: 1.5d,
+			y: 3.0d,
 			shape: "circle",
 			subtitle: "&dImportant concepts, Traveler",
 			description: [
@@ -186,7 +186,7 @@
 		{
 			title: "Stress and Anger",
 			x: 12.0d,
-			y: 3.0d,
+			y: 4.5d,
 			shape: "circle",
 			subtitle: "&dYes, a third thing to watch for.",
 			description: [
@@ -436,7 +436,7 @@
 			title: "Going Cuckoo",
 			icon: "create:cuckoo_clock",
 			x: 12.0d,
-			y: 4.5d,
+			y: 6.0d,
 			shape: "diamond",
 			subtitle: "&dMood...",
 			description: [
@@ -674,7 +674,7 @@
 			title: "Conveying My Goods",
 			icon: "create:belt_connector",
 			x: 10.5d,
-			y: 4.5d,
+			y: 6.0d,
 			shape: "square",
 			subtitle: "&dA good first step of &dautomation",
 			description: [
@@ -934,12 +934,53 @@
 			y: 7.5d,
 			shape: "square",
 			subtitle: "&dFancy a drive?",
+			description: [
+				"Using Mechanical Pistons is a valid way of  moving machines forward and back, but it lacks a bit of... turning ability. I mean, unless I made a really complex machine I guess.",
+				"",
+				"&dMount it on a cart. Let me show you.",
+				"",
+				'Okay, yeah, that is much more useful. So, the Cart Assembler can "assemble" a contraption onto a minecart that passes under it, or "disassemble" one if a cart with a contraption already.',
+				"",
+				"&dYou build the contraption directly &dabove the Cart Assembler. If you &dhave a Redstone Signal going to the &dAssembler when a Minecart pases &dthrough, it will hook the contraption &donto the minecart, otherwise it &dremoves it.",
+				"",
+				"And the Controller Rail lets me set a specific speed to move Minecarts at, which is useful for stuff like digging machines."
+			],
 			dependencies: [I;222],
 			id: 235,
+			tasks: [
+				{
+					id: 236,
+					type: "item",
+					item: "create:cart_assembler"
+				},
+				{
+					id: 237,
+					type: "item",
+					item: "create:controller_rail"
+				}
+			]
+		},
+		{
+			title: "Air Currents",
+			x: 10.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dBlowing Hot Air",
+			description: [
+				"Now that I know how to grind up Ore, Kow has shown me a way to wash the Ore for a better yield. ",
+				"",
+				"By taking an Encased Fan, I can angle the air flow through Water to create a wet wash. If I put Crushed Ore into this current, it will wash it to pure metal nuggets.",
+				"",
+				"&dYou can make a cage with Iron Bars to &dhold Water in front of the fan. Just &dbe careful not to Right Click the &dbucket on the Iron Bars itself or you &dwaterlog them instead.",
+				"",
+				"Yeah, that made a mess when I did it. What else... Oh! I can also blow air through Lava the same way to create an open air smelter!"
+			],
+			dependencies: [I;159],
+			id: 238,
 			tasks: [{
-				id: 236,
+				id: 239,
 				type: "item",
-				item: "create:cart_assembler"
+				item: "create:encased_fan"
 			}]
 		}
 	]
