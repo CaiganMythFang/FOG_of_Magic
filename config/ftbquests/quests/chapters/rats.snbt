@@ -865,7 +865,152 @@
 				icon: "rats:ratlantis_rat_skull",
 				entity: "rats:feral_ratlantean",
 				value: 25L
+			}],
+			rewards: [{
+				id: 135,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
 			}]
+		},
+		{
+			title: "A Cure",
+			icon: "rats:purifying_liquid",
+			x: 2.0d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dNot just for rats, of course.",
+			description: [
+				"The Plague is a dangerous thing among rats. It causes them to be more aggressive, and they can spread the plague not only to other rats, but to other creatures to!",
+				"",
+				"Kow taught me how to make a purifying potion that not only cures the Plague, but can also cure Zombified villagers! "
+			],
+			dependencies: [I;56],
+			id: 129,
+			tasks: [{
+				id: 130,
+				type: "item",
+				item: "rats:purifying_liquid"
+			}],
+			rewards: [{
+				id: 136,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "Fashion Rat",
+			icon: {
+				id: "rats:rat_fez",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.0d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dIt isn't just for looks, mind.",
+			description: [
+				"So, the magical nature of Rats not only enable them to learn skills really fast, they also enables them to wear armor my size?",
+				"",
+				"A rat can wear any helmet or hat, and it will shrink down to their size.",
+				"",
+				"&dAnd still provide the same protection.",
+				"",
+				"Right, that's great. It also seems I can dye my Rats? I guess if I'm impatient for breeding rare colors, I could always just dye them..."
+			],
+			dependencies: [I;71],
+			id: 131,
+			tasks: [
+				{
+					id: 132,
+					type: "item",
+					item: "rats:ratbow_essence"
+				},
+				{
+					id: 133,
+					type: "item",
+					item: {
+						id: "rats:fisherman_hat",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 134,
+					type: "item",
+					item: {
+						id: "rats:rat_fez",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 137,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "Doctor of Death",
+			icon: {
+				id: "rats:black_death_mask",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -3.0d,
+			y: -2.5d,
+			shape: "diamond",
+			subtitle: "&dDeadly, be careful.",
+			description: [
+				"&dTraveler, the Plague hides a sinister &dbeing in your dimension.",
+				"",
+				"Sinister?",
+				"",
+				"&dIf you hunt down plague rats, one may &ddrop a... grimoire, I dare to call it. If &dyou Right Click that onto a Plague &dDoctor, which wander around at night, &dit will summon the monster known as &dBlack Death.",
+				"",
+				"With a name like that, I should probably be kitted out, huh?",
+				"",
+				"&dVery much so. Bring me it's mask, I &dneed it to see if I can find where this &dentity came from."
+			],
+			dependencies: [I;131],
+			id: 138,
+			tasks: [{
+				id: 139,
+				type: "item",
+				item: {
+					id: "rats:black_death_mask",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				consume_items: true
+			}],
+			rewards: [
+				{
+					id: 140,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 141,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				}
+			]
 		}
 	]
 }
