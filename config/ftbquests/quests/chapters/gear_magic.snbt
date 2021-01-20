@@ -1,7 +1,7 @@
 {
 	id: 142,
 	filename: "gear_magic",
-	order_index: 1,
+	order_index: 4,
 	title: "Of Gears and Motion",
 	icon: "create:copper_valve_handle",
 	default_quest_shape: "",
