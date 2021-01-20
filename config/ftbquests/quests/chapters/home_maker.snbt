@@ -1,0 +1,122 @@
+{
+	id: 243,
+	filename: "home_maker",
+	order_index: 1,
+	title: "Home Maker",
+	icon: "minecraft:purple_bed",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "A House, a Home",
+			icon: {
+				id: "inventorypets:pet_house",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.0d,
+			y: -2.5d,
+			subtitle: "&dSettle in for the long haul",
+			description: [
+				"&dTraveler, I highly suggest not just &dmaking a little shack to live in. You are &dgoing to be here for... a long time. &dMaybe forever.",
+				"",
+				"Seriously?",
+				"",
+				"&dLeave nothing to chance. You may be &dable to respawn in this world, but &dsomething may undo that ability. It is, &dafter all, a very magical world.",
+				"",
+				"&dSo, I will teach you how to design and &dmake things for your comfort as well."
+			],
+			dependencies: [I;37],
+			id: 244,
+			tasks: [{
+				id: 245,
+				type: "checkmark",
+				title: "A House, A Home",
+				icon: {
+					id: "inventorypets:pet_house",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 246,
+				type: "item",
+				item: "economyinc:item_fiveb"
+			}]
+		},
+		{
+			title: "The Smoke of Industry",
+			icon: "adchimneys:bricks_chimney",
+			x: 1.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dHazy, foggy, etc",
+			description: [
+				"So, it seems especially here, most technology machines (and some magic based ones) produce an inordinate amount of smoke.",
+				"",
+				"This smoke is... mostly harmless? Except it can be quite distracting in an enclosed work room. So, to solve that, we can make Advanced Chimneys.",
+				"",
+				"To start, I need to set up some Vents near the top of the room. The sides need to be open, as thats what sucks up the Smoke.",
+				"",
+				"I can put around 8 vents in a line, then put a Pump at the end of it. On top of this Pump, I stack Chimneys to the outside. When the Pump is powered by Redstone, it should suck up much of the Smoke and send it through the Chimney.",
+				"",
+				"I can also put a Pump under the machine and then Vents along the side of the Pump, or Chimneys right beside the machines."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 247,
+			tasks: [
+				{
+					id: 248,
+					type: "item",
+					item: "adchimneys:bricks_chimney"
+				},
+				{
+					id: 249,
+					type: "item",
+					item: "adchimneys:bricks_vent"
+				},
+				{
+					id: 250,
+					type: "item",
+					item: "adchimneys:bricks_pump"
+				}
+			],
+			rewards: [{
+				id: 255,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Holy Poles, Batman!",
+			icon: "minecraft:iron_bars",
+			x: -1.0d,
+			y: -4.5d,
+			subtitle: "&dI was thinking fire station, actually...",
+			description: [
+				"So, a neat thing I've found out. Stacking Iron Bars on top of each other in a single column, becomes a Bat Pole!",
+				"",
+				"&dFirehouse pole.",
+				"",
+				"Same thing. If I jump near the top, I can easily grab on and slide down it safely!"
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 251,
+			tasks: [{
+				id: 253,
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: 254,
+				type: "item",
+				item: "economyinc:item_fiveb"
+			}]
+		}
+	]
+}
