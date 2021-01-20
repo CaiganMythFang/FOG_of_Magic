@@ -154,6 +154,9 @@
 			#Power per use disenchanter
 			#Range: 0 ~ 64000
 			disenchanter = 1500
+			#Power per tick while in use
+			#Range: 0 ~ 64000
+			breaker = 0
 			#Power per repair anvil
 			#Range: 0 ~ 64000
 			anvil = 250
@@ -184,12 +187,15 @@
 			#Power per use forester
 			#Range: 0 ~ 64000
 			forester = 50
-			#Power per tick beacon
+			#Power per tick while in use
 			#Range: 0 ~ 64000
 			beacon = 10
 			#Power per use crafter
 			#Range: 0 ~ 64000
 			crafter = 500
+			#Power per tick while in use
+			#Range: 0 ~ 64000
+			placer = 0
 			#Power per use user
 			#Range: 0 ~ 64000
 			user = 50

@@ -140,6 +140,9 @@
 		#Log additional information related to loading and synchronizing gear parts and traits.
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
+		#Log information on construction of gear and part models, as well as textures they attempt to load.
+		#This is intended to help find and fix rare issues that some users are experiencing.
+		modelAndTexture = true
 
 #World generation options (REQUIRES GAME RESTART)
 [world]

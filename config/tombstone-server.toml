@@ -60,9 +60,15 @@
 	#The cooldown in minutes to reset the perks with the ankh of Pray [0..60|default:20]
 	#Range: 0 ~ 60
 	cooldown_reset_perk = 20
+	#Cooldown in second after using a Tablet of Cupidity [300..3600|default:900]
+	#Range: 300 ~ 3600
+	tablet_of_cupidity_cooldown = 900
 	#The cooldown in hours to pray with the Ã‚nkh [1..10|default:3]
 	#Range: 1 ~ 10
 	cooldown_to_pray = 3
+	#Cooldown in second after using a tablet other than Tablet of Cupidity [30..1200|default:60]
+	#Range: 30 ~ 1200
+	tablet_cooldown = 60
 	#Sets the decorative graves unbreakable [false/true|default:false]
 	unbreakable_decorative_grave = false
 

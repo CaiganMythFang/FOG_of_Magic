@@ -1,0 +1,1980 @@
+
+[Games]
+
+	#Items
+	[Games."Photo:EzoRedFox"]
+
+		[Games."Photo:EzoRedFox".Ability]
+			#Range: > 1
+			Random = 5000
+
+		[Games."Photo:EzoRedFox".Reduce]
+			#Range: > 0
+			_0 = 0
+			#Range: > 0
+			_1 = 0
+			#Range: > 0
+			_2 = 0
+			#Range: > 0
+			_3 = 0
+			#Range: > 0
+			_4 = 0
+			#Range: > 0
+			_5 = 0
+			#Range: > 0
+			_6 = 0
+			#Range: > 0
+			_7 = 0
+			#Range: > 0
+			_8 = 0
+			#Range: > 0
+			_9 = 0
+			#Range: > 0
+			_10 = 0
+			#Range: > 0
+			_11 = 0
+			#Range: > 0
+			_12 = 0
+			#Range: > 0
+			_13 = 0
+			#Range: > 0
+			_14 = 0
+			#Range: > 0
+			_15 = 0
+			#Range: > 0
+			_16 = 0
+			#Range: > 0
+			_17 = 0
+			#Range: > 0
+			_18 = 0
+			#Range: > 0
+			_19 = 0
+			#Range: > 0
+			_20 = 0
+			#Range: > 0
+			_21 = 0
+			#Range: > 0
+			_22 = 0
+			#Range: > 0
+			_23 = 0
+			#Range: > 0
+			_24 = 0
+			#Range: > 0
+			_25 = 0
+			#Range: > 0
+			_26 = 0
+			#Range: > 0
+			_27 = 0
+			#Range: > 0
+			_28 = 0
+			#Range: > 0
+			_29 = 0
+			#Range: > 0
+			_30 = 0
+			#Range: > 0
+			_31 = 0
+			#Range: > 0
+			_32 = 0
+			#Range: > 0
+			_33 = 0
+			#Range: > 0
+			_34 = 0
+			#Range: > 0
+			_35 = 0
+			#Range: > 0
+			_36 = 0
+			#Range: > 0
+			_37 = 0
+			#Range: > 0
+			_38 = 0
+			#Range: > 0
+			_39 = 0
+			#Range: > 0
+			_40 = 0
+			#Range: > 0
+			_41 = 0
+			#Range: > 0
+			_42 = 0
+			#Range: > 0
+			_43 = 0
+			#Range: > 0
+			_44 = 0
+			#Range: > 0
+			_45 = 0
+			#Range: > 0
+			_46 = 0
+			#Range: > 0
+			_47 = 0
+			#Range: > 0
+			_48 = 0
+			#Range: > 0
+			_49 = 0
+			#Range: > 0
+			_50 = 0
+			#Range: > 0
+			_51 = 0
+			#Range: > 0
+			_52 = 0
+			#Range: > 0
+			_53 = 0
+			#Range: > 0
+			_54 = 0
+			#Range: > 0
+			_55 = 0
+			#Range: > 0
+			_56 = 0
+			#Range: > 0
+			_57 = 0
+			#Range: > 0
+			_58 = 0
+			#Range: > 0
+			_59 = 0
+			#Range: > 0
+			_60 = 0
+			#Range: > 0
+			_61 = 0
+			#Range: > 0
+			_62 = 0
+			#Range: > 0
+			_63 = 0
+			#Range: > 0
+			_64 = 0
+			#Range: > 0
+			_65 = 0
+			#Range: > 0
+			_66 = 0
+			#Range: > 0
+			_67 = 0
+			#Range: > 0
+			_68 = 0
+			#Range: > 0
+			_69 = 0
+			#Range: > 0
+			_70 = 0
+			#Range: > 0
+			_71 = 0
+			#Range: > 0
+			_72 = 0
+			#Range: > 0
+			_73 = 0
+			#Range: > 0
+			_74 = 0
+			#Range: > 0
+			_75 = 0
+			#Range: > 0
+			_76 = 0
+			#Range: > 0
+			_77 = 0
+			#Range: > 0
+			_78 = 0
+			#Range: > 0
+			_79 = 0
+			#Range: > 0
+			_80 = 0
+			#Range: > 0
+			_81 = 0
+			#Range: > 0
+			_82 = 0
+			#Range: > 0
+			_83 = 0
+			#Range: > 0
+			_84 = 0
+			#Range: > 0
+			_85 = 0
+			#Range: > 0
+			_86 = 0
+			#Range: > 0
+			_87 = 0
+			#Range: > 0
+			_88 = 0
+			#Range: > 0
+			_89 = 0
+			#Range: > 0
+			_90 = 0
+			#Range: > 0
+			_91 = 0
+			#Range: > 0
+			_92 = 0
+			#Range: > 0
+			_93 = 0
+			#Range: > 0
+			_94 = 0
+			#Range: > 0
+			_95 = 0
+			#Range: > 0
+			_96 = 0
+			#Range: > 0
+			_97 = 0
+			#Range: > 0
+			_98 = 0
+			#Range: > 0
+			_99 = 0
+			#Range: > 0
+			_100 = 0
+
+	#Friends
+	[Games."Friends:FennecFox"]
+
+		[Games."Friends:FennecFox".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 0.0
+			#Range: > 0
+			Dodge = 20
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:LuckyBeast"]
+
+		[Games."Friends:LuckyBeast".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 30.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 1.0
+			#Range: > 0
+			Dodge = 5
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:SandCat"]
+
+		[Games."Friends:SandCat".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 1.0
+			#Range: > 0
+			Dodge = 1
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:SouthernTamandua"]
+
+		[Games."Friends:SouthernTamandua".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 18.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 1.0
+			#Range: > 0
+			Dodge = 3
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:CommonRaccoon"]
+
+		[Games."Friends:CommonRaccoon".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 0.0
+			#Range: > 0
+			Dodge = 1
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:Serval"]
+
+		[Games."Friends:Serval".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 16.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 2.0
+			#Range: > 0
+			Dodge = 7
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:KomodoDragon"]
+
+		[Games."Friends:KomodoDragon".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 30.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 4.0
+			#Range: > 0
+			Dodge = 1
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.3
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:ShiservalLefty"]
+
+		[Games."Friends:ShiservalLefty".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 30.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 1.0
+			#Range: > 0
+			Dodge = 3
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:ShiservalRight"]
+
+		[Games."Friends:ShiservalRight".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 40.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 2.0
+			#Range: > 0
+			Dodge = 3
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:Lion"]
+
+		[Games."Friends:Lion".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 13.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 1.0
+			#Range: > 0
+			Dodge = 1
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:EzoRedFox"]
+
+		[Games."Friends:EzoRedFox".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 1.0
+			#Range: > 0
+			Dodge = 1
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:JapaneseCrestedIbis"]
+
+		[Games."Friends:JapaneseCrestedIbis".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 0.0
+			#Range: > 0
+			Dodge = 1
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:SmallClawedOtter"]
+
+		[Games."Friends:SmallClawedOtter".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 2.0
+			#Range: > 0
+			Dodge = 1
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+	#Friends
+	[Games."Friends:SuriAlpaca"]
+
+		[Games."Friends:SuriAlpaca".Stats]
+			#Range: 1.0 ~ 1.7976931348623157E308
+			Health = 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Damage" = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Armor = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Armor Toughness" = 2.0
+			#Range: > 0
+			Dodge = 0
+			#Range: > 0
+			Air = 1200
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Item" = 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Find Entity" = 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack Range" = 10.0
+			#Range: > 0
+			"Attack Tick" = 5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Move Speed" = 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Swim Speed" = 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Fly Speed" = 2.0
+			#Range: > 0
+			"Max Experience" = 5000
+			#Range: > 0
+			"Max Level" = 100
+
+[Sounds]
+
+	#Friends
+	[Sounds."Friends:FennecFox"]
+
+		[Sounds."Friends:FennecFox".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:FennecFox".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.699999988079071
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:FennecFox".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:LuckyBeast"]
+
+		[Sounds."Friends:LuckyBeast".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:LuckyBeast".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:LuckyBeast".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:SandCat"]
+
+		[Sounds."Friends:SandCat".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:SandCat".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:SandCat".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:SouthernTamandua"]
+
+		[Sounds."Friends:SouthernTamandua".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:SouthernTamandua".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:SouthernTamandua".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:CommonRaccoon"]
+
+		[Sounds."Friends:CommonRaccoon".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:CommonRaccoon".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:CommonRaccoon".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:Serval"]
+
+		[Sounds."Friends:Serval".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:Serval".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:Serval".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:KomodoDragon"]
+
+		[Sounds."Friends:KomodoDragon".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:KomodoDragon".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:KomodoDragon".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:ShiservalLefty"]
+
+		[Sounds."Friends:ShiservalLefty".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:ShiservalLefty".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:ShiservalLefty".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:ShiservalRight"]
+
+		[Sounds."Friends:ShiservalRight".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:ShiservalRight".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:ShiservalRight".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:Lion"]
+
+		[Sounds."Friends:Lion".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:Lion".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:Lion".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:EzoRedFox"]
+
+		[Sounds."Friends:EzoRedFox".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:EzoRedFox".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:EzoRedFox".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:JapaneseCrestedIbis"]
+
+		[Sounds."Friends:JapaneseCrestedIbis".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:JapaneseCrestedIbis".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:JapaneseCrestedIbis".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:SmallClawedOtter"]
+
+		[Sounds."Friends:SmallClawedOtter".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:SmallClawedOtter".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:SmallClawedOtter".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
+	#Friends
+	[Sounds."Friends:SuriAlpaca"]
+
+		[Sounds."Friends:SuriAlpaca".Sounds]
+			#Range: > 0
+			Tick = 100
+			"Stand Sound" = true
+			"Attack Sound" = true
+			"Beat Sound" = true
+			"Pat Sound" = true
+			"Hurt Sound" = true
+			"Down Sound" = true
+			"Step Sound" = true
+			"Swim Sound" = true
+			"Sit Sound" = true
+			"Talk Sound" = true
+			"Ride Sound" = true
+			"Work Sound" = true
+			"Sleep Sound" = true
+			"Gain Sound" = true
+			"Introduce Sound" = true
+			"Equip Sound" = true
+
+		[Sounds."Friends:SuriAlpaca".Volume]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 0.20000000298023224
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.30000001192092896
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.30000001192092896
+
+		[Sounds."Friends:SuriAlpaca".Pitch]
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Stand Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Beat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Pat Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Hurt Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Down Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Step Sound" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Swim Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sit Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Talk Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Ride Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Work Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Sleep Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Gain Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Introduce Sound" = 0.8999999761581421
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Equip Sound" = 0.8999999761581421
+
