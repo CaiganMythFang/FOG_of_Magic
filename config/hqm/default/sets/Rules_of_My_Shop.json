@@ -2,11 +2,43 @@
   "name": "Rules of My Shop",
   "quests": [
     {
+      "uuid": "abd5fc0a-7318-48b4-b22d-70e02594a6d8",
+      "name": " Basic and Not So Basic",
+      "description": "    My shop pages are split into two sections, for your convenience.\n    The first section is basic items. Unrefined resources, simple items. The basics, Traveler.\n    The other section contains more complex things. Things Kow and I have to work our knowledge on to get to your world. So they will be much more... expensive.",
+      "x": 43,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "39104fc4-c800-4a44-ab32-240e1395862d",
+      "name": " The Price of Knowledge",
+      "description": "    Now, we can get technology to you two ways, Traveler.\n    The first way is easy. You can buy specific things from me for a price. It is expensive, but not as much as the raw materials really.\n    The other way is empowering you with what they called Lost Knowledge. It\u0027s very expensive, as the reagents for the rituals are nothing to sneeze at.\n    But what you get is the ability to make everything from a section of Lost Knowledge yourself. And that is infinitely cheaper than buying everything from me.",
+      "x": 69,
+      "y": 19,
+      "icon": {
+        "id": "pneumaticcraft:assembly_drill",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "8f91f03c-ca9e-4f0a-a13e-24e786d42af1",
       "name": " Selling Goods",
       "description": "    Now, Kow is providing you some rewards for following her lessons right? Well, and selling her some stuff she requests, of course. That\u0027s all good.\n    But she generally will only make the offer good once. I, however, will always purchase things I list.\n    Most things I wish to purchase will be on the RIGHT side of the tablet, okay? For example, I\u0027ll always buy simple Sushi. ",
-      "x": 297,
-      "y": 18,
+      "x": 189,
+      "y": 16,
       "icon": {
         "id": "economyinc:item_oneb",
         "Count": 1,
@@ -42,7 +74,7 @@
     },
     {
       "uuid": "7829fb82-52e7-4513-b757-0917c0117302",
-      "name": "About My Shop",
+      "name": " About My Shop",
       "description": "    Excellent, welcome to my shop, Traveler. I\u0027ve got wares from all over, including what Kow says is your old world. \n    This stuff doesn\u0027t come cheap, however. Kow and I have to do a lot of magic rituals to get this stuff to work in your dimension.\n    The good news? Not only can you earn money by following Kow\u0027s instructions, but I\u0027ll also buy many things from you!",
       "x": 16,
       "y": 19,
