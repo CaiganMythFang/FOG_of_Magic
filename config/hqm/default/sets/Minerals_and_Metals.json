@@ -2,11 +2,49 @@
   "name": "Minerals and Metals",
   "quests": [
     {
+      "uuid": "f1b5942c-e9cc-4718-8dc9-3ad3b103d124",
+      "name": " Iron (Sell)",
+      "description": "    Iron is one of the most common and most useful metals.",
+      "x": 171,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
       "name": " Oratchalcum (Sell)",
       "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
-      "x": 299,
-      "y": 20,
+      "x": 172,
+      "y": 105,
       "icon": {
         "id": "rats:oratchalcum_ingot",
         "Count": 1
@@ -32,7 +70,112 @@
       "reward": [
         {
           "id": "economyinc:item_fiveb",
-          "Count": 5
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3312edd-55fa-49f3-8f4a-cbbfb17c91df",
+      "name": " Zinc (Buy)",
+      "description": "    Zinc on its own is good metal, but its strength shines when alloyed with other metals!",
+      "x": 40,
+      "y": 50,
+      "icon": {
+        "id": "create:zinc_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:zinc_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "37f2a77f-b2bf-4015-9640-a5f00158744a",
+      "name": " Copper (Buy)",
+      "description": "    Nearly as useful as Iron, but not as plentiful. Copper is a fantastic metal both on its own and alloyed with other metals.",
+      "x": 15,
+      "y": 49,
+      "icon": {
+        "id": "create:copper_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:copper_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "28b648d2-379d-4b02-adef-613c2e536f7d",
+      "name": " Zinc (Sell)",
+      "description": "    Zinc on its own is good metal, but its strength shines when alloyed with other metals!",
+      "x": 197,
+      "y": 48,
+      "icon": {
+        "id": "create:zinc_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "create:zinc_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -42,8 +185,8 @@
       "uuid": "e2b1cb4c-70bd-423c-85f2-bc0e1721ba68",
       "name": " Oratchalcum (Buy)",
       "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
-      "x": 16,
-      "y": 21,
+      "x": 15,
+      "y": 107,
       "icon": {
         "id": "rats:oratchalcum_ingot",
         "Count": 1
@@ -58,9 +201,9 @@
             {
               "item": {
                 "id": "economyinc:item_fiveb",
-                "Count": 25
+                "Count": 80
               },
-              "required": 25
+              "required": 80
             }
           ]
         }
@@ -69,8 +212,156 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "rats:oratchalcum_ingot",
+          "id": "rats:oratchalcum_ore",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6eade0f9-75cc-4665-a901-9d057642be62",
+      "name": " Iron (Buy)",
+      "description": "    Iron is one of the most common and most useful metals.",
+      "x": 15,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f46bb870-7d2b-4302-b63e-6df2c9536d47",
+      "name": " Gold (Buy)",
+      "description": "    Gold is a valuable metal, both as a luxury good, and for electricity conduction and scientific purposes.",
+      "x": 40,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:gold_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "029caacb-b89f-419c-8606-22f75ad8d317",
+      "name": " Gold (Sell)",
+      "description": "    Gold is a valuable metal, both as a luxury good, and for electricity conduction and scientific purposes.",
+      "x": 197,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:gold_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a55ab4aa-1064-4bfc-ac8d-81125d4e3214",
+      "name": " Copper (Sell)",
+      "description": "    Nearly as useful as Iron, but not as plentiful. Copper is a fantastic metal both on its own and alloyed with other metals.",
+      "x": 171,
+      "y": 47,
+      "icon": {
+        "id": "create:copper_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
