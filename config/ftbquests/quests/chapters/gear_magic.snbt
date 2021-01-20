@@ -1,7 +1,7 @@
 {
 	id: 142,
 	filename: "gear_magic",
-	order_index: 4,
+	order_index: 5,
 	title: "Of Gears and Motion",
 	icon: "create:copper_valve_handle",
 	default_quest_shape: "",
@@ -24,6 +24,7 @@
 				"",
 				"&dTo start with, we'll need some &dmaterials. Some Copper, Zinc, and &dAndesite stone, all of which shouldn't &dbe too deep in the ground."
 			],
+			dependencies: [I;37],
 			id: 143,
 			tasks: [
 				{
