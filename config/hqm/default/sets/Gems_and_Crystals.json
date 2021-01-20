@@ -2,11 +2,86 @@
   "name": "Gems and Crystals",
   "quests": [
     {
+      "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
+      "name": " Emerald (Sell)",
+      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
+      "x": 210,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:emerald",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "141c1635-56aa-4802-832b-cd5b7259ec6f",
+      "name": " Emerald (Buy)",
+      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
+      "x": 41,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:emerald",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:emerald_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1426dafd-50db-40d3-b678-aeec296c0383",
       "name": " Gem of Ratlantis (Buy)",
       "description": "    These gems are steeped in the magical tech power of Ratlantis, and are found in rare pockets deep under those islands. They help power much of the magitech of Ratlanteans.",
       "x": 17,
-      "y": 19,
+      "y": 110,
       "icon": {
         "id": "rats:gem_of_ratlantis",
         "Count": 1
@@ -21,9 +96,9 @@
             {
               "item": {
                 "id": "economyinc:item_fiveb",
-                "Count": 40
+                "Count": 80
               },
-              "required": 40
+              "required": 80
             }
           ]
         }
@@ -32,7 +107,45 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "rats:gem_of_ratlantis",
+          "id": "rats:ratlantean_gem_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f05d4948-d057-4135-8e64-fad8ff320a13",
+      "name": " Lapis Lazuli (Buy)",
+      "description": "    Lapis has a few uses, once as an expensive dye, but more often used in magical applications and fancy decorations.",
+      "x": 67,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:lapis_lazuli",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lapis_ore",
           "Count": 1
         }
       ],
@@ -43,8 +156,8 @@
       "uuid": "73a602b7-eaad-4c2e-a65e-716c4c06d4ca",
       "name": " Gem of Ratlantis (Sell)",
       "description": "    These gems are steeped in the magical tech power of Ratlantis, and are found in rare pockets deep under those islands. They help power much of the magitech of Ratlanteans.",
-      "x": 299,
-      "y": 21,
+      "x": 184,
+      "y": 112,
       "icon": {
         "id": "rats:gem_of_ratlantis",
         "Count": 1
@@ -70,7 +183,351 @@
       "reward": [
         {
           "id": "economyinc:item_fiveb",
-          "Count": 8
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fafa27aa-d2b8-4dde-902b-4d6e94aee3d1",
+      "name": " Redstone (Buy)",
+      "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
+      "x": 42,
+      "y": 53,
+      "icon": {
+        "id": "minecraft:redstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2997ff39-7a59-419a-b34f-a2082ec27c25",
+      "name": " Nether Quartz (Buy)",
+      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
+      "x": 91,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:quartz",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:nether_quartz_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7d73c028-e5bd-4b40-b285-546e1b6bc189",
+      "name": " Diamond (Buy)",
+      "description": "    Diamonds are a rare and valuable gemstone, used in everything from mechanical cutting applications, scientific and electronic uses, to magical creations.",
+      "x": 15,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "008e9a93-352f-4ae1-a0a8-8f722453f20b",
+      "name": " Nether Quarts (Sell)",
+      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
+      "x": 259,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:quartz",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ed0d6642-238f-4684-8b53-a847b8dcb838",
+      "name": " Lapis Lazuli (Sell)",
+      "description": "    Lapis has a few uses, once as an expensive dye, but more often used in magical applications and fancy decorations.",
+      "x": 236,
+      "y": 21,
+      "icon": {
+        "id": "minecraft:lapis_lazuli",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lapis_lazuli",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        },
+        {
+          "id": "economyinc:item_oneb",
+          "Count": 2,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc212ba4-1ccb-4437-852c-dcfa529080e5",
+      "name": " Glowstone (Buy)",
+      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
+      "x": 16,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:glowstone_dust",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glowstone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b274127d-569a-4f9c-92fe-e0ee61033a46",
+      "name": " Glowstone (Sell)",
+      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
+      "x": 182,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:glowstone_dust",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "29d3a455-1137-4afe-a3ea-c8b25460bf4d",
+      "name": " Redstone (Sell)",
+      "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
+      "x": 210,
+      "y": 52,
+      "icon": {
+        "id": "minecraft:redstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c6b09afb-8d9a-4484-8119-087982eebc86",
+      "name": " Diamond (Sell)",
+      "description": "    Diamonds are a rare and valuable gemstone, used in everything from mechanical cutting applications, scientific and electronic uses, to magical creations.",
+      "x": 183,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
