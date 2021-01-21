@@ -1,0 +1,103 @@
+{
+  "name": "Movement Tools",
+  "quests": [
+    {
+      "uuid": "05ccbdb0-f08e-4d1d-971f-af199de2c119",
+      "name": " Waystones (Sell)",
+      "description": "    You may find some unused Waystones out in the world. If you could, I will purchase ones you do not need. ",
+      "x": 179,
+      "y": 17,
+      "icon": {
+        "id": "waystones:waystone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "waystones:waystone",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 15
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f75b2b3-6d07-4205-9a56-e9f9c3e911a7",
+      "name": " Advanced Hook Launchers",
+      "description": "    Looking to scale tall buildings? Perhaps as a combat tool for getting you closer to your enemies?\n    Look no further than Advanced Hook Launchers. There are three types you can purchase: \n    The Web Launcher shoots a web that can safely hook walls or creatures. \n    The Spear Launcher doesn\u0027t connects to some walls, but if it hooks a creature it will damage them and let you pull them. \n    The Pudge Hook will drag you and the creature you hook towards each other.",
+      "x": 21,
+      "y": 18,
+      "icon": {
+        "id": "adhooks:pudge_launcher",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "adhooks:web_launcher",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "adhooks:spear_launcher",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "adhooks:pudge_launcher",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Looking for movement tech, Traveler? Grappling hooks? Teleproters? Look no further!"
+}
