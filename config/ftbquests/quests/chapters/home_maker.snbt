@@ -1,7 +1,7 @@
 {
 	id: 243,
 	filename: "home_maker",
-	order_index: 1,
+	order_index: 3,
 	title: "Home Maker",
 	icon: "minecraft:purple_bed",
 	default_quest_shape: "",
@@ -116,6 +116,121 @@
 				id: 254,
 				type: "item",
 				item: "economyinc:item_fiveb"
+			}]
+		},
+		{
+			title: "Waystones of Life",
+			icon: "waystones:waystone",
+			x: -3.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dSimple, fast travel",
+			description: [
+				"There's these interesting stone statue things I started to see around, sometimes in villages, sometimes at the top of these tall towers.",
+				"",
+				"When I asked Kow, she said they were called Waystones, and that I can make them myself as well. They are basically part of a magical teleport network.",
+				"",
+				"I can use a Waystone to teleport to other Waystones, but only if I've visited and Right Clicked them before. I can also use a Waystone gem to do the same from anywhere, but it has limited uses."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 256,
+			tasks: [
+				{
+					id: 257,
+					type: "item",
+					item: "waystones:waystone",
+					consume_items: false
+				},
+				{
+					id: 260,
+					type: "item",
+					item: {
+						id: "waystones:warp_stone",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 261,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Warping Scrolls",
+			icon: "waystones:return_scroll",
+			x: -4.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dCheaper and just as useful",
+			description: [
+				"If I don't want to fight with a Waystone gem and recharging it, I can use a Warp Scroll to get around.",
+				"",
+				"&dIf you've found some out of the &dWaystones, Traveler, you can share &dtheir location with a Bound Scroll. &dRight Click a Bound Scroll on the &dWaystone, then have your friend use &dthe scroll to learn it's location.",
+				"",
+				"Good idea. The Return Scrolls are also super useful. They teleport you back to the last Waystone you used. Good for a quick escape without wasting time choosing a location."
+			],
+			dependencies: [I;256],
+			id: 258,
+			tasks: [
+				{
+					id: 259,
+					type: "item",
+					item: "waystones:warp_scroll"
+				},
+				{
+					id: 262,
+					type: "item",
+					item: "waystones:bound_scroll"
+				},
+				{
+					id: 263,
+					type: "item",
+					item: "waystones:return_scroll"
+				}
+			],
+			rewards: [{
+				id: 264,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "A World of Stone",
+			icon: "mining_dimension:teleporter",
+			x: -3.0d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dNothing but Caves and Dark",
+			description: [
+				"&dTraveler, a suggestion? Make this &dteleporter.",
+				"",
+				"Teleporter? Where to?",
+				"",
+				"&dA world with nothing but caves. It's a &ddimension the mages found that is full &dof both resources and monsters.",
+				"",
+				"It sounds like a good place to dig through without making giant holes in the landscape...."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 265,
+			tasks: [{
+				id: 266,
+				type: "item",
+				item: "mining_dimension:teleporter"
+			}],
+			rewards: [{
+				id: 267,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 5
 			}]
 		}
 	]
