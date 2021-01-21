@@ -1,7 +1,7 @@
 {
 	id: 12,
 	filename: "listen_to_me_meow",
-	order_index: 3,
+	order_index: 2,
 	title: "Listen to Me, Meow",
 	icon: "botania:cosmetic_cat_ears",
 	default_quest_shape: "",
@@ -62,7 +62,7 @@
 				"",
 				"...",
 				"",
-				"&dDid you do it yet? Hurry up. Come on, &dwizards don't have all day!",
+				"&dDid you do it yet? Hurry up. Come on, &dmages don't have all day!",
 				"",
 				"Uh...",
 				"",
@@ -81,9 +81,9 @@
 			y: 1.0d,
 			subtitle: "A wizard with no hat?",
 			description: [
-				"Wait, wizard? Bull...",
+				"Wait, mage? Bull...",
 				"",
-				"&dLanguage. But yes. I'm a wizard. Can &dwe skip the whole 'O M G prove it' and &d'do a trick!' rigamarole? It gets tired &dafter the 50th time...",
+				"&dLanguage. But yes. I'm a mage. &dTechnically a Technomancer, but can &dwe &dskip the whole 'O M G prove it' and &d'do &da trick!' rigamarole? It gets tired &dafter the 50th time...",
 				"",
 				"But how...",
 				"",
@@ -98,7 +98,7 @@
 			tasks: [{
 				id: 20,
 				type: "checkmark",
-				title: "&dYes, I said Wizard",
+				title: "&dYes, I said Mage",
 				icon: {
 					id: "eidolon:warlock_hat",
 					Count: true,
