@@ -1,0 +1,1106 @@
+{
+	id: 268,
+	filename: "crafting_a_spell",
+	order_index: 6,
+	title: "Creating Magic",
+	icon: "ars_nouveau:mana_gem",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Ars Nouveau",
+			icon: "ars_nouveau:mana_gem",
+			x: -6.5d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dSpellcrafting done well",
+			description: [
+				"&dOne of the forgotten arts in this &dworld, &ddespite the prevailance of &dmagic, is &dspellcrafting. ",
+				"",
+				"Spellcrafting?",
+				"",
+				"&dCreating, from scratch, your own &dspells. Every caster knows Fireball. &dFew know how to make it from the &dground up. Ars Nouveau school of &dmagic teaches this once again.",
+				"",
+				"&dFind some Arcane Ore, and mine from it &da Mana Gem. Make a Worn Notebook &dfrom that. It will teach you."
+			],
+			dependencies: [I;37],
+			id: 269,
+			tasks: [
+				{
+					id: 270,
+					type: "item",
+					item: "ars_nouveau:mana_gem"
+				},
+				{
+					id: 271,
+					type: "item",
+					item: "ars_nouveau:worn_notebook"
+				}
+			],
+			rewards: [{
+				id: 272,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "My First Spellbook",
+			x: -5.0d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dWe all start somewhere",
+			description: [
+				"Okay, the Worn Spellbook is really good about guiding me, but Kow says she wants to give me a few extra pointers. ",
+				"",
+				"The first thing I should make is a Novice Spell Book. This lets me craft a few spells, with the few starting components.",
+				"",
+				"I'll need to remember that after I have a spell chosen, Right Clicking with the Spell Book will cast the spell! Each cast uses mana, which slowly regenerates.",
+				"",
+				"If I want to change or make new spells, I have to hold the Spellbook and hit C. V lets me swap what spell I'm casting."
+			],
+			dependencies: [I;269],
+			id: 273,
+			tasks: [{
+				id: 274,
+				type: "item",
+				item: "ars_nouveau:novice_spell_book"
+			}],
+			rewards: [{
+				id: 275,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Magical Clay",
+			icon: "ars_nouveau:magic_clay",
+			x: -2.0d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dImprinting the ideas",
+			description: [
+				'To add my Glyphs, spell components, to my spell book, I need to "imprint the soul of an object" as Kow puts it.',
+				"",
+				"&dNot quite what I said, but it'll work.",
+				"",
+				"Uh, that's what I heard? Anyways, I'll need a Glyph Press, set out near a Mana Jar with some Mana, and some Magical Clay. I Right Click the Magical Clay onto the Glyph Press to add it, then I use a Reagent likewise on it to Imprint a Glyph.",
+				"",
+				"&dIf there's enough Mana.",
+				"",
+				"Uh, yeah. There's a lot of Glyphs...what should I make first?",
+				"",
+				"&dHow about Harvest, which uses an &dIron Hoe. And... Leap, which uses a &dSpider Eye. Should be good."
+			],
+			dependencies: [I;278],
+			id: 276,
+			tasks: [
+				{
+					id: 277,
+					type: "item",
+					item: "ars_nouveau:magic_clay"
+				},
+				{
+					id: 285,
+					type: "item",
+					item: "ars_nouveau:glyph_press"
+				},
+				{
+					id: 286,
+					type: "item",
+					item: "ars_nouveau:glyph_harvest"
+				},
+				{
+					id: 287,
+					type: "item",
+					item: "ars_nouveau:glyph_leap"
+				}
+			],
+			rewards: [{
+				id: 288,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "Gathering Mana",
+			icon: "ars_nouveau:mana_condenser",
+			x: -3.5d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dMana comes in many forms",
+			description: [
+				"Not only do I have my own reserves of Mana, the world around me does to. And it is generated a lot of ways.",
+				"",
+				"Stuff like... crops growing. Creatures giving birth. Even monsters being slain release mana into the area.",
+				"",
+				"The mana released by these can be gathered with a Mana Condensor, and collected in a Mana Jar. Placing the Jar out, and a Condensor on top of it, will draw Mana from these events happening nearby.",
+				"",
+				"&dKeep in mind, you cannot have multiple &djars too close to each other. I am &dunsure of how far apart they must &dbe."
+			],
+			dependencies: [I;273],
+			id: 278,
+			tasks: [
+				{
+					id: 279,
+					type: "item",
+					item: "ars_nouveau:mana_condenser"
+				},
+				{
+					id: 280,
+					type: "item",
+					item: "ars_nouveau:mana_jar"
+				}
+			],
+			rewards: [{
+				id: 281,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "Bucket of Power",
+			icon: "ars_nouveau:bucket_of_mana",
+			x: -3.5d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "&dKind of liquidy, sort of",
+			description: [
+				"&dTraveler, when your Mana Jar &dcollects enough Mana, you can use a &dBucket on the Jar to pull some out.",
+				"",
+				"Is Mana a liquid?",
+				"",
+				"&dIs a hot dog a sandwich?",
+				"",
+				"What kind of question is that?",
+				"",
+				"&dA similarly debatable one. That doesn't &dmatter, just the product. In this case, &dthe Bucket of Mana, which I would like &dtwo of from you."
+			],
+			dependencies: [I;278],
+			id: 282,
+			tasks: [{
+				id: 283,
+				type: "item",
+				item: "ars_nouveau:bucket_of_mana",
+				count: 2L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: 284,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 22
+			}]
+		},
+		{
+			title: "Formed Mana",
+			icon: {
+				id: "ars_nouveau:mana_gem",
+				Count: 2b
+			},
+			x: -3.5d,
+			y: -1.0d,
+			shape: "diamond",
+			subtitle: "&dMulti-faceted idea",
+			description: [
+				"&dArcane Ore is not the only way you &dcan find Mana Gems, Traveler.",
+				"",
+				"Buy them from Kai, right?",
+				"",
+				"&dWell yes, but no. You can collect the &dlatent Mana in the air using a &dCrystallizer. It will slowly make Mana &dGems... and sometimes Mana Clay I &dguess. ",
+				"",
+				"How slow is slow?",
+				"",
+				"&dYou do realize it is free real &dgemstones, right? But if you want to &dspeed it up, put some Mana Jars and &dCondensors nearby.",
+				"",
+				"&dSend me ten of them, why don't you. &dHowever you want to get them."
+			],
+			dependencies: [I;276],
+			id: 289,
+			tasks: [
+				{
+					id: 290,
+					type: "item",
+					item: "ars_nouveau:crystallizer",
+					consume_items: false
+				},
+				{
+					id: 291,
+					type: "item",
+					item: "ars_nouveau:mana_gem",
+					count: 10L,
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 292,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 30
+			}]
+		},
+		{
+			title: "An Enchanting Setup",
+			icon: "ars_nouveau:enchanting_apparatus",
+			x: -2.0d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dPlease try to be symmetrical...",
+			description: [
+				"I need more mana. Let's just put it plainly, right?",
+				"",
+				"&dCollapsing after a single big spell is a &dstrange survival tactic.",
+				"",
+				"Hush. Okay, so to make more complex gear, I'm going to need an Enchanting Apparatus. Which... is actually the name of it?!",
+				"",
+				"&dI didn't name it.",
+				"",
+				"Sure, sure. Okay, so I'll need the Enchanting Apparatus, and place it on top of an Arcane Core. Then I place a bunch of Arcane Pedestals a few blocks away. How many?",
+				"",
+				"&dI'd go with 8. Base 8, of course.",
+				"",
+				"Of course. I then Right Click reagents onto each Arcane Pedestal, then the main one onto the Apparatus. Put some Mana Jars nearby too... And then Sneak + Right Click the Apparatus to start crafting?"
+			],
+			dependencies: [I;278],
+			id: 293,
+			tasks: [
+				{
+					id: 294,
+					type: "item",
+					item: "ars_nouveau:enchanting_apparatus"
+				},
+				{
+					id: 295,
+					type: "item",
+					item: "ars_nouveau:arcane_core"
+				},
+				{
+					id: 296,
+					type: "item",
+					item: "ars_nouveau:arcane_core",
+					count: 4L
+				}
+			],
+			rewards: [{
+				id: 297,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 25
+			}]
+		},
+		{
+			title: "Magical Plants",
+			icon: "ars_nouveau:mana_bloom_crop",
+			x: -0.5d,
+			y: 3.5d,
+			shape: "diamond",
+			subtitle: "&dGrow Your Own Mana",
+			description: [
+				"&dOne of the first things you should &dmake with your Apparatus, Traveler, is &da Mana Bloom Seed.",
+				"",
+				"Oh that's how it's made? Okay, cool. I can plant it near some Condensors and while it grows, it'll puff out even more Mana for it to collect.",
+				"",
+				"&dAnd the fully grown plant can be &dturned into Mana Fiber, which you will &dneed for your mage robes.",
+				"",
+				"Which give me more Mana for Spells!",
+				"",
+				"&dExactly. In fact, could you send me a &dMana Bloom Seed and some Mana &dFibers? I need to experiment with &dsomething..."
+			],
+			dependencies: [I;293],
+			dependency_requirement: "one_completed",
+			id: 298,
+			tasks: [
+				{
+					id: 299,
+					type: "item",
+					item: "ars_nouveau:mana_bloom_crop",
+					consume_items: true
+				},
+				{
+					id: 300,
+					type: "item",
+					item: "ars_nouveau:mana_fiber",
+					count: 8L,
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 301,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 25
+			}]
+		},
+		{
+			title: "Rising Spell Star",
+			icon: "ars_nouveau:apprentice_spell_book",
+			x: -7.5d,
+			y: 3.5d,
+			shape: "square",
+			subtitle: "&dMore Power",
+			description: [
+				"If I want to use bigger, more powerful spells, I'm going to need a better spellbook. ",
+				"",
+				"The Mage's Spellbook should suffice, letting me use Tier 2 Glyphs. And by upgrading my Novice Spellbook, it will copy over any spells I already have."
+			],
+			dependencies: [I;273],
+			id: 302,
+			tasks: [{
+				id: 303,
+				type: "item",
+				item: "ars_nouveau:apprentice_spell_book"
+			}],
+			rewards: [{
+				id: 308,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "The Great Archmage",
+			icon: "ars_nouveau:archmage_spell_book",
+			x: -7.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dUnlimited (not really) Power",
+			description: ["When I'm ready, I should make an Archmage Spell Book. It will let me use Tier 3 Glyphs, and provide the most power to my spells."],
+			dependencies: [I;302],
+			id: 304,
+			tasks: [{
+				id: 305,
+				type: "item",
+				item: "ars_nouveau:archmage_spell_book"
+			}],
+			rewards: [{
+				id: 309,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 30
+			}]
+		},
+		{
+			title: "A Novice Wardrobe",
+			icon: {
+				id: "ars_nouveau:novice_hood",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.0d,
+			y: 3.5d,
+			shape: "square",
+			subtitle: "&dSimple to start",
+			description: [
+				"Now that I can make Mana Blooms with the Enchanting Apparatus, I should be able to get Mana Fibers for some clothing.",
+				"",
+				"The Novice Robes, Hood, Leggings, and Boots should all increase my Mana for casting spells while I wear them. I should at least start with the Robes and Hood though.",
+				"",
+				"&dCorrect. Hoodies are always in style.",
+				"",
+				"No matter the dimension, I guess?"
+			],
+			dependencies: [I;293],
+			id: 306,
+			tasks: [
+				{
+					id: 307,
+					type: "item",
+					icon: {
+						id: "ars_nouveau:novice_hood",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					item: "ars_nouveau:creative_spell_book"
+				},
+				{
+					id: 310,
+					type: "item",
+					item: {
+						id: "ars_nouveau:novice_robes",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 311,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "A Desk of Learning",
+			icon: "ars_nouveau:scribes_table",
+			x: -0.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dMuch to learn, much to teach",
+			description: [
+				"I need a good way to copy down spells into multiple books. Keeping back ups of important things is useful.",
+				"",
+				"&dArchiving is smart. Use a Scribe's &dTable.",
+				"",
+				"Hmm, okay. So I can put a blank Spell Book on the Table, then Sneak + Right Click my own Spellbook onto it to copy my things over. ",
+				"",
+				"&dYou may also put a Spell Parchment &donto the table, select a specific spell &din your Spell Book, and Sneak + Right &dClick to copy that spell specifically."
+			],
+			dependencies: [I;276],
+			id: 312,
+			tasks: [
+				{
+					id: 313,
+					type: "item",
+					item: "ars_nouveau:scribes_table"
+				},
+				{
+					id: 314,
+					type: "item",
+					item: "ars_nouveau:blank_parchment"
+				},
+				{
+					id: 315,
+					type: "item",
+					item: {
+						id: "ars_nouveau:spell_parchment",
+						Count: true,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: 316,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Warp Speed",
+			icon: {
+				id: "ars_nouveau:warp_scroll",
+				Count: true,
+				tag: {}
+			},
+			x: -2.0d,
+			y: -1.0d,
+			shape: "diamond",
+			subtitle: "&dInstant Transmission",
+			description: [
+				"For getting around, nothing beats just... teleporting to my destination. And Warp Scrolls let me do that. I can Sneak + Right Click with one to bind my current location to a Warp Scroll.",
+				"",
+				"The downside is they are only one use each.",
+				"",
+				"&dYou can use a Warp Scroll to make a &dWarp Portal. Make a Portal Frame out &dof Arcane Bricks, with a 2 wide by 3 &dtall opening. Then place a FULL Mana &dJar close to it. Finally, throw the Warp &dScroll with a location bound into the &dopening.",
+				"",
+				"&dSend me a couple Warp Scrolls and &dsome Arcane Bricks, Traveler. I have &duses for them."
+			],
+			dependencies: [I;312],
+			id: 317,
+			tasks: [
+				{
+					id: 318,
+					type: "item",
+					item: {
+						id: "ars_nouveau:warp_scroll",
+						Count: true,
+						tag: {}
+					},
+					count: 2L,
+					consume_items: true
+				},
+				{
+					id: 320,
+					type: "item",
+					item: "ars_nouveau:arcane_bricks",
+					count: 10L,
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 319,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 25
+			}]
+		},
+		{
+			title: "Warp'd",
+			icon: "ars_nouveau:glyph_blink",
+			x: -0.5d,
+			y: -1.0d,
+			shape: "diamond",
+			subtitle: "&dGet Outta Here",
+			description: [
+				"&dTraveler, these Warp Scrolls are &duseful in another way. You can use &dthem with the Tier 3 Glyph called Blink.",
+				"",
+				"Blink? That sounds like a Wor....",
+				"",
+				"&dYes yes, classic game spell. Lets you &dteleport with magic. Very useful. But if &dyou have a bound Warp Scroll in your &dOff Hand? You don't teleport yourself.",
+				"",
+				"You teleport... something else?",
+				"",
+				"&dBingo. If you hit a creature with your &dBlink spell, it will teleport to your Warp &dScroll's location instead.",
+				"",
+				"&dSend me a Blink glyph, I think it'll be &duseful."
+			],
+			dependencies: [I;317],
+			id: 321,
+			tasks: [{
+				id: 322,
+				type: "item",
+				item: "ars_nouveau:glyph_blink",
+				consume_items: true
+			}],
+			rewards: [{
+				id: 323,
+				type: "item",
+				icon: "economyinc:item_fiveb",
+				item: "economyinc:item_fiveb",
+				count: 25
+			}]
+		},
+		{
+			title: "A Mysterious Wand",
+			icon: "ars_nouveau:wand",
+			x: -0.5d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dDon't got an Identify Scroll on me.",
+			description: [
+				"A spell book is all well and good, but it has limited slots, and sometimes I use just one spell repeatedly. For that, Kow says I should inscribe the spell on a Casting Wand.",
+				"",
+				"There's a limit though. The Wand ALWAYS starts with Projectile > Accelerate, so any spell I want on it shouldn't start with another casting method. If I want to cast Harvest with the Wand, I should have JUST Harvest as the spell component.",
+				"",
+				"To inscribe a spell onto the Casting Wand, I need to place it in a Scribe Table first, then select the spell in my Spell Book. Sneak + Right Click the spell book onto the Scribe Table and voila, a new Wand!"
+			],
+			dependencies: [I;
+				312,
+				293
+			],
+			id: 324,
+			tasks: [{
+				id: 325,
+				type: "item",
+				item: "ars_nouveau:wand"
+			}],
+			rewards: [{
+				id: 326,
+				type: "item",
+				item: "economyinc:item_fiveb"
+			}]
+		},
+		{
+			title: "Archmage's Treeline",
+			icon: "ars_nouveau:blue_archwood_sapling",
+			x: -5.0d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "&dMagical wood",
+			description: [
+				"A special species of trees grow almost anywhere in the world. They are called Archwood trees, and there are four varieties of them. I should find and grow a lot of each, I'll probably need them.",
+				"",
+				"&dAlso keep an eye out for Source &dBerry Bushes. Usually in Taiga biomes. &dThey are fantastic for Mana Potions.",
+				"",
+				"&dNo rush, but please send me one of &deach sapling and a Source Berry. I &dhave a new area to plant these in."
+			],
+			dependencies: [I;273],
+			id: 327,
+			tasks: [
+				{
+					id: 328,
+					type: "item",
+					item: "ars_nouveau:blue_archwood_sapling",
+					consume_items: true
+				},
+				{
+					id: 329,
+					type: "item",
+					item: "ars_nouveau:purple_archwood_sapling",
+					consume_items: true
+				},
+				{
+					id: 330,
+					type: "item",
+					item: "ars_nouveau:green_archwood_sapling",
+					consume_items: true
+				},
+				{
+					id: 331,
+					type: "item",
+					item: "ars_nouveau:red_archwood_sapling",
+					consume_items: true
+				},
+				{
+					id: 332,
+					type: "item",
+					item: "ars_nouveau:mana_berry",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 333,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 50
+			}]
+		},
+		{
+			title: "Magically Accessorize",
+			icon: "ars_nouveau:amulet_of_mana_regen",
+			x: -2.0d,
+			y: 5.0d,
+			shape: "diamond",
+			subtitle: "&dMana Trinkets",
+			description: [
+				"Mage robes aren't the only way for me to increase my mana, it seems. I figure it'd be like... leveling up my stats or something?",
+				"",
+				"&dLeveling up your fashion sense, &dmostly.",
+				"",
+				"Fashion souls is something I understand. Things like the Ring of Lesser Discount makes spells cost less, and the Amulet of Mana Regen...",
+				"",
+				"&dDoes what it says on the tin. Here, &dmake and send me one of each, I want &dto expand my accessory wardrobe."
+			],
+			dependencies: [I;306],
+			id: 334,
+			tasks: [
+				{
+					id: 335,
+					type: "item",
+					item: "ars_nouveau:amulet_of_mana_regen"
+				},
+				{
+					id: 336,
+					type: "item",
+					item: "ars_nouveau:ring_of_lesser_discount"
+				}
+			],
+			rewards: [{
+				id: 337,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 25
+			}]
+		},
+		{
+			title: "Burny Mana",
+			icon: "ars_nouveau:volcanic_accumulator",
+			x: -5.0d,
+			y: 3.5d,
+			shape: "square",
+			subtitle: "&dHot hot hot",
+			description: [
+				"Another way I can generate Mana is with the Volcanic Accumulator. It can actively consume Burning Archwood logs to generate Mana.",
+				"",
+				"It can also passively generate Mana with Lava under it, in the 3x3 space below its center. This not only generates Mana, it also generates Heat.",
+				"",
+				"This heat can melt Stones into Magma Blocks, and Magma Blocks into Lava, when they are placed in that same 3x3 area.",
+				"",
+				"&dThis heat can also make Lava Lillies &dspawn on open &dLava."
+			],
+			dependencies: [I;278],
+			id: 338,
+			tasks: [{
+				id: 339,
+				type: "item",
+				item: "ars_nouveau:volcanic_accumulator"
+			}],
+			rewards: [{
+				id: 340,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Magical Turrets",
+			icon: "ars_nouveau:spell_turret",
+			x: 1.0d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dTarget Acquired",
+			description: [
+				"Of course, the next step after making a wand cast a spell, is making something to use the wand automatically for me. Except we can just skip the whole wand part.",
+				"",
+				"The Spell Turret works like a dispenser, using Touch and Projectile based spells, casting them when a Redstone Signal is given to it.",
+				"",
+				"To tell a turret which Spell to use, I need to inscribe it on a Spell Parchment, then use that Parchment on the Spell Turret.",
+				"",
+				"&dDon't forget to put Mana Jars with &dMana near the Spell Turret for the &dspells."
+			],
+			dependencies: [I;324],
+			id: 341,
+			tasks: [{
+				id: 342,
+				type: "item",
+				item: "ars_nouveau:spell_turret"
+			}],
+			rewards: [{
+				id: 343,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Carbuncles",
+			icon: "ars_nouveau:carbuncle_charm",
+			x: 1.0d,
+			y: 3.5d,
+			shape: "square",
+			subtitle: "&dLittle Movers",
+			description: [
+				"Spell Turrets are great for automating stuff like farming small areas, but not great at collecting the items it harvests.",
+				"",
+				"For that, Kow has taught me how to befriend a creature called a Carbuncle. They are usually in woods, and wild ones are afraid of people. But, holding out a Gold Nugget and giving it to them can befriend them enough to give me a Carbuncle Shard.",
+				"",
+				"This Shard can be enchanted into a Carbuncle Charm, which lets me summon the Carbuncle. They can help collect and move items around.",
+				"",
+				"&dBe sure to read up in your Worn &dNotebook, Traveler. You can direct &dthem with a Dominion Wand, for example."
+			],
+			dependencies: [I;341],
+			id: 344,
+			tasks: [
+				{
+					id: 345,
+					type: "item",
+					item: "ars_nouveau:carbuncle_shards"
+				},
+				{
+					id: 346,
+					type: "item",
+					item: "ars_nouveau:carbuncle_charm"
+				}
+			],
+			rewards: [{
+				id: 347,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Transfering Mana",
+			icon: {
+				id: "ars_nouveau:dominion_wand",
+				Count: true,
+				tag: {}
+			},
+			x: -3.5d,
+			y: 3.5d,
+			shape: "square",
+			subtitle: "&dIt all adds up",
+			description: [
+				"Since Mana Condensors cannot be too close to each other, I need a way of gathering Mana from a larger area and moving it to my work area. You know, without just using buckets constantly...",
+				"",
+				"Thankfully, I can use Mana Relays for that, along with the Dominion Wand. Sneak + Right Clicking the Wand on Mana Jars and Mana Relays lets me set the path. The first thing I Sneak + Right Click will send Mana to the second thing.",
+				"",
+				"This way I can chain Relays from further away, and gather mana from all my farms and monster grinders!"
+			],
+			dependencies: [I;
+				278,
+				293
+			],
+			id: 348,
+			tasks: [
+				{
+					id: 349,
+					type: "item",
+					item: {
+						id: "ars_nouveau:dominion_wand",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 350,
+					type: "item",
+					item: "ars_nouveau:arcane_relay"
+				}
+			],
+			rewards: [{
+				id: 351,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "Whelps",
+			icon: "ars_nouveau:whelp_charm",
+			x: 2.5d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dLittle Casters",
+			description: [
+				"Whelps are tiny dragon looking things that can cast spells much like a Spell Turret. But instead of being aimed in a specific direction, they cast them in the area around their Summoning Crystal.",
+				"",
+				"I need to put a Summoning Crystal in the center of the area I want the Whelps to work, then Right Click a Whelp Charm onto the Crystal. Then I can Right Click an inscribed Spell Parchment onto the Whelp to tell it what spell to cast.",
+				"",
+				"Like the Turrets, the Whelps only cast Touch and Projectile magic. I can also change their behaviour using a Dominion Wand.",
+				"",
+				"&dDon't forget Mana Jars for the &dWhelp's spells, Traveler. And a chest &dnext to the Summoning Crystal for &dstorage."
+			],
+			dependencies: [I;341],
+			id: 352,
+			tasks: [
+				{
+					id: 353,
+					type: "item",
+					item: "ars_nouveau:whelp_charm"
+				},
+				{
+					id: 354,
+					type: "item",
+					item: "ars_nouveau:summoning_crystal"
+				}
+			],
+			rewards: [{
+				id: 355,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Wixies",
+			icon: "ars_nouveau:wixie_charm",
+			x: 1.0d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dLittle Crafters",
+			description: [
+				"Wixies are... Pixie Witches, but that name just sounds... too cute. Getting a Wixie is not that cute, I need to fight a Witch to half health, then use a Dispell spell on them. I can then take the Shard and make a Wixie Charm.",
+				"",
+				"Right Clicking a Wixie Charm on a normal Cauldron will sommon them. Wixies can craft things automatically for me if given the resources nearby and some Mana. I just need to Right Click the item onto the Cauldron I want the Wixie to keep crafting.",
+				"",
+				"&dTraveler, be careful. The Wixie is &dpersistant and will craft an item with &dany valid resource it can. If you want &da Wixie to make sticks, make sure your &drare wood is not near it."
+			],
+			dependencies: [I;341],
+			id: 356,
+			tasks: [
+				{
+					id: 357,
+					type: "item",
+					item: "ars_nouveau:glyph_dispel"
+				},
+				{
+					id: 358,
+					type: "item",
+					item: "ars_nouveau:wixie_shards"
+				},
+				{
+					id: 359,
+					type: "item",
+					item: "ars_nouveau:wixie_charm"
+				}
+			],
+			rewards: [{
+				id: 360,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Sylphs",
+			icon: "ars_nouveau:sylph_charm",
+			x: 2.5d,
+			y: 2.5d,
+			shape: "square",
+			subtitle: "&dLittle Growers",
+			description: [
+				"Sylphs are little creatures in wooded areas that like to follow other creatures around. If you grow a tree near them, they may drop a Sylph Shard you can make a Sylph Charm from!",
+				"",
+				"Sylphs can create natural items like crops, trees, logs, etc with magic. They just need a variety of these things near them to be happy, and some Mana to work their magic.",
+				"",
+				"To summon a Sylph, Right Click the Sylph Charm on a Summoning Crystal. Then fill the area around it with a wide variety of plants and trees to keep it happy.",
+				"",
+				"&dThat's very important, Traveller. If &dthe Sylph has too much of one plant &dor tree, it will be unhappy and make &dyou nothing. "
+			],
+			dependencies: [I;341],
+			id: 361,
+			tasks: [
+				{
+					id: 362,
+					type: "item",
+					item: "ars_nouveau:sylph_shards"
+				},
+				{
+					id: 364,
+					type: "item",
+					item: "ars_nouveau:sylph_charm"
+				},
+				{
+					id: 365,
+					type: "item",
+					item: "ars_nouveau:summoning_crystal"
+				}
+			],
+			rewards: [{
+				id: 363,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "A Handy List",
+			icon: {
+				id: "ars_nouveau:allow_scroll",
+				Count: true,
+				tag: {}
+			},
+			x: 2.5d,
+			y: 5.0d,
+			shape: "square",
+			subtitle: "&dWhat to do, what not to do",
+			description: [
+				"Carbuncles don't care what items they are moving, just that they are moving them. But they are friendly little creatures, and you can explain to them what you do and don't want moved.",
+				"",
+				"By putting an Item: Allow or Item: Deny scroll onto a Scribe Table, I can Right Click Items and Blocks onto it to write them down. Then I can Right Click the scroll onto the Carbuncle to inform it what to do."
+			],
+			dependencies: [I;344],
+			id: 366,
+			tasks: [
+				{
+					id: 367,
+					type: "item",
+					item: {
+						id: "ars_nouveau:deny_scroll",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 368,
+					type: "item",
+					item: {
+						id: "ars_nouveau:allow_scroll",
+						Count: true,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: 369,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "A Clean Inventory",
+			icon: {
+				id: "ars_nouveau:void_jar",
+				Count: true,
+				tag: {}
+			},
+			x: 1.0d,
+			y: 5.0d,
+			shape: "square",
+			subtitle: "&dBlack Hole Take Away",
+			description: [
+				"The Jar of Voiding is a handy little thing to have on extended mining trips. I mean, other than a giant backpack to carry everything.",
+				"",
+				"The jar needs to be turned on and off by Sneak + Right Clicking with it. I can then add items to the list for it to destroy when picked up, by putting the item in my Off Hand and Right Clicking.",
+				"",
+				"When it destroys an item, it gives a tiny little bit of Mana."
+			],
+			dependencies: [I;366],
+			id: 370,
+			tasks: [{
+				id: 371,
+				type: "item",
+				item: {
+					id: "ars_nouveau:void_jar",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 372,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			icon: "ars_nouveau:jar_of_light",
+			x: -0.5d,
+			y: 5.0d,
+			shape: "square",
+			subtitle: "&dWispy and Bright",
+			description: [
+				"Something that should help me out is making a Jar of Light.",
+				"",
+				"I can summon a tiny wisp of light to follow me by Right Clicking with the Jar. It will illuminate the area, great for deep mining trips."
+			],
+			dependencies: [I;298],
+			id: 373,
+			tasks: [{
+				id: 374,
+				type: "item",
+				item: "ars_nouveau:jar_of_light"
+			}],
+			rewards: [{
+				id: 375,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Power Runes",
+			icon: {
+				id: "ars_nouveau:runic_chalk",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.0d,
+			y: -1.0d,
+			shape: "diamond",
+			subtitle: "&dDeadly Hopscotch",
+			description: [
+				"A neat thing Kow taught me is that I can draw magic Runes on the ground with Runic Chalk, and imbue them with spells.",
+				"",
+				"Right Clicking the Runic Chalk on the ground will draw a Rune, which I can then Right Click with a Spell Parchment containing the spell I want it to cast when something walks over it. ",
+				"",
+				"&dIt'll use up the Rune when it casts a &dspell. Keep Mana Jars with Mana &dnearby to recharge them.",
+				"",
+				"&dHmm, seems my chalk box is running &dlow, mind sending me some?"
+			],
+			dependencies: [I;312],
+			id: 376,
+			tasks: [{
+				id: 377,
+				type: "item",
+				item: {
+					id: "ars_nouveau:runic_chalk",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				count: 5L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: 378,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 30
+			}]
+		}
+	]
+}
