@@ -537,7 +537,7 @@
     {
       "uuid": "064ee331-d4ef-471f-8128-620a81f46a63",
       "name": " Mana Gem (Sell)",
-      "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. ",
+      "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. \n    Since Mana Gems can be created from mana, I will pay a little less for them than usual.",
       "x": 210,
       "y": 112,
       "icon": {
@@ -565,7 +565,7 @@
       "reward": [
         {
           "id": "economyinc:item_fiveb",
-          "Count": 4
+          "Count": 1
         }
       ],
       "rewardchoice": [],
