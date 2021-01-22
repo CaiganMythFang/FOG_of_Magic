@@ -341,7 +341,7 @@
 				"",
 				"I can 'train' my rats to be stronger, more hardy, and to do various tasks with Rat Upgrades.",
 				"",
-				"Each rat can only hold one Upgrade, and they may need a special tool or piece of equipment to function as well. Such as the Rat Upgrade: Crafting rat will need a Rat Crafting Table to craft with.",
+				"Each rat can only up to three Upgrades, and they may need a special tool or piece of equipment to function as well. Such as the Rat Upgrade: Crafting rat will need a Rat Crafting Table to craft with.",
 				"",
 				"Upgrades like the basic Strength one need no extra items to function.",
 				""
@@ -588,7 +588,7 @@
 		{
 			title: "Rat in Dee Miner",
 			icon: "rats:rat_upgrade_miner_ore",
-			x: -2.5d,
+			x: -3.0d,
 			y: 0.0d,
 			shape: "diamond",
 			subtitle: "&dSmall Helpers",
@@ -619,7 +619,7 @@
 		{
 			title: "Ratat....",
 			icon: "rats:rat_upgrade_chef",
-			x: -4.0d,
+			x: -4.5d,
 			y: 0.0d,
 			shape: "diamond",
 			subtitle: "&dDon't finish that word, we already &dknow.",
@@ -650,7 +650,7 @@
 		{
 			title: "Yarr",
 			icon: "rats:rat_upgrade_buccaneer",
-			x: -5.5d,
+			x: -6.0d,
 			y: 0.0d,
 			shape: "diamond",
 			subtitle: "&dDangerous Seas",
@@ -1006,6 +1006,117 @@
 				},
 				{
 					id: 141,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				}
+			]
+		},
+		{
+			title: "Rat Powers Combined",
+			icon: "rats:rat_upgrade_combined",
+			x: -4.0d,
+			y: 4.0d,
+			shape: "square",
+			subtitle: "&dStronger and stronger",
+			description: [
+				"Even though Rats can hold up to three Upgrades, there are so many upgrades they could use at once. And Jury-Rigged is nice, but its also permanent...",
+				"",
+				"The ancient Ratlanteans had a thing called a Combiner. It lets me fuse multiple Upgrades into one, and swap more in and out as needed.",
+				"",
+				"To start with, I need the Combiner, and a Ratlantean Gem to power it. I place the Combined upgrade along with the Upgrade I want to add to it, and voila, combined. I can add more Upgrades like this to the single Combined upgrade.",
+				"",
+				"If I want to redo what Upgrades are on the Combined upgrade, I need to drop it onto a Seperator to break it all apart and start again."
+			],
+			dependencies: [I;111],
+			id: 379,
+			tasks: [
+				{
+					id: 380,
+					type: "item",
+					item: "rats:rat_upgrade_combined"
+				},
+				{
+					id: 390,
+					type: "item",
+					item: "rats:upgrade_combiner"
+				},
+				{
+					id: 391,
+					type: "item",
+					item: "rats:upgrade_separator"
+				}
+			],
+			rewards: [{
+				id: 392,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 50
+			}]
+		},
+		{
+			title: "Cobbled Together",
+			icon: "rats:rat_upgrade_jury_rigged",
+			x: -2.0d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "&dA quick and dirty solution",
+			description: [
+				"There are lots of Rat Upgrades, but not a lot of Rat Upgrade Slots per rat, right? Is there a way to like... combine them?",
+				"",
+				"&dYes. You can use the Jury Rig &dupgrade to... well, jury rig two &dupgrades together. This is permanent, &dmind you. ",
+				"",
+				"That should be very useful anyways. I'll just have to be careful.",
+				"",
+				"&dSure. Send me a couple of the &dJury-Rigged upgrades, I want to do &dsome testing."
+			],
+			dependencies: [I;80],
+			id: 381,
+			tasks: [{
+				id: 382,
+				type: "item",
+				item: "rats:rat_upgrade_jury_rigged",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: 383,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 384,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 385,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 386,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 387,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 388,
+					type: "item",
+					item: "economyinc:item_fiveb",
+					count: 50
+				},
+				{
+					id: 389,
 					type: "item",
 					item: "economyinc:item_fiveb",
 					count: 50
