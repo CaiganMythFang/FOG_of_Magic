@@ -1,0 +1,477 @@
+{
+	id: 407,
+	filename: "powder_power",
+	order_index: 7,
+	title: "Powder Power",
+	icon: "powder_power:blend_quadrilium",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Powder Power",
+			icon: {
+				id: "powder_power:hammer_alchemist",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -0.5d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dTo go one step beyond",
+			description: [
+				"So... this is pretty heavy stuff, but Kow has clued me in to materials that are stronger than Diamonds. Stronger than Netherite even, and thats the big new one I only recently heard of.",
+				"",
+				"They are called Powder Power materials. One of them sits between Diamond and Netherrite, but each of the others is one step higher than the last.",
+				"",
+				"And the best part? They are made basically by alloying normal, vanilla materials over and over again to create it.",
+				"",
+				"To start, I'll need to make an Alchemist Hammer and Mortar and Pestle."
+			],
+			dependencies: [I;37],
+			id: 408,
+			tasks: [
+				{
+					id: 409,
+					type: "item",
+					item: {
+						id: "powder_power:hammer_alchemist",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 410,
+					type: "item",
+					item: {
+						id: "powder_power:motar_pestle",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 411,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Redium and Lapium",
+			x: -0.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dRed vs Blue, of course",
+			description: [
+				"Okay, so the first Powder Power material is, actually, two materials. But they are basically the same? Redium and Lapium.",
+				"",
+				"&dRedium and Lapium sit somewhere &dbetween Diamond and Netherite. As &dwell, Lapium armor gives water &dbreathing and poison protection, while &dRedium gives fire and wither &dprotection."
+			],
+			dependencies: [I;408],
+			id: 412,
+			tasks: [
+				{
+					id: 413,
+					type: "item",
+					title: "Any forge:ingots/redium",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/redium"
+						}
+					}
+				},
+				{
+					id: 414,
+					type: "item",
+					title: "Any forge:ingots/lapium",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/lapium"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 415,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 30
+			}]
+		},
+		{
+			title: "An Extra Life",
+			x: -2.0d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dDon't waste it, now",
+			description: [
+				"Powder Power gives me some unique Curios I can equip for various things. But one of the best things? I just gotta keep on my hotbar!",
+				"",
+				"The Healing Token will break and heal me if I ever am about to die. Kind of expensive, but that's better than losing my stuff in a grave at the bottom of the Nether lava sea."
+			],
+			dependencies: [I;412],
+			id: 416,
+			tasks: [{
+				id: 417,
+				type: "item",
+				item: "powder_power:token_healing"
+			}],
+			rewards: [{
+				id: 424,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Safe landing",
+			icon: "powder_power:token_no_fall",
+			x: -2.0d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dMore stylish than Long Fall Boots",
+			description: ["The No Fall Damage Token is a fantastic accessory when traversing the Nether, with its tall walls and long falls."],
+			dependencies: [I;412],
+			id: 418,
+			tasks: [{
+				id: 419,
+				type: "item",
+				item: "powder_power:token_no_fall"
+			}],
+			rewards: [{
+				id: 425,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Abradablammo",
+			icon: {
+				id: "powder_power:wand_alchemist",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.0d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dWhat?",
+			description: [
+				"The Alchemist Wand lets me magically transform Overworld blocks to Nether, and Nether to End. It works on specific blocks only, but its a good way to save myself a trip to either place when I'm short on something.",
+				"",
+				"A good example is turning Dirt into Netherrack into Magma into Basalt into Blackstone. Or Granite into Purpur. Or Diorite into Endstone."
+			],
+			dependencies: [I;412],
+			id: 420,
+			tasks: [{
+				id: 421,
+				type: "item",
+				item: {
+					id: "powder_power:wand_alchemist",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 426,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "A Jump To The Sky",
+			icon: "powder_power:token_jump_boost",
+			x: 1.0d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dTurns into a kick?",
+			description: ["The Jump Boost Token is fun, giving me bigger hops, which makes traversing the high cliffs of the mountains much easier. "],
+			dependencies: [I;412],
+			id: 422,
+			tasks: [{
+				id: 423,
+				type: "item",
+				item: "powder_power:token_jump_boost"
+			}],
+			rewards: [{
+				id: 427,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Gemium",
+			icon: "powder_power:gem_gemium",
+			x: 2.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dRefined and Bolstered Diamonds",
+			description: [
+				"If Redium and Lapium are just under Netherite, then Gemium is just above it. ",
+				"",
+				"As a bonus, Gemium armor gives the benefits of both Redium and Lapium buffs, as well as a little regeneration and slow fall."
+			],
+			dependencies: [I;412],
+			id: 428,
+			tasks: [{
+				id: 429,
+				type: "item",
+				item: "powder_power:gem_gemium"
+			}],
+			rewards: [{
+				id: 430,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 35
+			}]
+		},
+		{
+			title: "Not Seen, Not Heard",
+			icon: "powder_power:token_unseen",
+			x: 3.5d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dMay as well be Cliff Racers...",
+			description: [
+				"It seems this dimension really wants me to get a good night's sleep, right? These Phantoms like to show up when I haven't actually slept properly for a few nights, and it is quite annoying.",
+				"",
+				"Thankfully, I can make an Unseen Token, which makes me invisible to them. They are still there, they just can't see me, at least.",
+				"",
+				"And to boot, I don't even have to wear it. Just carrying it in my pocket works."
+			],
+			dependencies: [I;428],
+			id: 431,
+			tasks: [{
+				id: 432,
+				type: "item",
+				item: "powder_power:token_unseen"
+			}],
+			rewards: [{
+				id: 435,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Bright Days Ahead",
+			icon: "powder_power:token_sunshine",
+			x: 3.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dBring Sunglasses",
+			description: [
+				"It's amazing how often it rains here. And sometimes I just want to explore in peace without carrying an umbrella, right?",
+				"",
+				"The Sunshine Token can be Right Clicked to banish the rain. Fantastic! "
+			],
+			dependencies: [I;428],
+			id: 433,
+			tasks: [{
+				id: 434,
+				type: "item",
+				item: "powder_power:token_sunshine"
+			}],
+			rewards: [{
+				id: 436,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Trilium",
+			icon: "powder_power:ingot_trilium",
+			x: -3.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dPowerfully Pink",
+			description: [
+				"These materials are getting more intense. And not just in how durable they are. This is really pink, and I approve.",
+				"",
+				"Trilium sits at about double Redium/Lapis in durability. It also adds onto Gemium's armor buffs with levitation protection, and the ability to swim faster around Dolphins which... is weird?"
+			],
+			dependencies: [I;428],
+			id: 437,
+			tasks: [{
+				id: 438,
+				type: "item",
+				item: "powder_power:ingot_trilium"
+			}],
+			rewards: [{
+				id: 439,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 35
+			}]
+		},
+		{
+			title: "Underwate Prowess",
+			icon: "powder_power:token_conduit_power",
+			x: -4.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dLike a weird fish",
+			description: [
+				"The Conduit Power Token basically turns me into a mermaid.",
+				"",
+				"&dUh... no.",
+				"",
+				"Fine fine, it makes me swim better, see under water, and most important breath underwater."
+			],
+			dependencies: [I;437],
+			id: 440,
+			tasks: [{
+				id: 441,
+				type: "item",
+				item: "powder_power:token_conduit_power"
+			}],
+			rewards: [{
+				id: 445,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Healthier",
+			x: -4.5d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dJust Tank It",
+			description: ["The Absorption Token adds more health to me, making me able to survive more hits. Quite simple, really."],
+			dependencies: [I;437],
+			id: 442,
+			tasks: [{
+				id: 443,
+				type: "item",
+				item: "powder_power:token_absorption"
+			}],
+			rewards: [{
+				id: 444,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Quadrilium",
+			icon: "powder_power:ingot_quadrilium",
+			x: -0.5d,
+			y: 2.6964285714285694d,
+			shape: "square",
+			subtitle: "&dMy Purple Theory continues...",
+			description: [
+				"Quadrilium. The best of the best, the dark purple powerhouse. It takes a lot to make this, including making Netherite for it.",
+				"",
+				"Over twice as strong as Netherrite, twice and protective, and dang stylish to boot."
+			],
+			dependencies: [I;
+				437,
+				428,
+				412
+			],
+			id: 446,
+			tasks: [{
+				id: 447,
+				type: "item",
+				item: "powder_power:ingot_quadrilium"
+			}],
+			rewards: [{
+				id: 448,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 40
+			}]
+		},
+		{
+			title: "A Quick Cure",
+			icon: "powder_power:token_curing",
+			x: -1.5d,
+			y: 3.75d,
+			shape: "square",
+			subtitle: "&dThe Essence of Milk",
+			description: [
+				"A lot of these really tough monsters hit hard not just to my health directly, but they like to slow me down, disorient me, poison me, and more.",
+				"",
+				"The Curing Token cuts that silliness out. It automatically cures me of most ailments when they hit me, as long as I have the Token in my inventory."
+			],
+			dependencies: [I;446],
+			id: 449,
+			tasks: [{
+				id: 450,
+				type: "item",
+				item: "powder_power:token_curing"
+			}],
+			rewards: [{
+				id: 455,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Flight of the Dragons",
+			icon: "powder_power:token_dragon",
+			x: 0.5d,
+			y: 3.75d,
+			shape: "square",
+			subtitle: "&dFire Breath Not Included",
+			description: ["Do I want to fly? Heck yeah I do. And the Dragon Token lets me do just that!"],
+			dependencies: [I;446],
+			id: 451,
+			tasks: [{
+				id: 452,
+				type: "item",
+				item: "powder_power:token_dragon"
+			}],
+			rewards: [{
+				id: 456,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		},
+		{
+			title: "Ultimate Resistance",
+			icon: "powder_power:token_supreme_resistance",
+			x: -0.5d,
+			y: 4.75d,
+			shape: "square",
+			subtitle: "&dDon't need to dodge if it doesn't hurt",
+			description: [
+				"So, there isn't really a step above Quadrillion when it comes to material... but there is when it comes to these magic Tokens. ",
+				"",
+				"By folding multiple Attack Resistance tokens into each other, with some Netherite as well, we get basically the absolute ultimate Attack Resistance Token."
+			],
+			dependencies: [I;446],
+			id: 453,
+			tasks: [{
+				id: 454,
+				type: "item",
+				item: "powder_power:token_supreme_resistance"
+			}],
+			rewards: [{
+				id: 457,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 20
+			}]
+		}
+	]
+}
