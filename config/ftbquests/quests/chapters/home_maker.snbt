@@ -382,6 +382,17 @@
 				item: "economyinc:item_fiveb",
 				count: 10
 			}]
+		},
+		{
+			x: 1.0d,
+			y: -0.75d,
+			shape: "square",
+			id: 458,
+			tasks: [{
+				id: 459,
+				type: "item",
+				item: "solcarrot:food_book"
+			}]
 		}
 	]
 }
