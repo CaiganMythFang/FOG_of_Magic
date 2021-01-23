@@ -1,6 +1,6 @@
 {
 	version: 9,
-	last_id: 392,
+	last_id: 457,
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",
@@ -14,5 +14,5 @@
 		boss: 0
 	},
 	disable_gui: false,
-	grid_scale: 0.5d
+	grid_scale: 0.25d
 }
