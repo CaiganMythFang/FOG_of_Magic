@@ -384,14 +384,65 @@
 			}]
 		},
 		{
+			title: "Food Journal",
+			icon: "solcarrot:food_book",
 			x: 1.0d,
 			y: -0.75d,
 			shape: "square",
+			subtitle: "&dBetter than a recipe blog",
+			description: [
+				"&dTraveler, you'll probably want to keep &dyour diet quite diversified.",
+				"",
+				"How come?",
+				"",
+				"&dWell, around here, the more variety of &ddishes you try, the healthier you are. &dSomething about the God of Cooking, &daccording to the villagers?",
+				"",
+				"G... God of cooking?!",
+				"",
+				"&dGod, no God, whatever. But you can't &ddeny that the more foods you try, the &dhealthier you are. You can use a Food &dBook to track what you've tried."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
 			id: 458,
 			tasks: [{
 				id: 459,
 				type: "item",
 				item: "solcarrot:food_book"
+			}],
+			rewards: [{
+				id: 460,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
+			}]
+		},
+		{
+			title: "Animals by Alex",
+			icon: "alexsmobs:animal_dictionary",
+			x: -3.0d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dWhat an interesting journal",
+			description: [
+				"There's a whole lot of animals here, some of them I have back home in my old dimension, and some of them... are very different, or altogether new. ",
+				"",
+				"&dHere, make this Animal Book. It's the &djournal of Alex, an explorer who &dwrote down notes on many of the &danimals.",
+				"",
+				"Not all of them? I guess there ARE too many for one person to study. "
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 461,
+			tasks: [{
+				id: 462,
+				type: "item",
+				item: "alexsmobs:animal_dictionary"
+			}],
+			rewards: [{
+				id: 463,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
 			}]
 		}
 	]
