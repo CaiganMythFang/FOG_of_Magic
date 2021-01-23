@@ -1,0 +1,58 @@
+{
+  "name": "Misc Electronics",
+  "quests": [
+    {
+      "uuid": "1b60a83c-27ca-48c4-9c1b-1903db1c53e9",
+      "name": " Camera Mod (Buy)",
+      "description": "    The Camera is a simple but fun tool. As long as you have Paper in your inventory, you can use it to take Photos.\n    The Image Frame can be resized by Sneak+Right Clicking it. Then Right Click a photo onto it to display it.\n    Or you can put the photos in a Photo Album. Sneak+Right Click while holding the Album to add or remove Photos from it",
+      "x": 17,
+      "y": 20,
+      "icon": {
+        "id": "camera:camera",
+        "Count": 1,
+        "tag": {
+          "active": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "camera:camera",
+          "Count": 1,
+          "tag": {
+            "active": 0
+          }
+        },
+        {
+          "id": "camera:image_frame",
+          "Count": 5
+        },
+        {
+          "id": "camera:album",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
