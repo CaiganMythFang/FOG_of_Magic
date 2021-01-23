@@ -28,6 +28,7 @@
 				"&dSo, I will teach you how to design and &dmake things for your comfort as well."
 			],
 			dependencies: [I;37],
+			size: 1.5d,
 			id: 244,
 			tasks: [{
 				id: 245,
@@ -231,6 +232,155 @@
 				type: "item",
 				item: "economyinc:item_fiveb",
 				count: 5
+			}]
+		},
+		{
+			title: "Useful Backpacks",
+			icon: "usefulbackpacks:backpack_small",
+			x: 1.0d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dCarry more, survive more",
+			description: [
+				"Backpacks are super useful to have, and I should probably make one as soon as possible.",
+				"",
+				"Small and Medium backpacks are super easy to make, at least.",
+				"",
+				"If I equip them to my Curios back slot, I can hit B to open my backpack at any time."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 393,
+			tasks: [
+				{
+					id: 394,
+					type: "item",
+					item: "usefulbackpacks:backpack_small"
+				},
+				{
+					id: 395,
+					type: "item",
+					item: "usefulbackpacks:backpack_medium"
+				}
+			],
+			rewards: [{
+				id: 396,
+				type: "item",
+				item: "economyinc:item_fiveb"
+			}]
+		},
+		{
+			title: "PACK NOTES 4",
+			icon: "ars_nouveau:belt_of_unstable_gifts",
+			x: 0.0d,
+			y: -3.5d,
+			shape: "gear",
+			subtitle: "&dCurios Accessories",
+			description: [
+				"&6In your inventory, to the upper left &6of your portrait, you can see a little &6circle gem shaped button. If you &6press it, you open up your Curios &6Equip menu.",
+				"",
+				"&6Many mods, especially magical ones, &6add accessories you can equip in &6these slots. They act like normal &6equipment, giving you stats and &6abilities while equipped. "
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 397,
+			tasks: [{
+				id: 398,
+				type: "checkmark",
+				title: "Curios",
+				icon: "usefulbackpacks:backpack_small"
+			}]
+		},
+		{
+			title: "Even More Useful Backpacks",
+			x: 2.0d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dCarry it all",
+			description: [
+				"Large backpacks are the logical extension of medium backpacks, of course. But the Ender Backpack...",
+				"",
+				"&dThere is a chest called an Ender &dChest. It's keyed to your soul. Any &dEnder Chest you open, opens YOUR &dEnder Chest.",
+				"",
+				"That's kind of neat. So the Ender Backpack...",
+				"",
+				"&dOpens that same Ender Chest."
+			],
+			dependencies: [I;393],
+			id: 399,
+			tasks: [{
+				id: 400,
+				type: "item",
+				item: "usefulbackpacks:backpack_enderchest"
+			}]
+		},
+		{
+			title: "Botany Pots",
+			icon: "botanypots:botany_pot",
+			x: -1.0d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dGrow a little world",
+			description: [
+				"Botany Pots let me grow both plants and trees safely indoors. They aren't as luxurious as an actual farm, nor do they provide magical benefits from natural crops growing.",
+				"",
+				"But the benefit is I can harvest them, and they automatically replant themselves. I just need to fill a Botany Pot with the right soil (dirt for wheat, soul sand for nether wart for example), then plant the seed and... wait!"
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 401,
+			tasks: [{
+				id: 402,
+				type: "item",
+				title: "Any normal Botany Pot",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "botanypots:botany_pots"
+					}
+				}
+			}],
+			rewards: [{
+				id: 403,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 5
+			}]
+		},
+		{
+			title: "Hopped Up Pots",
+			icon: "botanypots:hopper_botany_pot",
+			x: -1.0d,
+			y: -7.5d,
+			shape: "square",
+			subtitle: "&dSlow and steady and self sufficient",
+			description: [
+				"There's a better version of a Botany Pot I can make, and that's the Hopper Botany Pot.",
+				"",
+				"As long as it is on top of an Inventory, it will automatically harvest and replant itself, and put the harvested items into the inventory automatically!",
+				"",
+				"It isn't super fast, but it is automatic."
+			],
+			dependencies: [I;401],
+			id: 404,
+			tasks: [{
+				id: 405,
+				type: "item",
+				title: "Any Hopper Botany Pot",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "botanypots:hopper_botany_pots"
+					}
+				}
+			}],
+			rewards: [{
+				id: 406,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
 			}]
 		}
 	]
