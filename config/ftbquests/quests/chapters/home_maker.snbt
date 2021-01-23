@@ -25,7 +25,9 @@
 				"",
 				"&dLeave nothing to chance. You may be &dable to respawn in this world, but &dsomething may undo that ability. It is, &dafter all, a very magical world.",
 				"",
-				"&dSo, I will teach you how to design and &dmake things for your comfort as well."
+				"&dSo, I will teach you how to design and &dmake things for your comfort as well.",
+				"",
+				"&6This quest page is primarily for mods &6that aren't big enough for their own &6quest page."
 			],
 			dependencies: [I;37],
 			size: 1.5d,
@@ -443,6 +445,119 @@
 				type: "item",
 				item: "economyinc:item_fiveb",
 				count: 10
+			}]
+		},
+		{
+			title: "Digging These Arrows",
+			icon: "minecraft:fletching_table",
+			x: -5.0d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dWatch where you aim...",
+			description: [
+				"The Fletching Table is fairly useful, mostly for making special arrows.",
+				"",
+				"A couple I should consider making more of are the Exploding Arrow and Mining Arrow.",
+				"",
+				"The Exploding Arrow does what it says on the tin, really. It makes an especially big boom if it hits a monster.",
+				"",
+				"The Mining Arrow comes in two types, and mines things like I used that pickaxe. Useful for getting stuff off the Nether ceiling I think!"
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 464,
+			tasks: [
+				{
+					id: 465,
+					type: "item",
+					item: "minecraft:fletching_table"
+				},
+				{
+					id: 467,
+					type: "item",
+					item: "apotheosis:explosive_arrow"
+				},
+				{
+					id: 468,
+					type: "item",
+					item: "apotheosis:iron_mining_arrow"
+				}
+			],
+			rewards: [{
+				id: 466,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Charm'd Potions",
+			icon: {
+				id: "apotheosis:potion_charm",
+				Count: true,
+				tag: {
+					Damage: 0,
+					Potion: "minecraft:night_vision"
+				}
+			},
+			x: -5.0d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "&dEasy to ration",
+			description: [
+				"One thing I don't like with Potions is that I can't just... you know, sip a little bit now, and a little bit later, right? I have to chug 12 ounces of magical brew very time.",
+				"",
+				"Someone here came up with Potion Charms, which is super useful. They last longer than normal potions, and I can turn them on when I need their ability, then back off afterwards."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 469,
+			tasks: [{
+				id: 470,
+				type: "item",
+				item: {
+					id: "apotheosis:potion_charm",
+					Count: true,
+					tag: {
+						Damage: 0,
+						Potion: "minecraft:night_vision"
+					}
+				}
+			}],
+			rewards: [{
+				id: 471,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 10
+			}]
+		},
+		{
+			title: "Magical Summoning Malarky",
+			icon: "minecraft:spawner",
+			x: -6.0d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dA dangerous game",
+			description: [
+				"Some of these dungeons here have weird cages with spinning monsters in them. Monster Spawners. Usually I just destroy them so I can loot in safety, but Kow informed me that I can actually use them for my own purposes.",
+				"",
+				"I'll need to enchant a Pickaxe with Silk Touch, then use that on the Spawner. It will REALLY damage the Pickaxe so I should be careful. I can then place the new Monster Spawner down somewhere and customize it.",
+				"",
+				"There's a few different things I can do. Make it spawn in a wider, or smaller, area. Spawn faster or slower. I can even change what monster pops out of it!"
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 472,
+			tasks: [{
+				id: 473,
+				type: "item",
+				item: "minecraft:spawner"
+			}],
+			rewards: [{
+				id: 474,
+				type: "item",
+				item: "economyinc:item_fiveb",
+				count: 15
 			}]
 		}
 	]
