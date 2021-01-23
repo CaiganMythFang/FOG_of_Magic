@@ -2,44 +2,6 @@
   "name": "Minerals and Metals",
   "quests": [
     {
-      "uuid": "f1b5942c-e9cc-4718-8dc9-3ad3b103d124",
-      "name": " Iron (Sell)",
-      "description": "    Iron is one of the most common and most useful metals.",
-      "x": 171,
-      "y": 16,
-      "icon": {
-        "id": "minecraft:iron_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:iron_ingot",
-                "Count": 1
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "economyinc:item_fiveb",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
       "name": " Oratchalcum (Sell)",
       "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
@@ -71,41 +33,6 @@
         {
           "id": "economyinc:item_fiveb",
           "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f3312edd-55fa-49f3-8f4a-cbbfb17c91df",
-      "name": " Zinc (Buy)",
-      "description": "    Zinc on its own is good metal, but its strength shines when alloyed with other metals!",
-      "x": 40,
-      "y": 50,
-      "icon": {
-        "id": "create:zinc_ingot",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "economyinc:item_fiveb",
-                "Count": 10
-              },
-              "required": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:zinc_ore",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -182,6 +109,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "50b12977-1e21-4f78-99cf-e0c891c08ff0",
+      "name": " Quadrilium Ingot (Sell)",
+      "description": "    One of the most powerful non-magically augmented materials. ",
+      "x": 247,
+      "y": 49,
+      "icon": {
+        "id": "powder_power:ingot_quadrilium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:ingot_quadrilium",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 15
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "e2b1cb4c-70bd-423c-85f2-bc0e1721ba68",
       "name": " Oratchalcum (Buy)",
       "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
@@ -213,44 +177,6 @@
       "reward": [
         {
           "id": "rats:oratchalcum_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6eade0f9-75cc-4665-a901-9d057642be62",
-      "name": " Iron (Buy)",
-      "description": "    Iron is one of the most common and most useful metals.",
-      "x": 15,
-      "y": 18,
-      "icon": {
-        "id": "minecraft:iron_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "economyinc:item_fiveb",
-                "Count": 5
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_ore",
           "Count": 1
         }
       ],
@@ -299,7 +225,7 @@
       "uuid": "029caacb-b89f-419c-8606-22f75ad8d317",
       "name": " Gold (Sell)",
       "description": "    Gold is a valuable metal, both as a luxury good, and for electricity conduction and scientific purposes.",
-      "x": 197,
+      "x": 196,
       "y": 17,
       "icon": {
         "id": "minecraft:gold_ingot",
@@ -352,6 +278,267 @@
                 "Count": 1
               },
               "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
+      "name": " Redium Ingot (Sell)",
+      "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
+      "x": 221,
+      "y": 17,
+      "icon": {
+        "id": "powder_power:ingot_redium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:ingot_redium",
+                "Count": 2
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f1b5942c-e9cc-4718-8dc9-3ad3b103d124",
+      "name": " Iron (Sell)",
+      "description": "    Iron is one of the most common and most useful metals.",
+      "x": 171,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3312edd-55fa-49f3-8f4a-cbbfb17c91df",
+      "name": " Zinc (Buy)",
+      "description": "    Zinc on its own is good metal, but its strength shines when alloyed with other metals!",
+      "x": 40,
+      "y": 50,
+      "icon": {
+        "id": "create:zinc_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:zinc_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22ae0226-5e7e-4a8a-8c05-1ad44b7288cb",
+      "name": " Lapium Ingot (Sell)",
+      "description": "    Lapium is a strong material somewhere between Diamond and Netherrite.",
+      "x": 247,
+      "y": 17,
+      "icon": {
+        "id": "powder_power:ingot_lapium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:ingot_lapium",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "35ecdce0-d443-4a18-b967-53ec60d8f7bc",
+      "name": " Gemium Ingot (Sell)",
+      "description": "    Gemium is a material that is stronger than Netherrite.",
+      "x": 270,
+      "y": 17,
+      "icon": {
+        "id": "powder_power:gem_gemium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:gem_gemium",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "economyinc:item_fiveb",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6eade0f9-75cc-4665-a901-9d057642be62",
+      "name": " Iron (Buy)",
+      "description": "    Iron is one of the most common and most useful metals.",
+      "x": 15,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "economyinc:item_fiveb",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f9c5991c-6f41-4aec-bdeb-6ddc295340ec",
+      "name": " Trilium Ingot (Sell)",
+      "description": "    Trilium is a material much stronger than Diamond, and the next step up from Gemium, even though its slightly cheaper.",
+      "x": 221,
+      "y": 48,
+      "icon": {
+        "id": "powder_power:ingot_trilium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:ingot_trilium",
+                "Count": 1
+              }
             }
           ]
         }
