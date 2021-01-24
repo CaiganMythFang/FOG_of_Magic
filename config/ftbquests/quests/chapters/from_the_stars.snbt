@@ -1,0 +1,211 @@
+{
+	id: 494,
+	filename: "from_the_stars",
+	order_index: 8,
+	title: "From the Stars",
+	icon: "astralsorcery:shifting_star_evorsio",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Book of the Stars",
+			icon: "astralsorcery:tome",
+			x: -0.25d,
+			y: -2.0d,
+			shape: "square",
+			subtitle: "&dGaze above",
+			description: [
+				"&dTraveler, this dimension draws magic &dfrom the stars themselves. You can &ddo this back home, but your skies are &dhazed over, so it has been lost.",
+				"",
+				"I'm not surprised. But it has to exist somewhere, right?",
+				"",
+				"&dYes, pockets here and there where &dthe skies are clear. But here, all the &dskies are clear, but you have to &dsearch for the knowledge.",
+				"",
+				"&dScattered around, especially in the &dmountains, are marble fountains. Some &dsmall, some large temples.",
+				"",
+				"&dThough they are temples, they are &ddesigned to be found and broken into. &dKnowledge takes sacrifice. Break down &dbelow them. Search under pillars. Take &dall you find.",
+				"",
+				"&dSeek Aquamarines and Star Charts. &dAnd make yourself an Astral Tome."
+			],
+			dependencies: [I;37],
+			id: 495,
+			tasks: [
+				{
+					id: 496,
+					type: "item",
+					item: "astralsorcery:aquamarine",
+					count: 2L
+				},
+				{
+					id: 497,
+					type: "item",
+					item: "astralsorcery:tome"
+				}
+			],
+			rewards: [{
+				id: 498,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Star Charts and Crystal Parts",
+			icon: {
+				id: "astralsorcery:constellation_paper",
+				Count: true,
+				tag: {
+					astralsorcery: {
+						constellationName: "astralsorcery:discidia"
+					}
+				}
+			},
+			x: 1.25d,
+			y: -2.0d,
+			shape: "square",
+			description: [
+				"&dNow that you have the Astral Tome, &dyour journey can begin, Traveler.",
+				"",
+				"Okay, this Tome is neat, it contains the stellar sky in its pages. I can pan the sky by Left Click and dragging, and then zoom in and out with Scroll Wheel.",
+				"",
+				"Double clicking on Discover, since it's the only section I start with, and... wow, lots of stuff. Laid out kind of like this journal I guess. I should find more of these Constellation Charts, I can share them with others learning the Astral arts.",
+				"",
+				"I can pop the Constellation Charts into my Astral Tome by holding the Tome and Sneak + Right Clicking it to open up the note storage part. Should help keep my inventory clean.",
+				"",
+				"With a Resonating Wand, if I explore the surface at night, I should see some sorta starry smoke rising up. If I dig straight down from these, I should find some Rock Crystals I'll need later."
+			],
+			dependencies: [I;495],
+			hide: true,
+			id: 499,
+			tasks: [
+				{
+					id: 500,
+					type: "item",
+					item: {
+						id: "astralsorcery:constellation_paper",
+						Count: true,
+						tag: {
+							astralsorcery: {}
+						}
+					}
+				},
+				{
+					id: 501,
+					type: "item",
+					item: {
+						id: "astralsorcery:rock_crystal",
+						Count: true,
+						tag: {
+							astralsorcery: {}
+						}
+					}
+				},
+				{
+					id: 503,
+					type: "item",
+					item: "astralsorcery:wand"
+				}
+			],
+			rewards: [{
+				id: 502,
+				type: "item",
+				item: "calemiutils:coin_dollar"
+			}]
+		},
+		{
+			title: "Starlight Crafting",
+			icon: "astralsorcery:altar_discovery",
+			x: 2.75d,
+			y: -2.0d,
+			shape: "square",
+			subtitle: "&dShiny Combinations",
+			description: [
+				"I don't think I'm going to get far until I follow this early lesson plan. These scholars want me to make a Luminous Crafting Table, which concentrates the starlight to... empower things? ",
+				"",
+				"But what that means is I'll need to find one of the larger shrine things around. They are much rarer than the little fountains.",
+				"",
+				"&dThey built them in open sky &dareas. Icy &dplains and snowy mountains, &dsprawling &ddeserts, and grassy &dfields.",
+				"",
+				"Ah, okay. When I find one, dig down into the chamber where a big crystal floats. If I place a Crafting Table under it, and expose the crystal to the night sky, it should imbue starlight into it and transform it into a Luminous Crafting Table.",
+				"",
+				"&dIt should unlock a new section in the &dbook as well, for you. Just Scroll &dWheel to zoom back out to see the &dother sections."
+			],
+			dependencies: [I;499],
+			id: 504,
+			tasks: [{
+				id: 505,
+				type: "item",
+				item: "astralsorcery:altar_discovery"
+			}],
+			rewards: [{
+				id: 506,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Bright Powder",
+			icon: "astralsorcery:illumination_powder",
+			x: 4.0d,
+			y: -3.25d,
+			shape: "square",
+			subtitle: "&dA Sprinkle of Light",
+			description: [
+				"With the Luminous Crafting Table, Kow says location is important. It should be placed above sea level, the higher the better.",
+				"",
+				"While it works as normal crafting table, some recipes require Starlight, only available at night. The bar under the grid shows how much is currently available.",
+				"",
+				"Kow suggests I make Illumination Powder to learn how the luminous crafting works. Like a normal recipe I put the ingredients in and make sure there is enough Starlight.",
+				"",
+				"Then I need to step back, take out my Resonating Wand, and Right Click it on the table. If there is enough starlight, bam, Illumination Powder! I can Right Click to throw this around and make light sources!",
+				"",
+				"Though, if I want to remove it, I have to smother it with a block."
+			],
+			dependencies: [I;504],
+			id: 507,
+			tasks: [{
+				id: 508,
+				type: "item",
+				item: "astralsorcery:illumination_powder"
+			}],
+			rewards: [{
+				id: 511,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Tracing the Night Sky",
+			icon: "astralsorcery:hand_telescope",
+			x: 5.25d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dTwinkle Twinkle",
+			description: [
+				"Kow has suggested the first real thing I make is a Looking Glass, since I'll be using it each night. This is also why she suggests I search for all the Constellation Papers I can.",
+				"",
+				"I use the Looking Glass at night, in a clear area with nothing above me but sky. I can then look and see the stars. I'm supposed to be looking for constellations but...",
+				"",
+				"&dLook around slowly. Only one or two &dconstellations are visible at night until &dyou have traced them yourself to &dlearn their power.",
+				"",
+				"Trace them? I'm not.. oh! Okay, the stars I'm looking for are twice as big. Then I trace the constellation, like it shows in my Tome...",
+				"",
+				"&dConstellation Papers show the &dpattern. Hold Shift to steady your &dview, then hold Left Click to draw the &dlines. Trace the Constellation to &dproperly learn it."
+			],
+			dependencies: [I;507],
+			id: 509,
+			tasks: [{
+				id: 510,
+				type: "item",
+				item: "astralsorcery:hand_telescope"
+			}],
+			rewards: [{
+				id: 512,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		}
+	]
+}
