@@ -266,7 +266,7 @@
 		},
 		{
 			title: "The Price of Knowledge",
-			icon: "economyinc:item_oneb",
+			icon: "calemiutils:coin_dollar",
 			x: -2.0d,
 			y: 4.0d,
 			shape: "diamond",
@@ -284,7 +284,7 @@
 				"",
 				"Let me guess, for a price?",
 				"",
-				"&dOn the nose. Bring him a Single &dDubloon. You should be able to find &dthem on various monsters."
+				"&dOn the nose. Bring him an Iron &dDubloon. You should be able to find &dthem on various monsters."
 			],
 			dependencies: [I;
 				26,
@@ -294,7 +294,7 @@
 			tasks: [{
 				id: 31,
 				type: "item",
-				item: "economyinc:item_oneb",
+				item: "calemiutils:coin_nickel",
 				consume_items: true
 			}],
 			rewards: [{

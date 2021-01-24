@@ -20,7 +20,7 @@
           "items": [
             {
               "item": {
-                "id": "economyinc:item_fiveb",
+                "id": "calemiutils:coin_dollar",
                 "Count": 3
               },
               "required": 3
@@ -58,7 +58,7 @@
           "items": [
             {
               "item": {
-                "id": "economyinc:item_fiveb",
+                "id": "calemiutils:coin_dollar",
                 "Count": 35
               },
               "required": 35

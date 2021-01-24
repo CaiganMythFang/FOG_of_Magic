@@ -40,9 +40,8 @@
       "x": 189,
       "y": 16,
       "icon": {
-        "id": "economyinc:item_oneb",
-        "Count": 1,
-        "tag": {}
+        "id": "calemiutils:coin_penny",
+        "Count": 1
       },
       "repeat": {
         "type": "INSTANT"
@@ -65,7 +64,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "economyinc:item_fiveb",
+          "id": "calemiutils:coin_dollar",
           "Count": 1
         }
       ],
@@ -86,11 +85,11 @@
         {
           "type": "CONSUME",
           "description": "Classic Payments",
-          "longDescription": "    For now, bring me a \"Pile of Dubloons\". This is the standard payment for items, and you can craft it by combining 5 Single Dubloons together.\n    Bring me one Pile, and I\u0027ll give you a gift for super cheap, deal?",
+          "longDescription": "    For now, bring me a \"Gold Dubloon.\" This is the standard payment for items, worth 100 Copper Dubloons. You can craft it by combining Copper, Iron, and Silver Dubloons.\n    Bring me one and I\u0027ll give you a gift for super cheap, deal?",
           "items": [
             {
               "item": {
-                "id": "economyinc:item_fiveb",
+                "id": "calemiutils:coin_dollar",
                 "Count": 1
               },
               "precision": "NBT_FUZZY"
@@ -102,11 +101,9 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mining_helmet:mining_helmet",
+          "id": "calemiutils:wallet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": {}
         }
       ],
       "rewardchoice": [],

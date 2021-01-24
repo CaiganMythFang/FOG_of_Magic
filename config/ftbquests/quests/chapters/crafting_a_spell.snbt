@@ -39,7 +39,7 @@
 			rewards: [{
 				id: 272,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -68,7 +68,7 @@
 			rewards: [{
 				id: 275,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -119,7 +119,7 @@
 			rewards: [{
 				id: 288,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
 		},
@@ -156,7 +156,7 @@
 			rewards: [{
 				id: 281,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
 		},
@@ -190,7 +190,7 @@
 			rewards: [{
 				id: 284,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 22
 			}]
 		},
@@ -237,7 +237,7 @@
 			rewards: [{
 				id: 292,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 30
 			}]
 		},
@@ -286,7 +286,7 @@
 			rewards: [{
 				id: 297,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
 		},
@@ -329,7 +329,7 @@
 			rewards: [{
 				id: 301,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
 		},
@@ -355,7 +355,7 @@
 			rewards: [{
 				id: 308,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
 		},
@@ -377,7 +377,7 @@
 			rewards: [{
 				id: 309,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 30
 			}]
 		},
@@ -433,7 +433,7 @@
 			rewards: [{
 				id: 311,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
 		},
@@ -479,7 +479,7 @@
 			rewards: [{
 				id: 316,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -528,7 +528,7 @@
 			rewards: [{
 				id: 319,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
 		},
@@ -563,8 +563,8 @@
 			rewards: [{
 				id: 323,
 				type: "item",
-				icon: "economyinc:item_fiveb",
-				item: "economyinc:item_fiveb",
+				icon: "calemiutils:coin_dollar",
+				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
 		},
@@ -595,7 +595,7 @@
 			rewards: [{
 				id: 326,
 				type: "item",
-				item: "economyinc:item_fiveb"
+				item: "calemiutils:coin_dollar"
 			}]
 		},
 		{
@@ -649,7 +649,7 @@
 			rewards: [{
 				id: 333,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 50
 			}]
 		},
@@ -686,7 +686,7 @@
 			rewards: [{
 				id: 337,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
 		},
@@ -716,7 +716,7 @@
 			rewards: [{
 				id: 340,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
 		},
@@ -746,7 +746,7 @@
 			rewards: [{
 				id: 343,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
 		},
@@ -783,7 +783,7 @@
 			rewards: [{
 				id: 347,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
 		},
@@ -829,7 +829,7 @@
 			rewards: [{
 				id: 351,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
 		},
@@ -866,7 +866,7 @@
 			rewards: [{
 				id: 355,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
 		},
@@ -906,7 +906,7 @@
 			rewards: [{
 				id: 360,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
 		},
@@ -948,7 +948,7 @@
 			rewards: [{
 				id: 363,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
 		},
@@ -993,7 +993,7 @@
 			rewards: [{
 				id: 369,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
 		},
@@ -1029,7 +1029,7 @@
 			rewards: [{
 				id: 372,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -1054,7 +1054,7 @@
 			rewards: [{
 				id: 375,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -1098,7 +1098,7 @@
 			rewards: [{
 				id: 378,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 30
 			}]
 		}

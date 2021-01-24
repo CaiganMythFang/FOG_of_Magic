@@ -20,7 +20,7 @@
           "items": [
             {
               "item": {
-                "id": "economyinc:item_fiveb",
+                "id": "calemiutils:coin_dollar",
                 "Count": -106
               },
               "required": 150

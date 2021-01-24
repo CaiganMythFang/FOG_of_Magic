@@ -32,7 +32,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "economyinc:item_fiveb",
+          "id": "calemiutils:coin_dollar",
           "Count": 15
         }
       ],
@@ -61,7 +61,7 @@
           "items": [
             {
               "item": {
-                "id": "economyinc:item_fiveb",
+                "id": "calemiutils:coin_dollar",
                 "Count": 25
               },
               "required": 25

@@ -47,7 +47,7 @@
 			rewards: [{
 				id: 246,
 				type: "item",
-				item: "economyinc:item_fiveb"
+				item: "calemiutils:coin_dollar"
 			}]
 		},
 		{
@@ -91,7 +91,7 @@
 			rewards: [{
 				id: 255,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -118,7 +118,7 @@
 			rewards: [{
 				id: 254,
 				type: "item",
-				item: "economyinc:item_fiveb"
+				item: "calemiutils:coin_dollar"
 			}]
 		},
 		{
@@ -161,7 +161,7 @@
 			rewards: [{
 				id: 261,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -201,7 +201,7 @@
 			rewards: [{
 				id: 264,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -232,7 +232,7 @@
 			rewards: [{
 				id: 267,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 5
 			}]
 		},
@@ -268,7 +268,8 @@
 			rewards: [{
 				id: 396,
 				type: "item",
-				item: "economyinc:item_fiveb"
+				item: "calemiutils:coin_dollar",
+				count: 15
 			}]
 		},
 		{
@@ -314,6 +315,12 @@
 				id: 400,
 				type: "item",
 				item: "usefulbackpacks:backpack_enderchest"
+			}],
+			rewards: [{
+				id: 483,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
 			}]
 		},
 		{
@@ -346,7 +353,7 @@
 			rewards: [{
 				id: 403,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 5
 			}]
 		},
@@ -381,7 +388,7 @@
 			rewards: [{
 				id: 406,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -414,7 +421,7 @@
 			rewards: [{
 				id: 460,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
 		},
@@ -443,7 +450,7 @@
 			rewards: [{
 				id: 463,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -486,7 +493,7 @@
 			rewards: [{
 				id: 466,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -527,7 +534,7 @@
 			rewards: [{
 				id: 471,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
 		},
@@ -543,7 +550,9 @@
 				"",
 				"I'll need to enchant a Pickaxe with Silk Touch, then use that on the Spawner. It will REALLY damage the Pickaxe so I should be careful. I can then place the new Monster Spawner down somewhere and customize it.",
 				"",
-				"There's a few different things I can do. Make it spawn in a wider, or smaller, area. Spawn faster or slower. I can even change what monster pops out of it!"
+				"There's a few different things I can do. Make it spawn in a wider, or smaller, area. Spawn faster or slower. I can even change what monster pops out of it!",
+				"",
+				"Though for that, I'll need a Spawn Egg of the creature, which I can only get by killing a creature with a weapon enchanted with Capture... and even then, Kow says it is pretty rare."
 			],
 			hide_dependency_lines: true,
 			dependencies: [I;244],
@@ -556,8 +565,72 @@
 			rewards: [{
 				id: 474,
 				type: "item",
-				item: "economyinc:item_fiveb",
+				item: "calemiutils:coin_dollar",
 				count: 15
+			}]
+		},
+		{
+			title: "The Culture of Fishing",
+			icon: {
+				id: "aquaculture:iron_fishing_rod",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -3.0d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dA strange place",
+			description: [
+				"I know fishing was somewhat popular back home, it's own sort of crazy culture and deep end of things you could get into. All sorts of rods, bait, fishing types, ways to fish... and it seems that exists here too. ",
+				"",
+				"&dPerhaps fishing culture is eternal.",
+				"",
+				"As long as there is fish? Anyways, Aquaculture is what they call it here. And it starts with a Fishing Rod.",
+				"",
+				"Aquaculture has its own Fishing Rods that can use special equipment, like hooks. Or, optionally, Bait like Worms, which you can get with a Worm Farm.",
+				"",
+				"The Worm Farm is like a Compost Bin. Right Click plants, food, etc into it to compost them, then Right Click with an open hand to dig out some Worms!",
+				"",
+				"Oh, and to hold it all? I can get myself my very own Tacklebox!"
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 475,
+			tasks: [
+				{
+					id: 476,
+					type: "item",
+					item: "aquaculture:worm_farm"
+				},
+				{
+					id: 477,
+					type: "item",
+					item: {
+						id: "aquaculture:iron_fishing_rod",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 480,
+					type: "item",
+					item: "aquaculture:iron_hook"
+				},
+				{
+					id: 482,
+					type: "item",
+					item: "aquaculture:tackle_box"
+				}
+			],
+			rewards: [{
+				id: 481,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
 			}]
 		}
 	]
