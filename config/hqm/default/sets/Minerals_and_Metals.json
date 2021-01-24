@@ -5,7 +5,7 @@
       "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
       "name": " Oratchalcum (Sell)",
       "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
-      "x": 172,
+      "x": 171,
       "y": 105,
       "icon": {
         "id": "rats:oratchalcum_ingot",
@@ -33,6 +33,43 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1612ecd9-8fbb-482d-b2b1-a8796d3b462d",
+      "name": " Neptunium Ingot (Sell)",
+      "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
+      "x": 171,
+      "y": 76,
+      "icon": {
+        "id": "aquaculture:neptunium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "aquaculture:neptunium_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -150,7 +187,7 @@
       "name": " Oratchalcum (Buy)",
       "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
       "x": 15,
-      "y": 107,
+      "y": 109,
       "icon": {
         "id": "rats:oratchalcum_ingot",
         "Count": 1
@@ -474,6 +511,44 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "42d0e284-cf07-4274-957e-7fd36ec9419b",
+      "name": " Neptunium Ingot (Buy)",
+      "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
+      "x": 15,
+      "y": 79,
+      "icon": {
+        "id": "aquaculture:neptunium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "aquaculture:neptunium_ingot",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
