@@ -593,7 +593,7 @@
 				"",
 				"The Worm Farm is like a Compost Bin. Right Click plants, food, etc into it to compost them, then Right Click with an open hand to dig out some Worms!",
 				"",
-				"Oh, and to hold it all? I can get myself my very own Tacklebox!"
+				"Oh, and to hold it all? I can set out a Tackle Box!"
 			],
 			hide_dependency_lines: true,
 			dependencies: [I;244],
@@ -631,6 +631,91 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
+			}]
+		},
+		{
+			title: "A Reel of Your Own",
+			icon: "aquaculture:fishing_line",
+			x: -4.0d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dHook, Line, and Sinker...",
+			description: [
+				"Seems a lot of Aquaculture Enthusiasts like to add special Fishing Lines and Bobbers to their tacklebox, both of which are able to be dyed to personalize them.",
+				"",
+				"There's also the Fish Sign, which I can use to display my prize catches, if I so wanted.",
+				"",
+				"But for the fish I don't want to display? Well, the Fillet Knife comes up then...I can trim down a fish into fillets, and make things like... Sushi.",
+				"",
+				"&dYou have Kai's attention now."
+			],
+			dependencies: [I;475],
+			id: 484,
+			tasks: [
+				{
+					id: 485,
+					type: "item",
+					item: "aquaculture:fishing_line"
+				},
+				{
+					id: 486,
+					type: "item",
+					item: "aquaculture:bobber"
+				},
+				{
+					id: 487,
+					type: "item",
+					item: "aquaculture:oak_fish_mount"
+				},
+				{
+					id: 488,
+					type: "item",
+					item: {
+						id: "aquaculture:iron_fillet_knife",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 489,
+					type: "item",
+					item: "aquaculture:sushi"
+				}
+			],
+			rewards: [{
+				id: 490,
+				type: "item",
+				item: "calemiutils:coin_dollar"
+			}]
+		},
+		{
+			title: "Treasures of the Sea",
+			icon: "aquaculture:neptunium_ingot",
+			x: -3.0d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dPower of the Deep",
+			description: [
+				"So while fishing, I've been finding some interesting things. Messages in a bottles that seem very familiar. Odd pieces of trash. Things like that.",
+				"",
+				"But a few things are much more useful. Treasure chests with iron, gold, and a strange metal I've never seen that Kow calls Neptunium.",
+				"",
+				"It seems to be quite attuned with the sea. Armor made with it, each piece gives some other water based boon. Like breathing under water, which is super useful. It can also make some nice fishing gear!"
+			],
+			dependencies: [I;475],
+			id: 491,
+			tasks: [{
+				id: 492,
+				type: "item",
+				item: "aquaculture:neptunium_ingot"
+			}],
+			rewards: [{
+				id: 493,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
 			}]
 		}
 	]
