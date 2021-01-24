@@ -2,43 +2,6 @@
   "name": "Gems and Crystals",
   "quests": [
     {
-      "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
-      "name": " Emerald (Sell)",
-      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
-      "x": 210,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:emerald",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:emerald",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "360d8a9f-edf5-4b9f-badf-ae5f601283ab",
       "name": " Mana Gem (Buy)",
       "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. ",
@@ -71,6 +34,43 @@
         {
           "id": "ars_nouveau:arcane_ore",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
+      "name": " Emerald (Sell)",
+      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
+      "x": 210,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:emerald",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -421,6 +421,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "6ff1be34-4416-48cb-80a9-efbe4e8e9837",
+      "name": " Aquamarine (Buy)",
+      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.",
+      "x": 69,
+      "y": 110,
+      "icon": {
+        "id": "astralsorcery:aquamarine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:aquamarine_ore",
+          "Count": 1
+        },
+        {
+          "id": "astralsorcery:aquamarine_sand_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "cc212ba4-1ccb-4437-852c-dcfa529080e5",
       "name": " Glowstone (Buy)",
       "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
@@ -602,6 +644,43 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a949fa2b-40a0-4ac1-bad0-d470fcb607c8",
+      "name": " Aquamarine (Sell)",
+      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.",
+      "x": 237,
+      "y": 112,
+      "icon": {
+        "id": "astralsorcery:aquamarine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "astralsorcery:aquamarine",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
