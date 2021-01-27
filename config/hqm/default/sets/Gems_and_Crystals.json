@@ -652,7 +652,7 @@
     {
       "uuid": "a949fa2b-40a0-4ac1-bad0-d470fcb607c8",
       "name": " Aquamarine (Sell)",
-      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.",
+      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.\n    Since Aquamarine can be made with excess starlight, I do not buy it for much.",
       "x": 237,
       "y": 112,
       "icon": {
@@ -680,7 +680,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 1
         }
       ],
       "rewardchoice": [],
