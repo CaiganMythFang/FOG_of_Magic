@@ -114,6 +114,7 @@
 	"Burn Vines" = true
 	"Quilted Wool" = true
 	"Compressed Blocks" = true
+	Stools = true
 	Thatch = true
 	"Variant Chests" = true
 	"Variant Ladders" = true
@@ -205,6 +206,7 @@
 		#
 		#This also comes with a utility recipe for Red Nether Bricks
 		"Enable Blue Nether Bricks" = true
+		"Enable Blackstone Variant Bricks" = true
 		"Enable Charred Nether Bricks" = true
 		"Enable Snow Bricks" = true
 		#
@@ -1896,8 +1898,6 @@
 	[client.improved_tooltips]
 		"Shulker Box Require Shift" = false
 		"Shulker Box Use Colors" = true
-		"Shulker Tooltips" = true
-		"Map Require Shift" = false
 		"Attribute Tooltips" = true
 		"Enchanting Tooltips" = true
 		#
@@ -1910,6 +1910,9 @@
 		#So to display a carrot on a stick on a mending book, for example, you use:
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
+		"Food Compression Threshold" = 4
+		"Shulker Tooltips" = true
+		"Map Require Shift" = false
 		"Food Tooltips" = true
 		"Show Saturation" = true
 		"Map Tooltips" = true
