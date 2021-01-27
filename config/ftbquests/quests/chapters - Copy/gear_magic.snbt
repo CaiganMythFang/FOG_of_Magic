@@ -1,0 +1,1006 @@
+{
+	id: 142,
+	filename: "gear_magic",
+	order_index: 5,
+	title: "Of Gears and Motion",
+	icon: "create:copper_valve_handle",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Create : The Power of Rotation",
+			icon: "create:copper_valve_handle",
+			x: 12.0d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dDeceptively low tech",
+			description: [
+				"&dTraveler, though this world is not as &dhigh tech as your original world, I &dwould not dismiss what they know off &dhand. ",
+				"",
+				"Things can't be as good as computers and electricity right?",
+				"",
+				"&dHmph, good is subjective. Take the &dtechnology called Create. It's based &doff a simple concept : rotational force &dequals power. With that power, &dhowever, you can move mountains.",
+				"",
+				"So can a bulldozer and a backhoe. But, fair, I'm listening.",
+				"",
+				"&dTo start with, we'll need some &dmaterials. Some Copper, Zinc, and &dAndesite stone, all of which shouldn't &dbe too deep in the ground."
+			],
+			dependencies: [I;37],
+			id: 143,
+			tasks: [
+				{
+					id: 144,
+					type: "item",
+					title: "Any 5 Copper Ingots",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					},
+					count: 5L
+				},
+				{
+					id: 145,
+					type: "item",
+					title: "Any 5 Zinc Ingots",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/zinc"
+						}
+					},
+					count: 5L
+				},
+				{
+					id: 146,
+					type: "item",
+					title: "10 Andesite",
+					item: "minecraft:andesite",
+					count: 10L
+				}
+			],
+			rewards: [{
+				id: 147,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Purveyors of Force",
+			icon: "create:cogwheel",
+			x: 10.5d,
+			y: 3.0d,
+			shape: "square",
+			subtitle: "&dMove and rotate with style",
+			description: [
+				"While it seems odd, we first need to learn how to transmit the rotational force, before we learn how to make it.",
+				"",
+				"There are three ways to transmit force, at least simply : The Shaft, The Cogwheel, and the Large Cogwheel. ",
+				"",
+				"The Shaft transmits force in a straight line along when you stack Shafts on top of each other.",
+				"",
+				"To shift the direction of the force, however, you need to use Cogwheels, either normal or Large size ones.",
+				"",
+				"When placing down Shafts or Cogwheels, holding it and aiming towards another one will bring up an arrow. This shows the direction the shaft of cogwheel will be placed. Aiming at different parts of the placed shaft or cogwheel will change this."
+			],
+			dependencies: [I;143],
+			id: 148,
+			tasks: [
+				{
+					id: 149,
+					type: "item",
+					item: "create:shaft",
+					count: 10L
+				},
+				{
+					id: 150,
+					type: "item",
+					item: "create:cogwheel",
+					count: 5L
+				},
+				{
+					id: 151,
+					type: "item",
+					item: "create:large_cogwheel",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 163,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Wheel of Creation",
+			icon: "create:water_wheel",
+			x: 10.5d,
+			y: 4.5d,
+			shape: "square",
+			subtitle: "&dFlow like Water",
+			description: [
+				"The first way Kow taught me to make rotational force is with a Waterwheel. ",
+				"",
+				"I'll need to build a bit, unless I'm lucky enough to find a perfectly set up waterfall or something... The Waterwheel requires water to be flowing over part of it to rotate it.",
+				"",
+				"I can chain Waterwheels and expanding out the water flow to add more rotational force.",
+				"",
+				"&dBe careful you don't place them in &dopposite directions. You'll work against &dyourself that way."
+			],
+			dependencies: [I;148],
+			id: 152,
+			tasks: [{
+				id: 153,
+				type: "item",
+				item: "create:water_wheel",
+				count: 2L
+			}],
+			rewards: [{
+				id: 166,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Force and Speed",
+			icon: {
+				id: "minecraft:tipped_arrow",
+				Count: true,
+				tag: {
+					Potion: "apotheosis:knowledge"
+				}
+			},
+			x: 12.0d,
+			y: 3.0d,
+			shape: "circle",
+			subtitle: "&dImportant concepts, Traveler",
+			description: [
+				"&dBefore you get too deep into the &dwonder of Gears, traveler...",
+				"",
+				"Yes?",
+				"",
+				"&dSomething you should keep in mind is &dthe concept of Rotational Force and &dSpeed.",
+				"",
+				"We kind of already have Rotational Force down, right?",
+				"",
+				"&dYes, but it is directly related to &dspeed. Some machines will require a &dminimum Rotational Force, or a &dRotational Speed.",
+				"",
+				"&dYou can easily shift these by chaining &ddifferent sizes of Cogwheel. For &dexample, connect a small and Large &dCogwheel. The small Cogwheel goes &dtwice as fast as the Large Cogwheel. &dThe Large Cogwheel goes half the &dspeed of the small one."
+			],
+			dependencies: [I;148],
+			id: 154,
+			tasks: [{
+				id: 156,
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: 164,
+				type: "item",
+				item: "calemiutils:coin_dollar"
+			}]
+		},
+		{
+			title: "Stress and Anger",
+			x: 12.0d,
+			y: 4.5d,
+			shape: "circle",
+			subtitle: "&dYes, a third thing to watch for.",
+			description: [
+				"The last thing I need to be careful of in my Create systems is Stress.",
+				"",
+				"Every Rotational Force generator supplies a certain amount of Stress Capacity. That's how much stress the whole thing can take before it...",
+				"",
+				"Well, before it just breaks down. Sounds familiar...",
+				"",
+				"Anyways! Machines and things connected to the system add what Kow calls Stress Consumers.",
+				"",
+				"As long as the Consumption amount is less than the Capacity, everything should work smoothly. If not, I might want to split it into separate systems. "
+			],
+			dependencies: [I;152],
+			id: 157,
+			tasks: [{
+				id: 158,
+				type: "checkmark",
+				title: "Stress and Danger",
+				icon: "bountifulbaubles:broken_heart"
+			}],
+			rewards: [{
+				id: 165,
+				type: "item",
+				item: "calemiutils:coin_dollar"
+			}]
+		},
+		{
+			title: "Press and Grind",
+			icon: "create:millstone",
+			x: 9.0d,
+			y: 3.0d,
+			shape: "square",
+			subtitle: "&dPut that Force to Use",
+			description: [
+				"Now that we know how to make and move Rotational Force, we can finally use it.",
+				"",
+				"Kow suggests I start with these two machines : The Millstone and the Mechanical Press.",
+				"",
+				"&dYou'll need both to make a lot of &dthings, Traveler.",
+				"",
+				"Right right. The Millstone will take things like Ore and turn them into Crushed Ore. It will also grind down Bones and Wheat into more useful things.",
+				"",
+				"The Mechanical Press puts a lot of Stress on a system, but that is needed to turn Ingots into Metal Sheets. I need to attach a Lever to the Press, then drop ingots right underneath the Press.",
+				"",
+				"Pull the lever, and if its all working, I'll get some Sheets of metal!"
+			],
+			dependencies: [I;152],
+			id: 159,
+			tasks: [
+				{
+					id: 160,
+					type: "item",
+					item: "create:millstone",
+					consume_items: false
+				},
+				{
+					id: 167,
+					type: "item",
+					item: "create:mechanical_press",
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: 168,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 12
+			}]
+		},
+		{
+			title: "Work Wrench",
+			icon: "create:wrench",
+			x: 9.0d,
+			y: 1.5d,
+			shape: "diamond",
+			subtitle: "&dDon't throw it in the gears...",
+			description: [
+				"&dDon't forget your wrench, &dTraveler.",
+				"",
+				"Huh?",
+				"",
+				"&dWith it, you can rotate and safely &ddismantle machines and other Create &dobjects. So don't lose it, okay?",
+				"",
+				"Oh, okay...",
+				"",
+				"&dDrat, where did... Traveler, send me a &dWrench. Do not comment... just send me &done."
+			],
+			dependencies: [I;159],
+			id: 161,
+			tasks: [{
+				id: 162,
+				type: "item",
+				item: "create:wrench",
+				consume_items: true
+			}],
+			rewards: [{
+				id: 169,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Power of Quartz",
+			icon: "create:rose_quartz",
+			x: 9.0d,
+			y: 4.5d,
+			shape: "diamond",
+			subtitle: "&dSparks of creativity",
+			description: [
+				"&dTraveler, I know you mentioned &delectricity before. ",
+				"",
+				"I did...",
+				"",
+				"&dSome of the machines Create has &drequires it. At least, it generates a bit &dof electricity the machines use.",
+				"",
+				"Oh, that explains why I need to make electron tubes, right?",
+				"",
+				"&dYes. You'll need to make your own &dsandpaper, and your own Rose &dQuartz. ",
+				"",
+				"Then hold the Rose Quartz in my Off hand, like this right? Then hold the Sandpaper and hold Right Click to sand down the Rose Quartz.",
+				"",
+				"&dCorrect. Then you can make an &dElectron Tube from that. In fact, send &dme a couple, I could fill out my &dsupplies a bit more."
+			],
+			dependencies: [I;159],
+			id: 170,
+			tasks: [
+				{
+					id: 171,
+					type: "item",
+					item: {
+						id: "create:sand_paper",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					consume_items: false
+				},
+				{
+					id: 172,
+					type: "item",
+					item: "create:rose_quartz",
+					consume_items: false
+				},
+				{
+					id: 173,
+					type: "item",
+					item: "create:electron_tube",
+					count: 2L,
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 174,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Big Crafting",
+			icon: "create:mechanical_crafter",
+			x: 7.5d,
+			y: 3.0d,
+			shape: "square",
+			subtitle: "&dNot quite automated...",
+			description: [
+				"Some more advanced Create things need a bit more... strength and finesse to make than my own two mitts can handle.",
+				"",
+				"For those, I'm supposed to put together a Mechanical Crafting structure.",
+				"",
+				"&dYou'll also want a Wrench to configure &dit, Traveler. And employ a Clutch, of &dcourse, as soon as there is Rotational &dPower, it starts to craft.",
+				"",
+				"Right. Okay, so I place the Mechanical Crafters together to form up to a 5x5 grid, with a Cogwheel connected. I then Right Click a wrench on each one to point the arrow in a direction.",
+				"",
+				"&dThe arrows should all point to make &dthe items flow towards a single point. &dRight Click items into each spot, then &dturn on the Rotational Power to craft."
+			],
+			dependencies: [I;187],
+			id: 175,
+			tasks: [
+				{
+					id: 176,
+					type: "item",
+					item: "create:wrench"
+				},
+				{
+					id: 177,
+					type: "item",
+					item: "create:clutch"
+				},
+				{
+					id: 178,
+					type: "item",
+					item: "create:mechanical_crafter",
+					count: 4L
+				}
+			],
+			rewards: [{
+				id: 179,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "A Fly Engine",
+			icon: "create:flywheel",
+			x: 6.0d,
+			y: 3.0d,
+			shape: "square",
+			subtitle: "&dNot so fly puns.",
+			description: [
+				"Now that I can make the Mechanical Crafter, it opens up a lot more powerful Engines to me.",
+				"",
+				"&dYou'll need them.",
+				"",
+				"Well, I like machines that do multiple things. Like the Furnace Engine. I can Right Click it on the side or back of a normal Furnace to attach it. Then place a Flywheel in front of the Engine part to attach it.",
+				"",
+				"&dDon't forget, there must be a 1 block &dgap between Engine and Flywheel. And &dthe Flywheel must be faced the &dcorrect direction.",
+				"",
+				"It's... finicky at first, but makes sense. But hey, I can smelt items AND power machines at the same time this way!"
+			],
+			dependencies: [I;175],
+			id: 180,
+			tasks: [
+				{
+					id: 181,
+					type: "item",
+					item: "create:furnace_engine"
+				},
+				{
+					id: 182,
+					type: "item",
+					item: "create:flywheel"
+				}
+			],
+			rewards: [{
+				id: 183,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Going Cuckoo",
+			icon: "create:cuckoo_clock",
+			x: 12.0d,
+			y: 6.0d,
+			shape: "diamond",
+			subtitle: "&dMood...",
+			description: [
+				"&dGears and things can make giant &dcontraptions, or elegant things. Your &dworld had intricate wind up watches, &dfor example.",
+				"",
+				"I remember those. They looked really neat, but I always felt they would break if I had them.",
+				"",
+				"&dWell, You can make a more decorative &dthing called a Cuckoo Clock. You've &dheard of those, right? As long as it &dhas Rotational Power, it'll show you the &dtime and sound off at Noon and &dBedtime.",
+				"",
+				"&dActually... send me one. My last one met &dan unfortunate accident during an &dexperiment...",
+				"",
+				"Wait, how? No, wait, I don't want to know."
+			],
+			dependencies: [I;152],
+			id: 184,
+			tasks: [{
+				id: 185,
+				type: "item",
+				item: "create:cuckoo_clock",
+				consume_items: true
+			}],
+			rewards: [{
+				id: 186,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Making Alloys",
+			icon: "create:mechanical_mixer",
+			x: 7.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dMix It Up",
+			description: [
+				"These bigger machines are going to need something better than Copper and Iron. For these, Kow says we'll need Brass by mixing Copper and Zinc.",
+				"",
+				"I'll first need a Mechanical Mixer, then put a Basin below it. Then I can throw in the ingredients(with Q), start up the Mixer, and it'll mix everything up! ",
+				"",
+				"&dUse a Clutch, Traveler. It replaces a &dShaft, but can be deactivated by using &da Lever attached to it. Otherwise...",
+				"",
+				"Whoops. If I'm adding ingredients, it might mix them before I've added everything, and make something else.",
+				"",
+				"&dCorrect. But for something like Brass, &dyou'll need to heat the Basin with a &dBlaze Burner. Make one and Right Click &dit on a &dBlaze to capture it, then place &dunder the Basin. To heat it, Right Click &dcoal or wood onto the &dBurner."
+			],
+			dependencies: [I;159],
+			id: 187,
+			tasks: [
+				{
+					id: 188,
+					type: "item",
+					item: "create:mechanical_mixer"
+				},
+				{
+					id: 189,
+					type: "item",
+					item: "create:basin"
+				},
+				{
+					id: 190,
+					type: "item",
+					item: "create:clutch"
+				},
+				{
+					id: 191,
+					type: "item",
+					item: "create:empty_blaze_burner"
+				},
+				{
+					id: 192,
+					type: "item",
+					item: "create:brass_ingot",
+					count: 10L
+				}
+			],
+			rewards: [{
+				id: 193,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 35
+			}]
+		},
+		{
+			title: "Basic Basin Creations",
+			icon: "create:basin",
+			x: 9.0d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "&dA shopping list for you, &dTraveler.",
+			description: [
+				"&dIf you didn't know, Traveler, the Basin &dis also good for holding things for &dthe Mechanical Press. ",
+				"",
+				"&dHere, I need a few things from you. &dMake them, and you'll both make a few &dcoins and save me ordering them &dmyself.",
+				"",
+				"&dTo make the Chocolate, you'll need to &dfirst mix up Milk, Sugar, and Cocoa &dBeans. You'll need to mix up 4 sugar &dand 4 cocoa beans per milk, then &dyou'll be able to pull a bucket of &dmelted chocolate out of the Basin with &da Bucket.",
+				"",
+				"&dYou'll be able to put that into the &dBasin for your Mechanical Press, and &dturn it into Chocolate Bars!",
+				"",
+				"&dAh, right, don't forget, the Mixer basin &dneeds to be heated by a Blaze Burner &das well."
+			],
+			dependencies: [I;187],
+			id: 194,
+			tasks: [
+				{
+					id: 195,
+					type: "item",
+					title: "10 Brass Ingots",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/brass"
+						}
+					},
+					count: 10L,
+					consume_items: true
+				},
+				{
+					id: 196,
+					type: "item",
+					item: "create:bar_of_chocolate",
+					count: 5L,
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 197,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Careful Mixing",
+			icon: "create:chocolate_bucket",
+			x: 6.0d,
+			y: 0.0d,
+			subtitle: "&dCheaper but easier to forget",
+			description: [
+				"Apparently, I can limit what the Basin will mix or press if I use the Recipe Filter function?",
+				"",
+				"&dCorrect. Look carefully near the top &dof any side &dof the Basin. A box will &dappear, and you may Right Click an &ditem onto that to lock it to only &drecipes that make that item.",
+				"",
+				"Why didn't you start with this?!",
+				"",
+				"&dBecause the Clutch is infinitely more &duseful."
+			],
+			dependencies: [I;187],
+			id: 198,
+			tasks: [{
+				id: 199,
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Big Crush",
+			icon: "create:crushing_wheel",
+			x: 6.0d,
+			y: 4.5d,
+			shape: "square",
+			subtitle: "&dBreak it down efficiently",
+			description: [
+				"Now that I have the Mechanical Crafter, Kow says I'm ready to make some big constructions.",
+				"",
+				"The Crushing Wheels are the first thing I should make, apparently. They can not only double the ingots I get out of ores, but they can also break down other items. The only problem is they are a bit difficult to set up.",
+				"",
+				"Not only do they need enough Rotational Force, the setup requires TWO Crushing Wheels, moving in opposite directions, at the same exact speed.",
+				"",
+				"Carefully placing and chaining Cogwheels and Shafts should make it easy, but I could also employ the use of a Gearshift to reverse a Shaft's direction.",
+				""
+			],
+			dependencies: [I;175],
+			id: 200,
+			tasks: [
+				{
+					id: 201,
+					type: "item",
+					item: "create:crushing_wheel",
+					count: 2L
+				},
+				{
+					id: 202,
+					type: "item",
+					item: "create:gearshift"
+				}
+			],
+			rewards: [{
+				id: 203,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Grab and Move",
+			icon: "create:mechanical_arm",
+			x: 6.0d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dFactory? Oh....",
+			description: [
+				"Hm, these contraptions are taking more room the more elaborate I make my set up. I think I need a way to move items around automatically...",
+				"",
+				"Well, I could use Belts and Tunnels, but shorter distances are really messy and not helpful with moving things out of Storage....",
+				"",
+				"&dWhat about a Mechanical Arm?",
+				"",
+				"A what? Oh, oh I see. That should be really useful. I need to configure it before placing it down. Hold it, and Right Click a Belt or Chute to tell it to grab from them. To tell it where to put the items, I double Right Click on another belt or chute",
+				"",
+				"&dSince you can't grab items out of any &dinventory, I suggest using a Depot. &dYou can only put one stack of an item &don it, but I think you can work out how &dto use Belts and Funnels and things &dto utilize it well, Traveler."
+			],
+			dependencies: [I;175],
+			id: 204,
+			tasks: [
+				{
+					id: 205,
+					type: "item",
+					item: "create:mechanical_arm"
+				},
+				{
+					id: 211,
+					type: "item",
+					item: "create:depot"
+				}
+			],
+			rewards: [{
+				id: 212,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Conveying My Goods",
+			icon: "create:belt_connector",
+			x: 10.5d,
+			y: 6.0d,
+			shape: "square",
+			subtitle: "&dA good first step of &dautomation",
+			description: [
+				"Chaining Cogwheels and Shafts is not always an elegant way to go longer distances, so Kow taught me how to use Belts. They connect two Shafts together, but they also have a bigger function.",
+				"",
+				"Belts act as Conveyor Belts too! They can move items and creatures along them.",
+				"",
+				"To put things onto the Belt, or take them off, I can attach an Andesite Chute. These work without being attached to a Belt, but when they are, they either take items or put items onto the belt.",
+				"",
+				"Kow says to use a Wrench on a Chute to reverse what it's doing. I should probably make one...",
+				"",
+				"The Andesite Tunnel is useful to split off a single item from every stack that passes through it. It needs a belt going off one side of it, however."
+			],
+			dependencies: [I;152],
+			id: 206,
+			tasks: [
+				{
+					id: 207,
+					type: "item",
+					item: "create:belt_connector"
+				},
+				{
+					id: 208,
+					type: "item",
+					item: "create:andesite_funnel"
+				},
+				{
+					id: 209,
+					type: "item",
+					item: "create:andesite_tunnel"
+				}
+			],
+			rewards: [{
+				id: 210,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Better Piston",
+			icon: "create:mechanical_piston",
+			x: 7.5d,
+			y: 4.5d,
+			shape: "square",
+			subtitle: "&dJust the start of the movement",
+			description: [
+				"We've got a lot of rotational type movement, but not a lot of forward movement type things, right?",
+				"",
+				"Well, Kow says this is the start of where we really get things moving. First, though, we need to learn how to use the Mechanical Piston.",
+				"",
+				"A normal Piston can push blocks forward one step, or pull a block back if its a Sticky Piston. Slime Blocks 'glue' other blocks to the block being moved and move them together.",
+				"",
+				"A Mechanical Piston works differently. First you need to use Piston Extensions behind the Piston, and when you apply Rotational Force to the block, will extend out the piston by that same length. ",
+				"",
+				"Reversing the Rotation will pull the piston back in. You can Right Click a Slimeball on the front of the piston to make it Sticky, or craft them together. "
+			],
+			dependencies: [I;175],
+			id: 213,
+			tasks: [
+				{
+					id: 214,
+					type: "item",
+					item: "create:mechanical_piston"
+				},
+				{
+					id: 215,
+					type: "item",
+					item: "create:piston_extension_pole"
+				}
+			],
+			rewards: [{
+				id: 216,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Wind Power",
+			icon: "create:white_sail",
+			x: 6.0d,
+			y: 6.0d,
+			shape: "square",
+			subtitle: "&dYeah yeah, more rotations",
+			description: [
+				"Okay, so after the Mechanical Piston, it kind of opens up a bunch more ways to move things, and generate Rotational Power.",
+				"",
+				"The windmill is kind of a classic thing from where I am, right? And for me, that could be a lot more useful.",
+				"",
+				"The Windmill Bearing can support a structure made from Radial Chassis, Wool Blocks, and Sails.",
+				"",
+				"You can place the Radial Chassis straight out from the top of the Windmill Bearing, then connect Sails and Wool Blocks out from these. ",
+				"",
+				"When you've made a suitably sized Windmill, you can Right Click the Windmill Bearing with an empty hand to attach all the blocks and start the Windmill."
+			],
+			dependencies: [I;213],
+			id: 217,
+			tasks: [
+				{
+					id: 218,
+					type: "item",
+					item: "create:windmill_bearing"
+				},
+				{
+					id: 219,
+					type: "item",
+					item: "create:radial_chassis",
+					count: 3L
+				},
+				{
+					id: 220,
+					type: "item",
+					item: "create:white_sail",
+					count: 12L
+				}
+			],
+			rewards: [{
+				id: 221,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Moving Along",
+			icon: "create:linear_chassis",
+			x: 7.5d,
+			y: 6.0d,
+			shape: "square",
+			subtitle: "&dContraptions ahoy, Traveler",
+			description: [
+				"Okay, so we can move blocks forward and back longer distances with a Mechanical Piston, right? Kow showed me how to move blocks together as what she calls Contraptions",
+				"",
+				"It starts with the Linear Chassis. This will move either a column or a row of blocks with it, depending on its facing. And if you use a Slimeball on that face of the block to make it Sticky.",
+				"",
+				"When the Linear Chassis moves, it also moves all other Linear Chassis touching it, and the blocks attached to those. Like a comfy Seat...",
+				"",
+				"Oh, right, there's a Secondary Linear Chassis, which doesn't connect to Linear Chassis. Good for more complex Contraptions...",
+				"",
+				"I can hover my Wrench over the Linear Chassis, and a little box pops up showing how 'far' it will attach blocks to it. Scroll Wheel changes the range."
+			],
+			dependencies: [I;213],
+			id: 222,
+			tasks: [
+				{
+					id: 223,
+					type: "item",
+					item: "create:linear_chassis"
+				},
+				{
+					id: 229,
+					type: "item",
+					item: "create:white_seat"
+				}
+			],
+			rewards: [{
+				id: 225,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Stick Together",
+			icon: {
+				id: "create:super_glue",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 6.0d,
+			y: 7.5d,
+			shape: "diamond",
+			subtitle: "&dMostly super",
+			description: [
+				"Okay, sometimes I don't want to use a Linear Chassis to connect blocks, since it isn't feasible. For that, I figured out how to create a useful product from back home.",
+				"",
+				"Super Glue! I can use this on any side of many blocks, then place another block against it, and they'll be glued together!",
+				"",
+				"&dBut you can just break one to unstick &dthem...",
+				"",
+				"Yeah, but when one block moves, the other one does too, which is the point.",
+				"",
+				"&dPoint. Why not send me some, I have some stuff I need to repair here after my last experiment..."
+			],
+			dependencies: [I;222],
+			id: 226,
+			tasks: [{
+				id: 227,
+				type: "item",
+				item: {
+					id: "create:super_glue",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				count: 5L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: 228,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Mechanical Tools",
+			icon: "create:mechanical_saw",
+			x: 9.0d,
+			y: 6.0d,
+			shape: "square",
+			subtitle: "&dStop punching things already",
+			description: [
+				"Now that I know how to move things, it's time to make my contraptions useful.",
+				"",
+				"The Mechanical Saw can make things like a Sawmill if it's facing upward. But if its facing sideways, it can chop down entire trees, whether stationary or moving.",
+				"",
+				"The Mechanical Drill, as it says, drills through stone and ore and other things. Great for digging machines.",
+				"",
+				"The Mechanical Plow will break grass, torches, anything you can walk through. It also plows dirt. Unlike the Saw and Drill, it won't hurt creatures it touches.",
+				"",
+				"The Mechanical Harvester, unlike the plough, only breaks and harvest mature plants, and immediately replants them."
+			],
+			dependencies: [I;222],
+			id: 230,
+			tasks: [
+				{
+					id: 231,
+					type: "item",
+					item: "create:mechanical_saw"
+				},
+				{
+					id: 232,
+					type: "item",
+					item: "create:mechanical_drill"
+				},
+				{
+					id: 233,
+					type: "item",
+					item: "create:mechanical_plough"
+				},
+				{
+					id: 234,
+					type: "item",
+					item: "create:mechanical_harvester"
+				}
+			],
+			rewards: [{
+				id: 241,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 35
+			}]
+		},
+		{
+			title: "On the Go",
+			icon: "create:cart_assembler",
+			x: 9.0d,
+			y: 7.5d,
+			shape: "square",
+			subtitle: "&dFancy a drive?",
+			description: [
+				"Using Mechanical Pistons is a valid way of  moving machines forward and back, but it lacks a bit of... turning ability. I mean, unless I made a really complex machine I guess.",
+				"",
+				"&dMount it on a cart. Let me show you.",
+				"",
+				'Okay, yeah, that is much more useful. So, the Cart Assembler can "assemble" a contraption onto a minecart that passes under it, or "disassemble" one if a cart with a contraption already.',
+				"",
+				"&dYou build the contraption directly &dabove the Cart Assembler. If you &dhave a Redstone Signal going to the &dAssembler when a Minecart pases &dthrough, it will hook the contraption &donto the minecart, otherwise it &dremoves it.",
+				"",
+				"And the Controller Rail lets me set a specific speed to move Minecarts at, which is useful for stuff like digging machines."
+			],
+			dependencies: [I;222],
+			id: 235,
+			tasks: [
+				{
+					id: 236,
+					type: "item",
+					item: "create:cart_assembler"
+				},
+				{
+					id: 237,
+					type: "item",
+					item: "create:controller_rail"
+				}
+			],
+			rewards: [{
+				id: 240,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Air Currents",
+			x: 10.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dBlowing Hot Air",
+			description: [
+				"Now that I know how to grind up Ore, Kow has shown me a way to wash the Ore for a better yield. ",
+				"",
+				"By taking an Encased Fan, I can angle the air flow through Water to create a wet wash. If I put Crushed Ore into this current, it will wash it to pure metal nuggets.",
+				"",
+				"&dYou can make a cage with Iron Bars to &dhold Water in front of the fan. Just &dbe careful not to Right Click the &dbucket on the Iron Bars itself or you &dwaterlog them instead.",
+				"",
+				"Yeah, that made a mess when I did it. What else... Oh! I can also blow air through Lava the same way to create an open air smelter!"
+			],
+			dependencies: [I;159],
+			id: 238,
+			tasks: [{
+				id: 239,
+				type: "item",
+				item: "create:encased_fan"
+			}],
+			rewards: [{
+				id: 242,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		}
+	]
+}
