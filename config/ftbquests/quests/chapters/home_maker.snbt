@@ -75,17 +75,38 @@
 				{
 					id: 248,
 					type: "item",
-					item: "adchimneys:bricks_chimney"
+					title: "Any Chimney",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "crafttweaker:chimneys"
+						}
+					}
 				},
 				{
 					id: 249,
 					type: "item",
-					item: "adchimneys:bricks_vent"
+					title: "Any Chimney Vent",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "crafttweaker:vents"
+						}
+					}
 				},
 				{
 					id: 250,
 					type: "item",
-					item: "adchimneys:bricks_pump"
+					title: "Any Chimney Pump",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "crafttweaker:pumps"
+						}
+					}
 				}
 			],
 			rewards: [{

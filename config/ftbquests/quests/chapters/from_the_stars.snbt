@@ -206,6 +206,924 @@
 				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
+		},
+		{
+			title: "Of Light and Dark",
+			icon: "astralsorcery:illuminator",
+			x: 2.75d,
+			y: -4.25d,
+			shape: "diamond",
+			subtitle: "&dLighting the Way",
+			description: [
+				"Now that I can imbue starlight into things, I've opened up a few new and interesting items I can play with.",
+				"",
+				"The opposite of Bright Powder would be... ",
+				"",
+				"&dNight Water.",
+				"",
+				"Yes, see, y... wait, no! Nocturnal Powder, geez. It can be thrown like Bright Powder, but instead it creates a dark smoke cloud that summons monsters.",
+				"",
+				"On the other paw, there is the Cave Illuminator. When placed, it will slowly illuminate the caves underneath it. It doesn't go too far, but it illuminates caves from bedrock to sky. Very useful!",
+				"",
+				"&dYes, quite useful I'd say. Send me one &dof each, Traveler. I want to test a &dmagical spell of mine with them..."
+			],
+			dependencies: [I;507],
+			id: 513,
+			tasks: [
+				{
+					id: 514,
+					type: "item",
+					item: "astralsorcery:illuminator",
+					consume_items: true
+				},
+				{
+					id: 515,
+					type: "item",
+					item: "astralsorcery:nocturnal_powder",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 516,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "More Starlight",
+			icon: "astralsorcery:altar_attunement",
+			x: 4.0d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "&dCan't have enough",
+			description: [
+				"Eventually I'm going to hit a point where my little Luminous Crafting Table won't be enough... I can already tell things are going to want more and more Starlight, not to mention other things.",
+				"",
+				"Apparently the first step in improving my usage of Starlight is making a Lightwell. This will use items like Rock Crystals and Aquamarines, and convert them into Liquid Starlight. When enough has been created, I can take it out with a bucket.",
+				"",
+				"That Bucket of Liquid Starlight? Perfect to make the Starlight Crafting Altar. I'll need to check the Astral Tome, but it requires a larger space to fit the whole structure for it.",
+				"",
+				"&dWith it, you can make more powerful &ditems, and more items at once."
+			],
+			dependencies: [I;507],
+			id: 517,
+			tasks: [
+				{
+					id: 518,
+					type: "item",
+					item: "astralsorcery:well"
+				},
+				{
+					id: 519,
+					type: "item",
+					item: "astralsorcery:altar_attunement"
+				},
+				{
+					id: 521,
+					type: "item",
+					item: "astralsorcery:marble_arch"
+				},
+				{
+					id: 522,
+					type: "item",
+					item: "astralsorcery:marble_bricks"
+				},
+				{
+					id: 523,
+					type: "item",
+					item: "astralsorcery:black_marble_raw"
+				},
+				{
+					id: 524,
+					type: "item",
+					item: "astralsorcery:marble_chiseled"
+				},
+				{
+					id: 525,
+					type: "item",
+					item: "astralsorcery:marble_pillar"
+				}
+			],
+			rewards: [{
+				id: 520,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Light Focus",
+			icon: {
+				id: "astralsorcery:resonator",
+				Count: true,
+				tag: {
+					astralsorcery: {
+						upgrades: [0]
+					}
+				}
+			},
+			x: 2.75d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "&dA careful look",
+			description: [
+				"So, finding the best spots where Constellations and starlight and all that stuff are centered is really complex. Kind of.",
+				"",
+				"A Fosic Resonator is a handy little tool to find the best spots. I should travel the surface world, especially at night, and hold it aloft. Certain areas will glow with a colorful smoke.",
+				"",
+				"&dTo make the Infused Wood, just pour &dthe Liquid Starlight into a hole and &dthrow Logs in. With the Resonator, I &dsuggest finding a dark blue smoke &dwith &dsparkles in it. That, apparently, is &dthe &dbest early on.",
+				"",
+				"Oooh, okay, so the Scholars talk about using an Astral Relay, I guess I make one of those, build the structure, and it'll add even more Starlight to nearby Altars? I shouldn't forget to put a Glass Lens into the Relay as well..."
+			],
+			dependencies: [I;517],
+			id: 526,
+			tasks: [
+				{
+					id: 527,
+					type: "item",
+					item: {
+						id: "astralsorcery:resonator",
+						Count: true,
+						tag: {
+							astralsorcery: {
+								upgrades: [0]
+							}
+						}
+					}
+				},
+				{
+					id: 529,
+					type: "item",
+					item: "astralsorcery:spectral_relay"
+				}
+			],
+			rewards: [{
+				id: 528,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "A Better View",
+			icon: "astralsorcery:telescope",
+			x: 5.25d,
+			y: -7.0d,
+			shape: "diamond",
+			subtitle: "&dMuch steadier too",
+			description: [
+				"Now that I've improved my Luminous Crafting Table, I think its time to improve this Looking Glass...",
+				"",
+				"The Scholars in the Tome say that adding gold and affixing it to a base is a good idea, and will let me see things steadier.",
+				"",
+				"It should also let me see more constellations it sounds like? Oh yeah, this is much better. I can carefully rotate the Telescope to 8 fixed positions, and see ALL the constellations I've traced too!",
+				"",
+				"&dThat is a very nice telescope, &dTraveler, one I'll purchase from you. &dIt would be a good gift for my &dbrother's ship, I think."
+			],
+			dependencies: [I;
+				517,
+				509
+			],
+			id: 530,
+			tasks: [{
+				id: 531,
+				type: "item",
+				item: "astralsorcery:telescope",
+				consume_items: true
+			}],
+			rewards: [{
+				id: 532,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Of Mirrors and Starlight",
+			icon: {
+				id: "astralsorcery:lens",
+				Count: 3b,
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size",
+									pLevel: 1,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:shape",
+									pLevel: 2,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:collector.rate",
+									pLevel: 2,
+									discovered: true
+								}
+							]
+						}
+					}
+				}
+			},
+			x: 4.0d,
+			y: -7.5d,
+			shape: "square",
+			subtitle: "&dReflecting on things",
+			description: [
+				"Okay, these Altar things being rare makes it kind of difficult to have a solid base. I COULD move my base onto the Altar, but the only ones I found are precariously placed on mountains. ",
+				"",
+				"Thankfully, Kow showed me the section on Crystal Lens'. I can use them to reflect starlight from the big crystal out and down to my Starlight Crafting Table or whatever else.",
+				"",
+				"I need a Linking Wand, then I can Right Click the big crystal. After that, I Right Click the block or Crystal Lens I want it to send Starlight at. ",
+				"",
+				"I can then Scroll off and on the Linking Wand, choose the Crystal Lens, then another one to bounce the beam in different directions. Rinse, repeat, until...",
+				"",
+				"&dIt looks like a highly secure &dgovernment hallway in some spy &dmovie?"
+			],
+			dependencies: [I;517],
+			id: 533,
+			tasks: [
+				{
+					id: 534,
+					type: "item",
+					item: "astralsorcery:lens"
+				},
+				{
+					id: 535,
+					type: "item",
+					item: "astralsorcery:wand"
+				}
+			],
+			rewards: [{
+				id: 536,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Metal From Another Star",
+			icon: "astralsorcery:starmetal_ore",
+			x: 5.25d,
+			y: -9.25d,
+			shape: "square",
+			subtitle: "&dNot Yours, however",
+			description: [
+				"Now that I can focus Starlight from the big crystals, I can put it to good use. I wish I could move or like, make one of those big crystals, but that'll have to wait.",
+				"",
+				"I can use the Starlight to transform blocks I focus it on. There's some normal things I can do, but then there is Starmetal.",
+				"",
+				"By focusing Starlight on an Iron Ore, I can suffuse Starlight into it, and turn it into Starmetal.",
+				"",
+				"&dThe first thing you should make is a &dStarlight Cutting Tool, Traveler. You &dcan throw Rock Crystals on the &dground and Left Click the Tool onto &dthem to try splitting them.",
+				"",
+				"Then I put the pieces I want into Liquid Starlight and fuse the crystals... that's brilliant."
+			],
+			dependencies: [I;
+				533,
+				541
+			],
+			id: 537,
+			tasks: [
+				{
+					id: 538,
+					type: "item",
+					item: "astralsorcery:starmetal_ore"
+				},
+				{
+					id: 539,
+					type: "item",
+					item: {
+						id: "astralsorcery:chisel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 540,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Crystalline Tools",
+			icon: {
+				id: "astralsorcery:crystal_pickaxe",
+				Count: true,
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size",
+									pLevel: 4,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:purity",
+									pLevel: 2,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:shape",
+									pLevel: 3,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:collector.rate",
+									pLevel: 1,
+									discovered: true
+								}
+							]
+						}
+					},
+					Damage: 0
+				}
+			},
+			x: 2.75d,
+			y: -7.0d,
+			shape: "square",
+			subtitle: "&dThey kind of sparkle nicely",
+			description: [
+				"Okay, these Rock Crystals, now that I understand Starlight and Astral stuff a bit more, I can see how each Crystal is unique.",
+				"",
+				"Each Crystal has different attributes. And with Liquid Starlight, I can fuze crystals together. Tossing two of them into Liquid Starlight will get them to merge after a bit, consuming the liquid. The stronger crystal might get a boost to its stats.",
+				"",
+				"I can merge and power up the crystals, then take these crystals and make Tools out of them. The stats can have various boosts to using them."
+			],
+			dependencies: [I;526],
+			id: 541,
+			tasks: [{
+				id: 542,
+				type: "item",
+				item: {
+					id: "astralsorcery:crystal_pickaxe",
+					Count: true,
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size",
+										pLevel: 4,
+										discovered: true
+									},
+									{
+										property: "astralsorcery:purity",
+										pLevel: 2,
+										discovered: true
+									},
+									{
+										property: "astralsorcery:shape",
+										pLevel: 3,
+										discovered: true
+									},
+									{
+										property: "astralsorcery:collector.rate",
+										pLevel: 1,
+										discovered: true
+									}
+								]
+							}
+						},
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 543,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "A Gate of Stars",
+			icon: {
+				id: "astralsorcery:celestial_gateway",
+				Count: true,
+				tag: {
+					astralsorcery: {}
+				}
+			},
+			x: 6.75d,
+			y: -10.75d,
+			shape: "square",
+			subtitle: "&dNo MALP to send first, though.",
+			description: [
+				"So, I know we have the Waystones that are found pretty regularly, and are easy(ish) to make. But they lack style. To that, I can make a Celestial Gateway instead with this new Starmetal!",
+				"",
+				"It requires a structure under it, like the Starlight Crafting Table and other things. But I found a neat thing: If I have the structure's components in my inventory, I can put the Celestial Gateway down, then Right Click my Resonating Wand on it.",
+				"",
+				"This will show ghost blocks on where the structure will be. If that looks good, I can Sneak+Right Click to automatically build it!",
+				"",
+				"&dThe Gateway...",
+				"",
+				"Oh right! When I stand near the center, I can see a starfield. Other Gateways will be bright yellow stars. If I stare at one and Sneak, it will teleport me to it after a few moments."
+			],
+			dependencies: [I;537],
+			id: 544,
+			tasks: [{
+				id: 545,
+				type: "item",
+				item: "astralsorcery:celestial_gateway"
+			}],
+			rewards: [{
+				id: 546,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Celestial Creations",
+			icon: "astralsorcery:altar_constellation",
+			x: 7.25d,
+			y: -9.25d,
+			shape: "square",
+			subtitle: "&dFlying among the stars",
+			description: [
+				"To properly leverage the power of Starlight and these Constellations, I'm going to upgrade this Starlight Altar into a Celestial Altar. I need enough Starlight power, and some additional components, but nothing too difficult.",
+				"",
+				"I almost forgot to change the structure after upgrading the Altar. It needs a bit of a bigger area, but that just means more power.",
+				"",
+				"The Astral Scholars list a few things to make in this improved Altar, but the first I think should be the Starlight Infuser. It, too, has a structure I need to build around it, but primarily as a sort of fountain to hold all this Liquid Starlight...",
+				"",
+				"With this, I can fill the side channels with Liquid Starlight, and then infuse this into various objects. Most important will probably infusing Aquamarine into Resonating Gems."
+			],
+			dependencies: [I;537],
+			id: 547,
+			tasks: [
+				{
+					id: 548,
+					type: "item",
+					item: "astralsorcery:infuser"
+				},
+				{
+					id: 550,
+					type: "item",
+					item: "astralsorcery:resonating_gem"
+				}
+			],
+			rewards: [{
+				id: 549,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Constellation Power",
+			icon: "astralsorcery:attunement_altar",
+			x: 3.0d,
+			y: -9.25d,
+			shape: "square",
+			subtitle: "&dPerk up, Traveler",
+			description: [
+				"The Scholars describe a way to attune myself to a constellation, which should let me see even more constellations?",
+				"",
+				"&dSomewhat. You'll gain knowledge and &dpower, and thus can see the dimmer &dconstellations.",
+				"",
+				"Hmm, okay then. I should make the Attunement Altar. It needs some space, since I will recreate the constellation I want using Astral Relays.",
+				"",
+				"&dIf you hold the Constellation Paper &dfor it at night, spots will glow on the &dStructure in the proper pattern.",
+				"",
+				"Oh that's really useful. Okay, if the pattern is right and it's the right night for that constellation, it should glow bright. Now I can put something in the center to attune it.",
+				"",
+				"Something like myself! Whoa, that was weird. But now I can... use perks? Wow, flashbacks to the Sphere Grid..."
+			],
+			dependencies: [I;537],
+			id: 551,
+			tasks: [{
+				id: 552,
+				type: "item",
+				item: "astralsorcery:attunement_altar"
+			}],
+			rewards: [{
+				id: 553,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Perks of my Own",
+			icon: "astralsorcery:perk_seal",
+			x: 4.25d,
+			y: -10.75d,
+			shape: "diamond",
+			subtitle: "&dFinely tuned",
+			description: [
+				"So this perk thing is really interesting. I can gain power from the constellation as long as I do things related to it. Walking around for Vicio, for example. Then I choose my path, draw my own constellation in a way.",
+				"",
+				"The only problem is, I can't really backtrack and rechoose my path. Well, I can hold Right Click with a Shifting Star to wipe my slate clean and re-attune myself. But that's a last resort.",
+				"",
+				"I can also use Sealing Sigils on the spots in the Perk tree I don't want to affect me. I can remove a Sigil by double clicking that spot. Pretty easy.",
+				"",
+				"&dInteresting. I seldom see these used. &dMind sending me one of each, &dTraveler?"
+			],
+			dependencies: [I;551],
+			id: 554,
+			tasks: [
+				{
+					id: 555,
+					type: "item",
+					item: "astralsorcery:shifting_star",
+					consume_items: true
+				},
+				{
+					id: 557,
+					type: "item",
+					item: "astralsorcery:perk_seal",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: 556,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Grow Your Own Gems",
+			icon: {
+				id: "astralsorcery:perk_gem_night",
+				Count: true,
+				tag: {
+					astralsorcery: {
+						attribute_modifiers: [
+							{
+								mode: 1,
+								id: [I;
+									-1534410946,
+									-1251979847,
+									-1365368170,
+									-2054234463
+								],
+								baseValue: 0.07024931f,
+								type: "astralsorcery:meleeattackdamage"
+							},
+							{
+								mode: 1,
+								id: [I;
+									-610430467,
+									1716538324,
+									-1962042616,
+									-2021766966
+								],
+								baseValue: 0.07183722f,
+								type: "astralsorcery:allres"
+							},
+							{
+								mode: 1,
+								id: [I;
+									-1411512529,
+									917195435,
+									-1771515633,
+									909688850
+								],
+								baseValue: 0.05489213f,
+								type: "astralsorcery:critmulti"
+							}
+						]
+					}
+				}
+			},
+			x: 2.0d,
+			y: -8.25d,
+			shape: "diamond",
+			subtitle: "&dBetter than rock candy",
+			description: [
+				"Some spots in this perk grid are... Gem Sockets? Is its an ARPG now? Anyways, I can grow special gems by throwing Illumination Powder and a Rock Crystal into some Liquid Starlight. When the Starlight is absorbed, a gem will start growing.",
+				"",
+				"When it's fully grown, I can harvest a gem. What gem I get depends on the time of day it grows. Theres a different gem for day, night, and dawn/dusk. Each gem is special in its own way.",
+				"",
+				"I can then put these gems onto any open Gem Socket in my Perk grid.",
+				"",
+				"&dAnd you can also send me one of &deach gem for my collection, Traveler."
+			],
+			dependencies: [I;551],
+			id: 561,
+			tasks: [
+				{
+					id: 562,
+					type: "item",
+					item: "astralsorcery:perk_gem_night"
+				},
+				{
+					id: 563,
+					type: "item",
+					item: "astralsorcery:perk_gem_sky"
+				},
+				{
+					id: 564,
+					type: "item",
+					item: "astralsorcery:perk_gem_day"
+				}
+			],
+			rewards: [{
+				id: 565,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Tree Spirits",
+			icon: "astralsorcery:tree_beacon",
+			x: 9.5d,
+			y: -9.25d,
+			shape: "diamond",
+			subtitle: "&dGhostly smells of pine",
+			description: [
+				"Oh, this is going to be a useful thing to make. The Tree Beacon.",
+				"",
+				"&dAh, know it doesn't work with ALL &dtrees, but most should work. ",
+				"",
+				"Oh? Okay, good to know. If I place it down, the area it works on should have green wisps right?",
+				"",
+				"&dYes. And when you plant a tree and it &dgrows, the Tree Beacon will turn it &dghostly.",
+				"",
+				"Oh, freaky. But it'll just... magically produce stuff then? Like logs and saplings?",
+				"",
+				"&dYes. For a time. The spirit of the &dsapling doesn't last forever. I could &duse a new Beacon for my arboretum, &dTraveler. Please provide."
+			],
+			dependencies: [I;547],
+			id: 566,
+			tasks: [{
+				id: 567,
+				type: "item",
+				item: "astralsorcery:tree_beacon"
+			}],
+			rewards: [{
+				id: 568,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "A Bright Wand",
+			icon: {
+				id: "astralsorcery:illumination_wand",
+				Count: true,
+				tag: {
+					astralsorcery: {
+						color: 10
+					}
+				}
+			},
+			x: 9.0d,
+			y: -10.75d,
+			shape: "square",
+			subtitle: "&dAt least it isn't a lighter.",
+			description: [
+				"The Illumination Wand is kind of like the Illumination Powder, except it can't throw it out like a baseball.",
+				"",
+				"Instead, I can change the color of the Wand's lights by combining it with some Dye in a crafting table. But that's not the best part.",
+				"",
+				"If I Sneak+Right Click a block, I can turn it ethereal and mostly indestructable. It also takes on the color I dye the wand.",
+				"",
+				"This is very limited though. I have to recharge the wand on a Cave Illuminator, which changes it's light colors too. And ANY Illumination Wand can remove my ghostly powers."
+			],
+			dependencies: [I;547],
+			id: 569,
+			tasks: [{
+				id: 570,
+				type: "item",
+				item: {
+					id: "astralsorcery:illumination_wand",
+					Count: true,
+					tag: {
+						astralsorcery: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: 571,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "A Crystal of My Own",
+			icon: {
+				id: "astralsorcery:rock_collector_crystal",
+				Count: true,
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia",
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size",
+									pLevel: 3,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:purity",
+									pLevel: 2,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:shape",
+									pLevel: 3,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:collector.rate",
+									pLevel: 3,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:constellation.discidia",
+									pLevel: 2,
+									discovered: true
+								}
+							]
+						}
+					}
+				}
+			},
+			x: 9.0d,
+			y: -7.5d,
+			shape: "square",
+			subtitle: "&dThe collection grows",
+			description: [
+				"Now that I've advanced my astral knowledge enough, I can produce my own Collector Crystals like in the Academy Shrine things.",
+				"",
+				"I need to attune a rock crystal to the constellation I want, then I can form it into a Collector Crystal, and use it like the Academy Shrine ones.",
+				"",
+				"I need to make sure I use a really good Rock Crystal, shaping it well, before attuning it. I should also not keep multiple Collector Crystals close together, since they won't work as well. Conflict of energies or something."
+			],
+			dependencies: [I;547],
+			id: 572,
+			tasks: [{
+				id: 573,
+				type: "item",
+				item: {
+					id: "astralsorcery:rock_collector_crystal",
+					Count: true,
+					tag: {
+						astralsorcery: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: 574,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Crystal Perfection",
+			icon: {
+				id: "astralsorcery:celestial_crystal",
+				Count: true,
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size",
+									pLevel: 3,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:purity",
+									pLevel: 1,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:tool.durability",
+									pLevel: 3,
+									discovered: true
+								},
+								{
+									property: "astralsorcery:constellation.fornax",
+									pLevel: 1,
+									discovered: true
+								}
+							]
+						}
+					}
+				}
+			},
+			x: 7.5d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "&dHomegrown Flavor",
+			description: [
+				"Collector Crystals around, I can much easier make and refine Rock Crystals. But there is a step above refining and fuzing crystals together.",
+				"",
+				"By tossing a Rock Crystal and a Stardust into a pool of Liquid Starlight, it will boil off and merge the two into a crystal cluster that will start to grow. I can help it grow by aiming Collector Crystals at it.",
+				"",
+				"&dTraveler, I suggest growing that on &dStarmetal Ore. And keep at least one &dCollector pointed at the Ore. ",
+				"",
+				"Why?",
+				"",
+				"&dAs it grows, the crystal will absorb &dthe star metal, and turn it back to &diron. If it keeps absorbing star metal, &dit will grow even stronger.",
+				"",
+				"Oh, and the crystal's starlight will keep transforming the iron back to star metal. Neat! So when the Crystal sparkles, I can harvest it. Good."
+			],
+			dependencies: [I;572],
+			id: 575,
+			tasks: [{
+				id: 576,
+				type: "item",
+				item: "astralsorcery:celestial_crystal"
+			}],
+			rewards: [{
+				id: 577,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "The Brightest Altar",
+			icon: "astralsorcery:altar_radiance",
+			x: 9.0d,
+			y: -3.75d,
+			shape: "square",
+			subtitle: "&dThe strongest glow",
+			description: [
+				"Following the astral Academy's guide, it seems I have enough knowledge to upgrade this altar to its final form.",
+				"",
+				"The Iridescent Altar is the largest, requiring a bit more headroom for its structure. I should also place a bunch of Astral Relays on the Sooty Marble, which will hold even more ingredients.",
+				"",
+				"After I construct it, I should make a Containment Chalice. When I craft it, ghostly images will appear over the Astral Relays of the items it wants outside the crafting table. ",
+				"",
+				"The Containment Chalice is good, it holds much more Liquid Starlight than the Lightwells. It will draw it from Lightwells within 16 blocks.",
+				"",
+				"A side effect is this liquid will leak slightly, and transmute other liquids nearby? I should put a Redstone Signal on the chalice to stop that until it is needed..."
+			],
+			dependencies: [I;575],
+			id: 578,
+			tasks: [{
+				id: 579,
+				type: "item",
+				item: "astralsorcery:chalice"
+			}],
+			rewards: [{
+				id: 580,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 35
+			}]
+		},
+		{
+			title: "I Shall Wear Midnight",
+			icon: {
+				id: "astralsorcery:mantle",
+				Count: true,
+				tag: {
+					astralsorcery: {},
+					Damage: 0
+				}
+			},
+			x: 7.5d,
+			y: -2.0d,
+			shape: "diamond",
+			subtitle: "&dAnd a hat full of sky",
+			description: [
+				"The Iridescent Altar gives me enough power to imbue the power of starlight and star metal into a leather mantle.",
+				"",
+				"This Mantle of Stars can be attuned to different constellations, and aid me in various ways.",
+				"",
+				"&dMake an extra Mantle and send it to &dme, Traveler. With this, your teachings &dinto Astral Sorcery are complete. &dThere are many things I did not &dcover, but I trust you can explore &dthe book at your own leisure."
+			],
+			dependencies: [I;578],
+			id: 581,
+			tasks: [{
+				id: 582,
+				type: "item",
+				item: {
+					id: "astralsorcery:mantle",
+					Count: true,
+					tag: {
+						astralsorcery: {},
+						Damage: 0
+					}
+				},
+				consume_items: true
+			}],
+			rewards: [{
+				id: 583,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 50
+			}]
 		}
 	]
 }
