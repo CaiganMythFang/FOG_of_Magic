@@ -797,8 +797,8 @@
 					}
 				}
 			},
-			x: 2.0d,
-			y: -8.25d,
+			x: 1.5d,
+			y: -7.75d,
 			shape: "diamond",
 			subtitle: "&dBetter than rock candy",
 			description: [
