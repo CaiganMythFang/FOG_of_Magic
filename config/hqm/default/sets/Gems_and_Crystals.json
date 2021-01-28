@@ -2,6 +2,43 @@
   "name": "Gems and Crystals",
   "quests": [
     {
+      "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
+      "name": " Emerald (Sell)",
+      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
+      "x": 210,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:emerald",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "360d8a9f-edf5-4b9f-badf-ae5f601283ab",
       "name": " Mana Gem (Buy)",
       "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. ",
@@ -40,43 +77,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
-      "name": " Emerald (Sell)",
-      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
-      "x": 210,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:emerald",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:emerald",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "141c1635-56aa-4802-832b-cd5b7259ec6f",
       "name": " Emerald (Buy)",
       "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
@@ -108,6 +108,44 @@
       "reward": [
         {
           "id": "minecraft:emerald_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "642c65a6-29fc-4da2-9595-d67425eb3c79",
+      "name": " Ender Pearl (Buy)",
+      "description": "    Technically, these are from the eyes of Endermen, the creepy long creatures from The End.\n    And technically, that is really dang creepy itself, you know.",
+      "x": 67,
+      "y": 52,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
           "Count": 1
         }
       ],
@@ -607,6 +645,43 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfecfd28-ffd6-4c57-a812-332ebcdd993f",
+      "name": " Ender Pearl (Sell)",
+      "description": "    Technically, these are from the eyes of Endermen, the creepy long creatures from The End.\n    And technically, that is really dang creepy itself, you know.",
+      "x": 235,
+      "y": 52,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
