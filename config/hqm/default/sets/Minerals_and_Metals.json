@@ -2,43 +2,6 @@
   "name": "Minerals and Metals",
   "quests": [
     {
-      "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
-      "name": " Oratchalcum (Sell)",
-      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
-      "x": 171,
-      "y": 105,
-      "icon": {
-        "id": "rats:oratchalcum_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "rats:oratchalcum_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "1612ecd9-8fbb-482d-b2b1-a8796d3b462d",
       "name": " Neptunium Ingot (Sell)",
       "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
@@ -70,6 +33,43 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
+      "name": " Oratchalcum (Sell)",
+      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
+      "x": 171,
+      "y": 105,
+      "icon": {
+        "id": "rats:oratchalcum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "rats:oratchalcum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -331,6 +331,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "268b718f-92e6-4edf-b768-a5e1cde1e058",
+      "name": " Elementium Ingot (Sell)",
+      "description": "    Elementium is an Elven material only obtainable from Alfheim, which only Botania botanists know how to access.",
+      "x": 222,
+      "y": 79,
+      "icon": {
+        "id": "botania:elementium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:elementium_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
       "name": " Redium Ingot (Sell)",
       "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
@@ -402,6 +439,81 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3553cbcd-174c-48e3-84d5-b255454ca00d",
+      "name": " Manasteel Ingot (Sell)",
+      "description": "    Manasteel is a Botanists Mana infused Iron. It\u0027s worth a little more than Iron, but not by much.",
+      "x": 197,
+      "y": 78,
+      "icon": {
+        "id": "botania:manasteel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manasteel_ingot",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ad0e7c1-cc56-4825-891c-47e5e6a96500",
+      "name": " Terrasteel Ingot (Sell)",
+      "description": "    Terrasteel is a powerful alloy with a bucket full of Mana compressed into it. Difficult to make and worth every penny.",
+      "x": 247,
+      "y": 78,
+      "icon": {
+        "id": "botania:terrasteel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terrasteel_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 25
         }
       ],
       "rewardchoice": [],

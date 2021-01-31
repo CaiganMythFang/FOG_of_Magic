@@ -2,43 +2,6 @@
   "name": "Gems and Crystals",
   "quests": [
     {
-      "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
-      "name": " Emerald (Sell)",
-      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
-      "x": 210,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:emerald",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:emerald",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "360d8a9f-edf5-4b9f-badf-ae5f601283ab",
       "name": " Mana Gem (Buy)",
       "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. ",
@@ -109,6 +72,455 @@
         {
           "id": "minecraft:emerald_ore",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb2a62e2-c2ae-4dcc-b061-8b0e14503852",
+      "name": " Dragonstone (Sell)",
+      "description": "    Dragonstones are obtained by trading in Mana Diamonds to the Elves of Alfheim.",
+      "x": 254,
+      "y": 84,
+      "icon": {
+        "id": "botania:dragonstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:dragonstone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 19
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fafa27aa-d2b8-4dde-902b-4d6e94aee3d1",
+      "name": " Redstone (Buy)",
+      "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
+      "x": 42,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:redstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2997ff39-7a59-419a-b34f-a2082ec27c25",
+      "name": " Nether Quartz (Buy)",
+      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
+      "x": 92,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:quartz",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:nether_quartz_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3fcba47f-0483-4f63-a08b-d39b40052f91",
+      "name": " Mana Diamond (Sell)",
+      "description": "    Mana Diamonds are diamonds imbued with Botanist\u0027s Mana. ",
+      "x": 184,
+      "y": 83,
+      "icon": {
+        "id": "botania:mana_diamond",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_diamond",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 18
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "008e9a93-352f-4ae1-a0a8-8f722453f20b",
+      "name": " Nether Quarts (Sell)",
+      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
+      "x": 253,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:quartz",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8ec75376-e096-4056-a677-f8678edd422f",
+      "name": " Mana Pearl (Sell)",
+      "description": "    Mana Pearls are Ender Eyes that have been imbued with Mana from Botania.",
+      "x": 207,
+      "y": 83,
+      "icon": {
+        "id": "botania:mana_pearl",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_pearl",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b274127d-569a-4f9c-92fe-e0ee61033a46",
+      "name": " Glowstone (Sell)",
+      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
+      "x": 183,
+      "y": 53,
+      "icon": {
+        "id": "minecraft:glowstone_dust",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc212ba4-1ccb-4437-852c-dcfa529080e5",
+      "name": " Glowstone (Buy)",
+      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
+      "x": 16,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:glowstone_dust",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glowstone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfecfd28-ffd6-4c57-a812-332ebcdd993f",
+      "name": " Ender Pearl (Sell)",
+      "description": "    Technically, these are from the eyes of Endermen, the creepy long creatures from The End.\n    And technically, that is really dang creepy itself, you know.",
+      "x": 230,
+      "y": 52,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c6b09afb-8d9a-4484-8119-087982eebc86",
+      "name": " Diamond (Sell)",
+      "description": "    Diamonds are a rare and valuable gemstone, used in everything from mechanical cutting applications, scientific and electronic uses, to magical creations.",
+      "x": 183,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a949fa2b-40a0-4ac1-bad0-d470fcb607c8",
+      "name": " Aquamarine (Sell)",
+      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.\n    Since Aquamarine can be made with excess starlight, I do not buy it for much.",
+      "x": 230,
+      "y": 112,
+      "icon": {
+        "id": "astralsorcery:aquamarine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "astralsorcery:aquamarine",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
+      "name": " Emerald (Sell)",
+      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
+      "x": 207,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:emerald",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -266,82 +678,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "fafa27aa-d2b8-4dde-902b-4d6e94aee3d1",
-      "name": " Redstone (Buy)",
-      "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
-      "x": 42,
-      "y": 51,
-      "icon": {
-        "id": "minecraft:redstone",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 5
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:redstone_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "2997ff39-7a59-419a-b34f-a2082ec27c25",
-      "name": " Nether Quartz (Buy)",
-      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
-      "x": 92,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:quartz",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 10
-              },
-              "required": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:nether_quartz_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "7d73c028-e5bd-4b40-b285-546e1b6bc189",
       "name": " Diamond (Buy)",
       "description": "    Diamonds are a rare and valuable gemstone, used in everything from mechanical cutting applications, scientific and electronic uses, to magical creations.",
@@ -380,48 +716,10 @@
       "commandrewards": []
     },
     {
-      "uuid": "008e9a93-352f-4ae1-a0a8-8f722453f20b",
-      "name": " Nether Quarts (Sell)",
-      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
-      "x": 260,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:quartz",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:quartz",
-                "Count": 2
-              },
-              "required": 2
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "ed0d6642-238f-4684-8b53-a847b8dcb838",
       "name": " Lapis Lazuli (Sell)",
       "description": "    Lapis has a few uses, once as an expensive dye, but more often used in magical applications and fancy decorations.",
-      "x": 235,
+      "x": 230,
       "y": 20,
       "icon": {
         "id": "minecraft:lapis_lazuli",
@@ -453,6 +751,43 @@
         {
           "id": "calemiutils:coin_quarter",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6b3fcb53-2191-46e5-b467-e9f867eb2559",
+      "name": " Pixie Dust (Sell)",
+      "description": "    Alfheim provides Pixie Dust in exchange for some Mana Pearls. ",
+      "x": 231,
+      "y": 83,
+      "icon": {
+        "id": "botania:pixie_dust",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pixie_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 3
         }
       ],
       "rewardchoice": [],
@@ -501,86 +836,11 @@
       "commandrewards": []
     },
     {
-      "uuid": "cc212ba4-1ccb-4437-852c-dcfa529080e5",
-      "name": " Glowstone (Buy)",
-      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
-      "x": 16,
-      "y": 51,
-      "icon": {
-        "id": "minecraft:glowstone_dust",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 16
-              },
-              "required": 16
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:glowstone",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b274127d-569a-4f9c-92fe-e0ee61033a46",
-      "name": " Glowstone (Sell)",
-      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
-      "x": 183,
-      "y": 53,
-      "icon": {
-        "id": "minecraft:glowstone_dust",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:glowstone_dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "29d3a455-1137-4afe-a3ea-c8b25460bf4d",
       "name": " Redstone (Sell)",
       "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
-      "x": 210,
-      "y": 52,
+      "x": 207,
+      "y": 53,
       "icon": {
         "id": "minecraft:redstone",
         "Count": 1
@@ -617,7 +877,7 @@
       "uuid": "064ee331-d4ef-471f-8128-620a81f46a63",
       "name": " Mana Gem (Sell)",
       "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. \n    Since Mana Gems can be created from mana, I will pay a little less for them than usual.",
-      "x": 210,
+      "x": 207,
       "y": 112,
       "icon": {
         "id": "ars_nouveau:mana_gem",
@@ -633,117 +893,6 @@
             {
               "item": {
                 "id": "ars_nouveau:mana_gem",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "dfecfd28-ffd6-4c57-a812-332ebcdd993f",
-      "name": " Ender Pearl (Sell)",
-      "description": "    Technically, these are from the eyes of Endermen, the creepy long creatures from The End.\n    And technically, that is really dang creepy itself, you know.",
-      "x": 235,
-      "y": 52,
-      "icon": {
-        "id": "minecraft:ender_pearl",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:ender_pearl",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "c6b09afb-8d9a-4484-8119-087982eebc86",
-      "name": " Diamond (Sell)",
-      "description": "    Diamonds are a rare and valuable gemstone, used in everything from mechanical cutting applications, scientific and electronic uses, to magical creations.",
-      "x": 183,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:diamond",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:diamond",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "a949fa2b-40a0-4ac1-bad0-d470fcb607c8",
-      "name": " Aquamarine (Sell)",
-      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.\n    Since Aquamarine can be made with excess starlight, I do not buy it for much.",
-      "x": 237,
-      "y": 112,
-      "icon": {
-        "id": "astralsorcery:aquamarine",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "astralsorcery:aquamarine",
                 "Count": 1
               }
             }
