@@ -36,36 +36,8 @@
         "gamestage add @p lost_knowledge_camera true",
         "me HAS LEARNED LOST KNOWLEDGE - CAMERA MOD"
       ]
-    },
-    {
-      "uuid": "3c77048b-9e92-4743-a586-e879650180be",
-      "name": " L.K. - Adv Hook Launchers",
-      "description": "    Want to make your own Advanced Hook Launchers? You can\u0027t reload them otherwise, keep in mind.",
-      "x": 17,
-      "y": 20,
-      "icon": {
-        "id": "adhooks:pudge_launcher",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": []
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_adv_hook_launchers true",
-        "me HAS LEARNED LOST KNOWLEDGE - ADVANCED HOOK LAUNCHERS"
-      ]
     }
   ],
   "reputationBar": [],
-  "description": "    Looking to make your own technology, instead of purchasing it piecemeal? Then step inside.... the prices are high but the reward is, well, knowledge.\n    Welcome to the Lost Knowledge Library"
+  "description": "    Welcome to the Lost Knowledge library. The pages below are organized in the different schools of Lost Knowledge.\n    Each page has one or more mods dedicated to it. At the bottom center, is the Lost Knowledge Purchase that will let you craft everything on that page yourself."
 }

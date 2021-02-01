@@ -1,0 +1,96 @@
+{
+  "name": "Electronics Depot",
+  "quests": [
+    {
+      "uuid": "d949bb22-46a7-4b51-aff8-9f3408849f86",
+      "name": " Unlock Electronics Depot",
+      "description": "    All these handheld special tools and toys are fun. Would you like to make them yourself?",
+      "x": 152,
+      "y": 179,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_electronics_depot true",
+        "me HAS LEARNED LOST KNOWLEDGE - ELECTRONICS DEPOT"
+      ]
+    },
+    {
+      "uuid": "1b60a83c-27ca-48c4-9c1b-1903db1c53e9",
+      "name": " Camera Mod (Buy)",
+      "description": "    The Camera is a simple but fun tool. As long as you have Paper in your inventory, you can use it to take Photos.\n    The Image Frame can be resized by Sneak+Right Clicking it. Then Right Click a photo onto it to display it.\n    Or you can put the photos in a Photo Album. Sneak+Right Click while holding the Album to add or remove Photos from it",
+      "x": 17,
+      "y": 20,
+      "icon": {
+        "id": "camera:camera",
+        "Count": 1,
+        "tag": {
+          "active": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "camera:camera",
+          "Count": 1,
+          "tag": {
+            "active": 0
+          }
+        },
+        {
+          "id": "camera:image_frame",
+          "Count": 5
+        },
+        {
+          "id": "camera:album",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    If you are looking for tools, toys, and other handheld gadgets, then a stop at Electronics Depot is in store for you."
+}

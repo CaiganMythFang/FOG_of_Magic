@@ -1,6 +1,45 @@
 {
   "name": "MISC AND OTHER",
-  "quests": [],
+  "quests": [
+    {
+      "uuid": "05ccbdb0-f08e-4d1d-971f-af199de2c119",
+      "name": " Waystones (Sell)",
+      "description": "    You may find some unused Waystones out in the world. If you could, I will purchase ones you do not need. ",
+      "x": 177,
+      "y": 19,
+      "icon": {
+        "id": "waystones:waystone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "waystones:waystone",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 15
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
   "reputationBar": [],
   "description": "    These are basic things that don\u0027t quite fit in the other basic catagories. What will you find? What indeed..."
 }

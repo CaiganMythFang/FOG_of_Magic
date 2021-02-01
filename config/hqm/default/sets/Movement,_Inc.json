@@ -1,0 +1,102 @@
+{
+  "name": "Movement, Inc",
+  "quests": [
+    {
+      "uuid": "5f75b2b3-6d07-4205-9a56-e9f9c3e911a7",
+      "name": " Advanced Hook Launchers",
+      "description": "    Looking to scale tall buildings? Perhaps as a combat tool for getting you closer to your enemies?\n    Look no further than Advanced Hook Launchers. There are three types you can purchase: \n    The Web Launcher shoots a web that can safely hook walls or creatures. \n    The Spear Launcher doesn\u0027t connects to some walls, but if it hooks a creature it will damage them and let you pull them. \n    The Pudge Hook will drag you and the creature you hook towards each other.",
+      "x": 18,
+      "y": 20,
+      "icon": {
+        "id": "adhooks:pudge_launcher",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "adhooks:web_launcher",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "adhooks:spear_launcher",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "adhooks:pudge_launcher",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3c77048b-9e92-4743-a586-e879650180be",
+      "name": " Unlock Movement, Inc",
+      "description": "    Want to make your own Hook Launchers? Your own Elevators? Then this is the price.\n    It seems like a lot for some of these, but this is a package deal. You unlock a lot of different mods like this.",
+      "x": 153,
+      "y": 175,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_movement_inc true",
+        "me HAS LEARNED LOST KNOWLEDGE - MOVEMENT, INC"
+      ]
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Looking for movement tech, Traveler? Grappling hooks? Teleproters? Look no further! Movement, Inc specializes in tech that lets you move around."
+}
