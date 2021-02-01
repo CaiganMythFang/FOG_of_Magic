@@ -1,0 +1,265 @@
+{
+  "name": "Construction United",
+  "quests": [
+    {
+      "uuid": "5e506abd-60ac-4e95-9290-dca45c245f3e",
+      "name": " Building Gadgets - Main",
+      "description": "    Building Gadgets are a set of quick, helpful gadgets and blocks to aid in construction tasks.",
+      "x": 16,
+      "y": 19,
+      "icon": {
+        "id": "buildinggadgets:gadget_building",
+        "Count": 1,
+        "tag": {
+          "state": {
+            "serializer": "buildinggadgets:dummy_serializer",
+            "state": {
+              "Name": "minecraft:air"
+            },
+            "data": {}
+          }
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -6
+              },
+              "required": 250
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "buildinggadgets:gadget_building",
+          "Count": 1,
+          "tag": {
+            "state": {
+              "serializer": "buildinggadgets:dummy_serializer",
+              "state": {
+                "Name": "minecraft:air"
+              },
+              "data": {}
+            }
+          }
+        },
+        {
+          "id": "buildinggadgets:gadget_exchanging",
+          "Count": 1,
+          "tag": {
+            "state": {
+              "serializer": "buildinggadgets:dummy_serializer",
+              "state": {
+                "Name": "minecraft:air"
+              },
+              "data": {}
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "62ee1877-2f63-4630-b974-d35946279eda",
+      "name": " Building Gadgets - Copy/Delete",
+      "description": "    Building Gadgets are a set of quick, helpful gadgets and blocks to aid in construction tasks.",
+      "x": 37,
+      "y": 19,
+      "icon": {
+        "id": "buildinggadgets:gadget_copy_paste",
+        "Count": 1,
+        "tag": {
+          "mode": 0,
+          "template_id": [
+            1319745652,
+            -1912585197,
+            -1553290696,
+            53675072
+          ]
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "buildinggadgets:gadget_copy_paste",
+          "Count": 1,
+          "tag": {
+            "mode": 0,
+            "template_id": [
+              1319745652,
+              -1912585197,
+              -1553290696,
+              53675072
+            ]
+          }
+        },
+        {
+          "id": "buildinggadgets:gadget_destruction",
+          "Count": 1,
+          "tag": {
+            "overlay": 1,
+            "fuzzy": 1
+          }
+        },
+        {
+          "id": "buildinggadgets:construction_paste_container_t1",
+          "Count": 3
+        },
+        {
+          "id": "buildinggadgets:construction_paste_container_t2",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d029cac0-edd1-4160-ac9a-2cbd873cb368",
+      "name": " Unlock Construction United",
+      "description": "    Like all the Construction Tools, but want to be able to make them yourself? ",
+      "x": 152,
+      "y": 178,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_construction_united true",
+        "me HAS LEARNED LOST KNOWLEDGE - CONSTRUCTION UNITED"
+      ]
+    },
+    {
+      "uuid": "34ef938f-0615-44c3-ad64-3607c58f3ee7",
+      "name": " Building Gadgets - Powder",
+      "description": "    Building Gadgets are a set of quick, helpful gadgets and blocks to aid in construction tasks. \n    Tip: Put the Powder near Water for a bit, then break!",
+      "x": 16,
+      "y": 46,
+      "icon": {
+        "id": "buildinggadgets:construction_block_powder",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "buildinggadgets:construction_block_powder",
+          "Count": 10
+        },
+        {
+          "id": "buildinggadgets:template_manager",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "52cb04cb-3f39-4f15-9fde-07110a039dff",
+      "name": " Building Gadgets - Big Paste",
+      "description": "    Building Gadgets are a set of quick, helpful gadgets and blocks to aid in construction tasks.",
+      "x": 37,
+      "y": 46,
+      "icon": {
+        "id": "buildinggadgets:construction_paste_container_t3",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -30
+              },
+              "required": 1250
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "buildinggadgets:construction_paste_container_t3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Construction United provides all sorts of tools that help people build the homes, bases, and factories of their dreams!"
+}
