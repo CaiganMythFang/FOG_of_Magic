@@ -7,6 +7,9 @@
 	#How much kRF (1000 RF) a rat with an extreme energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Extreme (kRF)" = 100000
+	#Random number roll for plague doctor spawning, increase to make them rarer.
+	#Range: > 1
+	"Plague Doctor Spawn Chance" = 10
 	#Ratlantean Automaton Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Ratlantean Automaton Attack Damage" = 6.0
@@ -67,6 +70,9 @@
 	#Neo-Ratlantean Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Neo-Ratlantean Max Health" = 300.0
+	#Every time this number of ticks passes, a plague doctor may spawn.
+	#Range: > 1
+	"Plague Doctor Spawn Delay" = 24000
 	#True if iron golems will attack wild rats
 	"Golems Target Rats" = true
 	#True if Pied Pipers can only spawn in the Overworld(0) dimension.
