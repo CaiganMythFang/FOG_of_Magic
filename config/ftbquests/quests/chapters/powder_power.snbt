@@ -7,7 +7,7 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			title: "Powder Power",
+			title: "To The Next Power",
 			icon: {
 				id: "powder_power:hammer_alchemist",
 				Count: true,
@@ -18,7 +18,7 @@
 			x: -0.5d,
 			y: -1.5d,
 			shape: "square",
-			subtitle: "&dTo go one step beyond",
+			subtitle: "&dMod: Powder Power",
 			description: [
 				"So... this is pretty heavy stuff, but Kow has clued me in to materials that are stronger than Diamonds. Stronger than Netherite even, and thats the big new one I only recently heard of.",
 				"",

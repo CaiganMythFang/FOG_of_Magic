@@ -1,7 +1,7 @@
 {
 	id: 41,
 	filename: "rats",
-	order_index: 4,
+	order_index: 1,
 	title: "Rodent Magic",
 	icon: "rats:marbled_cheese_rat_head",
 	default_quest_shape: "",
@@ -12,7 +12,7 @@
 			x: 0.5d,
 			y: -2.0d,
 			shape: "square",
-			subtitle: "&dRespect Your Food",
+			subtitle: "&dMods: Rats and Ratlantis",
 			description: [
 				"Rat magic is... really that's not something I ever expected to hear, you know? But having it described sounds only part like magic, and part like running a crazy dog kennel or something.",
 				"",
