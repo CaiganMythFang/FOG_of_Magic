@@ -7,12 +7,12 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			title: "Ars Nouveau",
+			title: "Spellcrafting Done Well",
 			icon: "ars_nouveau:mana_gem",
 			x: -6.5d,
 			y: 2.0d,
 			shape: "square",
-			subtitle: "&dSpellcrafting done well",
+			subtitle: "&dMod: Ars Nouveau",
 			description: [
 				"&dOne of the forgotten arts in this &dworld, &ddespite the prevailance of &dmagic, is &dspellcrafting. ",
 				"",
