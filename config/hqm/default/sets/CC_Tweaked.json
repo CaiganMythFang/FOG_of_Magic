@@ -1,0 +1,973 @@
+{
+  "name": "CC Tweaked",
+  "quests": [
+    {
+      "uuid": "09101dc4-d079-4f16-b86d-3651fe4e0c6b",
+      "name": " Pocket Computers 1",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 126,
+      "y": 20,
+      "icon": {
+        "id": "computercraft:pocket_computer_normal",
+        "Count": 1,
+        "tag": {
+          "Instanceid": 2,
+          "Upgrade": "computercraft:wireless_modem_normal",
+          "SessionId": 1575222759,
+          "ComputerId": 1
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:pocket_computer_normal",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 2,
+            "Upgrade": "computercraft:wireless_modem_normal",
+            "SessionId": 1575222759,
+            "ComputerId": 1
+          }
+        },
+        {
+          "id": "computercraft:pocket_computer_normal",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 1,
+            "Upgrade": "computercraft:speaker",
+            "SessionId": 1575222759,
+            "ComputerId": 3
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4d4d45d9-518b-41da-b57b-50e386a5ee3b",
+      "name": " Pocket 2, Adv Pocket 1, Adv Turtle 1",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 126,
+      "y": 49,
+      "icon": {
+        "id": "computercraft:pocket_computer_advanced",
+        "Count": 1,
+        "tag": {
+          "Instanceid": 3,
+          "SessionId": 1575222759,
+          "ComputerId": 4
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": " ",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:pocket_computer_normal",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 4,
+            "Upgrade": "computercraft:wireless_modem_advanced",
+            "SessionId": 1575222759,
+            "ComputerId": 2
+          }
+        },
+        {
+          "id": "computercraft:pocket_computer_advanced",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 3,
+            "SessionId": 1575222759,
+            "ComputerId": 4
+          }
+        },
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "64b34456-9340-4eff-aa2f-edc998d0afc8",
+      "name": " Data Disks 2",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 278,
+      "y": 27,
+      "icon": {
+        "id": "computercraft:disk",
+        "Count": 1,
+        "tag": {
+          "Color": 3368652
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 3368652
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 11691749
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 5020082
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 10066329
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0cb126f-a512-4255-bcf5-d374f51cdb38",
+      "name": " Adv Turtle 3, Adv Pocket 5",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 127,
+      "y": 106,
+      "icon": {
+        "id": "computercraft:pocket_computer_advanced",
+        "Count": 1,
+        "tag": {
+          "Instanceid": 7,
+          "Upgrade": "computercraft:wireless_modem_advanced",
+          "SessionId": 1575222759,
+          "ComputerId": 6
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": " ",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "computercraft:wireless_modem_advanced"
+          }
+        },
+        {
+          "id": "computercraft:pocket_computer_advanced",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 7,
+            "Upgrade": "computercraft:wireless_modem_advanced",
+            "SessionId": 1575222759,
+            "ComputerId": 6
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8037b89a-8ef4-4e5f-838e-b6275094b9b1",
+      "name": " Data Disks 3",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 256,
+      "y": 55,
+      "icon": {
+        "id": "computercraft:disk",
+        "Count": 1,
+        "tag": {
+          "Color": 5000268
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 5000268
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 15905484
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 8375321
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 14605932
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4458ca37-d066-4a8d-b1bd-5bae4e4b4836",
+      "name": " Basic Turtles 2",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 16,
+      "y": 114,
+      "icon": {
+        "id": "computercraft:turtle_normal",
+        "Count": 1,
+        "tag": {
+          "RightUpgrade": "minecraft:diamond_sword"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 88
+              },
+              "required": 600
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_sword"
+          }
+        },
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_axe"
+          }
+        },
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_pickaxe"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "83c672cf-527a-4d9c-80e5-00e8f1c583ad",
+      "name": " Adv Turtle 4",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 172,
+      "y": 78,
+      "icon": {
+        "id": "computercraft:turtle_advanced",
+        "Count": 1,
+        "tag": {
+          "RightUpgrade": "minecraft:crafting_table"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_shovel"
+          }
+        },
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_hoe"
+          }
+        },
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:crafting_table"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de7da512-3665-4a0d-a5a9-30df1e4304f9",
+      "name": " Data Disks 4",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 278,
+      "y": 55,
+      "icon": {
+        "id": "computercraft:disk",
+        "Count": 1,
+        "tag": {
+          "Color": 10072818
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 10072818
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 15040472
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 15905331
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 15790320
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c24963d1-edae-449c-a47f-6da64a0a2195",
+      "name": " ComputerCraft: Tweaked Basics",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.\n    Disks for the Disk Drive are not included.",
+      "x": 17,
+      "y": 20,
+      "icon": {
+        "id": "computercraft:computer_normal",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:computer_normal",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:disk_drive",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:monitor_normal",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:cable",
+          "Count": 10
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7f81c5b0-8cd3-429f-a71a-629a68f40e66",
+      "name": " Unlock CC: Tweaked",
+      "description": "    If you want to build your own fleet of Turtles and programmed computers, you\u0027ve stopped at the right spot.",
+      "x": 153,
+      "y": 180,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_cc_tweaked true",
+        "me HAS LEARNED LOST KNOWLEDGE - CC: TWEAKED"
+      ]
+    },
+    {
+      "uuid": "76fe5bca-af8e-4dd5-801b-6d73cc0b65c3",
+      "name": " Data Disks 1",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 256,
+      "y": 27,
+      "icon": {
+        "id": "computercraft:disk",
+        "Count": 1,
+        "tag": {
+          "Color": 1118481
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 1118481
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 13388876
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 5744206
+          }
+        },
+        {
+          "id": "computercraft:disk",
+          "Count": 1,
+          "tag": {
+            "Color": 8349260
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3208225-3831-44ad-924c-70cf5dd5ddde",
+      "name": " Basic Turtles 3",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 39,
+      "y": 114,
+      "icon": {
+        "id": "computercraft:turtle_normal",
+        "Count": 1,
+        "tag": {
+          "RightUpgrade": "minecraft:crafting_table"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 88
+              },
+              "required": 600
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_shovel"
+          }
+        },
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_hoe"
+          }
+        },
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:crafting_table"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7472940f-3d0f-4dac-a6fa-163a7047410b",
+      "name": " Simple Modems",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 77,
+      "y": 21,
+      "icon": {
+        "id": "computercraft:wireless_modem_normal",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:wireless_modem_normal",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:wired_modem",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:wired_modem_full",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3fbcb849-5a79-443d-999c-c3e372b0b06d",
+      "name": " Advanced Computers, Basic Turtle",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 16,
+      "y": 78,
+      "icon": {
+        "id": "computercraft:computer_advanced",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": " ",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 44
+              },
+              "required": 300
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:computer_advanced",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:monitor_advanced",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:wireless_modem_advanced",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8616738b-bc11-4822-8256-25a36c277048",
+      "name": " Adv Pocket 2, Adv Turtle 2",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 126,
+      "y": 77,
+      "icon": {
+        "id": "computercraft:turtle_advanced",
+        "Count": 1,
+        "tag": {
+          "RightUpgrade": "computercraft:speaker"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": " ",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:pocket_computer_advanced",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 5,
+            "Upgrade": "computercraft:speaker",
+            "SessionId": 1575222759,
+            "ComputerId": 8
+          }
+        },
+        {
+          "id": "computercraft:pocket_computer_advanced",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 6,
+            "Upgrade": "computercraft:wireless_modem_normal",
+            "SessionId": 1575222759,
+            "ComputerId": 5
+          }
+        },
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "computercraft:speaker"
+          }
+        },
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "computercraft:wireless_modem_normal"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "28d83a07-1b88-41a9-99ff-ff7d8aa778ce",
+      "name": " Basic Turtles 1, Pocket Computer",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 39,
+      "y": 79,
+      "icon": {
+        "id": "computercraft:turtle_normal",
+        "Count": 1,
+        "tag": {
+          "RightUpgrade": "computercraft:wireless_modem_normal"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "computercraft:speaker"
+          }
+        },
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "computercraft:wireless_modem_advanced"
+          }
+        },
+        {
+          "id": "computercraft:turtle_normal",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "computercraft:wireless_modem_normal"
+          }
+        },
+        {
+          "id": "computercraft:pocket_computer_normal",
+          "Count": 1,
+          "tag": {
+            "Instanceid": 0,
+            "SessionId": 1575222759,
+            "ComputerId": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee6ca881-9f60-41c1-91f8-71be62a7a3da",
+      "name": " Adv Turtle 3",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 149,
+      "y": 78,
+      "icon": {
+        "id": "computercraft:turtle_advanced",
+        "Count": 1,
+        "tag": {
+          "RightUpgrade": "minecraft:diamond_sword"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_sword"
+          }
+        },
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_axe"
+          }
+        },
+        {
+          "id": "computercraft:turtle_advanced",
+          "Count": 1,
+          "tag": {
+            "RightUpgrade": "minecraft:diamond_pickaxe"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ab8c83ca-caf1-4d7a-907c-85e9c451b0f7",
+      "name": "Speaker and Printer",
+      "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
+      "x": 54,
+      "y": 20,
+      "icon": {
+        "id": "computercraft:speaker",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "computercraft:printer",
+          "Count": 1
+        },
+        {
+          "id": "computercraft:speaker",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Want to program your own computers? Well, with ComputerCraft you could before. Now, however, there is CC: Tweaked. "
+}
