@@ -1,0 +1,2225 @@
+{
+  "name": "Cyclic",
+  "quests": [
+    {
+      "uuid": "0515e7fc-ab5d-4025-b344-53ec383a9383",
+      "name": "Cyclic Guide Book",
+      "description": "    The Cyclic Guide Book describes all the items available in Cyclic.",
+      "x": 19,
+      "y": 22,
+      "icon": {
+        "id": "patchouli:guide_book",
+        "Count": 1,
+        "tag": {
+          "patchouli:book": "cyclic:cyclic_guide_book"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "patchouli:guide_book",
+          "Count": 1,
+          "tag": {
+            "patchouli:book": "cyclic:cyclic_guide_book"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22ae0363-70d2-4125-ae9d-2824540c104d",
+      "name": " Redstone Tools",
+      "description": "    The Redstone Trigger only sends out Redstone Signal when another otherworlder, aka a player, looks at it.\n    The Redstone Clock is a configurable.... well, Redstone Clock.\n    The Wireless Redstone Sender can send a Redstone Signal to compatable blocks that are pointed to it with GPS Cards, included with every order. Blocks include the Wireless Redstone Receiver.",
+      "x": 112,
+      "y": 22,
+      "icon": {
+        "id": "cyclic:clock",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:location",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:eye_redstone",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:clock",
+          "Count": 2
+        },
+        {
+          "id": "cyclic:wireless_transmitter",
+          "Count": 3
+        },
+        {
+          "id": "cyclic:wireless_receiver",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "722d294c-20bd-493d-9f66-f06be261c20e",
+      "name": " Power Plays",
+      "description": "    The Battery holds a lot of RF energy in it.\n    The Peat Generator consumes Peat to make power.\n    The Peat Farm is an automated way to place out Dry Peat Bog, just supply it with Power and Water and a space to use.\n    You can also just place Dry Peat Bog in water to saturate it and get Peat when broken.",
+      "x": 138,
+      "y": 23,
+      "icon": {
+        "id": "cyclic:battery",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:battery",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:peat_generator",
+          "Count": 3
+        },
+        {
+          "id": "cyclic:peat_farm",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:peat_unbaked",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "44a811a8-5ac0-4874-8112-9a900c02e130",
+      "name": " Item Gathering",
+      "description": "    Fishing Nets will fish in nearby water when given Fishing Rods.\n    The Forester will take power and plant saplings you put into it.\n    The Harvester will harvest trees and plants in its area when given power.\n    Terra Preta is placed under tilled soil, and will help crops above it grow faster.",
+      "x": 18,
+      "y": 59,
+      "icon": {
+        "id": "cyclic:fisher",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:fisher",
+          "Count": 2
+        },
+        {
+          "id": "cyclic:forester",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:harvester",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:terra_preta",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "406861a2-2cb9-46ba-94b4-533e511d8d18",
+      "name": "Unnamed",
+      "description": "    The Item and Entity Detectors can be configured to output a Redstone Signal when a certain number of items or creawtuers are nearby.\n    The Text Projector can display text like a holographic sign, projecting it up into the air.\n    The Water Candle, well, its the odd duck here. Igniting it with a Flint and Steel will cause monsters to spawn more often nearby.\n    Oh, and each order comes with a Settings Data Card, that lets you copy Cyclic machine settings to each other.",
+      "x": 42,
+      "y": 60,
+      "icon": {
+        "id": "cyclic:screen",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:settings_data",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:detector_item",
+          "Count": 3
+        },
+        {
+          "id": "cyclic:detector_entity",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:screen",
+          "Count": 2
+        },
+        {
+          "id": "cyclic:water_candle",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "47ddf6cc-bbf6-4802-a5f7-a1b9a8e15a02",
+      "name": " Shiny Food",
+      "description": "    The Lapis Apple will imbue you with many benefits, including Night Vision and Water Breathing.\n    The Iron Apple makes you much healthier and heartier for a bit.",
+      "x": 202,
+      "y": 95,
+      "icon": {
+        "id": "cyclic:apple_lapis",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:apple_lapis",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:apple_iron",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c28ddae7-fb72-492e-a07e-df39503db245",
+      "name": " Strong Defense",
+      "description": "    The Reactive Quantum Bedrock is unbreakable when it receives a Redstone Signal. You can use the Remote Lever included in every order, for example.\n    The Stable Quantum Bedrock can become unbreakable just by Right Clicking Redstone onto it, and then breakable again by repeating this.\n    Tempered Glass is highly blast resistant.",
+      "x": 67,
+      "y": 60,
+      "icon": {
+        "id": "cyclic:unbreakable_reactive",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:lever_remote",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:unbreakable_reactive",
+          "Count": 2
+        },
+        {
+          "id": "cyclic:unbreakable_block",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:dark_glass",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "560186c6-da88-469e-9f36-08dd14749e85",
+      "name": " Build It Up",
+      "description": "    The Shape Computer records the contents of an area marked between two GPS Cards (included with every order!), onto a Shape Data Card.\n    You can then take the Shape Data Card into a Shape Builder to rebuild the saved data with the same blocks.",
+      "x": 20,
+      "y": 125,
+      "icon": {
+        "id": "cyclic:shape_data",
+        "Count": 1,
+        "tag": {}
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:location",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "cyclic:location",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:computer_shape",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:structure",
+          "Count": 2
+        },
+        {
+          "id": "cyclic:shape_data",
+          "Count": 10,
+          "tag": {}
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f864a03d-349f-4f36-8fc3-a4239db4a16f",
+      "name": " Horse Treats",
+      "description": "    The Diamond Carrot will increase your horses max health.",
+      "x": 204,
+      "y": 128,
+      "icon": {
+        "id": "cyclic:diamond_carrot_health",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:diamond_carrot_health",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "37f62777-2798-436b-a0fa-0d901ddc704a",
+      "name": " Item Works",
+      "description": "    The Crafting Machine can be used to automate making items with a bit of Power.\n    The Item Collector picks up items that drop near it.\n    The Crate stores items and is resistant to explosions.\n    The Trash Void outright deletes items you put into it, good for keeping things tidy.",
+      "x": 42,
+      "y": 22,
+      "icon": {
+        "id": "cyclic:trash",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:crafter",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:collector",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:crate",
+          "Count": 4
+        },
+        {
+          "id": "cyclic:trash",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1aaaf7ee-0897-4cf5-9e7e-c5033ae2cf77",
+      "name": " Builder Helpers",
+      "description": "    Building Scepters come in three flavors: fill, exchange, and place. \n    The Block Randomizer will randomize the arrangement of blocks in a 5x5x1 area when Right Clicked on them.",
+      "x": 139,
+      "y": 62,
+      "icon": {
+        "id": "cyclic:build_scepter",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:build_scepter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:replace_scepter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:offset_scepter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:randomize_scepter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "673c75c8-0317-4fe9-9999-801ab56cca35",
+      "name": " Enchanting",
+      "description": "    The Disenchanter can remove enchantments from items and put them on Books.\n    The Ender Shelf can be combined with the Ender Shelf Controller to store all your enchantments in an easy to see way. You need one Controller and can set up Shelves all touching to utilize it.\n    The Ender Pouch is a portable way to access your regular Ender Chest.",
+      "x": 113,
+      "y": 61,
+      "icon": {
+        "id": "cyclic:disenchanter",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:disenchanter",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:ender_shelf",
+          "Count": 5
+        },
+        {
+          "id": "cyclic:ender_controller",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:ender_bag",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9618b097-cc1b-4d0d-b139-d349b82c0256",
+      "name": " Break and Place",
+      "description": "    The Item User automatically tries to use blocks in front of it, as if an otherworlder like you were using it.\n    The Block Placer and Block Breaker do as they say, placing or breaking blocks in front of them.\n    The Block Miner can be configured to mine an area when provided power.",
+      "x": 21,
+      "y": 157,
+      "icon": {
+        "id": "cyclic:user",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 119
+              },
+              "required": 375
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:user",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:placer",
+          "Count": 4
+        },
+        {
+          "id": "cyclic:breaker",
+          "Count": 4
+        },
+        {
+          "id": "cyclic:miner",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dcd48199-ddcf-4f1c-8307-1b5ef6993d48",
+      "name": " Cabled Mess",
+      "description": "    Cyclic Cables come in three types : Item, Energy, and Fluid. They transfer said type of thing along the cables.\n    You can use the Cable Wrench to configure cables.",
+      "x": 201,
+      "y": 23,
+      "icon": {
+        "id": "cyclic:item_pipe",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 35
+              },
+              "required": 35
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:cable_wrench",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "cyclic:item_pipe",
+          "Count": 8
+        },
+        {
+          "id": "cyclic:energy_pipe",
+          "Count": 8
+        },
+        {
+          "id": "cyclic:fluid_pipe",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "97ebcb3c-08b7-4b41-9d3d-ce9eef36eb62",
+      "name": " Horse Food",
+      "description": "    The Redstone Carrot speeds up your horse.\n    The Lapis Carrot can change the coat colors of your Horse.\n    The Toxic Carrot turns your horse undead.",
+      "x": 177,
+      "y": 127,
+      "icon": {
+        "id": "cyclic:redstone_carrot_speed",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:redstone_carrot_speed",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:lapis_carrot_variant",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:toxic_carrot",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a7db1cbe-47e2-40ba-8779-3e07e6d34688",
+      "name": " Liquid Matters",
+      "description": "    The Melting Chamber does what it says on the tin. It melts certain items put into it.\n    The Fluid Collector gathers fluid nearby. \n    The Fluid Placer does the opposite, placing out Fluids inserted into it.\n    The Fluid Storage Tank holds up to 64 buckets worth of a  single fluid.",
+      "x": 19,
+      "y": 93,
+      "icon": {
+        "id": "cyclic:melter",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:cask",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:melter",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:collector_fluid",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:placer_fluid",
+          "Count": 2
+        },
+        {
+          "id": "cyclic:tank",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "045b0cc3-2980-447a-9ea6-2a19daf637b2",
+      "name": " Bright Helm",
+      "description": "    While worn, the Vision Helmet bestows Night Vision on you.",
+      "x": 301,
+      "y": 129,
+      "icon": {
+        "id": "cyclic:glowing_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -106
+              },
+              "required": 150
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:glowing_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "20118fa2-6cd6-42e6-a98c-3a6db0c291fd",
+      "name": " Fix and Dismantle",
+      "description": "    The Experience Pylon is great for collecting XP orbs from neary creatures that die, or from you or other otherworlders if you walk on top of it. You can pull the XP back out, so its a good way to not lose it if you are prone to dieing.\n    The Powered Diamond Anvil uses RF Energy to repair items.\n    Conversely, the Magma Anvil uses Lava to repair items.\n    The Uncrafting Grinder takes power, but it can grind some items into components. It doesn\u0027t work with everything, however.",
+      "x": 43,
+      "y": 94,
+      "icon": {
+        "id": "cyclic:anvil",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 44
+              },
+              "required": 300
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:experience_pylon",
+          "Count": 3
+        },
+        {
+          "id": "cyclic:anvil",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:anvil_magma",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:uncrafter",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bbd457a9-d861-4385-8a7b-b2a863824a55",
+      "name": " Best Boomerangs",
+      "description": "    The Magic Boomerang will  collect items you throw at it, but also stun enemies you hit with it.\n    The Sharpened Boomerang does the same thing, but damages them instead of stunning them.",
+      "x": 300,
+      "y": 95,
+      "icon": {
+        "id": "cyclic:boomerang_stun",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -106
+              },
+              "required": 150
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:boomerang_stun",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:boomerang_damage",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aae998f4-2218-4067-a25b-dfce393707de",
+      "name": " Search Tools",
+      "description": "    The Cave Finder helps you find caves.\n    The Spawner Seeker helps you find Spawners nearby when used.\n    The Solid Ender Eye can be used multiple times to search for Strongholds.\n    The Anti-Gravity Ring lets you walk on air, good for exploring safely.",
+      "x": 113,
+      "y": 95,
+      "icon": {
+        "id": "cyclic:spelunker",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:spelunker",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:spawner_seeker",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:ender_eye_reuse",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:antigravity",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5153e728-496a-4618-913b-5ba101cec243",
+      "name": " Sweet Food",
+      "description": "    The Ender Carrot can give you a bit of a boost to your defenses.\n    The Honey Apple is just a really really filling treat.\n    The Chocolate Apple is a tasty treat that cures your ailments.",
+      "x": 176,
+      "y": 95,
+      "icon": {
+        "id": "cyclic:apple_honey",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:carrot_ender",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:apple_honey",
+          "Count": 3
+        },
+        {
+          "id": "cyclic:apple_chocolate",
+          "Count": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e45e3860-b28f-474a-a570-2858109823d4",
+      "name": " Torching",
+      "description": "    The Torch Launcher fires Torches that place themselves where they land. Or tries to.\n   The Torch Charm will place Torches as long as it is equipped.\n   Conversely, the Caving Torch Charm just has to be in your inventory to do the same thing!",
+      "x": 243,
+      "y": 57,
+      "icon": {
+        "id": "cyclic:torch_launcher",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:torch_launcher",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:charm_torch",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:charm_torch_cave",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e216b253-56e6-4f16-95dc-d4f20935670f",
+      "name": " Heart Healthy",
+      "description": "    Heart Containers give you extra health.\n    Empty Heart Containers take away health, but give you XP in return.",
+      "x": 113,
+      "y": 125,
+      "icon": {
+        "id": "cyclic:heart",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -24
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:heart",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:heart_empty",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8e056343-8cb9-4067-994b-4226c0eab57b",
+      "name": " Garden Tools",
+      "description": "    The Garden Scythe harvests a small area.\n    A Brush Scythe harvests weeds and flowers in an area.\n    The Tree Scythe cuts down leaves  en masse.\n    Obsidian Shears are some durable shears.\n    Every purchase comes with some simple Flint Shears.",
+      "x": 299,
+      "y": 21,
+      "icon": {
+        "id": "cyclic:scythe_harvest",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 35
+              },
+              "required": 35
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:shears_flint",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:scythe_harvest",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:scythe_brush",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:scythe_leaves",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:shears_obsidian",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eab21393-35d2-4c41-bcf1-c9245dcc034e",
+      "name": " Visually Fun Items",
+      "description": "    The Laser Cell can be configured to fire a laser at a target block, using the GPS Data Card included with every order. Sneak + Right Click the GPS Data Card on a block.\n    The Vanishing Block will dissappear when powered by Redstone.\n    The Dice block will show a random face when placed, and when Right Clicked.\n    The Fireplace will ignite when given a Redstone Signal, and go out when it is stopped.",
+      "x": 66,
+      "y": 22,
+      "icon": {
+        "id": "cyclic:dice",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:location",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:laser",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:ghost_phantom",
+          "Count": 8
+        },
+        {
+          "id": "cyclic:dice",
+          "Count": 8
+        },
+        {
+          "id": "cyclic:fireplace",
+          "Count": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "29f0028d-5669-42d3-bf2d-db8126c87545",
+      "name": " Spikey",
+      "description": "    There are three types of Cyclic Spikes : Iron, Cursed, and Flame. They activate when given a Redstone Signal.",
+      "x": 68,
+      "y": 126,
+      "icon": {
+        "id": "cyclic:spikes_iron",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:spikes_iron",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:spikes_curse",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:spikes_fire",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6a83e06f-bade-4f09-9c13-edaac1711654",
+      "name": " Little Helpful Things",
+      "description": "    The Sleeping Mat lets you sleep when out adventuring, without setting a different spawn point.\n    Stirrups let you ride any creature, but you won\u0027t have control of it.\n    The Empty Sack of Holding lets you pick up an entire Chest or other inventory and move it somewhere else.\n    The Advanced Crafting Stick is a portable crafting table that keeps the inventory you put into it.\n    With every purchase, you get some Carbon Paper, which you can use to copy signs to other signs with.",
+      "x": 202,
+      "y": 58,
+      "icon": {
+        "id": "cyclic:tile_transporter_empty",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:carbon_paper",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:sleeping_mat",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:stirrups",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:tile_transporter_empty",
+          "Count": 1
+        },
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 9,
+              "Items": []
+            }
+          },
+          "id": "cyclic:crafting_bag",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "915c63e9-3e12-4b93-83e3-6c8bc92ac2d1",
+      "name": " Great Tools",
+      "description": "    The Mattock works like both a pickaxe and a shovel, and digs a 3x3 area.\n    The Scythe of Foraging harvests a big area.\n    The Boomerang can be thrown to pick up items far away and return to you.\n    Climbing Gloves let you climb vertical surfaces.",
+      "x": 300,
+      "y": 57,
+      "icon": {
+        "id": "cyclic:glove_climb",
+        "Count": 1,
+        "tag": {}
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:mattock",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:scythe_forage",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:boomerang_carry",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:glove_climb",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6d657715-cc48-4ad0-967e-0538a1a86e2e",
+      "name": " Better Scaffolding",
+      "description": "    Fragile Scaffolding will decay and dissappear after a while.\n    Replaceable Scaffolding can be swapped for other blocks just by Right Clicking them onto the Scaffolding.\n    Responsive Scaffolding will break in lines instead of single blocks.",
+      "x": 44,
+      "y": 125,
+      "icon": {
+        "id": "cyclic:scaffold_fragile",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:scaffold_fragile",
+          "Count": 32
+        },
+        {
+          "id": "cyclic:scaffold_replace",
+          "Count": 32
+        },
+        {
+          "id": "cyclic:scaffold_responsive",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a25aea83-a3a0-43b1-924e-384434596372",
+      "name": " Unlock Cyclic",
+      "description": "    Want to make all these fun gadgets, tools, and machines? Then step in. The price is high, but there\u0027s so much you get access to!",
+      "x": 152,
+      "y": 179,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -48
+              },
+              "required": 2000
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_cyclic true",
+        "me HAS LEARNED LOST KNOWLEDGE - CYCLIC"
+      ]
+    },
+    {
+      "uuid": "c23e35ca-7c40-4569-9bcc-9b14ca58ce76",
+      "name": " Moving Around",
+      "description": "    Conveyors can transport items or creatures. You can change the direction these are going using a Wooden Wrench, included with every purchase.\n    The Ender Wing will teleport you to the \u0027spawn point\u0027 of the world, where you first appeared. The Ender Wing Prime, however, will teleport you to your bed, or whatever your OWN spawn point is set to.\n    The Endor Anchor lets you teleport to it if you look at it and Sneak.",
+      "x": 176,
+      "y": 22,
+      "icon": {
+        "id": "cyclic:conveyor",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:wrench",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:conveyor",
+          "Count": 16
+        },
+        {
+          "id": "cyclic:charm_world",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:charm_home",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:eye_teleport",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "23f3106c-bd62-434a-a8b0-3dada76e8368",
+      "name": " Crystal Armor",
+      "description": "    Crystal Armor is highly resistant and strong.",
+      "x": 270,
+      "y": 129,
+      "icon": {
+        "id": "cyclic:crystal_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -74
+              },
+              "required": 950
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:crystal_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:crystal_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:crystal_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:crystal_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03804bfd-d8db-41ca-83fe-37df47108670",
+      "name": " Lucky Charms",
+      "description": "    The Wither Charm protects you from the effects of Wither.\n    The Antidote Charm prevents you from being poisoned.\n    The Fire Charm protects you from being hurt by both Fire and Lava.\n    The Void Charm will save you if you fall into the at the bottom of every  dimension.",
+      "x": 243,
+      "y": 94,
+      "icon": {
+        "id": "cyclic:charm_void",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 19
+              },
+              "required": 275
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:charm_wither",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:charm_antidote",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:charm_fire",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:charm_void",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bea327f9-76c4-4f60-b9ef-caf268a0ce2c",
+      "name": " Enemy Movements",
+      "description": "    Bounce Plates send any creature flying. The Redstone version will send them a distance dependant on the Redstone Signal strength.\n    The Fan will blow creatures and items away from it.\n    The Soundproofing will lower the volume of animals and machines nearby. More Soundproofing, the quieter it will be.",
+      "x": 176,
+      "y": 58,
+      "icon": {
+        "id": "cyclic:fan",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 60
+              },
+              "required": 60
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:plate_launch",
+          "Count": 3
+        },
+        {
+          "id": "cyclic:plate_launch_redstone",
+          "Count": 3
+        },
+        {
+          "id": "cyclic:fan",
+          "Count": 1
+        },
+        {
+          "id": "cyclic:soundproofing",
+          "Count": 10
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4bdc28ee-ab86-45ed-b720-4eb1bc6ec1d7",
+      "name": " Beacon Lit",
+      "description": "    The Pharos Beacon lets you throw potions into it to let the effects cover an entire area while it has power.",
+      "x": 68,
+      "y": 94,
+      "icon": {
+        "id": "cyclic:beacon",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:beacon",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ddcdc478-053b-48a3-b6b7-c3029ac9f7e3",
+      "name": " Zipping Around",
+      "description": "    The Rod of Elevation will teleport you, or a creature you use it on, to the next open area above you.\n    The Ender Scepter teleports you where you are looking, at the cost of an Ender Pearl.\n    The Ender Orb is a reusable Ender Pearl, teleporting you to where you throw it.\n   The Ender Orb Translocator works the same way, but instead you ride atop the Ender Pearl, letting you see the landscape on the way.",
+      "x": 139,
+      "y": 95,
+      "icon": {
+        "id": "cyclic:ender_pearl_reuse",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:elevation_wand",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:teleport_wand",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:ender_pearl_reuse",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:ender_pearl_mounted",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "79f9e6be-aebf-4739-abd9-db34516715bf",
+      "name": " Magic Staves",
+      "description": "    The Frost Bringer shoots icicles that can freeze enemies.\n    The Duskflame Hex fires out 3 firey shots.\n    The Engraved Thunder fires lightning bolts.\n    The Evoker Fang launches crushing jaws along the ground.",
+      "x": 269,
+      "y": 57,
+      "icon": {
+        "id": "cyclic:ice_scepter",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:ice_scepter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:fire_scepter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:lightning_scepter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:evoker_fang",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "347740df-d7f9-455c-a2a9-8d24f910af64",
+      "name": " Water Wings",
+      "description": "    The Scepter: Water Infusion turns flowing water into Source Blocks.\n    The Scepter: Ice Infusion turns water into ice.\n    The Antimatter Evaporator can evaporate Water in a large area.\n    As well, every order comes with some Flippers to swim faster with!",
+      "x": 243,
+      "y": 23,
+      "icon": {
+        "id": "cyclic:antimatter_wand",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:flippers",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:spell_water",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:spell_ice",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:antimatter_wand",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ffa0e289-9a71-4a79-8325-67d2f9513a7e",
+      "name": " Items of Holding",
+      "description": "    The Storage Bag can hold a lot of items.\n    The Monster Ball can be thrown to capture various creatures and move them elsewhere.",
+      "x": 270,
+      "y": 24,
+      "icon": {
+        "id": "cyclic:magic_net",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -106
+              },
+              "required": 150
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 81,
+              "Items": []
+            }
+          },
+          "id": "cyclic:storage_bag",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "cyclic:magic_net",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fdca632d-7539-4bf4-8fb6-ee8adac3de6c",
+      "name": " Emerald Armor",
+      "description": "    Emerald Armor is close to Diamond Armor.",
+      "x": 271,
+      "y": 160,
+      "icon": {
+        "id": "cyclic:emerald_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -91
+              },
+              "required": 165
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "cyclic:emerald_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:emerald_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:emerald_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:emerald_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "333e3744-dee1-4680-86d3-ffd747de967b",
+      "name": " Fully Charmed",
+      "description": "    The Charm Talisman combines the Fire, Poison, Wither, and Void Charms into one.",
+      "x": 269,
+      "y": 95,
+      "icon": {
+        "id": "cyclic:charm_ultimate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:charm_ultimate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3ab79fd-a17d-4be5-98cc-991d28320a96",
+      "name": " Emerald Tools",
+      "description": "    Emerald Tools work quite similarly to Diamond Tools.\n    Each purchase comes with a free Emerald Hoe.",
+      "x": 243,
+      "y": 159,
+      "icon": {
+        "id": "cyclic:emerald_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:emerald_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:emerald_shovel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:emerald_axe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:emerald_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:emerald_sword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cda87aa2-068b-4a52-aca3-8a79801ca12a",
+      "name": " Crystal Tools",
+      "description": "    Crystal Tools are highly durable, strong tools.\n    Each purchase comes with a free Crystal Hoe.",
+      "x": 243,
+      "y": 128,
+      "icon": {
+        "id": "cyclic:crystal_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": -112
+              },
+              "required": 400
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:crystal_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:crystal_sword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:crystal_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:crystal_axe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "cyclic:crystal_shovel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Looking for a nice variety of gadgets, machines, and more? Want a touch of magic with your tech? Look no further than Cyclic!"
+}
