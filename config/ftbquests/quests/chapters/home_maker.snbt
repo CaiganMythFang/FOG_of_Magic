@@ -1,7 +1,7 @@
 {
 	id: 243,
 	filename: "home_maker",
-	order_index: 3,
+	order_index: 4,
 	title: "Home Maker",
 	icon: "minecraft:purple_bed",
 	default_quest_shape: "",
@@ -56,7 +56,7 @@
 			x: 1.0d,
 			y: -2.5d,
 			shape: "square",
-			subtitle: "&dHazy, foggy, etc",
+			subtitle: "&dMod: Advanced Chimneys",
 			description: [
 				"So, it seems especially here, most technology machines (and some magic based ones) produce an inordinate amount of smoke.",
 				"",
@@ -148,7 +148,7 @@
 			x: -3.0d,
 			y: -2.5d,
 			shape: "square",
-			subtitle: "&dSimple, fast travel",
+			subtitle: "&dMod: Waystones",
 			description: [
 				"There's these interesting stone statue things I started to see around, sometimes in villages, sometimes at the top of these tall towers.",
 				"",
@@ -232,7 +232,7 @@
 			x: -3.0d,
 			y: -4.5d,
 			shape: "square",
-			subtitle: "&dNothing but Caves and Dark",
+			subtitle: "&dMod: Advanced Mining Dimension",
 			description: [
 				"&dTraveler, a suggestion? Make this &dteleporter.",
 				"",
@@ -258,12 +258,12 @@
 			}]
 		},
 		{
-			title: "Useful Backpacks",
+			title: "Carry More In Style",
 			icon: "usefulbackpacks:backpack_small",
 			x: 1.0d,
 			y: -4.5d,
 			shape: "square",
-			subtitle: "&dCarry more, survive more",
+			subtitle: "&dMod: Useful Backpacks",
 			description: [
 				"Backpacks are super useful to have, and I should probably make one as soon as possible.",
 				"",
@@ -350,7 +350,7 @@
 			x: -1.0d,
 			y: -6.5d,
 			shape: "square",
-			subtitle: "&dGrow a little world",
+			subtitle: "&dMods: Botony Pots and Trees",
 			description: [
 				"Botany Pots let me grow both plants and trees safely indoors. They aren't as luxurious as an actual farm, nor do they provide magical benefits from natural crops growing.",
 				"",
@@ -419,7 +419,7 @@
 			x: 1.0d,
 			y: -0.75d,
 			shape: "square",
-			subtitle: "&dBetter than a recipe blog",
+			subtitle: "&dMod: Spice of Life: Carrot Edition",
 			description: [
 				"&dTraveler, you'll probably want to keep &dyour diet quite diversified.",
 				"",
@@ -452,7 +452,7 @@
 			x: -3.0d,
 			y: -6.5d,
 			shape: "square",
-			subtitle: "&dWhat an interesting journal",
+			subtitle: "&dMod: Alex's Mobs",
 			description: [
 				"There's a whole lot of animals here, some of them I have back home in my old dimension, and some of them... are very different, or altogether new. ",
 				"",
@@ -481,7 +481,7 @@
 			x: -5.0d,
 			y: -4.5d,
 			shape: "square",
-			subtitle: "&dWatch where you aim...",
+			subtitle: "&dMod: Apotheosis",
 			description: [
 				"The Fletching Table is fairly useful, mostly for making special arrows.",
 				"",
@@ -538,7 +538,10 @@
 				"Someone here came up with Potion Charms, which is super useful. They last longer than normal potions, and I can turn them on when I need their ability, then back off afterwards."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
+			dependencies: [I;
+				244,
+				464
+			],
 			id: 469,
 			tasks: [{
 				id: 470,
@@ -576,7 +579,10 @@
 				"Though for that, I'll need a Spawn Egg of the creature, which I can only get by killing a creature with a weapon enchanted with Capture... and even then, Kow says it is pretty rare."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
+			dependencies: [I;
+				244,
+				464
+			],
 			id: 472,
 			tasks: [{
 				id: 473,
@@ -602,7 +608,7 @@
 			x: -3.0d,
 			y: -0.75d,
 			shape: "square",
-			subtitle: "&dA strange place",
+			subtitle: "&dMod: Aquaculture",
 			description: [
 				"I know fishing was somewhat popular back home, it's own sort of crazy culture and deep end of things you could get into. All sorts of rods, bait, fishing types, ways to fish... and it seems that exists here too. ",
 				"",
@@ -734,6 +740,502 @@
 			}],
 			rewards: [{
 				id: 493,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Quick Naps",
+			icon: "comforts:sleeping_bag_purple",
+			x: 3.5d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dMod: Comforts",
+			description: [
+				"So this dimension is so steeped in magic that I can resurrect after death usually, right? And I appear at the last bed I slept in?",
+				"",
+				"&dCorrect. Though some magic items will &dact &dlike a bed to set your Spawn &dPoint.",
+				"",
+				"Right, but if I'm exploring far away without a teleport scroll or whatever, I don't want to set my Spawn Point to a new spot. So what do I do? Just twiddle my thumbs in a dirt hole?",
+				"",
+				"&dI suggest using a Sleeping Bag. They &daren't that comfortable, but they don't &dreset your Spawn Point.",
+				"",
+				"That's super useful. Why can't it be a hammock, though? Well, I guess being out in the open at night is dangerous...",
+				"",
+				"&dHammocks let you sleep the day away. &dThough to set one up, you need to set &dthe Rope and Nail on two walls exactly &d4 spaces apart first."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 763,
+			tasks: [
+				{
+					id: 764,
+					type: "item",
+					item: "comforts:rope_and_nail",
+					count: 2L
+				},
+				{
+					id: 765,
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "crafttweaker:sleeping_bags"
+						}
+					}
+				},
+				{
+					id: 766,
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "crafttweaker:hammocks"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 767,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Home Cooking",
+			icon: "cookingforblockheads:cooking_table",
+			x: 2.5d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dMod: Cooking With Blockheads",
+			description: [
+				"&dTraveler, do you have a Kitchen set &dup yet?",
+				"",
+				"No, why?",
+				"",
+				"&dBecause even Kitchens are a bit &dmagical in this dimension. Even &dBlockheads can cook with this kitchen &dsetup.",
+				"",
+				"Cooking for Blockheads huh? Alright, I'll bite.",
+				"",
+				"&dThat's a good one. With a Recipe book, &dyou can see all you can make with the &dingredients on you. But if you want &dto &dtake good advantage? Make a kitchen &dwhere this Cooking Table, Oven, and &dKitchen Sink are connected.. ",
+				"",
+				"Oh nice, I automatically get water, and the ability to heat items for recipes."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 768,
+			tasks: [
+				{
+					id: 769,
+					type: "item",
+					item: "cookingforblockheads:recipe_book"
+				},
+				{
+					id: 770,
+					type: "item",
+					item: "cookingforblockheads:cooking_table"
+				},
+				{
+					id: 771,
+					type: "item",
+					item: "cookingforblockheads:oven"
+				},
+				{
+					id: 772,
+					type: "item",
+					item: "cookingforblockheads:sink"
+				}
+			],
+			rewards: [{
+				id: 773,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Kitchen Storage",
+			icon: "cookingforblockheads:counter",
+			x: 3.5d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dFull but still can't find anything to eat",
+			description: [
+				"Kitchens need some kind of storage for all the food and cans and goodies, right?",
+				"",
+				"&dYes, and these Kitchen Counters magically hook up with the other kitchen pieces as well. The Cooking Table will see all the items in your inventory and in the counters and show you what recipes you can make.",
+				"",
+				"Well, as long as all the kitchen pieces are touching at least one other kitchen piece."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 774,
+			tasks: [
+				{
+					id: 775,
+					type: "item",
+					item: "cookingforblockheads:counter"
+				},
+				{
+					id: 776,
+					type: "item",
+					item: "cookingforblockheads:cabinet"
+				}
+			],
+			rewards: [{
+				id: 777,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Kitchen Accessories",
+			icon: "cookingforblockheads:fruit_basket",
+			x: 2.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dA place for your knife, and your fruit",
+			description: [
+				"No kitchen is complete without somewhere to put your fruit.",
+				"",
+				"&dYou mean knives.",
+				"",
+				"Both? Well, like the other Cooking With Blockheads items, if these all are part of the kitchen touching at least one other part, they can all see each other's inventories.",
+				"",
+				"You can Right Click pots and pans and stuff onto the Tool Rack. Fruit you place in the Fruit Basket can show up so you can see at a glance what you have.",
+				"",
+				"&dAs well, if you stack two Fridges on &dtop of each other, they combine into one big &done."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;
+				244,
+				768
+			],
+			id: 778,
+			tasks: [
+				{
+					id: 779,
+					type: "item",
+					item: "cookingforblockheads:fruit_basket"
+				},
+				{
+					id: 780,
+					type: "item",
+					item: "cookingforblockheads:tool_rack"
+				},
+				{
+					id: 781,
+					type: "item",
+					item: "cookingforblockheads:spice_rack"
+				},
+				{
+					id: 782,
+					type: "item",
+					item: "cookingforblockheads:milk_jar"
+				},
+				{
+					id: 783,
+					type: "item",
+					item: "cookingforblockheads:fridge"
+				}
+			],
+			rewards: [{
+				id: 784,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Kitchen upgrades!",
+			icon: "cookingforblockheads:heating_unit",
+			x: 3.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dHot and Cold",
+			description: [
+				"A couple of these kitchen things can take some neat upgrades. I'm kind of surprised they aren't tech locked out from all the magic.",
+				"",
+				"&dWe looked into it. They are considered &djust low tech enough to squeak under &dthe radar, at best guess.",
+				"",
+				"So, one adds ice and snow to recipes. The other lets the Oven be powered by electricity instead of coal. Not SUPER useful but nice nonetheless!"
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;
+				244,
+				768,
+				778
+			],
+			id: 785,
+			tasks: [
+				{
+					id: 786,
+					type: "item",
+					item: "cookingforblockheads:heating_unit"
+				},
+				{
+					id: 788,
+					type: "item",
+					item: "cookingforblockheads:preservation_chamber"
+				}
+			],
+			rewards: [{
+				id: 787,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Death Isn't The End",
+			icon: {
+				id: "tombstone:decorative_grave_simple",
+				Count: true,
+				tag: {
+					model_texture: 0
+				}
+			},
+			x: -5.25d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dMod: Corail Tombstone",
+			description: [
+				"So death isn't the finality it is in my home dimension. There's so much magic, that many folks either become undead, or just resurrect.",
+				"",
+				"&dEventually death catches up to &deveryone, even the undead.",
+				"",
+				"True that. But for now, I can use death to my advantage. Each time, I learn a bit more, and can... as weird as this sounds, specialize death by hitting the N key.",
+				"",
+				"&dYou know, that really does sound &dweird...",
+				"",
+				"Yeah. But hey, I can also make decorative graves so...that's neat?",
+				"",
+				"&dSo... weird..."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 789,
+			tasks: [{
+				id: 790,
+				type: "item",
+				title: "Any Decorative Gravestone",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "tombstone:decorative_graves"
+					}
+				}
+			}],
+			rewards: [{
+				id: 791,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "A Helpful Station",
+			icon: "craftingstation:crafting_station",
+			x: 2.25d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dMod: Crafting Station",
+			description: [
+				"Legend tells of a crafting table that will keep the items you place into it to craft with.",
+				"",
+				"&dTraveler...",
+				"",
+				"When you close the interface, the item's don't drop back into your inventory...",
+				"",
+				"&dTraveler. Just making a Crafting &dStation..."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 792,
+			tasks: [
+				{
+					id: 793,
+					type: "item",
+					item: "craftingstation:crafting_station"
+				},
+				{
+					id: 794,
+					type: "item",
+					item: "craftingstation:crafting_station_slab"
+				}
+			],
+			rewards: [{
+				id: 795,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Food Combos Galore",
+			icon: {
+				id: "culinaryconstruct:sandwich",
+				Count: true,
+				tag: {
+					Size: 5,
+					Saturation: 1.0f,
+					Quality: 4,
+					Ingredients: {
+						Items: [
+							{
+								Slot: false,
+								id: "minecraft:nether_star",
+								Count: true
+							},
+							{
+								Slot: true,
+								id: "minecraft:nether_star",
+								Count: true
+							},
+							{
+								Slot: 2b,
+								id: "minecraft:nether_star",
+								Count: true
+							},
+							{
+								Slot: 3b,
+								id: "minecraft:nether_star",
+								Count: true
+							},
+							{
+								Slot: 4b,
+								id: "minecraft:nether_star",
+								Count: true
+							}
+						]
+					},
+					Base: {
+						id: "minecraft:bread",
+						Count: true
+					},
+					Food: 20
+				}
+			},
+			x: 1.0d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dMod: Culinary Construct",
+			description: [
+				"&dWhat are you doing?",
+				"",
+				"Making a sandwich. ",
+				"",
+				"&dWhat the heck are you putting into &dthat?",
+				"",
+				"Yes.",
+				"",
+				"&dThat's not a valid answer.",
+				"",
+				"Sure it is. With the Culinary Station, I can take bread, and then stuff any other food into it. Or heck, I can put a wooden bowl in there and make a low carb bowl or something too."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 796,
+			tasks: [
+				{
+					id: 797,
+					type: "item",
+					item: "culinaryconstruct:culinary_station"
+				},
+				{
+					id: 798,
+					type: "item",
+					title: "Any Culinary Construct Sandwich",
+					icon: {
+						id: "culinaryconstruct:sandwich",
+						Count: true,
+						tag: {
+							SolidsSize: 2,
+							Size: 1,
+							Saturation: 1.235f,
+							Quality: 3,
+							Ingredients: {
+								Items: [{
+									Slot: false,
+									id: "pamhc2foodcore:pumpkinbreaditem",
+									Count: true
+								}]
+							},
+							Solids: {
+								Items: [
+									{
+										Slot: false,
+										id: "pamhc2foodcore:pumpkinbreaditem",
+										Count: true
+									},
+									{
+										Slot: true,
+										id: "minecraft:bread",
+										Count: true
+									}
+								]
+							},
+							Base: {
+								id: "minecraft:bread",
+								Count: true
+							},
+							Food: 6
+						}
+					},
+					item: {
+						id: "culinaryconstruct:sandwich",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 799,
+					type: "item",
+					title: "Any Culinary Bowl of Food",
+					icon: {
+						id: "culinaryconstruct:food_bowl",
+						Count: true,
+						tag: {
+							SolidsSize: 1,
+							Size: 1,
+							Saturation: 1.2f,
+							Quality: 2,
+							Ingredients: {
+								Items: [{
+									Slot: false,
+									id: "pamhc2foodcore:carrotbreaditem",
+									Count: true
+								}]
+							},
+							Solids: {
+								Items: [{
+									Slot: false,
+									id: "pamhc2foodcore:carrotbreaditem",
+									Count: true
+								}]
+							},
+							Base: {
+								id: "minecraft:bowl",
+								Count: true
+							},
+							Food: 7
+						}
+					},
+					item: {
+						id: "culinaryconstruct:food_bowl",
+						Count: true,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: 800,
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
