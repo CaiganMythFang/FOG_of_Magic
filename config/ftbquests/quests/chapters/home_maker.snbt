@@ -1240,6 +1240,236 @@
 				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
+		},
+		{
+			title: "For a Biscuit",
+			icon: "doggytalents:doggy_charm",
+			x: -1.5d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dMod: Doggy Talents",
+			description: [
+				"Hm, I could use a friendly companion pet to follow me around. I don't think there are like... pet stores around here, so I gotta go tame my own pets.",
+				"",
+				"According to Kow, I can tame Wolves by feeding them Bones from Skeletons. When they get hearts, they are now my pet! Handy!",
+				"",
+				"&dBut like that, they are not trained. &dThey know how to sit and stay and &dguard you, that's about it.",
+				"",
+				"Okay, I'll give the wolf a Training Biscuit. That'll make it trainable!",
+				"",
+				"I can then teach my dog by Right Clicking a Stick on them."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 801,
+			tasks: [
+				{
+					id: 802,
+					type: "item",
+					item: "doggytalents:training_treat"
+				},
+				{
+					id: 809,
+					type: "item",
+					item: "minecraft:stick"
+				}
+			],
+			rewards: [{
+				id: 803,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Training for the Top",
+			icon: "doggytalents:super_treat",
+			x: -1.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dGood treats for good dogs",
+			description: [
+				"So, the more Training Treats I give my dog, the better they become. But at some point, the Training Treats aren't enough.",
+				"",
+				"There are better treats to make and give, until eventually they get the Best of Treats, the Dire Treat! ",
+				"",
+				"Apparently when I start feeding my dog Dire Treats, they become immortal? What?"
+			],
+			dependencies: [I;801],
+			id: 804,
+			tasks: [
+				{
+					id: 805,
+					type: "item",
+					item: "doggytalents:super_treat"
+				},
+				{
+					id: 806,
+					type: "item",
+					item: "doggytalents:master_treat"
+				},
+				{
+					id: 807,
+					type: "item",
+					item: "doggytalents:dire_treat"
+				}
+			],
+			rewards: [{
+				id: 808,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Well Treated",
+			icon: "doggytalents:treat_bag",
+			x: -0.5d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dGood Dog",
+			description: [
+				"There's a lot of ways for me to take care of my dog as I train them. I mean, they deserve it right?!",
+				"",
+				"I can fill a Treat Bag with treats like Chew Sticks and other things. I can also Right Click the Treat Bag to fill the Food Bowl if I need to.",
+				"",
+				"I can also get a Dog Bath going, but it doesn't do all that much other than make the dog wet. Which means they shake the water off everywhere. But maybe... if I teach them to fish... hmmm....",
+				"",
+				"&dFishing in a dog bowl... what?",
+				"",
+				"Anyways! I should also make a Dog Bed! That'd be good!"
+			],
+			dependencies: [I;801],
+			id: 810,
+			tasks: [
+				{
+					id: 811,
+					type: "item",
+					item: "doggytalents:treat_bag"
+				},
+				{
+					id: 812,
+					type: "item",
+					item: "doggytalents:chew_stick"
+				},
+				{
+					id: 813,
+					type: "item",
+					item: "doggytalents:food_bowl"
+				},
+				{
+					id: 814,
+					type: "item",
+					item: "doggytalents:dog_bath"
+				},
+				{
+					id: 815,
+					type: "item",
+					item: "doggytalents:dog_bed"
+				}
+			],
+			rewards: [{
+				id: 816,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Well Dressed",
+			icon: {
+				id: "doggytalents:wool_collar",
+				Count: true,
+				tag: {
+					display: {
+						color: 16777215
+					}
+				}
+			},
+			x: -0.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dAnd Quite Snazzy",
+			description: [
+				"So, when I first tamed the wolf, I put a collar on them. But when I gave them the Training Biscuit, I removed it. Or well, it vanished. I don't know why.",
+				"",
+				"I can take a Wool Collar and put it on my pet by Right Clicking it onto them. I can also Dye this collar colors like it is Leather Armor, by Crafting the Wool Collar with the dye, or just Right Clicking the Dye on the pet.",
+				"",
+				"I can also toss some cute little outfits on them. Like this spiffy Leather Jacket and Dog Sunglasses.",
+				"",
+				"Oh, and if I ever need to take the collar off, I can use the Collar Shears. But I have to be careful because this is also how I untame my pet and send them back into the wild..."
+			],
+			dependencies: [I;801],
+			id: 817,
+			tasks: [
+				{
+					id: 818,
+					type: "item",
+					item: {
+						id: "doggytalents:wool_collar",
+						Count: true,
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+				},
+				{
+					id: 819,
+					type: "item",
+					item: "doggytalents:leather_jacket"
+				},
+				{
+					id: 820,
+					type: "item",
+					item: "doggytalents:sunglasses"
+				},
+				{
+					id: 821,
+					type: "item",
+					item: "doggytalents:collar_shears"
+				}
+			],
+			rewards: [{
+				id: 822,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Free Roaming Woof",
+			icon: "doggytalents:radio_collar",
+			x: -0.9999999999999929d,
+			y: 1.25d,
+			shape: "square",
+			subtitle: "&dSniffing into every corner",
+			description: [
+				"I might want to put a collar on my pet. A radio collar that is. This world seems a lot easier to get lost in, with all these ruins and caves everywhere.",
+				"",
+				"That way, I can use this magical Radar to figure out where my dogs hve wandered off to."
+			],
+			dependencies: [I;801],
+			id: 823,
+			tasks: [
+				{
+					id: 824,
+					type: "item",
+					item: "doggytalents:radio_collar"
+				},
+				{
+					id: 825,
+					type: "item",
+					item: "doggytalents:radar"
+				}
+			],
+			rewards: [{
+				id: 826,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
 		}
 	]
 }
