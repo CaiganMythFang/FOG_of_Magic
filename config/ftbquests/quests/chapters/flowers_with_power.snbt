@@ -16,7 +16,7 @@
 			x: -1.5d,
 			y: 4.0d,
 			shape: "square",
-			subtitle: "&dTechnical Flowers",
+			subtitle: "&dMod: Botania",
 			description: [
 				"&dTraveler, I suggest seeking a green &dthumb for the following lessons. And &dhaving a nice, clear area outside.",
 				"",

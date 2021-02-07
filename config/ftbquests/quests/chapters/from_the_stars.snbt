@@ -12,7 +12,7 @@
 			x: -0.25d,
 			y: -2.0d,
 			shape: "square",
-			subtitle: "&dGaze above",
+			subtitle: "&dMod: Astral Sorcery",
 			description: [
 				"&dTraveler, this dimension draws magic &dfrom the stars themselves. You can &ddo this back home, but your skies are &dhazed over, so it has been lost.",
 				"",

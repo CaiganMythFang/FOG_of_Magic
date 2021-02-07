@@ -7,12 +7,12 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			title: "Create : The Power of Rotation",
+			title: "The Power of Rotation",
 			icon: "create:copper_valve_handle",
 			x: 12.0d,
 			y: 1.5d,
 			shape: "square",
-			subtitle: "&dDeceptively low tech",
+			subtitle: "&dMod: Create",
 			description: [
 				"&dTraveler, though this world is not as &dhigh tech as your original world, I &dwould not dismiss what they know off &dhand. ",
 				"",
