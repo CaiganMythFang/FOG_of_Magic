@@ -537,11 +537,7 @@
 				"",
 				"Someone here came up with Potion Charms, which is super useful. They last longer than normal potions, and I can turn them on when I need their ability, then back off afterwards."
 			],
-			hide_dependency_lines: true,
-			dependencies: [I;
-				244,
-				464
-			],
+			dependencies: [I;464],
 			id: 469,
 			tasks: [{
 				id: 470,
@@ -578,11 +574,7 @@
 				"",
 				"Though for that, I'll need a Spawn Egg of the creature, which I can only get by killing a creature with a weapon enchanted with Capture... and even then, Kow says it is pretty rare."
 			],
-			hide_dependency_lines: true,
-			dependencies: [I;
-				244,
-				464
-			],
+			dependencies: [I;464],
 			id: 472,
 			tasks: [{
 				id: 473,
@@ -871,8 +863,7 @@
 				"",
 				"Well, as long as all the kitchen pieces are touching at least one other kitchen piece."
 			],
-			hide_dependency_lines: true,
-			dependencies: [I;244],
+			dependencies: [I;768],
 			id: 774,
 			tasks: [
 				{
@@ -911,11 +902,7 @@
 				"",
 				"&dAs well, if you stack two Fridges on &dtop of each other, they combine into one big &done."
 			],
-			hide_dependency_lines: true,
-			dependencies: [I;
-				244,
-				768
-			],
+			dependencies: [I;768],
 			id: 778,
 			tasks: [
 				{
@@ -965,9 +952,7 @@
 				"",
 				"So, one adds ice and snow to recipes. The other lets the Oven be powered by electricity instead of coal. Not SUPER useful but nice nonetheless!"
 			],
-			hide_dependency_lines: true,
 			dependencies: [I;
-				244,
 				768,
 				778
 			],
