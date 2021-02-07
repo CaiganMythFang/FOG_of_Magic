@@ -64,7 +64,7 @@
 #Settings for the Recipe Maker.
 ["Recipe Maker"]
 	#Should the recipe maker add NBT tags when possible?
-	useNBT = true
+	useNBT = false
 	#Should the recipe maker try to use tags when possible?
 	useTags = false
 	#Should the Recipe Maker be enabled?
