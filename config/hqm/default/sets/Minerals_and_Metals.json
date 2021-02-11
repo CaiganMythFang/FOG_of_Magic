@@ -111,6 +111,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "297a607d-a194-4387-bec5-fa35331f3fbe",
+      "name": " Silver (Sell)",
+      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
+      "x": 198,
+      "y": 106,
+      "icon": {
+        "id": "iceandfire:silver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:silver_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "28b648d2-379d-4b02-adef-613c2e536f7d",
       "name": " Zinc (Sell)",
       "description": "    Zinc on its own is good metal, but its strength shines when alloyed with other metals!",
@@ -736,6 +773,44 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eef71099-4185-4fee-8b3b-3cdfe700a43e",
+      "name": " Silver (Buy)",
+      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
+      "x": 40,
+      "y": 109,
+      "icon": {
+        "id": "iceandfire:silver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:silver_ore",
+          "Count": 1
         }
       ],
       "rewardchoice": [],

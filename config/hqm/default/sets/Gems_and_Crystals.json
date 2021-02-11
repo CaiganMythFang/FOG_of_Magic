@@ -379,6 +379,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "0a69ad9c-0239-4fda-b71e-ab7435c62ea0",
+      "name": " Sapphire (Buy)",
+      "description": "    Sapphire is a semi rare gem that is found in many places, especially snowy biomes.",
+      "x": 16,
+      "y": 81,
+      "icon": {
+        "id": "iceandfire:sapphire_gem",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:sapphire_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "dfecfd28-ffd6-4c57-a812-332ebcdd993f",
       "name": " Ender Pearl (Sell)",
       "description": "    Technically, these are from the eyes of Endermen, the creepy long creatures from The End.\n    And technically, that is really dang creepy itself, you know.",
@@ -521,6 +559,43 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5bbf7364-5ee1-4725-b428-5dcca7ab0a33",
+      "name": " Sapphire (Sell)",
+      "description": "    Sapphire is a semi rare gem that is found in many places, especially snowy biomes.",
+      "x": 279,
+      "y": 84,
+      "icon": {
+        "id": "iceandfire:sapphire_gem",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:sapphire_gem",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 6
         }
       ],
       "rewardchoice": [],
