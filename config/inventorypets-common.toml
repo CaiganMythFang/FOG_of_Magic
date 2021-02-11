@@ -225,7 +225,7 @@
 	#Allow more grieflike April Fools pranks (default:false)
 	enableAprilFoolGriefPranks = false
 	#Disable Cloud Pet lightning strike ability (default:false)
-	disableCloudLightning = false
+	disableCloudLightning = true
 	#Frequency of Sky Dungeons (default: 5)
 	#Range: 1 ~ 10
 	frequencySkyDungeons = 5
