@@ -1,0 +1,1099 @@
+{
+	id: 827,
+	filename: "born_of_dragons",
+	order_index: 10,
+	title: "Born of Dragons",
+	icon: {
+		id: "iceandfire:dragon_skull_fire",
+		Count: true,
+		tag: {
+			Stage: 4,
+			DragonAge: 75
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "A Book of Ancient Creatures",
+			icon: {
+				id: "iceandfire:bestiary",
+				Count: true,
+				tag: {
+					Pages: [I;0]
+				}
+			},
+			x: -5.25d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dMod: Ice and Fire: Dragons",
+			description: [
+				"&dTraveler. It should come as no &dsurprise, but Dragons walk these &dlands.",
+				"",
+				"....",
+				"",
+				"&dYes yes, I know. But better to be &dclear, right? They are very &ddangerous and fairly smart. It's best &dto learn about them now, so that you &dmay face them properly later.",
+				"",
+				"Face them? Really?",
+				"",
+				"&dYes. You may not want to tangle with &dthem, but that feeling is not mutual. So, &dyou will need the Beastiary. It shall &dguide you.",
+				"",
+				"&dFind Manuscripts. You can find them in &dDragon Caves if you are brave. Or &dGraveyards as well can have them. "
+			],
+			dependencies: [I;37],
+			id: 828,
+			tasks: [
+				{
+					id: 829,
+					type: "item",
+					item: "iceandfire:manuscript",
+					count: 3L
+				},
+				{
+					id: 830,
+					type: "item",
+					item: {
+						id: "iceandfire:bestiary",
+						Count: true,
+						tag: {
+							Pages: [I;0]
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 831,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Draconic Research",
+			icon: "iceandfire:lectern",
+			x: -0.25d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dKnow Thy Enemy",
+			description: [
+				"Now that I have this Beastiary, can find out more about dragons. A lot of scholars and adventurers have written down their findings, so it's a good place to start.",
+				"",
+				"&dWritten down before being eaten, &dapparently. Since a lot of these &dmanuscripts are in dragon caves and &dall.",
+				"",
+				"Let's not end up like them. Anyways, I'll need a Bestiary Lectern to hold the book and Manuscripts to research.",
+				"",
+				"&dYou should also find some Sapphires &dand Silver Ingots. You'll need those &dlater.",
+				"",
+				"Good point. Looks like I can branch off into different areas of study here... much more than just dragons. And it changes each time I put the book in. Interesting!"
+			],
+			dependencies: [I;828],
+			id: 832,
+			tasks: [
+				{
+					id: 833,
+					type: "item",
+					item: "iceandfire:lectern"
+				},
+				{
+					id: 834,
+					type: "item",
+					item: "iceandfire:manuscript",
+					count: 3L
+				},
+				{
+					id: 836,
+					type: "item",
+					item: "iceandfire:sapphire_gem"
+				},
+				{
+					id: 837,
+					type: "item",
+					item: "iceandfire:silver_ingot"
+				}
+			],
+			rewards: [{
+				id: 835,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "The One Eyed Shephard",
+			icon: "iceandfire:cyclops_skull",
+			x: -3.0d,
+			y: -2.75d,
+			shape: "diamond",
+			subtitle: "&dThe Great Flock",
+			description: [
+				"It seems if I explore the beaches and shores of oceans and lakes, I may come across a Cyclops.",
+				"",
+				"The Cyclops is huge and deadly, and tends to herd flocks of sheep to feed itself with.",
+				"",
+				"&dIt also likes to feast on villagers and &dotherworlders like you. ",
+				"",
+				"And collect their treasures. Which means if I can sneak past one...",
+				"",
+				"&dOr kill it.",
+				"",
+				"I can take the treasure. If I wear a full Sheep Disguise, it might think I'm part of its flock."
+			],
+			dependencies: [I;832],
+			id: 838,
+			tasks: [
+				{
+					id: 840,
+					type: "item",
+					item: {
+						id: "iceandfire:sheep_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 841,
+					type: "item",
+					item: {
+						id: "iceandfire:sheep_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 842,
+					type: "item",
+					item: {
+						id: "iceandfire:sheep_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 843,
+					type: "item",
+					item: {
+						id: "iceandfire:sheep_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 844,
+					type: "kill",
+					icon: "iceandfire:cyclops_skull",
+					entity: "iceandfire:cyclops",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 845,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Ghostly Hauntings",
+			icon: "iceandfire:ectoplasm",
+			x: -2.0d,
+			y: -4.25d,
+			shape: "diamond",
+			subtitle: "&dSpooky",
+			description: [
+				"Graveyards seem to litter the landscape, well away from villages and other places of civilization. ",
+				"",
+				"&dBe careful at night at these, as that &dis when ghosts come calling.",
+				"",
+				"Oh? Yeah, the Beastiary says that they can show up in Graveyards, or on Graveyard Soil in the dead of night.",
+				"",
+				"&dI suggest carrying Silver. It's not &donly good on Zombies, but Ghosts as &dwell.",
+				"",
+				"Ew, they seem to drop ectoplasm? Such weird stuff. But Phantasmal Ingots are something they can carry, and that looks pretty useful for later..."
+			],
+			dependencies: [I;832],
+			id: 846,
+			tasks: [
+				{
+					id: 847,
+					type: "item",
+					item: "iceandfire:ectoplasm"
+				},
+				{
+					id: 848,
+					type: "item",
+					item: "iceandfire:ghost_ingot"
+				},
+				{
+					id: 849,
+					type: "kill",
+					icon: "losttrinkets:tha_ghost",
+					entity: "iceandfire:ghost",
+					value: 10L
+				}
+			],
+			rewards: [{
+				id: 850,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "A Deadly Song",
+			icon: "iceandfire:shiny_scales",
+			x: -2.0d,
+			y: -0.5d,
+			shape: "diamond",
+			subtitle: "&dNever trust fish.",
+			description: [
+				"While exploring the ocean, I need to be careful about little rock outcroppings. I can sometimes find Mermaids on them, who sing an alluring song.",
+				"",
+				"&dA song of lies.",
+				"",
+				"Yes. They are actually Nagas, which while I like them, I don't like being killed by them. And that song makes it difficult to fight them off. So I guess... make some earplugs or something. That should mute the Siren's song.",
+				"",
+				"&dThough I suggest avoiding them, the &dSiren's Shiny Scales are great for &dmaking Water Breathing potions. "
+			],
+			dependencies: [I;832],
+			id: 851,
+			tasks: [
+				{
+					id: 853,
+					type: "item",
+					item: {
+						id: "iceandfire:earplugs",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 854,
+					type: "item",
+					item: "iceandfire:shiny_scales"
+				},
+				{
+					id: 855,
+					type: "kill",
+					icon: {
+						id: "iceandfire:siren_flute",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					entity: "iceandfire:siren",
+					value: 2L
+				}
+			],
+			rewards: [{
+				id: 856,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Ancient Evil",
+			icon: "iceandfire:dread_shard",
+			x: -3.0d,
+			y: 0.75d,
+			shape: "diamond",
+			subtitle: "&dWalking Undead",
+			description: [
+				"I should keep an eye out when traveling the frozen tundras. Apparently, an ancient evil is breaking free?",
+				"",
+				"&dAn ancient evil is ALWAYS waking up. Or &dbreaking free. Or whatever.",
+				"",
+				"No kidding. I guess I should keep an eye out for a giant Mauseleum. And the Dread Lich that protects it. It summons armies of undead to do its bidding.",
+				"",
+				"&dBring your Silver. That Lich has the &dkey to the Mauseleum... how much stuff &ddoes a thousand year old collect?"
+			],
+			dependencies: [I;832],
+			id: 857,
+			tasks: [
+				{
+					id: 858,
+					type: "item",
+					item: "iceandfire:dread_shard"
+				},
+				{
+					id: 859,
+					type: "kill",
+					icon: {
+						id: "iceandfire:lich_staff",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					entity: "iceandfire:dread_lich",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 860,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Two Heads Are Better",
+			icon: "iceandfire:hydra_fang",
+			x: -2.0d,
+			y: 2.25d,
+			shape: "diamond",
+			subtitle: "&dThree. Four now. Five?",
+			description: [
+				"Swampy areas are pretty dangerous by default, but especially if I stumble upon a Hydra den.",
+				"",
+				"These legendary creatures cannot easily be behaded. At least, stay beheaded. When I cut one off, two more show up after a few seconds. And it gets stronger each time!",
+				"",
+				"&dFire is the great equalizer.",
+				"",
+				"Too true. If the Hydra is on FIRE when it tries to regenerate a head, it can't. It gets cauterized instead.",
+				"",
+				"&dKeep an eye out for it's heart. It is &dsuper powerful. But at least grab the &dFangs it drops, Traveler."
+			],
+			dependencies: [I;832],
+			id: 861,
+			tasks: [
+				{
+					id: 862,
+					type: "item",
+					item: "iceandfire:hydra_fang"
+				},
+				{
+					id: 863,
+					type: "kill",
+					icon: "iceandfire:hydra_skull",
+					entity: "iceandfire:hydra",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 864,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Their Dragon Materials",
+			icon: {
+				id: "iceandfire:dragon_skull_fire",
+				Count: true,
+				tag: {
+					Stage: 4,
+					DragonAge: 75
+				}
+			},
+			x: 6.25d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dBig Lizards...",
+			description: [
+				"I can find Dragons all over the place. Their dens are huge and hard to miss. Sometimes the dragon is there, protecting its territory. Other times, the dragon is dead, it's corpse still there, animals afraid to go near.",
+				"",
+				"I should go and collect all the Bones, Skulls, and Dragon Blood I can. They will help me to fight not only the other Dragons, but other legendary creatures.  Wither Bones I'll need too, from Withers in the Nether.",
+				"",
+				"Dragon materials make excellent armor, and weapons. Weapons like the Dragon Bone Sword, which can be imbued with Dragon Blood or any other number of items to power it up in different ways."
+			],
+			dependencies: [I;832],
+			id: 865,
+			tasks: [
+				{
+					id: 866,
+					type: "item",
+					title: "Any Ice and Fire Dragon Skull",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "iceandfire:dragon_skulls"
+						}
+					}
+				},
+				{
+					id: 867,
+					type: "item",
+					item: "iceandfire:dragonbone"
+				},
+				{
+					id: 868,
+					type: "item",
+					item: "iceandfire:witherbone"
+				},
+				{
+					id: 869,
+					type: "item",
+					item: {
+						id: "iceandfire:dragonbone_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 870,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Sparkly Magic",
+			icon: "iceandfire:pixie_dust",
+			x: -0.25d,
+			y: 3.0d,
+			shape: "square",
+			subtitle: "&dMore like Sparkly Nuisance",
+			description: [
+				"Pixies can be found in dark and magical forests. They usually don't fight folks like me, but they've been known to be mischevious. ",
+				"",
+				"Pixies carry Pixie Dust, and while I can kill them to get a lot of it, it might be a better idea to capture and take care of one with a Jar.",
+				"",
+				"Every couple days in the world, I can get some Pixie Dust out of the Pixie Jar. I can use this Dust to make a special confection called Ambrosia.",
+				"",
+				"&dInstead of capturing them like a bug, &dwhy not throw them some Cake?"
+			],
+			dependencies: [I;832],
+			id: 871,
+			tasks: [
+				{
+					id: 872,
+					type: "item",
+					item: "iceandfire:pixie_jar_empty"
+				},
+				{
+					id: 873,
+					type: "item",
+					item: "iceandfire:pixie_dust"
+				},
+				{
+					id: 874,
+					type: "item",
+					item: "iceandfire:ambrosia"
+				}
+			],
+			rewards: [{
+				id: 875,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Hot and Cold Forges",
+			icon: "iceandfire:dragonsteel_fire_ingot",
+			x: 6.25d,
+			y: -3.5d,
+			shape: "square",
+			subtitle: "&dBorn of Dragons, eh?",
+			description: [
+				"Unlocking the Dragon Forge knowledge in the Bestiary  is quite a trip, I have to say. That's a pretty complex Forge, but I think I can handle it.",
+				"",
+				"I need to craft a lot of pieces, then arrange them to create the Dragon Forge. And it comes in multiple flavors? Interesting... I should start with the Fire one first.",
+				"",
+				"I'll also need to power the forge with Dragon Fire. Which, well, I can only get from an actual Dragon. Which means...",
+				"",
+				"&dYou'll either need to befriend one... or &dcapture one.",
+				"",
+				"Either way, when I have items in the Forge and a Dragon at the Aperture (which the book calls an Input for some reason), it'll breath into it. And either forge the items together...",
+				"",
+				"&dOr burn them to ash."
+			],
+			dependencies: [I;865],
+			id: 876,
+			tasks: [
+				{
+					id: 877,
+					type: "item",
+					item: "iceandfire:dragonforge_fire_core_disabled"
+				},
+				{
+					id: 878,
+					type: "item",
+					item: "iceandfire:dragonforge_fire_input"
+				},
+				{
+					id: 879,
+					type: "item",
+					item: "iceandfire:dragonsteel_fire_ingot"
+				}
+			],
+			rewards: [{
+				id: 880,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Raising Friends",
+			icon: "iceandfire:dragonegg_red",
+			x: 9.75d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dTiny for now...",
+			description: [
+				"Okay, I've faced dragons in their dens, and they are terrifyingly awesome and dangerous. Now I want one as a friend.",
+				"",
+				"&dI... wait, what?",
+				"",
+				"Yeah, the Beastiary goes into raising Dragons. I have to find a Dragon Egg, usually in one of their caves, and then hatch it and raise it.",
+				"",
+				"&dOkay... well, if you are set upon this &dpath, my brother has some Dragon &dEggs for sale, if you are having &dtrouble finding them.",
+				"",
+				"Really? Wow. Well, hatching them is tough... if its a red egg, it needs to sit in fire. A dark blue egg? Be in the rain. Dark blue? Surrounded by water. It can take days to hatch...",
+				"",
+				"&dBe sure to throw it some Dragon Meals &dto befriend it, Traveler. Oh, and make &dsure that Lightning Dragon doesn't &dburn to a crisp when it hatches..."
+			],
+			dependencies: [I;865],
+			id: 881,
+			tasks: [
+				{
+					id: 882,
+					type: "item",
+					title: "Ice and Fire Dragon Egg",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "crafttweaker:iceandfire_eggs"
+						}
+					}
+				},
+				{
+					id: 884,
+					type: "item",
+					item: "iceandfire:dragon_meal"
+				}
+			],
+			rewards: [{
+				id: 883,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Safety Line",
+			icon: "iceandfire:chain",
+			x: 10.75d,
+			y: -2.0d,
+			shape: "square",
+			subtitle: "&dQuestionable Methods",
+			description: [
+				"Okay, I know I can befriend dragons, but usually when they hatch. I don't want to kill every full grown wild dragon I come across, but sometimes they just don't leave me alone.",
+				"",
+				"For that, could probably use a Chain. Like a Lead, it can tie a creature to a Wooden Fence, but unlike the Lead it won't break.",
+				"",
+				"The fence however... instead, I can connect the Chain to any Wall, but Dragons are strong and can break them too. But if I use Dragon Bones to make a wall, well...."
+			],
+			dependencies: [I;881],
+			id: 885,
+			tasks: [
+				{
+					id: 886,
+					type: "item",
+					item: "iceandfire:chain"
+				},
+				{
+					id: 887,
+					type: "item",
+					item: "iceandfire:dragon_bone_wall"
+				}
+			],
+			rewards: [{
+				id: 888,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Dragon Tamer Tools",
+			icon: "iceandfire:dragon_stick",
+			x: 10.75d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dTaking Proper Care",
+			description: [
+				"Okay, so I have a few tools I can use while raising and training my dragon...",
+				"",
+				"As I feed and nurture the dragon, it will grow bigger and stronger. I can Right Click to check its progress, and after a certain size I can Sneak + Right Click to ride them!",
+				"",
+				"The Dragon Command Staff lets me command the dragon to Sit and Stay or Follow.",
+				"",
+				"The Dragon Horn lets me summon and unsummon my dragon. Right Clicking the Horn on one of my dragons will unsummon it, and then I can use the Horn again to bring it back.",
+				"",
+				"The Dragon Flute is a good way to call my dragon back to the ground after it learns to fly."
+			],
+			dependencies: [I;881],
+			id: 889,
+			tasks: [
+				{
+					id: 890,
+					type: "item",
+					item: "iceandfire:dragon_stick"
+				},
+				{
+					id: 891,
+					type: "item",
+					item: "iceandfire:dragon_horn"
+				},
+				{
+					id: 892,
+					type: "item",
+					item: "iceandfire:dragon_flute"
+				}
+			],
+			rewards: [{
+				id: 893,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Multiplication",
+			icon: "iceandfire:fire_stew",
+			x: 11.75d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dGreat, now there are three of them",
+			description: [
+				"Now that I have a couple of dragons, I can probably get them to multiply.",
+				"",
+				"&dI guess its easier than diving into &dDragon dens for more eggs.",
+				"",
+				"Yeah, see? I thought so too! Plus I think I can probably find rarer types of dragons, and give dragon eggs to my friends so they can raise them too...",
+				"",
+				"&dYou... aren't going to become a crazy &dcat, I mean dragon, person right?",
+				"",
+				"No! Anyways, I need to find these sort of rare Lilys, similar to the type of dragons I'm trying to breed together. I can turn them into a Mixture, that I feed to both dragons to get them uh... in the mood I guess."
+			],
+			dependencies: [I;881],
+			id: 894,
+			tasks: [{
+				id: 895,
+				type: "item",
+				item: "iceandfire:fire_stew"
+			}],
+			rewards: [{
+				id: 896,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Walk Without Rhythm",
+			icon: {
+				id: "iceandfire:deathworm_gauntlet_yellow",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.5d,
+			y: -4.25d,
+			shape: "diamond",
+			subtitle: "&dI was actually thinking Graboids myself.",
+			description: [
+				"&dBe wary in the desert, Traveler, for &dthe Worm protects it.",
+				"",
+				"Worm... oh right, the Beastiary talked about it. These things can grow huge, right? But apparently their chitin is great for armor. And if I find an egg...",
+				"",
+				"&dYou aren't seriously thinking...",
+				"",
+				"Whoa, I wonder.... maybe if I get two fishing poles... could I...",
+				"",
+				"&dYou are weird."
+			],
+			dependencies: [I;832],
+			id: 897,
+			tasks: [
+				{
+					id: 898,
+					type: "item",
+					item: "iceandfire:deathworm_egg"
+				},
+				{
+					id: 899,
+					type: "kill",
+					title: "Kill 2 Death Worms",
+					icon: "iceandfire:deathworm_tounge",
+					entity: "iceandfire:deathworm",
+					value: 2L
+				}
+			],
+			rewards: [{
+				id: 900,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Sea Snake",
+			icon: "iceandfire:sea_serpent_fang",
+			x: 2.5d,
+			y: -2.75d,
+			shape: "diamond",
+			subtitle: "&dDeadly Wiggler",
+			description: [
+				"Out on the seas, I'll need to be careful of a lot of creatures, but the biggest one might be the Sea Serpent.",
+				"",
+				"Not only because it is hostile to myself, but to every other creature around it. Even its own kind. That kind of savagery is dangerous!",
+				"",
+				"But if I can take one down, I can get its fangs and scales, which make some really unique arrows. They cut through water like it isn't even there, treating it like air."
+			],
+			dependencies: [I;832],
+			id: 901,
+			tasks: [
+				{
+					id: 902,
+					type: "item",
+					item: "iceandfire:sea_serpent_fang"
+				},
+				{
+					id: 904,
+					type: "kill",
+					icon: "iceandfire:seaserpent_skull",
+					entity: "iceandfire:sea_serpent",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 903,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Smashing Bad Time",
+			icon: "iceandfire:troll_skull",
+			x: -0.25d,
+			y: -4.75d,
+			shape: "square",
+			subtitle: "&dCrushing Blows",
+			description: [
+				"Exploring underground caves is dangerous, a myriad of creatures call them home, least of all the undead that fell there in life.",
+				"",
+				"&dThat is some.... interesting wording there.",
+				"",
+				"Well, I was reading up on stories about Trolls, yeah? Some of them get very verbose. But the actual thing is terrifying really. Big enough that they can carry entire street lamps as baseball bats. ",
+				"",
+				"If I face one, I should remember arrows do nothing, their skin is too thick. They turn to stone in sunlight, but that would destroy that skin, which makes some really good armor honestly."
+			],
+			dependencies: [I;832],
+			id: 905,
+			tasks: [
+				{
+					id: 906,
+					type: "item",
+					title: "Any Troll Leather",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "iafgear:troll_leather"
+						}
+					}
+				},
+				{
+					id: 908,
+					type: "kill",
+					icon: {
+						id: "iceandfire:troll_weapon_column_frost",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					entity: "iceandfire:troll",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 907,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "The Staredown",
+			icon: "iceandfire:cockatrice_eye",
+			x: 2.5d,
+			y: 0.75d,
+			shape: "diamond",
+			subtitle: "&dDang Chickenzards",
+			description: [
+				"I heard tale from a local farmer that one of his chickens laid a weird, disgusting egg. Thanks to the Beastiary, I learned it was probably a Cockatrice egg.",
+				"",
+				"These half lizard birds are dangerous, able to stare down their prey until the target just.... drops dead? I'm not sure, the book isn't super clear on it, but it seems I can fight back against this deadly stare by wearing a Blindfold."
+			],
+			dependencies: [I;832],
+			id: 909,
+			tasks: [
+				{
+					id: 910,
+					type: "kill",
+					icon: "iceandfire:cockatrice_eye",
+					entity: "iceandfire:cockatrice",
+					value: 2L
+				},
+				{
+					id: 911,
+					type: "item",
+					item: {
+						id: "iceandfire:blindfold",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 912,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Avert Thy Gaze",
+			icon: {
+				id: "iceandfire:gorgon_head",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.5d,
+			y: -0.5d,
+			shape: "diamond",
+			subtitle: "&dStone Cold Stare",
+			description: [
+				"The Gorgon is a terrifying thing to face down suddenly. A dangerous monster of legend, with snakes for hair, that turns you to stone if you meet their gaze.",
+				"",
+				"I don't really have a mirror shield or whatever to be able to look at the Gorgon safely, but I do have a blindfold! This should let me fight and kill them safely.",
+				"",
+				"I can then harvest their head, which I can use to turn a single creature into a stone statue. If I use a Silk Touch pickaxe on that statue... then hey, I got a neat decoration!"
+			],
+			dependencies: [I;832],
+			id: 913,
+			tasks: [
+				{
+					id: 914,
+					type: "item",
+					item: {
+						id: "iceandfire:gorgon_head",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 915,
+					type: "item",
+					item: {
+						id: "iceandfire:blindfold",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 916,
+					type: "kill",
+					icon: {
+						id: "silentgems:soul_gem",
+						Count: true,
+						tag: {
+							SGems_SoulGem: "iceandfire:gorgon"
+						}
+					},
+					entity: "iceandfire:gorgon",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 917,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Metal Bird",
+			icon: "iceandfire:stymphalian_feather_bundle",
+			x: 1.5d,
+			y: 2.25d,
+			shape: "diamond",
+			subtitle: "&dA Feathery Storm",
+			description: [
+				"Stymphalian Birds are some of the scariest things I think I've come across in the swamps in a while. They defend their territory with extreme malice, shooting their metal feathers like daggers at me.",
+				"",
+				"Those feathers, though? If I collect them, I can make some really nice arrows, or a really sharp dagger."
+			],
+			dependencies: [I;832],
+			id: 918,
+			tasks: [
+				{
+					id: 919,
+					type: "item",
+					item: "iceandfire:stymphalian_bird_feather"
+				},
+				{
+					id: 920,
+					type: "kill",
+					icon: "iceandfire:stymphalian_feather_bundle",
+					entity: "iceandfire:stymphalian_bird",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 921,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Big Bug Colony",
+			icon: "iceandfire:myrmex_stinger",
+			x: -2.0d,
+			y: -1.5d,
+			shape: "diamond",
+			subtitle: "&dYou know, the only good bug...",
+			description: [
+				"Myrmex are giant bug colonies that live in either deserts or jungles. They tend to be a hive mind, each hive acting as a separate entity. This is both intriguing and frightening.",
+				"",
+				"Apparently this hive mind nature lets them act  closer to a sentient being? It's strange, but I can collect Resin from fallen Myrmex Workers, and then give it to living ones. This will increase my reputation with the colony.",
+				"",
+				"Eventually, I can trade with and even command some of the colony? How intriguing..."
+			],
+			dependencies: [I;832],
+			id: 922,
+			tasks: [
+				{
+					id: 923,
+					type: "item",
+					item: "iceandfire:myrmex_stinger"
+				},
+				{
+					id: 924,
+					type: "item",
+					item: "iceandfire:myrmex_desert_resin"
+				},
+				{
+					id: 925,
+					type: "kill",
+					icon: "iceandfire:myrmex_desert_chitin",
+					entity: "iceandfire:myrmex_worker",
+					value: 3L
+				}
+			],
+			rewards: [{
+				id: 926,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Ornery Bird Horse",
+			icon: "iceandfire:hippogryph_talon",
+			x: 1.5d,
+			y: -1.5d,
+			shape: "diamond",
+			subtitle: "&dSuch interesting creatures...",
+			description: [
+				"Hippogryphs are simultaneously beautiful and weird as heck creatures. Half bird, half horse. I can find them all over the world, but they seem to like hills and stuff to make their dens on. ",
+				"",
+				"They are fairly defensive creatures, but if I toss some raw rabbit down, I can befriend one. They REALLY like rabbit stew as well.",
+				"",
+				"I can command a frienldy hippogryph with a stick. I can fly on them, and make them armor to protect them from other dangers of the world."
+			],
+			dependencies: [I;832],
+			id: 927,
+			tasks: [
+				{
+					id: 928,
+					type: "item",
+					item: "minecraft:rabbit"
+				},
+				{
+					id: 929,
+					type: "kill",
+					icon: "iceandfire:hippogryph_talon",
+					entity: "iceandfire:hippogryph",
+					value: 1L
+				}
+			],
+			rewards: [{
+				id: 930,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Blood of Dragons",
+			icon: "iceandfire:fire_dragon_blood",
+			x: 6.25d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dMust be hard to transfuse...",
+			description: [
+				"If I use a Glass Bottle on the corpse of a Dragon, I can get some of the Dragon's blood. There are three main types : fire, ice, and lightning.",
+				"",
+				"This blood has a few uses. The primary one for me would be to imbue the blood onto my Dragon Bone sword. This makes it more powerful, especially against Dragons of other types."
+			],
+			dependencies: [I;865],
+			id: 931,
+			tasks: [
+				{
+					id: 932,
+					type: "item",
+					item: "iceandfire:fire_dragon_blood"
+				},
+				{
+					id: 933,
+					type: "item",
+					item: "iceandfire:ice_dragon_blood"
+				},
+				{
+					id: 934,
+					type: "item",
+					item: "iceandfire:lightning_dragon_blood"
+				}
+			],
+			rewards: [{
+				id: 935,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 40
+			}]
+		}
+	]
+}
