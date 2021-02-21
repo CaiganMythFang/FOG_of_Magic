@@ -1,7 +1,7 @@
 {
 	id: 41,
 	filename: "rats",
-	order_index: 1,
+	order_index: 4,
 	title: "Rodent Magic",
 	icon: "rats:marbled_cheese_rat_head",
 	default_quest_shape: "",

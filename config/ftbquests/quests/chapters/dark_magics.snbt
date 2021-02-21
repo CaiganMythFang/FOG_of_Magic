@@ -571,8 +571,8 @@
 					Damage: 0
 				}
 			},
-			x: 6.5d,
-			y: -0.5d,
+			x: 7.5d,
+			y: -1.75d,
 			shape: "square",
 			subtitle: "&dA More Personal Touch",
 			description: [
@@ -619,7 +619,7 @@
 			title: "A More Solid Altar",
 			icon: "eidolon:unholy_effigy",
 			x: 7.5d,
-			y: -0.5d,
+			y: 0.75d,
 			shape: "square",
 			subtitle: "&dA hard choice, as well",
 			description: [
@@ -627,11 +627,13 @@
 				"",
 				"&dAs well, adorn your altar with each of &dthe decorations &dthe book lists. A skull. &dA Wither Rose. &dA candlestick. ",
 				"",
-				"Oh, probably a good idea since they also increase the limits of the table, I think? The book wasn't clear on what Power and Capacity is, but I probably missed it. I should probably keep sacrificing animal blood until more answers are revealed.",
+				"Oh, a good idea since they also increase the limits of the table. I should probably keep sacrificing animal blood until these gods or whatever reveal more to me.",
 				"",
 				"&dTraveler. The next bit of knowledge &dwill be the last one I touched. You will &dhave to choose whether to continue &dor not, if the cost of blood is worth it.",
 				"",
-				"&dPerhaps I could have found a Villager &dthat had done evil. But I couldn't be &dsure. Good luck to you, Traveller."
+				"&dPerhaps I could have found a Villager &dthat had done evil. But I couldn't be &dsure. Good luck to you, Traveller.",
+				"",
+				"&6(This is the current end of the mod)"
 			],
 			dependencies: [I;1012],
 			id: 1020,
