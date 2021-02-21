@@ -1107,8 +1107,8 @@
 					Food: 20
 				}
 			},
-			x: 1.0d,
-			y: 0.25d,
+			x: 4.75d,
+			y: -0.75d,
 			shape: "square",
 			subtitle: "&dMod: Culinary Construct",
 			description: [
@@ -1655,14 +1655,124 @@
 			}]
 		},
 		{
+			title: "Solid State Chests",
+			icon: "ironchest:iron_chest",
 			x: 3.5d,
 			y: -2.5d,
 			shape: "square",
+			subtitle: "&dMod: Iron Chests",
+			description: [
+				"Alright I'm finding a whole lot of items I should keep around. And I'm running out of space to store it. Wood chests aren't cutting it...",
+				"",
+				"&dTraveler. Start making your chests &dout of metal.",
+				"",
+				"That's probably a good idea. They can hold more that way. But what about all these Wood chests now?",
+				"",
+				"&dLook at these Upgraders. They have a &dbit of magic to them, and will transform &done chest type into another. Without &dhaving to empty the chests.",
+				"",
+				"That is super useful. Thanks, Kow."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
 			id: 1024,
-			tasks: [{
-				id: 1025,
+			tasks: [
+				{
+					id: 1025,
+					type: "item",
+					item: "ironchest:iron_chest"
+				},
+				{
+					id: 1026,
+					type: "item",
+					item: "ironchest:wood_to_iron_chest_upgrade"
+				}
+			],
+			rewards: [{
+				id: 1027,
 				type: "item",
-				item: "ironchest:iron_chest"
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "A Farmer's Market",
+			icon: "farmingforblockheads:market",
+			x: 1.0d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dMod: Farming for Blockheads",
+			description: [
+				"Wow, there's a lot of different things I can grow. Vegetables. Fruits. Roots. But where the heck do I find some of these seeds?",
+				"",
+				"&dTraveler. Construct yourself a &dMarket.",
+				"",
+				"Okay... one, that's neat. Two, where the heck did they come from...",
+				"",
+				"&dMagic.",
+				"",
+				"Right right. Uh. Wow, thats more seeds than I was thinking. Now if I could grow them faster....",
+				"",
+				"&dTry the Red Fertilizer bag on tilled &dsoil.",
+				"",
+				"Oh..."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 1028,
+			tasks: [
+				{
+					id: 1029,
+					type: "item",
+					item: "farmingforblockheads:market"
+				},
+				{
+					id: 1030,
+					type: "item",
+					item: "farmingforblockheads:red_fertilizer"
+				}
+			],
+			rewards: [{
+				id: 1031,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Animal Assistance",
+			icon: "farmingforblockheads:feeding_trough",
+			x: 1.0d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dA Helping Claw",
+			description: [
+				"Alright then, what about help with my chickens?",
+				"",
+				"&dMake a Chicken Nest to collect the &deggs.",
+				"",
+				"A nest. Of course. And to feed the animals a...",
+				"",
+				"&dFeeding Trough, of course."
+			],
+			dependencies: [I;1028],
+			id: 1032,
+			tasks: [
+				{
+					id: 1033,
+					type: "item",
+					item: "farmingforblockheads:feeding_trough"
+				},
+				{
+					id: 1034,
+					type: "item",
+					item: "farmingforblockheads:chicken_nest"
+				}
+			],
+			rewards: [{
+				id: 1035,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
 			}]
 		}
 	]
