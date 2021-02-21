@@ -1653,6 +1653,17 @@
 				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.5d,
+			shape: "square",
+			id: 1024,
+			tasks: [{
+				id: 1025,
+				type: "item",
+				item: "ironchest:iron_chest"
+			}]
 		}
 	]
 }
