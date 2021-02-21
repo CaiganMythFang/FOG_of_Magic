@@ -1,7 +1,7 @@
 {
 	id: 243,
 	filename: "home_maker",
-	order_index: 4,
+	order_index: 3,
 	title: "Home Maker",
 	icon: "minecraft:purple_bed",
 	default_quest_shape: "",
@@ -145,8 +145,8 @@
 		{
 			title: "Waystones of Life",
 			icon: "waystones:waystone",
-			x: -3.0d,
-			y: -2.5d,
+			x: 1.0d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dMod: Waystones",
 			description: [
@@ -189,8 +189,8 @@
 		{
 			title: "Warping Scrolls",
 			icon: "waystones:return_scroll",
-			x: -4.0d,
-			y: -2.5d,
+			x: 2.0d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dCheaper and just as useful",
 			description: [
@@ -985,8 +985,8 @@
 					model_texture: 0
 				}
 			},
-			x: -5.25d,
-			y: -2.5d,
+			x: -2.0d,
+			y: -3.5d,
 			shape: "square",
 			subtitle: "&dMod: Corail Tombstone",
 			description: [
@@ -1454,6 +1454,204 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
+			}]
+		},
+		{
+			title: "Market Forces",
+			icon: "calemiutils:market",
+			x: -3.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dMod : Calemi Utils",
+			description: [
+				"&dTraveler, I have unlocked a bit of &dtechnology for free.",
+				"",
+				"Oh?",
+				"",
+				"&dThese contain utilities for managing &dyour money, among other things.",
+				"",
+				"&dThe Trading Post lets you set an item &dto buy and sell. You can configure it &dwith the Security Wrench. Remember: &dGold Dubloons are worth 100 &dDubloons.",
+				"",
+				"&dThe Market is an automated way to &dtrade with my brother Kai. You can &dbuy and sell most basic materials.",
+				"",
+				"&dThe Bank lets you store and withdraw &dDubloons safely. Don't forget your &dwallet!",
+				"",
+				"&dYou can hook all three up with &dnetwork cable to share money and &ditems."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;244],
+			id: 936,
+			tasks: [
+				{
+					id: 937,
+					type: "item",
+					item: "calemiutils:trading_post"
+				},
+				{
+					id: 938,
+					type: "item",
+					item: "calemiutils:market"
+				},
+				{
+					id: 939,
+					type: "item",
+					item: "calemiutils:bank"
+				},
+				{
+					id: 940,
+					type: "item",
+					item: "calemiutils:network_cable"
+				},
+				{
+					id: 941,
+					type: "item",
+					item: "calemiutils:security_wrench"
+				}
+			],
+			rewards: [{
+				id: 942,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "A Link to The World",
+			icon: {
+				id: "calemiutils:link_book_location",
+				Count: true,
+				tag: {}
+			},
+			x: -4.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dGotta build your own puzzles, though",
+			description: [
+				"Okay, so Kow showed me a few things here. One of them is a Link Book, which I can bind to a location. I can then Right Click while holding the book and teleport to that location again",
+				"",
+				"I can also make a Link Stand and set the book on it. Then just Right Clicking the book with an open hand will let me use it quickly."
+			],
+			dependencies: [I;936],
+			id: 943,
+			tasks: [
+				{
+					id: 944,
+					type: "item",
+					item: "calemiutils:book_stand"
+				},
+				{
+					id: 945,
+					type: "item",
+					item: {
+						id: "calemiutils:link_book_location",
+						Count: true,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: 946,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Helpful Items",
+			icon: "calemiutils:item_stand",
+			x: -5.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dA little of this, a little of that",
+			description: [
+				"I find so many interesting things, I can use the Item Stand to display them nicely.",
+				"",
+				"But I need a place to put them. So while building, I can use Iron Scaffolding to move around my structure easier while I am constructing it.",
+				"",
+				"Then to wrap it up, I can use the Torch Placer to light the place up properly, at least temporarily until I can install some decent lights..."
+			],
+			dependencies: [I;936],
+			id: 947,
+			tasks: [
+				{
+					id: 948,
+					type: "item",
+					item: "calemiutils:item_stand"
+				},
+				{
+					id: 949,
+					type: "item",
+					item: "calemiutils:iron_scaffold"
+				},
+				{
+					id: 950,
+					type: "item",
+					item: "calemiutils:torch_placer"
+				}
+			],
+			rewards: [{
+				id: 951,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "More Helpful Items",
+			icon: {
+				id: "calemiutils:blender",
+				Count: true,
+				tag: {}
+			},
+			x: -6.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dEven more of that over there",
+			description: [
+				"So, this Sledgehammer comes in a lot of materials. But all of them work around the same. I can use it like an axe, shovel, or pickaxe. I can break things like normal, or I can hold Right Click to charge it up and unleash its full power.",
+				"",
+				"The Blender is a good way to keep my inventory pretty open. If I Sneak + Right Click, I can turn on Blend mode. Any food items in my inventory are immediately blended into juice. I can then Sneak + Right Click to turn Blend Mode off and drink meals!",
+				"",
+				"The Torch Belt, as long as it and Torches are in my inventory, will automatically place them around me to keep the area lit up nicely."
+			],
+			dependencies: [I;936],
+			id: 952,
+			tasks: [
+				{
+					id: 953,
+					type: "item",
+					item: {
+						id: "calemiutils:sledgehammer_wood",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 954,
+					type: "item",
+					item: {
+						id: "calemiutils:blender",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 955,
+					type: "item",
+					item: {
+						id: "calemiutils:torch_belt",
+						Count: true,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: 956,
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
 			}]
 		}
 	]

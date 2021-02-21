@@ -1,7 +1,7 @@
 {
 	id: 12,
 	filename: "listen_to_me_meow",
-	order_index: 3,
+	order_index: 2,
 	title: "Listen to Me, Meow",
 	icon: "botania:cosmetic_cat_ears",
 	default_quest_shape: "",

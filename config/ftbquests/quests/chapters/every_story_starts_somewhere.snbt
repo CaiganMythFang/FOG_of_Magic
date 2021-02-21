@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "every_story_starts_somewhere",
-	order_index: 2,
+	order_index: 1,
 	title: "Every Story Starts Somewhere",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",
