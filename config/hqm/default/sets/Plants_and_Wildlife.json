@@ -132,6 +132,44 @@
         }
       ],
       "commandrewards": []
+    },
+    {
+      "uuid": "1b76eec0-2c93-4374-aa35-a91781722f7c",
+      "name": " Hemp (Sell)",
+      "description": "    Hemp is a simple crop to grow, and quite useful.  There\u0027s always a demand for it, even if it doesn\u0027t pay much.",
+      "x": 183,
+      "y": 21,
+      "icon": {
+        "id": "immersiveengineering:hemp_fiber",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:hemp_fiber",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
     }
   ],
   "reputationBar": [],
