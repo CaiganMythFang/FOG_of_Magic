@@ -2,10 +2,14 @@
 ["Allow entity spawns"]
 	#Whether to spawn Gunner Drones or not
 	"Spawn Gunner Drones" = true
+	#Wheter to allow Stone Golems laser to knockback players or not (crash risk)
+	"Stone Golem laser knockback" = false
 	#Whether to spawn Stone Golems or not
 	"Spawn Stone Golems" = true
 	#Wheter to spawn RoR monsters in the Nether or not
 	"Nether spawns" = true
+	#Wheter to allow Stone Golems spawn persistence or not
+	"Stone Golem spawn persistence" = false
 	#Whether to spawn Lemurians or not
 	"Spawn Lemurians" = true
 
