@@ -26,7 +26,7 @@
 	veinScanMaxSize = 2304
 	#Brush Max Size
 	#0 to Disable. The max size of blocks the Brush can place. Lower values run faster on servers.
-	#Range: 0 ~ 10000
+	#Range: 0 ~ 20000
 	worldEditMaxSize = 5000
 
 [Economy]
@@ -74,11 +74,6 @@
 	#Trading Post Broadcasts
 	#Disable this to disallow Players broadcasting their Trading Posts
 	tradingPostBroadcasts = true
-	#Speed Upgrade Cost Multiplier
-	#This value is multiplied and added to the current cost of the Unit.
-	#This value increases based on how many Speed Upgrades are in the slot.
-	#Range: > 0
-	speedUpgradeCostMultiplier = 0
 	#Use Security
 	#Disable this to allow everyone access to anyone's Blocks.
 	useSecurity = true
@@ -98,4 +93,8 @@
 	#The amount of seconds before a Player can broadcasts their Trading Post.
 	#Range: 0 ~ 3600
 	tradingPostBroadcastDelay = 10
+	#Blueprint Filler Max Scan Range
+	#The max amount of Blueprint the Blueprint Filler can scan.
+	#Range: 1 ~ 1000000
+	blueprintFillerMaxScan = 100000
 

@@ -29,6 +29,10 @@
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
 	[[sorting.containerOverrides]]
+		containerClass = "net.blay09.mods.farmingforblockheads.container"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
 		containerClass = "com.tfar.craftingstation.CraftingStationContainer"
 		sortRange = ""
 
