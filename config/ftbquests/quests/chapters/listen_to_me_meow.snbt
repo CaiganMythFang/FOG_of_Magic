@@ -1,7 +1,8 @@
 {
-	id: 12,
+	id: "000000000000000C",
+	group: "",
+	order_index: 1,
 	filename: "listen_to_me_meow",
-	order_index: 2,
 	title: "Listen to Me, Meow",
 	icon: "botania:cosmetic_cat_ears",
 	default_quest_shape: "",
@@ -14,7 +15,8 @@
 		image: "fom:textures/quests/mysteriouscat.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: false,
+		corner: false
 	}],
 	quests: [
 		{
@@ -38,10 +40,10 @@
 				"",
 				"Ritual? What the heck are you talking about?!"
 			],
-			dependencies: [I;10],
-			id: 13,
+			dependencies: ["000000000000000A"],
+			id: "000000000000000D",
 			tasks: [{
-				id: 14,
+				id: "000000000000000E",
 				type: "checkmark"
 			}]
 		},
@@ -68,10 +70,10 @@
 				"",
 				"&dOh, listening now? "
 			],
-			dependencies: [I;13],
-			id: 17,
+			dependencies: ["000000000000000D"],
+			id: "0000000000000011",
 			tasks: [{
-				id: 18,
+				id: "0000000000000012",
 				type: "checkmark",
 				title: "A Strange Friend"
 			}]
@@ -93,15 +95,15 @@
 				"",
 				"&dFINALLY someone with a brain cell! Now &dwe can help each other."
 			],
-			dependencies: [I;17],
-			id: 19,
+			dependencies: ["0000000000000011"],
+			id: "0000000000000013",
 			tasks: [{
-				id: 20,
+				id: "0000000000000014",
 				type: "checkmark",
 				title: "&dYes, I said Mage",
 				icon: {
 					id: "eidolon:warlock_hat",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -131,15 +133,15 @@
 				"",
 				"&dSnarky and observant. We'll get along &dwell. Okay, traveler, I need you to &dprove you are self-sufficient while I &dexplain things to you. Go get me some &dIron Ingots."
 			],
-			dependencies: [I;19],
-			id: 21,
+			dependencies: ["0000000000000013"],
+			id: "0000000000000015",
 			tasks: [{
-				id: 22,
+				id: "0000000000000016",
 				type: "item",
 				title: "2 Iron Ingots",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "forge:ingots/iron"
 					}
@@ -147,11 +149,11 @@
 				count: 2L
 			}],
 			rewards: [{
-				id: 23,
+				id: "0000000000000017",
 				type: "item",
 				item: {
 					id: "minecraft:potion",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Potion: "minecraft:healing"
 					}
@@ -177,10 +179,10 @@
 				"",
 				"&dMmm, by what I can tell? No..."
 			],
-			dependencies: [I;21],
-			id: 24,
+			dependencies: ["0000000000000015"],
+			id: "0000000000000018",
 			tasks: [{
-				id: 25,
+				id: "0000000000000019",
 				type: "checkmark",
 				title: "Where in the World...",
 				icon: "chanceglobe:chance_globe"
@@ -209,18 +211,18 @@
 				"",
 				"&dI got a bit more to explain to you. But &dbefore I &dreally start helping you, we &dneed to break bread."
 			],
-			dependencies: [I;
-				21,
-				24
+			dependencies: [
+				"0000000000000015",
+				"0000000000000018"
 			],
-			id: 26,
+			id: "000000000000001A",
 			tasks: [{
-				id: 27,
+				id: "000000000000001B",
 				type: "item",
 				title: "Bread",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "forge:bread/bread"
 					}
@@ -252,13 +254,13 @@
 				"",
 				"&dBut true. Anyways, another &dthought is &dyour dimension is a one way &dtrip."
 			],
-			dependencies: [I;
-				24,
-				26
+			dependencies: [
+				"0000000000000018",
+				"000000000000001A"
 			],
-			id: 28,
+			id: "000000000000001C",
 			tasks: [{
-				id: 29,
+				id: "000000000000001D",
 				type: "checkmark",
 				title: "Sticky Situation",
 				icon: "minecraft:map"
@@ -286,19 +288,19 @@
 				"",
 				"&dOn the nose. Bring him an Iron &dDubloon. You should be able to find &dthem on various monsters."
 			],
-			dependencies: [I;
-				26,
-				28
+			dependencies: [
+				"000000000000001A",
+				"000000000000001C"
 			],
-			id: 30,
+			id: "000000000000001E",
 			tasks: [{
-				id: 31,
+				id: "000000000000001F",
 				type: "item",
 				item: "calemiutils:coin_nickel",
 				consume_items: true
 			}],
 			rewards: [{
-				id: 32,
+				id: "0000000000000020",
 				type: "item",
 				item: "hardcorequesting:quest_book"
 			}]
@@ -322,13 +324,13 @@
 				"",
 				"&dWork with what we got. And as they &dsay, you scratch our back, we'll &dscratch yours, okay?"
 			],
-			dependencies: [I;
-				28,
-				30
+			dependencies: [
+				"000000000000001C",
+				"000000000000001E"
 			],
-			id: 33,
+			id: "0000000000000021",
 			tasks: [{
-				id: 34,
+				id: "0000000000000022",
 				type: "checkmark",
 				title: "Grand Magics",
 				icon: "ars_nouveau:mana_fiber"
@@ -351,13 +353,13 @@
 				"",
 				"I don't quite trust you, but I guess I got little choice?"
 			],
-			dependencies: [I;
-				30,
-				33
+			dependencies: [
+				"000000000000001E",
+				"0000000000000021"
 			],
-			id: 37,
+			id: "0000000000000025",
 			tasks: [{
-				id: 38,
+				id: "0000000000000026",
 				type: "checkmark",
 				title: "&dClass Shall Begin",
 				icon: "minecraft:lectern"
@@ -378,10 +380,10 @@
 				"",
 				"&6Hope you enjoy!"
 			],
-			dependencies: [I;37],
-			id: 39,
+			dependencies: ["0000000000000025"],
+			id: "0000000000000027",
 			tasks: [{
-				id: 40,
+				id: "0000000000000028",
 				type: "checkmark",
 				title: "PACK NOTES 2"
 			}]
@@ -404,15 +406,15 @@
 				"",
 				"&dYou may choose which lessons to &dfollow freely."
 			],
-			dependencies: [I;37],
-			id: 46,
+			dependencies: ["0000000000000025"],
+			id: "000000000000002E",
 			tasks: [{
-				id: 47,
+				id: "000000000000002F",
 				type: "checkmark",
 				title: "Lessons and Notes",
 				icon: {
 					id: "astralsorcery:constellation_paper",
-					Count: true,
+					Count: 1b,
 					tag: {
 						astralsorcery: {
 							constellationName: "astralsorcery:armara"
@@ -434,10 +436,10 @@
 				"",
 				"&6You can start the search with @ to &6find all items from a mod. Do @rats for &6Rat mod, or @botania for Botania for &6example!"
 			],
-			dependencies: [I;39],
-			id: 69,
+			dependencies: ["0000000000000027"],
+			id: "0000000000000045",
 			tasks: [{
-				id: 70,
+				id: "0000000000000046",
 				type: "checkmark",
 				title: "Pack Notes 3",
 				icon: "pneumaticcraft:inventory_upgrade"

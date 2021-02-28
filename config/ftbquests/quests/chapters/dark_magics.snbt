@@ -1,7 +1,8 @@
 {
-	id: 957,
+	id: "00000000000003BD",
+	group: "",
+	order_index: 10,
 	filename: "dark_magics",
-	order_index: 11,
 	title: "Dark Magics",
 	icon: "eidolon:unholy_symbol",
 	default_quest_shape: "",
@@ -26,39 +27,39 @@
 				"",
 				"&dI will explain. First, make the magic &dbook Ars Ecclesia. It will be your &dguide. Then find Lead, and make &dPewter with it. Then finally, Smelt some &dBone into Enchanted Ash. You can &dplace this like Redstone, but it will &dward off many types of Undead &dinstead."
 			],
-			dependencies: [I;37],
-			id: 958,
+			dependencies: ["0000000000000025"],
+			id: "00000000000003BE",
 			tasks: [
 				{
-					id: 959,
+					id: "00000000000003BF",
 					type: "item",
 					item: "eidolon:codex"
 				},
 				{
-					id: 960,
+					id: "00000000000003C0",
 					type: "item",
 					title: "Lead Ingot",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/lead"
 						}
 					}
 				},
 				{
-					id: 961,
+					id: "00000000000003C1",
 					type: "item",
 					item: "eidolon:pewter_ingot"
 				},
 				{
-					id: 962,
+					id: "00000000000003C2",
 					type: "item",
 					item: "eidolon:enchanted_ash"
 				}
 			],
 			rewards: [{
-				id: 963,
+				id: "00000000000003C3",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -82,27 +83,27 @@
 				"",
 				"&dSkulls represent death. Poison, etc. &dYou know what I mean."
 			],
-			dependencies: [I;958],
-			id: 964,
+			dependencies: ["00000000000003BE"],
+			id: "00000000000003C4",
 			tasks: [
 				{
-					id: 965,
+					id: "00000000000003C5",
 					type: "item",
 					item: "eidolon:brazier"
 				},
 				{
-					id: 966,
+					id: "00000000000003C6",
 					type: "item",
 					item: "eidolon:stone_hand"
 				},
 				{
-					id: 967,
+					id: "00000000000003C7",
 					type: "item",
 					item: "eidolon:necrotic_focus"
 				}
 			],
 			rewards: [{
-				id: 968,
+				id: "00000000000003C8",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -124,18 +125,18 @@
 				"",
 				"When I'm ready, I Right Click a Flint and Steel on the Brazier and stand back to watch. I should get these Soul Shards if all goes well!"
 			],
-			dependencies: [I;
-				964,
-				1004
+			dependencies: [
+				"00000000000003C4",
+				"00000000000003EC"
 			],
-			id: 969,
+			id: "00000000000003C9",
 			tasks: [{
-				id: 970,
+				id: "00000000000003CA",
 				type: "item",
 				item: "eidolon:soul_shard"
 			}],
 			rewards: [{
-				id: 971,
+				id: "00000000000003CB",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -157,27 +158,27 @@
 				"",
 				"But even better, I can place this Apothecary on top of the bubbling Cauldron, and it'll act like Blaze Powder in a Brewing Stand. I just can't concentrate potions as much."
 			],
-			dependencies: [I;969],
-			id: 972,
+			dependencies: ["00000000000003C9"],
+			id: "00000000000003CC",
 			tasks: [
 				{
-					id: 973,
+					id: "00000000000003CD",
 					type: "item",
 					item: "eidolon:crucible"
 				},
 				{
-					id: 974,
+					id: "00000000000003CE",
 					type: "item",
 					item: "eidolon:fungus_sprouts"
 				},
 				{
-					id: 975,
+					id: "00000000000003CF",
 					type: "item",
 					item: "eidolon:wooden_brewing_stand"
 				}
 			],
 			rewards: [{
-				id: 977,
+				id: "00000000000003D1",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -201,32 +202,32 @@
 				"",
 				"Definitely might be more magical."
 			],
-			dependencies: [I;972],
-			id: 978,
+			dependencies: ["00000000000003CC"],
+			id: "00000000000003D2",
 			tasks: [
 				{
-					id: 979,
+					id: "00000000000003D3",
 					type: "item",
 					item: "eidolon:arcane_gold_ingot"
 				},
 				{
-					id: 980,
+					id: "00000000000003D4",
 					type: "item",
 					item: "eidolon:tallow"
 				},
 				{
-					id: 981,
+					id: "00000000000003D5",
 					type: "item",
 					item: "eidolon:candle"
 				},
 				{
-					id: 982,
+					id: "00000000000003D6",
 					type: "item",
 					item: "eidolon:candlestick"
 				}
 			],
 			rewards: [{
-				id: 983,
+				id: "00000000000003D7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -248,25 +249,25 @@
 				"",
 				"Next, it's a bit more complex, but I can shift some of the Soul Shards with some Nether materials into a Shadow Gem."
 			],
-			dependencies: [I;
-				978,
-				1004
+			dependencies: [
+				"00000000000003D2",
+				"00000000000003EC"
 			],
-			id: 984,
+			id: "00000000000003D8",
 			tasks: [
 				{
-					id: 985,
+					id: "00000000000003D9",
 					type: "item",
 					item: "eidolon:lesser_soul_gem"
 				},
 				{
-					id: 986,
+					id: "00000000000003DA",
 					type: "item",
 					item: "eidolon:shadow_gem"
 				}
 			],
 			rewards: [{
-				id: 987,
+				id: "00000000000003DB",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -284,18 +285,18 @@
 				"",
 				"Oh, here. The book explains how to make a Magic Workbench. Perfect. It'll work like a normal Crafting Table too, which is always helpful."
 			],
-			dependencies: [I;
-				984,
-				969
+			dependencies: [
+				"00000000000003D8",
+				"00000000000003C9"
 			],
-			id: 988,
+			id: "00000000000003DC",
 			tasks: [{
-				id: 989,
+				id: "00000000000003DD",
 				type: "item",
 				item: "eidolon:worktable"
 			}],
 			rewards: [{
-				id: 994,
+				id: "00000000000003E2",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -317,10 +318,10 @@
 				"",
 				"Oh. That's less fun."
 			],
-			dependencies: [I;958],
-			id: 990,
+			dependencies: ["00000000000003BE"],
+			id: "00000000000003DE",
 			tasks: [{
-				id: 993,
+				id: "00000000000003E1",
 				type: "kill",
 				title: "Kill 3 Wraith",
 				icon: "eidolon:tattered_cloth",
@@ -328,7 +329,7 @@
 				value: 3L
 			}],
 			rewards: [{
-				id: 992,
+				id: "00000000000003E0",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -350,31 +351,31 @@
 				"",
 				"Hm... a lot of good things in this book, but this Prestigious Palm is very interesting. It lets me use and place things farther away. Like I'm using one of those grabby claw helper tools, yeah? That sounds great."
 			],
-			dependencies: [I;
-				988,
-				984,
-				1012
+			dependencies: [
+				"00000000000003DC",
+				"00000000000003D8",
+				"00000000000003F4"
 			],
-			id: 995,
+			id: "00000000000003E3",
 			tasks: [
 				{
-					id: 996,
+					id: "00000000000003E4",
 					type: "item",
 					item: "eidolon:void_amulet"
 				},
 				{
-					id: 997,
+					id: "00000000000003E5",
 					type: "item",
 					item: "eidolon:gravity_belt"
 				},
 				{
-					id: 998,
+					id: "00000000000003E6",
 					type: "item",
 					item: "eidolon:prestigious_palm"
 				}
 			],
 			rewards: [{
-				id: 999,
+				id: "00000000000003E7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -394,23 +395,23 @@
 				"",
 				"Though if I want to fit the bill of a dark mage right, I should make some Warlock's gear. Like the hat at least, right? They should protect me against magic and make my own stronger at the same time."
 			],
-			dependencies: [I;
-				988,
-				1012
+			dependencies: [
+				"00000000000003DC",
+				"00000000000003F4"
 			],
-			id: 1000,
+			id: "00000000000003E8",
 			tasks: [
 				{
-					id: 1001,
+					id: "00000000000003E9",
 					type: "item",
 					item: "eidolon:warded_mail"
 				},
 				{
-					id: 1002,
+					id: "00000000000003EA",
 					type: "item",
 					item: {
 						id: "eidolon:warlock_hat",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -418,7 +419,7 @@
 				}
 			],
 			rewards: [{
-				id: 1003,
+				id: "00000000000003EB",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -446,29 +447,29 @@
 				"",
 				"&dOnly slightly. But you should also make &dyourself an Altar. It will be very &dimportant later. Take 6 of these &dWooden Altar tables, and make a 2x3 &dtable. Then make and place a Straw &dEffigy on top."
 			],
-			dependencies: [I;
-				958,
-				964
+			dependencies: [
+				"00000000000003BE",
+				"00000000000003C4"
 			],
-			id: 1004,
+			id: "00000000000003EC",
 			tasks: [
 				{
-					id: 1005,
+					id: "00000000000003ED",
 					type: "item",
 					item: "eidolon:wooden_altar",
 					count: 6L
 				},
 				{
-					id: 1006,
+					id: "00000000000003EE",
 					type: "item",
 					item: "eidolon:straw_effigy"
 				},
 				{
-					id: 1008,
+					id: "00000000000003F0",
 					type: "item",
 					item: {
 						id: "eidolon:codex",
-						Count: true,
+						Count: 1b,
 						tag: {
 							sign: "eidolon:wicked"
 						}
@@ -476,7 +477,7 @@
 				}
 			],
 			rewards: [{
-				id: 1007,
+				id: "00000000000003EF",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -502,15 +503,15 @@
 				"",
 				"&dThis chant should get you the sign of &dBlood. Place a Goblet on your Altar, &dthen kill an animal near to fill it. Then &dyou may do the Sacrifice chant."
 			],
-			dependencies: [I;1004],
-			id: 1009,
+			dependencies: ["00000000000003EC"],
+			id: "00000000000003F1",
 			tasks: [{
-				id: 1010,
+				id: "00000000000003F2",
 				type: "item",
 				item: "eidolon:goblet"
 			}],
 			rewards: [{
-				id: 1011,
+				id: "00000000000003F3",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -538,25 +539,25 @@
 				"",
 				"Okay, according to the book, if I drop a Pewter Inlay and do the Touch of Darkness chant, it will transform into a useful tool."
 			],
-			dependencies: [I;
-				1009,
-				972
+			dependencies: [
+				"00000000000003F1",
+				"00000000000003CC"
 			],
-			id: 1012,
+			id: "00000000000003F4",
 			tasks: [
 				{
-					id: 1013,
+					id: "00000000000003F5",
 					type: "item",
 					item: "eidolon:pewter_inlay"
 				},
 				{
-					id: 1014,
+					id: "00000000000003F6",
 					type: "item",
 					item: "eidolon:unholy_symbol"
 				}
 			],
 			rewards: [{
-				id: 1015,
+				id: "00000000000003F7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -566,7 +567,7 @@
 			title: "Tools of the Reaper",
 			icon: {
 				id: "eidolon:reaper_scythe",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -582,26 +583,26 @@
 				"",
 				"Though, another neat weapon I see is this Axe of Cleaving. Seems best suited to beheading the undead. And well.... other creatures I guess."
 			],
-			dependencies: [I;1012],
-			id: 1016,
+			dependencies: ["00000000000003F4"],
+			id: "00000000000003F8",
 			tasks: [
 				{
-					id: 1017,
+					id: "00000000000003F9",
 					type: "item",
 					item: {
 						id: "eidolon:reaper_scythe",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 1018,
+					id: "00000000000003FA",
 					type: "item",
 					item: {
 						id: "eidolon:cleaving_axe",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -609,7 +610,7 @@
 				}
 			],
 			rewards: [{
-				id: 1019,
+				id: "00000000000003FB",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -635,23 +636,23 @@
 				"",
 				"&6(This is the current end of the mod)"
 			],
-			dependencies: [I;1012],
-			id: 1020,
+			dependencies: ["00000000000003F4"],
+			id: "00000000000003FC",
 			tasks: [
 				{
-					id: 1021,
+					id: "00000000000003FD",
 					type: "item",
 					item: "eidolon:stone_altar",
 					count: 6L
 				},
 				{
-					id: 1022,
+					id: "00000000000003FE",
 					type: "item",
 					item: "eidolon:unholy_effigy"
 				}
 			],
 			rewards: [{
-				id: 1023,
+				id: "00000000000003FF",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20

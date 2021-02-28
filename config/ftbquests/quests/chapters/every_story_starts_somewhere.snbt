@@ -1,7 +1,8 @@
 {
-	id: 2,
+	id: "0000000000000002",
+	group: "",
+	order_index: 0,
 	filename: "every_story_starts_somewhere",
-	order_index: 1,
 	title: "Every Story Starts Somewhere",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",
@@ -22,9 +23,9 @@
 				"Well, they can't blame you for checking behind the door. I mean, you aren't there to blame, right? Hey, at least you got your backpack with you! You were smart enough to do it off the clock, at least."
 			],
 			size: 1.75d,
-			id: 6,
+			id: "0000000000000006",
 			tasks: [{
-				id: 7,
+				id: "0000000000000007",
 				type: "checkmark",
 				title: "Falling, Falling...",
 				icon: "iceandfire:dreadwood_planks_lock"
@@ -49,19 +50,19 @@
 				"",
 				"No wait, my belt. Right, I had the company Building Gadget since I was supposed to construct more barriers in front of the door... this'll come in handy!"
 			],
-			dependencies: [I;6],
-			id: 8,
+			dependencies: ["0000000000000006"],
+			id: "0000000000000008",
 			tasks: [{
-				id: 9,
+				id: "0000000000000009",
 				type: "checkmark",
 				title: "Taking Stock",
 				icon: {
 					id: "quark:seed_pouch",
-					Count: true,
+					Count: 1b,
 					tag: {
 						storedItem: {
 							id: "pamhc2crops:rutabagaseeditem",
-							Count: true
+							Count: 1b
 						},
 						Damage: 1,
 						itemCount: 640
@@ -86,15 +87,15 @@
 				"",
 				"Let's just grab some wood then."
 			],
-			dependencies: [I;8],
-			id: 10,
+			dependencies: ["0000000000000008"],
+			id: "000000000000000A",
 			tasks: [{
-				id: 11,
+				id: "000000000000000B",
 				type: "item",
 				title: "10 Wooden Logs (any kind)",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "minecraft:logs"
 					}
@@ -121,10 +122,10 @@
 				"&6  Hearts are Kill quests!",
 				"&6  Gears are Side Info/Pack Maker &6Notes"
 			],
-			dependencies: [I;8],
-			id: 15,
+			dependencies: ["0000000000000008"],
+			id: "000000000000000F",
 			tasks: [{
-				id: 16,
+				id: "0000000000000010",
 				type: "checkmark",
 				title: "&6 Pack Notes"
 			}]

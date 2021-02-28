@@ -1,7 +1,8 @@
 {
-	id: 407,
+	id: "0000000000000197",
+	group: "",
+	order_index: 6,
 	filename: "powder_power",
-	order_index: 7,
 	title: "Powder Power",
 	icon: "powder_power:blend_quadrilium",
 	default_quest_shape: "",
@@ -10,7 +11,7 @@
 			title: "To The Next Power",
 			icon: {
 				id: "powder_power:hammer_alchemist",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -28,26 +29,26 @@
 				"",
 				"To start, I'll need to make an Alchemist Hammer and Mortar and Pestle."
 			],
-			dependencies: [I;37],
-			id: 408,
+			dependencies: ["0000000000000025"],
+			id: "0000000000000198",
 			tasks: [
 				{
-					id: 409,
+					id: "0000000000000199",
 					type: "item",
 					item: {
 						id: "powder_power:hammer_alchemist",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 410,
+					id: "000000000000019A",
 					type: "item",
 					item: {
 						id: "powder_power:motar_pestle",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -55,7 +56,7 @@
 				}
 			],
 			rewards: [{
-				id: 411,
+				id: "000000000000019B",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -72,28 +73,28 @@
 				"",
 				"&dRedium and Lapium sit somewhere &dbetween Diamond and Netherite. As &dwell, Lapium armor gives water &dbreathing and poison protection, while &dRedium gives fire and wither &dprotection."
 			],
-			dependencies: [I;408],
-			id: 412,
+			dependencies: ["0000000000000198"],
+			id: "000000000000019C",
 			tasks: [
 				{
-					id: 413,
+					id: "000000000000019D",
 					type: "item",
 					title: "Any forge:ingots/redium",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/redium"
 						}
 					}
 				},
 				{
-					id: 414,
+					id: "000000000000019E",
 					type: "item",
 					title: "Any forge:ingots/lapium",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/lapium"
 						}
@@ -101,7 +102,7 @@
 				}
 			],
 			rewards: [{
-				id: 415,
+				id: "000000000000019F",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -118,15 +119,15 @@
 				"",
 				"The Healing Token will break and heal me if I ever am about to die. Kind of expensive, but that's better than losing my stuff in a grave at the bottom of the Nether lava sea."
 			],
-			dependencies: [I;412],
-			id: 416,
+			dependencies: ["000000000000019C"],
+			id: "00000000000001A0",
 			tasks: [{
-				id: 417,
+				id: "00000000000001A1",
 				type: "item",
 				item: "powder_power:token_healing"
 			}],
 			rewards: [{
-				id: 424,
+				id: "00000000000001A8",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -140,15 +141,15 @@
 			shape: "square",
 			subtitle: "&dMore stylish than Long Fall Boots",
 			description: ["The No Fall Damage Token is a fantastic accessory when traversing the Nether, with its tall walls and long falls."],
-			dependencies: [I;412],
-			id: 418,
+			dependencies: ["000000000000019C"],
+			id: "00000000000001A2",
 			tasks: [{
-				id: 419,
+				id: "00000000000001A3",
 				type: "item",
 				item: "powder_power:token_no_fall"
 			}],
 			rewards: [{
-				id: 425,
+				id: "00000000000001A9",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -158,7 +159,7 @@
 			title: "Abradablammo",
 			icon: {
 				id: "powder_power:wand_alchemist",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -172,21 +173,21 @@
 				"",
 				"A good example is turning Dirt into Netherrack into Magma into Basalt into Blackstone. Or Granite into Purpur. Or Diorite into Endstone."
 			],
-			dependencies: [I;412],
-			id: 420,
+			dependencies: ["000000000000019C"],
+			id: "00000000000001A4",
 			tasks: [{
-				id: 421,
+				id: "00000000000001A5",
 				type: "item",
 				item: {
 					id: "powder_power:wand_alchemist",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 426,
+				id: "00000000000001AA",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -200,15 +201,15 @@
 			shape: "square",
 			subtitle: "&dTurns into a kick?",
 			description: ["The Jump Boost Token is fun, giving me bigger hops, which makes traversing the high cliffs of the mountains much easier. "],
-			dependencies: [I;412],
-			id: 422,
+			dependencies: ["000000000000019C"],
+			id: "00000000000001A6",
 			tasks: [{
-				id: 423,
+				id: "00000000000001A7",
 				type: "item",
 				item: "powder_power:token_jump_boost"
 			}],
 			rewards: [{
-				id: 427,
+				id: "00000000000001AB",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -226,15 +227,15 @@
 				"",
 				"As a bonus, Gemium armor gives the benefits of both Redium and Lapium buffs, as well as a little regeneration and slow fall."
 			],
-			dependencies: [I;412],
-			id: 428,
+			dependencies: ["000000000000019C"],
+			id: "00000000000001AC",
 			tasks: [{
-				id: 429,
+				id: "00000000000001AD",
 				type: "item",
 				item: "powder_power:gem_gemium"
 			}],
 			rewards: [{
-				id: 430,
+				id: "00000000000001AE",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 35
@@ -254,15 +255,15 @@
 				"",
 				"And to boot, I don't even have to wear it. Just carrying it in my pocket works."
 			],
-			dependencies: [I;428],
-			id: 431,
+			dependencies: ["00000000000001AC"],
+			id: "00000000000001AF",
 			tasks: [{
-				id: 432,
+				id: "00000000000001B0",
 				type: "item",
 				item: "powder_power:token_unseen"
 			}],
 			rewards: [{
-				id: 435,
+				id: "00000000000001B3",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -280,15 +281,15 @@
 				"",
 				"The Sunshine Token can be Right Clicked to banish the rain. Fantastic! "
 			],
-			dependencies: [I;428],
-			id: 433,
+			dependencies: ["00000000000001AC"],
+			id: "00000000000001B1",
 			tasks: [{
-				id: 434,
+				id: "00000000000001B2",
 				type: "item",
 				item: "powder_power:token_sunshine"
 			}],
 			rewards: [{
-				id: 436,
+				id: "00000000000001B4",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -306,15 +307,15 @@
 				"",
 				"Trilium sits at about double Redium/Lapis in durability. It also adds onto Gemium's armor buffs with levitation protection, and the ability to swim faster around Dolphins which... is weird?"
 			],
-			dependencies: [I;428],
-			id: 437,
+			dependencies: ["00000000000001AC"],
+			id: "00000000000001B5",
 			tasks: [{
-				id: 438,
+				id: "00000000000001B6",
 				type: "item",
 				item: "powder_power:ingot_trilium"
 			}],
 			rewards: [{
-				id: 439,
+				id: "00000000000001B7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 35
@@ -334,15 +335,15 @@
 				"",
 				"Fine fine, it makes me swim better, see under water, and most important breath underwater."
 			],
-			dependencies: [I;437],
-			id: 440,
+			dependencies: ["00000000000001B5"],
+			id: "00000000000001B8",
 			tasks: [{
-				id: 441,
+				id: "00000000000001B9",
 				type: "item",
 				item: "powder_power:token_conduit_power"
 			}],
 			rewards: [{
-				id: 445,
+				id: "00000000000001BD",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -355,15 +356,15 @@
 			shape: "square",
 			subtitle: "&dJust Tank It",
 			description: ["The Absorption Token adds more health to me, making me able to survive more hits. Quite simple, really."],
-			dependencies: [I;437],
-			id: 442,
+			dependencies: ["00000000000001B5"],
+			id: "00000000000001BA",
 			tasks: [{
-				id: 443,
+				id: "00000000000001BB",
 				type: "item",
 				item: "powder_power:token_absorption"
 			}],
 			rewards: [{
-				id: 444,
+				id: "00000000000001BC",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -381,19 +382,19 @@
 				"",
 				"Over twice as strong as Netherrite, twice and protective, and dang stylish to boot."
 			],
-			dependencies: [I;
-				437,
-				428,
-				412
+			dependencies: [
+				"00000000000001B5",
+				"00000000000001AC",
+				"000000000000019C"
 			],
-			id: 446,
+			id: "00000000000001BE",
 			tasks: [{
-				id: 447,
+				id: "00000000000001BF",
 				type: "item",
 				item: "powder_power:ingot_quadrilium"
 			}],
 			rewards: [{
-				id: 448,
+				id: "00000000000001C0",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 40
@@ -411,15 +412,15 @@
 				"",
 				"The Curing Token cuts that silliness out. It automatically cures me of most ailments when they hit me, as long as I have the Token in my inventory."
 			],
-			dependencies: [I;446],
-			id: 449,
+			dependencies: ["00000000000001BE"],
+			id: "00000000000001C1",
 			tasks: [{
-				id: 450,
+				id: "00000000000001C2",
 				type: "item",
 				item: "powder_power:token_curing"
 			}],
 			rewards: [{
-				id: 455,
+				id: "00000000000001C7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -433,15 +434,15 @@
 			shape: "square",
 			subtitle: "&dFire Breath Not Included",
 			description: ["Do I want to fly? Heck yeah I do. And the Dragon Token lets me do just that!"],
-			dependencies: [I;446],
-			id: 451,
+			dependencies: ["00000000000001BE"],
+			id: "00000000000001C3",
 			tasks: [{
-				id: 452,
+				id: "00000000000001C4",
 				type: "item",
 				item: "powder_power:token_dragon"
 			}],
 			rewards: [{
-				id: 456,
+				id: "00000000000001C8",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -459,15 +460,15 @@
 				"",
 				"By folding multiple Attack Resistance tokens into each other, with some Netherite as well, we get basically the absolute ultimate Attack Resistance Token."
 			],
-			dependencies: [I;446],
-			id: 453,
+			dependencies: ["00000000000001BE"],
+			id: "00000000000001C5",
 			tasks: [{
-				id: 454,
+				id: "00000000000001C6",
 				type: "item",
 				item: "powder_power:token_supreme_resistance"
 			}],
 			rewards: [{
-				id: 457,
+				id: "00000000000001C9",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20

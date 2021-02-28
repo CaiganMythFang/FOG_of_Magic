@@ -1,7 +1,8 @@
 {
-	id: 243,
+	id: "00000000000000F3",
+	group: "",
+	order_index: 2,
 	filename: "home_maker",
-	order_index: 3,
 	title: "Home Maker",
 	icon: "minecraft:purple_bed",
 	default_quest_shape: "",
@@ -10,7 +11,7 @@
 			title: "A House, a Home",
 			icon: {
 				id: "inventorypets:pet_house",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -29,23 +30,23 @@
 				"",
 				"&6This quest page is primarily for mods &6that aren't big enough for their own &6quest page."
 			],
-			dependencies: [I;37],
+			dependencies: ["0000000000000025"],
 			size: 1.5d,
-			id: 244,
+			id: "00000000000000F4",
 			tasks: [{
-				id: 245,
+				id: "00000000000000F5",
 				type: "checkmark",
 				title: "A House, A Home",
 				icon: {
 					id: "inventorypets:pet_house",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 246,
+				id: "00000000000000F6",
 				type: "item",
 				item: "calemiutils:coin_dollar"
 			}]
@@ -69,40 +70,40 @@
 				"I can also put a Pump under the machine and then Vents along the side of the Pump, or Chimneys right beside the machines."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 247,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000000F7",
 			tasks: [
 				{
-					id: 248,
+					id: "00000000000000F8",
 					type: "item",
 					title: "Any Chimney",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "crafttweaker:chimneys"
 						}
 					}
 				},
 				{
-					id: 249,
+					id: "00000000000000F9",
 					type: "item",
 					title: "Any Chimney Vent",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "crafttweaker:vents"
 						}
 					}
 				},
 				{
-					id: 250,
+					id: "00000000000000FA",
 					type: "item",
 					title: "Any Chimney Pump",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "crafttweaker:pumps"
 						}
@@ -110,7 +111,7 @@
 				}
 			],
 			rewards: [{
-				id: 255,
+				id: "00000000000000FF",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -130,14 +131,14 @@
 				"Same thing. If I jump near the top, I can easily grab on and slide down it safely!"
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 251,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000000FB",
 			tasks: [{
-				id: 253,
+				id: "00000000000000FD",
 				type: "checkmark"
 			}],
 			rewards: [{
-				id: 254,
+				id: "00000000000000FE",
 				type: "item",
 				item: "calemiutils:coin_dollar"
 			}]
@@ -157,21 +158,21 @@
 				"I can use a Waystone to teleport to other Waystones, but only if I've visited and Right Clicked them before. I can also use a Waystone gem to do the same from anywhere, but it has limited uses."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 256,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000100",
 			tasks: [
 				{
-					id: 257,
+					id: "0000000000000101",
 					type: "item",
 					item: "waystones:waystone",
 					consume_items: false
 				},
 				{
-					id: 260,
+					id: "0000000000000104",
 					type: "item",
 					item: {
 						id: "waystones:warp_stone",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -180,7 +181,7 @@
 				}
 			],
 			rewards: [{
-				id: 261,
+				id: "0000000000000105",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -200,27 +201,27 @@
 				"",
 				"Good idea. The Return Scrolls are also super useful. They teleport you back to the last Waystone you used. Good for a quick escape without wasting time choosing a location."
 			],
-			dependencies: [I;256],
-			id: 258,
+			dependencies: ["0000000000000100"],
+			id: "0000000000000102",
 			tasks: [
 				{
-					id: 259,
+					id: "0000000000000103",
 					type: "item",
 					item: "waystones:warp_scroll"
 				},
 				{
-					id: 262,
+					id: "0000000000000106",
 					type: "item",
 					item: "waystones:bound_scroll"
 				},
 				{
-					id: 263,
+					id: "0000000000000107",
 					type: "item",
 					item: "waystones:return_scroll"
 				}
 			],
 			rewards: [{
-				id: 264,
+				id: "0000000000000108",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -243,15 +244,15 @@
 				"It sounds like a good place to dig through without making giant holes in the landscape...."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 265,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000109",
 			tasks: [{
-				id: 266,
+				id: "000000000000010A",
 				type: "item",
 				item: "mining_dimension:teleporter"
 			}],
 			rewards: [{
-				id: 267,
+				id: "000000000000010B",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
@@ -272,22 +273,22 @@
 				"If I equip them to my Curios back slot, I can hit B to open my backpack at any time."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 393,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000189",
 			tasks: [
 				{
-					id: 394,
+					id: "000000000000018A",
 					type: "item",
 					item: "usefulbackpacks:backpack_small"
 				},
 				{
-					id: 395,
+					id: "000000000000018B",
 					type: "item",
 					item: "usefulbackpacks:backpack_medium"
 				}
 			],
 			rewards: [{
-				id: 396,
+				id: "000000000000018C",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -306,10 +307,10 @@
 				"&6Many mods, especially magical ones, &6add accessories you can equip in &6these slots. They act like normal &6equipment, giving you stats and &6abilities while equipped. "
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 397,
+			dependencies: ["00000000000000F4"],
+			id: "000000000000018D",
 			tasks: [{
-				id: 398,
+				id: "000000000000018E",
 				type: "checkmark",
 				title: "Curios",
 				icon: "usefulbackpacks:backpack_small"
@@ -330,15 +331,15 @@
 				"",
 				"&dOpens that same Ender Chest."
 			],
-			dependencies: [I;393],
-			id: 399,
+			dependencies: ["0000000000000189"],
+			id: "000000000000018F",
 			tasks: [{
-				id: 400,
+				id: "0000000000000190",
 				type: "item",
 				item: "usefulbackpacks:backpack_enderchest"
 			}],
 			rewards: [{
-				id: 483,
+				id: "00000000000001E3",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -357,22 +358,22 @@
 				"But the benefit is I can harvest them, and they automatically replant themselves. I just need to fill a Botany Pot with the right soil (dirt for wheat, soul sand for nether wart for example), then plant the seed and... wait!"
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 401,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000191",
 			tasks: [{
-				id: 402,
+				id: "0000000000000192",
 				type: "item",
 				title: "Any normal Botany Pot",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "botanypots:botany_pots"
 					}
 				}
 			}],
 			rewards: [{
-				id: 403,
+				id: "0000000000000193",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
@@ -392,22 +393,22 @@
 				"",
 				"It isn't super fast, but it is automatic."
 			],
-			dependencies: [I;401],
-			id: 404,
+			dependencies: ["0000000000000191"],
+			id: "0000000000000194",
 			tasks: [{
-				id: 405,
+				id: "0000000000000195",
 				type: "item",
 				title: "Any Hopper Botany Pot",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "botanypots:hopper_botany_pots"
 					}
 				}
 			}],
 			rewards: [{
-				id: 406,
+				id: "0000000000000196",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -432,15 +433,15 @@
 				"&dGod, no God, whatever. But you can't &ddeny that the more foods you try, the &dhealthier you are. You can use a Food &dBook to track what you've tried."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 458,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000001CA",
 			tasks: [{
-				id: 459,
+				id: "00000000000001CB",
 				type: "item",
 				item: "solcarrot:food_book"
 			}],
 			rewards: [{
-				id: 460,
+				id: "00000000000001CC",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -461,15 +462,15 @@
 				"Not all of them? I guess there ARE too many for one person to study. "
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 461,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000001CD",
 			tasks: [{
-				id: 462,
+				id: "00000000000001CE",
 				type: "item",
 				item: "alexsmobs:animal_dictionary"
 			}],
 			rewards: [{
-				id: 463,
+				id: "00000000000001CF",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -492,27 +493,27 @@
 				"The Mining Arrow comes in two types, and mines things like I used that pickaxe. Useful for getting stuff off the Nether ceiling I think!"
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 464,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000001D0",
 			tasks: [
 				{
-					id: 465,
+					id: "00000000000001D1",
 					type: "item",
 					item: "minecraft:fletching_table"
 				},
 				{
-					id: 467,
+					id: "00000000000001D3",
 					type: "item",
 					item: "apotheosis:explosive_arrow"
 				},
 				{
-					id: 468,
+					id: "00000000000001D4",
 					type: "item",
 					item: "apotheosis:iron_mining_arrow"
 				}
 			],
 			rewards: [{
-				id: 466,
+				id: "00000000000001D2",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -522,7 +523,7 @@
 			title: "Charm'd Potions",
 			icon: {
 				id: "apotheosis:potion_charm",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0,
 					Potion: "minecraft:night_vision"
@@ -537,14 +538,14 @@
 				"",
 				"Someone here came up with Potion Charms, which is super useful. They last longer than normal potions, and I can turn them on when I need their ability, then back off afterwards."
 			],
-			dependencies: [I;464],
-			id: 469,
+			dependencies: ["00000000000001D0"],
+			id: "00000000000001D5",
 			tasks: [{
-				id: 470,
+				id: "00000000000001D6",
 				type: "item",
 				item: {
 					id: "apotheosis:potion_charm",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0,
 						Potion: "minecraft:night_vision"
@@ -552,7 +553,7 @@
 				}
 			}],
 			rewards: [{
-				id: 471,
+				id: "00000000000001D7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -574,15 +575,15 @@
 				"",
 				"Though for that, I'll need a Spawn Egg of the creature, which I can only get by killing a creature with a weapon enchanted with Capture... and even then, Kow says it is pretty rare."
 			],
-			dependencies: [I;464],
-			id: 472,
+			dependencies: ["00000000000001D0"],
+			id: "00000000000001D8",
 			tasks: [{
-				id: 473,
+				id: "00000000000001D9",
 				type: "item",
 				item: "minecraft:spawner"
 			}],
 			rewards: [{
-				id: 474,
+				id: "00000000000001DA",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -592,7 +593,7 @@
 			title: "The Culture of Fishing",
 			icon: {
 				id: "aquaculture:iron_fishing_rod",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -615,38 +616,38 @@
 				"Oh, and to hold it all? I can set out a Tackle Box!"
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 475,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000001DB",
 			tasks: [
 				{
-					id: 476,
+					id: "00000000000001DC",
 					type: "item",
 					item: "aquaculture:worm_farm"
 				},
 				{
-					id: 477,
+					id: "00000000000001DD",
 					type: "item",
 					item: {
 						id: "aquaculture:iron_fishing_rod",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 480,
+					id: "00000000000001E0",
 					type: "item",
 					item: "aquaculture:iron_hook"
 				},
 				{
-					id: 482,
+					id: "00000000000001E2",
 					type: "item",
 					item: "aquaculture:tackle_box"
 				}
 			],
 			rewards: [{
-				id: 481,
+				id: "00000000000001E1",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -668,43 +669,43 @@
 				"",
 				"&dYou have Kai's attention now."
 			],
-			dependencies: [I;475],
-			id: 484,
+			dependencies: ["00000000000001DB"],
+			id: "00000000000001E4",
 			tasks: [
 				{
-					id: 485,
+					id: "00000000000001E5",
 					type: "item",
 					item: "aquaculture:fishing_line"
 				},
 				{
-					id: 486,
+					id: "00000000000001E6",
 					type: "item",
 					item: "aquaculture:bobber"
 				},
 				{
-					id: 487,
+					id: "00000000000001E7",
 					type: "item",
 					item: "aquaculture:oak_fish_mount"
 				},
 				{
-					id: 488,
+					id: "00000000000001E8",
 					type: "item",
 					item: {
 						id: "aquaculture:iron_fillet_knife",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 489,
+					id: "00000000000001E9",
 					type: "item",
 					item: "aquaculture:sushi"
 				}
 			],
 			rewards: [{
-				id: 490,
+				id: "00000000000001EA",
 				type: "item",
 				item: "calemiutils:coin_dollar"
 			}]
@@ -723,15 +724,15 @@
 				"",
 				"It seems to be quite attuned with the sea. Armor made with it, each piece gives some other water based boon. Like breathing under water, which is super useful. It can also make some nice fishing gear!"
 			],
-			dependencies: [I;475],
-			id: 491,
+			dependencies: ["00000000000001DB"],
+			id: "00000000000001EB",
 			tasks: [{
-				id: 492,
+				id: "00000000000001EC",
 				type: "item",
 				item: "aquaculture:neptunium_ingot"
 			}],
 			rewards: [{
-				id: 493,
+				id: "00000000000001ED",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -740,7 +741,7 @@
 		{
 			title: "Quick Naps",
 			icon: "comforts:sleeping_bag_purple",
-			x: 3.5d,
+			x: 3.25d,
 			y: -4.5d,
 			shape: "square",
 			subtitle: "&dMod: Comforts",
@@ -758,32 +759,32 @@
 				"&dHammocks let you sleep the day away. &dThough to set one up, you need to set &dthe Rope and Nail on two walls exactly &d4 spaces apart first."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 763,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000002FB",
 			tasks: [
 				{
-					id: 764,
+					id: "00000000000002FC",
 					type: "item",
 					item: "comforts:rope_and_nail",
 					count: 2L
 				},
 				{
-					id: 765,
+					id: "00000000000002FD",
 					type: "item",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "crafttweaker:sleeping_bags"
 						}
 					}
 				},
 				{
-					id: 766,
+					id: "00000000000002FE",
 					type: "item",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "crafttweaker:hammocks"
 						}
@@ -791,7 +792,7 @@
 				}
 			],
 			rewards: [{
-				id: 767,
+				id: "00000000000002FF",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -818,32 +819,32 @@
 				"Oh nice, I automatically get water, and the ability to heat items for recipes."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 768,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000300",
 			tasks: [
 				{
-					id: 769,
+					id: "0000000000000301",
 					type: "item",
 					item: "cookingforblockheads:recipe_book"
 				},
 				{
-					id: 770,
+					id: "0000000000000302",
 					type: "item",
 					item: "cookingforblockheads:cooking_table"
 				},
 				{
-					id: 771,
+					id: "0000000000000303",
 					type: "item",
 					item: "cookingforblockheads:oven"
 				},
 				{
-					id: 772,
+					id: "0000000000000304",
 					type: "item",
 					item: "cookingforblockheads:sink"
 				}
 			],
 			rewards: [{
-				id: 773,
+				id: "0000000000000305",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -863,22 +864,22 @@
 				"",
 				"Well, as long as all the kitchen pieces are touching at least one other kitchen piece."
 			],
-			dependencies: [I;768],
-			id: 774,
+			dependencies: ["0000000000000300"],
+			id: "0000000000000306",
 			tasks: [
 				{
-					id: 775,
+					id: "0000000000000307",
 					type: "item",
 					item: "cookingforblockheads:counter"
 				},
 				{
-					id: 776,
+					id: "0000000000000308",
 					type: "item",
 					item: "cookingforblockheads:cabinet"
 				}
 			],
 			rewards: [{
-				id: 777,
+				id: "0000000000000309",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -902,37 +903,37 @@
 				"",
 				"&dAs well, if you stack two Fridges on &dtop of each other, they combine into one big &done."
 			],
-			dependencies: [I;768],
-			id: 778,
+			dependencies: ["0000000000000300"],
+			id: "000000000000030A",
 			tasks: [
 				{
-					id: 779,
+					id: "000000000000030B",
 					type: "item",
 					item: "cookingforblockheads:fruit_basket"
 				},
 				{
-					id: 780,
+					id: "000000000000030C",
 					type: "item",
 					item: "cookingforblockheads:tool_rack"
 				},
 				{
-					id: 781,
+					id: "000000000000030D",
 					type: "item",
 					item: "cookingforblockheads:spice_rack"
 				},
 				{
-					id: 782,
+					id: "000000000000030E",
 					type: "item",
 					item: "cookingforblockheads:milk_jar"
 				},
 				{
-					id: 783,
+					id: "000000000000030F",
 					type: "item",
 					item: "cookingforblockheads:fridge"
 				}
 			],
 			rewards: [{
-				id: 784,
+				id: "0000000000000310",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -952,25 +953,25 @@
 				"",
 				"So, one adds ice and snow to recipes. The other lets the Oven be powered by electricity instead of coal. Not SUPER useful but nice nonetheless!"
 			],
-			dependencies: [I;
-				768,
-				778
+			dependencies: [
+				"0000000000000300",
+				"000000000000030A"
 			],
-			id: 785,
+			id: "0000000000000311",
 			tasks: [
 				{
-					id: 786,
+					id: "0000000000000312",
 					type: "item",
 					item: "cookingforblockheads:heating_unit"
 				},
 				{
-					id: 788,
+					id: "0000000000000314",
 					type: "item",
 					item: "cookingforblockheads:preservation_chamber"
 				}
 			],
 			rewards: [{
-				id: 787,
+				id: "0000000000000313",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -980,7 +981,7 @@
 			title: "Death Isn't The End",
 			icon: {
 				id: "tombstone:decorative_grave_simple",
-				Count: true,
+				Count: 1b,
 				tag: {
 					model_texture: 0
 				}
@@ -1003,22 +1004,22 @@
 				"&dSo... weird..."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 789,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000315",
 			tasks: [{
-				id: 790,
+				id: "0000000000000316",
 				type: "item",
 				title: "Any Decorative Gravestone",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "tombstone:decorative_graves"
 					}
 				}
 			}],
 			rewards: [{
-				id: 791,
+				id: "0000000000000317",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -1041,22 +1042,22 @@
 				"&dTraveler. Just making a Crafting &dStation..."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 792,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000318",
 			tasks: [
 				{
-					id: 793,
+					id: "0000000000000319",
 					type: "item",
 					item: "craftingstation:crafting_station"
 				},
 				{
-					id: 794,
+					id: "000000000000031A",
 					type: "item",
 					item: "craftingstation:crafting_station_slab"
 				}
 			],
 			rewards: [{
-				id: 795,
+				id: "000000000000031B",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
@@ -1066,7 +1067,7 @@
 			title: "Food Combos Galore",
 			icon: {
 				id: "culinaryconstruct:sandwich",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Size: 5,
 					Saturation: 1.0f,
@@ -1074,35 +1075,35 @@
 					Ingredients: {
 						Items: [
 							{
-								Slot: false,
+								Slot: 0b,
 								id: "minecraft:nether_star",
-								Count: true
+								Count: 1b
 							},
 							{
-								Slot: true,
+								Slot: 1b,
 								id: "minecraft:nether_star",
-								Count: true
+								Count: 1b
 							},
 							{
 								Slot: 2b,
 								id: "minecraft:nether_star",
-								Count: true
+								Count: 1b
 							},
 							{
 								Slot: 3b,
 								id: "minecraft:nether_star",
-								Count: true
+								Count: 1b
 							},
 							{
 								Slot: 4b,
 								id: "minecraft:nether_star",
-								Count: true
+								Count: 1b
 							}
 						]
 					},
 					Base: {
 						id: "minecraft:bread",
-						Count: true
+						Count: 1b
 					},
 					Food: 20
 				}
@@ -1125,21 +1126,21 @@
 				"Sure it is. With the Culinary Station, I can take bread, and then stuff any other food into it. Or heck, I can put a wooden bowl in there and make a low carb bowl or something too."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 796,
+			dependencies: ["00000000000000F4"],
+			id: "000000000000031C",
 			tasks: [
 				{
-					id: 797,
+					id: "000000000000031D",
 					type: "item",
 					item: "culinaryconstruct:culinary_station"
 				},
 				{
-					id: 798,
+					id: "000000000000031E",
 					type: "item",
 					title: "Any Culinary Construct Sandwich",
 					icon: {
 						id: "culinaryconstruct:sandwich",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SolidsSize: 2,
 							Size: 1,
@@ -1147,45 +1148,45 @@
 							Quality: 3,
 							Ingredients: {
 								Items: [{
-									Slot: false,
+									Slot: 0b,
 									id: "pamhc2foodcore:pumpkinbreaditem",
-									Count: true
+									Count: 1b
 								}]
 							},
 							Solids: {
 								Items: [
 									{
-										Slot: false,
+										Slot: 0b,
 										id: "pamhc2foodcore:pumpkinbreaditem",
-										Count: true
+										Count: 1b
 									},
 									{
-										Slot: true,
+										Slot: 1b,
 										id: "minecraft:bread",
-										Count: true
+										Count: 1b
 									}
 								]
 							},
 							Base: {
 								id: "minecraft:bread",
-								Count: true
+								Count: 1b
 							},
 							Food: 6
 						}
 					},
 					item: {
 						id: "culinaryconstruct:sandwich",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				},
 				{
-					id: 799,
+					id: "000000000000031F",
 					type: "item",
 					title: "Any Culinary Bowl of Food",
 					icon: {
 						id: "culinaryconstruct:food_bowl",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SolidsSize: 1,
 							Size: 1,
@@ -1193,34 +1194,34 @@
 							Quality: 2,
 							Ingredients: {
 								Items: [{
-									Slot: false,
+									Slot: 0b,
 									id: "pamhc2foodcore:carrotbreaditem",
-									Count: true
+									Count: 1b
 								}]
 							},
 							Solids: {
 								Items: [{
-									Slot: false,
+									Slot: 0b,
 									id: "pamhc2foodcore:carrotbreaditem",
-									Count: true
+									Count: 1b
 								}]
 							},
 							Base: {
 								id: "minecraft:bowl",
-								Count: true
+								Count: 1b
 							},
 							Food: 7
 						}
 					},
 					item: {
 						id: "culinaryconstruct:food_bowl",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				}
 			],
 			rewards: [{
-				id: 800,
+				id: "0000000000000320",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -1245,22 +1246,22 @@
 				"I can then teach my dog by Right Clicking a Stick on them."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 801,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000321",
 			tasks: [
 				{
-					id: 802,
+					id: "0000000000000322",
 					type: "item",
 					item: "doggytalents:training_treat"
 				},
 				{
-					id: 809,
+					id: "0000000000000329",
 					type: "item",
 					item: "minecraft:stick"
 				}
 			],
 			rewards: [{
-				id: 803,
+				id: "0000000000000323",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -1280,27 +1281,27 @@
 				"",
 				"Apparently when I start feeding my dog Dire Treats, they become immortal? What?"
 			],
-			dependencies: [I;801],
-			id: 804,
+			dependencies: ["0000000000000321"],
+			id: "0000000000000324",
 			tasks: [
 				{
-					id: 805,
+					id: "0000000000000325",
 					type: "item",
 					item: "doggytalents:super_treat"
 				},
 				{
-					id: 806,
+					id: "0000000000000326",
 					type: "item",
 					item: "doggytalents:master_treat"
 				},
 				{
-					id: 807,
+					id: "0000000000000327",
 					type: "item",
 					item: "doggytalents:dire_treat"
 				}
 			],
 			rewards: [{
-				id: 808,
+				id: "0000000000000328",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -1324,37 +1325,37 @@
 				"",
 				"Anyways! I should also make a Dog Bed! That'd be good!"
 			],
-			dependencies: [I;801],
-			id: 810,
+			dependencies: ["0000000000000321"],
+			id: "000000000000032A",
 			tasks: [
 				{
-					id: 811,
+					id: "000000000000032B",
 					type: "item",
 					item: "doggytalents:treat_bag"
 				},
 				{
-					id: 812,
+					id: "000000000000032C",
 					type: "item",
 					item: "doggytalents:chew_stick"
 				},
 				{
-					id: 813,
+					id: "000000000000032D",
 					type: "item",
 					item: "doggytalents:food_bowl"
 				},
 				{
-					id: 814,
+					id: "000000000000032E",
 					type: "item",
 					item: "doggytalents:dog_bath"
 				},
 				{
-					id: 815,
+					id: "000000000000032F",
 					type: "item",
 					item: "doggytalents:dog_bed"
 				}
 			],
 			rewards: [{
-				id: 816,
+				id: "0000000000000330",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -1364,7 +1365,7 @@
 			title: "Well Dressed",
 			icon: {
 				id: "doggytalents:wool_collar",
-				Count: true,
+				Count: 1b,
 				tag: {
 					display: {
 						color: 16777215
@@ -1384,15 +1385,15 @@
 				"",
 				"Oh, and if I ever need to take the collar off, I can use the Collar Shears. But I have to be careful because this is also how I untame my pet and send them back into the wild..."
 			],
-			dependencies: [I;801],
-			id: 817,
+			dependencies: ["0000000000000321"],
+			id: "0000000000000331",
 			tasks: [
 				{
-					id: 818,
+					id: "0000000000000332",
 					type: "item",
 					item: {
 						id: "doggytalents:wool_collar",
-						Count: true,
+						Count: 1b,
 						tag: {
 							display: {
 								color: 16777215
@@ -1401,23 +1402,23 @@
 					}
 				},
 				{
-					id: 819,
+					id: "0000000000000333",
 					type: "item",
 					item: "doggytalents:leather_jacket"
 				},
 				{
-					id: 820,
+					id: "0000000000000334",
 					type: "item",
 					item: "doggytalents:sunglasses"
 				},
 				{
-					id: 821,
+					id: "0000000000000335",
 					type: "item",
 					item: "doggytalents:collar_shears"
 				}
 			],
 			rewards: [{
-				id: 822,
+				id: "0000000000000336",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -1435,22 +1436,22 @@
 				"",
 				"That way, I can use this magical Radar to figure out where my dogs hve wandered off to."
 			],
-			dependencies: [I;801],
-			id: 823,
+			dependencies: ["0000000000000321"],
+			id: "0000000000000337",
 			tasks: [
 				{
-					id: 824,
+					id: "0000000000000338",
 					type: "item",
 					item: "doggytalents:radio_collar"
 				},
 				{
-					id: 825,
+					id: "0000000000000339",
 					type: "item",
 					item: "doggytalents:radar"
 				}
 			],
 			rewards: [{
-				id: 826,
+				id: "000000000000033A",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -1479,37 +1480,37 @@
 				"&dYou can hook all three up with &dnetwork cable to share money and &ditems."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 936,
+			dependencies: ["00000000000000F4"],
+			id: "00000000000003A8",
 			tasks: [
 				{
-					id: 937,
+					id: "00000000000003A9",
 					type: "item",
 					item: "calemiutils:trading_post"
 				},
 				{
-					id: 938,
+					id: "00000000000003AA",
 					type: "item",
 					item: "calemiutils:market"
 				},
 				{
-					id: 939,
+					id: "00000000000003AB",
 					type: "item",
 					item: "calemiutils:bank"
 				},
 				{
-					id: 940,
+					id: "00000000000003AC",
 					type: "item",
 					item: "calemiutils:network_cable"
 				},
 				{
-					id: 941,
+					id: "00000000000003AD",
 					type: "item",
 					item: "calemiutils:security_wrench"
 				}
 			],
 			rewards: [{
-				id: 942,
+				id: "00000000000003AE",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -1519,7 +1520,7 @@
 			title: "A Link to The World",
 			icon: {
 				id: "calemiutils:link_book_location",
-				Count: true,
+				Count: 1b,
 				tag: {}
 			},
 			x: -4.0d,
@@ -1531,26 +1532,26 @@
 				"",
 				"I can also make a Link Stand and set the book on it. Then just Right Clicking the book with an open hand will let me use it quickly."
 			],
-			dependencies: [I;936],
-			id: 943,
+			dependencies: ["00000000000003A8"],
+			id: "00000000000003AF",
 			tasks: [
 				{
-					id: 944,
+					id: "00000000000003B0",
 					type: "item",
 					item: "calemiutils:book_stand"
 				},
 				{
-					id: 945,
+					id: "00000000000003B1",
 					type: "item",
 					item: {
 						id: "calemiutils:link_book_location",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				}
 			],
 			rewards: [{
-				id: 946,
+				id: "00000000000003B2",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -1570,27 +1571,27 @@
 				"",
 				"Then to wrap it up, I can use the Torch Placer to light the place up properly, at least temporarily until I can install some decent lights..."
 			],
-			dependencies: [I;936],
-			id: 947,
+			dependencies: ["00000000000003A8"],
+			id: "00000000000003B3",
 			tasks: [
 				{
-					id: 948,
+					id: "00000000000003B4",
 					type: "item",
 					item: "calemiutils:item_stand"
 				},
 				{
-					id: 949,
+					id: "00000000000003B5",
 					type: "item",
 					item: "calemiutils:iron_scaffold"
 				},
 				{
-					id: 950,
+					id: "00000000000003B6",
 					type: "item",
 					item: "calemiutils:torch_placer"
 				}
 			],
 			rewards: [{
-				id: 951,
+				id: "00000000000003B7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -1600,7 +1601,7 @@
 			title: "More Helpful Items",
 			icon: {
 				id: "calemiutils:blender",
-				Count: true,
+				Count: 1b,
 				tag: {}
 			},
 			x: -6.0d,
@@ -1614,41 +1615,41 @@
 				"",
 				"The Torch Belt, as long as it and Torches are in my inventory, will automatically place them around me to keep the area lit up nicely."
 			],
-			dependencies: [I;936],
-			id: 952,
+			dependencies: ["00000000000003A8"],
+			id: "00000000000003B8",
 			tasks: [
 				{
-					id: 953,
+					id: "00000000000003B9",
 					type: "item",
 					item: {
 						id: "calemiutils:sledgehammer_wood",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 954,
+					id: "00000000000003BA",
 					type: "item",
 					item: {
 						id: "calemiutils:blender",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				},
 				{
-					id: 955,
+					id: "00000000000003BB",
 					type: "item",
 					item: {
 						id: "calemiutils:torch_belt",
-						Count: true,
+						Count: 1b,
 						tag: {}
 					}
 				}
 			],
 			rewards: [{
-				id: 956,
+				id: "00000000000003BC",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -1673,22 +1674,22 @@
 				"That is super useful. Thanks, Kow."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 1024,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000400",
 			tasks: [
 				{
-					id: 1025,
+					id: "0000000000000401",
 					type: "item",
 					item: "ironchest:iron_chest"
 				},
 				{
-					id: 1026,
+					id: "0000000000000402",
 					type: "item",
 					item: "ironchest:wood_to_iron_chest_upgrade"
 				}
 			],
 			rewards: [{
-				id: 1027,
+				id: "0000000000000403",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -1717,22 +1718,22 @@
 				"Oh..."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;244],
-			id: 1028,
+			dependencies: ["00000000000000F4"],
+			id: "0000000000000404",
 			tasks: [
 				{
-					id: 1029,
+					id: "0000000000000405",
 					type: "item",
 					item: "farmingforblockheads:market"
 				},
 				{
-					id: 1030,
+					id: "0000000000000406",
 					type: "item",
 					item: "farmingforblockheads:red_fertilizer"
 				}
 			],
 			rewards: [{
-				id: 1031,
+				id: "0000000000000407",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -1754,25 +1755,77 @@
 				"",
 				"&dFeeding Trough, of course."
 			],
-			dependencies: [I;1028],
-			id: 1032,
+			dependencies: ["0000000000000404"],
+			id: "0000000000000408",
 			tasks: [
 				{
-					id: 1033,
+					id: "0000000000000409",
 					type: "item",
 					item: "farmingforblockheads:feeding_trough"
 				},
 				{
-					id: 1034,
+					id: "000000000000040A",
 					type: "item",
 					item: "farmingforblockheads:chicken_nest"
 				}
 			],
 			rewards: [{
-				id: 1035,
+				id: "000000000000040B",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
+			}]
+		},
+		{
+			title: "Pull the Lever!",
+			icon: "rsgauges:industrial_small_lever",
+			x: 4.5d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dMod: Gauges and Switches",
+			description: [
+				"These wooden buttons and flat little pressure plates kind of lack... style, you know?",
+				"",
+				"&dThere's many options for Gauges and &dSwitches, Traveler. From big buttons &dto pull chains &dto even magical &ddetectors to automatically open &ddoors.",
+				"",
+				"Those... aren't quite magical but... oh wait, how do I configure these things? ",
+				"",
+				"&dSimply Right Click with a Redstone &dTorch. ",
+				"",
+				"Fancy. Okay, do I have any like...Redstone Wire or something to hook these up with?",
+				"",
+				"&dBetter. You can Wirelessly hook these &dup by Right Clicking an Ender Pearl &donto it to make it a Linking Pearl."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "000000000000040C",
+			tasks: [
+				{
+					id: "000000000000040D",
+					type: "item",
+					item: "rsgauges:industrial_small_lever"
+				},
+				{
+					id: "000000000000040E",
+					type: "item",
+					item: "rsgauges:oldfancy_spring_reset_chain"
+				},
+				{
+					id: "000000000000040F",
+					type: "item",
+					item: "rsgauges:arrow_target"
+				},
+				{
+					id: "0000000000000410",
+					type: "item",
+					item: "rsgauges:door_sensor_switch"
+				}
+			],
+			rewards: [{
+				id: "0000000000000411",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
 			}]
 		}
 	]

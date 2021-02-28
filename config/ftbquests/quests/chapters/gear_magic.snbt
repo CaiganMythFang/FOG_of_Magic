@@ -1,7 +1,8 @@
 {
-	id: 142,
+	id: "000000000000008E",
+	group: "",
+	order_index: 4,
 	filename: "gear_magic",
-	order_index: 5,
 	title: "Of Gears and Motion",
 	icon: "create:copper_valve_handle",
 	default_quest_shape: "",
@@ -24,16 +25,16 @@
 				"",
 				"&dTo start with, we'll need some &dmaterials. Some Copper, Zinc, and &dAndesite stone, all of which shouldn't &dbe too deep in the ground."
 			],
-			dependencies: [I;37],
-			id: 143,
+			dependencies: ["0000000000000025"],
+			id: "000000000000008F",
 			tasks: [
 				{
-					id: 144,
+					id: "0000000000000090",
 					type: "item",
 					title: "Any 5 Copper Ingots",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/copper"
 						}
@@ -41,12 +42,12 @@
 					count: 5L
 				},
 				{
-					id: 145,
+					id: "0000000000000091",
 					type: "item",
 					title: "Any 5 Zinc Ingots",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/zinc"
 						}
@@ -54,7 +55,7 @@
 					count: 5L
 				},
 				{
-					id: 146,
+					id: "0000000000000092",
 					type: "item",
 					title: "10 Andesite",
 					item: "minecraft:andesite",
@@ -62,7 +63,7 @@
 				}
 			],
 			rewards: [{
-				id: 147,
+				id: "0000000000000093",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
@@ -86,30 +87,30 @@
 				"",
 				"When placing down Shafts or Cogwheels, holding it and aiming towards another one will bring up an arrow. This shows the direction the shaft of cogwheel will be placed. Aiming at different parts of the placed shaft or cogwheel will change this."
 			],
-			dependencies: [I;143],
-			id: 148,
+			dependencies: ["000000000000008F"],
+			id: "0000000000000094",
 			tasks: [
 				{
-					id: 149,
+					id: "0000000000000095",
 					type: "item",
 					item: "create:shaft",
 					count: 10L
 				},
 				{
-					id: 150,
+					id: "0000000000000096",
 					type: "item",
 					item: "create:cogwheel",
 					count: 5L
 				},
 				{
-					id: 151,
+					id: "0000000000000097",
 					type: "item",
 					item: "create:large_cogwheel",
 					count: 5L
 				}
 			],
 			rewards: [{
-				id: 163,
+				id: "00000000000000A3",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -131,16 +132,16 @@
 				"",
 				"&dBe careful you don't place them in &dopposite directions. You'll work against &dyourself that way."
 			],
-			dependencies: [I;148],
-			id: 152,
+			dependencies: ["0000000000000094"],
+			id: "0000000000000098",
 			tasks: [{
-				id: 153,
+				id: "0000000000000099",
 				type: "item",
 				item: "create:water_wheel",
 				count: 2L
 			}],
 			rewards: [{
-				id: 166,
+				id: "00000000000000A6",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -150,7 +151,7 @@
 			title: "Force and Speed",
 			icon: {
 				id: "minecraft:tipped_arrow",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Potion: "apotheosis:knowledge"
 				}
@@ -172,14 +173,14 @@
 				"",
 				"&dYou can easily shift these by chaining &ddifferent sizes of Cogwheel. For &dexample, connect a small and Large &dCogwheel. The small Cogwheel goes &dtwice as fast as the Large Cogwheel. &dThe Large Cogwheel goes half the &dspeed of the small one."
 			],
-			dependencies: [I;148],
-			id: 154,
+			dependencies: ["0000000000000094"],
+			id: "000000000000009A",
 			tasks: [{
-				id: 156,
+				id: "000000000000009C",
 				type: "checkmark"
 			}],
 			rewards: [{
-				id: 164,
+				id: "00000000000000A4",
 				type: "item",
 				item: "calemiutils:coin_dollar"
 			}]
@@ -201,16 +202,16 @@
 				"",
 				"As long as the Consumption amount is less than the Capacity, everything should work smoothly. If not, I might want to split it into separate systems. "
 			],
-			dependencies: [I;152],
-			id: 157,
+			dependencies: ["0000000000000098"],
+			id: "000000000000009D",
 			tasks: [{
-				id: 158,
+				id: "000000000000009E",
 				type: "checkmark",
 				title: "Stress and Danger",
 				icon: "bountifulbaubles:broken_heart"
 			}],
 			rewards: [{
-				id: 165,
+				id: "00000000000000A5",
 				type: "item",
 				item: "calemiutils:coin_dollar"
 			}]
@@ -235,24 +236,24 @@
 				"",
 				"Pull the lever, and if its all working, I'll get some Sheets of metal!"
 			],
-			dependencies: [I;152],
-			id: 159,
+			dependencies: ["0000000000000098"],
+			id: "000000000000009F",
 			tasks: [
 				{
-					id: 160,
+					id: "00000000000000A0",
 					type: "item",
 					item: "create:millstone",
 					consume_items: false
 				},
 				{
-					id: 167,
+					id: "00000000000000A7",
 					type: "item",
 					item: "create:mechanical_press",
 					consume_items: false
 				}
 			],
 			rewards: [{
-				id: 168,
+				id: "00000000000000A8",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 12
@@ -276,16 +277,16 @@
 				"",
 				"&dDrat, where did... Traveler, send me a &dWrench. Do not comment... just send me &done."
 			],
-			dependencies: [I;159],
-			id: 161,
+			dependencies: ["000000000000009F"],
+			id: "00000000000000A1",
 			tasks: [{
-				id: 162,
+				id: "00000000000000A2",
 				type: "item",
 				item: "create:wrench",
 				consume_items: true
 			}],
 			rewards: [{
-				id: 169,
+				id: "00000000000000A9",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -313,15 +314,15 @@
 				"",
 				"&dCorrect. Then you can make an &dElectron Tube from that. In fact, send &dme a couple, I could fill out my &dsupplies a bit more."
 			],
-			dependencies: [I;159],
-			id: 170,
+			dependencies: ["000000000000009F"],
+			id: "00000000000000AA",
 			tasks: [
 				{
-					id: 171,
+					id: "00000000000000AB",
 					type: "item",
 					item: {
 						id: "create:sand_paper",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -329,13 +330,13 @@
 					consume_items: false
 				},
 				{
-					id: 172,
+					id: "00000000000000AC",
 					type: "item",
 					item: "create:rose_quartz",
 					consume_items: false
 				},
 				{
-					id: 173,
+					id: "00000000000000AD",
 					type: "item",
 					item: "create:electron_tube",
 					count: 2L,
@@ -343,7 +344,7 @@
 				}
 			],
 			rewards: [{
-				id: 174,
+				id: "00000000000000AE",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -367,28 +368,28 @@
 				"",
 				"&dThe arrows should all point to make &dthe items flow towards a single point. &dRight Click items into each spot, then &dturn on the Rotational Power to craft."
 			],
-			dependencies: [I;187],
-			id: 175,
+			dependencies: ["00000000000000BB"],
+			id: "00000000000000AF",
 			tasks: [
 				{
-					id: 176,
+					id: "00000000000000B0",
 					type: "item",
 					item: "create:wrench"
 				},
 				{
-					id: 177,
+					id: "00000000000000B1",
 					type: "item",
 					item: "create:clutch"
 				},
 				{
-					id: 178,
+					id: "00000000000000B2",
 					type: "item",
 					item: "create:mechanical_crafter",
 					count: 4L
 				}
 			],
 			rewards: [{
-				id: 179,
+				id: "00000000000000B3",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -412,22 +413,22 @@
 				"",
 				"It's... finicky at first, but makes sense. But hey, I can smelt items AND power machines at the same time this way!"
 			],
-			dependencies: [I;175],
-			id: 180,
+			dependencies: ["00000000000000AF"],
+			id: "00000000000000B4",
 			tasks: [
 				{
-					id: 181,
+					id: "00000000000000B5",
 					type: "item",
 					item: "create:furnace_engine"
 				},
 				{
-					id: 182,
+					id: "00000000000000B6",
 					type: "item",
 					item: "create:flywheel"
 				}
 			],
 			rewards: [{
-				id: 183,
+				id: "00000000000000B7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -451,16 +452,16 @@
 				"",
 				"Wait, how? No, wait, I don't want to know."
 			],
-			dependencies: [I;152],
-			id: 184,
+			dependencies: ["0000000000000098"],
+			id: "00000000000000B8",
 			tasks: [{
-				id: 185,
+				id: "00000000000000B9",
 				type: "item",
 				item: "create:cuckoo_clock",
 				consume_items: true
 			}],
 			rewards: [{
-				id: 186,
+				id: "00000000000000BA",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -484,38 +485,38 @@
 				"",
 				"&dCorrect. But for something like Brass, &dyou'll need to heat the Basin with a &dBlaze Burner. Make one and Right Click &dit on a &dBlaze to capture it, then place &dunder the Basin. To heat it, Right Click &dcoal or wood onto the &dBurner."
 			],
-			dependencies: [I;159],
-			id: 187,
+			dependencies: ["000000000000009F"],
+			id: "00000000000000BB",
 			tasks: [
 				{
-					id: 188,
+					id: "00000000000000BC",
 					type: "item",
 					item: "create:mechanical_mixer"
 				},
 				{
-					id: 189,
+					id: "00000000000000BD",
 					type: "item",
 					item: "create:basin"
 				},
 				{
-					id: 190,
+					id: "00000000000000BE",
 					type: "item",
 					item: "create:clutch"
 				},
 				{
-					id: 191,
+					id: "00000000000000BF",
 					type: "item",
 					item: "create:empty_blaze_burner"
 				},
 				{
-					id: 192,
+					id: "00000000000000C0",
 					type: "item",
 					item: "create:brass_ingot",
 					count: 10L
 				}
 			],
 			rewards: [{
-				id: 193,
+				id: "00000000000000C1",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 35
@@ -539,16 +540,16 @@
 				"",
 				"&dAh, right, don't forget, the Mixer basin &dneeds to be heated by a Blaze Burner &das well."
 			],
-			dependencies: [I;187],
-			id: 194,
+			dependencies: ["00000000000000BB"],
+			id: "00000000000000C2",
 			tasks: [
 				{
-					id: 195,
+					id: "00000000000000C3",
 					type: "item",
 					title: "10 Brass Ingots",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/brass"
 						}
@@ -557,7 +558,7 @@
 					consume_items: true
 				},
 				{
-					id: 196,
+					id: "00000000000000C4",
 					type: "item",
 					item: "create:bar_of_chocolate",
 					count: 5L,
@@ -565,7 +566,7 @@
 				}
 			],
 			rewards: [{
-				id: 197,
+				id: "00000000000000C5",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -586,10 +587,10 @@
 				"",
 				"&dBecause the Clutch is infinitely more &duseful."
 			],
-			dependencies: [I;187],
-			id: 198,
+			dependencies: ["00000000000000BB"],
+			id: "00000000000000C6",
 			tasks: [{
-				id: 199,
+				id: "00000000000000C7",
 				type: "checkmark"
 			}]
 		},
@@ -610,23 +611,23 @@
 				"Carefully placing and chaining Cogwheels and Shafts should make it easy, but I could also employ the use of a Gearshift to reverse a Shaft's direction.",
 				""
 			],
-			dependencies: [I;175],
-			id: 200,
+			dependencies: ["00000000000000AF"],
+			id: "00000000000000C8",
 			tasks: [
 				{
-					id: 201,
+					id: "00000000000000C9",
 					type: "item",
 					item: "create:crushing_wheel",
 					count: 2L
 				},
 				{
-					id: 202,
+					id: "00000000000000CA",
 					type: "item",
 					item: "create:gearshift"
 				}
 			],
 			rewards: [{
-				id: 203,
+				id: "00000000000000CB",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -650,22 +651,22 @@
 				"",
 				"&dSince you can't grab items out of any &dinventory, I suggest using a Depot. &dYou can only put one stack of an item &don it, but I think you can work out how &dto use Belts and Funnels and things &dto utilize it well, Traveler."
 			],
-			dependencies: [I;175],
-			id: 204,
+			dependencies: ["00000000000000AF"],
+			id: "00000000000000CC",
 			tasks: [
 				{
-					id: 205,
+					id: "00000000000000CD",
 					type: "item",
 					item: "create:mechanical_arm"
 				},
 				{
-					id: 211,
+					id: "00000000000000D3",
 					type: "item",
 					item: "create:depot"
 				}
 			],
 			rewards: [{
-				id: 212,
+				id: "00000000000000D4",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -689,27 +690,27 @@
 				"",
 				"The Andesite Tunnel is useful to split off a single item from every stack that passes through it. It needs a belt going off one side of it, however."
 			],
-			dependencies: [I;152],
-			id: 206,
+			dependencies: ["0000000000000098"],
+			id: "00000000000000CE",
 			tasks: [
 				{
-					id: 207,
+					id: "00000000000000CF",
 					type: "item",
 					item: "create:belt_connector"
 				},
 				{
-					id: 208,
+					id: "00000000000000D0",
 					type: "item",
 					item: "create:andesite_funnel"
 				},
 				{
-					id: 209,
+					id: "00000000000000D1",
 					type: "item",
 					item: "create:andesite_tunnel"
 				}
 			],
 			rewards: [{
-				id: 210,
+				id: "00000000000000D2",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -733,22 +734,22 @@
 				"",
 				"Reversing the Rotation will pull the piston back in. You can Right Click a Slimeball on the front of the piston to make it Sticky, or craft them together. "
 			],
-			dependencies: [I;175],
-			id: 213,
+			dependencies: ["00000000000000AF"],
+			id: "00000000000000D5",
 			tasks: [
 				{
-					id: 214,
+					id: "00000000000000D6",
 					type: "item",
 					item: "create:mechanical_piston"
 				},
 				{
-					id: 215,
+					id: "00000000000000D7",
 					type: "item",
 					item: "create:piston_extension_pole"
 				}
 			],
 			rewards: [{
-				id: 216,
+				id: "00000000000000D8",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -772,29 +773,29 @@
 				"",
 				"When you've made a suitably sized Windmill, you can Right Click the Windmill Bearing with an empty hand to attach all the blocks and start the Windmill."
 			],
-			dependencies: [I;213],
-			id: 217,
+			dependencies: ["00000000000000D5"],
+			id: "00000000000000D9",
 			tasks: [
 				{
-					id: 218,
+					id: "00000000000000DA",
 					type: "item",
 					item: "create:windmill_bearing"
 				},
 				{
-					id: 219,
+					id: "00000000000000DB",
 					type: "item",
 					item: "create:radial_chassis",
 					count: 3L
 				},
 				{
-					id: 220,
+					id: "00000000000000DC",
 					type: "item",
 					item: "create:white_sail",
 					count: 12L
 				}
 			],
 			rewards: [{
-				id: 221,
+				id: "00000000000000DD",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -818,22 +819,22 @@
 				"",
 				"I can hover my Wrench over the Linear Chassis, and a little box pops up showing how 'far' it will attach blocks to it. Scroll Wheel changes the range."
 			],
-			dependencies: [I;213],
-			id: 222,
+			dependencies: ["00000000000000D5"],
+			id: "00000000000000DE",
 			tasks: [
 				{
-					id: 223,
+					id: "00000000000000DF",
 					type: "item",
 					item: "create:linear_chassis"
 				},
 				{
-					id: 229,
+					id: "00000000000000E5",
 					type: "item",
 					item: "create:white_seat"
 				}
 			],
 			rewards: [{
-				id: 225,
+				id: "00000000000000E1",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -843,7 +844,7 @@
 			title: "Stick Together",
 			icon: {
 				id: "create:super_glue",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -863,14 +864,14 @@
 				"",
 				"&dPoint. Why not send me some, I have some stuff I need to repair here after my last experiment..."
 			],
-			dependencies: [I;222],
-			id: 226,
+			dependencies: ["00000000000000DE"],
+			id: "00000000000000E2",
 			tasks: [{
-				id: 227,
+				id: "00000000000000E3",
 				type: "item",
 				item: {
 					id: "create:super_glue",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -879,7 +880,7 @@
 				consume_items: true
 			}],
 			rewards: [{
-				id: 228,
+				id: "00000000000000E4",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -903,32 +904,32 @@
 				"",
 				"The Mechanical Harvester, unlike the plough, only breaks and harvest mature plants, and immediately replants them."
 			],
-			dependencies: [I;222],
-			id: 230,
+			dependencies: ["00000000000000DE"],
+			id: "00000000000000E6",
 			tasks: [
 				{
-					id: 231,
+					id: "00000000000000E7",
 					type: "item",
 					item: "create:mechanical_saw"
 				},
 				{
-					id: 232,
+					id: "00000000000000E8",
 					type: "item",
 					item: "create:mechanical_drill"
 				},
 				{
-					id: 233,
+					id: "00000000000000E9",
 					type: "item",
 					item: "create:mechanical_plough"
 				},
 				{
-					id: 234,
+					id: "00000000000000EA",
 					type: "item",
 					item: "create:mechanical_harvester"
 				}
 			],
 			rewards: [{
-				id: 241,
+				id: "00000000000000F1",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 35
@@ -952,22 +953,22 @@
 				"",
 				"And the Controller Rail lets me set a specific speed to move Minecarts at, which is useful for stuff like digging machines."
 			],
-			dependencies: [I;222],
-			id: 235,
+			dependencies: ["00000000000000DE"],
+			id: "00000000000000EB",
 			tasks: [
 				{
-					id: 236,
+					id: "00000000000000EC",
 					type: "item",
 					item: "create:cart_assembler"
 				},
 				{
-					id: 237,
+					id: "00000000000000ED",
 					type: "item",
 					item: "create:controller_rail"
 				}
 			],
 			rewards: [{
-				id: 240,
+				id: "00000000000000F0",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -988,15 +989,15 @@
 				"",
 				"Yeah, that made a mess when I did it. What else... Oh! I can also blow air through Lava the same way to create an open air smelter!"
 			],
-			dependencies: [I;159],
-			id: 238,
+			dependencies: ["000000000000009F"],
+			id: "00000000000000EE",
 			tasks: [{
-				id: 239,
+				id: "00000000000000EF",
 				type: "item",
 				item: "create:encased_fan"
 			}],
 			rewards: [{
-				id: 242,
+				id: "00000000000000F2",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20

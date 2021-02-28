@@ -1,0 +1,9 @@
+{
+	id: "743AE67B6E05C017",
+	group: "",
+	order_index: 11,
+	filename: "going_industrial",
+	title: "Going Industrial",
+	default_quest_shape: "",
+	quests: []
+}

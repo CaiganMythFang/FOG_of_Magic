@@ -1,11 +1,12 @@
 {
-	id: 827,
+	id: "000000000000033B",
+	group: "",
+	order_index: 9,
 	filename: "born_of_dragons",
-	order_index: 10,
 	title: "Born of Dragons",
 	icon: {
 		id: "iceandfire:dragon_skull_fire",
-		Count: true,
+		Count: 1b,
 		tag: {
 			Stage: 4,
 			DragonAge: 75
@@ -17,7 +18,7 @@
 			title: "A Book of Ancient Creatures",
 			icon: {
 				id: "iceandfire:bestiary",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Pages: [I;0]
 				}
@@ -39,21 +40,21 @@
 				"",
 				"&dFind Manuscripts. You can find them in &dDragon Caves if you are brave. Or &dGraveyards as well can have them. "
 			],
-			dependencies: [I;37],
-			id: 828,
+			dependencies: ["0000000000000025"],
+			id: "000000000000033C",
 			tasks: [
 				{
-					id: 829,
+					id: "000000000000033D",
 					type: "item",
 					item: "iceandfire:manuscript",
 					count: 3L
 				},
 				{
-					id: 830,
+					id: "000000000000033E",
 					type: "item",
 					item: {
 						id: "iceandfire:bestiary",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Pages: [I;0]
 						}
@@ -61,7 +62,7 @@
 				}
 			],
 			rewards: [{
-				id: 831,
+				id: "000000000000033F",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
@@ -85,33 +86,33 @@
 				"",
 				"Good point. Looks like I can branch off into different areas of study here... much more than just dragons. And it changes each time I put the book in. Interesting!"
 			],
-			dependencies: [I;828],
-			id: 832,
+			dependencies: ["000000000000033C"],
+			id: "0000000000000340",
 			tasks: [
 				{
-					id: 833,
+					id: "0000000000000341",
 					type: "item",
 					item: "iceandfire:lectern"
 				},
 				{
-					id: 834,
+					id: "0000000000000342",
 					type: "item",
 					item: "iceandfire:manuscript",
 					count: 3L
 				},
 				{
-					id: 836,
+					id: "0000000000000344",
 					type: "item",
 					item: "iceandfire:sapphire_gem"
 				},
 				{
-					id: 837,
+					id: "0000000000000345",
 					type: "item",
 					item: "iceandfire:silver_ingot"
 				}
 			],
 			rewards: [{
-				id: 835,
+				id: "0000000000000343",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -137,55 +138,55 @@
 				"",
 				"I can take the treasure. If I wear a full Sheep Disguise, it might think I'm part of its flock."
 			],
-			dependencies: [I;832],
-			id: 838,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000346",
 			tasks: [
 				{
-					id: 840,
+					id: "0000000000000348",
 					type: "item",
 					item: {
 						id: "iceandfire:sheep_helmet",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 841,
+					id: "0000000000000349",
 					type: "item",
 					item: {
 						id: "iceandfire:sheep_chestplate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 842,
+					id: "000000000000034A",
 					type: "item",
 					item: {
 						id: "iceandfire:sheep_leggings",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 843,
+					id: "000000000000034B",
 					type: "item",
 					item: {
 						id: "iceandfire:sheep_boots",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 844,
+					id: "000000000000034C",
 					type: "kill",
 					icon: "iceandfire:cyclops_skull",
 					entity: "iceandfire:cyclops",
@@ -193,7 +194,7 @@
 				}
 			],
 			rewards: [{
-				id: 845,
+				id: "000000000000034D",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -217,21 +218,21 @@
 				"",
 				"Ew, they seem to drop ectoplasm? Such weird stuff. But Phantasmal Ingots are something they can carry, and that looks pretty useful for later..."
 			],
-			dependencies: [I;832],
-			id: 846,
+			dependencies: ["0000000000000340"],
+			id: "000000000000034E",
 			tasks: [
 				{
-					id: 847,
+					id: "000000000000034F",
 					type: "item",
 					item: "iceandfire:ectoplasm"
 				},
 				{
-					id: 848,
+					id: "0000000000000350",
 					type: "item",
 					item: "iceandfire:ghost_ingot"
 				},
 				{
-					id: 849,
+					id: "0000000000000351",
 					type: "kill",
 					icon: "losttrinkets:tha_ghost",
 					entity: "iceandfire:ghost",
@@ -239,7 +240,7 @@
 				}
 			],
 			rewards: [{
-				id: 850,
+				id: "0000000000000352",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -261,31 +262,31 @@
 				"",
 				"&dThough I suggest avoiding them, the &dSiren's Shiny Scales are great for &dmaking Water Breathing potions. "
 			],
-			dependencies: [I;832],
-			id: 851,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000353",
 			tasks: [
 				{
-					id: 853,
+					id: "0000000000000355",
 					type: "item",
 					item: {
 						id: "iceandfire:earplugs",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 854,
+					id: "0000000000000356",
 					type: "item",
 					item: "iceandfire:shiny_scales"
 				},
 				{
-					id: 855,
+					id: "0000000000000357",
 					type: "kill",
 					icon: {
 						id: "iceandfire:siren_flute",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -295,7 +296,7 @@
 				}
 			],
 			rewards: [{
-				id: 856,
+				id: "0000000000000358",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -317,20 +318,20 @@
 				"",
 				"&dBring your Silver. That Lich has the &dkey to the Mauseleum... how much stuff &ddoes a thousand year old collect?"
 			],
-			dependencies: [I;832],
-			id: 857,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000359",
 			tasks: [
 				{
-					id: 858,
+					id: "000000000000035A",
 					type: "item",
 					item: "iceandfire:dread_shard"
 				},
 				{
-					id: 859,
+					id: "000000000000035B",
 					type: "kill",
 					icon: {
 						id: "iceandfire:lich_staff",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -340,7 +341,7 @@
 				}
 			],
 			rewards: [{
-				id: 860,
+				id: "000000000000035C",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -364,16 +365,16 @@
 				"",
 				"&dKeep an eye out for it's heart. It is &dsuper powerful. But at least grab the &dFangs it drops, Traveler."
 			],
-			dependencies: [I;832],
-			id: 861,
+			dependencies: ["0000000000000340"],
+			id: "000000000000035D",
 			tasks: [
 				{
-					id: 862,
+					id: "000000000000035E",
 					type: "item",
 					item: "iceandfire:hydra_fang"
 				},
 				{
-					id: 863,
+					id: "000000000000035F",
 					type: "kill",
 					icon: "iceandfire:hydra_skull",
 					entity: "iceandfire:hydra",
@@ -381,7 +382,7 @@
 				}
 			],
 			rewards: [{
-				id: 864,
+				id: "0000000000000360",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -391,7 +392,7 @@
 			title: "Their Dragon Materials",
 			icon: {
 				id: "iceandfire:dragon_skull_fire",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Stage: 4,
 					DragonAge: 75
@@ -408,37 +409,37 @@
 				"",
 				"Dragon materials make excellent armor, and weapons. Weapons like the Dragon Bone Sword, which can be imbued with Dragon Blood or any other number of items to power it up in different ways."
 			],
-			dependencies: [I;832],
-			id: 865,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000361",
 			tasks: [
 				{
-					id: 866,
+					id: "0000000000000362",
 					type: "item",
 					title: "Any Ice and Fire Dragon Skull",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "iceandfire:dragon_skulls"
 						}
 					}
 				},
 				{
-					id: 867,
+					id: "0000000000000363",
 					type: "item",
 					item: "iceandfire:dragonbone"
 				},
 				{
-					id: 868,
+					id: "0000000000000364",
 					type: "item",
 					item: "iceandfire:witherbone"
 				},
 				{
-					id: 869,
+					id: "0000000000000365",
 					type: "item",
 					item: {
 						id: "iceandfire:dragonbone_sword",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -446,7 +447,7 @@
 				}
 			],
 			rewards: [{
-				id: 870,
+				id: "0000000000000366",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -468,27 +469,27 @@
 				"",
 				"&dInstead of capturing them like a bug, &dwhy not throw them some Cake?"
 			],
-			dependencies: [I;832],
-			id: 871,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000367",
 			tasks: [
 				{
-					id: 872,
+					id: "0000000000000368",
 					type: "item",
 					item: "iceandfire:pixie_jar_empty"
 				},
 				{
-					id: 873,
+					id: "0000000000000369",
 					type: "item",
 					item: "iceandfire:pixie_dust"
 				},
 				{
-					id: 874,
+					id: "000000000000036A",
 					type: "item",
 					item: "iceandfire:ambrosia"
 				}
 			],
 			rewards: [{
-				id: 875,
+				id: "000000000000036B",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -514,27 +515,27 @@
 				"",
 				"&dOr burn them to ash."
 			],
-			dependencies: [I;865],
-			id: 876,
+			dependencies: ["0000000000000361"],
+			id: "000000000000036C",
 			tasks: [
 				{
-					id: 877,
+					id: "000000000000036D",
 					type: "item",
 					item: "iceandfire:dragonforge_fire_core_disabled"
 				},
 				{
-					id: 878,
+					id: "000000000000036E",
 					type: "item",
 					item: "iceandfire:dragonforge_fire_input"
 				},
 				{
-					id: 879,
+					id: "000000000000036F",
 					type: "item",
 					item: "iceandfire:dragonsteel_fire_ingot"
 				}
 			],
 			rewards: [{
-				id: 880,
+				id: "0000000000000370",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -560,29 +561,29 @@
 				"",
 				"&dBe sure to throw it some Dragon Meals &dto befriend it, Traveler. Oh, and make &dsure that Lightning Dragon doesn't &dburn to a crisp when it hatches..."
 			],
-			dependencies: [I;865],
-			id: 881,
+			dependencies: ["0000000000000361"],
+			id: "0000000000000371",
 			tasks: [
 				{
-					id: 882,
+					id: "0000000000000372",
 					type: "item",
 					title: "Ice and Fire Dragon Egg",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "crafttweaker:iceandfire_eggs"
 						}
 					}
 				},
 				{
-					id: 884,
+					id: "0000000000000374",
 					type: "item",
 					item: "iceandfire:dragon_meal"
 				}
 			],
 			rewards: [{
-				id: 883,
+				id: "0000000000000373",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -602,22 +603,22 @@
 				"",
 				"The fence however... instead, I can connect the Chain to any Wall, but Dragons are strong and can break them too. But if I use Dragon Bones to make a wall, well...."
 			],
-			dependencies: [I;881],
-			id: 885,
+			dependencies: ["0000000000000371"],
+			id: "0000000000000375",
 			tasks: [
 				{
-					id: 886,
+					id: "0000000000000376",
 					type: "item",
 					item: "iceandfire:chain"
 				},
 				{
-					id: 887,
+					id: "0000000000000377",
 					type: "item",
 					item: "iceandfire:dragon_bone_wall"
 				}
 			],
 			rewards: [{
-				id: 888,
+				id: "0000000000000378",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -641,27 +642,27 @@
 				"",
 				"The Dragon Flute is a good way to call my dragon back to the ground after it learns to fly."
 			],
-			dependencies: [I;881],
-			id: 889,
+			dependencies: ["0000000000000371"],
+			id: "0000000000000379",
 			tasks: [
 				{
-					id: 890,
+					id: "000000000000037A",
 					type: "item",
 					item: "iceandfire:dragon_stick"
 				},
 				{
-					id: 891,
+					id: "000000000000037B",
 					type: "item",
 					item: "iceandfire:dragon_horn"
 				},
 				{
-					id: 892,
+					id: "000000000000037C",
 					type: "item",
 					item: "iceandfire:dragon_flute"
 				}
 			],
 			rewards: [{
-				id: 893,
+				id: "000000000000037D",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -685,15 +686,15 @@
 				"",
 				"No! Anyways, I need to find these sort of rare Lilys, similar to the type of dragons I'm trying to breed together. I can turn them into a Mixture, that I feed to both dragons to get them uh... in the mood I guess."
 			],
-			dependencies: [I;881],
-			id: 894,
+			dependencies: ["0000000000000371"],
+			id: "000000000000037E",
 			tasks: [{
-				id: 895,
+				id: "000000000000037F",
 				type: "item",
 				item: "iceandfire:fire_stew"
 			}],
 			rewards: [{
-				id: 896,
+				id: "0000000000000380",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -703,7 +704,7 @@
 			title: "Walk Without Rhythm",
 			icon: {
 				id: "iceandfire:deathworm_gauntlet_yellow",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -723,16 +724,16 @@
 				"",
 				"&dYou are weird."
 			],
-			dependencies: [I;832],
-			id: 897,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000381",
 			tasks: [
 				{
-					id: 898,
+					id: "0000000000000382",
 					type: "item",
 					item: "iceandfire:deathworm_egg"
 				},
 				{
-					id: 899,
+					id: "0000000000000383",
 					type: "kill",
 					title: "Kill 2 Death Worms",
 					icon: "iceandfire:deathworm_tounge",
@@ -741,7 +742,7 @@
 				}
 			],
 			rewards: [{
-				id: 900,
+				id: "0000000000000384",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -761,16 +762,16 @@
 				"",
 				"But if I can take one down, I can get its fangs and scales, which make some really unique arrows. They cut through water like it isn't even there, treating it like air."
 			],
-			dependencies: [I;832],
-			id: 901,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000385",
 			tasks: [
 				{
-					id: 902,
+					id: "0000000000000386",
 					type: "item",
 					item: "iceandfire:sea_serpent_fang"
 				},
 				{
-					id: 904,
+					id: "0000000000000388",
 					type: "kill",
 					icon: "iceandfire:seaserpent_skull",
 					entity: "iceandfire:sea_serpent",
@@ -778,7 +779,7 @@
 				}
 			],
 			rewards: [{
-				id: 903,
+				id: "0000000000000387",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
@@ -800,27 +801,27 @@
 				"",
 				"If I face one, I should remember arrows do nothing, their skin is too thick. They turn to stone in sunlight, but that would destroy that skin, which makes some really good armor honestly."
 			],
-			dependencies: [I;832],
-			id: 905,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000389",
 			tasks: [
 				{
-					id: 906,
+					id: "000000000000038A",
 					type: "item",
 					title: "Any Troll Leather",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "iafgear:troll_leather"
 						}
 					}
 				},
 				{
-					id: 908,
+					id: "000000000000038C",
 					type: "kill",
 					icon: {
 						id: "iceandfire:troll_weapon_column_frost",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -830,7 +831,7 @@
 				}
 			],
 			rewards: [{
-				id: 907,
+				id: "000000000000038B",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -848,22 +849,22 @@
 				"",
 				"These half lizard birds are dangerous, able to stare down their prey until the target just.... drops dead? I'm not sure, the book isn't super clear on it, but it seems I can fight back against this deadly stare by wearing a Blindfold."
 			],
-			dependencies: [I;832],
-			id: 909,
+			dependencies: ["0000000000000340"],
+			id: "000000000000038D",
 			tasks: [
 				{
-					id: 910,
+					id: "000000000000038E",
 					type: "kill",
 					icon: "iceandfire:cockatrice_eye",
 					entity: "iceandfire:cockatrice",
 					value: 2L
 				},
 				{
-					id: 911,
+					id: "000000000000038F",
 					type: "item",
 					item: {
 						id: "iceandfire:blindfold",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -871,7 +872,7 @@
 				}
 			],
 			rewards: [{
-				id: 912,
+				id: "0000000000000390",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -881,7 +882,7 @@
 			title: "Avert Thy Gaze",
 			icon: {
 				id: "iceandfire:gorgon_head",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -897,37 +898,37 @@
 				"",
 				"I can then harvest their head, which I can use to turn a single creature into a stone statue. If I use a Silk Touch pickaxe on that statue... then hey, I got a neat decoration!"
 			],
-			dependencies: [I;832],
-			id: 913,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000391",
 			tasks: [
 				{
-					id: 914,
+					id: "0000000000000392",
 					type: "item",
 					item: {
 						id: "iceandfire:gorgon_head",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 915,
+					id: "0000000000000393",
 					type: "item",
 					item: {
 						id: "iceandfire:blindfold",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 916,
+					id: "0000000000000394",
 					type: "kill",
 					icon: {
 						id: "silentgems:soul_gem",
-						Count: true,
+						Count: 1b,
 						tag: {
 							SGems_SoulGem: "iceandfire:gorgon"
 						}
@@ -937,7 +938,7 @@
 				}
 			],
 			rewards: [{
-				id: 917,
+				id: "0000000000000395",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -955,16 +956,16 @@
 				"",
 				"Those feathers, though? If I collect them, I can make some really nice arrows, or a really sharp dagger."
 			],
-			dependencies: [I;832],
-			id: 918,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000396",
 			tasks: [
 				{
-					id: 919,
+					id: "0000000000000397",
 					type: "item",
 					item: "iceandfire:stymphalian_bird_feather"
 				},
 				{
-					id: 920,
+					id: "0000000000000398",
 					type: "kill",
 					icon: "iceandfire:stymphalian_feather_bundle",
 					entity: "iceandfire:stymphalian_bird",
@@ -972,7 +973,7 @@
 				}
 			],
 			rewards: [{
-				id: 921,
+				id: "0000000000000399",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
@@ -992,21 +993,21 @@
 				"",
 				"Eventually, I can trade with and even command some of the colony? How intriguing..."
 			],
-			dependencies: [I;832],
-			id: 922,
+			dependencies: ["0000000000000340"],
+			id: "000000000000039A",
 			tasks: [
 				{
-					id: 923,
+					id: "000000000000039B",
 					type: "item",
 					item: "iceandfire:myrmex_stinger"
 				},
 				{
-					id: 924,
+					id: "000000000000039C",
 					type: "item",
 					item: "iceandfire:myrmex_desert_resin"
 				},
 				{
-					id: 925,
+					id: "000000000000039D",
 					type: "kill",
 					icon: "iceandfire:myrmex_desert_chitin",
 					entity: "iceandfire:myrmex_worker",
@@ -1014,7 +1015,7 @@
 				}
 			],
 			rewards: [{
-				id: 926,
+				id: "000000000000039E",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
@@ -1034,16 +1035,16 @@
 				"",
 				"I can command a frienldy hippogryph with a stick. I can fly on them, and make them armor to protect them from other dangers of the world."
 			],
-			dependencies: [I;832],
-			id: 927,
+			dependencies: ["0000000000000340"],
+			id: "000000000000039F",
 			tasks: [
 				{
-					id: 928,
+					id: "00000000000003A0",
 					type: "item",
 					item: "minecraft:rabbit"
 				},
 				{
-					id: 929,
+					id: "00000000000003A1",
 					type: "kill",
 					icon: "iceandfire:hippogryph_talon",
 					entity: "iceandfire:hippogryph",
@@ -1051,7 +1052,7 @@
 				}
 			],
 			rewards: [{
-				id: 930,
+				id: "00000000000003A2",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 25
@@ -1069,27 +1070,27 @@
 				"",
 				"This blood has a few uses. The primary one for me would be to imbue the blood onto my Dragon Bone sword. This makes it more powerful, especially against Dragons of other types."
 			],
-			dependencies: [I;865],
-			id: 931,
+			dependencies: ["0000000000000361"],
+			id: "00000000000003A3",
 			tasks: [
 				{
-					id: 932,
+					id: "00000000000003A4",
 					type: "item",
 					item: "iceandfire:fire_dragon_blood"
 				},
 				{
-					id: 933,
+					id: "00000000000003A5",
 					type: "item",
 					item: "iceandfire:ice_dragon_blood"
 				},
 				{
-					id: 934,
+					id: "00000000000003A6",
 					type: "item",
 					item: "iceandfire:lightning_dragon_blood"
 				}
 			],
 			rewards: [{
-				id: 935,
+				id: "00000000000003A7",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 40
