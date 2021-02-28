@@ -746,6 +746,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "1609f60f-aed1-4f18-b8c7-872b6dc43d56",
+      "name": " Nickel (Buy)",
+      "description": "    Nickel is a metal commonly used to alloy and create things like Stainless Steel, Invar, and Constantan.",
+      "x": 40,
+      "y": 80,
+      "icon": {
+        "id": "silents_mechanisms:nickel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:nickel_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7ad0e7c1-cc56-4825-891c-47e5e6a96500",
       "name": " Terrasteel Ingot (Sell)",
       "description": "    Terrasteel is a powerful alloy with a bucket full of Mana compressed into it. Difficult to make and worth every penny.",
@@ -812,6 +850,40 @@
         {
           "id": "create:zinc_ore",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "05e66478-c409-435c-bd6b-3e6ec787037f",
+      "name": " Nickel (Sell)",
+      "description": "    Nickel is a metal commonly used to alloy and create things like Stainless Steel, Invar, and Constantan.",
+      "x": 270,
+      "y": 79,
+      "icon": {
+        "id": "silents_mechanisms:nickel_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:nickel_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 3
         }
       ],
       "rewardchoice": [],

@@ -40,43 +40,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "fb2a62e2-c2ae-4dcc-b061-8b0e14503852",
-      "name": " Dragonstone (Sell)",
-      "description": "    Dragonstones are obtained by trading in Mana Diamonds to the Elves of Alfheim.",
-      "x": 254,
-      "y": 84,
-      "icon": {
-        "id": "botania:dragonstone",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "botania:dragonstone",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 19
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "141c1635-56aa-4802-832b-cd5b7259ec6f",
       "name": " Emerald (Buy)",
       "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
@@ -109,6 +72,43 @@
         {
           "id": "minecraft:emerald_ore",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb2a62e2-c2ae-4dcc-b061-8b0e14503852",
+      "name": " Dragonstone (Sell)",
+      "description": "    Dragonstones are obtained by trading in Mana Diamonds to the Elves of Alfheim.",
+      "x": 254,
+      "y": 84,
+      "icon": {
+        "id": "botania:dragonstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:dragonstone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 19
         }
       ],
       "rewardchoice": [],
