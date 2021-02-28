@@ -2,6 +2,44 @@
   "name": "Minerals and Metals",
   "quests": [
     {
+      "uuid": "864f5bc5-ef2a-4646-ac23-5bbeb90b3e71",
+      "name": " Aluminum (Buy)",
+      "description": "    Aluminum is a good, lightweight metal excellent for various applications. \n    Aluminum\u0027s natural form is in Bauxite Ore.",
+      "x": 66,
+      "y": 50,
+      "icon": {
+        "id": "silents_mechanisms:aluminum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:bauxite_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1612ecd9-8fbb-482d-b2b1-a8796d3b462d",
       "name": " Neptunium Ingot (Sell)",
       "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
@@ -33,43 +71,6 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
-      "name": " Oratchalcum (Sell)",
-      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
-      "x": 171,
-      "y": 105,
-      "icon": {
-        "id": "rats:oratchalcum_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "rats:oratchalcum_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -183,13 +184,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "50b12977-1e21-4f78-99cf-e0c891c08ff0",
-      "name": " Quadrilium Ingot (Sell)",
-      "description": "    One of the most powerful non-magically augmented materials. ",
-      "x": 247,
-      "y": 49,
+      "uuid": "9a657f5e-a14b-4081-8e65-73f9b3c9ebe3",
+      "name": " Aluminum (Sell)",
+      "description": "    Aluminum is a good, lightweight metal excellent for various applications. \n    Aluminum\u0027s natural form is in Bauxite Ore.",
+      "x": 271,
+      "y": 50,
       "icon": {
-        "id": "powder_power:ingot_quadrilium",
+        "id": "silents_mechanisms:aluminum_ingot",
         "Count": 1
       },
       "repeat": {
@@ -201,7 +202,7 @@
           "items": [
             {
               "item": {
-                "id": "powder_power:ingot_quadrilium",
+                "id": "silents_mechanisms:aluminum_ingot",
                 "Count": 1
               }
             }
@@ -213,7 +214,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 15
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -252,6 +253,307 @@
         {
           "id": "rats:oratchalcum_ore",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "268b718f-92e6-4edf-b768-a5e1cde1e058",
+      "name": " Elementium Ingot (Sell)",
+      "description": "    Elementium is an Elven material only obtainable from Alfheim, which only Botania botanists know how to access.",
+      "x": 222,
+      "y": 79,
+      "icon": {
+        "id": "botania:elementium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:elementium_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
+      "name": " Redium Ingot (Sell)",
+      "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
+      "x": 221,
+      "y": 17,
+      "icon": {
+        "id": "powder_power:ingot_redium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:ingot_redium",
+                "Count": 2
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22ae0226-5e7e-4a8a-8c05-1ad44b7288cb",
+      "name": " Lapium Ingot (Sell)",
+      "description": "    Lapium is a strong material somewhere between Diamond and Netherrite.",
+      "x": 247,
+      "y": 17,
+      "icon": {
+        "id": "powder_power:ingot_lapium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:ingot_lapium",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "42d0e284-cf07-4274-957e-7fd36ec9419b",
+      "name": " Neptunium Ingot (Buy)",
+      "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
+      "x": 15,
+      "y": 79,
+      "icon": {
+        "id": "aquaculture:neptunium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "aquaculture:neptunium_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6eade0f9-75cc-4665-a901-9d057642be62",
+      "name": " Iron (Buy)",
+      "description": "    Iron is one of the most common and most useful metals.",
+      "x": 15,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eef71099-4185-4fee-8b3b-3cdfe700a43e",
+      "name": " Silver (Buy)",
+      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
+      "x": 40,
+      "y": 109,
+      "icon": {
+        "id": "iceandfire:silver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:silver_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
+      "name": " Oratchalcum (Sell)",
+      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
+      "x": 171,
+      "y": 105,
+      "icon": {
+        "id": "rats:oratchalcum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "rats:oratchalcum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "50b12977-1e21-4f78-99cf-e0c891c08ff0",
+      "name": " Quadrilium Ingot (Sell)",
+      "description": "    One of the most powerful non-magically augmented materials. ",
+      "x": 247,
+      "y": 49,
+      "icon": {
+        "id": "powder_power:ingot_quadrilium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:ingot_quadrilium",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 15
         }
       ],
       "rewardchoice": [],
@@ -362,82 +664,6 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "268b718f-92e6-4edf-b768-a5e1cde1e058",
-      "name": " Elementium Ingot (Sell)",
-      "description": "    Elementium is an Elven material only obtainable from Alfheim, which only Botania botanists know how to access.",
-      "x": 222,
-      "y": 79,
-      "icon": {
-        "id": "botania:elementium_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "botania:elementium_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 3
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
-      "name": " Redium Ingot (Sell)",
-      "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
-      "x": 221,
-      "y": 17,
-      "icon": {
-        "id": "powder_power:ingot_redium",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "powder_power:ingot_redium",
-                "Count": 2
-              },
-              "required": 2,
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -592,43 +818,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "22ae0226-5e7e-4a8a-8c05-1ad44b7288cb",
-      "name": " Lapium Ingot (Sell)",
-      "description": "    Lapium is a strong material somewhere between Diamond and Netherrite.",
-      "x": 247,
-      "y": 17,
-      "icon": {
-        "id": "powder_power:ingot_lapium",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "powder_power:ingot_lapium",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "35ecdce0-d443-4a18-b967-53ec60d8f7bc",
       "name": " Gemium Ingot (Sell)",
       "description": "    Gemium is a material that is stronger than Netherrite.",
@@ -666,82 +855,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "42d0e284-cf07-4274-957e-7fd36ec9419b",
-      "name": " Neptunium Ingot (Buy)",
-      "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
-      "x": 15,
-      "y": 79,
-      "icon": {
-        "id": "aquaculture:neptunium_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "aquaculture:neptunium_ingot",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6eade0f9-75cc-4665-a901-9d057642be62",
-      "name": " Iron (Buy)",
-      "description": "    Iron is one of the most common and most useful metals.",
-      "x": 15,
-      "y": 18,
-      "icon": {
-        "id": "minecraft:iron_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 5
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "f9c5991c-6f41-4aec-bdeb-6ddc295340ec",
       "name": " Trilium Ingot (Sell)",
       "description": "    Trilium is a material much stronger than Diamond, and the next step up from Gemium, even though its slightly cheaper.",
@@ -773,44 +886,6 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "eef71099-4185-4fee-8b3b-3cdfe700a43e",
-      "name": " Silver (Buy)",
-      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
-      "x": 40,
-      "y": 109,
-      "icon": {
-        "id": "iceandfire:silver_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "iceandfire:silver_ore",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
