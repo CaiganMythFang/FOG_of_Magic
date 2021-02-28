@@ -12,8 +12,11 @@ nonRandom = []
 
 [Trinket_Slots]
 	#Amount of Xp levels added to the next unlocking cost.
-	#Range: 0 ~ 20
+	#Range: 0 ~ 1000
 	slotUpFactor = 3
+	#Maximum number of trinket slots the player can have (does not remove unlocked slots)
+	#Range: 1 ~ 40
+	maxSlots = 40
 	#Numbers of trinket slots the player will start with (Only effect newer players!!).
 	#Range: 0 ~ 40
 	startSlots = 1
