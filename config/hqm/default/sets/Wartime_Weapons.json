@@ -1,0 +1,281 @@
+{
+  "name": "Wartime Weapons",
+  "quests": [
+    {
+      "uuid": "b1d066c1-1585-4111-bcca-6d8b53d10696",
+      "name": " Iron Gun (Buy)",
+      "description": "    The Iron Gun is a semi fast firing gun, but not super accurate. ",
+      "x": 17,
+      "y": 20,
+      "icon": {
+        "id": "gunswithoutroses:iron_gun",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gunswithoutroses:iron_gun",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a29d1d02-aba5-436f-bd9c-9ed40045bf6c",
+      "name": " Maw of Gluttony (Buy)",
+      "description": "    By having the Maws of Gluttony ammo, you will instead use your own food and hunger as a weapon. Beware, fast firing weapons can deplete your stomach quite fast!",
+      "x": 71,
+      "y": 52,
+      "icon": {
+        "id": "gunswithoutroses:hunger_bullet",
+        "Count": 1,
+        "tag": {}
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "gunswithoutroses:hunger_bullet",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "628aad01-ae8d-4a24-af86-2da5a8670c33",
+      "name": " Diamond Gatling (Buy)",
+      "description": "    The Diamond Gatling is a fast firing gun, but highly innaccurate. It does, however, have a chance of not spending ammo every shot.",
+      "x": 18,
+      "y": 52,
+      "icon": {
+        "id": "gunswithoutroses:diamond_gatling",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gunswithoutroses:diamond_gatling",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec76abc4-5bf4-4bfa-8d41-c0936b6968df",
+      "name": " Diamond Shotgun and Sniper",
+      "description": "    The Diamond Shotgun is an excellent close range weapon, but quite innaccurate at long range.\n    The Diamond Sniper, however, is quite accurate at long range, but has a slow fire rate.",
+      "x": 70,
+      "y": 19,
+      "icon": {
+        "id": "gunswithoutroses:diamond_shotgun",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "gunswithoutroses:diamond_shotgun",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "gunswithoutroses:diamond_sniper",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bb7f78f4-c497-4355-92b9-012b7efb922d",
+      "name": " Basic Bullets (Buy)",
+      "description": "    Flint Ammo is the cheapest, and does the least damage.\n    Iron Ammo is more expensive, but a good middle ground with damage.\n    Blaze Bullets do even more damage, as well as set targets on fire.",
+      "x": 45,
+      "y": 52,
+      "icon": {
+        "id": "gunswithoutroses:iron_bullet",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "gunswithoutroses:flint_bullet",
+          "Count": 64
+        },
+        {
+          "id": "gunswithoutroses:iron_bullet",
+          "Count": 8
+        },
+        {
+          "id": "gunswithoutroses:blaze_bullet",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "44a53705-02a5-49f3-bb32-8832bc9bedc2",
+      "name": " Unlock Wartime Weapons",
+      "description": "    Have a need for high tech weaponry against the hordes of undead and magical creatures? Well, buying ammo from me constantly is a hastle, so why not unlock it for yourself?",
+      "x": 153,
+      "y": 179,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_wartime_weapons true",
+        "me HAS LEARNED LOST KNOWLEDGE - WARTIME WEAPONS"
+      ]
+    },
+    {
+      "uuid": "4c1d69be-9e8f-43d8-822b-b67e846e9430",
+      "name": " Gold Gun (Buy)",
+      "description": "    The Gold Gun is quite similar to the Iron Gun, except its a bit less durable.\n   However, the Gold makes it much more enchantable.",
+      "x": 44,
+      "y": 20,
+      "icon": {
+        "id": "gunswithoutroses:gold_gun",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gunswithoutroses:gold_gun",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Looking for some decent tech weaponry to protect yourself? I may have just what you are looking for, Traveler!"
+}
