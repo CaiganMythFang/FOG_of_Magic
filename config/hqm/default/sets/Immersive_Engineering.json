@@ -1,0 +1,56 @@
+{
+  "name": "Immersive Engineering",
+  "quests": [
+    {
+      "uuid": "d1e87296-d8e1-496a-b4b5-27e32540d25b",
+      "name": " Beginner\u0027s Tools",
+      "description": "    These are some of the first materials you may need for working with Immersive Engineering.\n    The Engineer\u0027s Manual has instructions for constructing and using all manner of Engineering machine.\n    The Engineer\u0027s Hammer is needed to construct large structures and machines, and to rotate Conveyors.\n    The Engineer\u0027s Screwdriver lets you carefully configure some machines.",
+      "x": 17,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:manual",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:manual",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:hammer",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:screwdriver",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Big blast furnaces. Power lines. Steam and electricity and more is all at your fingertips. Not to mention, some Petroleum refinement.  Sounds intriguing, right?"
+}
