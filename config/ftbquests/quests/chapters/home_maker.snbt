@@ -1984,6 +1984,17 @@
 				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
+		},
+		{
+			x: -5.0d,
+			y: -6.75d,
+			shape: "square",
+			id: "7903CBDF0B395E09",
+			tasks: [{
+				id: "72C28A4D9156C326",
+				type: "checkmark",
+				title: "Magical World"
+			}]
 		}
 	]
 }
