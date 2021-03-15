@@ -120,7 +120,8 @@
 				"&6  Squares are Collect (and keep) &6quests!",
 				"&6  Diamonds are Collect (and turn in) &6quests!",
 				"&6  Hearts are Kill quests!",
-				"&6  Gears are Side Info/Pack Maker &6Notes"
+				"&6  Gears are Side Info/Pack Maker &6Notes",
+				"&6 Pentagons unlock when you complete a Questline fully!"
 			],
 			dependencies: ["0000000000000008"],
 			id: "000000000000000F",
