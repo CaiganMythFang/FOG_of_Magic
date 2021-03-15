@@ -1827,6 +1827,163 @@
 				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
+		},
+		{
+			title: "Musical Monstrosities",
+			icon: {
+				id: "instrumentalmobs:french_horn",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -3.0d,
+			y: -7.5d,
+			shape: "square",
+			subtitle: "&dMod: Instrumental Mobs",
+			description: [
+				"&dLooks like a lot of the undead are trying to start a band.",
+				"",
+				"What? What does...",
+				"",
+				"&dJust look, Traveler. Sometimes you can see one of them holding an instrument. Seem to know how to use em too...",
+				"",
+				"Oh. Hey, I want some of those instruments.",
+				"",
+				"&dAh, how about getting one of those French Horns? ",
+				"",
+				"Why?",
+				"",
+				"&dNo reason."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "2F2CFDCE6C21C9DE",
+			tasks: [{
+				id: "30E4854A233340AE",
+				type: "item",
+				item: {
+					id: "instrumentalmobs:french_horn",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "7B26DA86F7F0D9D7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Pocket Pets",
+			icon: {
+				id: "inventorypets:pet_siamese",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.0d,
+			y: -7.0d,
+			shape: "square",
+			subtitle: "&dMod: Inventory Pets",
+			description: [
+				"I saw this weird thing in a chest while exploring. It was... a dirt block with a face? It was creepy so I left it.",
+				"",
+				"&dAh, an Inventory Pet. There's a lot of latent magic in the air, and it sometimes gives strange magical intelligence to various things.",
+				"",
+				"Yeah but... wait, a sentient dirt block?",
+				"",
+				"&dI've seen stranger. You can craft a lot of these Inventory Pets. Their magical powers are limited, and you need to feed them to use these powers.",
+				"",
+				"How do they work?",
+				"",
+				"&dAs long as they are in your inventory, as well as the food they like, you can use them. I suggest having a Feed bag full if you have multiple pets."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "391252B5E8C8E4BD",
+			tasks: [
+				{
+					id: "16FEA981302E68F1",
+					type: "item",
+					item: {
+						id: "inventorypets:pet_pixie",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "25EEBFD254440E5F",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: []
+						},
+						id: "inventorypets:feed_bag",
+						Count: 1b,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: "1CA8CCCBDCB0C1BA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Unseating the Competition",
+			icon: {
+				id: "jousting:lance_wood",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 3.25d,
+			y: -5.75d,
+			shape: "square",
+			subtitle: "&dMod: Jousting",
+			description: [
+				"So, this is a magical world, lacking tech right? So, medieval?",
+				"",
+				"&dSomewhat. You'll have some advances in knowledge with how advanced magic is, but not everyone uses magic.",
+				"",
+				"&dSo things like old fashioned duels still exist. And jousting tournaments. Actually, you may want to know about Jousting.",
+				"",
+				"Why?",
+				"",
+				"&dWho knows who may challenge you? You can make Jousting Lances out of many things. The heavier they are, the more power they have to unseat your opponent, but are harder to keep holding up.",
+				"",
+				"&dWhen you have a lance and are on a horse, you can hold Right Click to lower the lance and speed up. But you'll eventually get tired, so timing it is key."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "3F3A608A864D91F7",
+			tasks: [{
+				id: "032CE09A0572AC49",
+				type: "item",
+				item: {
+					id: "jousting:lance_wood",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "116CDD6ABDA60297",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
 		}
 	]
 }
