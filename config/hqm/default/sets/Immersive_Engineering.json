@@ -2,6 +2,840 @@
   "name": "Immersive Engineering",
   "quests": [
     {
+      "uuid": "d01f8ff6-44c6-4060-86a0-50e326b8b236",
+      "name": " Multiblock Components - Blocks",
+      "description": "    These items are used in various multiblock machines.",
+      "x": 219,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:sheetmetal_iron",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:steel_fence",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:sheetmetal_iron",
+          "Count": 10
+        },
+        {
+          "id": "immersiveengineering:slab_sheetmetal_iron",
+          "Count": 20
+        },
+        {
+          "id": "immersiveengineering:slab_treated_wood_packaged",
+          "Count": 40
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c29d9761-64fb-4c7e-a91d-d702eaf9c69d",
+      "name": " Chemical Thrower",
+      "description": "    The Chemical Throwing lets you launch liquids and gasses as a weapon.\n    The Multitank lets you have multiple fluid tanks on the Chemical Thrower.\n    The Focused Nozzle lets the Thrower shoot farther and more accurately.",
+      "x": 272,
+      "y": 174,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 4,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:chemthrower",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 275 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 4,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:chemthrower",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_chemthrower_multitank",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_chemthrower_focus",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d4c9c6f9-b38b-4193-935f-ee471c23be18",
+      "name": " Treated Wood Products",
+      "description": "    Treated Wood is a specially coated wood. Normally it can be shaped like regular wood, but for some reason is considered Tech to the gods.",
+      "x": 17,
+      "y": 50,
+      "icon": {
+        "id": "immersiveengineering:treated_wood_horizontal",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:treated_wood_horizontal",
+          "Count": 16
+        },
+        {
+          "id": "immersiveengineering:stick_treated",
+          "Count": 64
+        },
+        {
+          "id": "immersiveengineering:treated_fence",
+          "Count": 32
+        },
+        {
+          "id": "immersiveengineering:treated_scaffold",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "456e113c-a099-4e11-a477-57095dc3f868",
+      "name": " Conveyors - Moving",
+      "description": "    Dropping Conveyors will drop the items that pass over it.\n    Splitting Conveyors will divide the items to the left and right evenly.",
+      "x": 271,
+      "y": 51,
+      "icon": {
+        "id": "immersiveengineering:conveyor_dropper",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:conveyor_dropper",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:conveyor_splitter",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:conveyor_droppercovered",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:conveyor_splittercovered",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0460bdcc-6572-455f-8e8b-602beb103620",
+      "name": " Wooden Storage",
+      "description": "    The Wooden Storage Crate is like a Chest, except it holds onto the contents when broken.\n    The Wooden Barrel can hold up to 12 buckets of a fluid.",
+      "x": 43,
+      "y": 51,
+      "icon": {
+        "id": "immersiveengineering:wooden_barrel",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:crate",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:wooden_barrel",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7a19315b-e118-47c0-8e56-ee03187335ab",
+      "name": " Drill Attachments",
+      "description": "    The Steel Drill is more durable and can mine tougher materials.\n    The Pressurized Air Tank lets the Mining Drill work under water.\n    The Additional Augers stack up to 3 times, and increases the Drills speed and damage.",
+      "x": 155,
+      "y": 143,
+      "icon": {
+        "id": "immersiveengineering:drillhead_steel",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:drillhead_steel",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_drill_waterproof",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_drill_damage",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "997643ec-71d5-4e7f-9d9e-49b33c8b5609",
+      "name": " Conveyors - Chutes",
+      "description": "    Chutes control where items and entities fall from Conveyors. They can put items into inventories, or onto belts.",
+      "x": 296,
+      "y": 51,
+      "icon": {
+        "id": "immersiveengineering:chute_iron",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:chute_iron",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:chute_steel",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:chute_aluminum",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:chute_copper",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "33dc32bf-a686-495a-b121-7161777a901a",
+      "name": " Wire Relays",
+      "description": "    Wire Relays are anchor points for Wires, but do not transfer power to other machines.",
+      "x": 43,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:connector_lv_relay",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:connector_lv_relay",
+          "Count": 3
+        },
+        {
+          "id": "immersiveengineering:connector_mv_relay",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:connector_hv_relay",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ca1ed527-e182-4868-a6fb-ea16887d8367",
+      "name": " Structural Connectors",
+      "description": "    These are different ways to mount cable connectors. Except the ladder, that\u0027s just a way to go up and down.",
+      "x": 18,
+      "y": 111,
+      "icon": {
+        "id": "immersiveengineering:treated_post",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:treated_post",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:treated_wallmount",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:connector_structural",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:metal_ladder_none",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "10cc1a39-cb98-47ad-bef8-0e69eab5fcc2",
+      "name": " Wire Coils - Basic",
+      "description": "    Wire Coils are used to hook up power to machines and other devices. The amount of power flowing through dictates which type of wire you should use so they don\u0027t burn out.",
+      "x": 132,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:wirecoil_copper",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:wirecoil_copper",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:wirecoil_electrum",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:wirecoil_steel",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7192d529-a3dd-4a35-a5dc-b0363bbb4324",
+      "name": " Kinetic Components",
+      "description": "    These components are for the Kinetic Dynamo to generate power with.\n    The Windmill Sail is used on a Windmill to generate even more power.",
+      "x": 92,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:watermill",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:watermill",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:windmill",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:windmill_sail",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f1399c22-59c5-43ba-8ba9-6120b9760cb5",
+      "name": " Fabric Creations",
+      "description": "    Jump Cushions safely break your fall if you land on them.\n    Strip Curtains can be used in doorways to block vision. But they also emit redstone signal when passed through.\n    The Balloon can be placed in mid-air, and acts like an anchor for cables.",
+      "x": 156,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:strip_curtain",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:cushion",
+          "Count": 5
+        },
+        {
+          "id": "immersiveengineering:strip_curtain",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:balloon",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "37d62f60-461f-4016-9f4c-03115a05f449",
+      "name": " Mining Drill",
+      "description": "    The Mining Drill is a powered mining tool that makes digging and mining easy. You need to install a drill head for it to work.",
+      "x": 132,
+      "y": 143,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 5,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:drill",
+        "Count": 1,
+        "tag": {}
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 200 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 5,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:drill",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "immersiveengineering:drillhead_iron",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad00ad68-d7ef-47a9-87f6-42b554888fd7",
+      "name": " Simple Wires",
+      "description": "    There\u0027s not much to do with these wires, but you may need them as components.\n    Each purchase comes with some Engineer\u0027s Wire Cutters.",
+      "x": 132,
+      "y": 51,
+      "icon": {
+        "id": "immersiveengineering:wire_copper",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:wirecutter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:wire_copper",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:wire_aluminum",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:wire_steel",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:wire_electrum",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "692c0cab-eaeb-4636-92ff-bd24e3cbd0ff",
+      "name": " Lights",
+      "description": "    Here is a variety of lights.  Lanterns don\u0027t require power, but the others do.",
+      "x": 132,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:lantern",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 150 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:lantern",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:electric_lantern",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:floodlight",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec986cad-1ca4-426a-aca9-90daef0f8930",
+      "name": " Engineer\u0027s Tools",
+      "description": "    The Engineer\u0027s Toolbox lets you hold various tools and components in it.\n    The Engineer\u0027s Skyhook lets you hook onto and ride some cables.\n    The Jerrycan is useful for transporting liquids and refueling machines.\n    The Lubricant Can is specially for Petroleum machinery and keeping it working right.\n    Every order comes with Ear Defenders, which protect your ears. They can be dyed!",
+      "x": 219,
+      "y": 81,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 23,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:toolbox",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:earmuffs",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 23,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:toolbox",
+          "Count": 1
+        },
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 2,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:skyhook",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:jerrycan",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:oil_can",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "d1e87296-d8e1-496a-b4b5-27e32540d25b",
       "name": " Beginner\u0027s Tools",
       "description": "    These are some of the first materials you may need for working with Immersive Engineering.\n    The Engineer\u0027s Manual has instructions for constructing and using all manner of Engineering machine.\n    The Engineer\u0027s Hammer is needed to construct large structures and machines, and to rotate Conveyors.\n    The Engineer\u0027s Screwdriver lets you carefully configure some machines.",
@@ -45,6 +879,1980 @@
         },
         {
           "id": "immersiveengineering:screwdriver",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c0724339-5033-442b-8b20-e878a930cb03",
+      "name": " Empty Cases",
+      "description": "    You can craft yourself custom ammo in an Engineer\u0027s Workbench, but you\u0027ll need some basic empty Shells and Casings.\n    Or you can buy one of our special Firework rounds as well.",
+      "x": 245,
+      "y": 143,
+      "icon": {
+        "id": "immersiveengineering:empty_casing",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:empty_casing",
+          "Count": 5
+        },
+        {
+          "id": "immersiveengineering:empty_shell",
+          "Count": 10
+        },
+        {
+          "id": "immersiveengineering:firework",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2057e000-b10f-4ced-9ca0-2d170cecee54",
+      "name": " Workbenches and Things",
+      "description": "    The Engineer\u0027s Crafting Table is like a normal Workbench but can keep items held.\n    The Engineer\u0027s Work Bench is a specialized table that can craft and upgrade some items. It is indispensible for an Engineer.\n    The Gunpowder Barrel is good for gathering materials, as it acts like TNT but does not destroy some of the material.\n    Asphalt Concrete is excellent to make sidewalks with, as you will move faster on it.",
+      "x": 42,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:workbench",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:craftingtable",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:workbench",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:gunpowder_barrel",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:asphalt",
+          "Count": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bbdbd380-de77-4653-b0bb-478f6f60ee15",
+      "name": " Multiblock Components - Power",
+      "description": "    These items are used in various multiblock machines.",
+      "x": 245,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:radiator",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 200 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:steel_scaffolding_grate_top",
+          "Count": 50
+        },
+        {
+          "id": "immersiveengineering:radiator",
+          "Count": 10
+        },
+        {
+          "id": "immersiveengineering:generator",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1e195039-e8d9-4dd3-b968-94208e158849",
+      "name": " Multiblock Components - Engi",
+      "description": "    These items are used in various multiblock machines.",
+      "x": 271,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:light_engineering",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:light_engineering",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:heavy_engineering",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:rs_engineering",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a0fa5fb3-e9f0-448a-96ab-610602f0c2aa",
+      "name": " Conveyor - Special",
+      "description": "    The Redstone Controlled Conveyor Belt can be started and stopped with a Redstone signal.\n    The Extractor Conveyor Belt pulls items out of the connected inventory and puts them on the belt. Comes in Covered style as well.",
+      "x": 245,
+      "y": 51,
+      "icon": {
+        "id": "immersiveengineering:conveyor_redstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:conveyor_redstone",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:conveyor_extract",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:conveyor_extractcovered",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc6487e5-05e3-4ddc-9a78-dd84e9a4dda1",
+      "name": " Multiblock Components - Coils",
+      "description": "    These items are used in various multiblock machines.",
+      "x": 296,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:coil_lv",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:coil_lv",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:coil_mv",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:coil_hv",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e3e57915-7b2e-4ae8-994a-488df7b0a306",
+      "name": " Routing Things",
+      "description": "    The Item Router lets you separate items to different routes on conveyor belts.\n    The Item Batch does similar, but collects a set of items you choose before moving them.\n    The Fluid Router is like the Item Router.\n    ",
+      "x": 45,
+      "y": 142,
+      "icon": {
+        "id": "immersiveengineering:sorter",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:sorter",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:item_batcher",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:fluid_sorter",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3ac6cc89-3915-47ad-899c-91a2aa856b00",
+      "name": " Breakers and Transformers",
+      "description": "    Transformers let you convert between wire types when running wires.\n    The Current Transformer measures the current passing through it.\n    Breakers let you stop and start the flow of power or redstone signal when you flip them.\n    Each purchase comes with a free Breaker Switch",
+      "x": 219,
+      "y": 111,
+      "icon": {
+        "id": "immersiveengineering:breaker_switch",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 200 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:breaker_switch",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:transformer",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:transformer_hv",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:current_transformer",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:redstone_breaker",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "395cd140-1142-4983-8b5f-b1c60fb8ac31",
+      "name": " Power Generation",
+      "description": "    The Kinetic Dynamo generates power from waterwheels or windmills (sold separately).\n    The Thermoelectric Generator generates power from the difference of temperature of various things.\n    The Portable Generator takes gas or other liquids to generate power.",
+      "x": 68,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:dynamo",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:dynamo",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:thermoelectric_generator",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:gas_generator",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "20b63360-9fd0-4b27-842b-c05ac7fb8b64",
+      "name": " Various Machines 1",
+      "description": "    The Blast Furnace Preheater is used to heat up the Blast Furnace faster.\n    The Flarestack is for burning away excess Lubricant.\n    The Core Sample Drill is used with the Mining Survey Tools to search out special Ore Veins for the Excavator.",
+      "x": 271,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:blastfurnace_preheater",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:fluorescent_tube",
+          "Count": 1,
+          "tag": {
+            "rgb": {
+              "r": 1.0,
+              "b": 1.0,
+              "g": 1.0
+            }
+          }
+        },
+        {
+          "id": "immersiveengineering:survey_tools",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:blastfurnace_preheater",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:flarestack",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:sample_drill",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "082084d9-759f-4960-9f49-c2b032e892c3",
+      "name": " Buzzsaw Attachments",
+      "description": "    The Diamond Buzzsaw Blade is a much more durable sawblade.\n    You can use a Sawblade Quiver to hold multiple sawblades for quick transfering. You get one free for buying a Diamond Buzzsaw Blade.",
+      "x": 156,
+      "y": 114,
+      "icon": {
+        "id": "immersiveengineering:rockcutter",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 350 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:toolupgrade_buzzsaw_spareblades",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:rockcutter",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e18a53d4-a656-4985-a4b1-690e550cd1ea",
+      "name": " Capacitors",
+      "description": "    Capacitors store energy.\n    Each purchase comes with a Voltmeter to check your power lines.",
+      "x": 91,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:capacitor_lv",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:voltmeter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:capacitor_lv",
+          "Count": 3
+        },
+        {
+          "id": "immersiveengineering:capacitor_mv",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:capacitor_hv",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5144a0e2-f0aa-4b72-9742-7a725af8aa63",
+      "name": " Powered Motorboat",
+      "description": "    The Powered Motorboat is not quite available, or is it? These items are upgrades to it, but are useless unless you\u0027ve gotten one of the Powered Motorboats.",
+      "x": 180,
+      "y": 20,
+      "icon": {
+        "id": "immersivepetroleum:upgrade_reinforced_hull",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersivepetroleum:upgrade_paddles",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "immersivepetroleum:upgrade_icebreaker",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:upgrade_tank",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:upgrade_rudders",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:upgrade_reinforced_hull",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c47f3b47-88b6-4bcc-9e3d-798fc57fc759",
+      "name": " Heavy Plated Shield",
+      "description": "    The Heavy Plated Shield is a durable shield that can be upgraded with a variety of things.\n    The Flashbulb can be used to blind enemies.\n    The Shock Emitters can be used to stun enemies you hit with the shield.\n    The Magnetic Glove will automatically equip the Shield at the press of a button.",
+      "x": 298,
+      "y": 144,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 2,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:shield",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 2,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:shield",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_shield_flash",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_shield_shock",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_shield_magnet",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f07f683-a5ee-4e1b-a037-6b67f2232fda",
+      "name": " Conveyors - Basic",
+      "description": "    Basic Horizontal and Vertical Conveyors, in both regular and Covered versions.",
+      "x": 219,
+      "y": 50,
+      "icon": {
+        "id": "immersiveengineering:conveyor_basic",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:conveyor_basic",
+          "Count": 8
+        },
+        {
+          "id": "immersiveengineering:conveyor_vertical",
+          "Count": 8
+        },
+        {
+          "id": "immersiveengineering:conveyor_covered",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:conveyor_verticalcovered",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c76feb9-e628-4ec7-ab4a-0338ea67956b",
+      "name": " Saw and Drill Upgrades",
+      "description": "    The Large Tank increases the internal capacity.\n    The Advanced Lubraction System lowers the damage the Blade or Drill takes whne used.\n    The Capacitor Backpack is great for many mining tools, letting you carry around much more power for all of them.",
+      "x": 182,
+      "y": 126,
+      "icon": {
+        "id": "immersiveengineering:powerpack",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:toolupgrade_drill_capacity",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_drill_lube",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:powerpack",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ef040ef2-a0df-4816-9092-8f0955bb53c0",
+      "name": " Unlock Immersive Engineering",
+      "description": "    Looking for big machines, conveyor belts, steampunk weapons, and more? ",
+      "x": 153,
+      "y": 180,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 6
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_immersive_engineering true",
+        "me HAS LEARNED LOST KNOWLEDGE - IMMERSIVE ENGINEERING"
+      ]
+    },
+    {
+      "uuid": "06e097b6-2960-4613-b520-4937fbd55f87",
+      "name": " Starter Multiblocks",
+      "description": "    Each of these Brick types makes a different multiblock oven or furnace. Refer to the engineering manual to see how to build them.",
+      "x": 91,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:alloybrick",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:cokebrick",
+          "Count": 27
+        },
+        {
+          "id": "immersiveengineering:alloybrick",
+          "Count": 8
+        },
+        {
+          "id": "immersiveengineering:blastbrick",
+          "Count": 27
+        },
+        {
+          "id": "immersiveengineering:blastbrick_reinforced",
+          "Count": 7
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "50d4150e-5ed1-4d6d-95af-d90e6849a06c",
+      "name": " Faraday Armor",
+      "description": "    Faraday Armor helps protect you against the Tesla Coil when it is in low power mode.",
+      "x": 296,
+      "y": 82,
+      "icon": {
+        "id": "immersiveengineering:armor_faraday_chest",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:armor_faraday_head",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:armor_faraday_chest",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:armor_faraday_legs",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:armor_faraday_feet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "54fe7328-27a8-4da4-b37d-a5adf749b6a6",
+      "name": " Wire Coils - Insulated",
+      "description": "    Redstone Wire transmits redstone signals.\n    Insulated Wires will not electrocute you if you touch them.",
+      "x": 156,
+      "y": 82,
+      "icon": {
+        "id": "immersiveengineering:wirecoil_redstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:wirecoil_redstone",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:wirecoil_copper_ins",
+          "Count": 4
+        },
+        {
+          "id": "immersiveengineering:wirecoil_electrum_ins",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d4c35b7c-7c33-4268-bbd7-cc37c3aa854b",
+      "name": " Wire Connectors",
+      "description": "    Wire Connectors are for running wires across your base, and for transfering power in and out of machines. You can also run them through solid blocks by putting the same type of Connector on either side. ",
+      "x": 17,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:connector_lv",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:connector_lv",
+          "Count": 3
+        },
+        {
+          "id": "immersiveengineering:connector_mv",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:connector_hv",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3222aeb9-c650-4919-a945-015e08f89257",
+      "name": " Redstone Wire Connections",
+      "description": "    These Redstone Wire connections are for Redstone Wire instead of power wires.",
+      "x": 67,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:connector_redstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:connector_redstone",
+          "Count": 3
+        },
+        {
+          "id": "immersiveengineering:connector_bundled",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:connector_probe",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "25b61f7f-5518-49b5-8540-1a17a04bad90",
+      "name": " Railgun",
+      "description": "    The Railgun is a powerful weapon",
+      "x": 220,
+      "y": 174,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 3,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:railgun",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 3,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:railgun",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f65852b-ec57-49ff-84ef-8dbe767d00a3",
+      "name": " Buzzsaw",
+      "description": "    The Buzzsaw is a powerful tool for cutting down trees and foliage. It needs to be equipped with a Sawblade.",
+      "x": 132,
+      "y": 113,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 5,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:buzzsaw",
+        "Count": 1,
+        "tag": {}
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 5,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:buzzsaw",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "immersiveengineering:sawblade",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5746ecc8-56ab-4801-9661-5b92a3aec710",
+      "name": " Revolver Specials",
+      "description": "    The Bayonet is attached to the front of your Revolver for extra melee damage.\n    You can load up a Speed Loader and quickly reload your Revolver that way.",
+      "x": 272,
+      "y": 143,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 8,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:speedloader",
+        "Count": 1,
+        "tag": {
+          "bullets": []
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:toolupgrade_revolver_bayonet",
+          "Count": 1
+        },
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 8,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:speedloader",
+          "Count": 1,
+          "tag": {
+            "bullets": []
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0b07265a-c0c4-4bc0-8677-db78b16ec2d5",
+      "name": " Steel Tools",
+      "description": "    Steel Tools are a little better than Iron Tools.\n    Each purchase comes with a Steel Hoe.",
+      "x": 245,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:pickaxe_steel",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:hoe_steel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:pickaxe_steel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:shovel_steel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:axe_steel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:sword_steel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "662826ea-1432-4c10-a26f-a56686905d14",
+      "name": " Wire Coils - Decorative",
+      "description": "    These Wire Coils are decorative in function.",
+      "x": 181,
+      "y": 82,
+      "icon": {
+        "id": "immersiveengineering:wirecoil_structure_steel",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:wirecoil_structure_steel",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:wirecoil_structure_rope",
+          "Count": 10
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "33995159-92f1-4ad9-a5c0-eac2743ba121",
+      "name": " Powerful Machines",
+      "description": "    The Garden Cloche can be used to grow and duplicate seeds and plants.\n    The Tesla Coil uses a lot of power to create a lightning bolt for defense.\n    The Gun and Chemical Thrower turrets are what they say on the tin.",
+      "x": 245,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:cloche",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 500 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:cloche",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:tesla_coil",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:turret_chem",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:turret_gun",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ef988be3-f86f-40f6-a487-0ae71adf0aad",
+      "name": " Fluid Things",
+      "description": "    The Fluid Pump moves fluids through Fluid Pipes.\n    The Fluid Outlet gets put at the end of a Fluid Pipe chain to pour the liquid out into the world.",
+      "x": 20,
+      "y": 141,
+      "icon": {
+        "id": "immersiveengineering:fluid_pump",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:fluid_pump",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:fluid_pipe",
+          "Count": 16
+        },
+        {
+          "id": "immersiveengineering:fluid_placer",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8dd31681-9b18-4f47-8a9c-d6179d0fdb79",
+      "name": " Misc Items",
+      "description": "    Insulating Glass is needed for some things.\n    The Automated Lubricator keeps your Petroleum machines in an area lubricated.\n    The Projector is supposed to help you construct big multiblock machines by crafting it  with the book turned to the page you want.",
+      "x": 92,
+      "y": 51,
+      "icon": {
+        "id": "immersiveengineering:insulating_glass",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:insulating_glass",
+          "Count": 10
+        },
+        {
+          "id": "immersivepetroleum:auto_lubricator",
+          "Count": 1
+        },
+        {
+          "id": "immersivepetroleum:projector",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8e2189fc-235e-427b-9795-2e40612bdf74",
+      "name": " Revolver",
+      "description": "    The Revolver is a personal weapon capable of being loaded with multiple types of cartridges.\n    The Extended Magazine increases the Revolver\u0027s ammo count.\n    Amplifier Electron Tubes make each shot electrified.",
+      "x": 219,
+      "y": 142,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 21,
+            "Items": []
+          }
+        },
+        "id": "immersiveengineering:revolver",
+        "Count": 1,
+        "tag": {
+          "bullets": []
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 21,
+              "Items": []
+            }
+          },
+          "id": "immersiveengineering:revolver",
+          "Count": 1,
+          "tag": {
+            "bullets": []
+          }
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_revolver_magazine",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_revolver_electro",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c1161071-2b52-405b-afc2-efd2773fe635",
+      "name": " Blueprints",
+      "description": "    Your Engineer\u0027s Workbench will need blueprints to make many of the items. Each of these Blueprints is needed for different areas of expertise.",
+      "x": 66,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:blueprint",
+        "Count": 1,
+        "tag": {
+          "blueprint": "bannerpatterns"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:blueprint",
+          "Count": 1,
+          "tag": {
+            "blueprint": "bannerpatterns"
+          }
+        },
+        {
+          "id": "immersiveengineering:blueprint",
+          "Count": 1,
+          "tag": {
+            "blueprint": "bullet"
+          }
+        },
+        {
+          "id": "immersiveengineering:blueprint",
+          "Count": 1,
+          "tag": {
+            "blueprint": "components"
+          }
+        },
+        {
+          "id": "immersiveengineering:blueprint",
+          "Count": 1,
+          "tag": {
+            "blueprint": "molds"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b06af61a-902e-45f1-8bad-ac7a7baf6923",
+      "name": " Better Structural Connectors",
+      "description": "    These structural connectors are made out of metal. ",
+      "x": 43,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:alu_post",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 7
+              },
+              "required": 7
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:alu_post",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:steel_post",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:steel_wallmount",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:alu_wallmount",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb3c6243-6ecc-4b76-aef8-c6b4b4967667",
+      "name": " Steel Armor",
+      "description": "    Steel Armor is slightly better than Iron Armor",
+      "x": 271,
+      "y": 82,
+      "icon": {
+        "id": "immersiveengineering:armor_steel_chest",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:armor_steel_head",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:armor_steel_chest",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:armor_steel_legs",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "immersiveengineering:armor_steel_feet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cd321daa-39f1-40cb-a1c3-48258a8325bf",
+      "name": " Metal Storage",
+      "description": "    The Reinforced Storage Crate is like the normal Wooden Storage Crate, but is much more blast resistant.\n    The Metal Barrel is like the Wooden Barrel, but it can hold hot liquids and gasses as well.",
+      "x": 67,
+      "y": 51,
+      "icon": {
+        "id": "immersiveengineering:metal_barrel",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:reinforced_crate",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:metal_barrel",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8695a9ad-adb5-445d-a3b2-e636d4615749",
+      "name": " Various Machines 2",
+      "description": "    The Razor Wire is a defensive block.\n    The Charging Station can be used to recharge tools.\n    Turntables turn blocks placed on them.\n    The external heater can be powered to heat up Furnaces next to it.",
+      "x": 297,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:turntable",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:razor_wire",
+          "Count": 6
+        },
+        {
+          "id": "immersiveengineering:charging_station",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:turntable",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:furnace_heater",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb0ec668-71e6-4633-ac92-d49095272d6b",
+      "name": " Railgun Accessories",
+      "description": "    The Advanced Heatsink reduces the Railgun recharge time.\n    The Precision Scope lets you zoom in the Railgun when aiming.",
+      "x": 245,
+      "y": 174,
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_railgun_capacitors",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:toolupgrade_railgun_capacitors",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:toolupgrade_railgun_scope",
           "Count": 1
         }
       ],
