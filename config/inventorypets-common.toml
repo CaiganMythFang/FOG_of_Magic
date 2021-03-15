@@ -30,7 +30,7 @@
 	#Allow Sun pet abilities to affect other players (default:false)
 	enableDubstepAffectsPlayers = false
 	#Disable the Mooshroom pet (default:false)
-	disableMooshroom = false
+	disableMooshroom = true
 	#Disable the Christmas Tree pet (default:false)
 	disableChristmasTree = false
 	#Disable the Ghast pet (default:false)
@@ -87,7 +87,7 @@
 	#Disable the Chest pet (default:false)
 	disableChest = false
 	#Disable the Anvil pet (default:false)
-	disableAnvil = false
+	disableAnvil = true
 	#Disable the Creeper pet (default:false)
 	disableCreeper = true
 	#Illuminati cooldown duration in minutes (default: 1)
@@ -100,7 +100,7 @@
 	#Disable the Juggernaut pet (default:false)
 	disableJuggernaut = false
 	#Disable the (default:false)
-	disableBrewingStand = false
+	disableBrewingStand = true
 	#Disable the April Fool pet (default:false)
 	disableAprilFool = false
 	#Frequency of Tree Tops (default: 5)
@@ -249,7 +249,7 @@
 	#Disable the Wolf pet (default:false)
 	disableWolf = false
 	#Disable the Enderman pet (default:false)
-	disableEnderman = false
+	disableEnderman = true
 	#Disable the Chicken pet (default:false)
 	disableChicken = false
 	#Disable the Bed pet (default:false)
@@ -263,7 +263,7 @@
 	#Disable the Petrifier (default:false)
 	disablePetrifier = false
 	#Disable the Enchanting Table pet (default:false)
-	disableEnchantingTable = false
+	disableEnchantingTable = true
 	#Disable the Pingot pet (default:false)
 	disablePingot = false
 
