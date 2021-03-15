@@ -86,6 +86,9 @@
         "id": "create:copper_ingot",
         "Count": 1
       },
+      "repeat": {
+        "type": "INSTANT"
+      },
       "tasks": [
         {
           "type": "CONSUME",
@@ -157,6 +160,9 @@
       "icon": {
         "id": "create:zinc_ingot",
         "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {
@@ -296,6 +302,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "9e68dacd-0064-4e9d-977d-cbfb3881a4d5",
+      "name": " Electrum (Sell)",
+      "description": "    Electrum is a precious alloy of Gold and Silver, and a useful material for both circuits and magic.",
+      "x": 295,
+      "y": 50,
+      "icon": {
+        "id": "silents_mechanisms:electrum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:electrum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
       "name": " Redium Ingot (Sell)",
       "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
@@ -328,6 +371,44 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
+      "name": " Lead (Buy)",
+      "description": "    Lead is a heavy metal, good for protective barriers.",
+      "x": 65,
+      "y": 81,
+      "icon": {
+        "id": "eidolon:lead_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:lead_ore",
           "Count": 1
         }
       ],
@@ -486,6 +567,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "ff8a48b3-955b-449f-ad5a-96808ea11599",
+      "name": " Uranium (Sell)",
+      "description": "    Uranium is a rare, valuable material used for power generation.",
+      "x": 222,
+      "y": 107,
+      "icon": {
+        "id": "silents_mechanisms:uranium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:uranium_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 14
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
       "name": " Oratchalcum (Sell)",
       "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
@@ -554,6 +672,43 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 15
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d5533b9a-05fc-4bf0-b1b7-34cb03fe1a2e",
+      "name": " Steel (Sell)",
+      "description": "    Steel is refined Iron, the impurities removed. ",
+      "x": 295,
+      "y": 80,
+      "icon": {
+        "id": "silents_mechanisms:steel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:steel_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -643,6 +798,9 @@
       "icon": {
         "id": "create:copper_ingot",
         "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {
@@ -830,6 +988,9 @@
         "id": "create:zinc_ingot",
         "Count": 1
       },
+      "repeat": {
+        "type": "INSTANT"
+      },
       "tasks": [
         {
           "type": "CONSUME",
@@ -864,6 +1025,9 @@
       "icon": {
         "id": "silents_mechanisms:nickel_ingot",
         "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {
@@ -927,6 +1091,80 @@
       "commandrewards": []
     },
     {
+      "uuid": "b4a580e6-27cb-435f-ac53-c9b449611f29",
+      "name": " Constantan (Sell)",
+      "description": "    Constantan is an alloy of Copper and Nickel, used in certain industrial machinery.",
+      "x": 294,
+      "y": 18,
+      "icon": {
+        "id": "immersiveengineering:ingot_constantan",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:ingot_constantan",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5968adf2-9586-40eb-a63a-42e33ac8445e",
+      "name": " Lead (Sell)",
+      "description": "    Lead is a heavy metal, good for protective barriers.",
+      "x": 247,
+      "y": 108,
+      "icon": {
+        "id": "eidolon:lead_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:lead_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "f9c5991c-6f41-4aec-bdeb-6ddc295340ec",
       "name": " Trilium Ingot (Sell)",
       "description": "    Trilium is a material much stronger than Diamond, and the next step up from Gemium, even though its slightly cheaper.",
@@ -958,6 +1196,44 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "597e2543-a1ef-450d-8d69-34e217a83841",
+      "name": " Uranium (Buy)",
+      "description": "    Uranium is a rare, valuable material used for power generation.",
+      "x": 65,
+      "y": 110,
+      "icon": {
+        "id": "silents_mechanisms:uranium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 70
+              },
+              "required": 70
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:uranium_ore",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
