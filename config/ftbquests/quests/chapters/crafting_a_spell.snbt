@@ -883,7 +883,9 @@
 				"",
 				"Right Clicking a Wixie Charm on a normal Cauldron will sommon them. Wixies can craft things automatically for me if given the resources nearby and some Mana. I just need to Right Click the item onto the Cauldron I want the Wixie to keep crafting.",
 				"",
-				"&dTraveler, be careful. The Wixie is &dpersistant and will craft an item with &dany valid resource it can. If you want &da Wixie to make sticks, make sure your &drare wood is not near it."
+				"&dTraveler, be careful. The Wixie is &dpersistant and will craft an item with &dany valid resource it can. If you want &da Wixie to make sticks, make sure your &drare wood is not near it.",
+				"",
+				"&dThough, note the Wixie is not versed in Lost Knowledge, and won't know how to make these items."
 			],
 			dependencies: ["0000000000000155"],
 			id: "0000000000000164",
@@ -1101,6 +1103,40 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 30
+			}]
+		},
+		{
+			x: -7.321428571428569d,
+			y: 4.910714285714285d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"0000000000000130",
+				"0000000000000147",
+				"000000000000011A",
+				"0000000000000121",
+				"0000000000000141",
+				"0000000000000178",
+				"0000000000000164",
+				"0000000000000160",
+				"0000000000000169",
+				"0000000000000172",
+				"0000000000000175",
+				"000000000000014E",
+				"0000000000000152"
+			],
+			size: 1.25d,
+			id: "379177301F86B21E",
+			tasks: [{
+				id: "716233D7C5787446",
+				type: "checkmark",
+				title: "&dCompleted Lesson: Ars Nouveau",
+				icon: "contenttweaker:forbiddencoin"
+			}],
+			rewards: [{
+				id: "571E0D6595BC4B64",
+				type: "item",
+				item: "contenttweaker:forbiddencoin"
 			}]
 		}
 	]
