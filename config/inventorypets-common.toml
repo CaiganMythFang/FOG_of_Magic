@@ -71,7 +71,7 @@
 	#Disable the Spider pet (default:false)
 	disableSpider = false
 	#Disable the Slime pet (default:false)
-	disableSlime = false
+	disableSlime = true
 	#Disable Spider Pet jump ability (default:false)
 	disableSpiderJump = false
 	#Disable the Jukebox pet (default:false)
@@ -124,7 +124,7 @@
 	#Allow Pufferfish pet abilities to affect other players (default:false)
 	enablePufferfishAffectsPlayers = false
 	#Disable the Cloud pet (default:false)
-	disableCloud = false
+	disableCloud = true
 	#Disable the Saddle pet (default:false)
 	disableSaddle = false
 	#Disable the disableing Table pet (default:false)
@@ -166,7 +166,7 @@
 	#Display the names of the fans who suggested pets (default:true)
 	showSuggestors = true
 	#Disable the Moon pet (default:false)
-	disableMoon = false
+	disableMoon = true
 	#Turn off Nether dungeons (default:false)
 	disableNetherDungeons = false
 	#All players must be in bed for Bed Pet sleep ability (default:false)
@@ -217,7 +217,7 @@
 	#Disable the Illuminati pet (default:false)
 	disableIlluminati = false
 	#Disable the Black Hole pet (default:false)
-	disableBlackHole = false
+	disableBlackHole = true
 	#Disable the PacMan pet (default:false)
 	disablePacMan = false
 	#Disable the Sheep pet (default:false)
@@ -240,7 +240,7 @@
 	#Disable the House pet (default:false)
 	disableHouse = false
 	#Disable the Wither pet (default:false)
-	disableWither = false
+	disableWither = true
 	#Cloud Pet fly speed (default:3)
 	#Range: 1 ~ 4
 	cloudFlySpeed = 3
@@ -261,7 +261,7 @@
 	#Range: 1 ~ 3
 	illuminatiInvisibleDuration = 1
 	#Disable the Petrifier (default:false)
-	disablePetrifier = false
+	disablePetrifier = true
 	#Disable the Enchanting Table pet (default:false)
 	disableEnchantingTable = true
 	#Disable the Pingot pet (default:false)
