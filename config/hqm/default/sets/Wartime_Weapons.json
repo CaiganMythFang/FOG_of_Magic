@@ -62,7 +62,36 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -96,7 +125,22 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -132,7 +176,22 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -219,7 +278,15 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
         }
       ],
       "prerequisites": [],

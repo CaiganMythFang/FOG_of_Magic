@@ -5,15 +5,65 @@
       "uuid": "abd5fc0a-7318-48b4-b22d-70e02594a6d8",
       "name": " Basic and Not So Basic",
       "description": "    My shop pages are split into two sections, for your convenience.\n    The first section is basic items. Unrefined resources, simple items. The basics, Traveler.\n    The other section contains more complex things. Things Kow and I have to work our knowledge on to get to your world. So they will be much more... expensive.",
-      "x": 43,
+      "x": 63,
       "y": 19,
       "icon": {
         "id": "minecraft:iron_ingot",
         "Count": 1
       },
-      "prerequisites": [],
+      "prerequisites": [
+        "7829fb82-52e7-4513-b757-0917c0117302"
+      ],
       "optionlinks": [],
       "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a2289bd8-3cae-4c58-90d5-0a64cd39402d",
+      "name": " Forbidden Knowledge Coin",
+      "description": "    So Traveler. My sister and I came up with a good way to... incentivize you into both completing her lessons, and in selling resources to me.\n   They are called Forbidden Knowledge Coins. \n    You can complete each lesson for one of these coins. Or you can earn money, and buy them from me directly. \n    You can then spend these Forbidden Knowledge Coins to have us Unlock Lost Knowledge for you. Each Lost Knowledge Unlock costs a different amount of Coins, so keep working hard!",
+      "x": 38,
+      "y": 83,
+      "bigicon": true,
+      "icon": {
+        "id": "contenttweaker:forbiddencoin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "39104fc4-c800-4a44-ab32-240e1395862d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:forbiddencoin",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -21,13 +71,15 @@
       "uuid": "39104fc4-c800-4a44-ab32-240e1395862d",
       "name": " The Price of Knowledge",
       "description": "    Now, we can get technology to you two ways, Traveler.\n    The first way is easy. You can buy specific things from me for a price. It is expensive, but not as much as the raw materials really.\n    The other way is empowering you with what they called Lost Knowledge. It\u0027s very expensive, as the reagents for the rituals are nothing to sneeze at.\n    But what you get is the ability to make everything from a section of Lost Knowledge yourself. And that is infinitely cheaper than buying everything from me.",
-      "x": 69,
-      "y": 19,
+      "x": 41,
+      "y": 49,
       "icon": {
         "id": "ars_nouveau:creative_spell_book",
         "Count": 1
       },
-      "prerequisites": [],
+      "prerequisites": [
+        "abd5fc0a-7318-48b4-b22d-70e02594a6d8"
+      ],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],

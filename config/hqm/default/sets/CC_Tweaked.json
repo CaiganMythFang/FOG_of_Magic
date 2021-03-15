@@ -23,7 +23,22 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -74,8 +89,30 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "longDescription": " ",
-          "items": []
+          "longDescription": "\n    Total Price: 325 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -195,8 +232,16 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "longDescription": " ",
-          "items": []
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -365,7 +410,16 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -477,7 +531,15 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -520,7 +582,15 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -771,8 +841,30 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "longDescription": " ",
-          "items": []
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -835,7 +927,23 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "longDescription": "\n    Total Price : 250 Gold Dubloons",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -894,7 +1002,16 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
         }
       ],
       "prerequisites": [],

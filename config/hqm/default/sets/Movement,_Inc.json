@@ -79,10 +79,9 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 80
-              },
-              "required": 80
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
             }
           ]
         }

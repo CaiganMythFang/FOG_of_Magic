@@ -21,10 +21,9 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 25
-              },
-              "required": 25
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
             }
           ]
         }

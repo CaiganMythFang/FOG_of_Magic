@@ -26,13 +26,14 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "longDescription": "    Total Price : 175 Gold Dubloons",
           "items": [
             {
               "item": {
                 "id": "calemiutils:coin_dollar",
-                "Count": -6
+                "Count": 100
               },
-              "required": 250
+              "required": 100
             }
           ]
         }
@@ -162,10 +163,9 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
             }
           ]
         }
@@ -237,13 +237,42 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": -30
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 4
               },
-              "required": 1250
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
             }
           ]
         }
