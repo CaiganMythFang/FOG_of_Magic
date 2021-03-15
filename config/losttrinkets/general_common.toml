@@ -16,7 +16,7 @@ nonRandom = []
 	slotUpFactor = 3
 	#Maximum number of trinket slots the player can have (does not remove unlocked slots)
 	#Range: 1 ~ 40
-	maxSlots = 40
+	maxSlots = 10
 	#Numbers of trinket slots the player will start with (Only effect newer players!!).
 	#Range: 0 ~ 40
 	startSlots = 1
