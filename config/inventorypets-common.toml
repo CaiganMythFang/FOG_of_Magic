@@ -81,7 +81,7 @@
 	#Turn off Sky dungeons (default:false)
 	disableSkyDungeons = false
 	#Disable Creeper Pet explosion ability (default:false)
-	disableCreeperExplosion = false
+	disableCreeperExplosion = true
 	#Disable the April Fool pet and messages (default:false)
 	disableAprilFoolHoliday = false
 	#Disable the Chest pet (default:false)
@@ -89,7 +89,7 @@
 	#Disable the Anvil pet (default:false)
 	disableAnvil = false
 	#Disable the Creeper pet (default:false)
-	disableCreeper = false
+	disableCreeper = true
 	#Illuminati cooldown duration in minutes (default: 1)
 	#Range: 1 ~ 10
 	illuminatiCooldown = 1
