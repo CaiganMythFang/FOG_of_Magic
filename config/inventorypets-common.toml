@@ -92,7 +92,7 @@
 	disableCreeper = true
 	#Illuminati cooldown duration in minutes (default: 1)
 	#Range: 1 ~ 10
-	illuminatiCooldown = 1
+	illuminatiCooldown = 2
 	#Turn off Tree Tops (default:false)
 	disableTreeTops = false
 	#Disable the Shield pet (default:false)
