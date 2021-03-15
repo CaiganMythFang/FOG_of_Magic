@@ -391,6 +391,7 @@
 		{
 			x: 1.0d,
 			y: 8.0d,
+			shape: "gear",
 			description: [
 				"Okay... These lessons will probably be pretty detailed. I don't think I'll write down every single note in this QUEST Journal. ",
 				"",
@@ -404,7 +405,11 @@
 				"",
 				"Sigh, fine. Let's just get started.",
 				"",
-				"&dYou may choose which lessons to &dfollow freely."
+				"&dYou may choose which lessons to &dfollow freely. But how about this... I will reward you for completing each lesson plan.",
+				"",
+				"Reward?",
+				"",
+				"&dYes. Each completed lesson plan will earn you a Forbidden Knowledge Coin. You'll find out what they are later, Traveler."
 			],
 			dependencies: ["0000000000000025"],
 			id: "000000000000002E",
@@ -412,15 +417,7 @@
 				id: "000000000000002F",
 				type: "checkmark",
 				title: "Lessons and Notes",
-				icon: {
-					id: "astralsorcery:constellation_paper",
-					Count: 1b,
-					tag: {
-						astralsorcery: {
-							constellationName: "astralsorcery:armara"
-						}
-					}
-				}
+				icon: "contenttweaker:forbiddencoin"
 			}]
 		},
 		{

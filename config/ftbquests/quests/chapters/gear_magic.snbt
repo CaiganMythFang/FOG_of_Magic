@@ -358,15 +358,15 @@
 			shape: "square",
 			subtitle: "&dNot quite automated...",
 			description: [
-				"Some more advanced Create things need a bit more... strength and finesse to make than my own two mitts can handle.",
+				"Some more advanced Create things need more strength and finesse than my own two mitts can handle.",
 				"",
 				"For those, I'm supposed to put together a Mechanical Crafting structure.",
 				"",
-				"&dYou'll also want a Wrench to configure &dit, Traveler. And employ a Clutch, of &dcourse, as soon as there is Rotational &dPower, it starts to craft.",
+				"&dYou'll also want a Wrench to configure &dit, Traveler.",
 				"",
-				"Right. Okay, so I place the Mechanical Crafters together to form up to a 5x5 grid, with a Cogwheel connected. I then Right Click a wrench on each one to point the arrow in a direction.",
+				"Right. Okay, so I place the Mechanical Crafters to form a 5x5 grid. Connect a cogwheel... then Right Click a wrench on each one to point the arrow in a direction.",
 				"",
-				"&dThe arrows should all point to make &dthe items flow towards a single point. &dRight Click items into each spot, then &dturn on the Rotational Power to craft."
+				"&dThe arrows should flow to a single point. Right Click items onto spots, or Slot Covers for blank spots. When all spots are filled, turn on the Rotation to start crafting."
 			],
 			dependencies: ["00000000000000BB"],
 			id: "00000000000000AF",
@@ -386,6 +386,11 @@
 					type: "item",
 					item: "create:mechanical_crafter",
 					count: 4L
+				},
+				{
+					id: "3792B9F355F05009",
+					type: "item",
+					item: "create:crafter_slot_cover"
 				}
 			],
 			rewards: [{
@@ -1001,6 +1006,41 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
+			}]
+		},
+		{
+			x: 11.964285714285715d,
+			y: 7.410714285714285d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"00000000000000C6",
+				"00000000000000C2",
+				"00000000000000CC",
+				"00000000000000B4",
+				"00000000000000C8",
+				"00000000000000D9",
+				"00000000000000E2",
+				"00000000000000EB",
+				"00000000000000A1",
+				"00000000000000AA",
+				"00000000000000E6",
+				"000000000000009A",
+				"000000000000009D",
+				"00000000000000B8"
+			],
+			size: 1.25d,
+			id: "799770B98C7819B4",
+			tasks: [{
+				id: "2CCAB1CC3F185EB2",
+				type: "checkmark",
+				title: "&dCompleted Lesson: Create",
+				icon: "contenttweaker:forbiddencoin"
+			}],
+			rewards: [{
+				id: "72EB0827489C7C22",
+				type: "item",
+				item: "contenttweaker:forbiddencoin"
 			}]
 		}
 	]

@@ -1123,6 +1123,40 @@
 					count: 50
 				}
 			]
+		},
+		{
+			x: 2.4642857142857153d,
+			y: 3.892857142857146d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"000000000000008A",
+				"000000000000007C",
+				"0000000000000041",
+				"000000000000017D",
+				"0000000000000065",
+				"0000000000000068",
+				"000000000000006B",
+				"0000000000000081",
+				"000000000000007E",
+				"000000000000017B",
+				"000000000000007A",
+				"0000000000000076",
+				"0000000000000073"
+			],
+			size: 1.25d,
+			id: "6F904C12F8DC4344",
+			tasks: [{
+				id: "1678D35DF643677F",
+				type: "checkmark",
+				title: "&dCompleted Lesson: Rats",
+				icon: "contenttweaker:forbiddencoin"
+			}],
+			rewards: [{
+				id: "19740715D5710B61",
+				type: "item",
+				item: "contenttweaker:forbiddencoin"
+			}]
 		}
 	]
 }
