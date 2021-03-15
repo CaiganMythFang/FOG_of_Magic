@@ -52,7 +52,7 @@
 	#Display the mod update message during startup (default:true)
 	showUpdateMessage = true
 	#Disable the Dirt pet (default:false)
-	disableDirt = false
+	disableDirt = true
 	#Disable the Mickerson pet (default:false)
 	disableMickerson = false
 	#Chunks Biome Pet will search through (default:96)
@@ -98,7 +98,7 @@
 	#Disable the Shield pet (default:false)
 	disableShield = false
 	#Disable the Juggernaut pet (default:false)
-	disableJuggernaut = false
+	disableJuggernaut = true
 	#Disable the (default:false)
 	disableBrewingStand = true
 	#Disable the April Fool pet (default:false)
@@ -234,7 +234,7 @@
 	#Disable the Mishumaa Saba pet (default:false)
 	disableMishumaaSaba = false
 	#Disable the Cobblestone pet (default:false)
-	disableCobblestone = false
+	disableCobblestone = true
 	#Disable the Furnace pet (default:false)
 	disableFurnace = false
 	#Disable the House pet (default:false)
