@@ -2,6 +2,350 @@
   "name": "Electronics Depot",
   "quests": [
     {
+      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
+      "name": " Mining Helmet",
+      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
+      "x": 49,
+      "y": 20,
+      "icon": {
+        "id": "mining_helmet:mining_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mining_helmet:mining_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c76011ee-59c7-4c55-b30e-b5283135568f",
+      "name": " Gadget Mod Table",
+      "description": "    If you want to add modifications to your Mining Gadget, you will need this machine. ",
+      "x": 125,
+      "y": 20,
+      "icon": {
+        "id": "mininggadgets:modificationtable",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mininggadgets:modificationtable",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3e9b62d9-3e47-4b4e-9a5c-9732c4490dad",
+      "name": " Gadget Modifications 8",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 147,
+      "y": 76,
+      "icon": {
+        "id": "mininggadgets:upgrade_fortune_3",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mininggadgets:upgrade_fortune_3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b919822-8bfd-4fa9-91c5-60514d90c2c7",
+      "name": " Gadget Modifications 1",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 80,
+      "y": 47,
+      "icon": {
+        "id": "mininggadgets:upgrade_efficiency_1",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mininggadgets:upgrade_efficiency_1",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_freezing",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "37c74203-a8ec-4cfc-9ed4-9effe21aafad",
+      "name": " Gadget Modifications 5",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 81,
+      "y": 76,
+      "icon": {
+        "id": "mininggadgets:upgrade_efficiency_5",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mininggadgets:upgrade_efficiency_5",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_range_2",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c49c3f80-74e1-4648-913e-fb74af8fd19d",
+      "name": " Mining Gadget",
+      "description": "    This Mining Gadget is a fairly robust tool. It can be upgraded a variety of ways.\n    You\u0027ll need to find a different machine to charge it, however.\n    To access it\u0027s config, Sneak + Right Click while holding it.",
+      "x": 103,
+      "y": 20,
+      "icon": {
+        "id": "mininggadgets:mininggadget",
+        "Count": 1,
+        "tag": {}
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mininggadgets:mininggadget",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "66b5cdc3-6817-4a4d-85ca-3aa17c0e26e4",
+      "name": " Gadget Modifications 3",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 125,
+      "y": 47,
+      "icon": {
+        "id": "mininggadgets:upgrade_efficiency_3",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mininggadgets:upgrade_efficiency_3",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_battery_2",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_light_placer",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_magnet",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "d949bb22-46a7-4b51-aff8-9f3408849f86",
       "name": " Unlock Electronics Depot",
       "description": "    All these handheld special tools and toys are fun. Would you like to make them yourself?",
@@ -22,8 +366,9 @@
             {
               "item": {
                 "id": "contenttweaker:forbiddencoin",
-                "Count": 1
-              }
+                "Count": 3
+              },
+              "required": 3
             }
           ]
         }
@@ -36,6 +381,230 @@
         "gamestage add @p lost_knowledge_electronics_depot true",
         "me HAS LEARNED LOST KNOWLEDGE - ELECTRONICS DEPOT"
       ]
+    },
+    {
+      "uuid": "be8bf55d-0142-4b68-a7e1-b3037fb2dadf",
+      "name": " Gadget Modifications 6",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 103,
+      "y": 76,
+      "icon": {
+        "id": "mininggadgets:upgrade_fortune_1",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mininggadgets:upgrade_fortune_1",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_three_by_three",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "301fa2b4-3fbc-4935-a32b-b29ac348be83",
+      "name": " Gadget Modifications 4",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 147,
+      "y": 47,
+      "icon": {
+        "id": "mininggadgets:upgrade_efficiency_4",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mininggadgets:upgrade_efficiency_4",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_battery_3",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_range_1",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_silk",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb76cef0-f06c-4eb9-abd2-8614572c54c1",
+      "name": " Gadget Modifications 2",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 103,
+      "y": 47,
+      "icon": {
+        "id": "mininggadgets:upgrade_efficiency_2",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mininggadgets:upgrade_efficiency_2",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_battery_1",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_void_junk",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d51f7674-e657-4d08-885d-9ea147f782c4",
+      "name": " Gadget Modifications 7",
+      "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
+      "x": 125,
+      "y": 76,
+      "icon": {
+        "id": "mininggadgets:upgrade_fortune_2",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 5
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mininggadgets:upgrade_fortune_2",
+          "Count": 1
+        },
+        {
+          "id": "mininggadgets:upgrade_range_3",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
     },
     {
       "uuid": "1b60a83c-27ca-48c4-9c1b-1903db1c53e9",
