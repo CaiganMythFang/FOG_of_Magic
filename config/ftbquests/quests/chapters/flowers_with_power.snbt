@@ -1748,6 +1748,59 @@
 				entity: "botania:doppleganger",
 				value: 1L
 			}]
+		},
+		{
+			title: "&dLesson Complete: Botania",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 51b
+			},
+			x: 8.25d,
+			y: 5.75d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"0000000000000251",
+				"0000000000000298",
+				"0000000000000293",
+				"0000000000000291",
+				"00000000000002A3",
+				"000000000000029F",
+				"00000000000002A6",
+				"00000000000002BB",
+				"00000000000002AF",
+				"00000000000002B3",
+				"00000000000002B7",
+				"00000000000002AD",
+				"00000000000002A9",
+				"00000000000002C9",
+				"00000000000002C6",
+				"00000000000002CE",
+				"00000000000002D2",
+				"00000000000002D5",
+				"00000000000002F7",
+				"00000000000002EF",
+				"00000000000002EB",
+				"00000000000002E7",
+				"00000000000002E3",
+				"00000000000002DE"
+			],
+			size: 1.25d,
+			id: "10B79772A824DC1A",
+			tasks: [{
+				id: "28832D89E421C3CE",
+				type: "checkmark",
+				icon: {
+					id: "contenttweaker:forbiddencoin",
+					Count: 51b
+				}
+			}],
+			rewards: [{
+				id: "12B274D922D073B7",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 4
+			}]
 		}
 	]
 }

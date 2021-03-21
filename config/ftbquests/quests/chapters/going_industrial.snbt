@@ -3,7 +3,685 @@
 	group: "",
 	order_index: 11,
 	filename: "going_industrial",
-	title: "Going Industrial",
+	title: "Code: Magic",
+	icon: {
+		id: "patchouli:guide_book",
+		Count: 1b,
+		tag: {
+			"patchouli:book": "psi:encyclopaedia_psionica"
+		}
+	},
 	default_quest_shape: "",
-	quests: []
+	quests: [
+		{
+			title: "Spell Code",
+			icon: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "psi:encyclopaedia_psionica"
+				}
+			},
+			x: 0.0d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "&dMod : Psi (Magical)",
+			description: [
+				"&dSo, Traveler. We come to my style of magic. Designing and coding spells.",
+				"",
+				"Wait, PROGRAMMING spells?",
+				"",
+				"&dYes. I did tell you I was a technomancer, yes?",
+				"",
+				"Wait, then is it actually technology, or just cleverly disguised magic?",
+				"",
+				"&dYes.",
+				"",
+				"...",
+				"",
+				"&dYou'll see. Make yourself an Iron Rod Frame and a Rod Producer. Place the Iron Rod Frame in the bottom center of the Producer, and pull yourself out a Focusing Rod.",
+				"",
+				"&dAnd last, drop a Book on the ground, and Right Click the Rod onto it."
+			],
+			dependencies: ["0000000000000025"],
+			id: "042F1AD89F54CF61",
+			tasks: [
+				{
+					id: "7D1BA6D150BFA053",
+					type: "item",
+					item: "psi:cad_assembler"
+				},
+				{
+					id: "046F1B2A15F03660",
+					type: "item",
+					icon: {
+						ForgeCaps: {
+							Parent: {
+								Memory: [],
+								Battery: 0,
+								Time: 1342
+							}
+						},
+						id: "psi:cad",
+						Count: 1b,
+						tag: {
+							componentASSEMBLY: {
+								id: "psi:cad_assembly_iron",
+								Count: 1b
+							}
+						}
+					},
+					item: {
+						ForgeCaps: {
+							Parent: {
+								Memory: [],
+								Battery: 0,
+								Time: 824
+							}
+						},
+						id: "psi:cad",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "2BB0B779541EB8AD",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "psi:encyclopaedia_psionica"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "4156B30301BE9509",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Hello World",
+			icon: "psi:psidust",
+			x: 0.0d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dJust Trick Taking",
+			description: [
+				"Okay, opening this book with the C key is really handy if I don't carry it with me. Following the guide... I can drop some Redstone Dust and Right Click this Rod onto it to make Psidust. Neat.",
+				"",
+				"&dMind, that starting Rod won't cut it. You'll need to craft it alone, then put it into the Producer and add a few things. Like a Crux and a Notch. Oh, and some Spell Nodes.",
+				"",
+				"Oh. Uh... reading... Spells Nodes slot into the Notch. The Notch passes the spell to the Crux, which activates the Spell on the Node...I think...",
+				"",
+				"&dTraveler, a better analogy. The Rod is a Gun. The Notch is the magazine. The Crux is the barrel. And the Node is the bullet you've etched \"To Whom it May Concern\" on. ",
+				"",
+				"...OH! Wait, how do I code spells then?",
+				"",
+				"&dWith a Spell Inscriber. Try it out."
+			],
+			dependencies: ["042F1AD89F54CF61"],
+			id: "03125A7BD3B4F900",
+			tasks: [
+				{
+					id: "4277DD3D6C30CA29",
+					type: "item",
+					item: "psi:cad_core_basic"
+				},
+				{
+					id: "171D23FAE3BA8C32",
+					type: "item",
+					item: "psi:cad_socket_basic"
+				},
+				{
+					id: "48CB6444A346C68D",
+					type: "item",
+					item: "psi:programmer"
+				}
+			],
+			rewards: [{
+				id: "49B2F46D43E6FCB8",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Better Hardware",
+			icon: "psi:cad_assembly_gold",
+			x: 0.0d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dBad Code or Old Gear?",
+			description: [
+				"So, the book explains things pretty well, but there is a lot there. I don't need to repeat too much of it here...",
+				"",
+				"&dJust don't forget, holding the C key with the Rod selected will let you choose what Spell Node you'll cast.",
+				"",
+				"Okay, good to know. These spells can be pretty complex I have to say...",
+				"",
+				"&dYes, don't forget to refactor at some point when you learn more. You can streamline a spell to fit on weaker hardware.",
+				"",
+				"And if I can't right now?",
+				"",
+				"&dUpgrade. If a spell is too Complex, upgrade the Crux. Too Potent? Upgrade the frame itself. Spell too big and not enough Bandwidth? A new Notch is in order."
+			],
+			dependencies: ["03125A7BD3B4F900"],
+			id: "08E4D74884EA696D",
+			tasks: [
+				{
+					id: "34C1248968C0B6A0",
+					type: "item",
+					item: "psi:cad_assembly_gold"
+				},
+				{
+					id: "23902C450361F8AC",
+					type: "item",
+					item: "psi:cad_core_overclocked"
+				},
+				{
+					id: "7987D3FB7E58FC70",
+					type: "item",
+					item: "psi:cad_socket_signaling"
+				}
+			],
+			rewards: [{
+				id: "5F94EF693C018270",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Protecting Myself",
+			icon: "psi:cad_battery_basic",
+			x: -0.75d,
+			y: 1.75d,
+			shape: "square",
+			subtitle: "&dPreventing Burnout",
+			description: [
+				"So one of the things I have to be careful about when executing spell code is 'burning out'. If I run out of PSI, the spell will start using my hitpoints as mana instead.",
+				"",
+				"&dWhich you definitely don't want. But in a pinch... its either a little health or all of it.",
+				"",
+				"True true. So, one of the optional things I can install in a Rod is a Source. It provides a bit of a barrier in case I overdo my spellcasting.",
+				"",
+				"&dJust don't forget it takes time to recharge and only goes so far."
+			],
+			dependencies: ["08E4D74884EA696D"],
+			id: "6E1DF8490F997A96",
+			tasks: [{
+				id: "5E925334C1BDBCD5",
+				type: "item",
+				item: "psi:cad_battery_basic"
+			}],
+			rewards: [{
+				id: "2D63DFA0493AB825",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Improving Hardware",
+			icon: "psi:cad_assembly_psimetal",
+			x: -2.0d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dGetting More Metal",
+			description: [
+				"The further I get into coding new spells, the more complex they become.",
+				"",
+				"&dAnd the better materials you need your Rod to be.",
+				"",
+				"Yeah... Though I don't know if its just me being inefficient with my coding, or the materials not being magical enough.",
+				"",
+				"&dWhy not both?"
+			],
+			dependencies: ["08E4D74884EA696D"],
+			id: "3B160AF28A2F86CD",
+			tasks: [
+				{
+					id: "1CC09748469DD890",
+					type: "item",
+					item: "psi:cad_assembly_psimetal"
+				},
+				{
+					id: "00CA51043EACC742",
+					type: "item",
+					item: "psi:cad_core_conductive"
+				},
+				{
+					id: "1B38EE23F17C772B",
+					type: "item",
+					item: "psi:cad_socket_large"
+				}
+			],
+			rewards: [{
+				id: "3C67DFFB26527989",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Colorful Augments",
+			icon: "psi:cad_colorizer_rainbow",
+			x: 2.0d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dSparkle... or not.",
+			description: [
+				"Okay, I see why you use this style of magic a lot. There's a lot of potential. But...",
+				"",
+				"&dBut?",
+				"",
+				"Is there a way to customize the look of my spells?",
+				"",
+				"&dYou want a Varnish then. They come in the usual 16 colors. ",
+				"",
+				"&dOr, you can make a full spectrum one, which will cycle through all the colors slowly.",
+				"",
+				"That is very cool. But if I want to be sneaky or something? Or not feeling colorful?",
+				"",
+				"&dDrained Varnish. Mostly invisible instead."
+			],
+			dependencies: ["08E4D74884EA696D"],
+			id: "3F0D609F534A06CB",
+			tasks: [
+				{
+					id: "7D0172E8C67FF324",
+					type: "item",
+					item: "psi:cad_colorizer_rainbow"
+				},
+				{
+					id: "6667B906F2A55657",
+					type: "item",
+					item: "psi:cad_colorizer_empty"
+				}
+			],
+			rewards: [{
+				id: "06F05DFC42049F8E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "The Best Hardware",
+			icon: "psi:cad_assembly_ivory_psimetal",
+			x: -1.0d,
+			y: 4.0d,
+			shape: "square",
+			subtitle: "&dChoices, Choices...",
+			description: [
+				"Okay I'm not sure what to do here.",
+				"",
+				"&dWhat is wrong, Traveler?",
+				"",
+				"Well, I have a couple options for Frames and Notches at this level. They are pretty similar, so...",
+				"",
+				"&dWell, it depends. Do you need more Efficiency, or Potency in your Rod currently?  Bandwidth or Notches? Complexity or Projection?",
+				"",
+				"&dWhy not build all of them, you can swap things in and out easily as you need to. And having multiple Rods is a good idea.",
+				"",
+				"As long as I don't hold more than one Rod at a time.",
+				"",
+				"&dExactly."
+			],
+			dependencies: ["3B160AF28A2F86CD"],
+			id: "03934B2AAFE82290",
+			tasks: [
+				{
+					id: "1203027421F4D195",
+					type: "item",
+					item: "psi:cad_assembly_ivory_psimetal"
+				},
+				{
+					id: "5607DE977D6C81DA",
+					type: "item",
+					item: "psi:cad_assembly_ebony_psimetal"
+				},
+				{
+					id: "1AA9387EF4A8427E",
+					type: "item",
+					item: "psi:cad_socket_transmissive"
+				},
+				{
+					id: "63915D0178C7EB25",
+					type: "item",
+					item: "psi:cad_socket_huge"
+				},
+				{
+					id: "5BD741F9E804DC0A",
+					type: "item",
+					item: "psi:cad_core_radiative"
+				},
+				{
+					id: "226CFE8ED1C96391",
+					type: "item",
+					item: "psi:cad_core_hyperclocked"
+				}
+			],
+			rewards: [{
+				id: "717689B4CCAADE22",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 50
+			}]
+		},
+		{
+			title: "Going to the Limit",
+			icon: "psi:cad_battery_ultradense",
+			x: -1.0d,
+			y: 2.75d,
+			shape: "square",
+			subtitle: "&dOne Step Beyond",
+			description: [
+				"Okay, I think for safety sake, I should get the biggest Source on my Rod at all times.",
+				"",
+				"&dAt least until you refactor your spells. And each time you do, you can add to them and make them even more fancy.",
+				"",
+				"That sounds risky.",
+				"",
+				"&dRisk and Reward, Traveler."
+			],
+			dependencies: ["6E1DF8490F997A96"],
+			id: "0212E694FB9366A7",
+			tasks: [{
+				id: "4C391F8E82865DA3",
+				type: "item",
+				item: "psi:cad_battery_ultradense"
+			}],
+			rewards: [{
+				id: "5E818A132F78516C",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Special Ammo 1",
+			icon: {
+				id: "psi:spell_bullet_projectile",
+				Count: 1b,
+				tag: {}
+			},
+			x: 0.75d,
+			y: 1.75d,
+			shape: "square",
+			subtitle: "&dRound and Round",
+			description: [
+				"Wow, there are a lot of types of Nodes. You were pretty spot on about that gun analogy at the start.",
+				"",
+				"&dYes, well...",
+				"",
+				"So... normally spells cast from where I am. Projectile Nodes cast the spell where the uh... projectile hits.",
+				"",
+				"&dCorrect. It's a way to not have to determine position and vector and all that as much.",
+				"",
+				"Good. This Circle Node is interesting. It casts the spell 20 times?",
+				"",
+				"&dYes. Which might not seem as useful, but it only costs 15 casts worth. And you can use some code trickery to only cast X times, or change how subsequent casts work.",
+				"",
+				"&dOh, if you want to save a spell for later, use a Mindful Scroll."
+			],
+			dependencies: ["08E4D74884EA696D"],
+			id: "3F6292DC2B89452D",
+			tasks: [
+				{
+					id: "6ABBB93CF625B69B",
+					type: "item",
+					item: {
+						id: "psi:spell_bullet_projectile",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "4AD40EA9A85EDB2A",
+					type: "item",
+					item: {
+						id: "psi:spell_bullet_circle",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "388BDE01E5E7AA9B",
+					type: "item",
+					item: {
+						id: "psi:spell_drive",
+						Count: 1b,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: "3A9361E151814F10",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Special Ammo 2",
+			icon: {
+				id: "psi:spell_bullet_grenade",
+				Count: 1b,
+				tag: {}
+			},
+			x: 1.0d,
+			y: 2.75d,
+			shape: "square",
+			subtitle: "&dBoom Boom Boom",
+			description: [
+				"Okay, this ammo is getting more interesting.",
+				"",
+				"Grenade Nodes don't cast the spell immediately. They, fly like a grenade, with gravity and everything. And then explode after 3 seconds.",
+				"",
+				"&dExactly three seconds, Traveler. No more, no less.",
+				"",
+				"Noted! Then the Mine one is if I want to set a trap?",
+				"",
+				"&dCorrect. When something steps on AND THEN OFF it, is when it will explode.",
+				"",
+				"Oh, so I can step on it, then....somehow get away before it goes off...",
+				"",
+				"&dIt goes away after 5 minutes. But if you want something similar, use a Charge Node. It only goes off when you use a Spell Detonator."
+			],
+			dependencies: ["3F6292DC2B89452D"],
+			id: "5AAA3E54AFD1C0A9",
+			tasks: [
+				{
+					id: "00235E8A0413D2E1",
+					type: "item",
+					item: {
+						id: "psi:spell_bullet_grenade",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "6DA77D0239865ACD",
+					type: "item",
+					item: {
+						id: "psi:spell_bullet_mine",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "580AC98E10AA9784",
+					type: "item",
+					item: {
+						id: "psi:spell_bullet_charge",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "41567EDAAC8B9BA2",
+					type: "item",
+					item: "psi:detonator"
+				}
+			],
+			rewards: [{
+				id: "65F9AD9295B18977",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Spellful Tools",
+			icon: {
+				id: "psi:psimetal_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.0d,
+			y: 4.0d,
+			shape: "square",
+			subtitle: "&dSpell Assisted Tools",
+			description: [
+				"Interesting! I can make tools that cast spells when they get used.",
+				"",
+				"&dCorrect. Though I suggest also making yourself a Vector Ruler. You can code spells to work around having one in your inventory.",
+				"",
+				"That sounds a bit complicated.",
+				"",
+				"&dBut useful. ",
+				"",
+				"True."
+			],
+			dependencies: ["3F0D609F534A06CB"],
+			id: "4898EE773EA2DFD3",
+			tasks: [
+				{
+					id: "555B5CEF12BFEF72",
+					type: "item",
+					item: {
+						id: "psi:vector_ruler",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "1FABB63EA9B6D28F",
+					type: "item",
+					item: {
+						id: "psi:psimetal_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "55BDC137E3D433B1",
+				type: "item",
+				item: "calemiutils:coin_dollar"
+			}]
+		},
+		{
+			title: "Spell Armor",
+			icon: {
+				id: "psi:psimetal_exosuit_helmet",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.0d,
+			y: 4.0d,
+			shape: "square",
+			subtitle: "&dNot quite Iron Man, huh?",
+			description: [
+				"This seems promising. Focusing Armor. It seems kind of like an exo armor suit.",
+				"",
+				"&dKind of. But it's a bit complex to set up. Each piece activates it's stored Spells differently. The Helmet requires a Sensor first, installed with the Rod Constructor.",
+				"",
+				"Okay, I'll use the Light Sensor for testing.",
+				"",
+				"&dRight. Then put a spell on a Node that you want to cast when that Sensor goes off. Hold the Focusing Plate Tablet, and hold C to select the spell you want for the armor piece.",
+				"",
+				"&dFor example, Light Sensor activates when you first enter a lighted area.",
+				"",
+				"Oh I see! So the boots activate when jumping. The chest activates when I get hit. And the legs never stop casting, apparently!"
+			],
+			dependencies: [
+				"03934B2AAFE82290",
+				"4898EE773EA2DFD3",
+				"0212E694FB9366A7",
+				"5AAA3E54AFD1C0A9"
+			],
+			dependency_requirement: "one_completed",
+			id: "56243AF7B6CE908A",
+			tasks: [
+				{
+					id: "457E1A32CFF1844A",
+					type: "item",
+					item: {
+						id: "psi:psimetal_exosuit_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5E1DE526B840BBFC",
+					type: "item",
+					item: "psi:exosuit_controller"
+				},
+				{
+					id: "2D62DC322ACE27D0",
+					type: "item",
+					item: "psi:exosuit_sensor_light"
+				}
+			],
+			rewards: [{
+				id: "4470F6B2682DCB70",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "&dCompleted Lesson: Psi (Magical)",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 51b
+			},
+			x: 0.0d,
+			y: 2.6607142857142847d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"56243AF7B6CE908A",
+				"5AAA3E54AFD1C0A9",
+				"0212E694FB9366A7",
+				"4898EE773EA2DFD3"
+			],
+			size: 1.25d,
+			id: "1BF8ABF7EDDC6640",
+			tasks: [{
+				id: "1D3737FAC158F3F0",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "2B99A770948D3052",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 2
+			}]
+		}
+	]
 }

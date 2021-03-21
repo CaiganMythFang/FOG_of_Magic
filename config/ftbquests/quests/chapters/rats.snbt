@@ -1155,7 +1155,8 @@
 			rewards: [{
 				id: "19740715D5710B61",
 				type: "item",
-				item: "contenttweaker:forbiddencoin"
+				item: "contenttweaker:forbiddencoin",
+				count: 3
 			}]
 		}
 	]

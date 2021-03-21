@@ -1986,14 +1986,83 @@
 			}]
 		},
 		{
+			title: "Magical World",
+			icon: "losttrinkets:tha_wizard",
 			x: -5.0d,
 			y: -6.75d,
 			shape: "square",
+			subtitle: "&dMod: Lost Trinkets",
+			description: [
+				"&dTraveler, since you have a knack of magic, this dimension will benefit you more than you think.",
+				"",
+				"I'm not sure I follow.",
+				"",
+				"&dJust by doing normal things. Fighting. Chopping wood. Mining. You will slowly attune yourself to the magical fields. And rarely, you will unlock what is known as a Lost Trinket.",
+				"",
+				"Trinket? Do I wear it or....",
+				"",
+				"&dBy pressing R, you can see what Lost Trinkets you have 'unlocked', and choose which ones to use. You only have one slot, however.",
+				"",
+				"How do I get more?",
+				"",
+				"&dBy gaining experience, which you can then use to unlock more spots. You may only have 5 total, however."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
 			id: "7903CBDF0B395E09",
 			tasks: [{
 				id: "72C28A4D9156C326",
 				type: "checkmark",
 				title: "Magical World"
+			}],
+			rewards: [{
+				id: "79F63097DC704CCE",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Great Housing",
+			icon: "mcwdoors:oak_western_door",
+			x: 4.75d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dMods: Macaw's Doors, Macaw's Windows, Macaw's Roofs",
+			description: [
+				"Hmmm, I need some better building designs. I'm not good at this sort of thing.",
+				"",
+				"&dNone of us are all that great at this home design thing. Well, most of us aren't. But we have a lot of options.",
+				"",
+				"Such as?",
+				"",
+				"&dMacaw's stuff is pretty good. A lot of variety in doors, windows, roofs, etc. I'd give them a check, Traveler. "
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "755F57A34081F1C7",
+			tasks: [
+				{
+					id: "2A097E617D3DAA2A",
+					type: "item",
+					item: "mcwdoors:oak_western_door"
+				},
+				{
+					id: "6F5288032B271941",
+					type: "item",
+					item: "mcwroofs:oak_lower_roof"
+				},
+				{
+					id: "4123E689206061AE",
+					type: "item",
+					item: "mcwwindows:oak_win_2tall"
+				}
+			],
+			rewards: [{
+				id: "350A96DA09031B7B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
 			}]
 		}
 	]

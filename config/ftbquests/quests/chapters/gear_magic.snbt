@@ -1040,7 +1040,8 @@
 			rewards: [{
 				id: "72EB0827489C7C22",
 				type: "item",
-				item: "contenttweaker:forbiddencoin"
+				item: "contenttweaker:forbiddencoin",
+				count: 3
 			}]
 		}
 	]

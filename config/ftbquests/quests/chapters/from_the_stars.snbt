@@ -1125,6 +1125,43 @@
 				item: "calemiutils:coin_dollar",
 				count: 50
 			}]
+		},
+		{
+			title: "&dLesson Complete: Astral Sorcery",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 51b
+			},
+			x: 1.75d,
+			y: -10.75d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"0000000000000201",
+				"0000000000000231",
+				"000000000000022A",
+				"0000000000000245",
+				"0000000000000239",
+				"0000000000000236",
+				"0000000000000212",
+				"0000000000000220"
+			],
+			size: 1.25d,
+			id: "2F63FDCEE0A2D34A",
+			tasks: [{
+				id: "45D2DDC4FAE04FAE",
+				type: "checkmark",
+				icon: {
+					id: "contenttweaker:forbiddencoin",
+					Count: 51b
+				}
+			}],
+			rewards: [{
+				id: "0DE82049B447FF11",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 3
+			}]
 		}
 	]
 }

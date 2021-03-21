@@ -657,6 +657,39 @@
 				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
+		},
+		{
+			title: "&dLesson Complete: Eidolon",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 51b
+			},
+			x: 8.0d,
+			y: -0.5d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"00000000000003E3",
+				"00000000000003E8",
+				"00000000000003F8",
+				"00000000000003FC"
+			],
+			size: 1.25d,
+			id: "05C5F91E1EDF2552",
+			tasks: [{
+				id: "07B6A54BC92DBE98",
+				type: "checkmark",
+				icon: {
+					id: "contenttweaker:forbiddencoin",
+					Count: 51b
+				}
+			}],
+			rewards: [{
+				id: "41ABDB69A3EEE4A6",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 2
+			}]
 		}
 	]
 }

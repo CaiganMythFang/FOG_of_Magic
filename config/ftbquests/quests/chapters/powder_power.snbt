@@ -156,7 +156,7 @@
 			}]
 		},
 		{
-			title: "Abradablammo",
+			title: "Abrakablammo",
 			icon: {
 				id: "powder_power:wand_alchemist",
 				Count: 1b,
@@ -472,6 +472,44 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
+			}]
+		},
+		{
+			title: "&dCompleted Lesson: Powder Power",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 51b
+			},
+			x: -0.5d,
+			y: 3.75d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"00000000000001BA",
+				"00000000000001B8",
+				"00000000000001B0",
+				"00000000000001B1",
+				"00000000000001C1",
+				"00000000000001C5",
+				"00000000000001C3",
+				"00000000000001A4",
+				"00000000000001A0"
+			],
+			size: 1.25d,
+			id: "6A13C9FD6E97558B",
+			tasks: [{
+				id: "1811434A1D38814E",
+				type: "checkmark",
+				icon: {
+					id: "contenttweaker:forbiddencoin",
+					Count: 51b
+				}
+			}],
+			rewards: [{
+				id: "110A56D3D272911A",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 4
 			}]
 		}
 	]
