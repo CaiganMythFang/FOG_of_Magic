@@ -751,43 +751,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "35ecdce0-d443-4a18-b967-53ec60d8f7bc",
-      "name": " Gemium Ingot (Sell)",
-      "description": "    Gemium is a material that is stronger than Netherrite.",
-      "x": 270,
-      "y": 17,
-      "icon": {
-        "id": "powder_power:gem_gemium",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "powder_power:gem_gemium",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 3
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "5968adf2-9586-40eb-a63a-42e33ac8445e",
       "name": " Lead (Sell)",
       "description": "    Lead is a heavy metal, good for protective barriers.",
@@ -807,6 +770,43 @@
             {
               "item": {
                 "id": "eidolon:lead_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "35ecdce0-d443-4a18-b967-53ec60d8f7bc",
+      "name": " Gemium Ingot (Sell)",
+      "description": "    Gemium is a material that is stronger than Netherrite.",
+      "x": 270,
+      "y": 17,
+      "icon": {
+        "id": "powder_power:gem_gemium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:gem_gemium",
                 "Count": 1
               }
             }
