@@ -1330,6 +1330,366 @@
 				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
+		},
+		{
+			title: "Well Furnished Living Room",
+			icon: "cfm:white_sofa",
+			x: 1.5d,
+			y: -5.25d,
+			shape: "square",
+			subtitle: "&dMod: MrCrayfish's Furniture Mod",
+			description: [
+				"&dMrCrayfish is a well known artisan in this world, Traveler, and even outside it. You'll find some of his stuff in the shop as well.",
+				"",
+				"Really? Is he a Traveler like me?",
+				"",
+				"&dSomewhat, he's kind of like my brother and I. Multidimensional explorers and entrepeneurs. ",
+				"",
+				"Oh, I see.",
+				"",
+				"&dThis is his furniture line. Easy to make, quite functional, and also decent to look at. You can see why it is popular.",
+				"",
+				"&dThese are a few of the living room things. When you place multiple Sofa pieces next to each other, they will connect. Same with the coffee tables.",
+				"",
+				"&dHere, let me show you what else is available."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "143ADA387867822C",
+			tasks: [
+				{
+					id: "3458515BF874502F",
+					type: "item",
+					title: "Any MrCrayfish Sofa",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_sofa"
+						}
+					}
+				},
+				{
+					id: "2C708577CDF8D398",
+					type: "item",
+					title: "Any MrCrayfish Coffee Table",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_coffee_table"
+						}
+					}
+				},
+				{
+					id: "0CD451743AA7B459",
+					type: "item",
+					title: "Any MrCrayfish Blinds",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_blindes"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "2E48ABC4BF2C26E2",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Back Yard Boons",
+			icon: "cfm:white_grill",
+			x: 2.5d,
+			y: -5.25d,
+			shape: "square",
+			subtitle: "&dBrats and Bellyflops",
+			description: [
+				"No backyard back home is complete without a grill and a cooler for cold drinks, honestly.",
+				"",
+				"Don't forget the Spatula of course.",
+				"",
+				"And if you are lucky, you also got a pool in the backyard. Though you had to be rich, or at least well off, to also have a diving board for your pool!",
+				"",
+				"More likely, you were to have something like a Trampoline though. If you had anything other than balls to throw around I guess."
+			],
+			dependencies: ["143ADA387867822C"],
+			id: "72C39F4BB01F928B",
+			tasks: [
+				{
+					id: "6E1AF29180763B49",
+					type: "item",
+					title: "Any MrCrayfish Grill",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_grill"
+						}
+					}
+				},
+				{
+					id: "5C8DF5EE0A603DE0",
+					type: "item",
+					item: {
+						id: "cfm:spatula",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3538E5B76A4DD2FB",
+					type: "item",
+					title: "Any MrCrayfish Cooler",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_cooler"
+						}
+					}
+				},
+				{
+					id: "1A1E220BC98CED66",
+					type: "item",
+					item: "cfm:diving_board"
+				},
+				{
+					id: "63622F6D19B19111",
+					type: "item",
+					title: "Any MrCrayfish Trampoline",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_trampoline"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "3BE6EDD21D5D0A13",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Front Yard Follies",
+			icon: "cfm:oak_mail_box",
+			x: 3.5d,
+			y: -5.25d,
+			shape: "square",
+			subtitle: "&dTalk and Walk",
+			description: [
+				"Front Yard, the long walk along a Rock Path to the front door. Can't forget the Mailbox, of course.",
+				"",
+				"And Hedges are a nice way to mark out the boundaries of my property."
+			],
+			dependencies: ["143ADA387867822C"],
+			id: "41E08392B5346BE2",
+			tasks: [
+				{
+					id: "069D4BCF6B040B25",
+					type: "item",
+					title: "Any MrCrayfish Mailbox",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_mailbox"
+						}
+					}
+				},
+				{
+					id: "301E2EF98613AFF3",
+					type: "item",
+					item: "cfm:rock_path"
+				},
+				{
+					id: "4400D7974279A068",
+					type: "item",
+					title: "Any MrCrayfish Hedge",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_hedge"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "4BD4356907F82BBF",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Dining Room Delights",
+			icon: "cfm:spruce_table",
+			x: 1.5d,
+			y: -6.25d,
+			shape: "square",
+			subtitle: "&dSit Down, Relax",
+			description: ["Dining rooms are simple things. Tables that connect to each other and make larger tables. Chairs to sit down and relax in."],
+			dependencies: ["143ADA387867822C"],
+			id: "541DC4E97BDF8570",
+			tasks: [
+				{
+					id: "2E4CF4B8BF2E2F59",
+					type: "item",
+					title: "Any MrCrayfish Table",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_tables"
+						}
+					}
+				},
+				{
+					id: "0D47711C6FB3E837",
+					type: "item",
+					title: "Any MrCrayfish Chair",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_chairs"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "4AE6D9F02FF0704B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Kitchen Keeper",
+			icon: "cfm:fridge_light",
+			x: 1.5d,
+			y: -7.25d,
+			shape: "square",
+			subtitle: "&dNever enough counter space",
+			description: [
+				"Kitchens are always a place I never have enough room with. Kitchen Counter space is a premium, no matter how much I have.",
+				"",
+				"Even Kitchen Drawers never have enough room.",
+				"",
+				"Or the Kitchen Sink. One cooked meal and it's full quickly.",
+				"",
+				"And the Fridge? Simultaneously too full and never has anything I want. Thankfully I can at least stack two of them on top of each other to make a full Fridge."
+			],
+			dependencies: ["143ADA387867822C"],
+			id: "6EBE737CF4C9DECE",
+			tasks: [
+				{
+					id: "67DAB7FF37644E89",
+					type: "item",
+					item: "cfm:fridge_light"
+				},
+				{
+					id: "7CF5845E943A3CD0",
+					type: "item",
+					title: "Any MrCrayfish Kitchen Counter",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_kitchen_counter"
+						}
+					}
+				},
+				{
+					id: "4B8F02A7A5C441FB",
+					type: "item",
+					title: "Any MrCrayfish Kitchen Sink",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_kitchen_sink"
+						}
+					}
+				},
+				{
+					id: "04A131094BC23A1E",
+					type: "item",
+					title: "Any MrCrayfish Kitchen Drawer",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_kitchen_drawer"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "1D2B2C9935EFD278",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Simple Study",
+			icon: "cfm:acacia_desk",
+			x: 2.5d,
+			y: -6.25d,
+			shape: "square",
+			subtitle: "&dA Desk is all one needs in heck...",
+			description: [
+				"Desks are an excellent place to collect ones thoughts. And desk drawers excellent places to collect random nicknacks, right?",
+				"",
+				"I can place multiple desks and cabinets in a row to connect them all. It's quite handy."
+			],
+			dependencies: ["143ADA387867822C"],
+			id: "58A4534F0AC25084",
+			tasks: [
+				{
+					id: "44E8B3C375557022",
+					type: "item",
+					title: "Any MrCrayfish Desk",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_desk"
+						}
+					}
+				},
+				{
+					id: "3B9712824E34455B",
+					type: "item",
+					title: "Any #crafttweaker:cfm_desk_cabinet",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_desk_cabinet"
+						}
+					},
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "1393DDEF2805FEA3",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
 		}
 	]
 }
