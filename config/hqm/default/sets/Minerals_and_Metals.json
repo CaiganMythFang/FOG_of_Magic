@@ -2,6 +2,43 @@
   "name": "Minerals and Metals",
   "quests": [
     {
+      "uuid": "0084f19b-915d-4ae7-b4e1-f799c883d1de",
+      "name": " Bismuth (Sell)",
+      "description": "    Strangely, this material is best known as the main active ingredient in a stomach-ache remedy.",
+      "x": 198,
+      "y": 136,
+      "icon": {
+        "id": "silents_mechanisms:bismuth_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:bismuth_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "864f5bc5-ef2a-4646-ac23-5bbeb90b3e71",
       "name": " Aluminum (Buy)",
       "description": "    Aluminum is a good, lightweight metal excellent for various applications. \n    Aluminum\u0027s natural form is in Bauxite Ore.",
@@ -115,43 +152,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "297a607d-a194-4387-bec5-fa35331f3fbe",
-      "name": " Silver (Sell)",
-      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
-      "x": 198,
-      "y": 106,
-      "icon": {
-        "id": "iceandfire:silver_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "iceandfire:silver_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "28b648d2-379d-4b02-adef-613c2e536f7d",
       "name": " Zinc (Sell)",
       "description": "    Zinc on its own is good metal, but its strength shines when alloyed with other metals!",
@@ -184,81 +184,6 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9a657f5e-a14b-4081-8e65-73f9b3c9ebe3",
-      "name": " Aluminum (Sell)",
-      "description": "    Aluminum is a good, lightweight metal excellent for various applications. \n    Aluminum\u0027s natural form is in Bauxite Ore.",
-      "x": 271,
-      "y": 50,
-      "icon": {
-        "id": "silents_mechanisms:aluminum_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "silents_mechanisms:aluminum_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e2b1cb4c-70bd-423c-85f2-bc0e1721ba68",
-      "name": " Oratchalcum (Buy)",
-      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
-      "x": 15,
-      "y": 109,
-      "icon": {
-        "id": "rats:oratchalcum_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 80
-              },
-              "required": 80
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "rats:oratchalcum_ore",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -339,6 +264,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
+      "name": " Lead (Buy)",
+      "description": "    Lead is a heavy metal, good for protective barriers.",
+      "x": 65,
+      "y": 81,
+      "icon": {
+        "id": "eidolon:lead_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:lead_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
       "name": " Redium Ingot (Sell)",
       "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
@@ -378,13 +341,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
-      "name": " Lead (Buy)",
-      "description": "    Lead is a heavy metal, good for protective barriers.",
-      "x": 65,
-      "y": 81,
+      "uuid": "c583d7fb-2ba5-4dbe-b6f4-2d745fb8b1c8",
+      "name": " Bismuth Brass (Sell)",
+      "description": "    Bismuth Brass is an alloy of Bismuth, Zinc, and Copper.",
+      "x": 172,
+      "y": 164,
       "icon": {
-        "id": "eidolon:lead_ingot",
+        "id": "silents_mechanisms:bismuth_brass_ingot",
         "Count": 1
       },
       "repeat": {
@@ -396,10 +359,9 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 15
-              },
-              "required": 15
+                "id": "silents_mechanisms:bismuth_brass_ingot",
+                "Count": 1
+              }
             }
           ]
         }
@@ -408,8 +370,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "eidolon:lead_ore",
-          "Count": 1
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -453,120 +415,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "42d0e284-cf07-4274-957e-7fd36ec9419b",
-      "name": " Neptunium Ingot (Buy)",
-      "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
-      "x": 15,
-      "y": 79,
-      "icon": {
-        "id": "aquaculture:neptunium_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "aquaculture:neptunium_ingot",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6eade0f9-75cc-4665-a901-9d057642be62",
-      "name": " Iron (Buy)",
-      "description": "    Iron is one of the most common and most useful metals.",
-      "x": 15,
-      "y": 18,
-      "icon": {
-        "id": "minecraft:iron_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 5
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "eef71099-4185-4fee-8b3b-3cdfe700a43e",
-      "name": " Silver (Buy)",
-      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
-      "x": 40,
-      "y": 109,
-      "icon": {
-        "id": "iceandfire:silver_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "iceandfire:silver_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "ff8a48b3-955b-449f-ad5a-96808ea11599",
       "name": " Uranium (Sell)",
       "description": "    Uranium is a rare, valuable material used for power generation.",
@@ -604,13 +452,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
-      "name": " Oratchalcum (Sell)",
-      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
-      "x": 171,
-      "y": 105,
+      "uuid": "2f66c1b0-33bc-4914-afb7-7b4e4ebd4e1d",
+      "name": " Bismuth Steel (Sell)",
+      "description": "    Bismuth Steel is an alloy of refined Iron and Bismuth.",
+      "x": 222,
+      "y": 165,
       "icon": {
-        "id": "rats:oratchalcum_ingot",
+        "id": "silents_mechanisms:bismuth_steel_ingot",
         "Count": 1
       },
       "repeat": {
@@ -622,7 +470,7 @@
           "items": [
             {
               "item": {
-                "id": "rats:oratchalcum_ingot",
+                "id": "silents_mechanisms:bismuth_steel_ingot",
                 "Count": 1
               }
             }
@@ -634,7 +482,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 16
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -672,118 +520,6 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 15
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d5533b9a-05fc-4bf0-b1b7-34cb03fe1a2e",
-      "name": " Steel (Sell)",
-      "description": "    Steel is refined Iron, the impurities removed. ",
-      "x": 295,
-      "y": 80,
-      "icon": {
-        "id": "silents_mechanisms:steel_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "silents_mechanisms:steel_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f46bb870-7d2b-4302-b63e-6df2c9536d47",
-      "name": " Gold (Buy)",
-      "description": "    Gold is a valuable metal, both as a luxury good, and for electricity conduction and scientific purposes.",
-      "x": 40,
-      "y": 19,
-      "icon": {
-        "id": "minecraft:gold_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:gold_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "029caacb-b89f-419c-8606-22f75ad8d317",
-      "name": " Gold (Sell)",
-      "description": "    Gold is a valuable metal, both as a luxury good, and for electricity conduction and scientific purposes.",
-      "x": 196,
-      "y": 17,
-      "icon": {
-        "id": "minecraft:gold_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:gold_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -828,13 +564,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "f1b5942c-e9cc-4718-8dc9-3ad3b103d124",
-      "name": " Iron (Sell)",
-      "description": "    Iron is one of the most common and most useful metals.",
-      "x": 171,
-      "y": 16,
+      "uuid": "5ea1c996-7662-4c45-a965-ed8aa7b29b63",
+      "name": " Lumium (Sell)",
+      "description": "    Lumium is an alloy of Tin, Silver, and Glowstone.",
+      "x": 271,
+      "y": 167,
       "icon": {
-        "id": "minecraft:iron_ingot",
+        "id": "silents_mechanisms:lumium_ingot",
         "Count": 1
       },
       "repeat": {
@@ -846,10 +582,9 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:iron_ingot",
+                "id": "silents_mechanisms:lumium_ingot",
                 "Count": 1
-              },
-              "precision": "NBT_FUZZY"
+              }
             }
           ]
         }
@@ -859,45 +594,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3553cbcd-174c-48e3-84d5-b255454ca00d",
-      "name": " Manasteel Ingot (Sell)",
-      "description": "    Manasteel is a Botanists Mana infused Iron. It\u0027s worth a little more than Iron, but not by much.",
-      "x": 197,
-      "y": 78,
-      "icon": {
-        "id": "botania:manasteel_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "botania:manasteel_ingot",
-                "Count": 3
-              },
-              "required": 3
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -1091,43 +788,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "b4a580e6-27cb-435f-ac53-c9b449611f29",
-      "name": " Constantan (Sell)",
-      "description": "    Constantan is an alloy of Copper and Nickel, used in certain industrial machinery.",
-      "x": 294,
-      "y": 18,
-      "icon": {
-        "id": "immersiveengineering:ingot_constantan",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "immersiveengineering:ingot_constantan",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "5968adf2-9586-40eb-a63a-42e33ac8445e",
       "name": " Lead (Sell)",
       "description": "    Lead is a heavy metal, good for protective barriers.",
@@ -1159,6 +819,942 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "597e2543-a1ef-450d-8d69-34e217a83841",
+      "name": " Uranium (Buy)",
+      "description": "    Uranium is a rare, valuable material used for power generation.",
+      "x": 65,
+      "y": 110,
+      "icon": {
+        "id": "silents_mechanisms:uranium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 70
+              },
+              "required": 70
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:uranium_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "51e649be-0c1d-4bd7-aab1-8f69397398f8",
+      "name": " Azure Electrum (Sell)",
+      "description": "    Azure Electrum is a strong alloy that makes excellent tools and armor.",
+      "x": 271,
+      "y": 109,
+      "icon": {
+        "id": "silentgear:azure_electrum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silentgear:azure_electrum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 50
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a0f0ae28-9110-45fb-b941-5b2522026716",
+      "name": " Brass (Sell)",
+      "description": "    Brass is an alloy of Copper and Zinc.",
+      "x": 246,
+      "y": 138,
+      "icon": {
+        "id": "silents_mechanisms:brass_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:brass_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "297a607d-a194-4387-bec5-fa35331f3fbe",
+      "name": " Silver (Sell)",
+      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
+      "x": 198,
+      "y": 106,
+      "icon": {
+        "id": "iceandfire:silver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:silver_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "25c1f7a9-2b9f-468d-bece-ff6d9340fadc",
+      "name": " Platinum (Sell)",
+      "description": "    Platinum is a rare, precious metal that is used in some higher end technology, as well as jewelry.",
+      "x": 222,
+      "y": 136,
+      "icon": {
+        "id": "silents_mechanisms:platinum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:platinum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9a657f5e-a14b-4081-8e65-73f9b3c9ebe3",
+      "name": " Aluminum (Sell)",
+      "description": "    Aluminum is a good, lightweight metal excellent for various applications. \n    Aluminum\u0027s natural form is in Bauxite Ore.",
+      "x": 271,
+      "y": 50,
+      "icon": {
+        "id": "silents_mechanisms:aluminum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:aluminum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e2b1cb4c-70bd-423c-85f2-bc0e1721ba68",
+      "name": " Oratchalcum (Buy)",
+      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
+      "x": 15,
+      "y": 109,
+      "icon": {
+        "id": "rats:oratchalcum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "rats:oratchalcum_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c5c0ed2a-e859-4259-b580-e28724072225",
+      "name": " Azure Silver (Buy)",
+      "description": "    Azure Silver is a somewhat rare End metal that has slight antigravity properties.",
+      "x": 15,
+      "y": 138,
+      "icon": {
+        "id": "silentgear:azure_silver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silentgear:azure_silver_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4e79a810-3bdf-42d5-a9a2-d500153eec2d",
+      "name": " Invar (Sell)",
+      "description": "    Invar is an alloy of Iron and Nickel.",
+      "x": 295,
+      "y": 138,
+      "icon": {
+        "id": "silents_mechanisms:invar_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:invar_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "42d0e284-cf07-4274-957e-7fd36ec9419b",
+      "name": " Neptunium Ingot (Buy)",
+      "description": "    Neptunium is a rare metal only found from fishing. It radiates with the power of the sea.",
+      "x": 15,
+      "y": 79,
+      "icon": {
+        "id": "aquaculture:neptunium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "aquaculture:neptunium_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6eade0f9-75cc-4665-a901-9d057642be62",
+      "name": " Iron (Buy)",
+      "description": "    Iron is one of the most common and most useful metals.",
+      "x": 15,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0322647d-d1d0-4c62-95b6-8ed144f8c7ab",
+      "name": " Redstone Alloy (Sell)",
+      "description": "    Redstone Alloy is an alloy of Iron and Redstone, used certain machines.",
+      "x": 295,
+      "y": 109,
+      "icon": {
+        "id": "silents_mechanisms:redstone_alloy_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:redstone_alloy_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eef71099-4185-4fee-8b3b-3cdfe700a43e",
+      "name": " Silver (Buy)",
+      "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
+      "x": 40,
+      "y": 109,
+      "icon": {
+        "id": "iceandfire:silver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:silver_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9be3cee9-bd9d-4e9c-9069-0f18e1425059",
+      "name": " Azure Silver (Sell)",
+      "description": "    Azure Silver is a somewhat rare End metal that has slight antigravity properties.",
+      "x": 171,
+      "y": 135,
+      "icon": {
+        "id": "silentgear:azure_silver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silentgear:azure_silver_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 13
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "600c5f74-8ff1-4fbf-bcdc-8f30ad34200d",
+      "name": " Oratchalcum (Sell)",
+      "description": "    Oratchalcum is a mystical metal found deep under the islands of Ratlantis. It can be tough to find amongst all the more common metals.",
+      "x": 171,
+      "y": 105,
+      "icon": {
+        "id": "rats:oratchalcum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "rats:oratchalcum_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "049073fd-ba4c-4384-9fe6-b98cb7b1329b",
+      "name": " Enderium (Sell)",
+      "description": "    Enderium is an alloy of Platinum, Lead, and Ender Pearl.",
+      "x": 295,
+      "y": 167,
+      "icon": {
+        "id": "silents_mechanisms:enderium_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:enderium_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 35
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d5533b9a-05fc-4bf0-b1b7-34cb03fe1a2e",
+      "name": " Steel (Sell)",
+      "description": "    Steel is refined Iron, the impurities removed. ",
+      "x": 295,
+      "y": 80,
+      "icon": {
+        "id": "silents_mechanisms:steel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:steel_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f46bb870-7d2b-4302-b63e-6df2c9536d47",
+      "name": " Gold (Buy)",
+      "description": "    Gold is a valuable metal, both as a luxury good, and for electricity conduction and scientific purposes.",
+      "x": 40,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:gold_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "029caacb-b89f-419c-8606-22f75ad8d317",
+      "name": " Gold (Sell)",
+      "description": "    Gold is a valuable metal, both as a luxury good, and for electricity conduction and scientific purposes.",
+      "x": 196,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:gold_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cf2420a8-81d6-4bc2-9559-57cb2e3aaddc",
+      "name": " Bronze (Sell)",
+      "description": "    Bronze is an alloy of Copper and Tin.",
+      "x": 271,
+      "y": 138,
+      "icon": {
+        "id": "silents_mechanisms:bronze_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:bronze_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f1b5942c-e9cc-4718-8dc9-3ad3b103d124",
+      "name": " Iron (Sell)",
+      "description": "    Iron is one of the most common and most useful metals.",
+      "x": 171,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3553cbcd-174c-48e3-84d5-b255454ca00d",
+      "name": " Manasteel Ingot (Sell)",
+      "description": "    Manasteel is a Botanists Mana infused Iron. It\u0027s worth a little more than Iron, but not by much.",
+      "x": 197,
+      "y": 78,
+      "icon": {
+        "id": "botania:manasteel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manasteel_ingot",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c7f5af5-5fb5-4919-ae1d-886e6d32e617",
+      "name": " Bismuth (Buy)",
+      "description": "    Strangely, this material is best known as the main active ingredient in a stomach-ache remedy.",
+      "x": 40,
+      "y": 139,
+      "icon": {
+        "id": "silents_mechanisms:bismuth_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:bismuth_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "43064aa4-d3fc-498e-b490-f3afc17c9760",
+      "name": " Platinum (Buy)",
+      "description": "    Platinum is a rare, precious metal that is used in some higher end technology, as well as jewelry.",
+      "x": 65,
+      "y": 139,
+      "icon": {
+        "id": "silents_mechanisms:platinum_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 70
+              },
+              "required": 70
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:platinum_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b4a580e6-27cb-435f-ac53-c9b449611f29",
+      "name": " Constantan (Sell)",
+      "description": "    Constantan is an alloy of Copper and Nickel, used in certain industrial machinery.",
+      "x": 294,
+      "y": 18,
+      "icon": {
+        "id": "immersiveengineering:ingot_constantan",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:ingot_constantan",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -1202,13 +1798,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "597e2543-a1ef-450d-8d69-34e217a83841",
-      "name": " Uranium (Buy)",
-      "description": "    Uranium is a rare, valuable material used for power generation.",
-      "x": 65,
-      "y": 110,
+      "uuid": "c5805a93-51a1-42cc-951c-d816c948be40",
+      "name": " Signalum (Sell)",
+      "description": "    Signalum is an alloy of Copper, Silver, and Redstone.",
+      "x": 246,
+      "y": 166,
       "icon": {
-        "id": "silents_mechanisms:uranium_ingot",
+        "id": "silents_mechanisms:signalum_ingot",
         "Count": 1
       },
       "repeat": {
@@ -1220,10 +1816,9 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 70
-              },
-              "required": 70
+                "id": "silents_mechanisms:signalum_ingot",
+                "Count": 1
+              }
             }
           ]
         }
@@ -1232,7 +1827,44 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "silents_mechanisms:uranium_ore",
+          "id": "calemiutils:coin_dollar",
+          "Count": 15
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eac3879c-4373-4d49-ad54-429e876bc53a",
+      "name": " Aluminum Steel (Sell)",
+      "description": "    Aluminum Steel is an alloy of refined Iron and Aluminum.",
+      "x": 199,
+      "y": 165,
+      "icon": {
+        "id": "silents_mechanisms:aluminum_steel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:aluminum_steel_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
           "Count": 1
         }
       ],
