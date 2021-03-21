@@ -1,0 +1,519 @@
+{
+  "name": "Factory Follies",
+  "quests": [
+    {
+      "uuid": "dc61b416-93bc-49e8-95dd-1b36f4d5d67c",
+      "name": " Power and Function",
+      "description": "    The Lava Generator consumes Lava and turns it into power.\n    The Electric Furnace is an electricity powered version of a normal Furnace.\n    The Pump picks up liquids nearby and puts them into Buckets or Cannisters.\n    The Mixer combines multiple liquids into one.",
+      "x": 59,
+      "y": 71,
+      "icon": {
+        "id": "silents_mechanisms:lava_generator",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:lava_generator",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:electric_furnace",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:pump",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:mixer",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8f5a0abc-279d-4f17-96fc-45a97ab5b11d",
+      "name": " Silent\u0027s Upgrades 1",
+      "description": "    These Upgrades go into Silent\u0027s Mechanism\u0027s machines.",
+      "x": 12,
+      "y": 97,
+      "icon": {
+        "id": "silents_mechanisms:energy_efficiency_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:energy_efficiency_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:processing_speed_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "be1089b5-3514-4885-9d7c-b5658c981bd7",
+      "name": " Silent\u0027s Upgrades 2",
+      "description": "    These Upgrades go into Silent\u0027s Mechanism\u0027s machines.",
+      "x": 37,
+      "y": 98,
+      "icon": {
+        "id": "silents_mechanisms:range_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:range_upgrade",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1fb8dd3c-2f7f-43ac-8ed7-75d1b015e700",
+      "name": " Silent\u0027s Mechanisms - Basics",
+      "description": "    Silent\u0027s Mechanisms are a range of machines that work well in a factory setting. The machines can be moved and configued with a Wrench.\n    For nourishment, Drying Racks can be used to dry meat to last longer, or turn Rotten Meat from zombies into useable Leather.\n    Empty Canisters are used by Silent\u0027s Mechanisms to move fluids around.",
+      "x": 36,
+      "y": 14,
+      "icon": {
+        "id": "silents_mechanisms:wrench",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:wrench",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:oak_drying_rack",
+          "Count": 8
+        },
+        {
+          "id": "silents_mechanisms:empty_canister",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee5f89f9-fab0-4949-b825-cb6683a4ae6d",
+      "name": " Power Basics",
+      "description": "    The Coal Generate generates power by burning Coal or Charcoal.\n    Power can be stored and transported in Batteries.\n    Power can be transported between machines and generators using Wire.",
+      "x": 12,
+      "y": 43,
+      "icon": {
+        "id": "silents_mechanisms:coal_generator",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:coal_generator",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:battery",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "silents_mechanisms:wire",
+          "Count": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b9fa0e1-353e-4660-b6a0-d0f40e21d512",
+      "name": " Unlock Factory Follies",
+      "description": "    Looking to automate your factory pieces yourself? Look no further.",
+      "x": 153,
+      "y": 180,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_factory_follies true",
+        "me HAS LEARNED LOST KNOWLEDGE - FACTORY FOLLIES"
+      ]
+    },
+    {
+      "uuid": "f86dd9d2-2303-4072-b9eb-88167ba2fb0b",
+      "name": " Compression",
+      "description": "    The Compressor consumes power to condense items into rarer materials.",
+      "x": 59,
+      "y": 43,
+      "icon": {
+        "id": "silents_mechanisms:compressor",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:compressor",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "165ba8d6-1723-4f38-be05-2342ebf99592",
+      "name": " Silent\u0027s Upgrades 3",
+      "description": "    These Upgrades go into Silent\u0027s Mechanism\u0027s machines.",
+      "x": 60,
+      "y": 99,
+      "icon": {
+        "id": "silents_mechanisms:output_chance_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:output_chance_upgrade",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e442a114-8d9c-49d3-9ca3-7fee1384624e",
+      "name": " Improved Machines",
+      "description": "    The Alloy Smelter combines different metals into stronger alloys.\n    The Crusher grinds up ores and gives a chance at multiple ingots.\n    The Solidifier turns fluids into items.\n    The Refinery is used to refine things like Oil into fuels and other liquids.",
+      "x": 36,
+      "y": 71,
+      "icon": {
+        "id": "silents_mechanisms:alloy_smelter",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:alloy_smelter",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:crusher",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:solidifier",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:refinery",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f266216-7085-4327-82b5-fbc5b0a53b68",
+      "name": " More Power",
+      "description": "    The Diesel Generator burns Diesel, obtained via the Refinery, to generate power.\n    The Battery Box is a large power storage block.",
+      "x": 36,
+      "y": 43,
+      "icon": {
+        "id": "silents_mechanisms:diesel_generator",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:diesel_generator",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:battery_box",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "38cc77d8-8b47-4f6b-90c1-c6dfaf5c25c5",
+      "name": " Basic Machines",
+      "description": "    The Basic Alloy Smelter combines different metals into stronger alloys.\n    The Basic Crusher grinds up ores and gives a chance at multiple ingots.",
+      "x": 12,
+      "y": 70,
+      "icon": {
+        "id": "silents_mechanisms:basic_alloy_smelter",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:basic_alloy_smelter",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:basic_crusher",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Need some machinery for your factory? Something to improve your material output? Bound to be something here for you."
+}
