@@ -592,8 +592,8 @@
 		{
 			title: "Safety Line",
 			icon: "iceandfire:chain",
-			x: 10.75d,
-			y: -2.0d,
+			x: 11.0d,
+			y: -2.25d,
 			shape: "square",
 			subtitle: "&dQuestionable Methods",
 			description: [
@@ -627,8 +627,8 @@
 		{
 			title: "Dragon Tamer Tools",
 			icon: "iceandfire:dragon_stick",
-			x: 10.75d,
-			y: 0.0d,
+			x: 11.0d,
+			y: 0.25d,
 			shape: "square",
 			subtitle: "&dTaking Proper Care",
 			description: [
@@ -671,7 +671,7 @@
 		{
 			title: "Multiplication",
 			icon: "iceandfire:fire_stew",
-			x: 11.75d,
+			x: 12.25d,
 			y: -1.0d,
 			shape: "square",
 			subtitle: "&dGreat, now there are three of them",
@@ -1094,6 +1094,50 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 40
+			}]
+		},
+		{
+			title: "&dLesson Complete: Ice and Fire: Dragons",
+			x: 11.0d,
+			y: -1.0d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"0000000000000346",
+				"000000000000034E",
+				"0000000000000389",
+				"0000000000000381",
+				"0000000000000385",
+				"000000000000039F",
+				"0000000000000391",
+				"000000000000038D",
+				"0000000000000396",
+				"0000000000000367",
+				"000000000000035D",
+				"0000000000000359",
+				"0000000000000353",
+				"000000000000039A",
+				"000000000000036C",
+				"00000000000003A3",
+				"0000000000000375",
+				"000000000000037E",
+				"0000000000000379"
+			],
+			size: 1.25d,
+			id: "5C682EDAFCAF4141",
+			tasks: [{
+				id: "2508CF474ABC6701",
+				type: "checkmark",
+				icon: {
+					id: "contenttweaker:forbiddencoin",
+					Count: 51b
+				}
+			}],
+			rewards: [{
+				id: "3244D12EE1B48FAE",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 4
 			}]
 		}
 	]
