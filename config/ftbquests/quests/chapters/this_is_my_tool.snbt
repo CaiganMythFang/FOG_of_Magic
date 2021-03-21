@@ -2706,6 +2706,66 @@
 				item: "calemiutils:coin_dollar",
 				count: 25
 			}]
+		},
+		{
+			title: "&dLesson Complete: Silent's Gear, Silent's Gems, Mana Gear, Dragon Gear",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 46b
+			},
+			x: -1.25d,
+			y: 0.9375d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"2D5310696A2EC63B",
+				"14D689260A1AD65D",
+				"53B50FBC69BF6135",
+				"30C041BC024CF581",
+				"24F21304BAAC9E10",
+				"42810EEA7F308F6B",
+				"70D1490AA241F000",
+				"0ABD089E989B2CBD",
+				"0CDC0527C0096F51",
+				"1DD5F7DF81B86A19",
+				"27F56E7E83177A18",
+				"6195505AC331480B",
+				"3032B4A8D6F10B7B",
+				"647077C483897440",
+				"19FF1BFB9243B175",
+				"7D501DA75F8059A5",
+				"54D92AB122AD38D4",
+				"39B45C7A70BE70EB",
+				"5DD59877F8D03740",
+				"20380718FE82F5A8",
+				"27CCA4C73A8DA7D1",
+				"3697182782DB1469",
+				"4C9C24B87D5B20A0",
+				"344B6627FF3C6CD4",
+				"3D4FE2960BF0AE62",
+				"51F531D70CDED069",
+				"70DFFE178E2418EF",
+				"65E9216AECA6570B",
+				"7043438E4B4945A3",
+				"4C592D8D0560B3E5",
+				"6F46CF87F6CFE878",
+				"39B3500E817B1D5E",
+				"1F0C54423CE96FB0",
+				"13170913A788220A",
+				"65ADEA973F95F940"
+			],
+			size: 1.25d,
+			id: "74751CA5DE38D347",
+			tasks: [{
+				id: "59FCEFBBB8A71E38",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "64621B5FEF0C5764",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 3
+			}]
 		}
 	]
 }
