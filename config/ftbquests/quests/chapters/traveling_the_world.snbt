@@ -1,0 +1,777 @@
+{
+	id: "040FDEE0103CABA8",
+	group: "",
+	order_index: 2,
+	filename: "traveling_the_world",
+	title: "Traveling the World",
+	icon: "minecraft:allium",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Exploring the World",
+			icon: "astralsorcery:tree_beacon",
+			x: -0.75d,
+			y: -1.5d,
+			subtitle: "&dSettle in for the long haul",
+			description: [
+				"&dThis world is a lot different than you are used to, Traveler. It's good to know what you might find.",
+				"",
+				"Definitely. Anything you can tell me?",
+				"",
+				"&dDon't die if you can help it.",
+				"",
+				"I... mean something less obvious, Kow.",
+				"",
+				"&dBe vigilant. Here, I'll give you an Antique Atlas, it'd be good to mark down interesting things you find for later.",
+				"",
+				"&6This quest page is for small mods, centered around exploration, combat, etc"
+			],
+			dependencies: ["0000000000000025"],
+			size: 1.5d,
+			id: "66191B31820EAEC9",
+			tasks: [{
+				id: "2419F1923BC2E755",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "56D2B8D15DB12CEE",
+				type: "item",
+				item: "antiqueatlas:empty_antique_atlas"
+			}]
+		},
+		{
+			title: "A World of Stone",
+			icon: "mining_dimension:teleporter",
+			x: -2.0d,
+			y: -3.75d,
+			shape: "square",
+			subtitle: "&dMod: Advanced Mining Dimension",
+			description: [
+				"&dTraveler, a suggestion? Make this &dteleporter.",
+				"",
+				"Teleporter? Where to?",
+				"",
+				"&dA world with nothing but caves. It's a &ddimension the mages found that is full &dof both resources and monsters.",
+				"",
+				"It sounds like a good place to dig through without making giant holes in the landscape...."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "0000000000000109",
+			tasks: [{
+				id: "000000000000010A",
+				type: "item",
+				item: "mining_dimension:teleporter"
+			}],
+			rewards: [{
+				id: "000000000000010B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Magical World",
+			icon: "losttrinkets:tha_wizard",
+			x: 1.5d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "&dMod: Lost Trinkets",
+			description: [
+				"&dTraveler, since you have a knack of magic, this dimension will benefit you more than you think.",
+				"",
+				"I'm not sure I follow.",
+				"",
+				"&dJust by doing normal things. Fighting. Chopping wood. Mining. You will slowly attune yourself to the magical fields. And rarely, you will unlock what is known as a Lost Trinket.",
+				"",
+				"Trinket? Do I wear it or....",
+				"",
+				"&dBy pressing R, you can see what Lost Trinkets you have 'unlocked', and choose which ones to use. You only have one slot, however.",
+				"",
+				"How do I get more?",
+				"",
+				"&dBy gaining experience, which you can then use to unlock more spots. You may only have 5 total, however."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "7903CBDF0B395E09",
+			tasks: [{
+				id: "72C28A4D9156C326",
+				type: "checkmark",
+				title: "Magical World"
+			}],
+			rewards: [{
+				id: "79F63097DC704CCE",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Animals by Alex",
+			icon: "alexsmobs:animal_dictionary",
+			x: -0.75d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dMod: Alex's Mobs",
+			description: [
+				"There's a whole lot of animals here, some of them I have back home in my old dimension, and some of them... are very different, or altogether new. ",
+				"",
+				"&dHere, make this Animal Book. It's the &djournal of Alex, an explorer who &dwrote down notes on many of the &danimals.",
+				"",
+				"Not all of them? I guess there ARE too many for one person to study. "
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "00000000000001CD",
+			tasks: [{
+				id: "00000000000001CE",
+				type: "item",
+				item: "alexsmobs:animal_dictionary"
+			}],
+			rewards: [{
+				id: "00000000000001CF",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Musical Monstrosities",
+			icon: {
+				id: "instrumentalmobs:french_horn",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dMod: Instrumental Mobs",
+			description: [
+				"&dLooks like a lot of the undead are trying to start a band.",
+				"",
+				"What? What does...",
+				"",
+				"&dJust look, Traveler. Sometimes you can see one of them holding an instrument. Seem to know how to use em too...",
+				"",
+				"Oh. Hey, I want some of those instruments.",
+				"",
+				"&dAh, how about getting one of those French Horns? ",
+				"",
+				"Why?",
+				"",
+				"&dNo reason."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "2F2CFDCE6C21C9DE",
+			tasks: [{
+				id: "30E4854A233340AE",
+				type: "item",
+				item: {
+					id: "instrumentalmobs:french_horn",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "7B26DA86F7F0D9D7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Waystones of Life",
+			icon: "waystones:waystone",
+			x: -0.75d,
+			y: -3.75d,
+			shape: "square",
+			subtitle: "&dMod: Waystones",
+			description: [
+				"There's these interesting stone statue things I started to see around, sometimes in villages, sometimes at the top of these tall towers.",
+				"",
+				"When I asked Kow, she said they were called Waystones, and that I can make them myself as well. They are basically part of a magical teleport network.",
+				"",
+				"I can use a Waystone to teleport to other Waystones, but only if I've visited and Right Clicked them before. I can also use a Waystone gem to do the same from anywhere, but it has limited uses."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "0000000000000100",
+			tasks: [
+				{
+					id: "0000000000000101",
+					type: "item",
+					item: "waystones:waystone",
+					consume_items: false
+				},
+				{
+					id: "0000000000000104",
+					type: "item",
+					item: {
+						id: "waystones:warp_stone",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					consume_items: false
+				}
+			],
+			rewards: [{
+				id: "0000000000000105",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Warping Scrolls",
+			icon: "waystones:return_scroll",
+			x: -0.75d,
+			y: -5.0d,
+			shape: "square",
+			subtitle: "&dCheaper and just as useful",
+			description: [
+				"If I don't want to fight with a Waystone gem and recharging it, I can use a Warp Scroll to get around.",
+				"",
+				"&dIf you've found some out of the &dWaystones, Traveler, you can share &dtheir location with a Bound Scroll. &dRight Click a Bound Scroll on the &dWaystone, then have your friend use &dthe scroll to learn it's location.",
+				"",
+				"Good idea. The Return Scrolls are also super useful. They teleport you back to the last Waystone you used. Good for a quick escape without wasting time choosing a location."
+			],
+			dependencies: ["0000000000000100"],
+			id: "0000000000000102",
+			tasks: [
+				{
+					id: "0000000000000103",
+					type: "item",
+					item: "waystones:warp_scroll"
+				},
+				{
+					id: "0000000000000106",
+					type: "item",
+					item: "waystones:bound_scroll"
+				},
+				{
+					id: "0000000000000107",
+					type: "item",
+					item: "waystones:return_scroll"
+				}
+			],
+			rewards: [{
+				id: "0000000000000108",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Carry More In Style",
+			icon: "usefulbackpacks:backpack_small",
+			x: 1.5d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dMod: Useful Backpacks",
+			description: [
+				"Backpacks are super useful to have, and I should probably make one as soon as possible.",
+				"",
+				"Small and Medium backpacks are super easy to make, at least.",
+				"",
+				"If I equip them to my Curios back slot, I can hit B to open my backpack at any time."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "0000000000000189",
+			tasks: [
+				{
+					id: "000000000000018A",
+					type: "item",
+					item: "usefulbackpacks:backpack_small"
+				},
+				{
+					id: "000000000000018B",
+					type: "item",
+					item: "usefulbackpacks:backpack_medium"
+				}
+			],
+			rewards: [{
+				id: "000000000000018C",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Even More Useful Backpacks",
+			x: 2.75d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dCarry it all",
+			description: [
+				"Large backpacks are the logical extension of medium backpacks, of course. But the Ender Backpack...",
+				"",
+				"&dThere is a chest called an Ender &dChest. It's keyed to your soul. Any &dEnder Chest you open, opens YOUR &dEnder Chest.",
+				"",
+				"That's kind of neat. So the Ender Backpack...",
+				"",
+				"&dOpens that same Ender Chest."
+			],
+			dependencies: ["0000000000000189"],
+			id: "000000000000018F",
+			tasks: [{
+				id: "0000000000000190",
+				type: "item",
+				item: "usefulbackpacks:backpack_enderchest"
+			}],
+			rewards: [{
+				id: "00000000000001E3",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Quick Naps",
+			icon: "comforts:sleeping_bag_purple",
+			x: 4.0d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dMod: Comforts",
+			description: [
+				"So this dimension is so steeped in magic that I can resurrect after death usually, right? And I appear at the last bed I slept in?",
+				"",
+				"&dCorrect. Though some magic items will &dact &dlike a bed to set your Spawn &dPoint.",
+				"",
+				"Right, but if I'm exploring far away without a teleport scroll or whatever, I don't want to set my Spawn Point to a new spot. So what do I do? Just twiddle my thumbs in a dirt hole?",
+				"",
+				"&dI suggest using a Sleeping Bag. They &daren't that comfortable, but they don't &dreset your Spawn Point.",
+				"",
+				"That's super useful. Why can't it be a hammock, though? Well, I guess being out in the open at night is dangerous...",
+				"",
+				"&dHammocks let you sleep the day away. &dThough to set one up, you need to set &dthe Rope and Nail on two walls exactly &d4 spaces apart first."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "00000000000002FB",
+			tasks: [
+				{
+					id: "00000000000002FC",
+					type: "item",
+					item: "comforts:rope_and_nail",
+					count: 2L
+				},
+				{
+					id: "00000000000002FD",
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:sleeping_bags"
+						}
+					}
+				},
+				{
+					id: "00000000000002FE",
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:hammocks"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "00000000000002FF",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Death Isn't The End",
+			icon: {
+				id: "tombstone:decorative_grave_simple",
+				Count: 1b,
+				tag: {
+					model_texture: 0
+				}
+			},
+			x: -1.75d,
+			y: -2.25d,
+			shape: "square",
+			subtitle: "&dMod: Corail Tombstone",
+			description: [
+				"So death isn't the finality it is in my home dimension. There's so much magic, that many folks either become undead, or just resurrect.",
+				"",
+				"&dEventually death catches up to &deveryone, even the undead.",
+				"",
+				"True that. But for now, I can use death to my advantage. Each time, I learn a bit more, and can... as weird as this sounds, specialize death by hitting the N key.",
+				"",
+				"&dYou know, that really does sound &dweird...",
+				"",
+				"Yeah. But hey, I can also make decorative graves so...that's neat?",
+				"",
+				"&dSo... weird..."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "0000000000000315",
+			tasks: [{
+				id: "0000000000000316",
+				type: "item",
+				title: "Any Decorative Gravestone",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "tombstone:decorative_graves"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000317",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "The Culture of Fishing",
+			icon: {
+				id: "aquaculture:iron_fishing_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -3.25d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dMod: Aquaculture",
+			description: [
+				"I know fishing was somewhat popular back home, it's own sort of crazy culture and deep end of things you could get into. All sorts of rods, bait, fishing types, ways to fish... and it seems that exists here too. ",
+				"",
+				"&dPerhaps fishing culture is eternal.",
+				"",
+				"As long as there is fish? Anyways, Aquaculture is what they call it here. And it starts with a Fishing Rod.",
+				"",
+				"Aquaculture has its own Fishing Rods that can use special equipment, like hooks. Or, optionally, Bait like Worms, which you can get with a Worm Farm.",
+				"",
+				"The Worm Farm is like a Compost Bin. Right Click plants, food, etc into it to compost them, then Right Click with an open hand to dig out some Worms!",
+				"",
+				"Oh, and to hold it all? I can set out a Tackle Box!"
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "00000000000001DB",
+			tasks: [
+				{
+					id: "00000000000001DC",
+					type: "item",
+					item: "aquaculture:worm_farm"
+				},
+				{
+					id: "00000000000001DD",
+					type: "item",
+					item: {
+						id: "aquaculture:iron_fishing_rod",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "00000000000001E0",
+					type: "item",
+					item: "aquaculture:iron_hook"
+				},
+				{
+					id: "00000000000001E2",
+					type: "item",
+					item: "aquaculture:tackle_box"
+				}
+			],
+			rewards: [{
+				id: "00000000000001E1",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "A Reel of Your Own",
+			icon: "aquaculture:fishing_line",
+			x: -4.5d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dHook, Line, and Sinker...",
+			description: [
+				"Seems a lot of Aquaculture Enthusiasts like to add special Fishing Lines and Bobbers to their tacklebox, both of which are able to be dyed to personalize them.",
+				"",
+				"There's also the Fish Sign, which I can use to display my prize catches, if I so wanted.",
+				"",
+				"But for the fish I don't want to display? Well, the Fillet Knife comes up then...I can trim down a fish into fillets, and make things like... Sushi.",
+				"",
+				"&dYou have Kai's attention now."
+			],
+			dependencies: ["00000000000001DB"],
+			id: "00000000000001E4",
+			tasks: [
+				{
+					id: "00000000000001E5",
+					type: "item",
+					item: "aquaculture:fishing_line"
+				},
+				{
+					id: "00000000000001E6",
+					type: "item",
+					item: "aquaculture:bobber"
+				},
+				{
+					id: "00000000000001E7",
+					type: "item",
+					item: "aquaculture:oak_fish_mount"
+				},
+				{
+					id: "00000000000001E8",
+					type: "item",
+					item: {
+						id: "aquaculture:iron_fillet_knife",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "00000000000001E9",
+					type: "item",
+					item: "aquaculture:sushi"
+				}
+			],
+			rewards: [{
+				id: "00000000000001EA",
+				type: "item",
+				item: "calemiutils:coin_dollar"
+			}]
+		},
+		{
+			title: "Treasures of the Sea",
+			icon: "aquaculture:neptunium_ingot",
+			x: -5.75d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dPower of the Deep",
+			description: [
+				"So while fishing, I've been finding some interesting things. Messages in a bottles that seem very familiar. Odd pieces of trash. Things like that.",
+				"",
+				"But a few things are much more useful. Treasure chests with iron, gold, and a strange metal I've never seen that Kow calls Neptunium.",
+				"",
+				"It seems to be quite attuned with the sea. Armor made with it, each piece gives some other water based boon. Like breathing under water, which is super useful. It can also make some nice fishing gear!"
+			],
+			dependencies: ["00000000000001DB"],
+			id: "00000000000001EB",
+			tasks: [{
+				id: "00000000000001EC",
+				type: "item",
+				item: "aquaculture:neptunium_ingot"
+			}],
+			rewards: [{
+				id: "00000000000001ED",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "PACK NOTES 4",
+			icon: "ars_nouveau:belt_of_unstable_gifts",
+			x: 0.0d,
+			y: -2.25d,
+			shape: "gear",
+			subtitle: "&dCurios Accessories",
+			description: [
+				"&6In your inventory, to the upper left &6of your portrait, you can see a little &6circle gem shaped button. If you &6press it, you open up your Curios &6Equip menu.",
+				"",
+				"&6Many mods, especially magical ones, &6add accessories you can equip in &6these slots. They act like normal &6equipment, giving you stats and &6abilities while equipped. "
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "000000000000018D",
+			tasks: [{
+				id: "000000000000018E",
+				type: "checkmark",
+				title: "Curios",
+				icon: "usefulbackpacks:backpack_small"
+			}]
+		},
+		{
+			title: "Digging These Arrows",
+			icon: "minecraft:fletching_table",
+			x: -3.25d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "&dMod: Apotheosis",
+			description: [
+				"The Fletching Table is fairly useful, mostly for making special arrows.",
+				"",
+				"A couple I should consider making more of are the Exploding Arrow and Mining Arrow.",
+				"",
+				"The Exploding Arrow does what it says on the tin, really. It makes an especially big boom if it hits a monster.",
+				"",
+				"The Mining Arrow comes in two types, and mines things like I used that pickaxe. Useful for getting stuff off the Nether ceiling I think!"
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "00000000000001D0",
+			tasks: [
+				{
+					id: "00000000000001D1",
+					type: "item",
+					item: "minecraft:fletching_table"
+				},
+				{
+					id: "00000000000001D3",
+					type: "item",
+					item: "apotheosis:explosive_arrow"
+				},
+				{
+					id: "00000000000001D4",
+					type: "item",
+					item: "apotheosis:iron_mining_arrow"
+				}
+			],
+			rewards: [{
+				id: "00000000000001D2",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Magical Summoning Malarky",
+			icon: "minecraft:spawner",
+			x: -4.25d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "&dA dangerous game",
+			description: [
+				"Some of these dungeons here have weird cages with spinning monsters in them. Monster Spawners. Usually I just destroy them so I can loot in safety, but Kow informed me that I can actually use them for my own purposes.",
+				"",
+				"I'll need to enchant a Pickaxe with Silk Touch, then use that on the Spawner. It will REALLY damage the Pickaxe so I should be careful. I can then place the new Monster Spawner down somewhere and customize it.",
+				"",
+				"There's a few different things I can do. Make it spawn in a wider, or smaller, area. Spawn faster or slower. I can even change what monster pops out of it!",
+				"",
+				"Though for that, I'll need a Spawn Egg of the creature, which I can only get by killing a creature with a weapon enchanted with Capture... and even then, Kow says it is pretty rare."
+			],
+			dependencies: ["00000000000001D0"],
+			id: "00000000000001D8",
+			tasks: [{
+				id: "00000000000001D9",
+				type: "item",
+				item: "minecraft:spawner"
+			}],
+			rewards: [{
+				id: "00000000000001DA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Charm'd Potions",
+			icon: {
+				id: "apotheosis:potion_charm",
+				Count: 1b,
+				tag: {
+					Damage: 0,
+					Potion: "minecraft:night_vision"
+				}
+			},
+			x: -3.25d,
+			y: -4.0d,
+			shape: "square",
+			subtitle: "&dEasy to ration",
+			description: [
+				"One thing I don't like with Potions is that I can't just... you know, sip a little bit now, and a little bit later, right? I have to chug 12 ounces of magical brew very time.",
+				"",
+				"Someone here came up with Potion Charms, which is super useful. They last longer than normal potions, and I can turn them on when I need their ability, then back off afterwards."
+			],
+			dependencies: ["00000000000001D0"],
+			id: "00000000000001D5",
+			tasks: [{
+				id: "00000000000001D6",
+				type: "item",
+				item: {
+					id: "apotheosis:potion_charm",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						Potion: "minecraft:night_vision"
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000001D7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Unseating the Competition",
+			icon: {
+				id: "jousting:lance_wood",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.5d,
+			y: -4.25d,
+			shape: "square",
+			subtitle: "&dMod: Jousting",
+			description: [
+				"So, this is a magical world, lacking tech right? So, medieval?",
+				"",
+				"&dSomewhat. You'll have some advances in knowledge with how advanced magic is, but not everyone uses magic.",
+				"",
+				"&dSo things like old fashioned duels still exist. And jousting tournaments. Actually, you may want to know about Jousting.",
+				"",
+				"Why?",
+				"",
+				"&dWho knows who may challenge you? You can make Jousting Lances out of many things. The heavier they are, the more power they have to unseat your opponent, but are harder to keep holding up.",
+				"",
+				"&dWhen you have a lance and are on a horse, you can hold Right Click to lower the lance and speed up. But you'll eventually get tired, so timing it is key."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "3F3A608A864D91F7",
+			tasks: [{
+				id: "032CE09A0572AC49",
+				type: "item",
+				item: {
+					id: "jousting:lance_wood",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "116CDD6ABDA60297",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		}
+	]
+}
