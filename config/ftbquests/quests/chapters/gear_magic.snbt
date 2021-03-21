@@ -1,7 +1,7 @@
 {
 	id: "000000000000008E",
 	group: "",
-	order_index: 4,
+	order_index: 5,
 	filename: "gear_magic",
 	title: "Of Gears and Motion",
 	icon: "create:copper_valve_handle",

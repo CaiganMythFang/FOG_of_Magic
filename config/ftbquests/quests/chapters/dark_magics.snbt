@@ -1,7 +1,7 @@
 {
 	id: "00000000000003BD",
 	group: "",
-	order_index: 10,
+	order_index: 11,
 	filename: "dark_magics",
 	title: "Dark Magics",
 	icon: "eidolon:unholy_symbol",

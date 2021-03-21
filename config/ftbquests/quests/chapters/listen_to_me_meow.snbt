@@ -119,7 +119,7 @@
 			description: [
 				"So who the hell are you?",
 				"",
-				"&dAgain, language. But I am Kow, &dtechnically a technomancer. That &dmeans I work magic with &dtechnology.",
+				"&dAgain, language. But... well, you may call me Kow, pronounced like CO-operate. Technically a technomancer. That &dmeans I work magic with &dtechnology.",
 				"",
 				"Okay that sounds cool. So where are you?",
 				"",
@@ -274,7 +274,7 @@
 			shape: "diamond",
 			subtitle: "Knowledge is Power, and Money is Power",
 			description: [
-				"&dGood, the bread is broken. One last &dthing, traveler... you should probably &dget the help of my brother.",
+				"&dGood, the bread is broken. One last &dthing, traveler... you should probably &dget the help of my brother. You may call him Kai, which is prounced like o-KAY.",
 				"",
 				"Brother? Why?",
 				"",

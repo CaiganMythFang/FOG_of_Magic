@@ -1,7 +1,7 @@
 {
 	id: "0000000000000029",
 	group: "",
-	order_index: 3,
+	order_index: 4,
 	filename: "rats",
 	title: "Rodent Magic",
 	icon: "rats:marbled_cheese_rat_head",
