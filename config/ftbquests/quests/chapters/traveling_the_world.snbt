@@ -772,6 +772,84 @@
 				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
+		},
+		{
+			title: "My Chemical Horror",
+			icon: "mutantbeasts:chemical_x",
+			x: -2.25d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dOh lord",
+			description: [
+				"So very rarely, I can find a heavily mutated monster roaming the land. It could be a mutated Zombie, Skeleton, Creeper, or Enderman. I need to be careful facing them. They hit like a truck for one.",
+				"",
+				"But if I can take one down, I have the chance at some mutated gear. Like a Creeper Shard or a Hulk Hammer or an Endersoul Hand.",
+				"",
+				"While I could use these as a weapon or similar, Kow says I can make a rare potion by Brewing these with a Splash Thick Potion.",
+				"",
+				"&dWhy are you making Chemical X?",
+				"",
+				"You said....",
+				"",
+				"&dI said don't unless you really want a challenge. You can throw it at one of those creatures you listed, and it might transform into one of those mutant beasts."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "5659E52B5B0C545E",
+			tasks: [{
+				id: "131D766D32E159B7",
+				type: "item",
+				item: "mutantbeasts:chemical_x"
+			}],
+			rewards: [{
+				id: "1DE6E9CEB703FAA8",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Pumpkings",
+			icon: "mystical_pumpkins:infusion_table",
+			x: -3.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dDangerous Gourd",
+			description: [
+				"&dYou may have noticed large orange creatures wandering around. These unfriendly creatures are called Dragourds.",
+				"",
+				"Whoa, weird. Dragon pumpkins?",
+				"",
+				"&dSort of? It's hard to tell. But they drop this interesting pumpkin essence, that you can use in a Pumpkin Infusion Table to magically infuse pumpkins with abilities.",
+				"",
+				"&dFor example, you can make this Pumpkin that, when worn, lets you float down from high places safely."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "6C1DB8024703537F",
+			tasks: [
+				{
+					id: "61536813643F3992",
+					type: "item",
+					item: "mystical_pumpkins:pumpkin_essence"
+				},
+				{
+					id: "1C5B004ED891C56E",
+					type: "item",
+					item: "mystical_pumpkins:infusion_table"
+				},
+				{
+					id: "6FDAA18025ACCA3A",
+					type: "item",
+					item: "mystical_pumpkins:floating_pumpkin"
+				}
+			],
+			rewards: [{
+				id: "3D3A12F18382F040",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
 		}
 	]
 }
