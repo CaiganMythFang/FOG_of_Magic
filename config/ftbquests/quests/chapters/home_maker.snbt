@@ -1539,7 +1539,11 @@
 			y: -6.25d,
 			shape: "square",
 			subtitle: "&dSit Down, Relax",
-			description: ["Dining rooms are simple things. Tables that connect to each other and make larger tables. Chairs to sit down and relax in."],
+			description: [
+				"Dining rooms are simple things. Tables that connect to each other and make larger tables. Chairs to sit down and relax in.",
+				"",
+				"Some folks like to keep random curiosities in Cabinets in their Dining Room. I know my parents did. "
+			],
 			dependencies: ["143ADA387867822C"],
 			id: "541DC4E97BDF8570",
 			tasks: [
@@ -1564,6 +1568,18 @@
 						Count: 1b,
 						tag: {
 							value: "crafttweaker:cfm_chairs"
+						}
+					}
+				},
+				{
+					id: "3F2908E984A59276",
+					type: "item",
+					title: "Any MrCrayfish Cabinet",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "crafttweaker:cfm_cabinet"
 						}
 					}
 				}
@@ -1673,15 +1689,14 @@
 				{
 					id: "3B9712824E34455B",
 					type: "item",
-					title: "Any #crafttweaker:cfm_desk_cabinet",
+					title: "Any Mrcrayfish Desk Cabinet",
 					item: {
 						id: "itemfilters:tag",
 						Count: 1b,
 						tag: {
 							value: "crafttweaker:cfm_desk_cabinet"
 						}
-					},
-					consume_items: true
+					}
 				}
 			],
 			rewards: [{
