@@ -60,6 +60,158 @@
       "commandrewards": []
     },
     {
+      "uuid": "7f5785c7-2361-4641-88a5-bae99af0298a",
+      "name": " Vehicle Parts 5",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 104,
+      "y": 109,
+      "icon": {
+        "id": "vehicle:stone_large_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 60
+              },
+              "required": 60
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:gold_small_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:wood_large_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:stone_large_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:gold_electric_engine",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "304f73a4-c84e-4a6e-a12e-252f87587154",
+      "name": " Vehicle Parts 7",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 95,
+      "y": 138,
+      "icon": {
+        "id": "vehicle:gold_large_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "vehicle:gold_large_engine",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1a2d1370-be19-47b5-816b-b3e0e1933fe5",
+      "name": " MrCrayfish\u0027s Vehicle Mod",
+      "description": "    MrCrayfish is quite a prolific inventor and designer across multiple dimensions.\n    He has a line of vehicles that work quite well in all sorts of dimensions. The cost seems cheap for the Workstation to build them, but you must provide the parts and pieces yourself!\n    You can Sneak + Right Click a Vehicle to pick it up and place it onto a Jack.\n    You can use Traffic Cones to stop vehicles, or wear it. Either or.",
+      "x": 93,
+      "y": 21,
+      "icon": {
+        "id": "vehicle:workstation",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:workstation",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:panel",
+          "Count": 4
+        },
+        {
+          "id": "vehicle:jack",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:traffic_cone",
+          "Count": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "3c77048b-9e92-4743-a586-e879650180be",
       "name": " Unlock Movement, Inc",
       "description": "    Want to make your own Hook Launchers? Your own Elevators? Then this is the price.\n    It seems like a lot for some of these, but this is a package deal. You unlock a lot of different mods like this.",
@@ -80,8 +232,9 @@
             {
               "item": {
                 "id": "contenttweaker:forbiddencoin",
-                "Count": 1
-              }
+                "Count": 2
+              },
+              "required": 2
             }
           ]
         }
@@ -94,6 +247,495 @@
         "gamestage add @p lost_knowledge_movement_inc true",
         "me HAS LEARNED LOST KNOWLEDGE - MOVEMENT, INC"
       ]
+    },
+    {
+      "uuid": "80902ba7-3e40-4a46-b624-ed0429c0c3fc",
+      "name": " Vehicle Parts 2",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 104,
+      "y": 78,
+      "icon": {
+        "id": "vehicle:wood_electric_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:sports_wheel",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:plastic_wheel",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:wood_electric_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:stone_electric_engine",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "259a0b9a-f558-47ff-968d-a4f498a055ae",
+      "name": " Vehicle Tools",
+      "description": "    The Key can be used to lock and unlock your Vehicle, and start the engine.\n    The Wrench is used when your Vehicle is on a Jack to replace and upgrade parts.\n    The Hammer is used to fix up your Vehicle.\n    The Spraypaint Can can be crafted with dyes to change the color, then used when constructing your Vehicle to custom paint it.",
+      "x": 115,
+      "y": 21,
+      "icon": {
+        "id": "vehicle:wrench",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:key",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:wrench",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:hammer",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "vehicle:spray_can",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3313b723-cc60-4671-8243-67c1f594e5c6",
+      "name": " Vehicle Parts 3",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 126,
+      "y": 79,
+      "icon": {
+        "id": "vehicle:wood_small_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:racing_wheel",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:wood_small_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:stone_small_engine",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7be03f23-3c38-465a-8d88-c2dae0eb520b",
+      "name": " Vehicle Parts 8",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 119,
+      "y": 138,
+      "icon": {
+        "id": "vehicle:diamond_electric_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:diamond_small_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:diamond_large_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:diamond_electric_engine",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b9ea360-ecd0-4c31-88ff-96b85e7cd0f0",
+      "name": " Fuel Gear 2",
+      "description": "    The Fluid Mixer is the second stage of making Fuelium. You need the liquid from the two Fluid Extractors, each being piped into a different side (Not the Light Green side on the right, that is OUTPUT). You then insert Glowstone Dust, power the machine with Charcoal, and it will produce Fuelium.\n    You can use a Fluid Pump to extract the Fuelium out to a Fuelium Pump for refueling vehicles, or to a Fuel Drum.\n    The Industrial Jerry Can is a much larger version of the Jerry Can.",
+      "x": 104,
+      "y": 49,
+      "icon": {
+        "id": "vehicle:gas_pump",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:fluid_mixer",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:gas_pump",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:fuel_drum",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:industrial_jerry_can",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8065e37b-2294-441b-8578-7029f5a53bf2",
+      "name": " Vehicle Parts 6",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 127,
+      "y": 109,
+      "icon": {
+        "id": "vehicle:iron_large_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "vehicle:iron_large_engine",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e72000b1-d756-4558-bf7b-093b0ddbe7bc",
+      "name": " Fuel Gear 1",
+      "description": "    Fluid Extractors are the first step of making Fuelium for Vehicles. You will need 2 : 1 consumes Blaze Rods, the other consumes Ender Pearls.\n    Then you\u0027ll need Fluid Pumps, which you Sneak + Right Click onto the SIDE of the Fluid Extractor. Place a lever on the side of the Pump, which controls when it pulls liquid out of the Extractor.\n   You then need Fluid Pipes. Starting from the DESTINATION, you Sneak + Right Click a Fluid Pipe in a chain back towards the Fluid Extractor. DO NOT CROSS PIPES, the two fluids will not mix and will cause issues.\n    When you have Fuelium later, you can put it into a Jerrycan for transport.",
+      "x": 81,
+      "y": 49,
+      "icon": {
+        "id": "vehicle:jerry_can",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:fluid_extractor",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:fluid_pump",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:fluid_pipe",
+          "Count": 8
+        },
+        {
+          "id": "vehicle:jerry_can",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "941adce0-5fde-4245-bafd-18a084354f91",
+      "name": " Vehicle Parts 1",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 81,
+      "y": 78,
+      "icon": {
+        "id": "vehicle:standard_wheel",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:standard_wheel",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:off_road_wheel",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:snow_wheel",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:all_terrain_wheel",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5778df44-1321-4f6f-b015-1c850e27eb78",
+      "name": " Fuel Gear 3",
+      "description": "    The Industrial Fuel Drum holds lots more Fuelium.\n    If you have issues making Fuelium, we do provide some for purchase, though it is at a bit of a premium since you get a Bucket out of it as well.",
+      "x": 126,
+      "y": 50,
+      "icon": {
+        "id": "vehicle:industrial_fuel_drum",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:industrial_fuel_drum",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:blaze_juice_bucket",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bfb01834-c1cd-4438-99ab-847e81cab8f1",
+      "name": " Vehicle Parts 4",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 81,
+      "y": 108,
+      "icon": {
+        "id": "vehicle:iron_small_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 90
+              },
+              "required": 90
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "vehicle:iron_small_engine",
+          "Count": 1
+        },
+        {
+          "id": "vehicle:iron_electric_engine",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
     }
   ],
   "reputationBar": [],
