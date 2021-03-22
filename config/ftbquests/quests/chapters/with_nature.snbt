@@ -1,0 +1,338 @@
+{
+	id: "67EA3EE8F3C503D3",
+	group: "",
+	order_index: 14,
+	filename: "with_nature",
+	title: "With Nature",
+	icon: {
+		id: "naturesaura:gold_leaf",
+		Count: 64b
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Working With Nature",
+			icon: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "naturesaura:book"
+				}
+			},
+			x: -0.25d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dMod: Nature's Aura",
+			description: [
+				"&dTraveller, I think its about time you work with Nature a bit more.",
+				"",
+				"Huh? How come?",
+				"",
+				"&dWell, you come from a world that is overloaded with technology. I know this seems odd coming from a technomancer, but I feel a good balance must be struck between tech, magic, and nature. And we can do much more with those two, at least.",
+				"",
+				"Hm, that's a good idea for sure. Where do I start though?",
+				"",
+				"&dMake this book. It shall guide you with communing with nature and working together to create magic."
+			],
+			dependencies: ["0000000000000025"],
+			id: "02FBF3415A139678",
+			tasks: [{
+				id: "08C5C56CAEBAE94D",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}]
+		},
+		{
+			title: "Shining Leaf",
+			icon: "naturesaura:gold_leaf",
+			x: -0.25d,
+			y: -1.25d,
+			shape: "square",
+			subtitle: "&dSpreading Brilliance",
+			description: [
+				"There's a lot of info about Aura and balance to take in, but I think I get where I need to start.",
+				"",
+				"So Gold seems to be the conduit to connect me with nature. Which feels weird but... Gold is a natural thing and magical, so I guess that tracks.",
+				"",
+				"I need some Shears to get the Leaves and stuff without breaking them, but I can take some leaves and some Gold Nuggets to make some Brilliant Fibers. If I Right Click them on the leaves on top of a tree, and just... wait, slowly the foliage will turn Golden.",
+				"",
+				"When some of the leaves are pure golden, I need to break them and hope for a Gold Leaf, which I can turn into Gold Powder.",
+				"",
+				"I feel I'll need a lot of this, so I should turn a couple trees Golden."
+			],
+			dependencies: ["02FBF3415A139678"],
+			id: "5C87CE311D6E19C4",
+			tasks: [
+				{
+					id: "0D5CE51F1EC2C45A",
+					type: "item",
+					item: "naturesaura:gold_fiber"
+				},
+				{
+					id: "04156C7555D2182D",
+					type: "item",
+					item: "naturesaura:gold_leaf"
+				},
+				{
+					id: "424B612494AEE622",
+					type: "item",
+					item: "naturesaura:gold_powder",
+					count: 10L
+				}
+			],
+			rewards: [{
+				id: "2712BBC5E7C03D7B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Sunlight and Gold Art",
+			icon: {
+				id: "naturesaura:aura_bottle",
+				Count: 1b,
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			},
+			x: -0.25d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dRitual Time",
+			description: [
+				"I need to make a Bottle and Cork, which is... basically just putting a wood stopper on a bottle. This, however, will let me capture some of the latent Aura in the air. ",
+				"",
+				"Apparently if I Right Click this in the air, I get one of three samples of Aura, depending on which dimension I'm in. In the Overworld, I get Sunlight, which I'll need for my first ritual: The Ritual of the Forest.",
+				"",
+				"The book helps in setting up the ritual area, thankfully. It was a good idea to set up multiple trees for make Golden Leaves...",
+				"",
+				"Okay, setting up the Ritual is fairly easy. Now I just get the Tree to grow and... is this a Voodoo doll?"
+			],
+			dependencies: ["5C87CE311D6E19C4"],
+			id: "028C679ED38D368C",
+			tasks: [
+				{
+					id: "65EC4874E7AECC63",
+					type: "item",
+					item: "naturesaura:bottle_two_the_rebottling"
+				},
+				{
+					id: "7213178849FA4D73",
+					type: "item",
+					item: {
+						id: "naturesaura:aura_bottle",
+						Count: 1b,
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				},
+				{
+					id: "65DF91A110BDC188",
+					type: "item",
+					item: "naturesaura:token_joy"
+				}
+			],
+			rewards: [{
+				id: "03C196161620FF7E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Gathering Aura",
+			icon: "naturesaura:nature_altar",
+			x: -0.25d,
+			y: -4.0d,
+			shape: "square",
+			subtitle: "&dGonna need more space",
+			description: [
+				"Right, I know how to bottle the simplest amount of Aura, but I can't exactly do much with that other than make these emotion idol things. ",
+				"",
+				"To harness the power of Aura better, I need to start making a few more structures. The first will be the Natural Altar, which itself takes another Ritual to build the key center piece of. The book has all the layouts I need neatly laid out, so it shouldn't be too difficult.",
+				"",
+				"Once the Altar is properly built, it will start drawing in Aura from the area. Thankfully it won't draw more Aura than the place has, the book made it sound like that was dangerous. Not sure if I'm ready for that.",
+				"",
+				"Now with the Altar built, I can place Iron and Stone in the center to infuse it with Aura. "
+			],
+			dependencies: ["028C679ED38D368C"],
+			id: "3C8C1A16A7E206F2",
+			tasks: [
+				{
+					id: "44D314588BB7A8F1",
+					type: "item",
+					item: "naturesaura:nature_altar"
+				},
+				{
+					id: "2BBD1B730B338469",
+					type: "item",
+					item: "naturesaura:gold_brick"
+				},
+				{
+					id: "15323F6DD90A5B73",
+					type: "item",
+					item: "naturesaura:infused_iron"
+				},
+				{
+					id: "17D3832005FAFA48",
+					type: "item",
+					item: "naturesaura:infused_stone"
+				}
+			],
+			rewards: [{
+				id: "7FCE9F02EE507C9F",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Darker Aura",
+			icon: "minecraft:red_nether_bricks",
+			x: 1.0d,
+			y: -4.0d,
+			shape: "square",
+			subtitle: "&dMore Altars, More Venues",
+			description: [
+				"I'm going to need to venture and start building in the Nether as well, since the Aura there is more... ghostly. If I make another Aura gathering structure, using the same Natural Altar I just made.",
+				"",
+				"Only, you know, in the Nether.",
+				"",
+				"I need to use, let's see... Warped Planks, Red Nether Bricks, and Golden Nether Bricks. ",
+				"",
+				"Once constructed, it should start drawing in the Aura just like the first Altar. A Gold Ingot in the center should get infused.",
+				"",
+				"Or uh.... Tainted I guess? It is GHOSTLY Aura after all..."
+			],
+			dependencies: ["3C8C1A16A7E206F2"],
+			id: "13DFF1FCC853315B",
+			tasks: [
+				{
+					id: "7D48CED44B6155C3",
+					type: "item",
+					item: "minecraft:red_nether_bricks"
+				},
+				{
+					id: "75F3AFEBCBE68890",
+					type: "item",
+					item: "minecraft:warped_planks"
+				},
+				{
+					id: "6E3E91EFC4C774A7",
+					type: "item",
+					item: "naturesaura:gold_nether_brick"
+				},
+				{
+					id: "7FFB04DAF8D7FDA0",
+					type: "item",
+					item: "naturesaura:tainted_gold"
+				}
+			],
+			rewards: [{
+				id: "253A696A9D5EC538",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Crushing It",
+			icon: "naturesaura:crushing_catalyst",
+			x: 1.0d,
+			y: -5.0d,
+			shape: "square",
+			subtitle: "&dNatural Grinder",
+			description: [
+				"The Natural Altar can be used for more than just infusing items. If I make a Crumbling Catalyst and place it atop one of the smaller Golden Brick pillars, I can then put a variety of other things into the Altar itself to crush them with Aura.",
+				"",
+				"Things like Bones become Bonemeal in the Overworld, or Blaze Rods become Blaze Powder in the Nether.",
+				"",
+				"But I think the biggest benefit is crushing Gold Leafs into twice as much Gold Powder!"
+			],
+			dependencies: ["3C8C1A16A7E206F2"],
+			id: "4075207C93883D67",
+			tasks: [{
+				id: "15C2138A800E6D8F",
+				type: "item",
+				item: "naturesaura:crushing_catalyst"
+			}],
+			rewards: [{
+				id: "6C91D14065941A5A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Dolls of Emotion",
+			icon: "naturesaura:token_anger",
+			x: -1.5d,
+			y: -4.0d,
+			shape: "square",
+			subtitle: "&dCreepy, dolls are always creepy",
+			description: [
+				"Okay it isn't quite a Voodoo doll I guess, but it is kind of creepy. It looks like I can make a few different kinds of these.",
+				"",
+				"Each one is based on Emotion. I should make a few of each of them, different rituals seem to want different emotions tied to them."
+			],
+			dependencies: ["028C679ED38D368C"],
+			id: "3D1908E580F91B21",
+			tasks: [
+				{
+					id: "653EAA9FEF3DF90C",
+					type: "item",
+					item: "naturesaura:token_fear"
+				},
+				{
+					id: "5C7A9C2EDC295E30",
+					type: "item",
+					item: "naturesaura:token_anger"
+				},
+				{
+					id: "5675247F91663F40",
+					type: "item",
+					item: "naturesaura:token_sorrow"
+				}
+			]
+		},
+		{
+			title: "Trouble Starter",
+			icon: "naturesaura:furnace_heater",
+			x: 2.25d,
+			y: -5.0d,
+			shape: "square",
+			subtitle: "&dTwisted Firestarter",
+			description: [
+				"This seems to be one of the first things I can make that has a chance of drawing more Aura than an area has available. But it looks to be somewhat useful as well.",
+				"",
+				"The Extraneous Firestarter can be Sneak + Right Clicked onto the side of a Furnace, and it replaces the need to burn Wood, Coal, whatever to smelt things.",
+				"",
+				"Instead, it draws in aura slowly to heat up the Furnace. Since Aura regenerates slowly, if I'm careful I can keep a good balance of smelting items and letting the Aura stay positive levels."
+			],
+			dependencies: [
+				"3D1908E580F91B21",
+				"13DFF1FCC853315B"
+			],
+			id: "7EBCBB54757CBF80",
+			tasks: [{
+				id: "1B877FD7497CB4A1",
+				type: "item",
+				item: "naturesaura:furnace_heater"
+			}],
+			rewards: [{
+				id: "431B996B515F8618",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		}
+	]
+}
