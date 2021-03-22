@@ -1,0 +1,51 @@
+import crafttweaker.api.BracketHandlers;
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.util.text.MCTextComponent;
+import crafttweaker.api.util.text.MCStyle;
+
+mods.recipestages.Recipes.setRecipeStageByMod("lost_knowledge_movement_inc", "vehicle");
+
+// craftingTable.removeRecipe(<item:silents_mechanisms:wrench>);
+
+<item:mininggadgets:modificationtable>.addTooltip("§4Lost Knowledge - Movement, Inc");
+
+<item:vehicle:panel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:workstation>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:jack>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:key>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:hammer>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:wrench>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:spray_can>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:traffic_cone>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:jerry_can>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:fluid_extractor>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:fluid_pump>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:fluid_pipe>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:fluid_mixer>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:gas_pump>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:industrial_jerry_can>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:fuel_drum>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:industrial_fuel_drum>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:blaze_juice_bucket>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:standard_wheel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:off_road_wheel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:snow_wheel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:all_terrain_wheel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:sports_wheel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:plastic_wheel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:wood_electric_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:stone_electric_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:racing_wheel>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:wood_small_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:stone_small_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:gold_electric_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:stone_large_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:wood_large_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:iron_electric_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:iron_small_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:gold_small_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:iron_large_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:diamond_electric_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:diamond_large_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:diamond_small_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
+<item:vehicle:gold_large_engine>.addTooltip("§4Lost Knowledge - Movement, Inc");
