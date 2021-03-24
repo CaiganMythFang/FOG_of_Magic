@@ -38,6 +38,44 @@
       ],
       "rewardchoice": [],
       "commandrewards": []
+    },
+    {
+      "uuid": "cb89f4a2-b1b9-4a0e-bc95-12c0a4774de4",
+      "name": " Fae Essence (Buy)",
+      "description": "    Fae Essence is a magical material needed by Mahou Tsukai users. It can sometimes be quite hard to find in world, but we have a little supply we collect for sale.",
+      "x": 24,
+      "y": 20,
+      "icon": {
+        "id": "mahoutsukai:fae_essence",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mahoutsukai:fae_essence",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
     }
   ],
   "reputationBar": [],
