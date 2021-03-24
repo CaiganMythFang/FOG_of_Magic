@@ -1,0 +1,1823 @@
+{
+	id: "66808D978FB5314C",
+	group: "",
+	order_index: 15,
+	filename: "grand_magics",
+	title: "Grand Magics",
+	icon: {
+		id: "mahoutsukai:spatial_disorientation_staff",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "In the Blood",
+			icon: "mahoutsukai:guidebook",
+			x: -11.5d,
+			y: -1.25d,
+			shape: "square",
+			subtitle: "&dMod: Mahou Tsukai",
+			description: [
+				"&dTraveler. You mentioned before Isekais, so I figure you may be interested in one of the styles of magic in this world.",
+				"",
+				"Uh... I'm going to say I'm wary, since those tend to have some pretty gnarly twists after a while....",
+				"",
+				"&dHeh, what magic doesn't? But this definitely should be interesting to you. It's called Mahou Tsukai, which basically means...",
+				"",
+				"Magician. Heh. Okay how do we get started?",
+				"",
+				"&dFirst you'll need to craft the knowledge book. Then, you'll need to draw a magic circle in your blood.",
+				"",
+				"See, already with the twists!",
+				"",
+				"&dJust a bit. Let a monster hit you, or use a special Dagger to let a little blood. The hit Ctrl + M to activate your Mahou."
+			],
+			dependencies: ["0000000000000025"],
+			id: "6E08CF4A07A0CE12",
+			tasks: [
+				{
+					id: "10FC685B914693A0",
+					type: "item",
+					item: "mahoutsukai:guidebook"
+				},
+				{
+					id: "499FEA7C3CC3A48D",
+					type: "item",
+					item: "mahoutsukai:dagger"
+				}
+			],
+			rewards: [{
+				id: "3B392C3E5505077E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Of Mana and Magic",
+			icon: {
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+				},
+				id: "mahoutsukai:attuned_emerald",
+				Count: 1b,
+				tag: {
+					MAHOUTSUKAI_GEM_STORED_MANA: 0
+				}
+			},
+			x: -11.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dStretch Those Magic Muscles",
+			description: [
+				"So Mana is sort of like a muscle in Mahou Tsukai magic. The more I use it, the more I'll get when it regenerates.",
+				"",
+				"Most of the time, I can just wait a while for it to slowly replenish, or I can just get a good night's sleep and I'll get a good chunk of it back.",
+				"",
+				"One way I can both use my Mana and get more of it is to make an Attuned Gem, by combining an Attunement Ring with an Emerald (or a Diamond, but Emeralds are easier to get).",
+				"",
+				"I can then hold the gem and hold Right Click to charge it with my Mana. Spells I cast will first pull from any Attuned Gems I have."
+			],
+			dependencies: ["6E08CF4A07A0CE12"],
+			id: "574733FF6E36779C",
+			tasks: [
+				{
+					id: "1C54B8B4ADD34D96",
+					type: "item",
+					item: "mahoutsukai:attuner"
+				},
+				{
+					id: "30003BA8EB2606A7",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 0
+							}
+						},
+						id: "mahoutsukai:attuned_emerald",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "460134F9CAC0E455",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Casting 101",
+			icon: "mahoutsukai:hammer",
+			x: -9.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dA Little Guidance",
+			description: [
+				"Casting spells in Mahou Tsukai takes some preparation at first.",
+				"",
+				"To start with, I'll need a Hammer, and some Spell Cloth(if I am turning the spell into a Scroll.) The Hammer I need to make Catalyst powder, like the Powdered Iron.",
+				"",
+				"For my first spell, Enclosure Boundary, I start by Right Clicking the Spell Cloth on the ground. I then let some blood with my Dagger, and draw a Magic Circle ONTO the cloth. I should place the cloth and circle one block in front of me, it's a bit finicky)",
+				"",
+				"I then Right Click three Powdered Iron onto the Magic Circle. This spell will immediately start building walls around me, so I need to quickly Right Click again to turn it into a Spell Scroll!",
+				"",
+				"I can now use this Spell Scroll whenever I want."
+			],
+			dependencies: ["574733FF6E36779C"],
+			id: "7521767213361214",
+			tasks: [
+				{
+					id: "289F382B128CD4CC",
+					type: "item",
+					item: "mahoutsukai:hammer"
+				},
+				{
+					id: "49CDFA46E59A88FB",
+					type: "item",
+					item: "mahoutsukai:spell_cloth"
+				},
+				{
+					id: "353E62714CF1BC43",
+					type: "item",
+					item: "mahoutsukai:powdered_iron"
+				},
+				{
+					id: "5CDB5BA27A7C0FF6",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_boundary_raise_enclosure",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "0BBB5D029023C5ED",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Better Grinding",
+			icon: "mahoutsukai:mortar_and_pestle",
+			x: -10.5d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dIt All Adds Up",
+			description: [
+				"The Hammer is nice but its kind of inefficient when I use these catalysts a lot.",
+				"",
+				"So if I can get a diamond, I can make a Mortar and Pestle. This should double my Catalysts I get out of the materials."
+			],
+			dependencies: ["7521767213361214"],
+			id: "3344274537A8C1BF",
+			tasks: [{
+				id: "75C5BBBD499D04D2",
+				type: "item",
+				item: "mahoutsukai:mortar_and_pestle"
+			}],
+			rewards: [{
+				id: "6DA23EB7A568CE1A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Catalysts - Projection and Displacement",
+			icon: "mahoutsukai:powdered_diamond",
+			x: -9.5d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dSee, Its Actually Over There",
+			description: [
+				"Powdered Diamond is for spells that deal wiith projecting something.",
+				"",
+				"Powdered Ender is for spells that deal with displacing things from one place to another."
+			],
+			dependencies: ["7521767213361214"],
+			id: "68E53237D6B4E43B",
+			tasks: [
+				{
+					id: "0C9B1FE78E7A66D2",
+					type: "item",
+					item: "mahoutsukai:powdered_diamond"
+				},
+				{
+					id: "5D2AC55AB75C3D01",
+					type: "item",
+					item: "mahoutsukai:powdered_ender"
+				}
+			],
+			rewards: [{
+				id: "6DC41A5D81734EE4",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Catalysts - Exchange and Mystic",
+			icon: "mahoutsukai:powdered_emerald",
+			x: -9.5d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dTrading for an ounce of Mana",
+			description: [
+				"Powdered Emerald is for spells that deal with exchanging things around.",
+				"",
+				"Powdered Gold is for spells involving mysticism, more than usual I guess?"
+			],
+			dependencies: ["7521767213361214"],
+			id: "1B25AFA863B8D253",
+			tasks: [
+				{
+					id: "18445FCD3178E163",
+					type: "item",
+					item: "mahoutsukai:powdered_emerald"
+				},
+				{
+					id: "57EDC7AB88CA9C48",
+					type: "item",
+					item: "mahoutsukai:powdered_gold"
+				}
+			],
+			rewards: [{
+				id: "607F7EDA3B0719ED",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Catalysts - Intelligence and Mystic Eyes",
+			icon: "mahoutsukai:powdered_eye",
+			x: -9.5d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dSmart enough to recognize magic",
+			description: [
+				"Powdered Quartz is for spells that need a bit of intelligence behind them.",
+				"",
+				"Powdered Eye is for magical vision based spells."
+			],
+			dependencies: [
+				"7521767213361214",
+				"3D21A6FBE7BF1F57"
+			],
+			id: "475D99628EF98BF2",
+			tasks: [
+				{
+					id: "773D43EFF256B4E7",
+					type: "item",
+					item: "mahoutsukai:powdered_eye"
+				},
+				{
+					id: "64CCE3941A0713C8",
+					type: "item",
+					item: "mahoutsukai:powdered_quartz"
+				}
+			],
+			rewards: [{
+				id: "664385D15B1F08C6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "The Fae",
+			icon: "mahoutsukai:fae_essence",
+			x: -10.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dHidden Little Things",
+			description: [
+				"Now that I have the ability to cast Mystic Eyes of Fay Sight, I can find the fabled Fae.",
+				"",
+				"These creatures can only be seen when under the effects of Fay Sight. They apparently are attracted to spellcasting around Ley Lines so I should probablye search there.",
+				"",
+				"They can drop Fae Essence, which I can use to make a Mystic Code. I can open it with Sneak + Right Click, and put in 3 stacks of Spell Scrolls. I can then cast spells from it, and swap which scroll by hitting Ctrl + Y.",
+				"",
+				"&dTraveler, if you have having trouble finding Fae, which is common with how strange they are, we have some of the Fae Essence available in my brother's shop."
+			],
+			dependencies: [
+				"7521767213361214",
+				"33189FB8F81F3D44"
+			],
+			id: "4C129C0AEC3AFEDE",
+			tasks: [
+				{
+					id: "66A9B0FD7D6DF345",
+					type: "item",
+					item: "mahoutsukai:fae_essence"
+				},
+				{
+					id: "5D10ADCB1853BEDA",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: []
+						},
+						id: "mahoutsukai:mystic_code",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "71C4A125CBE9D509",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Spells - Displacing Bodies",
+			icon: "minecraft:ender_pearl",
+			x: -4.25d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dHere and There and There too",
+			description: [
+				"The Displacement Boundary spell will create a circle around me about 10ish blocks. Things trying to enter the circle from one side, will teleport out the other side of it. The spell seems to teleport blocks out of the way that would maybe suffocate whatever it is. ",
+				"",
+				"The Protective Displacement spell can only be put on a scroll. While active, I act kind of like an Enderman : if a projectile is about to hit me, the spell goes off and teleports me away a bit."
+			],
+			dependencies: [
+				"7521767213361214",
+				"68E53237D6B4E43B"
+			],
+			id: "539E2828E7CF02ED",
+			tasks: [
+				{
+					id: "001BFA9E2402EFB4",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_boundary_displacement",
+						Count: 1b
+					}
+				},
+				{
+					id: "3A8BD634AA00CA10",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_protective_displacement",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "5043FDE0B8CF614A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Stronger and Solider",
+			icon: "quark:brimstone_bricks_wall",
+			x: -4.25d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dStop em, whether by Force or Function",
+			description: [
+				"The Tangible Boundary spell can be used to summon a tall, invisible wall of power. I can walk through it, but creatures, monsters, and things like arrows cannot. It doesn't seem to remove or replace any material.",
+				"",
+				"Well, except grass. That'd be annoying to be foiled by foliage like that.",
+				"",
+				"Though if something gets through, I always have the Strengthen spell. By using it, whatever weapon is in my FIRST hotbar slot gets the Unbreaking enchantment."
+			],
+			dependencies: [
+				"7521767213361214",
+				"68E53237D6B4E43B"
+			],
+			id: "6AE26BE2FE748BC0",
+			tasks: [
+				{
+					id: "62910357E2E1392C",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_boundary_tangible",
+						Count: 1b
+					}
+				},
+				{
+					id: "2A6A9E8D7878EE8F",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_strengthening",
+						Count: 1b,
+						tag: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "76E70F1F260B1553",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Projecting Teleports",
+			icon: {
+				id: "mysticalworld:amethyst_knife",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -6.0d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dNothing Personal",
+			description: [
+				"The Projectile Displacement spell lets me teleport to the last arrow I shot. Good for a quick getaway if I plan ahead.",
+				"",
+				"The Proximity Projection summons a weapon for me. It doesn't have much durability, but aiming and slashing at any enemy far away causes me to teleport to them.",
+				"",
+				"I need to be careful though, as the enemy will get a free hit on me usually if they survive. Attack of opportunity I guess."
+			],
+			dependencies: ["68E53237D6B4E43B"],
+			id: "4F9C9BA8FF2AB05E",
+			tasks: [
+				{
+					id: "2EDD9C639C6E3E13",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_proximity_projection",
+						Count: 1b
+					}
+				},
+				{
+					id: "0F44E449F7584E11",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_projectile_displacement",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "77F44812D86CF1C5",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Duel on the Marble",
+			icon: "quark:marble",
+			x: -7.75d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dWelcome to a Domain",
+			description: [
+				"Okay so... this Reality Marble spell says it teleports me to the Reality Marble? What the heck is THAT?",
+				"",
+				"&dOh. Oh dear. Uh... I highly suggest not looking at someone when you use that spell, Traveler.",
+				"",
+				"Uh, okay. Why and what is the Reality Marble?",
+				"",
+				"&dSo uh... lets say its another dimension and also something inside you. In a way.",
+				"",
+				"That makes no sense...",
+				"",
+				"&dLet's keep it that way. But anyways, it's another place where the main way to get out is to hurt yourself, or if you bring someone with you... one of you die."
+			],
+			dependencies: ["68E53237D6B4E43B"],
+			hide: false,
+			id: "142851024D234DCF",
+			tasks: [{
+				id: "76101D08EA939170",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_reality_marble",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "589F333C787D440F",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Heavy Shield",
+			icon: {
+				id: "minecraft:shield",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -4.25d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dWeighed Down",
+			description: [
+				"The Spell of Gravity Boundary causes all the creatures in the area I use it to be dragged down by heavy gravity. This is good to get flying creatures down to where I can hit them.",
+				"",
+				"The Rho Aias spell summons a large magical shield in front of me. Creatures and monsters will bounce off it, and most projectiles will just be destroyed.",
+				"",
+				"If I sneak, I can bounce off the shield myself. This might be useful..."
+			],
+			dependencies: [
+				"1B25AFA863B8D253",
+				"7521767213361214"
+			],
+			id: "2C87DA59DD7AA13D",
+			tasks: [
+				{
+					id: "3BBCC233C7FD5B92",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_boundary_gravity",
+						Count: 1b
+					}
+				},
+				{
+					id: "31732CE6F60FBE26",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_rho_aias",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "05001E03B20F9816",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Explosive Weaponry",
+			icon: {
+				id: "minecraft:diamond_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.5d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dPocket Full of Weapons",
+			description: [
+				"The Weapon Projectile spell summons a bow for me. This bow will launch any weapon or tool in my inventory.",
+				"",
+				"I need to be careful cause it actually does launch them as projectiles! I might lose them if I don't pick them back up.",
+				"",
+				"The other spell, Spell of Explosive Mana Condensation, summons a staff. It slowly charges up, then I can fire a laser that causes a large explosion where I point it.",
+				"",
+				"If I Sneak + Right Click while holding the staff, it switches to a lot of smaller explosions instead.",
+				"",
+				"&dTraveler.... please don't point that staff anywhere NEAR anything you want to keep. Like your base.",
+				"",
+				"So...BIG explosion...got it."
+			],
+			dependencies: [
+				"68E53237D6B4E43B",
+				"1B25AFA863B8D253"
+			],
+			id: "0FBB5B2AFEEB5FC6",
+			tasks: [
+				{
+					id: "6B5A5541BD7F70E9",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_weapon_shooter",
+						Count: 1b
+					}
+				},
+				{
+					id: "3B9A555D957CD686",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_mystic_staff",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "2EB01B1B5908D4DD",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - To The Skies",
+			icon: "silentgear:fluffy_feather",
+			x: -2.5d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dUp Up and Begone",
+			description: [
+				"The Spell of Ascension can do two different things. If I'm not putting it to a scroll, it will move any creature on top of the Magic Circle  on top of the highest platform directly above it, if there is one.",
+				"",
+				"If I'm using it as a scroll, then it moves me like that instead. Useful for getting out of caves!",
+				"",
+				"The spell Spatial Disorientation will summon me a Staff of Spatial Disorientation. If I Right Click towards the ground, all creatures and dropped items will get drawn towards that spot, then launched in the air.",
+				"",
+				"If I target a creature directly, I can  launch them away with great force when I release Right Click."
+			],
+			dependencies: [
+				"1B25AFA863B8D253",
+				"68E53237D6B4E43B"
+			],
+			id: "73BA344FD4E56A4C",
+			tasks: [
+				{
+					id: "17538F8A42364E44",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_ascension",
+						Count: 1b
+					}
+				},
+				{
+					id: "5A0C73BB9D1BEF84",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_spatial_disorientation",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "4D69C977776BBBED",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "&6IMPORTANT NOTE",
+			x: -13.0d,
+			y: -1.25d,
+			description: [
+				"&6This mod can be quite destructive! This is a very very Anime mod, featuring big spells, explosions, and more.",
+				"",
+				"&6Please use responsibly, especially on multiplayer servers."
+			],
+			dependencies: ["6E08CF4A07A0CE12"],
+			id: "712AD244F800BEF0",
+			tasks: [{
+				id: "6F0C866B98802160",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Fist of God",
+			icon: "iceandfire:wither_shard",
+			x: -6.0d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dA Single Punch",
+			description: [
+				"The Spell of Borrowed Authority basically turns my fist into a destructive weapon.",
+				"",
+				"Not really a joke. By using this, I temporarily hit a sort of... demigod state. I go super fast, and punches will send enemies flying through walls and mountains.",
+				"",
+				"Literally.",
+				"",
+				"There's a hole in my base now..."
+			],
+			dependencies: ["1B25AFA863B8D253"],
+			id: "3233682157F032EE",
+			tasks: [{
+				id: "5B847C9036360B9B",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_borrowed_authority",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "1E0D703DEC9E555E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - The Heat of Treasure",
+			icon: "silentgems:fire_wisp_essence",
+			x: -0.75d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dThrowing Flame",
+			description: [
+				"The Treasury Projection Gauntlet summons a gauntlet weapon I can use to launch every weapon and tool from not only my inventory, but from some of the backpacks I can carry, and my Ender Chest as well.",
+				"",
+				"I can Sneak + Right Click with the Gauntlet to change modes. One mode summons the weapons behind me and launches them, the other summons them on chains near my target.",
+				"",
+				"The Mystic Eyes of the Black Flame spell, when I cast it, will cause black flames to sprout where I am looking. They don't burn up blocks, but creatures and monsters become Withered and take damage if they step into the flames."
+			],
+			dependencies: [
+				"475D99628EF98BF2",
+				"68E53237D6B4E43B"
+			],
+			id: "75B5091EDABFCDFD",
+			tasks: [
+				{
+					id: "656E635411C24CC6",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_treasury_projection",
+						Count: 1b
+					}
+				},
+				{
+					id: "005E1DB1D4E11389",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_black_flame",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "06997284FD573338",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Seeing Faeries",
+			icon: "mahoutsukai:faecake",
+			x: -7.75d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dFlitter Flitter",
+			description: [
+				"The Mystic Eyes of Fay Sight let me see the Leylines of the world.",
+				"",
+				"These Leylines are magical conduits, and if I'm near them my Mana will regenerate faster. Where they intersect are big areas of magic.",
+				"",
+				"If I cast a bunch of spells near these crossroads, I may see interesting creatures show up."
+			],
+			dependencies: ["475D99628EF98BF2"],
+			id: "33189FB8F81F3D44",
+			tasks: [{
+				id: "04F4F0968D33BABD",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_fay_sight",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "6E43AB56450FB54F",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Summon Friend",
+			icon: "doggytalents:sunglasses",
+			x: -6.0d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dLittle Helper",
+			description: [
+				"Summon Familiar... you know, I expected to see this a lot more in my studies. Interesting.",
+				"",
+				"&dUsually mages like having actual animals as pets, not magical constructs. They do like popping out magical pets to wow common folk though. Gotta keep the mysticism up.",
+				"",
+				"I guess. Well, I can use this to summon up a Familiar. It looks pretty cool, and it'll show me interesting creatures and blocks it sees. And other Travelers apparently."
+			],
+			dependencies: ["475D99628EF98BF2"],
+			id: "0FFAFE489EE85E96",
+			tasks: [{
+				id: "34C8A087BACFDF37",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_summon_familiar",
+					Count: 1b,
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}],
+			rewards: [{
+				id: "1A8E833634C79290",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Out of Body Petting",
+			icon: "losttrinkets:tha_spirit",
+			x: -2.5d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dLeave a Body, Bring a Pet",
+			description: [
+				"The spell Mental Displacement lets me mentally leave my body behind and explore for a bit.",
+				"",
+				"It would definitely be good for searching for traps or hidden rooms safely.",
+				"",
+				"Speaking of bodies, Recall Familiar would be a good idea to bring my Familiar back to safety if it got lost exploring."
+			],
+			dependencies: [
+				"1B25AFA863B8D253",
+				"0FFAFE489EE85E96"
+			],
+			dependency_requirement: "one_completed",
+			id: "7ECFA173E364C674",
+			tasks: [
+				{
+					id: "137F14F5154EAF0F",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_mental_displacement",
+						Count: 1b
+					}
+				},
+				{
+					id: "01B9AE80A7567B50",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_recall_familiar",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "1C4840C07986E8F0",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Garden Alert",
+			icon: "pamhc2crops:frostgarden",
+			x: -2.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dA Peaceful place, or very loud",
+			description: [
+				"The Alarm Boundary spell puts up a circle around it, and any monster or creature that passes into the circle will notify me.",
+				"",
+				"This doesn't quite protect me directly. So if I have a Familiar, I can use the Familiar's Garden spell.",
+				"",
+				"This creates a peaceful area specifically around my Familiar. Enemies cannot hurt me, and I cannot hurt them."
+			],
+			dependencies: [
+				"7521767213361214",
+				"475D99628EF98BF2"
+			],
+			id: "1FD3C9B7FA37FD10",
+			tasks: [
+				{
+					id: "5CBE90E0B0F8F10C",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_boundary_alarm",
+						Count: 1b
+					}
+				},
+				{
+					id: "4B8BB8B3E8BE25D8",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_familiars_garden",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "41487A78BDA1C3FF",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Delayed Copy",
+			icon: "botania:cosmetic_blue_butterfly",
+			x: 0.75d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dDominoes and Replicas",
+			description: [
+				"The Projection Spell can be used when looking at a dropped weapon or tool. This will 'imprint' it onto the scroll, or whole stack of scrolls!",
+				"",
+				"Then each time I use a scroll, it will give me a copy of that tool or weapon with very little durability.",
+				"",
+				"Another neat spell is the Butterfly Effect spell. After casting it, I can break blocks like normal.",
+				"",
+				"Or not quite normal. Instead of breaking, they will have a butterfly floating near them. If anything touches the butterfly : an arrow, a bullet, a thrown item; the butterfly dissappears and the block breaks like normal.",
+				"",
+				"&dTraveler, I suggest not using that spell on expensive blocks. It's a bit finicky."
+			],
+			dependencies: [
+				"475D99628EF98BF2",
+				"68E53237D6B4E43B"
+			],
+			id: "7C3EB01EFD40C33E",
+			tasks: [
+				{
+					id: "7E6BFB1286E6EF91",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_projection",
+						Count: 1b
+					}
+				},
+				{
+					id: "40ADFCDF842FF8B0",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_butterfly_effect",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "0658792330CDADDC",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Reversal",
+			icon: {
+				id: "botania:lens_damage",
+				Count: 1b,
+				tag: {}
+			},
+			x: -6.0d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dThat tickled",
+			description: [
+				"The Damage Absorption(or Exchange as its listed in the book) will convert a couple damage hits into healing instead.",
+				"",
+				"For a bigger area though, the Boundary of Drain Life sets up a barrier around me. Any creature that walks through the barrie will have health taken from them.",
+				"",
+				"This health will first heal me, then feed me, and then finally replenish my Mana."
+			],
+			dependencies: [
+				"7521767213361214",
+				"1B25AFA863B8D253"
+			],
+			id: "3793CF966C1FD95B",
+			tasks: [
+				{
+					id: "5441E25BDDAC3C63",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_damage_exchange",
+						Count: 1b
+					}
+				},
+				{
+					id: "25C4AA1DC5BC2875",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_boundary_drain_life",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "397AB2EEE4760F0D",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Pet Swap",
+			icon: "ars_nouveau:glyph_exchange",
+			x: -0.75d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dThe Ol Switcharoo",
+			description: [
+				"The Familiar Exchange spell lets me swap places with my Familiar.",
+				"",
+				"I just need to make sure they aren't somewhere dangerous..."
+			],
+			dependencies: ["1B25AFA863B8D253"],
+			id: "3D21A6FBE7BF1F57",
+			tasks: [{
+				id: "0F48655ADA5E1B87",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_swap_familiar",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "04368D3C44E9F792",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spells - Eraser",
+			icon: "calemiutils:eraser",
+			x: 2.25d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dAlways choose names yourself...",
+			description: [
+				"The Mystic Eyes of Reversion is a powerful spell when used right. It lets my vision erase beneficial effects from any creature I look at. Endermen no longer dodge arrows. Swimming creatures no longer breath under water. Blazes can be damaged by lava. ",
+				"",
+				"The Immunity Exchange spell gives me the ability to ignore damage from the same source. The first hit from a single source will cause double damage, but every subsequent hit in a row will be ignored.",
+				"",
+				"If something else hits me, I'll take double damage from that, but not subsequent hits.",
+				"",
+				"&dUnless the first thing hits you again.",
+				"",
+				"Yeah yeah. Just gotta be careful."
+			],
+			dependencies: [
+				"475D99628EF98BF2",
+				"1B25AFA863B8D253"
+			],
+			id: "506DEE8B4E4CB915",
+			tasks: [
+				{
+					id: "59D517B171FF0EAD",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_reversion_eyes",
+						Count: 1b
+					}
+				},
+				{
+					id: "5DCC9059882BDAC6",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						},
+						id: "mahoutsukai:scroll_immunity_exchange",
+						Count: 1b
+					}
+				}
+			],
+			rewards: [{
+				id: "282DF16C67C910C1",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Healthy Exchange",
+			icon: "alexsmobs:blood_sac",
+			x: 2.25d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dWhy did you hit yourself?",
+			description: [
+				"The Retribution spell will swap the health percentage of myself with the target I'm looking at.",
+				"",
+				"The difference in percentages determines how much Mana it costs. A wider gap, the more Mana."
+			],
+			dependencies: [
+				"1B25AFA863B8D253",
+				"68E53237D6B4E43B",
+				"7521767213361214"
+			],
+			id: "3A1F2FA84C7FC717",
+			tasks: [{
+				id: "78315784872FC1FD",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_retribution",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "16AE69326A18E241",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Rip It",
+			icon: "losttrinkets:tha_cloud",
+			x: 2.25d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dNow You See Me...",
+			description: [
+				"The Presence Concealment spell actually summons two Ripper blades.",
+				"",
+				"If I Right Click with one, it create a fog around me, making it harder to see me.",
+				"",
+				"But, if I equip the second Ripper in my off-hand, then I become almost invisible in this fog. Attacks will reveal me, but I will vanish into the fog quickly once more."
+			],
+			dependencies: [
+				"7521767213361214",
+				"68E53237D6B4E43B",
+				"1B25AFA863B8D253"
+			],
+			id: "5DB377CB0378F31E",
+			tasks: [{
+				id: "35A3B9FF3757C971",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_presence_concealment",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "4B67AD4C40133A42",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - A Terrible Curse",
+			icon: "silentgems:ender_slime_ball",
+			x: 2.25d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dA Terrible Night For It.",
+			description: ["Gandr is an interesting spell. It's actually a curse, that is based on how much Mana the caster has. It takes a percentage of it, as well as any negative effects I have, condenses them into a ball, and I can launch this at an enemy to do damage. The more Mana I have, the more damaging it is."],
+			dependencies: [
+				"68E53237D6B4E43B",
+				"1B25AFA863B8D253"
+			],
+			id: "378479AFEC82A144",
+			tasks: [{
+				id: "7E6EE4739FBA02E1",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_gandr",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "0C41AEEAA2979E0A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - A Pact",
+			icon: {
+				id: "treasurebags:treasure_bag",
+				Count: 1b,
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "treasurebags:bags/nature",
+						BagType: "treasurebags:nature"
+					}
+				}
+			},
+			x: -0.75d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dA Magic Vow",
+			description: [
+				"The Geas spell does different things depending on who I target. A geas is basically a magical contract of sorts.",
+				"",
+				"If I aim at a Traveler when I use it, I will not be able to damage them.",
+				"",
+				"If I aim at an animal, I will not be able to damage any of that animal. Having mulitple animals under Geas like this will regenerate my Mana faster.",
+				"",
+				"If I aim at an animal with a Name, I won't damage that specific animal."
+			],
+			dependencies: [
+				"7521767213361214",
+				"1B25AFA863B8D253"
+			],
+			id: "614AAF35026026BB",
+			tasks: [{
+				id: "29D14C008D9F5225",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_geas",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "6A82E2550C6B3E92",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Battle Royale",
+			icon: {
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_KODOKU_VALUE: 0
+					}
+				},
+				id: "mahoutsukai:kodoku",
+				Count: 1b,
+				tag: {
+					MAHOUTSUKAI_KODOKU_VALUE: 0
+				}
+			},
+			x: -7.75d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dOnly the Best",
+			description: [
+				"Okay, I can make these little...worm thingies. They are interesting as they feed off battle energy?",
+				"",
+				"Basically, I need to get monsters to fight each other. The more, the better. Each monster has their own 'level', and when they kill another monster, they gain that monsters level, plus another level.",
+				"",
+				"If I Right Click the Kudoku onto that monster and kill it, the worm thing absorbs all these levels. I can collect the Kudoku and use it to cast certain magic."
+			],
+			dependencies: ["7521767213361214"],
+			id: "3C75438C4F4B0E94",
+			tasks: [{
+				id: "59604894FDAFF97C",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_KODOKU_VALUE: 0
+						}
+					},
+					id: "mahoutsukai:kodoku",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "114C79A44645A1EC",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "The Holy Sword",
+			icon: {
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+					}
+				},
+				id: "mahoutsukai:caliburn",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -4.25d,
+			y: 3.25d,
+			shape: "square",
+			subtitle: "&dGolden Sword of the Victorious",
+			description: [
+				"This book talks about a holy sword called Caliburn. It sounds amazing.",
+				"",
+				"To obtain it, first I need to cast the spell Power Consolidation. I can't commit it to a scroll, and  I should cast this WELL away from my base or anybody elses living area. ",
+				"",
+				"Once cast, the spell will create a large lake covered in thick fog. I need to wait for it to finish, and once it is done, throw in an enchanted sword.",
+				"",
+				"The enchanted sword should probably be iron or diamond, and as powerfully enchanted as I can get. This will determine how powerful the Holy Sword is.",
+				"",
+				"This sword is good against undead, and holding Right Click will draw myself and monsters towards each other for proper combat."
+			],
+			dependencies: [
+				"68E53237D6B4E43B",
+				"1B25AFA863B8D253",
+				"475D99628EF98BF2"
+			],
+			id: "135ABA3C3113C369",
+			tasks: [{
+				id: "2BE4F216C73E5748",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					},
+					id: "mahoutsukai:caliburn",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "78C1408ECA11A6A7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Spell - Locking Gazes",
+			icon: "botania:third_eye",
+			x: 0.75d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dNever look away",
+			description: [
+				"The Mystic Eyes of Binding spell makes it so if I lock gazes with a creature, they freeze in place.",
+				"",
+				"Apparently Travelers can break this binding gaze by... looking away? Awkward."
+			],
+			dependencies: [
+				"1B25AFA863B8D253",
+				"475D99628EF98BF2"
+			],
+			id: "63D15369F830DBC1",
+			tasks: [{
+				id: "26EB0E4DB1E4C619",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_mystic_eyes",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "215EC2CF04856C92",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Seeing the Future",
+			icon: "resynth:biochemical_bulb_prismarine_crystal",
+			x: -4.25d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dOr just simple prediction",
+			description: [
+				"The Minor Clairvoyance spell lets me see the path some monsters will walk shortly in the future.",
+				"",
+				"Not all monsters though. Just some of them.",
+				"",
+				"Might be useful in some situations."
+			],
+			dependencies: ["475D99628EF98BF2"],
+			id: "235502F2A1E52126",
+			tasks: [{
+				id: "19B63E6118E11575",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_prediction",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "0F58A621A64E7D1A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - My Pain is Yours",
+			icon: "productivebees:honeycomb_bloody",
+			x: -7.75d,
+			y: -2.5d,
+			shape: "square",
+			subtitle: "&dFrom Me to You ",
+			description: ["Shared Pain spell makes it so whatever target I look at, will take the same damage and get the same potion effects I do."],
+			dependencies: ["1B25AFA863B8D253"],
+			id: "71BDA8199F08B3E7",
+			tasks: [{
+				id: "64086958060FAB46",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_possess_entity",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "09D595D13B0FE3ED",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Visions of Death",
+			icon: {
+				id: "rats:plague_scythe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.75d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dBystander or Cause?",
+			description: [
+				"The Mystic Eyes of Death Collection spell, when active, will let me collect 'souls' from those creatures deaths I look at. Doesn't matter if I cause it, or something else causes it.",
+				"",
+				"If I collect enough souls this way, they will prevent me from dieing at least once."
+			],
+			dependencies: ["7521767213361214"],
+			id: "1F3A5C6A07BF6B75",
+			tasks: [{
+				id: "717E952BBF481FFF",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_death_collection",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "19EB1609FE43949E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Careful Examination",
+			icon: "bountifulbaubles:magic_mirror",
+			x: -0.75d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dA Second Glance",
+			description: ["The Mystic Eyes of Insight lets me see more information about whatever creature I'm looking at. What they are carrying, sometimes what magical buffs they have, etc."],
+			dependencies: [
+				"475D99628EF98BF2",
+				"68E53237D6B4E43B"
+			],
+			id: "7BD612603C3E3F7D",
+			tasks: [{
+				id: "7E5A463200B5B19A",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_insight",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "4179370900E56DD8",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Spell - Sight Beyond Sight",
+			icon: "mystical_pumpkins:eye_of_dread",
+			x: 0.75d,
+			y: 2.0d,
+			shape: "square",
+			subtitle: "&dMore like Sight of Someone Else",
+			description: ["The Shared Vision spell lets me look through the eyes of whatever creature I'm targetting."],
+			dependencies: [
+				"1B25AFA863B8D253",
+				"475D99628EF98BF2"
+			],
+			id: "2836A3F3124983A6",
+			tasks: [{
+				id: "48B7032E3BDD412D",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					},
+					id: "mahoutsukai:scroll_possess_entity",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "40DDD75F5B6EAFA8",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Sword of the Ursurper",
+			icon: {
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+					}
+				},
+				id: "mahoutsukai:clarent",
+				Count: 1b,
+				tag: {
+					Unbreakable: 1b,
+					Damage: 0,
+					mahoutsukai_clarent_attack: 0.0f
+				}
+			},
+			x: -2.5d,
+			y: 3.25d,
+			shape: "square",
+			subtitle: "&dRadiant and Brilliant Royal Sword",
+			description: [
+				"The royal sword Clarent sounds like an excellent dueling sword. Obtaining it, however, is rough!",
+				"",
+				"First I must use the Strengthen spell to power up a Diamond Sword. Then I must face the Ender Dragon, and stand within it's deadly flames, blocking with the sword to absorb the fire.",
+				"",
+				"Clarent matches the damage of my opponent. It can block attacks, and release the energy back at my target."
+			],
+			dependencies: ["6AE26BE2FE748BC0"],
+			id: "057E45031287834B",
+			tasks: [{
+				id: "2578C572157A63D1",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					},
+					id: "mahoutsukai:clarent",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "3711D94CB72A3A94",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "&dLesson Complete: Mahou Tsukai",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 46b
+			},
+			x: -3.392857142857139d,
+			y: 4.410714285714278d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"057E45031287834B",
+				"135ABA3C3113C369",
+				"506DEE8B4E4CB915",
+				"3A1F2FA84C7FC717",
+				"5DB377CB0378F31E",
+				"378479AFEC82A144",
+				"63D15369F830DBC1",
+				"7C3EB01EFD40C33E",
+				"1F3A5C6A07BF6B75",
+				"2836A3F3124983A6",
+				"75B5091EDABFCDFD",
+				"614AAF35026026BB",
+				"7BD612603C3E3F7D",
+				"3D21A6FBE7BF1F57",
+				"0FBB5B2AFEEB5FC6",
+				"73BA344FD4E56A4C",
+				"1FD3C9B7FA37FD10",
+				"7ECFA173E364C674",
+				"235502F2A1E52126",
+				"539E2828E7CF02ED",
+				"6AE26BE2FE748BC0",
+				"2C87DA59DD7AA13D",
+				"3233682157F032EE",
+				"4F9C9BA8FF2AB05E",
+				"3793CF966C1FD95B",
+				"0FFAFE489EE85E96",
+				"33189FB8F81F3D44",
+				"3C75438C4F4B0E94",
+				"142851024D234DCF",
+				"71BDA8199F08B3E7",
+				"3344274537A8C1BF",
+				"4C129C0AEC3AFEDE",
+				"712AD244F800BEF0"
+			],
+			size: 1.25d,
+			id: "13B4905681572F00",
+			tasks: [{
+				id: "15753DDACD9AE17B",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "3A2CF08C35EF4E0F",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 3
+			}]
+		}
+	]
+}
