@@ -43,7 +43,7 @@
 			title: "A World of Stone",
 			icon: "mining_dimension:teleporter",
 			x: -2.0d,
-			y: -3.75d,
+			y: -4.0d,
 			shape: "square",
 			subtitle: "&dMod: Advanced Mining Dimension",
 			description: [
@@ -73,8 +73,8 @@
 		{
 			title: "Magical World",
 			icon: "losttrinkets:tha_wizard",
-			x: 1.5d,
-			y: -3.0d,
+			x: 1.75d,
+			y: -4.0d,
 			shape: "square",
 			subtitle: "&dMod: Lost Trinkets",
 			description: [
@@ -110,8 +110,8 @@
 		{
 			title: "Animals by Alex",
 			icon: "alexsmobs:animal_dictionary",
-			x: -0.75d,
-			y: 0.25d,
+			x: 1.75d,
+			y: 1.0d,
 			shape: "square",
 			subtitle: "&dMod: Alex's Mobs",
 			description: [
@@ -145,8 +145,8 @@
 					Damage: 0
 				}
 			},
-			x: 0.5d,
-			y: 0.25d,
+			x: -0.75d,
+			y: 1.0d,
 			shape: "square",
 			subtitle: "&dMod: Instrumental Mobs",
 			description: [
@@ -189,7 +189,7 @@
 			title: "Waystones of Life",
 			icon: "waystones:waystone",
 			x: -0.75d,
-			y: -3.75d,
+			y: -4.0d,
 			shape: "square",
 			subtitle: "&dMod: Waystones",
 			description: [
@@ -272,7 +272,7 @@
 		{
 			title: "Carry More In Style",
 			icon: "usefulbackpacks:backpack_small",
-			x: 1.5d,
+			x: 1.75d,
 			y: -1.5d,
 			shape: "square",
 			subtitle: "&dMod: Useful Backpacks",
@@ -509,7 +509,7 @@
 		{
 			title: "A Reel of Your Own",
 			icon: "aquaculture:fishing_line",
-			x: -4.5d,
+			x: -4.25d,
 			y: -1.5d,
 			shape: "square",
 			subtitle: "&dHook, Line, and Sinker...",
@@ -566,7 +566,7 @@
 		{
 			title: "Treasures of the Sea",
 			icon: "aquaculture:neptunium_ingot",
-			x: -5.75d,
+			x: -5.25d,
 			y: -1.5d,
 			shape: "square",
 			subtitle: "&dPower of the Deep",
@@ -735,8 +735,8 @@
 					Damage: 0
 				}
 			},
-			x: 1.5d,
-			y: -4.25d,
+			x: 0.5d,
+			y: -4.0d,
 			shape: "square",
 			subtitle: "&dMod: Jousting",
 			description: [
@@ -776,8 +776,8 @@
 		{
 			title: "My Chemical Horror",
 			icon: "mutantbeasts:chemical_x",
-			x: -2.25d,
-			y: 0.25d,
+			x: 0.5d,
+			y: 1.0d,
 			shape: "square",
 			subtitle: "&dOh lord",
 			description: [
@@ -811,8 +811,8 @@
 		{
 			title: "Pumpkings",
 			icon: "mystical_pumpkins:infusion_table",
-			x: -3.5d,
-			y: 0.25d,
+			x: -2.0d,
+			y: 1.0d,
 			shape: "square",
 			subtitle: "&dDangerous Gourd",
 			description: [
@@ -846,6 +846,85 @@
 			],
 			rewards: [{
 				id: "3D3A12F18382F040",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Finding the Way",
+			icon: {
+				id: "naturescompass:naturescompass",
+				Count: 1b,
+				tag: {}
+			},
+			x: 1.75d,
+			y: -2.75d,
+			shape: "square",
+			subtitle: "&dMod: Nature's Compass",
+			description: [
+				"There are so many interesting sights and places to see in this world. And quite beautiful too. But sometimes, I just want to find the ocean to go boating, or the swamp to fight ogres, right?",
+				"",
+				"With Nature's Compass, I can search easier for these biomes. If I Right Click with it, it will let me choose what biome to search for. It'll let me know if it finds something, and the compass needle will point towards it.",
+				"",
+				"If it doesn't find the biome, I should keep exploring. The compass will instead point at the World Spawn, the center of the 'world' or something."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "12E4A5297316FB14",
+			tasks: [{
+				id: "6A89EF6CC018323D",
+				type: "item",
+				item: {
+					id: "naturescompass:naturescompass",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "300DB5EEC7C58035",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Sweet Spooks",
+			icon: "neverenoughcandy:candy_halloween",
+			x: 1.75d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dMod: Never Enough Candy",
+			description: [
+				"So, I don't think they quite celebrate Halloween here, at least not as a singular holiday.",
+				"",
+				"&dNah, here Halloween is sort of a... state of being I guess? It's a festivity that can be celebrated all year. The monsters especially enjoy it, it's one of the few times they and normal living creatures can agree on something.",
+				"",
+				"Wait, agree on what?",
+				"",
+				"&dCandy is good.",
+				"",
+				"Oh. Duh.",
+				"",
+				"&dYes. Every monster can have candy on them. Sometimes you'll find a rare Boozle Bean, but I emphasize rare. Otherwise, creatures like Skeletons drop their favorite candy: Gummy Skulls."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "3DF1D5CD0BA31EB5",
+			tasks: [
+				{
+					id: "4072A538AC8462B5",
+					type: "item",
+					item: "neverenoughcandy:candy_halloween"
+				},
+				{
+					id: "19337A701B3669E0",
+					type: "item",
+					item: "neverenoughcandy:candy_skull"
+				}
+			],
+			rewards: [{
+				id: "30B8EAEC993C3061",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
