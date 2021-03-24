@@ -20,7 +20,7 @@
 				}
 			},
 			x: -0.25d,
-			y: 0.0d,
+			y: -0.25d,
 			shape: "square",
 			subtitle: "&dMod: Nature's Aura",
 			description: [
@@ -52,7 +52,7 @@
 			title: "Shining Leaf",
 			icon: "naturesaura:gold_leaf",
 			x: -0.25d,
-			y: -1.25d,
+			y: -1.5d,
 			shape: "square",
 			subtitle: "&dSpreading Brilliance",
 			description: [
@@ -103,7 +103,7 @@
 				}
 			},
 			x: -0.25d,
-			y: -2.5d,
+			y: -2.75d,
 			shape: "square",
 			subtitle: "&dRitual Time",
 			description: [
@@ -247,7 +247,7 @@
 			title: "Crushing It",
 			icon: "naturesaura:crushing_catalyst",
 			x: 1.0d,
-			y: -5.0d,
+			y: -5.25d,
 			shape: "square",
 			subtitle: "&dNatural Grinder",
 			description: [
@@ -307,7 +307,7 @@
 			title: "Trouble Starter",
 			icon: "naturesaura:furnace_heater",
 			x: 2.25d,
-			y: -5.0d,
+			y: -5.25d,
 			shape: "square",
 			subtitle: "&dTwisted Firestarter",
 			description: [
@@ -332,6 +332,1044 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 10
+			}]
+		},
+		{
+			title: "A Bit of Automation",
+			icon: "naturesaura:placer",
+			x: -1.5d,
+			y: -5.25d,
+			shape: "square",
+			subtitle: "&dA little Building, a little Farming",
+			description: [
+				"This Imperceptible Builder reminds me of some of the little automation things from technology. It can take items from a chest on top of it, and place them on things within 5 blocks.",
+				"",
+				"I can specify what block it places things onto by putting an Item Frame on the side of the Builder, and the block I want inside the Frame.",
+				"",
+				"But, if I make a Farming Stencil, I can get the Imperceptible Builder to automatically plant seeds instead!"
+			],
+			dependencies: ["3C8C1A16A7E206F2"],
+			id: "6C63953568BA4AF5",
+			tasks: [
+				{
+					id: "35EB19021483BA09",
+					type: "item",
+					item: "naturesaura:placer"
+				},
+				{
+					id: "185BE98460CF39AE",
+					type: "item",
+					item: "naturesaura:farming_stencil"
+				}
+			],
+			rewards: [{
+				id: "1D14762DFF504C12",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Growing the Aura",
+			icon: "naturesaura:ancient_sapling",
+			x: -2.75d,
+			y: -5.25d,
+			shape: "square",
+			subtitle: "&dGive and Take",
+			description: [
+				"To keep a balance, I'm going to need to either carefully control how much Aura I consume, or even better...",
+				"",
+				"Generate some myself. That's a proper balance I feel.",
+				"",
+				"There's a few ways to do this, but the first ones to catch my eye involve trees.",
+				"",
+				"The first is make and grow an Ancient Sapling. The leaves will produce Aura, slowly withering away as they do.",
+				"",
+				"The other way is the Canopy Diminisher. If I place this out near where I grow Oak Trees, it will do two things : ",
+				"",
+				"Limit their size when they grow, since Oak Trees occasionally grow huge. If one would, that extra size instead becomes Aura."
+			],
+			dependencies: [
+				"3D1908E580F91B21",
+				"3C8C1A16A7E206F2"
+			],
+			id: "0B6966D78550B063",
+			tasks: [
+				{
+					id: "7E50955C6CE00B1D",
+					type: "item",
+					item: "naturesaura:ancient_sapling"
+				},
+				{
+					id: "61B3043F79BFFAD5",
+					type: "item",
+					item: "naturesaura:oak_generator"
+				}
+			],
+			rewards: [{
+				id: "1747CD9AF1419577",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Farm and Field",
+			icon: "naturesaura:animal_generator",
+			x: -4.0d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dHungry",
+			description: [
+				"Given I have some farm stuff going, I think using it to regenerate aura would be a good idea.",
+				"",
+				"The Disentangler of Mortals seems to watch for when I kill a passive animal, like a cow or pig. It then consumes the life force (and all the materials it drops...ugh...) and converts it all to Aura. But it can only work through one Animal at a time, and only in the Overworld.",
+				"",
+				"The Herbivous Absorber will consume Flowers placed near it. But it gets tired of the same flower again and again.",
+				"",
+				"To maximize the Aura, I need to swap what it uh... eats... between maybe six different flowers?"
+			],
+			dependencies: ["0B6966D78550B063"],
+			id: "5BEA87A4A18E4320",
+			tasks: [
+				{
+					id: "7793B80DDEC598E4",
+					type: "item",
+					item: "naturesaura:animal_generator"
+				},
+				{
+					id: "21833E77FFAFFE8A",
+					type: "item",
+					item: "naturesaura:flower_generator"
+				}
+			],
+			rewards: [{
+				id: "24FB34C3F057C896",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Taming the Wild",
+			icon: {
+				id: "naturesaura:effect_powder",
+				Count: 1b,
+				tag: {
+					effect: "naturesaura:plant_boost"
+				}
+			},
+			x: -2.75d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dKeeping Things in Check",
+			description: [
+				"When the Aura is imbalanced, in other words, when it is too high or too low, things start happening in the area. Some of them are good, some of them are bad.",
+				"",
+				"A good example would be high aura in the Overworld can cause crops to grow faster. Or wild grass and vegetation to grow in the Nether.",
+				"",
+				"But if I don't want that to happen, there are some Inhibitor powders I can make to stop it, or at least slow it down.",
+				"",
+				"There's a lot of powders the book shows me, so I should keep an eye on it."
+			],
+			dependencies: ["0B6966D78550B063"],
+			id: "2DCD1D4848710783",
+			tasks: [
+				{
+					id: "1D03436C6A47726C",
+					type: "item",
+					item: {
+						id: "naturesaura:effect_powder",
+						Count: 1b,
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+				},
+				{
+					id: "788AA763E07FF3B2",
+					type: "item",
+					item: {
+						id: "naturesaura:effect_powder",
+						Count: 1b,
+						tag: {
+							effect: "naturesaura:nether_grass"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "58D06A57D0C2E0E7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "A Good Eye",
+			icon: "naturesaura:range_visualizer",
+			x: -0.25d,
+			y: -5.25d,
+			shape: "square",
+			subtitle: "&dVisions of Aura",
+			description: [
+				"The Environmental Eye is going to be a quite used item in my tools. As long as it is on my hotbar, I can see the Aura levels of not only the world around me, but the items in my inventory!",
+				"",
+				"But for machines and stuff, I should use the Mystical Magnifier. It can help me fine tune the balance of things."
+			],
+			dependencies: ["3C8C1A16A7E206F2"],
+			id: "3CD60F65BAF09818",
+			tasks: [
+				{
+					id: "06F2AF0A94CCBCD8",
+					type: "item",
+					item: "naturesaura:eye"
+				},
+				{
+					id: "4A68E0D43F97C25A",
+					type: "item",
+					item: "naturesaura:range_visualizer"
+				}
+			],
+			rewards: [{
+				id: "6C81E2CDB6186A81",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Tools and Pools",
+			icon: {
+				id: "naturesaura:infused_iron_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dPutting Aura to Personal Use",
+			description: [
+				"Given I'm generating and manipulating Aura in various ways, I should put some of it to more direct use.",
+				"",
+				"I'll need an Aura Cache to start with. This can collect Aura if I put it on a Natural Altar, and let me use it elsewhere... kind of like a battery I guess?",
+				"",
+				"One thing I can use it for? Armor. There's Botonist's Armor I can make with Infused Ingots. Wearing a full set will damage enemies that hit me. And if I have an Aura Cache, it will repair itself using the stored Aura.",
+				"",
+				"I can also make Botonist tools and a sword. Each one does something special, like the Sword slows down enemies I hit for a moment. ",
+				"",
+				"The tools can be repaired like the Armor by holding them and Sneaking."
+			],
+			dependencies: ["3C8C1A16A7E206F2"],
+			id: "2E6FCBD6D759CAD9",
+			tasks: [
+				{
+					id: "4AD31FCB0C9F1560",
+					type: "item",
+					item: "naturesaura:aura_cache"
+				},
+				{
+					id: "4AF3757454AD3D57",
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1B134C813CCCE100",
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "739F1A69353996FB",
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "6C52982CD8AA800C",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "A Gift to the Gods",
+			icon: "naturesaura:offering_table",
+			x: -0.25d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dMore Like an Exchange...",
+			description: [
+				"The book talks about making an offering to the Gods. I'm... wary.",
+				"",
+				"&dFor good reason, but worry not. It is mostly an exchange of goods.",
+				"",
+				"Hmm okay. I need an Offering Table in a field of flowers. The book has the layout of flowers to properly gain this deity's attention.",
+				"",
+				"Then I can put the thing I want to exchange into the Table, and drop something like a Spirit of Offering next to it to try the exchange.",
+				"",
+				"The deity or whatever then may take the items and drop something better. Usually?"
+			],
+			dependencies: [
+				"3C8C1A16A7E206F2",
+				"0B6966D78550B063"
+			],
+			id: "52F0E8B57CB9E33C",
+			tasks: [
+				{
+					id: "4E2E89D4561D9EE5",
+					type: "item",
+					item: "naturesaura:offering_table"
+				},
+				{
+					id: "59DF4CFC11D937B6",
+					type: "item",
+					item: "naturesaura:calling_spirit"
+				},
+				{
+					id: "2DA2A533857ED8B0",
+					type: "item",
+					item: "naturesaura:sky_ingot"
+				},
+				{
+					id: "2F88B2E820B181D4",
+					type: "item",
+					item: "naturesaura:token_euphoria"
+				}
+			],
+			rewards: [{
+				id: "434134DEA691A03C",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Better Botonist Gear",
+			icon: {
+				id: "naturesaura:sky_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: -7.75d,
+			shape: "square",
+			subtitle: "&dFrom the Sky",
+			description: [
+				"The basic Botonist tools are great, but the Aura Cache needs to be recharged regularly, and the other gear is only around Iron level. And a lot of this world is a whole, whole lot tougher than Iron.",
+				"",
+				"But with the Offering Table, I can get this nice Sky based wish metal stuff. And I can make a bigger, better Aura containment called an Aura Trove.",
+				"",
+				"The  Sky armor is good too. The full set lets me run faster and step up higher. And if I want, I can replace the chestplate with an Elytra and still get the speed boost.",
+				"",
+				"The tools, as well, are much better. The Pickaxe, for example, mines things directly into my backpack. Handy!"
+			],
+			dependencies: [
+				"52F0E8B57CB9E33C",
+				"2E6FCBD6D759CAD9"
+			],
+			id: "737122BDB31BAAF1",
+			tasks: [
+				{
+					id: "6D1E52E6490BC779",
+					type: "item",
+					item: "naturesaura:aura_trove"
+				},
+				{
+					id: "1641B384C7F0C43F",
+					type: "item",
+					item: {
+						id: "naturesaura:sky_shoes",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "392CCE61DD5E152A",
+					type: "item",
+					item: {
+						id: "naturesaura:sky_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0B86E47B73A90C6A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Life Saving Jewelry",
+			icon: "naturesaura:shockwave_creator",
+			x: 1.0d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dGet Back to Life",
+			description: [
+				"Theres a few accessories I can make I should probably keep with me. At least the ring.",
+				"",
+				"The Amulet of Wrath lets me Sneak when I'm midair from a jump, and it'll cause me to slam down and emit a shockwave. It'll damage all creatures around me so I probably shouldn't do it in my animal pens, right?",
+				"",
+				"The Ring of Last Chance is kind of like the Totem of Undying. If I'm wearing it when I uh... die. It'll break and keep me alive, and even heal me, instead."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "47F517B33CA2F100",
+			tasks: [
+				{
+					id: "1CAA583A9A125DAE",
+					type: "item",
+					item: "naturesaura:shockwave_creator"
+				},
+				{
+					id: "49C36A750545A85A",
+					type: "item",
+					item: "naturesaura:death_ring"
+				}
+			],
+			rewards: [{
+				id: "2BEF0E0C3C910AAC",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Helpful Eyes",
+			icon: "naturesaura:fortress_finder",
+			x: 2.25d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dWhat do you see?",
+			description: [
+				"The Eye of Ender is really helpful for finding Strongholds, but there really isn't other eyes that find other interesting things. Or well, there is. Aura lets me imbue some power into finding a few other things.",
+				"",
+				"Like Nether Fortresses. The Eye of Blaze helps me find Strongholds in the Nether. ",
+				"",
+				"Another thing that's good to find are the Pillager Outposts, which the Eye of Pillager can help me locate."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "419932D81BA92FAC",
+			tasks: [
+				{
+					id: "35A737025DD5F07F",
+					type: "item",
+					item: "naturesaura:fortress_finder"
+				},
+				{
+					id: "20B9286E3CAF79B3",
+					type: "item",
+					item: "naturesaura:outpost_finder"
+				}
+			],
+			rewards: [{
+				id: "5A144E313CDB35F9",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "A Tool's Last Breath",
+			icon: "naturesaura:break_prevention",
+			x: 1.0d,
+			y: -7.75d,
+			shape: "square",
+			subtitle: "&dNever breaking down",
+			description: [
+				"Some tools I've come across are really handy in an odd way.",
+				"",
+				"When they run out of Durability, they become useless... but they don't quite break. They can be repaired instead of having to remake the tool fully.",
+				"",
+				"I can give this ability to many other tools with the Eir's Token. By combining it with the tool in an Anvil, when it runs out of duraiblity it will become useless instead of breaking to pieces."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "012D85436F3F85FD",
+			tasks: [{
+				id: "64AE77B19E72EC1F",
+				type: "item",
+				item: "naturesaura:break_prevention"
+			}],
+			rewards: [{
+				id: "6C8BF83F291A6F1D",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Staff of Light, Staff of Dark",
+			icon: "naturesaura:light_staff",
+			x: -3.5d,
+			y: -9.0d,
+			shape: "square",
+			subtitle: "&dNot really opposites here...",
+			description: [
+				"There are a bunch of magical staves I can make, but two caught my eye.",
+				"",
+				"The Staff of Baldur can be Right Clicked to cause a beam of light to shoot out. If it hits the ground, it'll light up the area around it. Super handy!",
+				"",
+				"But if it hits a creature? Fire. Lots of fire.",
+				"",
+				"The Staff of Shadows isn't really a weapon, conversely. Instead, using it will show me the dark patches around me where monsters can spawn at night."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "68C8F3462F916DC0",
+			tasks: [
+				{
+					id: "3A908BCB5F4C2F4A",
+					type: "item",
+					item: "naturesaura:light_staff"
+				},
+				{
+					id: "77F4D535123BBD1D",
+					type: "item",
+					item: "naturesaura:cave_finder"
+				}
+			],
+			rewards: [{
+				id: "16312A8AD5555238",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Machine Visions",
+			icon: "naturesaura:animal_container",
+			x: 3.5d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "&dLet them see instead",
+			description: [
+				"The Environmental Eye can be used in a few different devices that are quite helpful.",
+				"",
+				"The Aura Detector is good for keeping tabs on how much Aura is in an area. It will put out a Redstone Signal if a Comparator is attached to it, related to the amount of Aura.",
+				"",
+				"The Corporeal Eye is good for my farming, as it will put up an invisible Animal fence around it. Animals will not wander outside this fence. Good for temporary holding pens.",
+				"",
+				"The size of the magic fence depends on the strength of a Redstone signal passed to the Corporeal Eye",
+				"",
+				"The World's Eye mitigates a strange issue I noticed : If I'm not near my base, time... freezes there sometimes. If I have the World's Eye out, time will flow normally. "
+			],
+			dependencies: ["3CD60F65BAF09818"],
+			id: "6AF8F0E9BBAE9055",
+			tasks: [
+				{
+					id: "31602BA3E3F257B2",
+					type: "item",
+					item: "naturesaura:aura_detector"
+				},
+				{
+					id: "1128514A89223892",
+					type: "item",
+					item: "naturesaura:animal_container"
+				},
+				{
+					id: "7F1F3F034BD122E5",
+					type: "item",
+					item: "naturesaura:chunk_loader"
+				}
+			],
+			rewards: [{
+				id: "63CC6F2A6ED762F2",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Item Manipulating",
+			icon: "naturesaura:item_distributor",
+			x: 2.25d,
+			y: -7.75d,
+			shape: "square",
+			subtitle: "&dYou get one, I get one",
+			description: [
+				"Shifting items around is always a time consuming thing. Especially if I'm trying to evenly split things, or do something magical by throwing items on the ground.",
+				"",
+				"The Item Distributor can have items put into the top of it, like via a hopper, and then it'll seperate them out evenly to every container touching one of the four sides.",
+				"",
+				"As for the second issue, the Item Grounderr will stop items from being picked up by myself or other Travelers unless we are sneaking."
+			],
+			dependencies: ["3C8C1A16A7E206F2"],
+			id: "2065A5267CD9B00A",
+			tasks: [
+				{
+					id: "12E8C916C3817E92",
+					type: "item",
+					item: "naturesaura:item_distributor"
+				},
+				{
+					id: "495D738CF4D2DA43",
+					type: "item",
+					item: "naturesaura:pickup_stopper"
+				}
+			],
+			rewards: [{
+				id: "5A5A34C149B353C6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Lifting the Cap",
+			icon: "naturesaura:generator_limit_remover",
+			x: -0.25d,
+			y: -9.75d,
+			shape: "square",
+			subtitle: "&dNo Limits",
+			description: [
+				"Now, until now, the Aura generating stuff I've made has a limit. It can't really go over the area's 'natural' normal amount of Aura.",
+				"",
+				"But the Creation Catalyst lets me remove that cap. I just place it under the device generating Aura.",
+				"",
+				"I just need to remember that too mcuh Aura might be a bit dangerous."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "7B113392BD44BBB4",
+			tasks: [{
+				id: "7D67761250E57F75",
+				type: "item",
+				item: "naturesaura:generator_limit_remover"
+			}],
+			rewards: [{
+				id: "47CFA8F0786A6E1F",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Brewing Up Aura",
+			icon: "naturesaura:potion_generator",
+			x: -2.75d,
+			y: -7.75d,
+			shape: "square",
+			subtitle: "&dGas Gas Gas",
+			description: [
+				"It seems that I can harness the positive gasses from a Lingering Splash Potion and turn it into Aura.",
+				"",
+				"The Lingering Absorber has a decently sized structure I need to build for it, which the book shows nicely of course. Then, when I throw a Lingering Splash potion near it, it will turn it into Aura.",
+				"",
+				"The caveat is the potion must be a helpful one. Healing and whatnot. No harming potions, thats not very nature happy I guess."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "2D7AD0479E81E4A4",
+			tasks: [{
+				id: "5745BFE9170A5411",
+				type: "item",
+				item: "naturesaura:potion_generator"
+			}],
+			rewards: [{
+				id: "728DAE7102F4E909",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Blast Processing",
+			icon: "naturesaura:blast_furnace_booster",
+			x: 3.5d,
+			y: -7.75d,
+			shape: "square",
+			subtitle: "&dTwice the Fun",
+			description: [
+				"The Blast Furnace is a helpful machine for smelting ores and things. But it doesn't really do it as well as some other devices I have access to.",
+				"",
+				"The Armorer's Aid helps fix that. I can place it atop a Blast Furnace, and for the cost of some Aura, it has the chance of doubling the number of Ingot I get out of each ore."
+			],
+			dependencies: [
+				"7EBCBB54757CBF80",
+				"52F0E8B57CB9E33C"
+			],
+			id: "797E134742A769C3",
+			tasks: [{
+				id: "1FDDB1C6F4A29F2F",
+				type: "item",
+				item: "naturesaura:blast_furnace_booster"
+			}],
+			rewards: [{
+				id: "34AD56E845A0DDE1",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Nature to Tech",
+			icon: "naturesaura:rf_converter",
+			x: -4.0d,
+			y: -7.75d,
+			shape: "square",
+			subtitle: "&dThe gods allow weird things...",
+			description: [
+				"&dSo, Traveler, I have found a special device that you may have use for.",
+				"",
+				"Oh?",
+				"",
+				"This Energetic Aura Forge. It converts Aura into... Electricity. RF Energy specifically.",
+				"",
+				"Wait that's the power used by most of the technology you sell.",
+				"",
+				'&dRight, which is odd. The "gods" haven\'t locked this one away for some reason. Oh well, their loss.',
+				"",
+				"Hmm, this takes a bit of a big structure to utilize, but it converts any extra Aura into RF Energy. Nice!"
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "31F8E4E237417FC6",
+			tasks: [{
+				id: "613D37403BA30A08",
+				type: "item",
+				item: "naturesaura:rf_converter"
+			}],
+			rewards: [{
+				id: "7953534C6D8669CA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "All Aboard",
+			icon: "naturesaura:dimension_rail_overworld",
+			x: 3.0d,
+			y: -9.0d,
+			shape: "square",
+			subtitle: "&dNext Stop: Another Dimension",
+			description: [
+				"So, I've tried getting minecarts and stuff through portals. It doesn't quite work right, you know?",
+				"",
+				"Thankfully it seems there are three rails that can help me made of these Aura materials.",
+				"",
+				"Each one will teleport a minecraft that passes over it to another dimension: Specifically the dimension the rail is for."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "2001100D79F56B10",
+			tasks: [
+				{
+					id: "14D972FFE93EF9B7",
+					type: "item",
+					item: "naturesaura:dimension_rail_overworld"
+				},
+				{
+					id: "29C2836407ADA832",
+					type: "item",
+					item: "naturesaura:dimension_rail_nether"
+				},
+				{
+					id: "2F6465A56A571CF1",
+					type: "item",
+					item: "naturesaura:dimension_rail_end"
+				}
+			],
+			rewards: [{
+				id: "2EFE0FB40FAA102A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Creation of Life",
+			icon: "naturesaura:animal_spawner",
+			x: -2.25d,
+			y: -9.0d,
+			shape: "square",
+			subtitle: "&dMore Like Summon in Attack Mode",
+			description: [
+				"So, sometimes its fairly hard to find a specific creature I need.",
+				"",
+				"The Altar of Birthing helps with that. After I build the structuree, I can use a few items related to that creature, along with a healthy amount of Aura, to summon it.",
+				"",
+				"I'll have to note, I can only mostly summon what Kow calls \"Vanilla\" creatures.",
+				"",
+				"&dSpecifically called that as they are in every world I've visited. Well, almost, I don't think your old world did.",
+				"",
+				"Right. Anyways, I'll also need a Spirit of Birthing, which I can find sometimes when a baby animal is born and the Aura is higher than normal. "
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "1AE31478B49ADA9F",
+			tasks: [
+				{
+					id: "59AD3F6748AC13EF",
+					type: "item",
+					item: "naturesaura:animal_spawner"
+				},
+				{
+					id: "5308998A5944957B",
+					type: "item",
+					item: "naturesaura:birth_spirit"
+				}
+			],
+			rewards: [{
+				id: "64C4ADA6A69CDED4",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Winter is Coming",
+			icon: "naturesaura:snow_creator",
+			x: 1.75d,
+			y: -9.0d,
+			shape: "square",
+			subtitle: "&dBrighter Days Too",
+			description: [
+				"Controllingthe weather seems like a bit of an issue when talking about balance of nature, right? But I guess it might be a good idea since other magical things can muck with it, so rebalancing it is probably a good idea.",
+				"",
+				"The Winter's Calling can cause a big downfall of snow in an area around it. How big? Well, depends on the strength of the Redstone Signal I pass to it. ",
+				"",
+				"While the Winter's Calling just brings snow to a small area, the Cloudshifter has a bit wider of an effect. It can change the weather itself depending on what items I use on the Cloudshifter.",
+				"",
+				"The book lists all the items and what they do, but I can make or stop the rain, thunderstorms, etc."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "201C9D8469ABD72A",
+			tasks: [
+				{
+					id: "0AE6F8315B3FA3F6",
+					type: "item",
+					item: "naturesaura:snow_creator"
+				},
+				{
+					id: "5B62B2153655308E",
+					type: "item",
+					item: "naturesaura:weather_changer"
+				}
+			],
+			rewards: [{
+				id: "7AA3BD664D39D1BB",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Breaking Field",
+			icon: {
+				id: "naturesaura:field_creator",
+				Count: 2b
+			},
+			x: 1.0d,
+			y: -10.25d,
+			shape: "square",
+			subtitle: "&dDense",
+			description: [
+				"The Aura Field Creator is a way to create and automated mining area. Or logging. Or whatever I put into it really.",
+				"",
+				"I need two of them placed close together, then I Sneak + Right Click the first one, and normal Right Click the second one will link them. When I put a Redstone signal to one of the Creators, it'll charge up then create a field between them that will break blocks."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "1B528C43A9F098DF",
+			tasks: [{
+				id: "48D213AAB274B6A6",
+				type: "item",
+				item: "naturesaura:field_creator",
+				count: 2L
+			}],
+			rewards: [{
+				id: "25C77CB6C6427550",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "A Light Against the Dark",
+			icon: "naturesaura:spawn_lamp",
+			x: -1.5d,
+			y: -10.25d,
+			shape: "square",
+			subtitle: "&dBegone Demons",
+			description: [
+				"Undead and other monsters are dangerous if I'm not careful, and just a nuisance if I am. Especially in my base, where sometimes they'll find a dark corner to hide in and spook me. ",
+				"",
+				"The Lamp of Sanctuary helps here, as when supplied with a Redstone Signal, it will prevent the monsters from spawning in the area.",
+				"",
+				"Each time it prevents them, it consumes Aura, so I need to make sure I'm not draining the local Aura too much."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "31ECE24D40E0BCE1",
+			tasks: [{
+				id: "304C7E76143D73F1",
+				type: "item",
+				item: "naturesaura:spawn_lamp"
+			}],
+			rewards: [{
+				id: "1AED0FB62AE75FA4",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Seen to the End",
+			icon: "naturesaura:ender_access",
+			x: 2.25d,
+			y: -10.25d,
+			shape: "square",
+			subtitle: "&dGoing to the City",
+			description: [
+				"There seems to be one more Eye based tool that should be quite helpful.",
+				"",
+				"The Ender Ocular can be used in the End after the Dragon has been defeated. It will fly towards the closest End City."
+			],
+			dependencies: ["419932D81BA92FAC"],
+			id: "4A9D47DAAAD858DC",
+			tasks: [{
+				id: "3E8A8DCC43B52E18",
+				type: "item",
+				item: "naturesaura:ender_access"
+			}],
+			rewards: [{
+				id: "7D32EEAABB6F573F",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "The Open Eye",
+			icon: "naturesaura:eye_improved",
+			x: -0.25d,
+			y: -10.75d,
+			shape: "square",
+			subtitle: "&dSeeing it All",
+			description: [
+				"So, defeating the Ender Dragon makes something called a Rose of Oblivion grow nearby. I need this to improve my Environmental Eye but... I didn't see one?",
+				"",
+				"&dIt sometimes grows in an odd location. You could face the Ender Dragon again by placing an Ender Crystal on the North, South, East, and West points of the portal pool home.",
+				"",
+				"I... don't know if I want to face the Ender Dragon again but if I have to...",
+				"",
+				"The benefit though, is the Enviromental Eye can become the Environmental Ocular, giving much more useful information about Aura and imbalances.",
+				"",
+				"Interestingly, the Rose of Oblivion itself can be placed, and dropping Ender Eye's near it will cause it to consume the eyes and generate Aura."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "25D291BF28EE14AD",
+			tasks: [
+				{
+					id: "7E9F16951A065B87",
+					type: "item",
+					item: "naturesaura:end_flower"
+				},
+				{
+					id: "5E5AEE8342C9C518",
+					type: "item",
+					item: "naturesaura:eye_improved"
+				}
+			],
+			rewards: [{
+				id: "53AE33ADBAB458F6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 50
+			}]
+		},
+		{
+			title: "Transformed Nature",
+			icon: "naturesaura:conversion_catalyst",
+			x: -2.75d,
+			y: -10.25d,
+			shape: "square",
+			subtitle: "&dAlakawoosh",
+			description: [
+				"The Transformation Catalyst should be quite useful to me over time. It can be used to transform some items into more useful materials. Like Rotten Flesh into Leather, or Poisoned Potatoes into more edible ones.",
+				"",
+				"After making it, I need to place it on one of the 4 short pillars on a Natural Altar. What I want to transform will change which dimension I put it in. Some transformations require a Natural Altar in the Nether, for example."
+			],
+			dependencies: ["52F0E8B57CB9E33C"],
+			id: "4BFEE32081CCF860",
+			tasks: [{
+				id: "46391F3A803A52EC",
+				type: "item",
+				item: "naturesaura:conversion_catalyst"
+			}],
+			rewards: [{
+				id: "40EAD2BC44F0C9AE",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "&dLesson Complete: Nature's Aura",
+			icon: {
+				id: "contenttweaker:forbiddencoin",
+				Count: 46b
+			},
+			x: -0.25d,
+			y: -8.32142857142857d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"4A9D47DAAAD858DC",
+				"1B528C43A9F098DF",
+				"25D291BF28EE14AD",
+				"7B113392BD44BBB4",
+				"31ECE24D40E0BCE1",
+				"4BFEE32081CCF860",
+				"1AE31478B49ADA9F",
+				"68C8F3462F916DC0",
+				"31F8E4E237417FC6",
+				"2D7AD0479E81E4A4",
+				"5BEA87A4A18E4320",
+				"737122BDB31BAAF1",
+				"201C9D8469ABD72A",
+				"2001100D79F56B10",
+				"797E134742A769C3",
+				"6AF8F0E9BBAE9055",
+				"47F517B33CA2F100",
+				"012D85436F3F85FD",
+				"2DCD1D4848710783",
+				"7EBCBB54757CBF80",
+				"3CD60F65BAF09818",
+				"6C63953568BA4AF5",
+				"2065A5267CD9B00A"
+			],
+			size: 1.25d,
+			id: "637C80B680AD8806",
+			tasks: [{
+				id: "525B4340719D193C",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "43EB14541D99A03F",
+				type: "item",
+				item: "contenttweaker:forbiddencoin",
+				count: 3
 			}]
 		}
 	]
