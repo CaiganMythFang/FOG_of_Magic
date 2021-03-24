@@ -1705,6 +1705,187 @@
 				item: "calemiutils:coin_dollar",
 				count: 10
 			}]
+		},
+		{
+			title: "Going Up",
+			icon: "elevatorid:elevator_white",
+			x: -3.25d,
+			y: -5.25d,
+			shape: "square",
+			subtitle: "&dOr down.",
+			description: [
+				"This Elevator is a super handy thing to have around a base, when I don't want to have stairs or something like a ramp.",
+				"",
+				"I can place these above or below another Elevator, like between multiple floors. When I Jump, I go to any Elevator higher than the one I'm on, and if I Sneak I go down to the next Elevator.",
+				"",
+				"I can Right Click with an empty hand to set which way I face when I teleport to that elevator.",
+				"",
+				"I can also Right Click any block onto the Elevator to camoflague it."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "08E112B3F013E423",
+			tasks: [{
+				id: "156223A6B59D917D",
+				type: "item",
+				title: "Any color Elevator",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+			}],
+			rewards: [{
+				id: "18E0038AC985468E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "A Good Meal",
+			icon: "pamhc2foodcore:cuttingboarditem",
+			x: 3.5d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dMods : Pam's Harvestcraft Series",
+			description: [
+				"Pam's, even back home the Harvestcraft line of food is fantastic. Good to see that its multidimensionally good.",
+				"",
+				"I should make a bunch of the kitchen tools first, and keep an eye out for the Gardens while I'm exploring. They are my main source of seeds for growing the wide variety of plants and vegetables I'll need.",
+				"",
+				"And I should keep an eye out for fruit trees. I can harvest the fruits, then combine them with saplings later to grow new fruit trees."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "2CB0ED0F57CCC2AA",
+			tasks: [
+				{
+					id: "321A09DC402FE15F",
+					type: "item",
+					item: "pamhc2foodcore:cuttingboarditem"
+				},
+				{
+					id: "20D576247DEEEEA4",
+					type: "item",
+					item: "pamhc2foodcore:bakewareitem"
+				},
+				{
+					id: "7A8A57538D600665",
+					type: "item",
+					item: "pamhc2foodcore:potitem"
+				},
+				{
+					id: "0482DE763CF7E426",
+					type: "item",
+					item: "pamhc2foodcore:grinderitem"
+				},
+				{
+					id: "4FC0FD90D6AAA588",
+					type: "item",
+					item: "pamhc2foodcore:rolleritem"
+				},
+				{
+					id: "456CEDD611789E3F",
+					type: "item",
+					item: "pamhc2foodcore:saucepanitem"
+				}
+			],
+			rewards: [{
+				id: "7D5459637BEDF888",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Main Courses",
+			icon: "pamhc2foodcore:friedchickenitem",
+			x: 4.5d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dA Good Meal",
+			description: ["Pam's has a lot of great main dishes. Classics like Fried Chicken and BBQ Chicken Pizza always hit the spot."],
+			dependencies: ["2CB0ED0F57CCC2AA"],
+			id: "14033E73AAAF0A31",
+			tasks: [
+				{
+					id: "756800C39287CE0E",
+					type: "item",
+					item: "pamhc2foodcore:friedchickenitem"
+				},
+				{
+					id: "4B99BE8701F7AC8A",
+					type: "item",
+					item: "pamhc2foodextended:bbqchickenpizzaitem"
+				}
+			],
+			rewards: [{
+				id: "025E3746F56F8015",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Quenching Drinks",
+			icon: "pamhc2foodextended:grapesodaitem",
+			x: 3.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dTake a Sip",
+			description: ["Pam's drinks vary wildly in flavors. From bubbly sodas to relaxing hot tea. "],
+			dependencies: ["2CB0ED0F57CCC2AA"],
+			id: "06568449EF3C7EDE",
+			tasks: [
+				{
+					id: "2729FD4BFBE184DB",
+					type: "item",
+					item: "pamhc2foodextended:grapesodaitem"
+				},
+				{
+					id: "01A5A1BA10788B4B",
+					type: "item",
+					item: "pamhc2crops:hotteaitem"
+				}
+			],
+			rewards: [{
+				id: "24CEF4761968EA3E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Snack Time",
+			icon: "pamhc2foodcore:gummybearsitem",
+			x: 4.5d,
+			y: 0.25d,
+			shape: "square",
+			subtitle: "&dCan never over do",
+			description: ["Pam's has a ton of small snacks, good for taking the edge off hunger out in the field. Gummy bears, popcorn, chocolate, it's all so tasty."],
+			dependencies: ["2CB0ED0F57CCC2AA"],
+			id: "76ABA3D5FA03DBC7",
+			tasks: [
+				{
+					id: "2A522091AC61BF44",
+					type: "item",
+					item: "pamhc2foodcore:gummybearsitem"
+				},
+				{
+					id: "08DF09E7DCB90B66",
+					type: "item",
+					item: "pamhc2foodextended:theatreboxitem"
+				}
+			],
+			rewards: [{
+				id: "3F7BC2C71E661CC9",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
 		}
 	]
 }
