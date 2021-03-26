@@ -76,6 +76,44 @@
       ],
       "rewardchoice": [],
       "commandrewards": []
+    },
+    {
+      "uuid": "d402f3ea-e160-484e-8907-7f7071d5097f",
+      "name": " Subspatial Key",
+      "description": "    The Subspatial Key is... very interesting. My sister can explain how to use it. You can find it in Strongholds in your world though, but its fairly rare.",
+      "x": 50,
+      "y": 21,
+      "icon": {
+        "id": "subpocket:key",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "subpocket:key",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
     }
   ],
   "reputationBar": [],
