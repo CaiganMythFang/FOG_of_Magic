@@ -54,8 +54,8 @@
 		{
 			title: "The Smoke of Industry",
 			icon: "adchimneys:bricks_chimney",
-			x: 1.0d,
-			y: -2.5d,
+			x: 1.25d,
+			y: -3.0d,
 			shape: "square",
 			subtitle: "&dMod: Advanced Chimneys",
 			description: [
@@ -120,8 +120,8 @@
 		{
 			title: "Holy Poles, Batman!",
 			icon: "minecraft:iron_bars",
-			x: 2.25d,
-			y: -3.75d,
+			x: 0.0d,
+			y: -3.25d,
 			subtitle: "&dI was thinking fire station, actually...",
 			description: [
 				"So, a neat thing I've found out. Stacking Iron Bars on top of each other in a single column, becomes a Bat Pole!",
@@ -146,8 +146,8 @@
 		{
 			title: "Botany Pots",
 			icon: "botanypots:botany_pot",
-			x: -1.0d,
-			y: -6.5d,
+			x: -4.5d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dMods: Botony Pots and Trees",
 			description: [
@@ -180,8 +180,8 @@
 		{
 			title: "Hopped Up Pots",
 			icon: "botanypots:hopper_botany_pot",
-			x: -1.0d,
-			y: -7.5d,
+			x: -4.5d,
+			y: -4.5d,
 			shape: "square",
 			subtitle: "&dSlow and steady and self sufficient",
 			description: [
@@ -215,8 +215,8 @@
 		{
 			title: "Food Journal",
 			icon: "solcarrot:food_book",
-			x: -0.5d,
-			y: 0.25d,
+			x: -0.25d,
+			y: 0.75d,
 			shape: "square",
 			subtitle: "&dMod: Spice of Life: Carrot Edition",
 			description: [
@@ -248,8 +248,8 @@
 		{
 			title: "Home Cooking",
 			icon: "cookingforblockheads:cooking_table",
-			x: 1.0d,
-			y: -0.75d,
+			x: 1.25d,
+			y: -0.25d,
 			shape: "square",
 			subtitle: "&dMod: Cooking With Blockheads",
 			description: [
@@ -300,8 +300,8 @@
 		{
 			title: "Kitchen Storage",
 			icon: "cookingforblockheads:counter",
-			x: 2.0d,
-			y: -0.75d,
+			x: 2.25d,
+			y: -0.25d,
 			shape: "square",
 			subtitle: "&dFull but still can't find anything to eat",
 			description: [
@@ -335,8 +335,8 @@
 		{
 			title: "Kitchen Accessories",
 			icon: "cookingforblockheads:fruit_basket",
-			x: 1.0d,
-			y: 0.25d,
+			x: 1.25d,
+			y: 0.75d,
 			shape: "square",
 			subtitle: "&dA place for your knife, and your fruit",
 			description: [
@@ -389,8 +389,8 @@
 		{
 			title: "Kitchen upgrades!",
 			icon: "cookingforblockheads:heating_unit",
-			x: 2.0d,
-			y: 0.25d,
+			x: 2.25d,
+			y: 0.75d,
 			shape: "square",
 			subtitle: "&dHot and Cold",
 			description: [
@@ -427,8 +427,8 @@
 		{
 			title: "A Helpful Station",
 			icon: "craftingstation:crafting_station",
-			x: 2.25d,
-			y: -2.5d,
+			x: 1.25d,
+			y: -4.25d,
 			shape: "square",
 			subtitle: "&dMod: Crafting Station",
 			description: [
@@ -507,8 +507,8 @@
 					Food: 20
 				}
 			},
-			x: -0.5d,
-			y: -0.75d,
+			x: -0.25d,
+			y: -0.25d,
 			shape: "square",
 			subtitle: "&dMod: Culinary Construct",
 			description: [
@@ -860,7 +860,7 @@
 			title: "Market Forces",
 			icon: "calemiutils:market",
 			x: -1.0d,
-			y: -4.25d,
+			y: -4.5d,
 			shape: "square",
 			subtitle: "&dMod : Calemi Utils",
 			description: [
@@ -923,7 +923,7 @@
 				tag: {}
 			},
 			x: 0.0d,
-			y: -5.25d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dGotta build your own puzzles, though",
 			description: [
@@ -960,7 +960,7 @@
 			title: "Helpful Items",
 			icon: "calemiutils:item_stand",
 			x: -1.0d,
-			y: -5.25d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dA little of this, a little of that",
 			description: [
@@ -1004,7 +1004,7 @@
 				tag: {}
 			},
 			x: -2.0d,
-			y: -5.25d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dEven more of that over there",
 			description: [
@@ -1057,8 +1057,8 @@
 		{
 			title: "Solid State Chests",
 			icon: "ironchest:iron_chest",
-			x: 3.5d,
-			y: -3.75d,
+			x: 1.25d,
+			y: -1.75d,
 			shape: "square",
 			subtitle: "&dMod: Iron Chests",
 			description: [
@@ -1097,8 +1097,8 @@
 		{
 			title: "A Farmer's Market",
 			icon: "farmingforblockheads:market",
-			x: -2.0d,
-			y: -0.75d,
+			x: -1.75d,
+			y: -0.25d,
 			shape: "square",
 			subtitle: "&dMod: Farming for Blockheads",
 			description: [
@@ -1141,8 +1141,8 @@
 		{
 			title: "Animal Assistance",
 			icon: "farmingforblockheads:feeding_trough",
-			x: -2.0d,
-			y: 0.25d,
+			x: -1.75d,
+			y: 0.75d,
 			shape: "square",
 			subtitle: "&dA Helping Claw",
 			description: [
@@ -1178,8 +1178,8 @@
 		{
 			title: "Pull the Lever!",
 			icon: "rsgauges:industrial_small_lever",
-			x: 3.5d,
-			y: -2.5d,
+			x: 2.5d,
+			y: -4.25d,
 			shape: "square",
 			subtitle: "&dMod: Gauges and Switches",
 			description: [
@@ -1291,8 +1291,8 @@
 		{
 			title: "Great Housing",
 			icon: "mcwdoors:oak_western_door",
-			x: 4.75d,
-			y: -2.5d,
+			x: 2.5d,
+			y: -3.0d,
 			shape: "square",
 			subtitle: "&dMods: Macaw's Doors, Macaw's Windows, Macaw's Roofs",
 			description: [
@@ -1335,7 +1335,7 @@
 			title: "Well Furnished Living Room",
 			icon: "cfm:white_sofa",
 			x: 1.5d,
-			y: -5.25d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dMod: MrCrayfish's Furniture Mod",
 			description: [
@@ -1405,7 +1405,7 @@
 			title: "Back Yard Boons",
 			icon: "cfm:white_grill",
 			x: 2.5d,
-			y: -5.25d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dBrats and Bellyflops",
 			description: [
@@ -1484,7 +1484,7 @@
 			title: "Front Yard Follies",
 			icon: "cfm:oak_mail_box",
 			x: 3.5d,
-			y: -5.25d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dTalk and Walk",
 			description: [
@@ -1536,7 +1536,7 @@
 			title: "Dining Room Delights",
 			icon: "cfm:spruce_table",
 			x: 1.5d,
-			y: -6.25d,
+			y: -6.5d,
 			shape: "square",
 			subtitle: "&dSit Down, Relax",
 			description: [
@@ -1594,8 +1594,8 @@
 		{
 			title: "Kitchen Keeper",
 			icon: "cfm:fridge_light",
-			x: 1.5d,
-			y: -7.25d,
+			x: 3.5d,
+			y: -6.5d,
 			shape: "square",
 			subtitle: "&dNever enough counter space",
 			description: [
@@ -1663,7 +1663,7 @@
 			title: "Simple Study",
 			icon: "cfm:acacia_desk",
 			x: 2.5d,
-			y: -6.25d,
+			y: -6.5d,
 			shape: "square",
 			subtitle: "&dA Desk is all one needs in heck...",
 			description: [
@@ -1710,7 +1710,7 @@
 			title: "Going Up",
 			icon: "elevatorid:elevator_white",
 			x: -3.25d,
-			y: -5.25d,
+			y: -5.5d,
 			shape: "square",
 			subtitle: "&dOr down.",
 			description: [
@@ -1748,7 +1748,7 @@
 			title: "A Good Meal",
 			icon: "pamhc2foodcore:cuttingboarditem",
 			x: 3.5d,
-			y: -0.75d,
+			y: -0.25d,
 			shape: "square",
 			subtitle: "&dMods : Pam's Harvestcraft Series",
 			description: [
@@ -1804,7 +1804,7 @@
 			title: "Main Courses",
 			icon: "pamhc2foodcore:friedchickenitem",
 			x: 4.5d,
-			y: -0.75d,
+			y: -0.25d,
 			shape: "square",
 			subtitle: "&dA Good Meal",
 			description: ["Pam's has a lot of great main dishes. Classics like Fried Chicken and BBQ Chicken Pizza always hit the spot."],
@@ -1833,7 +1833,7 @@
 			title: "Quenching Drinks",
 			icon: "pamhc2foodextended:grapesodaitem",
 			x: 3.5d,
-			y: 0.25d,
+			y: 0.75d,
 			shape: "square",
 			subtitle: "&dTake a Sip",
 			description: ["Pam's drinks vary wildly in flavors. From bubbly sodas to relaxing hot tea. "],
@@ -1862,7 +1862,7 @@
 			title: "Snack Time",
 			icon: "pamhc2foodcore:gummybearsitem",
 			x: 4.5d,
-			y: 0.25d,
+			y: 0.75d,
 			shape: "square",
 			subtitle: "&dCan never over do",
 			description: ["Pam's has a ton of small snacks, good for taking the edge off hunger out in the field. Gummy bears, popcorn, chocolate, it's all so tasty."],
@@ -1885,6 +1885,717 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
+			}]
+		},
+		{
+			title: "Pet Pat Pot",
+			icon: {
+				id: "inventorypets:pet_wolf",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.0d,
+			y: -3.25d,
+			subtitle: "&dMod: Pet Your Wolf",
+			description: [
+				"&dHey.",
+				"",
+				"&dHey Traveler.",
+				"",
+				"&dYou better pet your pet wolf.",
+				"",
+				"&dLook at it.",
+				"",
+				"&dAnd hold the P key.",
+				"",
+				"&dYou better be petting that good dog."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "5E0D80004003E8C5",
+			tasks: [{
+				id: "0ECC98A320DD9B36",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "5D8A5982753D7934",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "All the Little Things",
+			icon: "quark:paper_wall_sakura",
+			x: -3.25d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dMod: Quark and Quark Oddities",
+			description: [
+				"&dTraveler, you may like to know that this is one of many dimensions that the magical architect Vazkii has visited. ",
+				"",
+				"Oh?",
+				"",
+				"&dYes, they brought many unique schools of magic I have lessons on, but another thing they did was... little things. Little changes, little additions, little discoveries. We call these things Quark.",
+				"",
+				"Huh, interesting. What all does Quark entail?",
+				"",
+				"&dMany things. From building, to automation, to magic. It's nothing super deep or crazy intricate, thus no big lesson plan on it. But you'll see the changes all around.",
+				"",
+				"&dFor exmaple, things like this glowing item frame, which lets you see the item in it clearly even in pitch black."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "4BCD28E15AA684AD",
+			tasks: [
+				{
+					id: "3DAD0356E32246C6",
+					type: "item",
+					item: "quark:paper_wall_sakura"
+				},
+				{
+					id: "2234F59A316491F9",
+					type: "item",
+					item: "quark:glowing_glass_item_frame"
+				}
+			],
+			rewards: [{
+				id: "3E6534A3588C3940",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Quite Oddities",
+			icon: "minecraft:enchanting_table",
+			x: -4.25d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dDun dundundun dundun",
+			description: [
+				"Kow, I've heard some of the local mages talk about how Enchanting used to be different. It was... more of a gamble?",
+				"",
+				"&dYeah. Unless you had the Enchantments you want squirreled away in a book, you had to pray your enchanting table was lucky.",
+				"",
+				"&dQuark brought about an odd change to Enchanting, for the better.",
+				"",
+				"&dQuak brought us Matrix Enchanting. You still need a lot of bookshelves, or other magic like Pylons, for the best results.",
+				"",
+				"&dYou add puzzle pieces made of squares to the table, each one a different enchant.",
+				"",
+				"&dYou then add the ones you want to a grid so they don't overlap. Dropping a piece on another with the same enchant powers it up instead."
+			],
+			dependencies: ["4BCD28E15AA684AD"],
+			id: "7474F4E30DDC41C1",
+			tasks: [{
+				id: "1440A39AF155002C",
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}],
+			rewards: [{
+				id: "7DA666405581CED1",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Interesting Uses",
+			icon: "quark:weather_sensor",
+			x: -3.25d,
+			y: 0.75d,
+			shape: "square",
+			subtitle: "&dA bit unique",
+			description: [
+				"So I see Quark has a lot of interesting little things in it.",
+				"",
+				"Like this Magnet? It kind of only pulls or pushes Iron Blocks or various other blocks made with Iron Ingots. Like Hoppers. Some of these things do interesting things when pulled.",
+				"",
+				"Or like the Weather Detector. Emits a Redstone Signal when the weather changes from sunny."
+			],
+			dependencies: ["4BCD28E15AA684AD"],
+			id: "195671B7A561AE5E",
+			tasks: [
+				{
+					id: "2B5B664EDAB96F2E",
+					type: "item",
+					item: "quark:magnet"
+				},
+				{
+					id: "52762C0C04508776",
+					type: "item",
+					item: "quark:weather_sensor"
+				}
+			],
+			rewards: [{
+				id: "7D03E7284E7EB09B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "A Place For Everything",
+			icon: "storagedrawers:oak_full_drawers_1",
+			x: 2.5d,
+			y: -1.75d,
+			shape: "square",
+			subtitle: "&dMod: Storage Drawers",
+			description: [
+				"I have a lot of materials I use a lot, and sometimes just a room full of chests doesn't look great.",
+				"",
+				"&dAlso kind of hard to remember where some of  your materials are.",
+				"",
+				"True that. So, one of the things I've found that's popular here are Storage Drawers. They come in 1x1, 2x1, and 2x2 drawer sets. Each drawer holds a stack of a single item.",
+				"",
+				"But if I use an upgrade on it, it can hold even more items. Or do a wide variety of other things!"
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "1A215F8B420FE5D3",
+			tasks: [
+				{
+					id: "76C663813FF31163",
+					type: "item",
+					title: "Any Storage Drawer",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+				},
+				{
+					id: "3F8E5DE0C887D04E",
+					type: "item",
+					item: "storagedrawers:iron_storage_upgrade"
+				}
+			],
+			rewards: [{
+				id: "01281B9AE2E39205",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Drawer Key",
+			icon: "storagedrawers:drawer_key",
+			x: 3.5d,
+			y: -1.75d,
+			shape: "square",
+			subtitle: "&dLock It",
+			description: [
+				"There are two Drawer keys that can be used on the Storage Drawers.",
+				"",
+				"The Quantify Key can be used to show or hide the drawers from magically displaying the amount in them.",
+				"",
+				"The Drawer Key can be used to Lock a drawer to the items in it. If I take out all the items, they'll still only accept the items they show. Good way to keep things nice and organized."
+			],
+			dependencies: ["1A215F8B420FE5D3"],
+			id: "3FC3AFCAEAA8BD3C",
+			tasks: [
+				{
+					id: "080B8B3B0C309691",
+					type: "item",
+					item: "storagedrawers:quantify_key"
+				},
+				{
+					id: "46FD16C0B4BE1FD6",
+					type: "item",
+					item: "storagedrawers:drawer_key"
+				}
+			],
+			rewards: [{
+				id: "54AF918C95C79C5B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Magical Storage Drawers",
+			icon: "storagedrawers:compacting_drawers_3",
+			x: 4.5d,
+			y: -1.75d,
+			shape: "square",
+			subtitle: "&dAutomagically Sorted",
+			description: [
+				"Compacting Drawers are useful for things like Iron Bars and Blocks of Iron. It will automatically swap between items that craft in 2x2 or 3x3 grid (like the aforementioned Blocks of Iron!)",
+				"",
+				"The Drawer Controller automatically sorts out items for me that I pipe in, whether by Right Clicking them directly, or using a hopper or pipes or rats.",
+				"",
+				"They'll put items into any Storage Drawer that is touching either it, or connected in a chain of Storage Drawers. It will prioritize filling drawers that already have the item, then start filling empty drawers.",
+				"",
+				"The Drawer Slave basically expands how many 'sides' a Drawer Controller has so I can connect even more pipes and things to it."
+			],
+			dependencies: ["1A215F8B420FE5D3"],
+			id: "376D745B4B46393E",
+			tasks: [
+				{
+					id: "34A244D1DEFF7090",
+					type: "item",
+					item: "storagedrawers:compacting_drawers_3"
+				},
+				{
+					id: "1EF876F31143D5BA",
+					type: "item",
+					item: "storagedrawers:controller"
+				},
+				{
+					id: "6BA9AE5BC2E10764",
+					type: "item",
+					item: "storagedrawers:controller_slave"
+				}
+			],
+			rewards: [{
+				id: "1789462E7512CFEB",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "A Simple Display",
+			icon: "pedestals:pedestal",
+			x: 3.75d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "&dMod: Theo's Pedestal",
+			description: [
+				"This is a pretty simple thing: A stand to put an item on to show it off.",
+				"",
+				"I can Right Click an item onto the Pedestal to show it off. If I Sneak + Right Click with an empty hand, I can Lock or Unlock the pedestal from other Travellers using it."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "3D08D2769ABFF339",
+			tasks: [{
+				id: "5848CF7286590095",
+				type: "item",
+				item: "pedestals:pedestal"
+			}],
+			rewards: [{
+				id: "79695A53DAAB452B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "That's a BIG Torch",
+			icon: "torchmaster:megatorch",
+			x: 3.75d,
+			y: -4.25d,
+			shape: "square",
+			subtitle: "&dMod: Torchmaster",
+			description: [
+				"&dTraveller, there are a few magical torches and lights you should be aware of.",
+				"",
+				"&dThe Mega Torch lights up the area, but its main function is to stop monsters from appearing in a much larger area.",
+				"",
+				"That is quite useful. But... what if I want monsters? For some magic things, I need a lot of them ",
+				"",
+				"&dThen the Dread Lamp is what you want. It stops passive animals, farm animals, etc from appearing."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "00DE702097A2C8AA",
+			tasks: [
+				{
+					id: "3EDD9BE8D8B8D8A5",
+					type: "item",
+					item: "torchmaster:megatorch"
+				},
+				{
+					id: "0299659C31E43609",
+					type: "item",
+					item: "torchmaster:dreadlamp"
+				}
+			],
+			rewards: [{
+				id: "0DF686680BFF5B25",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Faery Lights",
+			icon: "torchmaster:feral_flare_lantern",
+			x: 4.75d,
+			y: -4.25d,
+			shape: "square",
+			subtitle: "&dSpreading Light",
+			description: [
+				"&dThe Feral Flare Lantern spreads lights out over a large area. But I'd be careful, they might get in your way in ways you don't expect.",
+				"",
+				"&dIf you need to get rid of some of the lights it generates, use the Frozen Pearl."
+			],
+			dependencies: ["00DE702097A2C8AA"],
+			id: "2125DEE0FE00985A",
+			tasks: [
+				{
+					id: "54B86489C5BA9C9B",
+					type: "item",
+					item: "torchmaster:feral_flare_lantern"
+				},
+				{
+					id: "7D936E657DD69BBE",
+					type: "item",
+					item: "torchmaster:frozen_pearl"
+				}
+			],
+			rewards: [{
+				id: "3C0437291E5F4BD8",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "To Bits",
+			icon: {
+				id: "chiselsandbits:chisel_stone",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -5.75d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "&dMod: Chisel and Bits",
+			description: [
+				"&dTraveller, you can get a much finer control on how you decorate with designs. You can split any material from a single block to a 16x16 set.",
+				"",
+				"That... is a lot of tiny blocks.",
+				"",
+				"&dYes. You can use a Chisel to chip away at a block. By hitting the H key, or Sneak + Mousewheel, you can swap chiseling modes.",
+				"",
+				"&dThe Saw can be used to cleanly slice blocks in a Crafting Table.",
+				"",
+				"&dAnd the Chiseled Bit Storage is kind of like a Fluid Tank, but you can break the fluids into Chiseled Bits too."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "7D28F41729018508",
+			tasks: [
+				{
+					id: "7B069D999D668DB5",
+					type: "item",
+					item: {
+						id: "chiselsandbits:chisel_stone",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "50A16DC6FE9F004D",
+					type: "item",
+					item: {
+						id: "chiselsandbits:bitsaw_stone",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3D9F67D05A7C5B03",
+					type: "item",
+					item: "chiselsandbits:bit_storage"
+				}
+			],
+			rewards: [{
+				id: "38F6A679DD2556A6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Copy That Bitty",
+			icon: "chiselsandbits:mirrorprint",
+			x: -6.75d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "&dFlipy Flopy Copy",
+			description: ["So, these three sheets of 'paper' are a way for me to copy and mirror and shift designs around. It makes things easier when I'm making complex designs."],
+			dependencies: ["7D28F41729018508"],
+			id: "11C01B61DCAFC754",
+			tasks: [
+				{
+					id: "4BF1C28CF4D310CF",
+					type: "item",
+					item: "chiselsandbits:mirrorprint"
+				},
+				{
+					id: "423B6F8FA0483DB5",
+					type: "item",
+					item: "chiselsandbits:positiveprint"
+				},
+				{
+					id: "63929E0DCD1B2DBD",
+					type: "item",
+					item: "chiselsandbits:negativeprint"
+				}
+			],
+			rewards: [{
+				id: "65E6DB5AD38BE787",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Bitty Tools",
+			icon: "chiselsandbits:magnifying_glass",
+			x: -5.75d,
+			y: -4.5d,
+			shape: "square",
+			subtitle: "&dMeasure Twice, Turn Once",
+			description: [
+				"The Magnifying Glass lets me see if a block of material can be turned into Bits.",
+				"",
+				"The Tape Measure lets me measure the distance, in Bits, something is. Or other things. I can hit the H key to see what other options it has.",
+				"",
+				"The Wrench is a good tool for rotating blocks around."
+			],
+			dependencies: ["7D28F41729018508"],
+			id: "50CD3ED0593F1F88",
+			tasks: [
+				{
+					id: "2803F1849F1C96F1",
+					type: "item",
+					item: "chiselsandbits:magnifying_glass"
+				},
+				{
+					id: "7536D419C7DA344B",
+					type: "item",
+					item: "chiselsandbits:tape_measure"
+				},
+				{
+					id: "503C9B6A39FB01C4",
+					type: "item",
+					item: {
+						id: "chiselsandbits:wrench_wood",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "2CE73A666D0EC836",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "A Good Supplement",
+			icon: "supplementaries:hanging_sign_oak",
+			x: -5.5d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dMod: Supplementaries",
+			description: [
+				"&dThere are a lot of little things that can help make your base feel more like a home. Or more like a base, either or.",
+				"",
+				"Oh?",
+				"",
+				"&dYes. Locals call these things Supplementaries. They supplement your main things. Yeah?",
+				"",
+				"Okay, I guess?",
+				"",
+				"&dWell, The checker floor for example. That's harder to find for your Kitchen than you think.",
+				"",
+				"&dThe Hanging Sign? You can put any item up there to advertise a shop.",
+				"",
+				"&dThe Sign Post? Can only be placed on Fenceposts, and can help show people where to go."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "28710D6158CBC928",
+			tasks: [
+				{
+					id: "43753BF83485647F",
+					type: "item",
+					item: "supplementaries:hanging_sign_oak"
+				},
+				{
+					id: "72E7BC71A782D855",
+					type: "item",
+					item: "supplementaries:sign_post_oak"
+				},
+				{
+					id: "07985F4AB0383C27",
+					type: "item",
+					item: "supplementaries:checker_block"
+				}
+			],
+			rewards: [{
+				id: "7689CEEE0C0E7234",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Showing Off",
+			icon: "supplementaries:blackboard",
+			x: -5.5d,
+			y: 0.75d,
+			shape: "square",
+			subtitle: "&dPutting On a Show",
+			description: [
+				"Wow, Blackboards bring me back. Here, I can do simple drawings on them. Neat!",
+				"",
+				"The Notice Board, I can write in a Book and Quill and put it into the Notice Board to show the first page of text. Or I can put a map into them to display them.",
+				"",
+				"The Item Shelf, is a nice low profile way to show off an item compared to an Item Frame."
+			],
+			dependencies: ["28710D6158CBC928"],
+			id: "3356B34BCE177C77",
+			tasks: [
+				{
+					id: "7106A7049B2F7B68",
+					type: "item",
+					item: "supplementaries:notice_board"
+				},
+				{
+					id: "719D34963B49F1D4",
+					type: "item",
+					item: "supplementaries:blackboard"
+				},
+				{
+					id: "1F48A49CF45D2688",
+					type: "item",
+					item: "supplementaries:item_shelf"
+				}
+			],
+			rewards: [{
+				id: "30D47A73D4C2D433",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Adventuring",
+			icon: "supplementaries:bamboo_spikes",
+			x: -6.5d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dPit Falls",
+			description: [
+				"Bamboo Spikes are a dangerous defensive thing I can place. Even more deadly, I can coat them in a potion to be even more deadly.",
+				"",
+				"Ropes can connect to the bottoms or sides of blocks, and extend downward. Good for climbing.",
+				"",
+				"They are made from Flax, which I can find the seeds in villages sometimes, or on the Wandering Trader.",
+				"",
+				"These Ropes I can take and put into a Rope Arrow. Launching it, it'll extend a rope down from where it hits."
+			],
+			dependencies: ["28710D6158CBC928"],
+			id: "4FB1D039150ECACF",
+			tasks: [
+				{
+					id: "293115E4B1B7DE4B",
+					type: "item",
+					item: "supplementaries:bamboo_spikes"
+				},
+				{
+					id: "00C29A7C603DBAFD",
+					type: "item",
+					item: "supplementaries:rope"
+				},
+				{
+					id: "27EC7A0A7513D8CA",
+					type: "item",
+					item: {
+						id: "supplementaries:rope_arrow",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "7B5F5DB588748754",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Home Helpers",
+			icon: "supplementaries:clock_block",
+			x: -6.5d,
+			y: 0.75d,
+			shape: "square",
+			subtitle: "&dTime to Hide",
+			description: [
+				"The Clock Block will accurately show the time in the world to everyone who looks at it. It looks nice too!",
+				"",
+				"The Doormat is a great way to keep boots clean. And to hide a single item under it, of course. Like, apparently, large packages sometimes.",
+				"",
+				"The Cog Block is a special block, doens't quite fit here but its useful. By putting a Redstone Signal to one, it will pass the signal to each block touching it, but at one less strength. So a row of Cog Blocks will power up to 14 away."
+			],
+			dependencies: ["28710D6158CBC928"],
+			id: "47CC68B0A4571399",
+			tasks: [
+				{
+					id: "58C505A7BE12CB72",
+					type: "item",
+					item: "supplementaries:clock_block"
+				},
+				{
+					id: "435BDFBE15CC9B03",
+					type: "item",
+					item: "supplementaries:doormat"
+				},
+				{
+					id: "6F98A9AEBA3AB987",
+					type: "item",
+					item: "supplementaries:cog_block"
+				}
+			],
+			rewards: [{
+				id: "369DB1D83CEC0353",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Knockoff Chandelier",
+			icon: "minecraft:torch",
+			x: -2.0d,
+			y: -1.75d,
+			subtitle: "&dMod: Ceiling Torch",
+			description: ["I need to remember I can place Torches directly on the ceiling. The magic of this world makes sure they won't light on fire, thankfully."],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "04BB17719BC7463B",
+			tasks: [{
+				id: "762EF410AA5CF736",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "76E91E71E6C70E80",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
 			}]
 		}
 	]
