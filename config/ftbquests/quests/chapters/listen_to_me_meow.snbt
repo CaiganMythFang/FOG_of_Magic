@@ -409,7 +409,7 @@
 				"",
 				"Reward?",
 				"",
-				"&dYes. Each completed lesson plan will earn you a Forbidden Knowledge Coin. You'll find out what they are later, Traveler."
+				"&dYes. Each completed lesson plan will earn you Forbidden Knowledge Coins. You'll find out what they are later, Traveler."
 			],
 			dependencies: ["0000000000000025"],
 			id: "000000000000002E",
