@@ -1,0 +1,2954 @@
+{
+  "name": "Pneumaticraft",
+  "quests": [
+    {
+      "uuid": "00a49715-4d54-48f3-83f6-3b31165e420f",
+      "name": " Pneumatic Machines 3",
+      "description": "    The Etching Tank is a safer way to etch PCB boards.\n    The Vortex Tube splits air pressure into hot and cold.\n    The Gas Lift uses Drill Pipes to dig downward to locate liquid, and pumps it up.\n    The Assembly Platform is part of an assembly line.",
+      "x": 63,
+      "y": 49,
+      "icon": {
+        "id": "pneumaticcraft:etching_tank",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:etching_tank",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:vortex_tube",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:gas_lift",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:assembly_platform",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "29abccef-5767-441f-91ef-e8d54bc4e1c7",
+      "name": " Pneumatic Tools 4",
+      "description": "    The Amadron Tablet is used to purchase various items with Emeralds.\n    The Remote lets you create your own controls for various Pneumaticcraft machines.\n    ",
+      "x": 230,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:amadron_tablet",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:amadron_tablet",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:remote",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0db6f862-7337-4ebd-b7b9-a3229040b003",
+      "name": " Wall Lamps",
+      "description": "    Lamp that emits light when a Redstone Signal is applied.",
+      "x": 63,
+      "y": 135,
+      "icon": {
+        "id": "pneumaticcraft:wall_lamp_white",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:wall_lamp_white",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:wall_lamp_purple",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:wall_lamp_red",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:wall_lamp_black",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "50c8f960-3296-4b3f-96ff-c67676729ffd",
+      "name": " Manual and Patch",
+      "description": "    The PNCR Manual has everything you need to understand how Pneumaticraft works.\n    Bandages are quick little healing patches. ",
+      "x": 17,
+      "y": 19,
+      "icon": {
+        "id": "patchouli:guide_book",
+        "Count": 1,
+        "tag": {
+          "patchouli:book": "pneumaticcraft:book"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "patchouli:guide_book",
+          "Count": 1,
+          "tag": {
+            "patchouli:book": "pneumaticcraft:book"
+          }
+        },
+        {
+          "id": "pneumaticcraft:bandage",
+          "Count": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "037d2e42-1a51-44c8-9ee0-701923c0c098",
+      "name": " Pneumatic Machines 10",
+      "description": "    The Aerial Interface is nearly magic in that it connects to your inventory directly, no matter where it is. ",
+      "x": 108,
+      "y": 77,
+      "icon": {
+        "id": "pneumaticcraft:aerial_interface",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:aerial_interface",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8fc81fdc-493b-465e-ae66-36ae4424720c",
+      "name": " Minigun Ammo 3",
+      "description": "    Minigun Ammo is used by both the Minigun and the Sentry Turret.",
+      "x": 300,
+      "y": 80,
+      "icon": {
+        "id": "pneumaticcraft:gun_ammo_ap",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:gun_ammo_weighted",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo_ap",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "994c7b8f-7944-466e-9628-3ddc71e738e8",
+      "name": " Helpful Frames",
+      "description": "    The Heat Frame can be placed on an inventory and heated to smelt items in it.\n    The Spawner Agitator can be put on a monster spawner to keep it spawning monsters and not have them dissappear.",
+      "x": 161,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:heat_frame",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:heat_frame",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:spawner_agitator",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "10572115-f3c7-44fc-9749-5b9c790d1d32",
+      "name": " Minigun Ammo 1",
+      "description": "    Minigun Ammo is used by both the Minigun and the Sentry Turret.",
+      "x": 253,
+      "y": 79,
+      "icon": {
+        "id": "pneumaticcraft:gun_ammo",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:gun_ammo",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b21fc1f0-7d71-4a43-9ae4-8a66a2aa7060",
+      "name": " Upgrades 6",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 301,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:item_life_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:jumping_upgrade_1",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:item_life_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:search_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f878f034-1d16-42d7-90da-f41d917bcb24",
+      "name": " Upgrades 5",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 278,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:minigun_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:minigun_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:coordinate_tracker_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:volume_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b6fd291e-0279-426c-989c-66e5efe88b46",
+      "name": " Upgrades 12",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 277,
+      "y": 138,
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_4",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:jet_boots_upgrade_4",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b5a43c64-09a0-4ee3-bbc1-87749780b914",
+      "name": " Upgrades 8",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 184,
+      "y": 137,
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_1",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:jet_boots_upgrade_1",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:jumping_upgrade_3",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b3c6b108-d7da-4196-97dd-4efb5ff8e9f8",
+      "name": " Minigun Ammo 2",
+      "description": "    Minigun Ammo is used by both the Minigun and the Sentry Turret.",
+      "x": 277,
+      "y": 79,
+      "icon": {
+        "id": "pneumaticcraft:gun_ammo_explosive",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:gun_ammo_incendiary",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo_explosive",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo_freezing",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8d87d584-8374-4544-bc8b-8c559578d5b0",
+      "name": " Compressors 1",
+      "description": "    The Air Compressor burns solid fuel to generate Air Pressure.\n    The Liquid Compressor burns liquid fuels to generate Air Pressure.\n    The Thermal Compressor uses the difference between hot and cold sides to generate Air Pressure.",
+      "x": 86,
+      "y": 19,
+      "icon": {
+        "id": "pneumaticcraft:liquid_compressor",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:air_compressor",
+          "Count": 3
+        },
+        {
+          "id": "pneumaticcraft:liquid_compressor",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:thermal_compressor",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ff548748-729e-43d2-8f6b-56b9463a2490",
+      "name": " Upgrades 2",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 207,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:inventory_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 30
+              },
+              "required": 30
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:inventory_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:range_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2b44554f-6d8c-4297-ba06-f9f402bc5f74",
+      "name": " Pneumatic Machines 1",
+      "description": "    The Charging Station is used for charging and discharging items with air pressure.\n    The Air Cannon transports items by shooting them out with air pressure.\n    The Omnidirectional Hopper can be configured to face and pull items from any direction.\n    The Universal Sensor can watch for changes in blocks, entities, and more.",
+      "x": 17,
+      "y": 48,
+      "icon": {
+        "id": "pneumaticcraft:charging_station",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:charging_station",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:air_cannon",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:omnidirectional_hopper",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:universal_sensor",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "35827645-ea8c-478e-8a14-e32f91d5ad87",
+      "name": " Pressure Chamber Components",
+      "description": "    These are the base components to make your own Pressure Chamber. With it, you can make some things we sell here, and many things we do not.",
+      "x": 63,
+      "y": 19,
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_wall",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": " ",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 12
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:pressure_chamber_wall",
+          "Count": 16
+        },
+        {
+          "id": "pneumaticcraft:pressure_chamber_glass",
+          "Count": 16
+        },
+        {
+          "id": "pneumaticcraft:pressure_chamber_valve",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:pressure_chamber_interface",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5ff3b3fa-d1c4-4892-a1e3-3a071e1f1789",
+      "name": " Pipe Modules 1",
+      "description": "    The Charging Module pressurizes or depressurizes items in the inventory its pointed at.\n    The Redstone Module transmits Redstone signals between it and other Redstone Modules on the same network.\n    The Air Grate pulls or pushes entities, depending on Air Pressure. Can pull items and put them into inventories.\n    The Logistics Module communicates with other Logistics Module on the same network.",
+      "x": 207,
+      "y": 50,
+      "icon": {
+        "id": "pneumaticcraft:redstone_module",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:charging_module",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:redstone_module",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:air_grate_module",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:logistics_module",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bdfdba31-22e1-43ca-b70b-20f236344784",
+      "name": " Compressors 3 and Storage 2",
+      "description": "    The Flux Compressor turns RF Energy into Air Pressure.\n    The Electrostatic Compressor turns lightning strikes into a LOT of Air Pressure.\n    The Smart Chest is blastproof and holds its items when broken. Wooden or Reinforced chests can be upgraded on the spot.",
+      "x": 17,
+      "y": 133,
+      "icon": {
+        "id": "pneumaticcraft:electrostatic_compressor",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:flux_compressor",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:electrostatic_compressor",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:smart_chest",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:smart_chest_kit",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22b56de7-a4e4-4d3f-896c-cb5bdc93a202",
+      "name": " Pneumatic Machines 6",
+      "description": "    The Pneumatic Dynamo turns Air Pressure into RF Energy.\n    The Fluid Mixer mixes two liquids into a new liquid.",
+      "x": 17,
+      "y": 76,
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_dynamo",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:pneumatic_dynamo",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:fluid_mixer",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e9f35428-f7d3-4ca8-bcf0-ca579aa4d492",
+      "name": " Pneumatic Armor",
+      "description": "    Pneumatic Armor can have upgrades installed, and be filled with pressurized air.",
+      "x": 300,
+      "y": 50,
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:pneumatic_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:pneumatic_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:pneumatic_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:pneumatic_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bcde85b9-f91d-47ac-bef4-085c47c7708a",
+      "name": " Display and Tag",
+      "description": "    The Display Table can display a single item.\n    The Tag Worktable is used to make Tag Filters for Drones and other things.",
+      "x": 41,
+      "y": 135,
+      "icon": {
+        "id": "pneumaticcraft:tag_workbench",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:display_table",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:tag_workbench",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "edcfb982-18eb-4aff-a8d1-7fcbc5cb303c",
+      "name": " Upgrades 7",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 161,
+      "y": 137,
+      "icon": {
+        "id": "pneumaticcraft:security_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 60
+              },
+              "required": 60
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:jumping_upgrade_2",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:security_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "81c7fa4c-ced3-448f-af56-c83e200c9e06",
+      "name": " Storage Things 1",
+      "description": "    The Small Fluid Tank holds 32 buckets worth of fluid.\n    The Reinforced Chest is blastproof, and holds its contents when broken. A wood chest can be upgraded by using the Reinforced Chest Upgrade Kit on it.",
+      "x": 85,
+      "y": 105,
+      "icon": {
+        "id": "pneumaticcraft:small_tank",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:small_tank",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:reinforced_chest_kit",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:reinforced_chest",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7f25d38b-4422-4390-9d92-16a6fa8e2793",
+      "name": " Assembly Line Machines 2",
+      "description": "    The Assembly Drill is part of the Assembly Line.",
+      "x": 40,
+      "y": 105,
+      "icon": {
+        "id": "pneumaticcraft:assembly_drill",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:assembly_drill",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "09a5ecfc-5fdd-4e3f-96dd-79c942c164d7",
+      "name": " Pneumatic Machines 2",
+      "description": "    The Refinery Controller is needed when putting together a Refinery.\n    The Vacuum Trap absorbs nearby enemies. It requires a Spawner Core, sold separately.\n    The Heat Sink absorbs heat from the block it is on and disperses it into the air.\n    The Kerosene Lamp burns liquid fuels to generate a lot of light.",
+      "x": 41,
+      "y": 49,
+      "icon": {
+        "id": "pneumaticcraft:refinery",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:refinery",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:vacuum_trap",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:heat_sink",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:kerosene_lamp",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "57a09c83-6fd8-4c63-9935-47863aea6efb",
+      "name": " Drones 2",
+      "description": "    The Logistics Drone works in an area, dependant on what Logistics Frames are in use.\n    The Harvesting Drone harvests crops in a large area.\n    The Guard Drone protects a large area.",
+      "x": 184,
+      "y": 80,
+      "icon": {
+        "id": "pneumaticcraft:harvesting_drone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:logistics_drone",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:harvesting_drone",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:guard_drone",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a3682717-1df5-4451-99a1-9a9c6809a7d3",
+      "name": " Upgrades 4",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 254,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:speed_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:charging_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:speed_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:dispenser_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8a1fe9cb-c12e-4a17-9960-3590bb74f857",
+      "name": " Upgrades 1",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 184,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:standby_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 30
+              },
+              "required": 30
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:flippers_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:standby_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:night_vision_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abe87abb-9bc0-4611-aa35-6c3f392ec7e4",
+      "name": " Assembly Line Machines 1",
+      "description": "    These machines are used in an Assembly Line.",
+      "x": 17,
+      "y": 104,
+      "icon": {
+        "id": "pneumaticcraft:assembly_io_unit_import",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:assembly_io_unit_import",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:assembly_io_unit_export",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:assembly_laser",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:assembly_controller",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f8ba0ed3-4929-47ed-aed8-b0018df4a2c5",
+      "name": " Upgrades 10",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 230,
+      "y": 138,
+      "icon": {
+        "id": "pneumaticcraft:armor_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:jet_boots_upgrade_2",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:scuba_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:armor_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b190b760-6d56-44a0-8a6a-9c6afc04f949",
+      "name": " Upgrades 9",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 207,
+      "y": 138,
+      "icon": {
+        "id": "pneumaticcraft:jumping_upgrade_4",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:jumping_upgrade_4",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5657adaf-d050-4d19-97e6-f39001ac31a7",
+      "name": " Components and Tools 2",
+      "description": "    Crop Supports aid in growing plants or trees.\n    The Spawner Core Shell is needed to make Spawner Cores for the Pneumatic Spawner.\n    Micromissles are a handheld weapon that fires missles.\n    Transfer Gadgets transfer items between nearby inventories.",
+      "x": 184,
+      "y": 50,
+      "icon": {
+        "id": "pneumaticcraft:spawner_core_shell",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:crop_support",
+          "Count": 4
+        },
+        {
+          "id": "pneumaticcraft:spawner_core_shell",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:micromissiles",
+          "Count": 1,
+          "tag": {
+            "damage": 0,
+            "topSpeed": 0,
+            "Damage": 0,
+            "turnSpeed": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:transfer_gadget",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb4f817d-361f-4dc7-af6a-e41f042c4662",
+      "name": " Logistics Frames 1",
+      "description": "    Logistics Frames are used in a logistics network.",
+      "x": 207,
+      "y": 79,
+      "icon": {
+        "id": "pneumaticcraft:logistics_frame_requester",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:logistics_frame_requester",
+          "Count": 8
+        },
+        {
+          "id": "pneumaticcraft:logistics_frame_storage",
+          "Count": 8
+        },
+        {
+          "id": "pneumaticcraft:logistics_frame_default_storage",
+          "Count": 8
+        },
+        {
+          "id": "pneumaticcraft:logistics_frame_passive_provider",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3e6ab122-f807-4e25-97ef-1e858fe046b3",
+      "name": " Compressors 2 and Extractor",
+      "description": "     The Advanced Air Compressor burns solid fuel and generates more Air Pressure, but also generates Heat.\n    The Advanced Liquid Compressor burns liquid fuel and generates more Air Pressure, but Heat as well.\n    The Spawner Extractor extracts Spawner Cores from basic Monster Spawners.",
+      "x": 62,
+      "y": 105,
+      "icon": {
+        "id": "pneumaticcraft:spawner_extractor",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:advanced_air_compressor",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:advanced_liquid_compressor",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:spawner_extractor",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cbbe07b9-5e46-4def-b48a-c12053203d70",
+      "name": " Pneumatic Machines 9",
+      "description": "    The Programmable Controller acts as a stationary \"Drone\" and can run most Puzzle programs.\n    The Pressurized Spawner takes Air Pressure and a Spawner Core to summon monsters.",
+      "x": 86,
+      "y": 77,
+      "icon": {
+        "id": "pneumaticcraft:programmable_controller",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:programmable_controller",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:pressurized_spawner",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0b5463e-631d-4eae-9dd6-857d3d8bcdce",
+      "name": " Basic Components",
+      "description": "    You can make your own Compressed Iron fairly easily, but it is here for sale as well.\n    Compressed Iron Blocks are also for sale. They are good Heat conductors.\n    Pressure Tubes are vital to a good Pneumaticraft network.\n    Reinforced Stone is regular stone interlaced with Compressed Iron.",
+      "x": 40,
+      "y": 19,
+      "icon": {
+        "id": "pneumaticcraft:ingot_iron_compressed",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 45
+              },
+              "required": 45
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 9
+        },
+        {
+          "id": "pneumaticcraft:compressed_iron_block",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:pressure_tube",
+          "Count": 4
+        },
+        {
+          "id": "pneumaticcraft:reinforced_stone",
+          "Count": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "99c0e289-7f6f-4605-a3f1-ee21343ca617",
+      "name": " Pneumatic Machines 4",
+      "description": "    Refinery Outputs are needed to hold the liquids generated by the Refinery.\n    The Thermopneumatic Processing Plant turns liquids into other liquids.\n    The Sentry Turret is a defensive weapon that fires on targets when provided Gun Ammo.\n    The Liquid Hopper is like a normal hopper, but pulls liquids out of tanks instead of chests.",
+      "x": 86,
+      "y": 49,
+      "icon": {
+        "id": "pneumaticcraft:thermopneumatic_processing_plant",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 85
+              },
+              "required": 85
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:refinery_output",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:thermopneumatic_processing_plant",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:sentry_turret",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:liquid_hopper",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "35342f48-1bb6-4ca7-8761-a1051458fc8a",
+      "name": " Upgrades 11",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 254,
+      "y": 138,
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_3",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:jet_boots_upgrade_3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "98c298e1-b37d-47be-85f8-ffa9e931e560",
+      "name": " Pneumatic Machines 8",
+      "description": "    The Vaccuum Pump creates a Vaccuum with Air Pressure.",
+      "x": 64,
+      "y": 77,
+      "icon": {
+        "id": "pneumaticcraft:vacuum_pump",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:vacuum_pump",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "892264ef-1813-4b77-a369-75a9b1f377fa",
+      "name": " Logistics Frames 2",
+      "description": "    Logistics Frames are used in a logistics network.",
+      "x": 230,
+      "y": 79,
+      "icon": {
+        "id": "pneumaticcraft:logistics_frame_passive_provider",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:logistics_frame_passive_provider",
+          "Count": 8
+        },
+        {
+          "id": "pneumaticcraft:logistics_frame_active_provider",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a3f4fbb3-bd49-4734-9e65-9a7b8d0946cd",
+      "name": " Unlock Pneumaticcraft",
+      "description": "    If you want to more easily make your own drones and intricate air and logistic networks, it will cost you a bit.",
+      "x": 153,
+      "y": 179,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:king_key",
+        "Count": 1,
+        "tag": {
+          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 7
+              },
+              "required": 7
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "gamestage add @p lost_knowledge_pneumaticcraft true",
+        "me HAS LEARNED LOST KNOWLEDGE - PNEUMATICRAFT"
+      ]
+    },
+    {
+      "uuid": "7ebe54eb-1126-4ae6-a34b-b669c97b47ad",
+      "name": " Pipes and Heat Retention",
+      "description": "    Drill Pipes are used by the Gas Lift when digging for liquids.\n    The Heat Pipe transfers and retains heat without losing it against the air.\n    Thermal Lagging is placed on heat retention blocks to prevent heat loss.",
+      "x": 109,
+      "y": 19,
+      "icon": {
+        "id": "pneumaticcraft:drill_pipe",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:drill_pipe",
+          "Count": 6
+        },
+        {
+          "id": "pneumaticcraft:heat_pipe",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:thermal_lagging",
+          "Count": 10
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "18c05fe7-3b45-4533-8146-92fe001c2616",
+      "name": " Pipe Modules 2",
+      "description": "    The Safety Tube module will vent air pressure if it gets too high.\n    The Pressure Gauge module emits a Redstone Signal, strength depending on how high the Air Pressure is.\n    The Flow Detector will emit a Redstone Signal which strength depends on how fast the airflow is.",
+      "x": 230,
+      "y": 50,
+      "icon": {
+        "id": "pneumaticcraft:pressure_gauge_module",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:safety_tube_module",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:pressure_gauge_module",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:flow_detector_module",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de19a692-9d72-48d2-90a5-e26011ee0764",
+      "name": " Security Station Components",
+      "description": "    These pieces are used in a Security Station to help protect your things.",
+      "x": 277,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:network_node",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:diagnostic_subroutine",
+          "Count": 4
+        },
+        {
+          "id": "pneumaticcraft:network_io_port",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:network_node",
+          "Count": 10
+        },
+        {
+          "id": "pneumaticcraft:network_registry",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ef89239c-e3fb-4d34-911f-a21388d60364",
+      "name": " Storage Things 3",
+      "description": "   The Large Tank holds up to 128 buckets worth of a single fluid.",
+      "x": 85,
+      "y": 135,
+      "icon": {
+        "id": "pneumaticcraft:large_tank",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:large_tank",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c045096-f69a-4e8b-ad48-c071b88b0957",
+      "name": " Pneumatic Machines 5",
+      "description": "    The Drone Interface lets ComputerCraft computers interact with Pneumaticcraft Drones.\n    The Medium Tank holds up to 64 buckets worth of a fluid.",
+      "x": 109,
+      "y": 49,
+      "icon": {
+        "id": "pneumaticcraft:drone_interface",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:drone_interface",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:medium_tank",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7f7f0fc1-882d-4a1d-9d53-ffeb36553f09",
+      "name": " Pneumatic Machines 7",
+      "description": "    The Security Station is for setting up security against other Travelers.\n   The UV Light Box is used to imprint circuit boards.\n   The Programmer is used to program Drones with Puzzle Pieces.",
+      "x": 41,
+      "y": 77,
+      "icon": {
+        "id": "pneumaticcraft:uv_light_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:security_station",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:uv_light_box",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:programmer",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f55d8ae2-4fa6-4bfc-9d06-f862488a52e0",
+      "name": " Pneumatic Tools 1",
+      "description": "    The Air Cannister holds pressurized air.\n    The Seismic Sensor is used to find Oil deposits and other liquids underground.",
+      "x": 161,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:air_canister",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 30
+              },
+              "required": 30
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:air_canister",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:seismic_sensor",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "860a6075-2906-4606-a28b-64522d863ccc",
+      "name": " Upgrades 13",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 300,
+      "y": 138,
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_5",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 6
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:jet_boots_upgrade_5",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "778814a9-da60-4073-9b28-a9b36b4c4f17",
+      "name": " Pneumatic Tools 2",
+      "description": "    The Pneumatic Wrench is used to rotate and configure various Pneumaticcraft and other machines.\n    The Logistics Configurator is used to configure certain items.\n    The Camoflauge Applicator is used to camo and hide some Pneumaticcraft machines.\n    The Vortex Cannon launches mostly harmless bursts of air.",
+      "x": 184,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_wrench",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:pneumatic_wrench",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:logistics_configurator",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:camo_applicator",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:vortex_cannon",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "81a8d1ec-2df8-4279-8569-888a8ab02064",
+      "name": " Pneumatic Tools 5",
+      "description": "    The GPS Area Tool is used to store two sets of coordinates to define an area.\n    The Pneumatic Jackhammer is a powerful mining tool that uses Drill Bits.\n    The Memory Stick stores Experience Orbs.",
+      "x": 253,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:gps_area_tool",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:gps_area_tool",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:jackhammer",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:memory_stick",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "657c1795-bf4b-4cf6-886b-759a9cc28893",
+      "name": " Pneumatic Tools 3",
+      "description": "    The Reinforced Air Cannister holds more Air Pressure than the normal version.\n    The Manometer can give you information on blocks its used on.\n    The Minigun uses Gun Ammo to attack.\n    The GPS Tool is used to store coordinates.",
+      "x": 207,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:manometer",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:reinforced_air_canister",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:manometer",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:minigun",
+          "Count": 1,
+          "tag": {
+            "soundCounter": -1,
+            "triggerTimeout": 0,
+            "speed": 0,
+            "activated": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:gps_tool",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c8a65cd-c711-4f94-8b9e-bf7f34923bc5",
+      "name": " Programming Cards",
+      "description": "    These are used to store and retrieve programs in the Programmer. ",
+      "x": 299,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:network_api",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:network_api",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:network_data_storage",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b795e5a9-ed90-458f-826d-0cf56404b649",
+      "name": " Pipe Modules 3",
+      "description": "    The Regulator restricts airflow to the amount dependant on the Redstone Signal it receives.",
+      "x": 253,
+      "y": 50,
+      "icon": {
+        "id": "pneumaticcraft:regulator_tube_module",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:regulator_tube_module",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4e3e9bb4-dd91-47bf-9ce8-6b077fcfb773",
+      "name": " Door and Elevator",
+      "description": "    The Pneumatic Door and Door Base work together.\n    The Elevator Base and Frame work together. Refer to the manual for proper installation.\n    Each purchase comes with a free Elevator Caller.",
+      "x": 108,
+      "y": 105,
+      "icon": {
+        "id": "pneumaticcraft:elevator_base",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:elevator_caller",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:pneumatic_door",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:pneumatic_door_base",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:elevator_base",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:elevator_frame",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3bb12434-2c51-4983-ad30-3f7ef0290047",
+      "name": " Upgrades 3",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 230,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:magnet_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:entity_tracker_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:magnet_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:block_tracker_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e1fecb29-9c4e-4be3-ac58-3feeeef7a642",
+      "name": " Drones 1",
+      "description": "    The basic Drone is fully programmable in a Programmer.\n    The Collector Drone collects items in an area.",
+      "x": 161,
+      "y": 79,
+      "icon": {
+        "id": "pneumaticcraft:drone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:drone",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:collector_drone",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f093cd29-d3ba-4f45-a80e-27a2d68a5e19",
+      "name": " Components and Tools 1",
+      "description": "    Printed Circuit Boards are needed in a few Pressure Chamber recipes.\n    Advanced PCBs are used in Pressure Tube Modules.\n    Logistics Cores are needed in in a few Pressure Chamber recipes.\n    Programming Puzzle Pieces are used in the Programmer when programming Drones.",
+      "x": 161,
+      "y": 50,
+      "icon": {
+        "id": "pneumaticcraft:printed_circuit_board",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:advanced_pcb",
+          "Count": 4
+        },
+        {
+          "id": "pneumaticcraft:logistics_core",
+          "Count": 10
+        },
+        {
+          "id": "pneumaticcraft:programming_puzzle",
+          "Count": 10
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "21b8fbb5-49ec-44da-add7-7855c4988d5d",
+      "name": " Compressed Iron Armor",
+      "description": "    Compressed Iron makes fairly decent armor.",
+      "x": 277,
+      "y": 50,
+      "icon": {
+        "id": "pneumaticcraft:compressed_iron_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:compressed_iron_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:compressed_iron_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:compressed_iron_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "pneumaticcraft:compressed_iron_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Air pressure powered machines, drones, and more!"
+}
