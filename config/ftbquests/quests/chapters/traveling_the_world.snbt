@@ -611,6 +611,11 @@
 				type: "checkmark",
 				title: "Curios",
 				icon: "usefulbackpacks:backpack_small"
+			}],
+			rewards: [{
+				id: "1F72086F9AAD9CB7",
+				type: "item",
+				item: "calemiutils:coin_dollar"
 			}]
 		},
 		{
@@ -928,6 +933,207 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
+			}]
+		},
+		{
+			title: "Risky Invaders",
+			icon: "riskofrainmod:tougher_times",
+			x: -3.25d,
+			y: 1.0d,
+			shape: "heart",
+			subtitle: "&dMod: Risk of Rain Mod",
+			description: [
+				"&dTraveller, there's a few invaders that have shown up in your dimension you should watch out for. ",
+				"",
+				"Invaders from where?",
+				"",
+				"&dA place called Petrichor V. There are two invaders: Lemurians and Stone Golems. ",
+				"",
+				"&dThey've also set up little bases and shrines you should explore. They have somewhat powerful artifacts in them. "
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "2FDC593419B15179",
+			tasks: [{
+				id: "732189F21B531142",
+				type: "kill",
+				entity: "riskofrainmod:stone_golem",
+				value: 2L
+			}],
+			rewards: [{
+				id: "0077ADDAF82EFABA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "The Ultimate Pocket",
+			icon: "subpocket:key",
+			x: -3.25d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dMod: subpocket",
+			description: [
+				"&dOkay, listen carefully Traveller. You may find something called a Subspatial Key in a Stronghold chest, or very very rarely, when you kill an Enderman.",
+				"",
+				"&dThis is your key to a near bottomless pocket to hold items. The cavaet? There is no easy sorting of items. You basically throw them into a bag randomly and hope to keep it sorted. From your world, ever play a game called Ultima Online? That's the subpocket inventory.",
+				"",
+				"&dTo unlock this pocket, you'll need to take the Subspatial Key, and a normal Ender Chest into the End.",
+				"",
+				"&dThen, you must break the Ender Chest with the Key. This will take a long time. It will steadily hurt you while you try, so you need to figure out how to get around that.",
+				"",
+				"&dGood Luck."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "46C8D73D702CD4D5",
+			tasks: [{
+				id: "28A807FF448AF814",
+				type: "item",
+				item: "subpocket:key"
+			}],
+			rewards: [{
+				id: "4CF43668E52A9FF9",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Magic Doorway",
+			icon: "magic_doorknob:magic_doorknob_iron",
+			x: -4.5d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dMod: The Magic Doorknob",
+			description: [
+				"&dEver dream of opening a door to a magical world, Traveller?",
+				"",
+				"Of course. Who hasn't?",
+				"",
+				"&dTrue. Well, these magic doorknobs aren't quite like that. I mean, unless you use them into a crystal cavern or a wizard's convention I guess.",
+				"",
+				"Wait, what do these do?",
+				"",
+				"&dThey basically create a magical pathway through solid materials. The stronger the doorknob's material, the further they go. But be careful, when you close the door, it returns all the material it 'vanished' to make the path."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "45775E488EBB4536",
+			tasks: [{
+				id: "347AE7875DAEEE05",
+				type: "item",
+				item: "magic_doorknob:magic_doorknob_iron"
+			}],
+			rewards: [{
+				id: "6C2C010B3F77A544",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Birds of a Feather",
+			icon: "iceandfire:amphithere_feather",
+			x: -0.75d,
+			y: 2.25d,
+			shape: "square",
+			subtitle: "&dMod: The Parakeet Mod",
+			description: [
+				"Parakeets and Cockatiels can be found in jungle biomes. They can be tamed with Wheat, Pumpkin, or Beetroot seeds.",
+				"",
+				"I can try feeding them things like Apple Slices, but they may not eat them."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "438E87629BF5C6E6",
+			tasks: [{
+				id: "3F0147CAA8954A18",
+				type: "item",
+				item: "parakeetmod:apple_slice"
+			}],
+			rewards: [{
+				id: "02216F2BDD60D922",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "At Least One Red Balloon",
+			icon: "bountifulbaubles:balloon",
+			x: 3.0d,
+			y: -2.75d,
+			shape: "square",
+			subtitle: "&dMod: Bountiful Baubles",
+			description: [
+				"&dTraveller, there is a way to turn some of that extra dungeon loot into something useful. I mean, other than selling a bit of it to a villager or my brother.",
+				"",
+				"It's pretty useful stuff, but what did you have in mind?",
+				"",
+				"&dThis Disintegration Tablet can turn powerful or expensive items into something called Spectral Silt. This is a good material to make magical curios with.",
+				"",
+				"&dLike this Red Balloon here. You get to jump higher AND fall farther without taking damage. Handy, if you ask me."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "185620E1C9278503",
+			tasks: [
+				{
+					id: "2BB0111507578B34",
+					type: "item",
+					item: "bountifulbaubles:disintegration_tablet"
+				},
+				{
+					id: "5F59F8297EEEF541",
+					type: "item",
+					item: "bountifulbaubles:spectral_silt"
+				},
+				{
+					id: "5996A898B0368CDA",
+					type: "item",
+					item: "bountifulbaubles:balloon"
+				}
+			],
+			rewards: [{
+				id: "72219B5522409B97",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "&6PACK NOTES #5",
+			icon: {
+				id: "rats:exterminator_hat",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.75d,
+			y: -1.0d,
+			shape: "gear",
+			subtitle: "&dMod: Cosmetic Armor Reworked",
+			description: [
+				"&6In your paperdoll in your Inventory, in the lower right, is a small armor icon.",
+				"",
+				"&6If you click it, you will open up an extra tab of Armor slots. These are Cosmetic slots.",
+				"",
+				"&6Any armor you wear here will not effect you, neither in stats nor in buffs. Only their visual style will be shown."
+			],
+			dependencies: ["66191B31820EAEC9"],
+			id: "5AD6DDBD1E9C5BD4",
+			tasks: [{
+				id: "55F5C107B500497C",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "246EB7BE738DBACA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
 			}]
 		}
 	]
