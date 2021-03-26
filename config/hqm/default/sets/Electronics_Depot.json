@@ -2,50 +2,6 @@
   "name": "Electronics Depot",
   "quests": [
     {
-      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
-      "name": " Mining Helmet",
-      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
-      "x": 49,
-      "y": 20,
-      "icon": {
-        "id": "mining_helmet:mining_helmet",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mining_helmet:mining_helmet",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "c76011ee-59c7-4c55-b30e-b5283135568f",
       "name": " Gadget Mod Table",
       "description": "    If you want to add modifications to your Mining Gadget, you will need this machine. ",
@@ -91,6 +47,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
+      "name": " Mining Helmet",
+      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
+      "x": 49,
+      "y": 20,
+      "icon": {
+        "id": "mining_helmet:mining_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mining_helmet:mining_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "3e9b62d9-3e47-4b4e-9a5c-9732c4490dad",
       "name": " Gadget Modifications 8",
       "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
@@ -123,6 +123,86 @@
       "reward": [
         {
           "id": "mininggadgets:upgrade_fortune_3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3f3568a-c483-4093-a877-e3281bd60722",
+      "name": " Harvesting Gun",
+      "description": "    The Harvest Gun fires Harvest Ammo, and it harvests fully grown plants in a 5x5 area.",
+      "x": 44,
+      "y": 58,
+      "icon": {
+        "id": "potatogun:harvest_gun",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "potatogun:harvest_gun",
+          "Count": 1
+        },
+        {
+          "id": "potatogun:harvest_ammunition",
+          "Count": 9
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec9e14db-f52f-40ff-a82b-e50467969cef",
+      "name": " Only Kinda Smart Phone",
+      "description": "    You appeared with one of these, but they are kind of easy to lose. So you can purchase a new one.\n    They aren\u0027t super useful, but a good way to kill time.",
+      "x": 211,
+      "y": 57,
+      "icon": {
+        "id": "smartphone:smartphone_item",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "smartphone:smartphone_item",
           "Count": 1
         }
       ],
@@ -235,6 +315,56 @@
       "commandrewards": []
     },
     {
+      "uuid": "edd1ead7-934f-4a7d-a3a2-5251ce4e2c43",
+      "name": " Scanner Modules 1",
+      "description": "    The Scanner needs to have Modules installed by Sneak + Right Clicking while holding the Scanner. It can only have a couple enabled at a time.",
+      "x": 219,
+      "y": 21,
+      "icon": {
+        "id": "scannable:module_range",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 35
+              },
+              "required": 35
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "scannable:module_range",
+          "Count": 1
+        },
+        {
+          "id": "scannable:module_animal",
+          "Count": 1
+        },
+        {
+          "id": "scannable:module_monster",
+          "Count": 1
+        },
+        {
+          "id": "scannable:module_entity",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "c49c3f80-74e1-4648-913e-fb74af8fd19d",
       "name": " Mining Gadget",
       "description": "    This Mining Gadget is a fairly robust tool. It can be upgraded a variety of ways.\n    You\u0027ll need to find a different machine to charge it, however.\n    To access it\u0027s config, Sneak + Right Click while holding it.",
@@ -340,6 +470,208 @@
         },
         {
           "id": "mininggadgets:upgrade_magnet",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "801c3df5-8f4e-46b0-8d5f-209cae164c6c",
+      "name": " Scanner Modules 3",
+      "description": "    The Scanner needs to have Modules installed by Sneak + Right Clicking while holding the Scanner. It can only have a couple enabled at a time.",
+      "x": 262,
+      "y": 21,
+      "icon": {
+        "id": "scannable:module_ore_rare",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "scannable:module_ore_rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e3a647cc-7fd0-490b-b814-1c72fdaa3f0d",
+      "name": " Planting Gun",
+      "description": "    The Potato Gun uses almost any seed in your inventory as Ammo. It plants them in a 5x5 area  of farmland.",
+      "x": 23,
+      "y": 57,
+      "icon": {
+        "id": "potatogun:potato_gun",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "potatogun:potato_gun",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "952fd9d3-0979-48a2-adbc-de97e490fc8c",
+      "name": " Calculators",
+      "description": "    Calculators are quite helpful, and we have two for real cheap.\n    One of them lets you calculate normal numbers. Boring.\n    The other, though, lets you calculate the materials for recipes. You can customize what materials an item is \u0027made\u0027 with, in case you have trades or some other way of getting the materials.",
+      "x": 252,
+      "y": 57,
+      "icon": {
+        "id": "jecalculation:item_calculator_craft",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "jecalculation:item_calculator_craft",
+          "Count": 1
+        },
+        {
+          "id": "jecalculation:item_calculator_math",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8d1ffd84-3226-49f9-a20e-7d3598216f2c",
+      "name": " Scanner Ready",
+      "description": "    Scannable provides a powerful scanner tool to locate ores and other materials.\n    It requires both modules and to be charged with RF Energy to use.",
+      "x": 197,
+      "y": 21,
+      "icon": {
+        "id": "scannable:scanner",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "scannable:scanner",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f4ce2021-33da-4f55-9d93-900645227d05",
+      "name": " Scanner Modules 2",
+      "description": "    The Scanner needs to have Modules installed by Sneak + Right Clicking while holding the Scanner. It can only have a couple enabled at a time.",
+      "x": 241,
+      "y": 22,
+      "icon": {
+        "id": "scannable:module_ore_common",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "scannable:module_fluid",
+          "Count": 1
+        },
+        {
+          "id": "scannable:module_ore_common",
+          "Count": 1
+        },
+        {
+          "id": "scannable:module_block",
           "Count": 1
         }
       ],
