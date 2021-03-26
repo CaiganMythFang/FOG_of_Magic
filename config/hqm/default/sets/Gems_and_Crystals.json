@@ -52,219 +52,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "360d8a9f-edf5-4b9f-badf-ae5f601283ab",
-      "name": " Mana Gem (Buy)",
-      "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. ",
-      "x": 38,
-      "y": 104,
-      "icon": {
-        "id": "ars_nouveau:mana_gem",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "ars_nouveau:arcane_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "c8f218aa-784c-4952-8f92-3f0c12a34fbe",
-      "name": " Silent\u0027s Overworld Gems 4",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 84,
-      "y": 132,
-      "icon": {
-        "id": "silentgems:morganite",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:agate_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:morganite_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:onyx_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:opal_ore",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "864e8646-ec7b-4f59-9a42-ca7040d3198d",
-      "name": " Silent\u0027s Nether Gems 1",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 15,
-      "y": 161,
-      "icon": {
-        "id": "silentgems:carnelian",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:carnelian_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:spinel_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:citrine_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:jasper_ore",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "fb2a62e2-c2ae-4dcc-b061-8b0e14503852",
-      "name": " Dragonstone (Sell)",
-      "description": "    Dragonstones are obtained by trading in Mana Diamonds to the Elves of Alfheim.",
-      "x": 254,
-      "y": 79,
-      "icon": {
-        "id": "botania:dragonstone",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "botania:dragonstone",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 19
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "141c1635-56aa-4802-832b-cd5b7259ec6f",
-      "name": " Emerald (Buy)",
-      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
-      "x": 38,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:emerald",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 10
-              },
-              "required": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:emerald_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "fafa27aa-d2b8-4dde-902b-4d6e94aee3d1",
       "name": " Redstone (Buy)",
       "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
@@ -337,13 +124,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "2997ff39-7a59-419a-b34f-a2082ec27c25",
-      "name": " Nether Quartz (Buy)",
-      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
-      "x": 84,
-      "y": 20,
+      "uuid": "de56b357-864f-4c03-9c02-a044f64489c3",
+      "name": " Biotite (Buy)",
+      "description": "    Biotite is found only in the End and is used in various semi magical devices.",
+      "x": 38,
+      "y": 76,
       "icon": {
-        "id": "minecraft:quartz",
+        "id": "quark:biotite",
         "Count": 1
       },
       "repeat": {
@@ -356,9 +143,9 @@
             {
               "item": {
                 "id": "calemiutils:coin_dollar",
-                "Count": 10
+                "Count": 30
               },
-              "required": 10
+              "required": 30
             }
           ]
         }
@@ -367,7 +154,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:nether_quartz_ore",
+          "id": "quark:biotite_ore",
           "Count": 1
         }
       ],
@@ -412,216 +199,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "3fcba47f-0483-4f63-a08b-d39b40052f91",
-      "name": " Mana Diamond (Sell)",
-      "description": "    Mana Diamonds are diamonds imbued with Botanist\u0027s Mana. ",
-      "x": 183,
-      "y": 78,
-      "icon": {
-        "id": "botania:mana_diamond",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "botania:mana_diamond",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 18
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5a369e22-3c9c-4d30-bedf-e6e40aeafbb9",
-      "name": " Silent\u0027s End Gems 2",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 38,
-      "y": 190,
-      "icon": {
-        "id": "silentgems:chrysoprase",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:yellow_diamond_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:jade_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:chrysoprase_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:apatite_ore",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "008e9a93-352f-4ae1-a0a8-8f722453f20b",
-      "name": " Nether Quarts (Sell)",
-      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
-      "x": 253,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:quartz",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:quartz",
-                "Count": 2
-              },
-              "required": 2
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "167c9b49-8912-42ab-a354-621a86de4a4d",
-      "name": " Ender Crystal",
-      "description": "    Ender Crystals can be found in Ender Essence Ore in the End. They harness the power of teleportation from Endermen.",
-      "x": 107,
-      "y": 133,
-      "icon": {
-        "id": "silentgems:ender_crystal",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 80
-              },
-              "required": 80
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "silentgems:ender_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f966cfa8-e0a2-45f9-a5da-fc36fdeaaac1",
-      "name": " Silent\u0027s Nether Gems 3",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 61,
-      "y": 161,
-      "icon": {
-        "id": "silentgems:iolite",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:euclase_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:benitoite_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:iolite_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:alexandrite_ore",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "8ec75376-e096-4056-a677-f8678edd422f",
       "name": " Mana Pearl (Sell)",
       "description": "    Mana Pearls are Ender Eyes that have been imbued with Mana from Botania.",
@@ -654,131 +231,6 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 5
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b0432317-7da0-484d-a19f-1938567143b9",
-      "name": " Silent\u0027s Overworld Gems 1",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 15,
-      "y": 132,
-      "icon": {
-        "id": "silentgems:ruby",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:ruby_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:garnet_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:topaz_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:amber_ore",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "cc212ba4-1ccb-4437-852c-dcfa529080e5",
-      "name": " Glowstone (Buy)",
-      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
-      "x": 15,
-      "y": 48,
-      "icon": {
-        "id": "minecraft:glowstone_dust",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 16
-              },
-              "required": 16
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:glowstone",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b274127d-569a-4f9c-92fe-e0ee61033a46",
-      "name": " Glowstone (Sell)",
-      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
-      "x": 183,
-      "y": 49,
-      "icon": {
-        "id": "minecraft:glowstone_dust",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:glowstone_dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -860,168 +312,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "c6b09afb-8d9a-4484-8119-087982eebc86",
-      "name": " Diamond (Sell)",
-      "description": "    Diamonds are a rare and valuable gemstone, used in everything from mechanical cutting applications, scientific and electronic uses, to magical creations.",
-      "x": 183,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:diamond",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:diamond",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "a949fa2b-40a0-4ac1-bad0-d470fcb607c8",
-      "name": " Aquamarine (Sell)",
-      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.\n    Since Aquamarine can be made with excess starlight, I do not buy it for much.",
-      "x": 232,
-      "y": 108,
-      "icon": {
-        "id": "astralsorcery:aquamarine",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "astralsorcery:aquamarine",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "62f96055-fe83-4aa0-8bb4-7e60b94126c4",
-      "name": " Silent\u0027s Overworld Gems 2",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 38,
-      "y": 132,
-      "icon": {
-        "id": "silentgems:phosphophyllite",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:heliodor_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:peridot_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:green_sapphire_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:phosphophyllite_ore",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6528611a-70a2-4762-b271-6896e18d6bc7",
-      "name": " Chaos Crystal (Buy)",
-      "description": "    Chaos Crystals need to be handled with care, as they can generate Chaos in the world.",
-      "x": 84,
-      "y": 104,
-      "icon": {
-        "id": "silentgems:chaos_crystal",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "silentgems:chaos_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "8a836636-5c19-4f59-99ca-bfbbf69e5dbb",
       "name": " Emerald (Sell)",
       "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
@@ -1056,143 +346,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ec0e88db-0183-4d29-b82b-ef010a0c163b",
-      "name": " Silent\u0027s Nether Gems 4",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 84,
-      "y": 161,
-      "icon": {
-        "id": "silentgems:black_diamond",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:lepidolite_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:ametrine_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:black_diamond_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:moonstone_ore",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5bbf7364-5ee1-4725-b428-5dcca7ab0a33",
-      "name": " Sapphire (Sell)",
-      "description": "    Sapphire is a semi rare gem that is found in many places, especially snowy biomes.",
-      "x": 276,
-      "y": 79,
-      "icon": {
-        "id": "iceandfire:sapphire_gem",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "iceandfire:sapphire_gem",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 6
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e601d308-3ef1-45e5-9852-43fb7ee67131",
-      "name": " Silent\u0027s End Gems 3",
-      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
-      "x": 61,
-      "y": 190,
-      "icon": {
-        "id": "silentgems:kyanite",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 65
-              },
-              "required": 65
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silentgems:fluorite_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:kyanite_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:sodalite_ore",
-          "Count": 1
-        },
-        {
-          "id": "silentgems:ammolite_ore",
-          "Count": 1
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -1243,44 +396,6 @@
           "Count": 1
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "4a820817-6da9-4e10-be93-eb69f1c629f6",
-      "name": " Bort (Buy)",
-      "description": "    While rarer than Diamonds, Bort is only used in a few things, mainly in Silent\u0027s Gear Adornments.\n    Borts are Diamonds, but unrefined and granular. Usually used in grinding tools versus jewelry grade Diamonds.",
-      "x": 107,
-      "y": 104,
-      "icon": {
-        "id": "silentgear:bort",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 80
-              },
-              "required": 80
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "silentgear:bort_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1356,97 +471,6 @@
           "Count": 1
         }
       ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f05d4948-d057-4135-8e64-fad8ff320a13",
-      "name": " Lapis Lazuli (Buy)",
-      "description": "    Lapis has a few uses, once as an expensive dye, but more often used in magical applications and fancy decorations.",
-      "x": 61,
-      "y": 20,
-      "icon": {
-        "id": "minecraft:lapis_lazuli",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 32
-              },
-              "required": 32
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:lapis_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "73a602b7-eaad-4c2e-a65e-716c4c06d4ca",
-      "name": " Gem of Ratlantis (Sell)",
-      "description": "    These gems are steeped in the magical tech power of Ratlantis, and are found in rare pockets deep under those islands. They help power much of the magitech of Ratlanteans.",
-      "x": 183,
-      "y": 107,
-      "icon": {
-        "id": "rats:gem_of_ratlantis",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "rats:gem_of_ratlantis",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5b6bdaea-e0d1-4287-af6d-89fffa54a77d",
-      "name": " Silent\u0027s Nether Gems",
-      "description": " To sell any Silent\u0027s gemstones, please use your TFB Market.",
-      "x": 183,
-      "y": 163,
-      "icon": {
-        "id": "silentgems:iolite",
-        "Count": 1
-      },
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1712,6 +736,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "2a4f9f59-1141-4604-a0a2-de12ac26f0f3",
+      "name": " Biotite (Sell)",
+      "description": "    Biotite is found only in the End and is used in various semi magical devices.",
+      "x": 301,
+      "y": 79,
+      "icon": {
+        "id": "quark:biotite",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "quark:biotite",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "29d3a455-1137-4afe-a3ea-c8b25460bf4d",
       "name": " Redstone (Sell)",
       "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
@@ -1787,22 +848,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "001e2cfa-c26e-4082-b68e-84cdf4a1ff97",
-      "name": " Silent\u0027s Overworld Gems",
-      "description": " To sell any Silent\u0027s gemstones, please use your TFB Market.",
-      "x": 183,
-      "y": 135,
-      "icon": {
-        "id": "silentgems:tanzanite",
-        "Count": 1
-      },
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "d760a6d6-d5c9-4fe3-bff9-85756619d636",
       "name": " Silent\u0027s Overworld Gems 3",
       "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
@@ -1850,6 +895,1036 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "360d8a9f-edf5-4b9f-badf-ae5f601283ab",
+      "name": " Mana Gem (Buy)",
+      "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. ",
+      "x": 38,
+      "y": 104,
+      "icon": {
+        "id": "ars_nouveau:mana_gem",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ars_nouveau:arcane_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c8f218aa-784c-4952-8f92-3f0c12a34fbe",
+      "name": " Silent\u0027s Overworld Gems 4",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 84,
+      "y": 132,
+      "icon": {
+        "id": "silentgems:morganite",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:agate_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:morganite_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:onyx_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:opal_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "864e8646-ec7b-4f59-9a42-ca7040d3198d",
+      "name": " Silent\u0027s Nether Gems 1",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 15,
+      "y": 161,
+      "icon": {
+        "id": "silentgems:carnelian",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:carnelian_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:spinel_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:citrine_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:jasper_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb2a62e2-c2ae-4dcc-b061-8b0e14503852",
+      "name": " Dragonstone (Sell)",
+      "description": "    Dragonstones are obtained by trading in Mana Diamonds to the Elves of Alfheim.",
+      "x": 254,
+      "y": 79,
+      "icon": {
+        "id": "botania:dragonstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:dragonstone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 19
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "141c1635-56aa-4802-832b-cd5b7259ec6f",
+      "name": " Emerald (Buy)",
+      "description": "    While not as used or useful as Diamonds, Emeralds have become the de-facto currency and symbol of wealth among many Villages.",
+      "x": 38,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:emerald",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:emerald_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2997ff39-7a59-419a-b34f-a2082ec27c25",
+      "name": " Nether Quartz (Buy)",
+      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
+      "x": 84,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:quartz",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:nether_quartz_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3fcba47f-0483-4f63-a08b-d39b40052f91",
+      "name": " Mana Diamond (Sell)",
+      "description": "    Mana Diamonds are diamonds imbued with Botanist\u0027s Mana. ",
+      "x": 183,
+      "y": 78,
+      "icon": {
+        "id": "botania:mana_diamond",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_diamond",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 18
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5a369e22-3c9c-4d30-bedf-e6e40aeafbb9",
+      "name": " Silent\u0027s End Gems 2",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 38,
+      "y": 190,
+      "icon": {
+        "id": "silentgems:chrysoprase",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:yellow_diamond_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:jade_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:chrysoprase_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:apatite_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "008e9a93-352f-4ae1-a0a8-8f722453f20b",
+      "name": " Nether Quarts (Sell)",
+      "description": "    Nether Quartz is a useful crystal, used in many magic rituals and technological tools.",
+      "x": 253,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:quartz",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "167c9b49-8912-42ab-a354-621a86de4a4d",
+      "name": " Ender Crystal",
+      "description": "    Ender Crystals can be found in Ender Essence Ore in the End. They harness the power of teleportation from Endermen.",
+      "x": 107,
+      "y": 133,
+      "icon": {
+        "id": "silentgems:ender_crystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silentgems:ender_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f966cfa8-e0a2-45f9-a5da-fc36fdeaaac1",
+      "name": " Silent\u0027s Nether Gems 3",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 61,
+      "y": 161,
+      "icon": {
+        "id": "silentgems:iolite",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:euclase_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:benitoite_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:iolite_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:alexandrite_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0432317-7da0-484d-a19f-1938567143b9",
+      "name": " Silent\u0027s Overworld Gems 1",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 15,
+      "y": 132,
+      "icon": {
+        "id": "silentgems:ruby",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:ruby_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:garnet_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:topaz_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:amber_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b274127d-569a-4f9c-92fe-e0ee61033a46",
+      "name": " Glowstone (Sell)",
+      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
+      "x": 183,
+      "y": 49,
+      "icon": {
+        "id": "minecraft:glowstone_dust",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc212ba4-1ccb-4437-852c-dcfa529080e5",
+      "name": " Glowstone (Buy)",
+      "description": "    Glowstone is a valuable component in both magical and technological creations due to its consistant glowing and power nature.",
+      "x": 15,
+      "y": 48,
+      "icon": {
+        "id": "minecraft:glowstone_dust",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glowstone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c6b09afb-8d9a-4484-8119-087982eebc86",
+      "name": " Diamond (Sell)",
+      "description": "    Diamonds are a rare and valuable gemstone, used in everything from mechanical cutting applications, scientific and electronic uses, to magical creations.",
+      "x": 183,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a949fa2b-40a0-4ac1-bad0-d470fcb607c8",
+      "name": " Aquamarine (Sell)",
+      "description": "    Aquamarines can be found in a few different places. In sandy river beds occasionally, or deep underground. \n    They are used both in astral magic and special tools.\n    Since Aquamarine can be made with excess starlight, I do not buy it for much.",
+      "x": 232,
+      "y": 108,
+      "icon": {
+        "id": "astralsorcery:aquamarine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "astralsorcery:aquamarine",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "62f96055-fe83-4aa0-8bb4-7e60b94126c4",
+      "name": " Silent\u0027s Overworld Gems 2",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 38,
+      "y": 132,
+      "icon": {
+        "id": "silentgems:phosphophyllite",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:heliodor_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:peridot_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:green_sapphire_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:phosphophyllite_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6528611a-70a2-4762-b271-6896e18d6bc7",
+      "name": " Chaos Crystal (Buy)",
+      "description": "    Chaos Crystals need to be handled with care, as they can generate Chaos in the world.",
+      "x": 84,
+      "y": 104,
+      "icon": {
+        "id": "silentgems:chaos_crystal",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silentgems:chaos_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec0e88db-0183-4d29-b82b-ef010a0c163b",
+      "name": " Silent\u0027s Nether Gems 4",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 84,
+      "y": 161,
+      "icon": {
+        "id": "silentgems:black_diamond",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:lepidolite_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:ametrine_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:black_diamond_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:moonstone_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5bbf7364-5ee1-4725-b428-5dcca7ab0a33",
+      "name": " Sapphire (Sell)",
+      "description": "    Sapphire is a semi rare gem that is found in many places, especially snowy biomes.",
+      "x": 276,
+      "y": 79,
+      "icon": {
+        "id": "iceandfire:sapphire_gem",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:sapphire_gem",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e601d308-3ef1-45e5-9852-43fb7ee67131",
+      "name": " Silent\u0027s End Gems 3",
+      "description": "    Silent\u0027s Gems come in a wide variety. There are 16 gems for each \u0027Vanilla\u0027 dimension : Overworld, Nether, and End.\n    Each gem has different stats, and is slightly better for different Gear applications.",
+      "x": 61,
+      "y": 190,
+      "icon": {
+        "id": "silentgems:kyanite",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 65
+              },
+              "required": 65
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silentgems:fluorite_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:kyanite_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:sodalite_ore",
+          "Count": 1
+        },
+        {
+          "id": "silentgems:ammolite_ore",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a820817-6da9-4e10-be93-eb69f1c629f6",
+      "name": " Bort (Buy)",
+      "description": "    While rarer than Diamonds, Bort is only used in a few things, mainly in Silent\u0027s Gear Adornments.\n    Borts are Diamonds, but unrefined and granular. Usually used in grinding tools versus jewelry grade Diamonds.",
+      "x": 107,
+      "y": 104,
+      "icon": {
+        "id": "silentgear:bort",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 80
+              },
+              "required": 80
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silentgear:bort_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f05d4948-d057-4135-8e64-fad8ff320a13",
+      "name": " Lapis Lazuli (Buy)",
+      "description": "    Lapis has a few uses, once as an expensive dye, but more often used in magical applications and fancy decorations.",
+      "x": 61,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:lapis_lazuli",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lapis_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "73a602b7-eaad-4c2e-a65e-716c4c06d4ca",
+      "name": " Gem of Ratlantis (Sell)",
+      "description": "    These gems are steeped in the magical tech power of Ratlantis, and are found in rare pockets deep under those islands. They help power much of the magitech of Ratlanteans.",
+      "x": 183,
+      "y": 107,
+      "icon": {
+        "id": "rats:gem_of_ratlantis",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "rats:gem_of_ratlantis",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5b6bdaea-e0d1-4287-af6d-89fffa54a77d",
+      "name": " Silent\u0027s Nether Gems",
+      "description": " To sell any Silent\u0027s gemstones, please use your TFB Market.",
+      "x": 183,
+      "y": 163,
+      "icon": {
+        "id": "silentgems:iolite",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "001e2cfa-c26e-4082-b68e-84cdf4a1ff97",
+      "name": " Silent\u0027s Overworld Gems",
+      "description": " To sell any Silent\u0027s gemstones, please use your TFB Market.",
+      "x": 183,
+      "y": 135,
+      "icon": {
+        "id": "silentgems:tanzanite",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
       "commandrewards": []
     }
   ],
