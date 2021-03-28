@@ -122,7 +122,7 @@
 			icon: "minecraft:iron_bars",
 			x: 0.0d,
 			y: -3.25d,
-			subtitle: "&dI was thinking fire station, actually...",
+			subtitle: "&dMod: To The Bat Poles!",
 			description: [
 				"So, a neat thing I've found out. Stacking Iron Bars on top of each other in a single column, becomes a Bat Pole!",
 				"",
@@ -147,7 +147,7 @@
 			title: "Botany Pots",
 			icon: "botanypots:botany_pot",
 			x: -4.5d,
-			y: -5.5d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dMods: Botony Pots and Trees",
 			description: [
@@ -181,7 +181,7 @@
 			title: "Hopped Up Pots",
 			icon: "botanypots:hopper_botany_pot",
 			x: -4.5d,
-			y: -4.5d,
+			y: -4.75d,
 			shape: "square",
 			subtitle: "&dSlow and steady and self sufficient",
 			description: [
@@ -860,7 +860,7 @@
 			title: "Market Forces",
 			icon: "calemiutils:market",
 			x: -1.0d,
-			y: -4.5d,
+			y: -4.75d,
 			shape: "square",
 			subtitle: "&dMod : Calemi Utils",
 			description: [
@@ -872,7 +872,7 @@
 				"",
 				"&dThe Trading Post lets you set an item &dto buy and sell. You can configure it &dwith the Security Wrench. Remember: &dGold Dubloons are worth 100 &dDubloons.",
 				"",
-				"&dThe Market is an automated way to &dtrade with my brother Kai. You can &dbuy and sell most basic materials.",
+				"&dThe Market is an automated way to &dtrade with my brother Kai. You can buy and sell Diamonds, Emeralds, and all Silent's Gems.",
 				"",
 				"&dThe Bank lets you store and withdraw &dDubloons safely. Don't forget your &dwallet!",
 				"",
@@ -923,7 +923,7 @@
 				tag: {}
 			},
 			x: 0.0d,
-			y: -5.5d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dGotta build your own puzzles, though",
 			description: [
@@ -960,7 +960,7 @@
 			title: "Helpful Items",
 			icon: "calemiutils:item_stand",
 			x: -1.0d,
-			y: -5.5d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dA little of this, a little of that",
 			description: [
@@ -1004,7 +1004,7 @@
 				tag: {}
 			},
 			x: -2.0d,
-			y: -5.5d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dEven more of that over there",
 			description: [
@@ -1236,8 +1236,8 @@
 					Damage: 0
 				}
 			},
-			x: -5.75d,
-			y: -2.5d,
+			x: -5.5d,
+			y: -1.75d,
 			shape: "square",
 			subtitle: "&dMod: Inventory Pets",
 			description: [
@@ -1709,8 +1709,8 @@
 		{
 			title: "Going Up",
 			icon: "elevatorid:elevator_white",
-			x: -3.25d,
-			y: -5.5d,
+			x: 5.0d,
+			y: -3.0d,
 			shape: "square",
 			subtitle: "&dOr down.",
 			description: [
@@ -2267,7 +2267,7 @@
 				}
 			},
 			x: -5.75d,
-			y: -5.5d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dMod: Chisel and Bits",
 			description: [
@@ -2324,7 +2324,7 @@
 			title: "Copy That Bitty",
 			icon: "chiselsandbits:mirrorprint",
 			x: -6.75d,
-			y: -5.5d,
+			y: -5.75d,
 			shape: "square",
 			subtitle: "&dFlipy Flopy Copy",
 			description: ["So, these three sheets of 'paper' are a way for me to copy and mirror and shift designs around. It makes things easier when I'm making complex designs."],
@@ -2358,7 +2358,7 @@
 			title: "Bitty Tools",
 			icon: "chiselsandbits:magnifying_glass",
 			x: -5.75d,
-			y: -4.5d,
+			y: -4.75d,
 			shape: "square",
 			subtitle: "&dMeasure Twice, Turn Once",
 			description: [
@@ -2596,6 +2596,176 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
+			}]
+		},
+		{
+			title: "Sleep Tight",
+			icon: "losttrinkets:pillow_of_secrets",
+			x: 0.0d,
+			y: -1.75d,
+			subtitle: "&dMod: Morpheus",
+			description: [
+				"&dTraveller, if you've found other Traveller friends, you'll probably notice that if you all sleep, the night passes quickly.",
+				"",
+				"&dThough one of you may be far away and not want to sleep, as if they die they won't reappear at home.",
+				"",
+				"&dThere is a being called Morpheus. If enough Travellers are sleeping, usually half of the amount of Travellers in your group, then the night will pass quickly."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "2B19AC0F526CD631",
+			tasks: [{
+				id: "36A7639C1FE066B5",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "02E1A0D2FC17F2A6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Afraid of the Dark",
+			icon: "mininggadgets:upgrade_light_placer",
+			x: -1.0d,
+			y: -3.5714285714285694d,
+			subtitle: "&dMod: Light Overlay",
+			description: [
+				"&dIf you have not noticed yet, Traveller, monsters have the dangerous ability to appear in the darkness.",
+				"",
+				"Dang grues.",
+				"",
+				"&dQuite. If a place is not lit enough, a monster may appear there, especially at night. It does not matter if the room has no doors or windows. ",
+				"",
+				"How do I stop that, then?",
+				"",
+				"&dLight the area. If you hit F7, you can see what the light level is around you. Yellow squares are only lit during the day. Red squares are always dark. Bring the light, Traveller."
+			],
+			dependencies: ["00000000000000F4"],
+			id: "246C3F6F71E788CA",
+			tasks: [{
+				id: "14B4BDAFBFAAC1B8",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "62EC10FBF08C9B5E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Comfort Foods",
+			icon: "foodexpansion:bacon_and_egg",
+			x: -5.5d,
+			y: -3.25d,
+			shape: "square",
+			subtitle: "&dMod: Food Expansion",
+			description: [
+				"There's always foods that bring back good memories of home.",
+				"",
+				"Bacon and Eggs, a wonderful breakfast.",
+				"",
+				"Jelly, nice and wobbly and sweet.",
+				"",
+				"And even super simple roasted seeds. Just a bit of salt, or no salt even."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "1C01145739D114B3",
+			tasks: [
+				{
+					id: "1379A79FCEE53CA5",
+					type: "item",
+					item: "foodexpansion:bacon_and_egg"
+				},
+				{
+					id: "4A5FC1019E6ED1C8",
+					type: "item",
+					item: "foodexpansion:jelly"
+				},
+				{
+					id: "1636AF8B0BF02377",
+					type: "item",
+					item: "foodexpansion:roasted_seed"
+				}
+			],
+			rewards: [{
+				id: "37BFD725FAF7268B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Many a Magic Chest",
+			icon: "enderstorage:ender_chest",
+			x: -3.25d,
+			y: -4.75d,
+			shape: "square",
+			subtitle: "&dMod: EnderStorage",
+			description: [
+				"This vanilla Ender Chest is nice, each connected to the same private inventory. Handy, but its a bit... small?",
+				"",
+				"&dTraveller, there is another type of Ender Chest. If you look, you will see one that has three marks on top of it.",
+				"",
+				"Named the same. Kind of confusing but. Why? What is different with it?",
+				"",
+				"&dThis is an Ender Chest you can share with other Travellers. Right Click dye onto the three white marks to color them.",
+				"",
+				"&dAll Ender Chests with the same color combo are connected. You can Right Click an Ender Pouch onto an Ender Chest to copy the combo.",
+				"",
+				"But what if I don't want to share Ender Chests?",
+				"",
+				"&dRight Click a Diamond onto the markings. This will swap that chest to your personal network."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "6F9FEB9670F9B6D8",
+			tasks: [
+				{
+					id: "74C4BD74DBE85360",
+					type: "item",
+					item: "enderstorage:ender_chest"
+				},
+				{
+					id: "676414A2CD3190DF",
+					type: "item",
+					item: "enderstorage:ender_pouch"
+				}
+			],
+			rewards: [{
+				id: "3DA11DF68C91671A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Magic Tank",
+			icon: "enderstorage:ender_tank",
+			x: -3.25d,
+			y: -5.75d,
+			shape: "square",
+			subtitle: "&dFluid Everywhere",
+			description: [
+				"So, Kow showed me that not only is there the customizable Ender Chest network thingy, there's also a version of it for liquids called an Ender Tank.",
+				"",
+				"It works just like the Chests : Dye the three markings as a lock combo. Use a Diamond if I want to make it private. I can Right Click the center to swap it between input and output modes."
+			],
+			dependencies: ["6F9FEB9670F9B6D8"],
+			id: "1D24F6D817852EC9",
+			tasks: [{
+				id: "755F8823D465786C",
+				type: "item",
+				item: "enderstorage:ender_tank"
+			}],
+			rewards: [{
+				id: "70654E423F3C7EFA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
 			}]
 		}
 	]
