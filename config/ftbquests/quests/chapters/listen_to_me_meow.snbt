@@ -441,6 +441,25 @@
 				title: "Pack Notes 3",
 				icon: "pneumaticcraft:inventory_upgrade"
 			}]
+		},
+		{
+			title: "PACK NOTES 6",
+			icon: "psi:cad_battery_extended",
+			x: -1.0d,
+			y: 6.0d,
+			shape: "gear",
+			subtitle: "&dMod: Spark",
+			description: [
+				"&6If you are having odd lag issues, be sure to consult the modpack page on CurseForge for tips and java arguments!",
+				"",
+				"&6Included in the pack is Spark, which is quite helpful in tracking down lag issues."
+			],
+			dependencies: ["0000000000000025"],
+			id: "79027204AE910CFA",
+			tasks: [{
+				id: "422FC4F7685FD1B4",
+				type: "checkmark"
+			}]
 		}
 	]
 }
