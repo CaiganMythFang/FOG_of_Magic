@@ -2,6 +2,50 @@
   "name": "Electronics Depot",
   "quests": [
     {
+      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
+      "name": " Mining Helmet",
+      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
+      "x": 49,
+      "y": 20,
+      "icon": {
+        "id": "mining_helmet:mining_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mining_helmet:mining_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c76011ee-59c7-4c55-b30e-b5283135568f",
       "name": " Gadget Mod Table",
       "description": "    If you want to add modifications to your Mining Gadget, you will need this machine. ",
@@ -41,50 +85,6 @@
         {
           "id": "mininggadgets:modificationtable",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
-      "name": " Mining Helmet",
-      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
-      "x": 49,
-      "y": 20,
-      "icon": {
-        "id": "mining_helmet:mining_helmet",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mining_helmet:mining_helmet",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
         }
       ],
       "rewardchoice": [],

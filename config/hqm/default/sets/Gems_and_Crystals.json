@@ -773,6 +773,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "35ecdce0-d443-4a18-b967-53ec60d8f7bc",
+      "name": " Gemium Ingot (Sell)",
+      "description": "    Gemium is a material that is stronger than Netherrite.",
+      "x": 276,
+      "y": 20,
+      "icon": {
+        "id": "powder_power:gem_gemium",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "powder_power:gem_gemium",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "29d3a455-1137-4afe-a3ea-c8b25460bf4d",
       "name": " Redstone (Sell)",
       "description": "    Redstone is an integral part of many machines and technologies, providing a rudimentary bridge between magic and tech.",
