@@ -1034,33 +1034,6 @@
 			}]
 		},
 		{
-			title: "Birds of a Feather",
-			icon: "iceandfire:amphithere_feather",
-			x: -0.75d,
-			y: 2.25d,
-			shape: "square",
-			subtitle: "&dMod: The Parakeet Mod",
-			description: [
-				"Parakeets and Cockatiels can be found in jungle biomes. They can be tamed with Wheat, Pumpkin, or Beetroot seeds.",
-				"",
-				"I can try feeding them things like Apple Slices, but they may not eat them."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "438E87629BF5C6E6",
-			tasks: [{
-				id: "3F0147CAA8954A18",
-				type: "item",
-				item: "parakeetmod:apple_slice"
-			}],
-			rewards: [{
-				id: "02216F2BDD60D922",
-				type: "item",
-				item: "calemiutils:coin_dollar",
-				count: 5
-			}]
-		},
-		{
 			title: "At Least One Red Balloon",
 			icon: "bountifulbaubles:balloon",
 			x: 3.0d,
@@ -1134,6 +1107,114 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
+			}]
+		},
+		{
+			title: "A Strange World",
+			icon: "mysticalworld:aubergine",
+			x: 3.0d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dMod: Mystical World",
+			description: [
+				"&dThere is plenty to see and do in this world, beyond surviving. Though some of it also helps survive.",
+				"",
+				"That sounds pretty normal actually.",
+				"",
+				"&dGood, you understand. The world is always a bit mystical, especially here. You can find all sorts of interesting metals and foods and animals and more.",
+				"",
+				"&dTake the Silkworm. You can find them by breaking Oak Leaves. You can then place and let them grow into Cocoons. These can be turned into Silk Thread, or used with a Spindle to make even more. It's a great alternative to String."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "21800542B284BDF2",
+			tasks: [
+				{
+					id: "7750AD7B3539A210",
+					type: "item",
+					item: "mysticalworld:encyclopedia"
+				},
+				{
+					id: "19598609DD17FA84",
+					type: "item",
+					item: "mysticalworld:silkworm_egg"
+				},
+				{
+					id: "01E39C7E47726F18",
+					type: "item",
+					item: {
+						id: "mysticalworld:spindle",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "5B3B56BA40119040",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "What Does the Friend Say?",
+			icon: "cyclic:heart",
+			x: 4.0d,
+			y: -0.25d,
+			shape: "square",
+			subtitle: "&dScreaming, I guess?",
+			description: [
+				"Oh hey, Foxes. Neat!",
+				"",
+				"&dDid you know you can befriend them with Apples, much like you use Bones for Wolves?",
+				"",
+				"...I need an Apple Orchard. Now."
+			],
+			dependencies: ["21800542B284BDF2"],
+			id: "05930542EE0CF7AB",
+			tasks: [{
+				id: "12EDF69FEDF45E24",
+				type: "item",
+				item: "minecraft:apple"
+			}],
+			rewards: [{
+				id: "38DF115645578631",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Old School Mapping",
+			icon: "antiqueatlas:empty_antique_atlas",
+			x: 3.0d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dMod: Antique Atlas",
+			description: [
+				"So, I know my tablet has this nice little minimap in the corner, but it kind of lacks in style, you know?",
+				"",
+				"And a normal paper map is a bit finicky about adding waypoints to it.",
+				"",
+				"So, the Antique Atlas! Its charming and old school and yet new school... or magic school? Something like that.",
+				"",
+				"I just think it's neat."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "2C1ACCC4508370CA",
+			tasks: [{
+				id: "4A8D45A9ED7649E2",
+				type: "item",
+				item: "antiqueatlas:empty_antique_atlas"
+			}],
+			rewards: [{
+				id: "4B46CB577C41B390",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
 			}]
 		}
 	]
