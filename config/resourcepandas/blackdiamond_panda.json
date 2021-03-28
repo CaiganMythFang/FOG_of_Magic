@@ -1,0 +1,10 @@
+{
+  "id": "blackdiamond_panda",
+  "inputs": [
+    "silentgems:black_diamond"
+  ],
+  "output": "silentgems:black_diamond",
+  "hexColor": "#818181",
+  "chance": 0.11,
+  "alpha": 1.0
+}

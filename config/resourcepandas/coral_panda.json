@@ -1,0 +1,10 @@
+{
+  "id": "coral_panda",
+  "inputs": [
+    "silentgems:coral"
+  ],
+  "output": "silentgems:coral",
+  "hexColor": "#fc722e",
+  "chance": 0.11,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "iolite_panda",
+  "inputs": [
+    "silentgems:iolite"
+  ],
+  "output": "silentgems:iolite",
+  "hexColor": "#ae69db",
+  "chance": 0.11,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ammolite_panda",
+  "inputs": [
+    "silentgems:ammolite"
+  ],
+  "output": "silentgems:ammolite",
+  "hexColor": "#9618b0",
+  "chance": 0.11,
+  "alpha": 1.0
+}

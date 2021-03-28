@@ -1,0 +1,10 @@
+{
+  "id": "feather_panda",
+  "inputs": [
+    "minecraft:feather"
+  ],
+  "output": "minecraft:feather",
+  "hexColor": "#d0d0d0",
+  "chance": 1.0,
+  "alpha": 1.0
+}

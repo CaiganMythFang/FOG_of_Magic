@@ -1,0 +1,10 @@
+{
+  "id": "redstonealloy_panda",
+  "inputs": [
+    "silents_mechanisms:redstone_alloy_ingot"
+  ],
+  "output": "silents_mechanisms:redstone_alloy_ingot",
+  "hexColor": "#b3251d",
+  "chance": 0.8,
+  "alpha": 1.0
+}

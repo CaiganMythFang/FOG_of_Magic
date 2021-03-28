@@ -1,0 +1,10 @@
+{
+  "id": "amethyst_panda",
+  "inputs": [
+    "silentgems:amethyst"
+  ],
+  "output": "silentgems:amethyst",
+  "hexColor": "#924cd0",
+  "chance": 0.11,
+  "alpha": 1.0
+}

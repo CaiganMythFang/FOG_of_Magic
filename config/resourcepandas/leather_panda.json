@@ -1,0 +1,10 @@
+{
+  "id": "leather_panda",
+  "inputs": [
+    "minecraft:leather"
+  ],
+  "output": "minecraft:leather",
+  "hexColor": "#c45b34",
+  "chance": 1.0,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ice_panda",
+  "inputs": [
+    "minecraft:ice"
+  ],
+  "output": "minecraft:ice",
+  "hexColor": "#4dc6eb",
+  "chance": 0.75,
+  "alpha": 1.0
+}

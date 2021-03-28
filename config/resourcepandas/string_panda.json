@@ -1,0 +1,10 @@
+{
+  "id": "string_panda",
+  "inputs": [
+    "minecraft:string"
+  ],
+  "output": "minecraft:string",
+  "hexColor": "#f4f4f4",
+  "chance": 1.0,
+  "alpha": 1.0
+}

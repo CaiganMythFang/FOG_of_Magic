@@ -1,0 +1,10 @@
+{
+  "id": "mineralcrystal_panda",
+  "inputs": [
+    "resynth:mineral_crystal"
+  ],
+  "output": "resynth:mineral_crystal",
+  "hexColor": "#00d3d3",
+  "chance": 0.4,
+  "alpha": 1.0
+}

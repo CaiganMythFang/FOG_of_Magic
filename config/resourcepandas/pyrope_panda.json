@@ -1,0 +1,10 @@
+{
+  "id": "pyrope_panda",
+  "inputs": [
+    "silentgems:pyrope"
+  ],
+  "output": "silentgems:pyrope",
+  "hexColor": "#fc405d",
+  "chance": 0.11,
+  "alpha": 1.0
+}

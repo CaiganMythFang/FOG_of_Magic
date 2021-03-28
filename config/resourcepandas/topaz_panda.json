@@ -1,0 +1,10 @@
+{
+  "id": "topaz_panda",
+  "inputs": [
+    "silentgem:topaz"
+  ],
+  "output": "silentgem:topaz",
+  "hexColor": "#da7c17",
+  "chance": 0.11,
+  "alpha": 1.0
+}

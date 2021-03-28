@@ -1,0 +1,10 @@
+{
+  "id": "aquamarine_panda",
+  "inputs": [
+    "astralsorcery:aquamarine"
+  ],
+  "output": "astralsorcery:aquamarine",
+  "hexColor": "#00a8d6",
+  "chance": 0.11,
+  "alpha": 1.0
+}

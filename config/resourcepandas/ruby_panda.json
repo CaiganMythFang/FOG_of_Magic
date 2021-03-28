@@ -1,0 +1,10 @@
+{
+  "id": "ruby_panda",
+  "inputs": [
+    "silentgem:ruby"
+  ],
+  "output": "silentgem:ruby",
+  "hexColor": "#f1786d",
+  "chance": 0.11,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pixiedust_panda",
+  "inputs": [
+    "botania:pixie_dust"
+  ],
+  "output": "botania:pixie_dust",
+  "hexColor": "#fc94bb",
+  "chance": 0.4,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "carnelian_panda",
+  "inputs": [
+    "silentgems:carnelian"
+  ],
+  "output": "silentgems:carnelian",
+  "hexColor": "#a82d00",
+  "chance": 0.11,
+  "alpha": 1.0
+}

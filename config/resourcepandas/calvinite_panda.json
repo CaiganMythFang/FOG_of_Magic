@@ -1,0 +1,10 @@
+{
+  "id": "calvirnite_panda",
+  "inputs": [
+    "resynth:calvinite_crystal"
+  ],
+  "output": "resynth:calvinite_crystal",
+  "hexColor": "#c3afcd",
+  "chance": 0.4,
+  "alpha": 1.0
+}

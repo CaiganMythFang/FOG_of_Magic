@@ -1,0 +1,10 @@
+{
+  "id": "azuresilver_panda",
+  "inputs": [
+    "silentgear:azure_silver_ingot"
+  ],
+  "output": "silentgear:azure_silver_ingot",
+  "hexColor": "#fabefc",
+  "chance": 0.2,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fluorite_panda",
+  "inputs": [
+    "silentgems:fluorite"
+  ],
+  "output": "silentgems:fluorite",
+  "hexColor": "#31def3",
+  "chance": 0.11,
+  "alpha": 1.0
+}

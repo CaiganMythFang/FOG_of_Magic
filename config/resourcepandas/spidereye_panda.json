@@ -1,0 +1,10 @@
+{
+  "id": "spidereye_panda",
+  "inputs": [
+    "minecraft:spider_eye"
+  ],
+  "output": "minecraft:spider_eye",
+  "hexColor": "#9b1e2c",
+  "chance": 0.7,
+  "alpha": 1.0
+}

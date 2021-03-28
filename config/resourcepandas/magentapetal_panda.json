@@ -1,0 +1,10 @@
+{
+  "id": "magentapetal_panda",
+  "inputs": [
+    "botania:magenta_petal"
+  ],
+  "output": "botania:magenta_petal",
+  "hexColor": "#cb4fc1",
+  "chance": 0.9,
+  "alpha": 1.0
+}

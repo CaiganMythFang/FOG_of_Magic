@@ -1,0 +1,10 @@
+{
+  "id": "amber_panda",
+  "inputs": [
+    "silentgem:amber"
+  ],
+  "output": "silentgem:amber",
+  "hexColor": "#f9c902",
+  "chance": 0.11,
+  "alpha": 1.0
+}

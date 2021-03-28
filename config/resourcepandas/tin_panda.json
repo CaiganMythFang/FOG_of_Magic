@@ -1,0 +1,10 @@
+{
+  "id": "tin_panda",
+  "inputs": [
+    "mysticalworld:tin_ingot"
+  ],
+  "output": "mysticalworld:tin_ingot",
+  "hexColor": "#d7e0d8",
+  "chance": 1.0,
+  "alpha": 1.0
+}

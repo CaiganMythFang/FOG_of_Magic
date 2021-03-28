@@ -1,0 +1,10 @@
+{
+  "id": "bort_panda",
+  "inputs": [
+    "silentgear:bort"
+  ],
+  "output": "silentgear:bort",
+  "hexColor": "#90a1cf",
+  "chance": 0.11,
+  "alpha": 1.0
+}

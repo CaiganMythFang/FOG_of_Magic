@@ -1,0 +1,10 @@
+{
+  "id": "sapphire_panda",
+  "inputs": [
+    "iceandfire:sapphire"
+  ],
+  "output": "iceandfire:sapphire",
+  "hexColor": "#95abf2",
+  "chance": 0.11,
+  "alpha": 1.0
+}

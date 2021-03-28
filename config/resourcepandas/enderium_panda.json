@@ -1,0 +1,10 @@
+{
+  "id": "enderium_panda",
+  "inputs": [
+    "silents_mechanisms:enderium_ingot"
+  ],
+  "output": "silents_mechanisms:enderium_ingot",
+  "hexColor": "#c4e3d1",
+  "chance": 0.3,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "endercrystal_panda",
+  "inputs": [
+    "silentgems:ender_crystal"
+  ],
+  "output": "silentgems:ender_crystal",
+  "hexColor": "#bae3dc",
+  "chance": 0.7,
+  "alpha": 1.0
+}

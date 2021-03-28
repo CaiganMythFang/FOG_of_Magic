@@ -1,0 +1,10 @@
+{
+  "id": "diorite_panda",
+  "inputs": [
+    "minecraft:diorite"
+  ],
+  "output": "minecraft:diorite",
+  "hexColor": "#bcbcbc",
+  "chance": 1.0,
+  "alpha": 1.0
+}

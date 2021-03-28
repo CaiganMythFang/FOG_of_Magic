@@ -1,0 +1,10 @@
+{
+  "id": "enderbiotite_panda",
+  "inputs": [
+    "quark:biotite"
+  ],
+  "output": "quark:biotite",
+  "hexColor": "#1e1e30",
+  "chance": 0.7,
+  "alpha": 1.0
+}

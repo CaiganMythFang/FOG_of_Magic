@@ -1,0 +1,10 @@
+{
+  "id": "ghasttear_panda",
+  "inputs": [
+    "minecraft:ghast_tear"
+  ],
+  "output": "minecraft:ghast_tear",
+  "hexColor": "#fcfcfc",
+  "chance": 0.7,
+  "alpha": 1.0
+}

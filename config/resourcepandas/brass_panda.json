@@ -1,0 +1,10 @@
+{
+  "id": "brass_panda",
+  "inputs": [
+    "create:brass_ingot"
+  ],
+  "output": "create:brass_ingot",
+  "hexColor": "#fcf085",
+  "chance": 1.0,
+  "alpha": 1.0
+}

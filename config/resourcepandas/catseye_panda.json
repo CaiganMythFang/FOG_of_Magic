@@ -1,0 +1,10 @@
+{
+  "id": "catseye_panda",
+  "inputs": [
+    "silentgems:cats_eye"
+  ],
+  "output": "silentgems:cats_eye",
+  "hexColor": "#fcc96a",
+  "chance": 0.11,
+  "alpha": 1.0
+}

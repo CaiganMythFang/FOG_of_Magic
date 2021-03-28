@@ -1,0 +1,10 @@
+{
+  "id": "citrine_panda",
+  "inputs": [
+    "silentgems:citrine"
+  ],
+  "output": "silentgems:citrine",
+  "hexColor": "#b0672b",
+  "chance": 0.11,
+  "alpha": 1.0
+}

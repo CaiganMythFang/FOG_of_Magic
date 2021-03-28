@@ -1,0 +1,10 @@
+{
+  "id": "andesite_panda",
+  "inputs": [
+    "minecraft:andesite"
+  ],
+  "output": "minecraft:andesite",
+  "hexColor": "#999b8c",
+  "chance": 1.0,
+  "alpha": 1.0
+}

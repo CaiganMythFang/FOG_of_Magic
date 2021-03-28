@@ -1,0 +1,10 @@
+{
+  "id": "endstone_panda",
+  "inputs": [
+    "minecraft:end_stone"
+  ],
+  "output": "minecraft:end_stone",
+  "hexColor": "#a2a77a",
+  "chance": 1.0,
+  "alpha": 1.0
+}

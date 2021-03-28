@@ -1,0 +1,10 @@
+{
+  "id": "oreo_panda",
+  "inputs": [
+    "resourcefulbees:oreo_cookie"
+  ],
+  "output": "resourcefulbees:oreo_cookie",
+  "hexColor": "#1a1a1c",
+  "chance": 0.11,
+  "alpha": 1.0
+}

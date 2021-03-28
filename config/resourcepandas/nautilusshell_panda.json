@@ -1,0 +1,10 @@
+{
+  "id": "nautilusshell_panda",
+  "inputs": [
+    "minecraft:nautilus_shell"
+  ],
+  "output": "minecraft:nautilus_shell",
+  "hexColor": "#d1cac1",
+  "chance": 0.4,
+  "alpha": 1.0
+}

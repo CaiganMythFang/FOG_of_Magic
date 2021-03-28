@@ -1,0 +1,10 @@
+{
+  "id": "jasper_panda",
+  "inputs": [
+    "silentgems:jasper"
+  ],
+  "output": "silentgems:jasper",
+  "hexColor": "#917a00",
+  "chance": 0.11,
+  "alpha": 1.0
+}

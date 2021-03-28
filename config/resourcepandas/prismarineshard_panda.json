@@ -1,0 +1,10 @@
+{
+  "id": "prismarineshard_panda",
+  "inputs": [
+    "minecraft:prismarine_shard"
+  ],
+  "output": "minecraft:prismarine_shard",
+  "hexColor": "#a2cfc0",
+  "chance": 0.7,
+  "alpha": 1.0
+}

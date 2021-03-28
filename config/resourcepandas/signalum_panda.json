@@ -1,0 +1,10 @@
+{
+  "id": "signalum_panda",
+  "inputs": [
+    "silents_mechanisms:signalum_ingot"
+  ],
+  "output": "silents_mechanisms:signalum_ingot",
+  "hexColor": "#a63313",
+  "chance": 0.4,
+  "alpha": 1.0
+}

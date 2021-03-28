@@ -1,0 +1,10 @@
+{
+  "id": "elementium_panda",
+  "inputs": [
+    "botania:elementium_ingot"
+  ],
+  "output": "botania:elementium_ingot",
+  "hexColor": "#f395c9",
+  "chance": 0.4,
+  "alpha": 1.0
+}

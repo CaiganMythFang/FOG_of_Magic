@@ -1,0 +1,10 @@
+{
+  "id": "jade_panda",
+  "inputs": [
+    "silentgems:jade"
+  ],
+  "output": "silentgems:jade",
+  "hexColor": "#d3fc74",
+  "chance": 0.11,
+  "alpha": 1.0
+}

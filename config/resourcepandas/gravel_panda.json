@@ -1,0 +1,10 @@
+{
+  "id": "gravel_panda",
+  "inputs": [
+    "minecraft:gravel"
+  ],
+  "output": "minecraft:gravel",
+  "hexColor": "#757474",
+  "chance": 0.5,
+  "alpha": 1.0
+}

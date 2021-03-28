@@ -1,0 +1,10 @@
+{
+  "id": "xpbottle_panda",
+  "inputs": [
+    "minecraft:experience_bottle"
+  ],
+  "output": "minecraft:experience_bottle",
+  "hexColor": "#b0e159",
+  "chance": 0.2,
+  "alpha": 1.0
+}

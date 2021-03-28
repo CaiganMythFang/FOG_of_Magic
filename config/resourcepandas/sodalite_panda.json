@@ -1,0 +1,10 @@
+{
+  "id": "sodalite_panda",
+  "inputs": [
+    "silentgems:sodalite"
+  ],
+  "output": "silentgems:sodalite",
+  "hexColor": "#8386fc",
+  "chance": 0.11,
+  "alpha": 1.0
+}

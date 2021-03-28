@@ -1,0 +1,10 @@
+{
+  "id": "rotten_flesh_panda",
+  "inputs": [
+    "minecraft:rotten_flesh"
+  ],
+  "output": "minecraft:rotten_flesh",
+  "hexColor": "#47341a",
+  "chance": 0.89,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "electrum_panda",
+  "inputs": [
+    "silents_mechanisms:electrum_ingot"
+  ],
+  "output": "silents_mechanisms:electrum_ingot",
+  "hexColor": "#ebeeb4",
+  "chance": 0.7,
+  "alpha": 1.0
+}

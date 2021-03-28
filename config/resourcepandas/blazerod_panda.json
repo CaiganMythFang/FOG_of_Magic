@@ -1,0 +1,10 @@
+{
+  "id": "blazerod_panda",
+  "inputs": [
+    "minecraft:blaze_rod"
+  ],
+  "output": "minecraft:blaze_rod",
+  "hexColor": "#fcf02c",
+  "chance": 0.6,
+  "alpha": 1.0
+}

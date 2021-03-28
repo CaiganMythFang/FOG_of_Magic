@@ -1,0 +1,10 @@
+{
+  "id": "inksac_panda",
+  "inputs": [
+    "minecraft:ink_sac"
+  ],
+  "output": "minecraft:ink_sac",
+  "hexColor": "#786470",
+  "chance": 1.0,
+  "alpha": 1.0
+}

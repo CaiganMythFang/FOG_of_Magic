@@ -1,0 +1,10 @@
+{
+  "id": "chaoscrystal_panda",
+  "inputs": [
+    "silentgems:chaos_crystal"
+  ],
+  "output": "silentgems:chaos_crystal",
+  "hexColor": "#f2e8e3",
+  "chance": 0.11,
+  "alpha": 1.0
+}

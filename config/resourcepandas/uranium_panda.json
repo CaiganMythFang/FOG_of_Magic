@@ -1,0 +1,10 @@
+{
+  "id": "uranium_panda",
+  "inputs": [
+    "silents_mechanisms:uranium_ingot"
+  ],
+  "output": "silents_mechanisms:uranium_ingot",
+  "hexColor": "#cff1d0",
+  "chance": 0.5,
+  "alpha": 1.0
+}

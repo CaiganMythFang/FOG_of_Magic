@@ -1,0 +1,10 @@
+{
+  "id": "benitoite_panda",
+  "inputs": [
+    "silentgems:benitoite"
+  ],
+  "output": "silentgems:benitoite",
+  "hexColor": "#5560d9",
+  "chance": 0.11,
+  "alpha": 1.0
+}

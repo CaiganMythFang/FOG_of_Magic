@@ -1,0 +1,10 @@
+{
+  "id": "sunstone_panda",
+  "inputs": [
+    "silentgems:sunstone"
+  ],
+  "output": "silentgems:sunstone",
+  "hexColor": "#fc9273",
+  "chance": 0.11,
+  "alpha": 1.0
+}

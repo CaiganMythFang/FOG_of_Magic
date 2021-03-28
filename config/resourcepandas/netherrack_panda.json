@@ -1,0 +1,10 @@
+{
+  "id": "netherrack_panda",
+  "inputs": [
+    "minecraft:netherrack"
+  ],
+  "output": "minecraft:netherrack",
+  "hexColor": "#5c2424",
+  "chance": 1.0,
+  "alpha": 1.0
+}

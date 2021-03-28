@@ -1,0 +1,10 @@
+{
+  "id": "moonstone_panda",
+  "inputs": [
+    "silentgems:moonstone"
+  ],
+  "output": "silentgems:moonstone",
+  "hexColor": "#e1e1e1",
+  "chance": 0.11,
+  "alpha": 1.0
+}

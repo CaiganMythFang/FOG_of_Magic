@@ -1,0 +1,10 @@
+{
+  "id": "zircon_panda",
+  "inputs": [
+    "silentgems:zircon"
+  ],
+  "output": "silentgems:zircon",
+  "hexColor": "#e5eda0",
+  "chance": 0.11,
+  "alpha": 1.0
+}

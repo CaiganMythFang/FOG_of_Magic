@@ -1,0 +1,10 @@
+{
+  "id": "kunzite_panda",
+  "inputs": [
+    "silentgems:kunzite"
+  ],
+  "output": "silentgems:kunzite",
+  "hexColor": "#fb47ec",
+  "chance": 0.11,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sponge_panda",
+  "inputs": [
+    "minecraft:sponge"
+  ],
+  "output": "minecraft:sponge",
+  "hexColor": "#a79d48",
+  "chance": 0.5,
+  "alpha": 1.0
+}

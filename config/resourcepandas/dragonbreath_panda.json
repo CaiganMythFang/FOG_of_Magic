@@ -1,0 +1,10 @@
+{
+  "id": "dragonbreath_panda",
+  "inputs": [
+    "minecraft:dragon_breath"
+  ],
+  "output": "minecraft:dragon_breath",
+  "hexColor": "#f3e7eb",
+  "chance": 0.5,
+  "alpha": 1.0
+}

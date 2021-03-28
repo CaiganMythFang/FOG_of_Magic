@@ -1,0 +1,10 @@
+{
+  "id": "dirt_panda",
+  "inputs": [
+    "minecraft:dirt"
+  ],
+  "output": "minecraft:dirt",
+  "hexColor": "#a87954",
+  "chance": 1.0,
+  "alpha": 1.0
+}

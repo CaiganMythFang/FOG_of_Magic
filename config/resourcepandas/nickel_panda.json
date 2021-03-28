@@ -1,0 +1,10 @@
+{
+  "id": "nickel_panda",
+  "inputs": [
+    "silents_mechanisms:nickel_ingot"
+  ],
+  "output": "silents_mechanisms:nickel_ingot",
+  "hexColor": "#f0f0cd",
+  "chance": 0.4,
+  "alpha": 1.0
+}

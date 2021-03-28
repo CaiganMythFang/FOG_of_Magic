@@ -1,0 +1,10 @@
+{
+  "id": "glowstone_panda",
+  "inputs": [
+    "minecraft:glowstone_dust"
+  ],
+  "output": "minecraft:glowstone_dust",
+  "hexColor": "#b3b33b",
+  "chance": 0.5,
+  "alpha": 1.0
+}

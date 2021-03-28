@@ -1,0 +1,10 @@
+{
+  "id": "stone_panda",
+  "inputs": [
+    "minecraft:stone"
+  ],
+  "output": "minecraft:stone",
+  "hexColor": "#747474",
+  "chance": 1.0,
+  "alpha": 1.0
+}

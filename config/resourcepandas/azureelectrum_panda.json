@@ -1,0 +1,10 @@
+{
+  "id": "azureelectrum_panda",
+  "inputs": [
+    "silentgear:azure_electrum_ingot"
+  ],
+  "output": "silentgear:azure_electrum_ingot",
+  "hexColor": "#4474e0",
+  "chance": 0.4,
+  "alpha": 1.0
+}

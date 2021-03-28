@@ -1,0 +1,10 @@
+{
+  "id": "kyanite_panda",
+  "inputs": [
+    "silentgems:kyanite"
+  ],
+  "output": "silentgems:kyanite",
+  "hexColor": "#7993fc",
+  "chance": 0.11,
+  "alpha": 1.0
+}

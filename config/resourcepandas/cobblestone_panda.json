@@ -1,0 +1,10 @@
+{
+  "id": "cobblestone_panda",
+  "inputs": [
+    "minecraft:cobblestone"
+  ],
+  "output": "minecraft:cobblestone",
+  "hexColor": "#7c7b7c",
+  "chance": 1.0,
+  "alpha": 1.0
+}

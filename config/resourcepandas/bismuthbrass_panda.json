@@ -1,0 +1,10 @@
+{
+  "id": "bismuthbrass_panda",
+  "inputs": [
+    "silents_mechanisms:bismuth_brass_ingot"
+  ],
+  "output": "silents_mechanisms:bismuth_brass_ingot",
+  "hexColor": "#e6d4dc",
+  "chance": 0.7,
+  "alpha": 1.0
+}

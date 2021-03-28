@@ -1,0 +1,10 @@
+{
+  "id": "catnip_panda",
+  "inputs": [
+    "resourcefulbees:catnip_honey_bottle"
+  ],
+  "output": "resourcefulbees:catnip_honey_bottle",
+  "hexColor": "#ad6b15",
+  "chance": 0.03,
+  "alpha": 1.0
+}

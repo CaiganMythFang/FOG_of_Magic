@@ -1,0 +1,10 @@
+{
+  "id": "manasteel_panda",
+  "inputs": [
+    "botania:manasteel_ingot"
+  ],
+  "output": "botania:manasteel_ingot",
+  "hexColor": "#7cb2fc",
+  "chance": 0.7,
+  "alpha": 1.0
+}

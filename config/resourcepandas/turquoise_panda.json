@@ -1,0 +1,10 @@
+{
+  "id": "turquoise_panda",
+  "inputs": [
+    "silentgems:turquoise"
+  ],
+  "output": "silentgems:turquoise",
+  "hexColor": "#86e6dc",
+  "chance": 0.11,
+  "alpha": 1.0
+}

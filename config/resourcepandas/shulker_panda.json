@@ -1,0 +1,10 @@
+{
+  "id": "shulker_panda",
+  "inputs": [
+    "minecraft:shulker_shell"
+  ],
+  "output": "minecraft:shulker_shell",
+  "hexColor": "#956895",
+  "chance": 0.3,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "neptunium_panda",
+  "inputs": [
+    "aquaculture:neptunium_ingot"
+  ],
+  "output": "aquaculture:neptunium_ingot",
+  "hexColor": "#8af8d9",
+  "chance": 0.4,
+  "alpha": 1.0
+}

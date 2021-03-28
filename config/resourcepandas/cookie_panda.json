@@ -1,0 +1,10 @@
+{
+  "id": "cookie_panda",
+  "inputs": [
+    "minecraft:cookie"
+  ],
+  "output": "minecraft:cookie",
+  "hexColor": "#e5964f",
+  "chance": 0.9,
+  "alpha": 1.0
+}

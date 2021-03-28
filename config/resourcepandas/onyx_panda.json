@@ -1,0 +1,10 @@
+{
+  "id": "opal_panda",
+  "inputs": [
+    "silentgems:opal"
+  ],
+  "output": "silentgems:opal",
+  "hexColor": "#fcfcfc",
+  "chance": 0.11,
+  "alpha": 1.0
+}

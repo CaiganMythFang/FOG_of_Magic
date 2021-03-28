@@ -1,0 +1,10 @@
+{
+  "id": "sand_panda",
+  "inputs": [
+    "minecraft:sand"
+  ],
+  "output": "minecraft:sand",
+  "hexColor": "#bea97e",
+  "chance": 1.0,
+  "alpha": 1.0
+}

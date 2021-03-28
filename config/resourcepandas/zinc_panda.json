@@ -1,0 +1,10 @@
+{
+  "id": "zinc_panda",
+  "inputs": [
+    "create:zinc_ingot"
+  ],
+  "output": "create:zinc_ingot",
+  "hexColor": "#edeee7",
+  "chance": 0.8,
+  "alpha": 1.0
+}

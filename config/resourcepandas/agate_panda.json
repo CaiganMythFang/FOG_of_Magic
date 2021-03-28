@@ -1,0 +1,10 @@
+{
+  "id": "agate_panda",
+  "inputs": [
+    "silentgems:agate"
+  ],
+  "output": "silentgems:agate",
+  "hexColor": "#98009a",
+  "chance": 0.11,
+  "alpha": 1.0
+}

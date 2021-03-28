@@ -1,0 +1,10 @@
+{
+  "id": "clay_panda",
+  "inputs": [
+    "minecraft:clay_ball"
+  ],
+  "output": "minecraft:clay_ball",
+  "hexColor": "#adb7d3",
+  "chance": 1.0,
+  "alpha": 1.0
+}

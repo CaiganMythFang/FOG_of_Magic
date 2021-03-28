@@ -1,0 +1,10 @@
+{
+  "id": "bone_panda",
+  "inputs": [
+    "minecraft:bone"
+  ],
+  "output": "minecraft:bone",
+  "hexColor": "#ffffff",
+  "chance": 0.85,
+  "alpha": 1.0
+}

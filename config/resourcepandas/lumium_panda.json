@@ -1,0 +1,10 @@
+{
+  "id": "lumium_panda",
+  "inputs": [
+    "silents_mechanisms:lumium_ingot"
+  ],
+  "output": "silents_mechanisms:lumium_ingot",
+  "hexColor": "#f1f6dd",
+  "chance": 0.4,
+  "alpha": 1.0
+}

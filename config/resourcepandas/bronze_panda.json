@@ -1,0 +1,10 @@
+{
+  "id": "bronze_panda",
+  "inputs": [
+    "silents_mechanisms:bronze_ingot"
+  ],
+  "output": "silents_mechanisms:bronze_ingot",
+  "hexColor": "#d38e3a",
+  "chance": 1.0,
+  "alpha": 1.0
+}

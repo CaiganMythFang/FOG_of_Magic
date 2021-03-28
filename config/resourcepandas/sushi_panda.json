@@ -1,0 +1,10 @@
+{
+  "id": "sushi_panda",
+  "inputs": [
+    "aquaculture:sushi"
+  ],
+  "output": "aquaculture:sushi",
+  "hexColor": "#44753c",
+  "chance": 1.0,
+  "alpha": 1.0
+}

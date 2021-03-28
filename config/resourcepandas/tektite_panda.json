@@ -1,0 +1,10 @@
+{
+  "id": "tektite_panda",
+  "inputs": [
+    "silentgems:tektite"
+  ],
+  "output": "silentgems:tektite",
+  "hexColor": "#d8d0c9",
+  "chance": 0.11,
+  "alpha": 1.0
+}

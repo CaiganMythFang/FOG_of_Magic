@@ -1,0 +1,10 @@
+{
+  "id": "cheese_panda",
+  "inputs": [
+    "rats:cheese"
+  ],
+  "output": "rats:cheese",
+  "hexColor": "#fce15d",
+  "chance": 1.0,
+  "alpha": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "manapearl_panda",
+  "inputs": [
+    "botania:mana_pearl"
+  ],
+  "output": "botania:mana_pearl",
+  "hexColor": "#007d9f",
+  "chance": 0.7,
+  "alpha": 1.0
+}

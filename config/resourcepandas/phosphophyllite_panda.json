@@ -1,0 +1,10 @@
+{
+  "id": "phosphophyllite_panda",
+  "inputs": [
+    "silentgem:phosphophyllite"
+  ],
+  "output": "silentgem:phosphophyllite",
+  "hexColor": "#6df1ba",
+  "chance": 0.11,
+  "alpha": 1.0
+}

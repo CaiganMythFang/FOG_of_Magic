@@ -1,0 +1,10 @@
+{
+  "id": "apple_bee_panda",
+  "inputs": [
+    "minecraft:apple"
+  ],
+  "output": "tag:crafttweaker:apple_bee",
+  "hexColor": "#da1725",
+  "chance": 0.7,
+  "alpha": 1.0
+}

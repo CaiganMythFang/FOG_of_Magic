@@ -1,0 +1,10 @@
+{
+  "id": "spinel_panda",
+  "inputs": [
+    "silentgems:spinel"
+  ],
+  "output": "silentgems:spinel",
+  "hexColor": "#de9d6c",
+  "chance": 0.11,
+  "alpha": 1.0
+}

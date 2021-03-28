@@ -1,0 +1,10 @@
+{
+  "id": "euclase_panda",
+  "inputs": [
+    "silentgems:euclase"
+  ],
+  "output": "silentgems:euclase",
+  "hexColor": "#70c5e2",
+  "chance": 0.11,
+  "alpha": 1.0
+}

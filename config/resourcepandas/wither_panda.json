@@ -1,0 +1,10 @@
+{
+  "id": "wither_panda",
+  "inputs": [
+    "minecraft:nether_star"
+  ],
+  "output": "minecraft:nether_star",
+  "hexColor": "#edfeff",
+  "chance": 0.01,
+  "alpha": 1.0
+}

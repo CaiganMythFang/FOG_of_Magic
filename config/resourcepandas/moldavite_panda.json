@@ -1,0 +1,10 @@
+{
+  "id": "moldavite_panda",
+  "inputs": [
+    "silentgems:moldavite"
+  ],
+  "output": "silentgems:moldavite",
+  "hexColor": "#e4e5bb",
+  "chance": 0.11,
+  "alpha": 1.0
+}

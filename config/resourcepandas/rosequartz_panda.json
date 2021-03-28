@@ -1,0 +1,10 @@
+{
+  "id": "rosequartz_panda",
+  "inputs": [
+    "silentgems:rose_quartz"
+  ],
+  "output": "silentgems:rose_quartz",
+  "hexColor": "#fc6abb",
+  "chance": 0.11,
+  "alpha": 1.0
+}

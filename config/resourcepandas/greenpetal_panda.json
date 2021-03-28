@@ -1,0 +1,10 @@
+{
+  "id": "greenpetal_panda",
+  "inputs": [
+    "botania:green_petal"
+  ],
+  "output": "botania:green_petal",
+  "hexColor": "#607e16",
+  "chance": 0.9,
+  "alpha": 1.0
+}

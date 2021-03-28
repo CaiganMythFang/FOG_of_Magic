@@ -1,0 +1,10 @@
+{
+  "id": "lepidolite_panda",
+  "inputs": [
+    "silentgems:lepidolite"
+  ],
+  "output": "silentgems:lepidolite",
+  "hexColor": "#d240b1",
+  "chance": 0.11,
+  "alpha": 1.0
+}

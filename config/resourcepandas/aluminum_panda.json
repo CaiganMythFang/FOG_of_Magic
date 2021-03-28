@@ -1,0 +1,10 @@
+{
+  "id": "aluminum_panda",
+  "inputs": [
+    "silents_mechanisms:aluminum_ingot"
+  ],
+  "output": "silents_mechanisms:aluminum_ingot",
+  "hexColor": "#c3ced5",
+  "chance": 0.6,
+  "alpha": 1.0
+}

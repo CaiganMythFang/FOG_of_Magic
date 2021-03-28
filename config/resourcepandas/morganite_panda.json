@@ -1,0 +1,10 @@
+{
+  "id": "morganite_panda",
+  "inputs": [
+    "silentgems:morganite"
+  ],
+  "output": "silentgems:morganite",
+  "hexColor": "#fcbdc2",
+  "chance": 0.11,
+  "alpha": 1.0
+}

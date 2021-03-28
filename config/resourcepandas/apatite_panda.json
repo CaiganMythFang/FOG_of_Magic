@@ -1,0 +1,10 @@
+{
+  "id": "apatite_panda",
+  "inputs": [
+    "silentgems:apatite"
+  ],
+  "output": "silentgems:apatite",
+  "hexColor": "#94fcfc",
+  "chance": 0.11,
+  "alpha": 1.0
+}

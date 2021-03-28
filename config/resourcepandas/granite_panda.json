@@ -1,0 +1,10 @@
+{
+  "id": "granite_panda",
+  "inputs": [
+    "minecraft:granite"
+  ],
+  "output": "minecraft:granite",
+  "hexColor": "#9a6c5b",
+  "chance": 1.0,
+  "alpha": 1.0
+}

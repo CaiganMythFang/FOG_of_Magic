@@ -1,0 +1,10 @@
+{
+  "id": "slime_panda",
+  "inputs": [
+    "minecraft:slime_ball"
+  ],
+  "output": "minecraft:slime_ball",
+  "hexColor": "#20f54a",
+  "chance": 0.60,
+  "alpha": 1.0
+}

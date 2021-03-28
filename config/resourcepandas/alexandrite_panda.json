@@ -1,0 +1,10 @@
+{
+  "id": "alexandrite_panda",
+  "inputs": [
+    "silentgems:alexandrite"
+  ],
+  "output": "silentgems:alexandrite",
+  "hexColor": "#da56da",
+  "chance": 0.11,
+  "alpha": 1.0
+}

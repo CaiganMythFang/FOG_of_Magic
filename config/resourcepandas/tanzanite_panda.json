@@ -1,0 +1,10 @@
+{
+  "id": "tanzanite_panda",
+  "inputs": [
+    "silentgems:tanzanite"
+  ],
+  "output": "silentgems:tanzanite",
+  "hexColor": "#8b40f0",
+  "chance": 0.11,
+  "alpha": 1.0
+}

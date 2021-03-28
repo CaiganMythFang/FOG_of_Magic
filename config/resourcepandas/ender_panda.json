@@ -1,0 +1,10 @@
+{
+  "id": "ender_panda",
+  "inputs": [
+    "minecraft:ender_pearl"
+  ],
+  "output": "minecraft:ender_pearl",
+  "hexColor": "#29594a",
+  "chance": 0.15,
+  "alpha": 1.0
+}

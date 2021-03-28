@@ -1,0 +1,10 @@
+{
+  "id": "lead_panda",
+  "inputs": [
+    "eidolon:lead_ingot"
+  ],
+  "output": "eidolon:lead_ingot",
+  "hexColor": "#352c53",
+  "chance": 0.4,
+  "alpha": 1.0
+}
