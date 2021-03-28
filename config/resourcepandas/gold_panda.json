@@ -1,10 +1,10 @@
 {
   "id": "gold_panda",
   "inputs": [
-    "tag:forge:storage_blocks/gold"
+    "minecraft:gold_ingot"
   ],
-  "output": "tag:forge:nuggets/gold",
+  "output": "minecraft:gold_ingot",
   "hexColor": "#f8d26a",
-  "chance": 0.5,
+  "chance": 0.45,
   "alpha": 1.0
 }

@@ -1,9 +1,9 @@
 {
   "id": "redstone_panda",
   "inputs": [
-    "tag:forge:storage_blocks/redstone"
+    "minecraft:redstone"
   ],
-  "output": "tag:forge:dusts/redstone",
+  "output": "minecraft:redstone",
   "hexColor": "#aa0f01",
   "chance": 0.6,
   "alpha": 1.0

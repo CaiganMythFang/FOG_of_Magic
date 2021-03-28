@@ -1,9 +1,9 @@
 {
   "id": "diamond_panda",
   "inputs": [
-    "tag:forge:storage_blocks/diamond"
+    "minecraft:diamond"
   ],
-  "output": "tag:forge:gems/diamond",
+  "output": "minecraft:diamond",
   "hexColor": "#a1fbe8",
   "chance": 0.11,
   "alpha": 1.0

@@ -1,10 +1,10 @@
 {
   "id": "quartz_panda",
   "inputs": [
-    "tag:forge:storage_blocks/quartz"
+    "minecraft:quartz"
   ],
-  "output": "tag:forge:gems/quartz",
+  "output": "minecraft:quartz",
   "hexColor": "#ddd4c6",
-  "chance": 0.6,
+  "chance": 0.5,
   "alpha": 1.0
 }

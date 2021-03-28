@@ -1,10 +1,10 @@
 {
   "id": "lapis_panda",
   "inputs": [
-    "tag:forge:storage_blocks/lapis"
+    "minecraft:lapis_lazuli"
   ],
-  "output": "tag:forge:gems/lapis",
+  "output": "minecraft:lapis_lazuli",
   "hexColor": "#345ec3",
-  "chance": 0.6,
+  "chance": 0.5,
   "alpha": 1.0
 }

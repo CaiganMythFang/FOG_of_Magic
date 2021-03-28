@@ -1,9 +1,9 @@
 {
   "id": "iron_panda",
   "inputs": [
-    "tag:forge:storage_blocks/iron"
+    "minecraft:iron_ingot"
   ],
-  "output": "tag:forge:nuggets/iron",
+  "output": "minecraft:iron_ingot",
   "hexColor": "#d9dfe7",
   "chance": 0.6,
   "alpha": 1.0

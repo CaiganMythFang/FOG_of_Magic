@@ -1,10 +1,10 @@
 {
   "id": "coal_panda",
   "inputs": [
-    "tag:forge:storage_blocks/coal"
+    "minecraft:coal"
   ],
   "output": "minecraft:coal",
   "hexColor": "#363636",
-  "chance": 0.6,
+  "chance": 0.4,
   "alpha": 1.0
 }
