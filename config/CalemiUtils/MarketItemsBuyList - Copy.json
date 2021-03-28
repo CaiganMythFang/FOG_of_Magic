@@ -1,342 +1,538 @@
 {
-  "Diamond Ore": {
+  "Iron Ore": {
     "index": 0,
+    "stackStr": "minecraft:iron_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 500
+  },
+  "Gold Ore": {
+    "index": 1,
+    "stackStr": "minecraft:gold_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2000
+  },
+  "Copper Ore": {
+    "index": 2,
+    "stackStr": "create:copper_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1000
+  },
+  "Zinc Ore": {
+    "index": 3,
+    "stackStr": "create:zinc_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1000
+  },
+  "Aluminum (Bauxite) Ore": {
+    "index": 4,
+    "stackStr": "silents_mechanisms:bauxite_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 500
+  },
+  "Neptunium Ingot": {
+    "index": 5,
+    "stackStr": "aquaculture:neptunium_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2000
+  },
+  "Nickel Ore": {
+    "index": 6,
+    "stackStr": "silents_mechanisms:nickel_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1500
+  },
+  "Lead Ore": {
+    "index": 7,
+    "stackStr": "eidolon:lead_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1500
+  },
+  "Oratchalcum Ore": {
+    "index": 8,
+    "stackStr": "rats:oratchalcum_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 8000
+  },
+  "Silver Ore": {
+    "index": 9,
+    "stackStr": "iceandfire:silver_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2000
+  },
+  "Uranium Ore": {
+    "index": 10,
+    "stackStr": "silents_mechanisms:uranium_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 7000
+  },
+  "Azure Silver Ore": {
+    "index": 11,
+    "stackStr": "silentgear:azure_silver_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 6500
+  },
+  "Bismuth Ore": {
+    "index": 12,
+    "stackStr": "silent_mechanisms:bismuth_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1000
+  },
+  "Platinum Ore": {
+    "index": 13,
+    "stackStr": "silents_mechanisms:platinum_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 3500
+  },
+  "Diamond Ore": {
+    "index": 14,
     "stackStr": "minecraft:diamond_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 8000
   },
   "Emerald Ore": {
-    "index": 1,
+    "index": 15,
     "stackStr": "minecraft:emerald_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 1000
   },
+  "Lapis Lazuli Ore": {
+    "index": 16,
+    "stackStr": "minecraft:lapis_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 3200
+  },
+  "Nether Quartz Ore": {
+    "index": 17,
+    "stackStr": "minecraft:nether_quartz_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1000
+  },
+  "Glowstone": {
+    "index": 18,
+    "stackStr": "minecraft:glowstone",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Redstone Ore": {
+    "index": 19,
+    "stackStr": "minecraft:redstone_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 500
+  },
+  "Ender Pearl": {
+    "index": 20,
+    "stackStr": "minecraft:ender_pearl",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1000
+  },
+  "Sapphire Ore (Ice and Fire)": {
+    "index": 21,
+    "stackStr": "iceandfire:sapphire_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2500
+  },
+  "Biotite Ore": {
+    "index": 22,
+    "stackStr": "quark:biotite_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 3000
+  },
+  "Ratlantean Gem Ore": {
+    "index": 23,
+    "stackStr": "rats:ratlantean_gem_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 8000
+  },
+  "Mana Gem Ore": {
+    "index": 24,
+    "stackStr": "ars_nouveau:arcane_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2000
+  },
+  "Aquamarine Ore (silent)": {
+    "index": 25,
+    "stackStr": "silentgems:aquamarine_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2000
+  },
+  "Aquamarine Ore (astral)": {
+    "index": 26,
+    "stackStr": "astralsorcery:aquamarine_sand_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2000
+  },
+  "Chaos Ore": {
+    "index": 27,
+    "stackStr": "silentgems:chaos_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2000
+  },
+  "Bort Ore": {
+    "index": 28,
+    "stackStr": "silentgear:bort_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 8000
+  },
   "Ruby Ore": {
-    "index": 2,
+    "index": 29,
     "stackStr": "silentgems:ruby_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Garnet Ore": {
-    "index": 3,
+    "index": 30,
     "stackStr": "silentgems:garnet_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Topaz Ore": {
-    "index": 4,
+    "index": 31,
     "stackStr": "silentgems:topaz_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Amber Ore": {
-    "index": 5,
+    "index": 32,
     "stackStr": "silentgems:amber_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Heliodor Ore": {
-    "index": 6,
+    "index": 33,
     "stackStr": "silentgems:heliodor_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Peridot Ore": {
-    "index": 7,
+    "index": 34,
     "stackStr": "silentgems:peridot_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Green Sapphire Ore": {
-    "index": 8,
+    "index": 35,
     "stackStr": "silentgems:green_sapphire_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Aquamarine Ore": {
-    "index": 9,
+    "index": 36,
     "stackStr": "silentgems:aquamarine_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Sapphire Ore (Silents)": {
-    "index": 10,
+    "index": 37,
     "stackStr": "silentgems:sapphire_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Tanzanite Ore": {
-    "index": 11,
+    "index": 38,
     "stackStr": "silentgems:tanzanite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Amethyst Ore": {
-    "index": 12,
+    "index": 39,
     "stackStr": "silentgems:amethyst_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Agate Ore": {
-    "index": 13,
+    "index": 40,
     "stackStr": "silentgems:agate_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Morganite Ore": {
-    "index": 14,
+    "index": 41,
     "stackStr": "silentgems:morganite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Onyx Ore": {
-    "index": 15,
+    "index": 42,
     "stackStr": "silentgems:onyx_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Opal Ore": {
-    "index": 16,
+    "index": 43,
     "stackStr": "silentgems:opal_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
+  "Ender Essence Ore": {
+    "index": 44,
+    "stackStr": "silentgems:ender_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 6500
+  },
   "Carnelian Ore": {
-    "index": 17,
+    "index": 45,
     "stackStr": "silentgems:carnelian_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Spinel Ore": {
-    "index": 18,
+    "index": 46,
     "stackStr": "silentgems:spinel_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Citrine Ore": {
-    "index": 19,
+    "index": 47,
     "stackStr": "silentgems:citrine_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Jasper Ore": {
-    "index": 20,
+    "index": 48,
     "stackStr": "silentgems:jasper_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Zircon Ore": {
-    "index": 21,
+    "index": 49,
     "stackStr": "silentgems:zircon_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Moldavite Ore": {
-    "index": 22,
+    "index": 50,
     "stackStr": "silentgems:moldavite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Malachite Ore": {
-    "index": 23,
+    "index": 51,
     "stackStr": "silentgems:malachite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Turquoise Ore": {
-    "index": 24,
-    "stackStr": "silentgems:turquoise_ore",
+    "index": 52,
+    "stackStr": "silentgems:turqouise_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Euclase Ore": {
-    "index": 25,
+    "index": 53,
     "stackStr": "silentgems:euclase_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Benitoite Ore": {
-    "index": 26,
+    "index": 54,
     "stackStr": "silentgems:benitoite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Iolite Ore": {
-    "index": 27,
+    "index": 55,
     "stackStr": "silentgems:iolite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Alexandrite Ore": {
-    "index": 28,
+    "index": 56,
     "stackStr": "silentgems:alexandrite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Lepidolite Ore": {
-    "index": 29,
+    "index": 57,
     "stackStr": "silentgems:lepidolite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Ametrine Ore": {
-    "index": 30,
+    "index": 58,
     "stackStr": "silentgems:ametrine_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Black Diamond Ore": {
-    "index": 31,
+    "index": 59,
     "stackStr": "silentgems:black_diamond_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Moonstone Ore": {
-    "index": 32,
+    "index": 60,
     "stackStr": "silentgems:moonstone_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Pyrope Ore": {
-    "index": 33,
+    "index": 61,
     "stackStr": "silentgems:pyrope_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Coral Ore": {
-    "index": 34,
+    "index": 62,
     "stackStr": "silentgems:coral_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Sunstone Ore": {
-    "index": 35,
+    "index": 63,
     "stackStr": "silentgems:sunstone_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Cats Eye Ore": {
-    "index": 36,
+    "index": 64,
     "stackStr": "silentgems:cats_eye_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Yellow Diamond Ore": {
-    "index": 37,
+    "index": 65,
     "stackStr": "silentgems:yellow_diamond_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Jade Ore": {
-    "index": 38,
+    "index": 66,
     "stackStr": "silentgems:jade_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Chrysoprase Ore": {
-    "index": 39,
+    "index": 67,
     "stackStr": "silentgems:chrysoprase_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Apatite Ore": {
-    "index": 40,
+    "index": 68,
     "stackStr": "silentgems:apatite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
-  "Fluorite Ore": {
-    "index": 41,
-    "stackStr": "silentgems:fluorite_ore",
+  "Flourite Ore": {
+    "index": 69,
+    "stackStr": "silentgems:flourite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Kyanite Ore": {
-    "index": 42,
+    "index": 70,
     "stackStr": "silentgems:kyanite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Sodalite Ore": {
-    "index": 43,
+    "index": 71,
     "stackStr": "silentgems:sodalite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Ammolite Ore": {
-    "index": 44,
+    "index": 72,
     "stackStr": "silentgems:ammolite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Kunzite Ore": {
-    "index": 45,
+    "index": 73,
     "stackStr": "silentgems:kunzite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Rose Quartz Ore": {
-    "index": 46,
+    "index": 74,
     "stackStr": "silentgems:rose_quartz_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Tektite Ore": {
-    "index": 47,
+    "index": 75,
     "stackStr": "silentgems:tektite_ore",
     "stackNBT": "",
     "amount": 1,
     "value": 6500
   },
   "Pearl Ore": {
-    "index": 48,
+    "index": 76,
     "stackStr": "silentgems:pearl_ore",
     "stackNBT": "",
     "amount": 1,

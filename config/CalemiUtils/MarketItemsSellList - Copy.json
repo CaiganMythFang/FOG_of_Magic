@@ -1,0 +1,716 @@
+{
+  "Iron Ingot": {
+    "index": 0,
+    "stackStr": "minecraft:iron_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Gold Ingot": {
+    "index": 1,
+    "stackStr": "minecraft:gold_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 400
+  },
+  "Copper Ingot": {
+    "index": 2,
+    "stackStr": "create:copper_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Zinc Ingot": {
+    "index": 3,
+    "stackStr": "create:zinc_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Aluminum Ingot": {
+    "index": 4,
+    "stackStr": "silents_mechanisms:bauxite_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Neptunium Ingot": {
+    "index": 5,
+    "stackStr": "aquaculture:neptunium_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 400
+  },
+  "Nickel Ingot": {
+    "index": 6,
+    "stackStr": "silents_mechanisms:nickel_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 300
+  },
+  "Lead Ingot": {
+    "index": 7,
+    "stackStr": "eidolon:lead_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 300
+  },
+  "Oratchalcum Ingot": {
+    "index": 8,
+    "stackStr": "rats:oratchalcum_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Silver Ingot": {
+    "index": 9,
+    "stackStr": "iceandfire:silver_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 400
+  },
+  "Uranium Ingot": {
+    "index": 10,
+    "stackStr": "silents_mechanisms:uranium_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1400
+  },
+  "Azure Silver Ingot": {
+    "index": 11,
+    "stackStr": "silentgear:azure_silver_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Bismuth Ingot": {
+    "index": 12,
+    "stackStr": "silent_mechanisms:bismuth_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Platinum Ingot": {
+    "index": 13,
+    "stackStr": "silents_mechanisms:platinum_ore",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 700
+  },
+  "Redium Ingot": {
+    "index": 14,
+    "stackStr": "powder_power:ingot_redium",
+    "stackNBT": "",
+    "amount": 2,
+    "value": 100
+  },
+  "Lapium Ingot": {
+    "index": 15,
+    "stackStr": "powder_power:ingot_lapium",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Constantan Ingot": {
+    "index": 16,
+    "stackStr": "immersiveengineering:ingot_constantan",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Trilium Ingot": {
+    "index": 17,
+    "stackStr": "powder_power:ingot_trilium",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Quadrilium Ingot": {
+    "index": 18,
+    "stackStr": "powder_power:ingot_quadrilium",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1500
+  },
+  "Electrum Ingot": {
+    "index": 19,
+    "stackStr": "silents_mechanisms:electrum_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 400
+  },
+  "Manasteel Ingot": {
+    "index": 20,
+    "stackStr": "botania:manasteel_ingot",
+    "stackNBT": "",
+    "amount": 3,
+    "value": 400
+  },
+  "Elementium Ingot": {
+    "index": 21,
+    "stackStr": "botania:elementium_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 300
+  },
+  "Terrasteel Ingot": {
+    "index": 22,
+    "stackStr": "botania:terrasteel_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2500
+  },
+  "Steel Ingot": {
+    "index": 23,
+    "stackStr": "silents_mechanisms:steel_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Azure Electrum Ingot": {
+    "index": 24,
+    "stackStr": "silentgear:azure_electrum_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 5000
+  },
+  "Redstone Alloy Ingot": {
+    "index": 25,
+    "stackStr": "silents_mechanisms:redstone_alloy_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Brass Ingot": {
+    "index": 26,
+    "stackStr": "silents_mechanisms:brass_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Bronze Ingot": {
+    "index": 27,
+    "stackStr": "silents_mechanisms:bronze_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Invar Ingot": {
+    "index": 28,
+    "stackStr": "silents_mechanisms:invar_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Bismuth Brass Ingot": {
+    "index": 29,
+    "stackStr": "silents_mechanisms:bismuth_brass_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Alumium Steel Ingot": {
+    "index": 30,
+    "stackStr": "silents_mechanisms:aluminum_steel_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Bismuth Steel Ingot": {
+    "index": 31,
+    "stackStr": "silents_mechanisms:bismuth_steel_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Signalum Ingot": {
+    "index": 32,
+    "stackStr": "silents_mechanisms:signalum_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1500
+  },
+  "Lumium Ingot": {
+    "index": 33,
+    "stackStr": "silents_mechanisms:lumium_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Enderium Ingot": {
+    "index": 34,
+    "stackStr": "silents_mechanisms:enderium_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 3500
+  },
+  "Diamond": {
+    "index": 35,
+    "stackStr": "minecraft:diamond",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Emerald": {
+    "index": 36,
+    "stackStr": "minecraft:emerald",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Lapis Lazuli": {
+    "index": 37,
+    "stackStr": "minecraft:lapis_lazuli",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 125
+  },
+  "Nether Quartz Ore": {
+    "index": 38,
+    "stackStr": "minecraft:quartz",
+    "stackNBT": "",
+    "amount": 2,
+    "value": 1000
+  },
+  "Glowstone": {
+    "index": 39,
+    "stackStr": "minecraft:glowstone",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Gemium": {
+    "index": 40,
+    "stackStr": "powder_power:gem_gemium",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 300
+  },
+  "Redstone Ore": {
+    "index": 41,
+    "stackStr": "minecraft:redstone",
+    "stackNBT": "",
+    "amount": 4,
+    "value": 100
+  },
+  "Ender Pearl": {
+    "index": 42,
+    "stackStr": "minecraft:ender_pearl",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Sapphire (ice and fire)": {
+    "index": 43,
+    "stackStr": "iceandfire:sapphire_gem",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2500
+  },
+  "Mana Diamond": {
+    "index": 44,
+    "stackStr": "botania:mana_diamond",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1800
+  },
+  "Mana Pearl": {
+    "index": 45,
+    "stackStr": "botania:mana_pearl",
+    "stackNBT": "",
+    "amount": 2,
+    "value": 500
+  },
+  "Pixie Dust": {
+    "index": 46,
+    "stackStr": "pixie_dust",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 300
+  },
+  "Dragonstone": {
+    "index": 47,
+    "stackStr": "botania:dragonstone",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1900
+  },
+  "Biotite": {
+    "index": 48,
+    "stackStr": "quark:biotite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 600
+  },
+  "Gem of Ratlantis": {
+    "index": 49,
+    "stackStr": "rats:gem_of_ratlantis",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Mana Gem": {
+    "index": 50,
+    "stackStr": "ars_nouveau:mana_gem",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Aquamarine (astral)": {
+    "index": 51,
+    "stackStr": "astralsorcery:aquamarine",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "Chaos Crystal": {
+    "index": 52,
+    "stackStr": "silentgems:chaos_crystal",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 400
+  },
+  "Bort": {
+    "index": 53,
+    "stackStr": "silentgear:bort",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Ruby": {
+    "index": 54,
+    "stackStr": "silentgems:ruby",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Garnet": {
+    "index": 55,
+    "stackStr": "silentgems:garnet",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Topaz": {
+    "index": 56,
+    "stackStr": "silentgems:topaz",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Amber": {
+    "index": 57,
+    "stackStr": "silentgems:amber",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Heliodor": {
+    "index": 58,
+    "stackStr": "silentgems:heliodor",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Peridot": {
+    "index": 59,
+    "stackStr": "silentgems:peridot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Green Sapphire": {
+    "index": 60,
+    "stackStr": "silentgems:green_sapphire",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Aquamarine (silents)": {
+    "index": 61,
+    "stackStr": "silentgems:aquamarine",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Sapphire (silents)": {
+    "index": 62,
+    "stackStr": "silentgems:sapphire",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Tanzanite": {
+    "index": 63,
+    "stackStr": "silentgems:tanzanite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Amethyst": {
+    "index": 64,
+    "stackStr": "silentgems:amethyst",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Agate": {
+    "index": 65,
+    "stackStr": "silentgems:agate",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Morganite": {
+    "index": 66,
+    "stackStr": "silentgems:morganite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Onyx": {
+    "index": 67,
+    "stackStr": "silentgems:onyx",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Opal": {
+    "index": 68,
+    "stackStr": "silentgems:opal",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Ender Crystal": {
+    "index": 69,
+    "stackStr": "silentgems:ender_crystal",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1600
+  },
+  "Carnelian": {
+    "index": 70,
+    "stackStr": "silentgems:carnelian",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Spinel": {
+    "index": 71,
+    "stackStr": "silentgems:spinel",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Citrine": {
+    "index": 72,
+    "stackStr": "silentgems:citrine",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Jasper": {
+    "index": 73,
+    "stackStr": "silentgems:jasper",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Zircon": {
+    "index": 74,
+    "stackStr": "silentgems:zircon",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Moldavite": {
+    "index": 75,
+    "stackStr": "silentgems:moldavite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Malachite": {
+    "index": 76,
+    "stackStr": "silentgems:malachite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Turquoise": {
+    "index": 77,
+    "stackStr": "silentgems:turqouise",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Euclase": {
+    "index": 78,
+    "stackStr": "silentgems:euclase",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Benitoite": {
+    "index": 79,
+    "stackStr": "silentgems:benitoite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Iolite": {
+    "index": 80,
+    "stackStr": "silentgems:iolite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Alexandrite": {
+    "index": 81,
+    "stackStr": "silentgems:alexandrite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Lepidolite": {
+    "index": 82,
+    "stackStr": "silentgems:lepidolite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Ametrine": {
+    "index": 83,
+    "stackStr": "silentgems:ametrine",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Black Diamond": {
+    "index": 84,
+    "stackStr": "silentgems:black_diamond",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Moonstone": {
+    "index": 85,
+    "stackStr": "silentgems:moonstone",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Pyrope": {
+    "index": 86,
+    "stackStr": "silentgems:pyrope",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Coral": {
+    "index": 87,
+    "stackStr": "silentgems:coral",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Sunstone": {
+    "index": 88,
+    "stackStr": "silentgems:sunstone",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Cats Eye": {
+    "index": 89,
+    "stackStr": "silentgems:cats_eye",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Yellow Diamond": {
+    "index": 90,
+    "stackStr": "silentgems:yellow_diamond",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Jade": {
+    "index": 91,
+    "stackStr": "silentgems:jade",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Chrysoprase": {
+    "index": 92,
+    "stackStr": "silentgems:chrysoprase",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Apatite": {
+    "index": 93,
+    "stackStr": "silentgems:apatite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Flourite": {
+    "index": 94,
+    "stackStr": "silentgems:flourite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Kyanite": {
+    "index": 95,
+    "stackStr": "silentgems:kyanite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Sodalite": {
+    "index": 96,
+    "stackStr": "silentgems:sodalite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Ammolite": {
+    "index": 97,
+    "stackStr": "silentgems:ammolite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Kunzite": {
+    "index": 98,
+    "stackStr": "silentgems:kunzite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Rose Quartz": {
+    "index": 99,
+    "stackStr": "silentgems:rose_quartz",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Tektite": {
+    "index": 100,
+    "stackStr": "silentgems:tektite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Pearl": {
+    "index": 101,
+    "stackStr": "silentgems:pearl",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  }
+}

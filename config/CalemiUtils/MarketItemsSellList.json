@@ -1,9 +1,345 @@
 {
-  "TestSellItem": {
+  "Diamond": {
     "index": 0,
-    "stackStr": "minecraft:cobblestone",
+    "stackStr": "minecraft:diamond",
     "stackNBT": "",
-    "amount": 64,
-    "value": 1
+    "amount": 1,
+    "value": 1600
+  },
+  "Emerald": {
+    "index": 1,
+    "stackStr": "minecraft:emerald",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
+  },
+  "Ruby": {
+    "index": 2,
+    "stackStr": "silentgems:ruby",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Garnet": {
+    "index": 3,
+    "stackStr": "silentgems:garnet",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Topaz": {
+    "index": 4,
+    "stackStr": "silentgems:topaz",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Amber": {
+    "index": 5,
+    "stackStr": "silentgems:amber",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Heliodor": {
+    "index": 6,
+    "stackStr": "silentgems:heliodor",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Peridot": {
+    "index": 7,
+    "stackStr": "silentgems:peridot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Green Sapphire": {
+    "index": 8,
+    "stackStr": "silentgems:green_sapphire",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Aquamarine (silents)": {
+    "index": 9,
+    "stackStr": "silentgems:aquamarine",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Sapphire (silents)": {
+    "index": 10,
+    "stackStr": "silentgems:sapphire",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Tanzanite": {
+    "index": 11,
+    "stackStr": "silentgems:tanzanite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Amethyst": {
+    "index": 12,
+    "stackStr": "silentgems:amethyst",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Agate": {
+    "index": 13,
+    "stackStr": "silentgems:agate",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Morganite": {
+    "index": 14,
+    "stackStr": "silentgems:morganite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Onyx": {
+    "index": 15,
+    "stackStr": "silentgems:onyx",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Opal": {
+    "index": 16,
+    "stackStr": "silentgems:opal",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Carnelian": {
+    "index": 17,
+    "stackStr": "silentgems:carnelian",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Spinel": {
+    "index": 18,
+    "stackStr": "silentgems:spinel",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Citrine": {
+    "index": 19,
+    "stackStr": "silentgems:citrine",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Jasper": {
+    "index": 20,
+    "stackStr": "silentgems:jasper",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Zircon": {
+    "index": 21,
+    "stackStr": "silentgems:zircon",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Moldavite": {
+    "index": 22,
+    "stackStr": "silentgems:moldavite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Malachite": {
+    "index": 23,
+    "stackStr": "silentgems:malachite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Turquoise": {
+    "index": 24,
+    "stackStr": "silentgems:turquoise",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Euclase": {
+    "index": 25,
+    "stackStr": "silentgems:euclase",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Benitoite": {
+    "index": 26,
+    "stackStr": "silentgems:benitoite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Iolite": {
+    "index": 27,
+    "stackStr": "silentgems:iolite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Alexandrite": {
+    "index": 28,
+    "stackStr": "silentgems:alexandrite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Lepidolite": {
+    "index": 29,
+    "stackStr": "silentgems:lepidolite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Ametrine": {
+    "index": 30,
+    "stackStr": "silentgems:ametrine",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Black Diamond": {
+    "index": 31,
+    "stackStr": "silentgems:black_diamond",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Moonstone": {
+    "index": 32,
+    "stackStr": "silentgems:moonstone",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Pyrope": {
+    "index": 33,
+    "stackStr": "silentgems:pyrope",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Coral": {
+    "index": 34,
+    "stackStr": "silentgems:coral",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Sunstone": {
+    "index": 35,
+    "stackStr": "silentgems:sunstone",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Cats Eye": {
+    "index": 36,
+    "stackStr": "silentgems:cats_eye",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Yellow Diamond": {
+    "index": 37,
+    "stackStr": "silentgems:yellow_diamond",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Jade": {
+    "index": 38,
+    "stackStr": "silentgems:jade",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Chrysoprase": {
+    "index": 39,
+    "stackStr": "silentgems:chrysoprase",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Apatite": {
+    "index": 40,
+    "stackStr": "silentgems:apatite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Fluorite": {
+    "index": 41,
+    "stackStr": "silentgems:fluorite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Kyanite": {
+    "index": 42,
+    "stackStr": "silentgems:kyanite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Sodalite": {
+    "index": 43,
+    "stackStr": "silentgems:sodalite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Ammolite": {
+    "index": 44,
+    "stackStr": "silentgems:ammolite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Kunzite": {
+    "index": 45,
+    "stackStr": "silentgems:kunzite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Rose Quartz": {
+    "index": 46,
+    "stackStr": "silentgems:rose_quartz",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Tektite": {
+    "index": 47,
+    "stackStr": "silentgems:tektite",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
+  },
+  "Pearl": {
+    "index": 48,
+    "stackStr": "silentgems:pearl",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1300
   }
 }
