@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 500,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#adb7d3",
+    "primaryColor": "#adb7d3",
+    "secondaryColor": "#747c8e",
+    "modelType": "NORMAL"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:sand",
+    "mutationOutput": "minecraft:clay",
+    "chance": 0.8,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:clay_ball",
+    "mainOutputWeight": 1.0
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

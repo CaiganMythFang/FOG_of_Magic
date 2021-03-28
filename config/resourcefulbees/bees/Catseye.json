@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1000,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#fcc96a",
+    "primaryColor": "#fcc96a",
+    "secondaryColor": "#d28e41",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:end_stone",
+    "mutationOutput": "silentgems:cats_eye_ore",
+    "chance": 0.2,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "silentgems:cats_eye",
+    "mainOutputWeight": 0.5
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

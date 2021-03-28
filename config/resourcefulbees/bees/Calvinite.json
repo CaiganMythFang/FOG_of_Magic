@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1000,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#c3afcd",
+    "primaryColor": "#c3afcd",
+    "secondaryColor": "#420063",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:netherrack",
+    "mutationOutput": "resynth:calvinite_netherrack",
+    "chance": 1.0,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "resynth:calvinite_crystal",
+    "mainOutputWeight": 1.0
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1000,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#e4e5bb",
+    "primaryColor": "#e4e5bb",
+    "secondaryColor": "#626d00",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:netherrack",
+    "mutationOutput": "silentgems:moldavite_ore",
+    "chance": 0.2,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "silentgems:moldavite",
+    "mainOutputWeight": 0.5
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

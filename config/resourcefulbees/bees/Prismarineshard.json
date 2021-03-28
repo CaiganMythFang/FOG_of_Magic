@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 500,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#a2cfc0",
+    "primaryColor": "#a2cfc0",
+    "secondaryColor": "#529680",
+    "modelType": "NORMAL"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:gravel",
+    "mutationOutput": "minecraft:sea_lantern",
+    "chance": 0.1,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:prismarine_shard",
+    "mainOutputWeight": 0.7
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

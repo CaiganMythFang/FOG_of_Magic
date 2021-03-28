@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 500,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#b32f27",
+    "primaryColor": "#b32f27",
+    "secondaryColor": "#9a2821",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:grass",
+    "mutationOutput": "botania:red_petal_block",
+    "chance": 1.0,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botania:red_petal",
+    "mainOutputWeight": 1.0
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

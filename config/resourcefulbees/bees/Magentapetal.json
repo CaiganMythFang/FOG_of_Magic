@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 500,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#cb4fc1",
+    "primaryColor": "#cb4fc1",
+    "secondaryColor": "#91398a",
+    "modelType": "CROWN"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:grass",
+    "mutationOutput": "botania:magenta_petal_block",
+    "chance": 1.0,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botania:magenta_petal",
+    "mainOutputWeight": 1.0
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

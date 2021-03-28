@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1000,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#56fc09",
+    "primaryColor": "#56fc09",
+    "secondaryColor": "#258600",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "silents_mechanisms:bismuth_ore",
+    "chance": 0.5,
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botania:terrasteel_ingot",
+    "mainOutputWeight": 0.1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": false
+  },
+  "TraitData": {}
+}
