@@ -124,6 +124,42 @@
       "commandrewards": []
     },
     {
+      "uuid": "2834053b-d91f-4364-a701-e1d8f7840cfe",
+      "name": " The TFB Market",
+      "description": "    The TFB Market is available to buy and sell Diamonds, Emeralds, and all Silent\u0027s Gems.\n\n    So, what does TFB mean? Oh, just the name of one of my businesses, not to worry. ",
+      "x": 88,
+      "y": 50,
+      "icon": {
+        "id": "calemiutils:market",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "abd5fc0a-7318-48b4-b22d-70e02594a6d8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7829fb82-52e7-4513-b757-0917c0117302",
       "name": " About My Shop",
       "description": "    Excellent, welcome to my shop, Traveler. I\u0027ve got wares from all over, including what Kow says is your old world. \n    This stuff doesn\u0027t come cheap, however. Kow and I have to do a lot of magic rituals to get this stuff to work in your dimension.\n    The good news? Not only can you earn money by following Kow\u0027s instructions, but I\u0027ll also buy many things from you!",
