@@ -1,0 +1,595 @@
+{
+	id: "426D2970DF7AF360",
+	group: "",
+	order_index: 16,
+	filename: "the_pandas_and_the_bees",
+	title: "The Pandas and the Bees",
+	icon: "rats:rat_upgrade_bee",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "The Magic Farmer",
+			icon: "ars_nouveau:glyph_harvest",
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "&dMods: Resourceful Bees, Resource Pandas, and Resynth",
+			description: [
+				"&dTraveller, there is such magic in the air here that it suffuses many plants and creatures. Maybe with a bit of prodding from us, on top.",
+				"",
+				"What does that mean?",
+				"",
+				"&dDon't worry, nothing bad. It helps out Travellers like you. There are ways to not only GROW resources like Iron, but to take care of animals that create them, similarly to bees making honey.",
+				"",
+				"&dIn fact, that's one of the creatures that can help you : Bees!",
+				"",
+				"&dThere are also Pandas to take care of, and crops you can grow."
+			],
+			dependencies: ["0000000000000025"],
+			size: 1.25d,
+			id: "4D23EBD071F8A8DE",
+			tasks: [{
+				id: "564356C33837C763",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "5EF7B36931518BE4",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Achoo",
+			icon: "minecraft:bamboo",
+			x: 0.0d,
+			y: -1.25d,
+			shape: "square",
+			subtitle: "&dBig and Sneezey",
+			description: [
+				"Pandas are an interesting creature that roams the jungles here. I can't really tame it like I can a dog or cat, but I can entice it back to my farm with Bamboo.",
+				"",
+				"But the more interesting thing is, Pandas are magical enough that they can eat a wide variety of things. Things like ingots, gemstones, etc. If I say feed a Panda, say, a Diamond, it will start shaking as the magic kicks in.",
+				"",
+				"Then it turns into what Kow calls a Resource Panda.",
+				"",
+				"Once in a while, a Resource Panda will sneeze. And every sneeze may cause a burst of Creation Magic, making another of the item I had fed it earlier."
+			],
+			dependencies: ["4D23EBD071F8A8DE"],
+			id: "4FA9342C68CD6F7E",
+			tasks: [{
+				id: "0AF32B9D084986B9",
+				type: "item",
+				item: "minecraft:bamboo"
+			}],
+			rewards: [{
+				id: "3060905FA80FFD35",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Got Enough Change?",
+			icon: "vm:vending_machine",
+			x: 0.0d,
+			y: 1.25d,
+			shape: "square",
+			subtitle: "&dEnticing Deals",
+			description: [
+				"&dTraveller, my brother has some deals with local mages. They let him 'hide' his Vending Machines in villages.",
+				"",
+				"Wait, hide?",
+				"",
+				"&dWell, hidden in plain sight. Non-travellers only see them as constructs that sell magic curios. But you see them as actual Vending Machines, with the items he sells to the various magic users.",
+				"",
+				"Oh, what does he sell?",
+				"",
+				"&dThe very things this lesson is about : magic bees and magic crops.",
+				"",
+				"&dYou'll always want to have both Gold Dubloons and Forbidden Knowledge Coins. The Vending Machines have new stock every day in that world. ",
+				"",
+				"&dAlso, if you have a good pick with Silk Touch, you can bring them home..."
+			],
+			dependencies: ["4D23EBD071F8A8DE"],
+			id: "51444ED6D16DAB54",
+			tasks: [{
+				id: "17FBDCCAE470A0EF",
+				type: "item",
+				item: "vm:vending_machine"
+			}],
+			rewards: [{
+				id: "290CB0901D29043D",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Buzzy Busy Bees",
+			icon: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+				}
+			},
+			x: -1.25d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dTime to Bee a Bee Keeper",
+			description: [
+				"So magical beekeeping here is taking care of what the local mages call Resourceful Bees. They are a natural thing to come across while exploring.",
+				"",
+				"I can reference this book called.... sigh... 50 Shades of Bees, for a little bit of basic info. But Kow says the types of bees are very dependant on each world, so it never really lists specifics.",
+				"",
+				"It IS good for basic equipment knowledge. ",
+				"",
+				"But really, to get anywhere, I'm going to need to go exploring and find a couple of bees. I can Right Click an Empty Bee Jar on them to safely capture them and bring them home.",
+				"",
+				"I should... probably build a large enclosure for them. They like to fly around and get in trouble."
+			],
+			dependencies: ["4D23EBD071F8A8DE"],
+			id: "4AF1A75BF483B276",
+			tasks: [
+				{
+					id: "039A57F3EC99045F",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+						}
+					}
+				},
+				{
+					id: "6C8120C3B398A022",
+					type: "item",
+					item: "resourcefulbees:bee_jar"
+				}
+			],
+			rewards: [{
+				id: "41E0BDDE13A22530",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Bees and Honey",
+			icon: {
+				id: "resourcefulbees:smoker",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dSweet Success that Stings",
+			description: [
+				"Okay, now I got a couple bees, I need to set up a home for them.",
+				"",
+				"Beehives come in multiple tiers, each one better than the last. For now, a Tier 1 works fine. When I have it in place, I can Right click the filled Bee Jars near the Beehive, and the Bee should be released.",
+				"",
+				"Usually they pop into the nearest Hive to rest and get their bearings before flitting around.",
+				"",
+				"Speaking of, the area should have Flowers they like so they can feed. I can use JEI in my inventory to find and see what they like.",
+				"",
+				"Over time, the hive will fill with honey. When it hits Level 5, which I can see just by looking at it, I can use a Scraper to remove the honeycombs.",
+				"",
+				"Though, I should use a Bee Smoker on the Hive first, otherwise the bees will be very angry."
+			],
+			dependencies: ["4AF1A75BF483B276"],
+			id: "7B32D707FE306D3B",
+			tasks: [
+				{
+					id: "5B9264D0DA592357",
+					type: "item",
+					item: "resourcefulbees:t1_beehive"
+				},
+				{
+					id: "0D91FDB9B7B31AB7",
+					type: "item",
+					item: "resourcefulbees:scraper"
+				},
+				{
+					id: "266C3402640B8637",
+					type: "item",
+					item: {
+						id: "resourcefulbees:smoker",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "50F0C029B6D02318",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Always Bee Spinning",
+			icon: "resourcefulbees:centrifuge",
+			x: -3.75d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dA Lot to Keep Up With",
+			description: [
+				"Okay, I got Bees making honeycombs, just gotta keep clearing out the Honeycombs when it hits Honey level 5. I think better tiered hives or a dispenser can help.",
+				"",
+				"But anyways, now I can use the honeycombs. Like eat them! Or toss them into a Manual Centrifuge to turn them into resources.",
+				"",
+				"I'll need to put some Glass Bottles in with them, then Sneak + Right Click on the Manual Centrifuge to process.",
+				"",
+				"Though, I have enough to do with gathering bees, and honeycombs, so I should make a Honey Generator. This'll turn honey into RF energy, and power a normal Centrifuge to... wait, RF Energy? Technology? Kow?",
+				"",
+				"&dAh, yes. I made a deal with one of the quote unquote gods. They have a soft spot for these fuzzy little fliers.",
+				"",
+				"Well...who can blame them I guess."
+			],
+			dependencies: ["7B32D707FE306D3B"],
+			id: "6289D8D8C464B37C",
+			tasks: [
+				{
+					id: "47842CD537F3945E",
+					type: "item",
+					item: "resourcefulbees:mechanical_centrifuge"
+				},
+				{
+					id: "63ED38345BE85AEA",
+					type: "item",
+					item: "resourcefulbees:honey_generator"
+				},
+				{
+					id: "42BB587C5E30AF37",
+					type: "item",
+					item: "resourcefulbees:centrifuge"
+				}
+			],
+			rewards: [{
+				id: "5C888A64C5B02D9E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Better Beehives",
+			icon: "resourcefulbees:t3_beehive",
+			x: -5.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dMore Bees, More",
+			description: [
+				"I should think about making better beehives as I collect more bees. Not only do they hold more bees, they also hold more honey as well, so they should fill up slower.",
+				"",
+				"You know, theoretically, I'm also gathering even more bees."
+			],
+			dependencies: ["6289D8D8C464B37C"],
+			id: "1FF4F022242E03F4",
+			tasks: [
+				{
+					id: "5FB1D0AA72168A62",
+					type: "item",
+					item: "resourcefulbees:t2_beehive"
+				},
+				{
+					id: "3478C05000AABBF4",
+					type: "item",
+					item: "resourcefulbees:t3_beehive"
+				},
+				{
+					id: "5C6187A76C826CA9",
+					type: "item",
+					item: "resourcefulbees:t4_beehive"
+				}
+			],
+			rewards: [{
+				id: "2ACE2D7FCF0ECDCA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "A Bigger Centrifuge",
+			icon: "resourcefulbees:centrifuge_controller",
+			x: -5.0d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dKeeping Up with Production",
+			description: [
+				"The single Centrifuge isn't goign to keep up with all the bees I have. So many honeycombs!",
+				"",
+				"A bigger Centrifuge is in order. I need a bunch of Centrifuge Casings, and I should make a 3x3 base with them, then build it upwards until it is 4 blocks high.",
+				"",
+				"I then replace one of the center blocks 1 up from the base with the Controller. ",
+				"",
+				"Then I can pipe both items and energy in and out of any block of the machine except the Controller!"
+			],
+			dependencies: ["6289D8D8C464B37C"],
+			id: "2CB1BB8B731089B3",
+			tasks: [
+				{
+					id: "1B6659AB629905B3",
+					type: "item",
+					item: "resourcefulbees:centrifuge_controller"
+				},
+				{
+					id: "208D09011D0E7164",
+					type: "item",
+					item: "resourcefulbees:centrifuge_casing"
+				}
+			],
+			rewards: [{
+				id: "5BCB69CD2A482136",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Even Bigger!",
+			icon: "resourcefulbees:elite_centrifuge_controller",
+			x: -5.0d,
+			y: 2.25d,
+			shape: "square",
+			subtitle: "&dSo Much Bigger",
+			description: [
+				"Apparently there is an even better Centrifuge. It's fairly expensive though.",
+				"",
+				"Well worth it."
+			],
+			dependencies: ["2CB1BB8B731089B3"],
+			id: "117F4F0AEA0240BE",
+			tasks: [
+				{
+					id: "6A0596644D552597",
+					type: "item",
+					item: "resourcefulbees:elite_centrifuge_controller"
+				},
+				{
+					id: "6486B4EB6EE23375",
+					type: "item",
+					item: "resourcefulbees:elite_centrifuge_casing"
+				}
+			],
+			rewards: [{
+				id: "2E683149654DF7FD",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "A Bigger, Better Beehive",
+			icon: "resourcefulbees:t1_apiary",
+			x: -5.0d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dBee Hotel? Bee Condo? ",
+			description: [
+				"If I want to get properly serious with Resourceful Bee handling, I need to work towards making an Apiary. Yeah, it takes a Nether Star, but....",
+				"",
+				"Well, without an Apiary, I can't breed more bees. ",
+				"",
+				"I should check that Bees book for how to build the Apiary. At least theres a lot of nice looking blocks that work for it.",
+				"",
+				"I'll need to make sure its hollow, and the Apiary block itself is facing inside. I also need to place an Apiary Storage properly. And optionally an Apiary Breeder I guess."
+			],
+			dependencies: ["6289D8D8C464B37C"],
+			id: "19D58ECC23771BCF",
+			tasks: [
+				{
+					id: "212E490BF188C51D",
+					type: "item",
+					item: "resourcefulbees:t1_apiary"
+				},
+				{
+					id: "2E82749572D07150",
+					type: "item",
+					item: "resourcefulbees:apiary_storage"
+				},
+				{
+					id: "5EC0E497AC0C3C74",
+					type: "item",
+					item: "resourcefulbees:apiary_breeder"
+				}
+			],
+			rewards: [{
+				id: "18C29EE2292BD9B1",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "Apiary Improvements",
+			icon: "resourcefulbees:iron_storage_upgrade",
+			x: -5.0d,
+			y: -2.25d,
+			shape: "square",
+			subtitle: "&dMore space for more honeycombs!",
+			description: [
+				"With the Apiary up, I can improve it with a few things. One would be to improve the Apiary Storage space with an upgrade. ",
+				"",
+				"Another would be to upgrade the Apiary Breeder to help it work faster."
+			],
+			dependencies: ["19D58ECC23771BCF"],
+			id: "3F3102ECAACE0569",
+			tasks: [
+				{
+					id: "370DC717EB30BC2D",
+					type: "item",
+					item: "resourcefulbees:apiary_breed_time_upgrade"
+				},
+				{
+					id: "7FD09AA9A12F1FE5",
+					type: "item",
+					item: "resourcefulbees:iron_storage_upgrade"
+				}
+			],
+			rewards: [{
+				id: "1151C114973D31BF",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Growing Resources",
+			icon: {
+				id: "resynth:mineral_hoe",
+				Count: 1b,
+				tag: {
+					charges: 2
+				}
+			},
+			x: 2.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dGood Soil, Good Iron",
+			description: [
+				"To get started growing resource crops, I'll need to have the right kind of soil.",
+				"",
+				"I need to explore underground for a while, and keep my eye out for some Mineral Infused Stone. It will drop some Mineral Rock, which I'll need to make a Mineral Hoe.",
+				"",
+				"With this, I can Right Click it on some Dirt to make it Mineral Enriched. Resynth's Resource Crops will only grow on this soil.",
+				"",
+				"I can then plant the resource seeds, and keep it watered like normal farmland.",
+				"",
+				"Oh, I can add more Mineral Crystals to the soil by Right Clicking it on it, to speed up growth.",
+				"",
+				"I can also Right Click in the air with my Mineral Hoe to consume extra Mineral Crystals in my inventory to repair the Hoe."
+			],
+			dependencies: ["7773A2225EA40568"],
+			id: "09DCE460DD3461FA",
+			tasks: [
+				{
+					id: "264A406FC735F6BE",
+					type: "item",
+					item: "resynth:mineral_rock"
+				},
+				{
+					id: "3CB9291D962F035B",
+					type: "item",
+					item: {
+						id: "resynth:mineral_hoe",
+						Count: 1b,
+						tag: {
+							charges: 2
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "63BCB71C78629958",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Farm Enhancers",
+			icon: "resynth:calvinite_enhancer",
+			x: 3.75d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dBetter and Faster",
+			description: [
+				"Calvinite is a rare material I can find in the End, and Sylvanite is another one I can find in the End.",
+				"",
+				"Both of them are quite useful in making Resynth Enhancers.",
+				"",
+				"These blocks I place directly under Enriched Farmland to make it even richer and better.",
+				"",
+				"As a bonus, I can place a Hopper underneath the Enhancer to automatically pull resources from the Resynth plant."
+			],
+			dependencies: ["09DCE460DD3461FA"],
+			id: "4BADE456D899EAEF",
+			tasks: [
+				{
+					id: "529309CC152CE38E",
+					type: "item",
+					item: "resynth:calvinite_enhancer"
+				},
+				{
+					id: "1737DAD5A9D5C678",
+					type: "item",
+					item: "resynth:sylvanite_enhancer"
+				}
+			],
+			rewards: [{
+				id: "5D3A762ECB22A209",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "&dLesson Complete: Resynth, Resourceful Bees, Resource Pandas",
+			icon: "contenttweaker:forbiddencoin",
+			x: 5.25d,
+			y: -0.0892857142857153d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"4BADE456D899EAEF",
+				"4FA9342C68CD6F7E",
+				"51444ED6D16DAB54",
+				"3F3102ECAACE0569",
+				"1FF4F022242E03F4",
+				"117F4F0AEA0240BE"
+			],
+			size: 1.25d,
+			id: "00FE65712A224B11",
+			tasks: [{
+				id: "6AC94FBA40C8E3A2",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "22DF367E2CC3C499",
+				type: "item",
+				item: "contenttweaker:forbiddencoin"
+			}]
+		},
+		{
+			title: "Magic Beans",
+			icon: "resynth:metallic_seeds_iron",
+			x: 1.25d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dYou mean Seeds",
+			description: [
+				"Resynth seeds are an intriguing thing. They are condensed magics of creation and life. Sort of.",
+				"",
+				"It's hard to explain.",
+				"",
+				"&dNot really. You plant seed, you grow iron. Pretty simple.",
+				"",
+				"I... nevermind! So, most Resynth seeds can be gotten by either harvesting the related block (ore for metals, etc), hunt the related monster (spiders for string), or doing something like...",
+				"",
+				"Blow Up Iron Ore with TNT. This has a chance of turning it into Iron Ingot Seeds."
+			],
+			dependencies: ["4D23EBD071F8A8DE"],
+			id: "7773A2225EA40568",
+			tasks: [{
+				id: "5B051C5934F3CB07",
+				type: "item",
+				item: "resynth:metallic_seeds_iron"
+			}],
+			rewards: [{
+				id: "2A436D349A3A1DA5",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		}
+	]
+}
