@@ -1,6 +1,9 @@
 
 #General settings
 [general]
+	#How often Wilden Hunter spawn
+	#Range: 0 ~ 200
+	whunterWeight = 50
 	#How often Sylphs spawn
 	#Range: 0 ~ 100
 	sylphWeight = 5
@@ -8,8 +11,14 @@
 	genOre = true
 	#Spawn a book in the players inventory on login
 	spawnBook = false
+	#How often Wilden Stalkers spawn
+	#Range: 0 ~ 200
+	wstalkerWeight = 50
 	#Spawn Mana Berry Bushes in the world
 	genBerries = true
+	#How often Wilden Guardians spawn
+	#Range: 0 ~ 200
+	wguardianWeight = 50
 	#Rate of tree spawn per chunk
 	#Range: 0.0 ~ 1.0
 	genTrees = 0.002
@@ -75,6 +84,8 @@
 	crush = true
 	#Smelt enabled?
 	smelt = true
+	#Summon Steed enabled?
+	summon_steed = true
 	#Accelerate enabled?
 	accelerate = true
 	#Summon Vex enabled?
@@ -101,6 +112,8 @@
 	exchange = true
 	#Place Block enabled?
 	place_block = true
+	#Summon Wolves enabled?
+	summon_wolves = true
 	#Shield enabled?
 	shield = true
 	#Conjure Water enabled?
@@ -294,6 +307,9 @@
 	#Duration Down cost
 	#Range: > -2147483648
 	duration_down_cost = 15
+	#Summon Wolves cost
+	#Range: > -2147483648
+	summon_wolves_cost = 100
 	#Light cost
 	#Range: > -2147483648
 	light_cost = 25
@@ -330,6 +346,9 @@
 	#Amplify cost
 	#Range: > -2147483648
 	amplify_cost = 20
+	#Summon Steed cost
+	#Range: > -2147483648
+	summon_steed_cost = 100
 	#Lightning cost
 	#Range: > -2147483648
 	lightning_cost = 50
