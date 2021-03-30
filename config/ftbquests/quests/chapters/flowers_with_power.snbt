@@ -1592,7 +1592,13 @@
 				{
 					id: "00000000000002E9",
 					type: "item",
-					item: "botania:elementium_shears"
+					item: {
+						id: "botania:elementium_shears",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			],
 			rewards: [{

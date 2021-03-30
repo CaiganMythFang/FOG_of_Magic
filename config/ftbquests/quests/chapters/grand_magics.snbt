@@ -1347,16 +1347,7 @@
 		},
 		{
 			title: "Spell - A Pact",
-			icon: {
-				id: "treasurebags:treasure_bag",
-				Count: 1b,
-				tag: {
-					silentlib.LootContainer: {
-						LootTable: "treasurebags:bags/nature",
-						BagType: "treasurebags:nature"
-					}
-				}
-			},
+			icon: "botania:world_seed",
 			x: -0.75d,
 			y: 0.5d,
 			shape: "square",
@@ -1575,7 +1566,7 @@
 		},
 		{
 			title: "Spell - My Pain is Yours",
-			icon: "productivebees:honeycomb_bloody",
+			icon: "resourcefulbees:apple_honeycomb",
 			x: -7.75d,
 			y: -2.5d,
 			shape: "square",

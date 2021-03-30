@@ -1,0 +1,13 @@
+{
+  "displayName": {
+    "text": "Astral Notes Bag"
+  },
+  "lootTable": "fom_bags:bags/astral_notes",
+  "rarity": "common",
+  "bagColor": "blanchedalmond",
+  "bagOverlayColor": "#D3D3D3",
+  "bagStringColor": "dodgerblue",
+  "dropsFromGroups": [
+    "boss"
+  ]
+}
