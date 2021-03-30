@@ -282,7 +282,7 @@
 				"",
 				"I don't understand.",
 				"",
-				"&dWell, this dimension? It kind of lacks &dthose luxuries, right? Lot of magic, &dnot a lot of tech. My brother can fix &dthat for you.",
+				'&dWell, this dimension? The "Gods" are mysterious, and have decided to disable technology. My brother and I, however, can help you.',
 				"",
 				"Let me guess, for a price?",
 				"",
@@ -351,7 +351,9 @@
 				"",
 				"&dHere and there, but I'll make you a &ddeal. I'll reward you for following my &dlessons, and occasionally give you &dtasks for extra money. Deal?",
 				"",
-				"I don't quite trust you, but I guess I got little choice?"
+				"I don't quite trust you, but I guess I got little choice?",
+				"",
+				"&dExcellent. Welcome to the F.O.G. of Magic school, Traveller!"
 			],
 			dependencies: [
 				"000000000000001E",
@@ -458,6 +460,34 @@
 			id: "79027204AE910CFA",
 			tasks: [{
 				id: "422FC4F7685FD1B4",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Wait, what?",
+			icon: "ftbquests:missing_item",
+			x: 1.0d,
+			y: 7.0d,
+			subtitle: "&dYou heard me.",
+			description: [
+				"What the heck does F.O.G. mean?",
+				"",
+				"&dWell, since it's, as I said, the quote unquote GODS messing with technology, I decided to name the school F.O.G.",
+				"",
+				"Again, which means....",
+				"",
+				"&dWell, F Off Gods of Magic.",
+				"",
+				".........really?",
+				"",
+				"&dNah, it means whatever you want it to mean. Or does it?",
+				"",
+				"We'll get along like a house on fire..."
+			],
+			dependencies: ["0000000000000025"],
+			id: "5F37DF7067EEC6B3",
+			tasks: [{
+				id: "1C60314A92FAC2AD",
 				type: "checkmark"
 			}]
 		}
