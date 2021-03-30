@@ -1185,37 +1185,6 @@
 				item: "calemiutils:coin_dollar",
 				count: 5
 			}]
-		},
-		{
-			title: "Old School Mapping",
-			icon: "antiqueatlas:empty_antique_atlas",
-			x: 3.0d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dMod: Antique Atlas",
-			description: [
-				"So, I know my tablet has this nice little minimap in the corner, but it kind of lacks in style, you know?",
-				"",
-				"And a normal paper map is a bit finicky about adding waypoints to it.",
-				"",
-				"So, the Antique Atlas! Its charming and old school and yet new school... or magic school? Something like that.",
-				"",
-				"I just think it's neat."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "2C1ACCC4508370CA",
-			tasks: [{
-				id: "4A8D45A9ED7649E2",
-				type: "item",
-				item: "antiqueatlas:empty_antique_atlas"
-			}],
-			rewards: [{
-				id: "4B46CB577C41B390",
-				type: "item",
-				item: "calemiutils:coin_dollar",
-				count: 15
-			}]
 		}
 	]
 }
