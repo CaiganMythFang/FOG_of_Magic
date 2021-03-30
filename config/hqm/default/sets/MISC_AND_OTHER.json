@@ -43,8 +43,8 @@
       "uuid": "cb89f4a2-b1b9-4a0e-bc95-12c0a4774de4",
       "name": " Fae Essence (Buy)",
       "description": "    Fae Essence is a magical material needed by Mahou Tsukai users. It can sometimes be quite hard to find in world, but we have a little supply we collect for sale.",
-      "x": 24,
-      "y": 20,
+      "x": 23,
+      "y": 16,
       "icon": {
         "id": "mahoutsukai:fae_essence",
         "Count": 1
@@ -81,8 +81,8 @@
       "uuid": "d402f3ea-e160-484e-8907-7f7071d5097f",
       "name": " Subspatial Key",
       "description": "    The Subspatial Key is... very interesting. My sister can explain how to use it. You can find it in Strongholds in your world though, but its fairly rare.",
-      "x": 50,
-      "y": 21,
+      "x": 49,
+      "y": 16,
       "icon": {
         "id": "subpocket:key",
         "Count": 1

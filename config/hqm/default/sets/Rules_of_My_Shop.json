@@ -20,6 +20,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "574af794-d6de-495e-a197-f43290b82301",
+      "name": " Snow Globe Gamble",
+      "description": "    So, according to my sister, some crazy chaos mage couldn\u0027t decide what to build his wizard house out of, so he invented this thing.\n    The Chance Globe, when you place it down, can become almost ANY block in the world after about 10 seconds.\n    There\u0027s a good chance you\u0027ll just get stone or wood. But you may just get a block of Diamond, yeah?",
+      "x": 84,
+      "y": 144,
+      "bigicon": true,
+      "icon": {
+        "id": "chanceglobe:chance_globe",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "chanceglobe:chance_globe",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "a2289bd8-3cae-4c58-90d5-0a64cd39402d",
       "name": " Forbidden Knowledge Coin",
       "description": "    So Traveler. My sister and I came up with a good way to... incentivize you into both completing her lessons, and in selling resources to me.\n   They are called Forbidden Knowledge Coins. \n    You can complete each lesson for one of these coins. Or you can earn money, and buy them from me directly. \n    You can then spend these Forbidden Knowledge Coins to have us Unlock Lost Knowledge for you. Each Lost Knowledge Unlock costs a different amount of Coins, so keep working hard!",
@@ -154,6 +192,46 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d98ceef6-f883-4eaa-bf4a-61fd5e0b8a84",
+      "name": " Interdimensional Gamble",
+      "description": "    So one of the products I just got my hands on is a bit interesting.\n   The TFB Captain\u0027s Blind Box seems to contain one item out of over a thousand options. 99% of the items fall under the following criteria : white, pink, purple, gemstone, sushi.\n    Where is it from? What is TFB? I\u0027ll leave those a mystery for now, Traveller!",
+      "x": 28,
+      "y": 144,
+      "bigicon": true,
+      "icon": {
+        "id": "lootbagmod:lootbag",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "    Monsters also drop these things rarely, so keep an eye out for them! They like to gamble too, you know!",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "lootbagmod:lootbag",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
