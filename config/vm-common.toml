@@ -48,7 +48,7 @@ Minable = false
 	CommonUses = 2
 	#Uncommon Uses
 	#Range: 0 ~ 32
-	UncommonUses =2
+	UncommonUses = 2
 	#Common Cost
 	#Range: 0 ~ 64
 	CommonCost = 30
