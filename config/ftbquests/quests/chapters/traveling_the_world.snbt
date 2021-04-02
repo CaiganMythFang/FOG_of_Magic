@@ -22,7 +22,9 @@
 				"",
 				"I... mean something less obvious, Kow.",
 				"",
-				"&dBe vigilant. Here, I'll give you an Antique Atlas, it'd be good to mark down interesting things you find for later.",
+				"&dBe vigilant. [Here, I'll give you an Antique Atlas, it'd be good to mark down interesting things you find for later.]",
+				"",
+				"&6Antique Atlas is currently removed, but will come back in an update!]",
 				"",
 				"&6This quest page is for small mods, centered around exploration, combat, etc"
 			],
@@ -32,11 +34,6 @@
 			tasks: [{
 				id: "2419F1923BC2E755",
 				type: "checkmark"
-			}],
-			rewards: [{
-				id: "56D2B8D15DB12CEE",
-				type: "item",
-				item: "antiqueatlas:empty_antique_atlas"
 			}]
 		},
 		{
@@ -73,9 +70,8 @@
 		{
 			title: "Magical World",
 			icon: "losttrinkets:tha_wizard",
-			x: 1.75d,
-			y: -4.0d,
-			shape: "square",
+			x: -0.6964285714285694d,
+			y: -0.4464285714285694d,
 			subtitle: "&dMod: Lost Trinkets",
 			description: [
 				"&dTraveler, since you have a knack of magic, this dimension will benefit you more than you think.",
@@ -337,8 +333,8 @@
 		{
 			title: "Quick Naps",
 			icon: "comforts:sleeping_bag_purple",
-			x: 4.0d,
-			y: -1.5d,
+			x: 3.0d,
+			y: -2.75d,
 			shape: "square",
 			subtitle: "&dMod: Comforts",
 			description: [
@@ -560,7 +556,8 @@
 			rewards: [{
 				id: "00000000000001EA",
 				type: "item",
-				item: "calemiutils:coin_dollar"
+				item: "calemiutils:coin_dollar",
+				count: 15
 			}]
 		},
 		{
@@ -594,7 +591,7 @@
 		{
 			title: "PACK NOTES 4",
 			icon: "ars_nouveau:belt_of_unstable_gifts",
-			x: 0.0d,
+			x: 0.25d,
 			y: -2.25d,
 			shape: "gear",
 			subtitle: "&dCurios Accessories",
@@ -622,7 +619,7 @@
 			title: "Digging These Arrows",
 			icon: "minecraft:fletching_table",
 			x: -3.25d,
-			y: -3.0d,
+			y: -2.75d,
 			shape: "square",
 			subtitle: "&dMod: Apotheosis",
 			description: [
@@ -665,7 +662,7 @@
 			title: "Magical Summoning Malarky",
 			icon: "minecraft:spawner",
 			x: -4.25d,
-			y: -3.0d,
+			y: -2.75d,
 			shape: "square",
 			subtitle: "&dA dangerous game",
 			description: [
@@ -702,7 +699,7 @@
 				}
 			},
 			x: -3.25d,
-			y: -4.0d,
+			y: -3.75d,
 			shape: "square",
 			subtitle: "&dEasy to ration",
 			description: [
@@ -713,14 +710,14 @@
 			dependencies: ["00000000000001D0"],
 			id: "00000000000001D5",
 			tasks: [{
-				id: "00000000000001D6",
+				id: "03304611992BE05D",
 				type: "item",
+				title: "Any Potion Charm",
 				item: {
 					id: "apotheosis:potion_charm",
 					Count: 1b,
 					tag: {
-						Damage: 0,
-						Potion: "minecraft:night_vision"
+						Damage: 0
 					}
 				}
 			}],
@@ -1036,8 +1033,8 @@
 		{
 			title: "At Least One Red Balloon",
 			icon: "bountifulbaubles:balloon",
-			x: 3.0d,
-			y: -2.75d,
+			x: 1.75d,
+			y: -4.0d,
 			shape: "square",
 			subtitle: "&dMod: Bountiful Baubles",
 			description: [
@@ -1181,6 +1178,103 @@
 			}],
 			rewards: [{
 				id: "38DF115645578631",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "A Loot of My Own",
+			icon: "lootr:lootr_chest",
+			x: 0.25d,
+			y: -1.0d,
+			shape: "gear",
+			subtitle: "&dMod: Lootr",
+			description: [
+				"&dTraveller, you may notice that some chests, like at the top of the dangerous towers called Towers of the Wild, are edged with gold or silver.",
+				"",
+				"Yeah, what's that about?",
+				"",
+				"&dYou see, with magic comes adventuring. And the quote unquote Gods watch these adventurers like a game. But they feel its only fair if every one of them gets rewarded.",
+				"",
+				"&dSo these are Loot Chests. When the chest is Gold, you have not opened it yet. The possibilities inside are infinite.",
+				"",
+				"&dIf it is Silver? You have already looked inside."
+			],
+			dependencies: ["66191B31820EAEC9"],
+			id: "270FBF89888F66E0",
+			tasks: [{
+				id: "59D093001D356D34",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "32409EFD052B8734",
+				type: "item",
+				item: "calemiutils:coin_dollar"
+			}]
+		},
+		{
+			title: "For the Crows",
+			icon: "minecraft:carved_pumpkin",
+			x: 2.75d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dFlying Pains",
+			description: [
+				"So, I noticed my dang crops were being eaten by birds. Again.",
+				"",
+				"&dTraveller, might I suggest a scary visage to keep them away?",
+				"",
+				"I'm not sure crows in this world really fall for the whole scarecrow thing.",
+				"",
+				"&dNo, but a carved pumpkin scares them. For good reason.",
+				"",
+				"Wait, what reason?",
+				"",
+				"&dYou'll find out. You can easily carve a pumpkin by setting it out, and Right Clicking some Shears onto it. Scary, huh?",
+				"",
+				"WHY are they scary for a good reason?!"
+			],
+			dependencies: ["00000000000001CD"],
+			id: "0407BFB681E81350",
+			tasks: [{
+				id: "4E07D8C8CBD23747",
+				type: "item",
+				item: "minecraft:carved_pumpkin"
+			}],
+			rewards: [{
+				id: "77555B1B642B4093",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Around the World",
+			icon: "supplementaries:globe",
+			x: -0.6964285714285623d,
+			y: -2.5714285714285694d,
+			subtitle: "&dMod: FTB Chunks",
+			description: [
+				"&dSo you've probably noticed I've... expanded... the use of that Map app from your Smartphone, into your Journal as well.",
+				"",
+				"Oh right. There's not GPS here so I figured it was something magical.",
+				"",
+				"&dYou're welcome. You can hit M to open up a bigger map. Right Click on the map to set waypoints, helps mark out important areas.",
+				"",
+				"&dYou can also Right Click on waypoints already there to edit them, or delete them.",
+				"",
+				"&dAs well, if you are in a world with other Travellers, you may want to 'claim' sections of land. In the upper left is a Claim Land button. You can claim sections of land, so that only you and your Allies (another button up there) can build or interact there."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "17491114D344EBD8",
+			tasks: [{
+				id: "02E7271AFB88F99D",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "37B7E75379D59212",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
