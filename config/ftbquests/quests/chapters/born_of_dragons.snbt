@@ -52,13 +52,7 @@
 				{
 					id: "000000000000033E",
 					type: "item",
-					item: {
-						id: "iceandfire:bestiary",
-						Count: 1b,
-						tag: {
-							Pages: [I;0]
-						}
-					}
+					item: "iceandfire:bestiary"
 				}
 			],
 			rewards: [{
@@ -103,12 +97,26 @@
 				{
 					id: "0000000000000344",
 					type: "item",
-					item: "iceandfire:sapphire_gem"
+					title: "Sapphire",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:gems/sapphire"
+						}
+					}
 				},
 				{
 					id: "0000000000000345",
 					type: "item",
-					item: "iceandfire:silver_ingot"
+					title: "Silver Ingot",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
 				}
 			],
 			rewards: [{

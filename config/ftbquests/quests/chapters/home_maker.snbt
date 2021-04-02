@@ -790,15 +790,7 @@
 				{
 					id: "0000000000000332",
 					type: "item",
-					item: {
-						id: "doggytalents:wool_collar",
-						Count: 1b,
-						tag: {
-							display: {
-								color: 16777215
-							}
-						}
-					}
+					item: "doggytalents:wool_collar"
 				},
 				{
 					id: "0000000000000333",
@@ -859,7 +851,7 @@
 		{
 			title: "Market Forces",
 			icon: "calemiutils:market",
-			x: -1.0d,
+			x: -1.4464285714285694d,
 			y: -4.75d,
 			shape: "square",
 			subtitle: "&dMod : Calemi Utils",
@@ -1276,8 +1268,7 @@
 							Parent: []
 						},
 						id: "inventorypets:feed_bag",
-						Count: 1b,
-						tag: {}
+						Count: 1b
 					}
 				}
 			],
@@ -2766,6 +2757,76 @@
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 15
+			}]
+		},
+		{
+			title: "Nearly Bottomless Wallet",
+			icon: {
+				id: "calemiutils:wallet",
+				Count: 1b,
+				tag: {}
+			},
+			x: -0.4464285714285694d,
+			y: -4.75d,
+			shape: "square",
+			subtitle: "&dBut mostly empty...",
+			description: [
+				"&dTraveller, if you haven't yet, talk to my brother Kai. He'll give you a wallet for fairly cheap.",
+				"",
+				'"Give" and "Cheap" tend not to go in the same sentence.',
+				"",
+				"&dHeh. The wallet is quite helpful to you. You can carry it as a Curios, in a special spot just for your Wallet. If you die, your Wallet goes with you when you reappear.",
+				"",
+				"Okay that's handy.",
+				"",
+				"&dYou can open your wallet by hitting Shift+G. Put in and take out coins easily this way. And interacting with a Trading Post or Market will take it from your Wallet. Oh, and when taking coins out by hand? You can hold Shift or Ctrl to get larger stacks.",
+				"",
+				"Okay that's super handy. I still say those two words don't go together here.",
+				"",
+				"&dFair enough. "
+			],
+			dependencies: ["00000000000003A8"],
+			id: "2D2638DF22193F08",
+			tasks: [{
+				id: "14602A6A1CBC3DA5",
+				type: "item",
+				item: "calemiutils:wallet"
+			}],
+			rewards: [{
+				id: "63800A3FC92D0735",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			x: -0.9821428571428612d,
+			y: -1.4285714285714306d,
+			subtitle: "&dMod: Polymorph",
+			description: [
+				"&dTraveller, when you are crafting things, you may notice an icon appear above the 'result'.",
+				"",
+				"&dBefore you finish crafting the item, I suggest clicking this, it is actually a button.",
+				"",
+				"Hm, I was wondering about that. What does it do?",
+				"",
+				"&dSome recipes have very very similar crafting recipes (you could say they are identical...) to others. Like, say, turning Coal into Coal Nuggets. There's two kinds of Nugget you can make. ",
+				"",
+				"Ah, I get it. This way, I can choose which of the items to make. "
+			],
+			dependencies: ["00000000000000F4"],
+			id: "1F797954256D1338",
+			tasks: [{
+				id: "547F2C2C0DABD0E9",
+				type: "checkmark",
+				title: "A Million Ways",
+				icon: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "6ED1C12AF588B388",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
 			}]
 		}
 	]

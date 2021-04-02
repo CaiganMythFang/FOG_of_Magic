@@ -462,9 +462,9 @@
 				"",
 				"With this, I can Right Click it on some Dirt to make it Mineral Enriched. Resynth's Resource Crops will only grow on this soil.",
 				"",
-				"I can then plant the resource seeds, and keep it watered like normal farmland.",
+				"I can then plant the resource seeds. No need for water!",
 				"",
-				"Oh, I can add more Mineral Crystals to the soil by Right Clicking it on it, to speed up growth.",
+				"&dTraveller, the seed will grow VERY slowly unless you add as much Mineral Rock as you can to the Soil by Right Clicking it onto it.",
 				"",
 				"I can also Right Click in the air with my Mineral Hoe to consume extra Mineral Crystals in my inventory to repair the Hoe."
 			],
@@ -479,13 +479,7 @@
 				{
 					id: "3CB9291D962F035B",
 					type: "item",
-					item: {
-						id: "resynth:mineral_hoe",
-						Count: 1b,
-						tag: {
-							charges: 2
-						}
-					}
+					item: "resynth:mineral_hoe"
 				}
 			],
 			rewards: [{
@@ -503,6 +497,8 @@
 			shape: "square",
 			subtitle: "&dBetter and Faster",
 			description: [
+				"Mineral Enriched Soil can only hold so much of the Mineral Rock before it's saturated and I need something else to boost it further.",
+				"",
 				"Calvinite is a rare material I can find in the End, and Sylvanite is another one I can find in the End.",
 				"",
 				"Both of them are quite useful in making Resynth Enhancers.",

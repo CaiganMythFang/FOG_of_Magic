@@ -470,11 +470,7 @@
 				{
 					id: "000000000000013B",
 					type: "item",
-					item: {
-						id: "ars_nouveau:spell_parchment",
-						Count: 1b,
-						tag: {}
-					}
+					item: "ars_nouveau:spell_parchment"
 				}
 			],
 			rewards: [{
@@ -510,11 +506,7 @@
 				{
 					id: "000000000000013E",
 					type: "item",
-					item: {
-						id: "ars_nouveau:warp_scroll",
-						Count: 1b,
-						tag: {}
-					},
+					item: "ars_nouveau:warp_scroll",
 					count: 2L,
 					consume_items: true
 				},
@@ -815,11 +807,7 @@
 				{
 					id: "000000000000015D",
 					type: "item",
-					item: {
-						id: "ars_nouveau:dominion_wand",
-						Count: 1b,
-						tag: {}
-					}
+					item: "ars_nouveau:dominion_wand"
 				},
 				{
 					id: "000000000000015E",
@@ -977,20 +965,12 @@
 				{
 					id: "000000000000016F",
 					type: "item",
-					item: {
-						id: "ars_nouveau:deny_scroll",
-						Count: 1b,
-						tag: {}
-					}
+					item: "ars_nouveau:deny_scroll"
 				},
 				{
 					id: "0000000000000170",
 					type: "item",
-					item: {
-						id: "ars_nouveau:allow_scroll",
-						Count: 1b,
-						tag: {}
-					}
+					item: "ars_nouveau:allow_scroll"
 				}
 			],
 			rewards: [{
@@ -1023,11 +1003,7 @@
 			tasks: [{
 				id: "0000000000000173",
 				type: "item",
-				item: {
-					id: "ars_nouveau:void_jar",
-					Count: 1b,
-					tag: {}
-				}
+				item: "ars_nouveau:void_jar"
 			}],
 			rewards: [{
 				id: "0000000000000174",

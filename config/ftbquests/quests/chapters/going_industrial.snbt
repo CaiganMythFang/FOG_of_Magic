@@ -59,7 +59,7 @@
 							Parent: {
 								Memory: [],
 								Battery: 0,
-								Time: 1342
+								Time: 0
 							}
 						},
 						id: "psi:cad",
@@ -566,11 +566,7 @@
 				{
 					id: "555B5CEF12BFEF72",
 					type: "item",
-					item: {
-						id: "psi:vector_ruler",
-						Count: 1b,
-						tag: {}
-					}
+					item: "psi:vector_ruler"
 				},
 				{
 					id: "1FABB63EA9B6D28F",

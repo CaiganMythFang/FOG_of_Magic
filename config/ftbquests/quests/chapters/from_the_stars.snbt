@@ -33,7 +33,14 @@
 				{
 					id: "00000000000001F0",
 					type: "item",
-					item: "astralsorcery:aquamarine",
+					title: "Any #forge:gems/aquamarine",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:gems/aquamarine"
+						}
+					},
 					count: 2L
 				},
 				{
@@ -92,13 +99,7 @@
 				{
 					id: "00000000000001F5",
 					type: "item",
-					item: {
-						id: "astralsorcery:rock_crystal",
-						Count: 1b,
-						tag: {
-							astralsorcery: {}
-						}
-					}
+					item: "astralsorcery:rock_crystal"
 				},
 				{
 					id: "00000000000001F7",
@@ -109,7 +110,8 @@
 			rewards: [{
 				id: "00000000000001F6",
 				type: "item",
-				item: "calemiutils:coin_dollar"
+				item: "calemiutils:coin_dollar",
+				count: 10
 			}]
 		},
 		{
@@ -347,9 +349,7 @@
 						id: "astralsorcery:resonator",
 						Count: 1b,
 						tag: {
-							astralsorcery: {
-								upgrades: [0]
-							}
+							astralsorcery: {}
 						}
 					}
 				},
@@ -455,7 +455,7 @@
 				{
 					id: "0000000000000217",
 					type: "item",
-					item: "astralsorcery:wand"
+					item: "astralsorcery:linking_tool"
 				}
 			],
 			rewards: [{
@@ -568,32 +568,6 @@
 					id: "astralsorcery:crystal_pickaxe",
 					Count: 1b,
 					tag: {
-						astralsorcery: {
-							crystalProperties: {
-								attributes: [
-									{
-										property: "astralsorcery:size",
-										pLevel: 4,
-										discovered: 1b
-									},
-									{
-										property: "astralsorcery:purity",
-										pLevel: 2,
-										discovered: 1b
-									},
-									{
-										property: "astralsorcery:shape",
-										pLevel: 3,
-										discovered: 1b
-									},
-									{
-										property: "astralsorcery:collector.rate",
-										pLevel: 1,
-										discovered: 1b
-									}
-								]
-							}
-						},
 						Damage: 0
 					}
 				}

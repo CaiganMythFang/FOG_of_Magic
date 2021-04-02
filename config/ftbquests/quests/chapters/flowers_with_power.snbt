@@ -34,11 +34,7 @@
 			tasks: [{
 				id: "000000000000024A",
 				type: "item",
-				item: {
-					id: "botania:lexicon",
-					Count: 1b,
-					tag: {}
-				}
+				item: "botania:lexicon"
 			}],
 			rewards: [{
 				id: "000000000000024B",
@@ -635,11 +631,7 @@
 				{
 					id: "000000000000028B",
 					type: "item",
-					item: {
-						id: "botania:swap_ring",
-						Count: 1b,
-						tag: {}
-					}
+					item: "botania:swap_ring"
 				},
 				{
 					id: "000000000000028C",

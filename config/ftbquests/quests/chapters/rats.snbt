@@ -44,7 +44,7 @@
 				id: "0000000000000032",
 				type: "item",
 				item: "calemiutils:coin_dollar",
-				count: 2
+				count: 5
 			}]
 		},
 		{
@@ -90,7 +90,7 @@
 				id: "0000000000000034",
 				type: "item",
 				item: "calemiutils:coin_dollar",
-				count: 3
+				count: 5
 			}]
 		},
 		{
@@ -120,7 +120,7 @@
 				id: "0000000000000037",
 				type: "item",
 				item: "calemiutils:coin_dollar",
-				count: 10
+				count: 20
 			}]
 		},
 		{
@@ -149,31 +149,19 @@
 				{
 					id: "0000000000000039",
 					type: "item",
-					item: {
-						id: "rats:cheese_stick",
-						Count: 1b,
-						tag: {}
-					},
+					item: "rats:cheese_stick",
 					consume_items: false
 				},
 				{
 					id: "000000000000003A",
 					type: "item",
-					item: {
-						id: "rats:rat_whistle",
-						Count: 1b,
-						tag: {}
-					},
+					item: "rats:rat_whistle",
 					consume_items: false
 				},
 				{
 					id: "000000000000003B",
 					type: "item",
-					item: {
-						id: "rats:rat_flute",
-						Count: 1b,
-						tag: {}
-					},
+					item: "rats:rat_flute",
 					consume_items: false
 				}
 			],
@@ -181,7 +169,7 @@
 				id: "000000000000003C",
 				type: "item",
 				item: "calemiutils:coin_dollar",
-				count: 3
+				count: 10
 			}]
 		},
 		{
@@ -328,7 +316,13 @@
 					},
 					count: 10L
 				}
-			]
+			],
+			rewards: [{
+				id: "5570F74A971A7E3A",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
 		},
 		{
 			title: "Rodent Upgrades",
@@ -815,6 +809,12 @@
 				id: "000000000000007B",
 				type: "item",
 				item: "rats:air_raid_siren"
+			}],
+			rewards: [{
+				id: "040CBC430F380906",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
 			}]
 		},
 		{
@@ -841,7 +841,7 @@
 				id: "0000000000000080",
 				type: "item",
 				item: "calemiutils:coin_dollar",
-				count: 10
+				count: 20
 			}]
 		},
 		{
