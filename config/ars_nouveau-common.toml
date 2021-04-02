@@ -1,12 +1,18 @@
 
 #General settings
 [general]
+	#Should the Wilden Stalker attack animals?
+	stalkerHuntsAnimals = false
+	#Should the Wilden Defender attack animals?
+	defenderHuntsAnimals = false
 	#How often Wilden Hunter spawn
 	#Range: 0 ~ 200
 	whunterWeight = 50
 	#How often Sylphs spawn
 	#Range: 0 ~ 100
 	sylphWeight = 5
+	#Should the Wilden Hunter attack animals?
+	hunterHuntsAnimals = true
 	#Spawn Arcane Ore in the world
 	genOre = true
 	#Spawn a book in the players inventory on login
