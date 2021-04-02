@@ -2828,6 +2828,18 @@
 				item: "calemiutils:coin_dollar",
 				count: 5
 			}]
+		},
+		{
+			x: -6.75d,
+			y: -2.5d,
+			shape: "square",
+			dependencies: ["00000000000000F4"],
+			id: "3455E9A81F78D811",
+			tasks: [{
+				id: "45490B5BC509CFF6",
+				type: "item",
+				item: "opf:opf"
+			}]
 		}
 	]
 }
