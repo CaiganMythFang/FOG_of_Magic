@@ -6,7 +6,6 @@ import crafttweaker.api.util.text.MCStyle;
 mods.recipestages.Recipes.setRecipeStageByMod("lost_knowledge_pneumaticcraft", "pneumaticcraft");
 
 <item:pneumaticcraft:bandage>.addTooltip("§4Lost Knowledge - Pneumaticraft");
-<item:patchouli:guide_book>.addTooltip("§4Lost Knowledge - Pneumaticraft");
 <item:pneumaticcraft:reinforced_stone>.addTooltip("§4Lost Knowledge - Pneumaticraft");
 <item:pneumaticcraft:pressure_tube>.addTooltip("§4Lost Knowledge - Pneumaticraft");
 <item:pneumaticcraft:compressed_iron_block>.addTooltip("§4Lost Knowledge - Pneumaticraft");
