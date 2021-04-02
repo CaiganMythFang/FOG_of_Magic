@@ -463,17 +463,6 @@
 					id: "00000000000003EE",
 					type: "item",
 					item: "eidolon:straw_effigy"
-				},
-				{
-					id: "00000000000003F0",
-					type: "item",
-					item: {
-						id: "eidolon:codex",
-						Count: 1b,
-						tag: {
-							sign: "eidolon:wicked"
-						}
-					}
 				}
 			],
 			rewards: [{
