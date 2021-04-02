@@ -33,7 +33,7 @@
 				"",
 				"See, already with the twists!",
 				"",
-				"&dJust a bit. Let a monster hit you, or use a special Dagger to let a little blood. The hit Ctrl + M to activate your Mahou."
+				"&dJust a bit. Let a monster hit you, or use a special Dagger to let a little blood. The hit the J key to draw a magic circle on the ground and activate your Mahou."
 			],
 			dependencies: ["0000000000000025"],
 			id: "6E08CF4A07A0CE12",
