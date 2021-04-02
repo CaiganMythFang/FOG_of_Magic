@@ -21,8 +21,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:bismuth_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -32,7 +33,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -96,8 +97,9 @@
             {
               "item": {
                 "id": "aquaculture:neptunium_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -107,7 +109,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 20
         }
       ],
       "rewardchoice": [],
@@ -171,8 +173,9 @@
             {
               "item": {
                 "id": "create:zinc_ingot",
-                "Count": 1
+                "Count": 5
               },
+              "required": 5,
               "precision": "NBT_FUZZY"
             }
           ]
@@ -183,7 +186,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -209,8 +212,9 @@
             {
               "item": {
                 "id": "botania:elementium_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -220,7 +224,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 3
+          "Count": 15
         }
       ],
       "rewardchoice": [],
@@ -246,8 +250,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:electrum_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -257,7 +262,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 20
         }
       ],
       "rewardchoice": [],
@@ -321,9 +326,9 @@
             {
               "item": {
                 "id": "powder_power:ingot_redium",
-                "Count": 2
+                "Count": 10
               },
-              "required": 2,
+              "required": 10,
               "precision": "NBT_FUZZY"
             }
           ]
@@ -334,7 +339,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -360,8 +365,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:bismuth_brass_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -371,7 +377,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -397,8 +403,9 @@
             {
               "item": {
                 "id": "powder_power:ingot_lapium",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -408,7 +415,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -471,8 +478,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:bismuth_steel_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -482,7 +490,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -508,8 +516,9 @@
             {
               "item": {
                 "id": "powder_power:ingot_quadrilium",
-                "Count": 1
-              }
+                "Count": 2
+              },
+              "required": 2
             }
           ]
         }
@@ -519,7 +528,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 15
+          "Count": 30
         }
       ],
       "rewardchoice": [],
@@ -545,8 +554,9 @@
             {
               "item": {
                 "id": "create:copper_ingot",
-                "Count": 1
+                "Count": 5
               },
+              "required": 5,
               "precision": "NBT_FUZZY"
             }
           ]
@@ -557,7 +567,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -733,8 +743,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:nickel_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -744,7 +755,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 3
+          "Count": 15
         }
       ],
       "rewardchoice": [],
@@ -770,8 +781,9 @@
             {
               "item": {
                 "id": "eidolon:lead_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -781,7 +793,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 3
+          "Count": 15
         }
       ],
       "rewardchoice": [],
@@ -882,8 +894,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:brass_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -893,7 +906,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -919,8 +932,9 @@
             {
               "item": {
                 "id": "iceandfire:silver_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -930,7 +944,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 20
         }
       ],
       "rewardchoice": [],
@@ -993,8 +1007,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:aluminum_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1004,7 +1019,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1106,8 +1121,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:invar_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1117,7 +1133,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -1219,8 +1235,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:redstone_alloy_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1230,7 +1247,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1405,8 +1422,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:steel_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1416,7 +1434,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1480,8 +1498,9 @@
             {
               "item": {
                 "id": "minecraft:gold_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1491,7 +1510,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 20
         }
       ],
       "rewardchoice": [],
@@ -1517,8 +1536,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:bronze_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1528,7 +1548,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -1554,8 +1574,9 @@
             {
               "item": {
                 "id": "minecraft:iron_ingot",
-                "Count": 1
+                "Count": 5
               },
+              "required": 5,
               "precision": "NBT_FUZZY"
             }
           ]
@@ -1566,7 +1587,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1592,9 +1613,9 @@
             {
               "item": {
                 "id": "botania:manasteel_ingot",
-                "Count": 3
+                "Count": 15
               },
-              "required": 3
+              "required": 15
             }
           ]
         }
@@ -1604,7 +1625,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 20
         }
       ],
       "rewardchoice": [],
@@ -1706,8 +1727,9 @@
             {
               "item": {
                 "id": "immersiveengineering:ingot_constantan",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1717,7 +1739,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -1743,8 +1765,9 @@
             {
               "item": {
                 "id": "powder_power:ingot_trilium",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1754,7 +1777,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -1817,8 +1840,9 @@
             {
               "item": {
                 "id": "silents_mechanisms:aluminum_steel_ingot",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1828,7 +1852,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],

@@ -181,8 +181,9 @@
             {
               "item": {
                 "id": "silentgems:chaos_crystal",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -192,7 +193,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 4
+          "Count": 20
         }
       ],
       "rewardchoice": [],
@@ -218,9 +219,9 @@
             {
               "item": {
                 "id": "botania:mana_pearl",
-                "Count": 2
+                "Count": 10
               },
-              "required": 2
+              "required": 10
             }
           ]
         }
@@ -230,7 +231,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 5
+          "Count": 25
         }
       ],
       "rewardchoice": [],
@@ -294,8 +295,9 @@
             {
               "item": {
                 "id": "minecraft:ender_pearl",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -305,7 +307,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -331,8 +333,9 @@
             {
               "item": {
                 "id": "minecraft:emerald",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -342,7 +345,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 2
+          "Count": 10
         }
       ],
       "rewardchoice": [],
@@ -548,8 +551,9 @@
             {
               "item": {
                 "id": "minecraft:lapis_lazuli",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -559,11 +563,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
-        },
-        {
-          "id": "calemiutils:coin_quarter",
-          "Count": 1
+          "Count": 6
         }
       ],
       "rewardchoice": [],
@@ -589,8 +589,9 @@
             {
               "item": {
                 "id": "botania:pixie_dust",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -600,7 +601,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 3
+          "Count": 15
         }
       ],
       "rewardchoice": [],
@@ -755,8 +756,9 @@
             {
               "item": {
                 "id": "quark:biotite",
-                "Count": 1
-              }
+                "Count": 2
+              },
+              "required": 2
             }
           ]
         }
@@ -766,7 +768,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 6
+          "Count": 12
         }
       ],
       "rewardchoice": [],
@@ -792,8 +794,9 @@
             {
               "item": {
                 "id": "powder_power:gem_gemium",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -803,7 +806,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 3
+          "Count": 15
         }
       ],
       "rewardchoice": [],
@@ -829,9 +832,9 @@
             {
               "item": {
                 "id": "minecraft:redstone",
-                "Count": 4
+                "Count": 20
               },
-              "required": 4
+              "required": 20
             }
           ]
         }
@@ -841,7 +844,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -867,8 +870,9 @@
             {
               "item": {
                 "id": "ars_nouveau:mana_gem",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -878,7 +882,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1292,9 +1296,9 @@
             {
               "item": {
                 "id": "minecraft:quartz",
-                "Count": 2
+                "Count": 10
               },
-              "required": 2
+              "required": 10
             }
           ]
         }
@@ -1304,7 +1308,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1465,8 +1469,9 @@
             {
               "item": {
                 "id": "minecraft:glowstone_dust",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1476,7 +1481,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1577,8 +1582,9 @@
             {
               "item": {
                 "id": "astralsorcery:aquamarine",
-                "Count": 1
-              }
+                "Count": 5
+              },
+              "required": 5
             }
           ]
         }
@@ -1588,7 +1594,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 1
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -1752,8 +1758,9 @@
             {
               "item": {
                 "id": "iceandfire:sapphire_gem",
-                "Count": 1
-              }
+                "Count": 3
+              },
+              "required": 3
             }
           ]
         }
@@ -1763,7 +1770,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 6
+          "Count": 18
         }
       ],
       "rewardchoice": [],
