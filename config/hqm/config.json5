@@ -78,6 +78,6 @@
 	// Settings related to edit mode
 	"Editing": {
 		// Set to true to automatically enable edit mode when entering worlds in single-player. Has no effect in multiplayer.
-		"USE_EDITOR": true,
+		"USE_EDITOR": false,
 	},
 }
