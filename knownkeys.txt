@@ -225,3 +225,6 @@ key.jei.previousPage
 key.jei.nextPage
 key.jei.bookmark
 key.jei.toggleBookmarkOverlay
+key.enchdesc.show
+walljump.key.walljump
+pneumaticcraft.armor.upgrade.jet_boots.module.flight_stabilizers
