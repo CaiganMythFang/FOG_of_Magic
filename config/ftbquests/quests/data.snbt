@@ -1,5 +1,6 @@
 {
 	version: 11,
+	title: "F.O.G. of Magic",
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",
