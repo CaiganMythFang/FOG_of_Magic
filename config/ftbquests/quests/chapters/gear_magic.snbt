@@ -157,7 +157,7 @@
 				}
 			},
 			x: 12.0d,
-			y: 3.0d,
+			y: 4.5d,
 			shape: "circle",
 			subtitle: "&dImportant concepts, Traveler",
 			description: [
@@ -188,7 +188,7 @@
 		{
 			title: "Stress and Anger",
 			x: 12.0d,
-			y: 4.5d,
+			y: 6.0d,
 			shape: "circle",
 			subtitle: "&dYes, a third thing to watch for.",
 			description: [
@@ -296,7 +296,7 @@
 			title: "Power of Quartz",
 			icon: "create:rose_quartz",
 			x: 9.0d,
-			y: 4.5d,
+			y: 0.0d,
 			shape: "diamond",
 			subtitle: "&dSparks of creativity",
 			description: [
@@ -442,8 +442,8 @@
 		{
 			title: "Going Cuckoo",
 			icon: "create:cuckoo_clock",
-			x: 12.0d,
-			y: 6.0d,
+			x: 10.5d,
+			y: 7.5d,
 			shape: "diamond",
 			subtitle: "&dMood...",
 			description: [
@@ -537,7 +537,7 @@
 		{
 			title: "Basic Basin Creations",
 			icon: "create:basin",
-			x: 9.0d,
+			x: 7.5d,
 			y: 0.0d,
 			shape: "diamond",
 			subtitle: "&dA shopping list for you, &dTraveler.",
@@ -694,7 +694,7 @@
 			description: [
 				"Chaining Cogwheels and Shafts is not always an elegant way to go longer distances, so Kow taught me how to use Belts. They connect two Shafts together, but they also have a bigger function.",
 				"",
-				"Belts act as Conveyor Belts too! They can move items and creatures along them.",
+				"Belts act as Conveyor Belts too! They can move items and creatures along them. And I can Right Click dye on them to color them.",
 				"",
 				"To put things onto the Belt, or take them off, I can attach an Andesite Chute. These work without being attached to a Belt, but when they are, they either take items or put items onto the belt.",
 				"",
@@ -1034,7 +1034,9 @@
 				"00000000000000E6",
 				"000000000000009A",
 				"000000000000009D",
-				"00000000000000B8"
+				"00000000000000B8",
+				"6DDA9F2911A24059",
+				"621CF7123C220CD9"
 			],
 			size: 1.25d,
 			id: "799770B98C7819B4",
@@ -1049,6 +1051,108 @@
 				type: "item",
 				item: "contenttweaker:forbiddencoin",
 				count: 3
+			}]
+		},
+		{
+			title: "Pondering Reality",
+			icon: "chiselsandbits:magnifying_glass",
+			x: 12.0d,
+			y: 3.0d,
+			subtitle: "&dHelpful Introspection",
+			description: [
+				"&dTraveller, you may have noticed that a lot of these pieces, devices, etc are used in certain ways, or it isn't clear how to set them up.",
+				"",
+				"&dThankfully, they have a built in way to Ponder on how to use them properly. Think of it like a visual tutorial.",
+				"",
+				"&dIn your inventory, when you are examining different items and blocks to Create with, you can hold the W key while highlighting them to Ponder.",
+				"",
+				"&dYou will then get a visual example and an explanation of how that thing is used. Quite handy I must say!"
+			],
+			dependencies: ["000000000000008F"],
+			id: "47EBA8E07D4ABDFC",
+			tasks: [{
+				id: "6DDF8541D311CA15",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "4425AAC0E4A982A0",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "On a Line",
+			icon: "create:gantry_carriage",
+			x: 7.5d,
+			y: 7.5d,
+			shape: "square",
+			subtitle: "&dPulled Along",
+			description: [
+				"The Gantry is apparently one of the latest ways some engineers came up with to move structures.",
+				"",
+				"I make a line of Gantry Shafts along where I want to move the structure. I then place a Gantry Carriage on it, and build the structure atop it.",
+				"",
+				"I can then apply Rotational Force to the end of the Gantry Shaft to move the Carriage and attatched structure. Which way the Gantry goes depends on which way I'm rotating the Shaft."
+			],
+			dependencies: ["00000000000000DE"],
+			id: "6DDA9F2911A24059",
+			tasks: [
+				{
+					id: "4ADE3CACC9531C50",
+					type: "item",
+					item: "create:gantry_carriage"
+				},
+				{
+					id: "30868EA56CA049FE",
+					type: "item",
+					item: "create:gantry_shaft"
+				}
+			],
+			rewards: [{
+				id: "5B01D32901167821",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Stay and Go",
+			icon: "create:sticker",
+			x: 9.0d,
+			y: 4.5d,
+			shape: "square",
+			subtitle: "&dStick Around? Go Away?",
+			description: [
+				"The Sticker is a weird device. When it receives a Redstone Signal, it 'grabs' the block its facing, attatching it like glue. I can then move the Sticker around and it will pull the block with it.",
+				"",
+				"Another Redstone Signal will make the Sticker stop grabbing.",
+				"",
+				"The Weighted Ejector is kind of the opposite. I need to Sneak + Right Click while holding it on a block to 'target' it. I then need to place the Weighted Ejector directly in line with it some distance away.",
+				"",
+				"I need to then hook up some Rotational Power to it to charge it up. Whenever items land on the Weighted Ejector, it will launch them to where I targetted.",
+				"",
+				"I can use a Wrench to set how many items it will wait for. But things like Creatures will always get launched immediately."
+			],
+			dependencies: ["00000000000000D5"],
+			id: "621CF7123C220CD9",
+			tasks: [
+				{
+					id: "74A89F841D63EE3B",
+					type: "item",
+					item: "create:sticker"
+				},
+				{
+					id: "3B0D85D88DC1B765",
+					type: "item",
+					item: "create:weighted_ejector"
+				}
+			],
+			rewards: [{
+				id: "2ADEAD79374E1956",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
 			}]
 		}
 	]
