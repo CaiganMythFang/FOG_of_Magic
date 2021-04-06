@@ -147,7 +147,7 @@
 	#Disable the Banana pet (default:false)
 	disableBanana = false
 	#Disable the Purplicious Cow pet (default:false)
-	disablePurpliciousCow = false
+	disablePurpliciousCow = true
 	#Frequency of Pet Eating (default: 120)
 	#Range: 1 ~ 5000
 	petEatTimerFactor = 120
