@@ -37,37 +37,6 @@
 			}]
 		},
 		{
-			title: "A World of Stone",
-			icon: "mining_dimension:teleporter",
-			x: -2.0d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dMod: Advanced Mining Dimension",
-			description: [
-				"&dTraveler, a suggestion? Make this &dteleporter.",
-				"",
-				"Teleporter? Where to?",
-				"",
-				"&dA world with nothing but caves. It's a &ddimension the mages found that is full &dof both resources and monsters.",
-				"",
-				"It sounds like a good place to dig through without making giant holes in the landscape...."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "0000000000000109",
-			tasks: [{
-				id: "000000000000010A",
-				type: "item",
-				item: "mining_dimension:teleporter"
-			}],
-			rewards: [{
-				id: "000000000000010B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
-				count: 5
-			}]
-		},
-		{
 			title: "Magical World",
 			icon: "losttrinkets:tha_wizard",
 			x: -0.6964285714285694d,
@@ -333,8 +302,8 @@
 		{
 			title: "Quick Naps",
 			icon: "comforts:sleeping_bag_purple",
-			x: 3.0d,
-			y: -2.75d,
+			x: -2.0d,
+			y: -4.0d,
 			shape: "square",
 			subtitle: "&dMod: Comforts",
 			description: [
@@ -399,8 +368,8 @@
 					model_texture: 0
 				}
 			},
-			x: -1.75d,
-			y: -2.25d,
+			x: 3.0d,
+			y: -2.75d,
 			shape: "square",
 			subtitle: "&dMod: Corail Tombstone",
 			description: [
@@ -1093,6 +1062,7 @@
 				"",
 				"&6Any armor you wear here will not effect you, neither in stats nor in buffs. Only their visual style will be shown."
 			],
+			hide_dependency_lines: true,
 			dependencies: ["66191B31820EAEC9"],
 			id: "5AD6DDBD1E9C5BD4",
 			tasks: [{
@@ -1188,7 +1158,7 @@
 			icon: "lootr:lootr_chest",
 			x: 0.25d,
 			y: -1.0d,
-			shape: "gear",
+			shape: "circle",
 			subtitle: "&dMod: Lootr",
 			description: [
 				"&dTraveller, you may notice that some chests, like at the top of the dangerous towers called Towers of the Wild, are edged with gold or silver.",
@@ -1201,6 +1171,7 @@
 				"",
 				"&dIf it is Silver? You have already looked inside."
 			],
+			hide_dependency_lines: true,
 			dependencies: ["66191B31820EAEC9"],
 			id: "270FBF89888F66E0",
 			tasks: [{
@@ -1275,6 +1246,39 @@
 			}],
 			rewards: [{
 				id: "37B7E75379D59212",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 5
+			}]
+		},
+		{
+			title: "Parkour!",
+			icon: "quark:myalite_bricks_wall",
+			x: -1.75d,
+			y: -2.25d,
+			subtitle: "&dMod: Wall Jump!",
+			description: [
+				"Huh, I think with my working to survive in this world, I'm kind of building my actual muscles on top of my magical ones.",
+				"",
+				"&dThat's unsurprising. Surviving helps build the body. ",
+				"",
+				"True. I think I can start getting around a bit easier. If I hold Shift while jumping against a wall, I can brace myself in place.",
+				"",
+				"Then if I keep holding forward (W usually) and let go of Shift, I will wall jump. If I am near a ledge, I can hit Space instead to mantle on top instead.",
+				"",
+				"Wait, this means if two walls are close enough, I can wall climb... I can Parkour!",
+				"",
+				"&dYou have to yell PARKOUR while you do it, though."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "0A60D4208FE2ED05",
+			tasks: [{
+				id: "583DD3F32A140793",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "3DE5E33EAA68666B",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 5
