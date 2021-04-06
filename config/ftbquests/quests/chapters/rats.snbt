@@ -131,9 +131,9 @@
 			shape: "square",
 			subtitle: "&dTreat them well.",
 			description: [
-				"Okay, so I have some Rats scurrying about, but they are afraid of me. And one of them looks.... unhealthy.... I'll deal with those later I guess.",
+				"Okay, so I have some Rats scurrying about, but they are afraid of me. And one of them looks.... unhealthy....",
 				"",
-				"So, to tame a Rat, I just need to throw the cheese onto the floor. Kow says it might take up to 20 chunks of cheese to be friends?",
+				"So, to tame a Rat, I just need to throw the cheese onto the floor. Kow says it might take up to 20 chunks of cheese for it to trust me.",
 				"",
 				"&dHungry little punks.",
 				"",
@@ -141,7 +141,9 @@
 				"",
 				"&dCute fuzzy little punks. Ah, don't &dforget the tools I showed you.",
 				"",
-				'Right. The Cheese Stick lets me command them around, the Rat Whistle lets me send them back to their "home", whatever that is, and the Rat Flute lets me gather all Rats around me.'
+				'Right. The Cheese Stick lets me command them around, the Rat Whistle lets me send them back to their "home", and the Rat Flute lets me gather all Rats around me.',
+				"",
+				"&dOh, if a Rat isn't following orders, Right Click a Rat Sack on it. It'll put it in time out until you release it. Usually helps."
 			],
 			dependencies: ["0000000000000030"],
 			id: "0000000000000038",
@@ -163,6 +165,11 @@
 					type: "item",
 					item: "rats:rat_flute",
 					consume_items: false
+				},
+				{
+					id: "3D281D775B7FAE9B",
+					type: "item",
+					item: "rats:rat_sack"
 				}
 			],
 			rewards: [{
