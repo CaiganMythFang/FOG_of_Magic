@@ -2,6 +2,50 @@
   "name": "Electronics Depot",
   "quests": [
     {
+      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
+      "name": " Mining Helmet",
+      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
+      "x": 49,
+      "y": 20,
+      "icon": {
+        "id": "mining_helmet:mining_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mining_helmet:mining_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c76011ee-59c7-4c55-b30e-b5283135568f",
       "name": " Gadget Mod Table",
       "description": "    If you want to add modifications to your Mining Gadget, you will need this machine. ",
@@ -47,50 +91,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
-      "name": " Mining Helmet",
-      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
-      "x": 49,
-      "y": 20,
-      "icon": {
-        "id": "mining_helmet:mining_helmet",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mining_helmet:mining_helmet",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "3e9b62d9-3e47-4b4e-9a5c-9732c4490dad",
       "name": " Gadget Modifications 8",
       "description": "    The Mining Gadget has a wide variety of modifications that can be applied to it.\n    You will need a Modification Table to apply them.\n    To configure them, hold the Mining Gadget and Sneak + Right Click in the air.",
@@ -127,48 +127,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f3f3568a-c483-4093-a877-e3281bd60722",
-      "name": " Harvesting Gun",
-      "description": "    The Harvest Gun fires Harvest Ammo, and it harvests fully grown plants in a 5x5 area.",
-      "x": 44,
-      "y": 58,
-      "icon": {
-        "id": "potatogun:harvest_gun",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 40
-              },
-              "required": 40
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "potatogun:harvest_gun",
-          "Count": 1
-        },
-        {
-          "id": "potatogun:harvest_ammunition",
-          "Count": 9
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -507,44 +465,6 @@
       "reward": [
         {
           "id": "scannable:module_ore_rare",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e3a647cc-7fd0-490b-b814-1c72fdaa3f0d",
-      "name": " Planting Gun",
-      "description": "    The Potato Gun uses almost any seed in your inventory as Ammo. It plants them in a 5x5 area  of farmland.",
-      "x": 23,
-      "y": 57,
-      "icon": {
-        "id": "potatogun:potato_gun",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 10
-              },
-              "required": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "potatogun:potato_gun",
           "Count": 1
         }
       ],
