@@ -5,4 +5,4 @@ import crafttweaker.api.util.text.MCStyle;
 
 mods.recipestages.Recipes.setRecipeStageByMod("lost_knowledge_electronics_depot", "smartphone");
 
-<item:smartphone:smartphone_item>.addTooltip("4Lost Knowledge - Electronics Depot");
+<item:smartphone:smartphone_item>.addTooltip("Lost Knowledge - Electronics Depot");

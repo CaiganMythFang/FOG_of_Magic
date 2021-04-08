@@ -7,5 +7,5 @@ mods.recipestages.Recipes.setRecipeStageByMod("lost_knowledge_electronics_depot"
 
 // craftingTable.removeRecipe(<item:silents_mechanisms:wrench>);
 
-<item:mining_helmet:mining_helmet>.addTooltip("§4Lost Knowledge - Electronics Depot");
+<item:mining_helmet:mining_helmet>.addTooltip("Lost Knowledge - Electronics Depot");
 
