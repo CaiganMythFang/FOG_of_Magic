@@ -1,0 +1,708 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:iron_ingot",
+      "emc": 500
+    },
+    {
+      "item": "aquaculture:sushi",
+      "emc": 33
+    },
+    {
+      "item": "lootbagmod:lootbag",
+      "emc": 5000
+    },
+    {
+      "item": "chanceglobe:chance_globe",
+      "emc": 5000
+    },
+    {
+      "item": "powder_power:ingot_redium",
+      "emc": 250
+    },
+    {
+      "item": "powder_power:ingot_lapium",
+      "emc": 1000
+    },
+    {
+      "item": "immersiveengineering:ingot_constantan",
+      "emc": 1000
+    },
+    {
+      "item": "minecraft:iron_ore",
+      "emc": 500
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "emc": 2000
+    },
+    {
+      "item": "minecraft:gold_ore",
+      "emc": 2000
+    },
+    {
+      "item": "create:copper_ingot",
+      "emc": 1000
+    },
+    {
+      "item": "create:copper_ore",
+      "emc": 1000
+    },
+    {
+      "item": "create:zinc_ore",
+      "emc": 1000
+    },
+    {
+      "item": "create:zinc_ingot",
+      "emc": 1000
+    },
+    {
+      "item": "powder_power:ingot_trilium",
+      "emc": 1000
+    },
+    {
+      "item": "powder_power:ingot_quadrilium",
+      "emc": 7500
+    },
+    {
+      "item": "silents_mechanisms:bauxite_ore",
+      "emc": 500
+    },
+    {
+      "item": "silents_mechanisms:aluminum_ingot",
+      "emc": 500
+    },
+    {
+      "item": "silents_mechanisms:electrum_ingot",
+      "emc": 2000
+    },
+    {
+      "item": "aquaculture:neptunium_ingot",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:ingots/neptunium",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:ingots/aluminum",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ingots/copper",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ores/copper",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ores/zinc",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ingots/zinc",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ores/aluminum",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ingots/electrum",
+      "emc": 1500
+    },
+    {
+      "item": "#forge:ingots/manasteel",
+      "emc": 666
+    },
+    {
+      "item": "#forge:ingots/nickel",
+      "emc": 1500
+    },
+    {
+      "item": "#forge:ores/nickel",
+      "emc": 1500
+    },
+    {
+      "item": "#forge:ingots/steel",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ingots/oratchalcum",
+      "emc": 8000
+    },
+    {
+      "item": "#forge:ingots/silver",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:ores/silver",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:ores/uranium",
+      "emc": 7000
+    },
+    {
+      "item": "#forge:ingots/uranium",
+      "emc": 7000
+    },
+    {
+      "item": "#forge:ingots/lead",
+      "emc": 1500
+    },
+    {
+      "item": "#forge:ores/lead",
+      "emc": 1500
+    },
+    {
+      "item": "#forge:ingots/redstone_alloy",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ingots/azure_silver",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/azure_silver",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/bismuth",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ingots/bismuth",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ingots/platinum",
+      "emc": 6000
+    },
+    {
+      "item": "#forge:ores/platinum",
+      "emc": 6000
+    },
+    {
+      "item": "#forge:ingots/brass",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ingots/bronze",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ingots/invar",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ingots/bismuth_brass",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ingots/aluminum_steel",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ingots/bismuth_steel",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ingots/signalum",
+      "emc": 7500
+    },
+    {
+      "item": "#forge:ingots/lumium",
+      "emc": 8000
+    },
+    {
+      "item": "#forge:gems/diamond",
+      "emc": 8000
+    },
+    {
+      "item": "#forge:gems/emerald",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:gems/lapis",
+      "emc": 600
+    },
+    {
+      "item": "#forge:gems/quartz",
+      "emc": 200
+    },
+    {
+      "item": "powder_power:gem_gemium",
+      "emc": 7500
+    },
+    {
+      "item": "#forge:dusts/glowstone",
+      "emc": 500
+    },
+    {
+      "item": "#forge:dusts/redstone",
+      "emc": 125
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:gems/mana_diamond",
+      "emc": 9000
+    },
+    {
+      "item": "botania:mana_pearl",
+      "emc": 1250
+    },
+    {
+      "item": "botania:pixie_dust",
+      "emc": 1500
+    },
+    {
+      "item": "botania:dragonstone",
+      "emc": 9500
+    },
+    {
+      "item": "#forge:gems/sapphire",
+      "emc": 3000
+    },
+    {
+      "item": "#forge:gems/biotite",
+      "emc": 3000
+    },
+    {
+      "item": "rats:gem_of_ratlantis",
+      "emc": 8000
+    },
+    {
+      "item": "#forge:gems/mana",
+      "emc": 500
+    },
+    {
+      "item": "#forge:gems/aquamarine",
+      "emc": 500
+    },
+    {
+      "item": "#forge:gems/chaos",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:gems/bort",
+      "emc": 8000
+    },
+    {
+      "item": "#forge:ores/diamond",
+      "emc": 8000
+    },
+    {
+      "item": "#forge:ores/emerald",
+      "emc": 2000
+    },
+    {
+      "item": "#forge:ores/lapis",
+      "emc": 2400
+    },
+    {
+      "item": "#forge:ores/quartz",
+      "emc": 800
+    },
+    {
+      "item": "#forge:ores/redstone",
+      "emc": 600
+    },
+    {
+      "item": "#forge:ores/sapphire",
+      "emc": 3000
+    },
+    {
+      "item": "#forge:ores/biotite",
+      "emc": 3000
+    },
+    {
+      "item": "#forge:ores/mana",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ores/aquamarine",
+      "emc": 500
+    },
+    {
+      "item": "#forge:ores/bort",
+      "emc": 8000
+    },
+    {
+      "item": "silentgems:chaos_ore",
+      "emc": 8000
+    },
+    {
+      "item": "#forge:gems/ruby",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/garnet",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/topaz",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/amber",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/heliodor",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/peridot",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/green_sapphire",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/phosphophyllite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/tanzanite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/amethyst",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/agate",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/morganite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/onyx",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/opal",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/carnelian",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/spinel",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/citrine",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/jasper",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/zircon",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/moldavite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/malachite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/turquoise",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/euclase",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/benitoite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/iolite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/alexandrite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/lepidolite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/ametrine",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/black_diamond",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/moonstone",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/pyrope",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/coral",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/sunstone",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/cats_eye",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/yellow_diamond",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/jade",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/chrysoprase",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/apatite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/fluorite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/kyanite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/sodalite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/ammolite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/kunzite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/rose_quartz",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/tektite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:gems/pearl",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/ruby",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/garnet",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/topaz",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/amber",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/heliodor",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/peridot",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/green_sapphire",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/phosphophyllite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/tanzanite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/amethyst",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/agate",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/morganite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/onyx",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/opal",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/carnelian",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/spinel",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/citrine",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/jasper",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/zircon",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/moldavite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/malachite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/turquoise",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/euclase",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/benitoite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/iolite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/alexandrite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/lepidolite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/ametrine",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/black_diamond",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/moonstone",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/pyrope",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/coral",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/sunstone",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/cats_eye",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/yellow_diamond",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/jade",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/chrysoprase",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/apatite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/fluorite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/kyanite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/sodalite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/ammolite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/kunzite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/rose_quartz",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/tektite",
+      "emc": 6500
+    },
+    {
+      "item": "#forge:ores/pearl",
+      "emc": 6500
+    }
+  ]
+}
