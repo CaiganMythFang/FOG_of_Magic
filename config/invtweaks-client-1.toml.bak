@@ -105,34 +105,6 @@
 		containerClass = "moze_intel.projecte.gameObjs.container.slots.transmutation.SlotOutput"
 		sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "moze_intel.projecte.gameObjs.container.inventory.TransmutationInventory"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "moze_intel.projecte.gameObjs.container.slots.transmutation.SlotConsume"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "moze_intel.projecte.gameObjs.container.slots.transmutation.SlotInput"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "moze_intel.projecte.gameObjs.container.slots.transmutation.SlotLock"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "moze_intel.projecte.gameObjs.container.slots.transmutation.SlotOutput"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "moze_intel.projecte.gameObjs.container.slots.transmutation.SlotUnlearn"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "moze_intel.projecte.gameObjs.container.slots.transmutation"
-		sortRange = ""
-
 #Tweaks
 [tweaks]
 	#Enable auto-refill
@@ -144,11 +116,11 @@
 	#2 = external sorting only
 	#3 = all sorting enabled (default)
 	#Range: 0 ~ 3
-	enableSort = 1
+	enableSort = 3
 	#0 = disable buttons (i.e. keybind only)
 	#1 = buttons for player sorting only
 	#2 = buttons for external sorting only
 	#3 = all buttons enabled (default)
 	#Range: 0 ~ 3
-	enableButtons = 1
+	enableButtons = 3
 
