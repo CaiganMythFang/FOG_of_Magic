@@ -117,7 +117,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 16
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -1331,9 +1331,9 @@
             {
               "item": {
                 "id": "calemiutils:coin_dollar",
-                "Count": 80
+                "Count": 20
               },
-              "required": 80
+              "required": 20
             }
           ]
         }
