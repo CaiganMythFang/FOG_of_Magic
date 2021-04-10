@@ -20,7 +20,7 @@
 		#Allows the Harvest Goddess Band to passively grow tall grass, flowers, etc, on top of grass blocks.
 		harvBandGrass = false
 		#If set to true, disables all radius-based mining functionality (right click of tools)
-		disableAllRadiusMining = false
+		disableAllRadiusMining = true
 		#Enable Watch of Flowing Time
 		enableTimeWatch = false
 		#Allow the Evertide amulet to place water in dimensions that water evaporates. For example: The Nether.
