@@ -301,9 +301,10 @@
           "items": [
             {
               "item": {
-                "id": "contenttweaker:forbiddencoin",
-                "Count": 1
-              }
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
             }
           ]
         }
