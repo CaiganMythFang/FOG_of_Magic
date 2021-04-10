@@ -2,20 +2,42 @@
   "name": "Rules of My Shop",
   "quests": [
     {
-      "uuid": "abd5fc0a-7318-48b4-b22d-70e02594a6d8",
-      "name": " Basic and Not So Basic",
-      "description": "    My shop pages are split into two sections, for your convenience.\n    The first section is basic items. Unrefined resources, simple items. The basics, Traveler.\n    The other section contains more complex things. Things Kow and I have to work our knowledge on to get to your world. So they will be much more... expensive.",
-      "x": 63,
-      "y": 19,
+      "uuid": "9a401591-1e66-4ff0-a80c-9f023617189f",
+      "name": " TFB Portable Shipping System",
+      "description": "    If you\u0027ve not noticed, it does not matter which TFB Shipping System you use, you always see your OWN Shipping Interface. That\u0027s part of the magic my sister has programmed into this.\n    We have available a.... smartphone version of the Shipping System. Same idea, just useable on the go.",
+      "x": 88,
+      "y": 124,
       "icon": {
-        "id": "minecraft:iron_ingot",
+        "id": "projecte:transmutation_tablet",
         "Count": 1
       },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
       "prerequisites": [
-        "7829fb82-52e7-4513-b757-0917c0117302"
+        "62d87f13-bbc5-40d4-97d9-b515f82eb734"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_tablet",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -23,8 +45,8 @@
       "uuid": "574af794-d6de-495e-a197-f43290b82301",
       "name": " Snow Globe Gamble",
       "description": "    So, according to my sister, some crazy chaos mage couldn\u0027t decide what to build his wizard house out of, so he invented this thing.\n    The Chance Globe, when you place it down, can become almost ANY block in the world after about 10 seconds.\n    There\u0027s a good chance you\u0027ll just get stone or wood. But you may just get a block of Diamond, yeah?",
-      "x": 84,
-      "y": 144,
+      "x": 83,
+      "y": 186,
       "bigicon": true,
       "icon": {
         "id": "chanceglobe:chance_globe",
@@ -106,20 +128,39 @@
       "commandrewards": []
     },
     {
-      "uuid": "39104fc4-c800-4a44-ab32-240e1395862d",
-      "name": " The Price of Knowledge",
-      "description": "    Now, we can get technology to you two ways, Traveler.\n    The first way is easy. You can buy specific things from me for a price. It is expensive, but not as much as the raw materials really.\n    The other way is empowering you with what they called Lost Knowledge. It\u0027s very expensive, as the reagents for the rituals are nothing to sneeze at.\n    But what you get is the ability to make everything from a section of Lost Knowledge yourself. And that is infinitely cheaper than buying everything from me.",
-      "x": 41,
-      "y": 49,
+      "uuid": "fffc8b1e-dc76-4f8d-af4e-3596b7b62f73",
+      "name": " Shipping Goods",
+      "description": "    The TFB Shipping System magically condenses items and converts them to other items we sell. Handy, huh?\n    But what if you want the coins to trade with other Travellers, or buy Forbidden Knowledge Coins (they can\u0027t be purchased through the Shipping System for security reasons!)?\n    Then you will want to pull out a TFB Shipping Crate and sell it to me through either this shop tablet, or the TFB Market!",
+      "x": 118,
+      "y": 86,
       "icon": {
-        "id": "ars_nouveau:creative_spell_book",
+        "id": "contenttweaker:shippingcrate",
         "Count": 1
       },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "    You can only make a crate when you\u0027ve turned in 100 Gold Dubloons worth of resources.\n    For a ONE TIME bonus, Traveller, I\u0027ll buy one TFB Shipping Crate for a Forbidden Knowledge Coin. That\u0027s over twice the value!",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:shippingcrate",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
-        "abd5fc0a-7318-48b4-b22d-70e02594a6d8"
+        "62d87f13-bbc5-40d4-97d9-b515f82eb734"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:forbiddencoin",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -162,47 +203,11 @@
       "commandrewards": []
     },
     {
-      "uuid": "2834053b-d91f-4364-a701-e1d8f7840cfe",
-      "name": " The TFB Market",
-      "description": "    The TFB Market is available to buy and sell Diamonds, Emeralds, and all Silent\u0027s Gems.\n\n    So, what does TFB mean? Oh, just the name of one of my businesses, not to worry. ",
-      "x": 88,
-      "y": 50,
-      "icon": {
-        "id": "calemiutils:market",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:market",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "abd5fc0a-7318-48b4-b22d-70e02594a6d8"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "calemiutils:coin_dollar",
-          "Count": 5
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "d98ceef6-f883-4eaa-bf4a-61fd5e0b8a84",
       "name": " Interdimensional Gamble",
       "description": "    So one of the products I just got my hands on is a bit interesting.\n   The TFB Captain\u0027s Blind Box seems to contain one item out of over a thousand options. 99% of the items fall under the following criteria : white, pink, purple, gemstone, sushi.\n    Where is it from? What is TFB? I\u0027ll leave those a mystery for now, Traveller!",
-      "x": 28,
-      "y": 144,
+      "x": 26,
+      "y": 185,
       "bigicon": true,
       "icon": {
         "id": "lootbagmod:lootbag",
@@ -270,6 +275,206 @@
           "id": "calemiutils:wallet",
           "Count": 1,
           "tag": {}
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "62d87f13-bbc5-40d4-97d9-b515f82eb734",
+      "name": " TFB Shipping System",
+      "description": "    So, I know that selling anything to me is a bit of a hassle if you are just using this Shop Tablet. But, with the TFB Shipping System, you can magically condense items into what we call eDubloons.\n    Anything you can sell in this tablet, you can put into the TFB Shipping System. You can also automatically convert them into ALMOST any item you can buy. (Things like Terrasteel can only be sold through the tablet).\n    PLEASE READ THE SIDEBAR, TRAVELER! IT\u0027S IMPORTANT!",
+      "x": 85,
+      "y": 83,
+      "bigicon": true,
+      "icon": {
+        "id": "projecte:transmutation_table",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "     Just like the shop, items you sell net you 20 PERCENT of the buy price. Be careful to not put items you just purchased back in! Can\u0027t refund!\n    Be sure to insert the Shipping Manifest into the Shipping System!",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2834053b-d91f-4364-a701-e1d8f7840cfe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_table",
+          "Count": 1
+        },
+        {
+          "id": "projecte:tome",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abd5fc0a-7318-48b4-b22d-70e02594a6d8",
+      "name": " Basic and Not So Basic",
+      "description": "    My shop pages are split into two sections, for your convenience.\n    The first section is basic items. Unrefined resources, simple items. The basics, Traveler.\n    The other section contains more complex things. Things Kow and I have to work our knowledge on to get to your world. So they will be much more... expensive.",
+      "x": 63,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "prerequisites": [
+        "7829fb82-52e7-4513-b757-0917c0117302"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "39104fc4-c800-4a44-ab32-240e1395862d",
+      "name": " The Price of Knowledge",
+      "description": "    Now, we can get technology to you two ways, Traveler.\n    The first way is easy. You can buy specific things from me for a price. It is expensive, but not as much as the raw materials really.\n    The other way is empowering you with what they called Lost Knowledge. It\u0027s very expensive, as the reagents for the rituals are nothing to sneeze at.\n    But what you get is the ability to make everything from a section of Lost Knowledge yourself. And that is infinitely cheaper than buying everything from me.",
+      "x": 41,
+      "y": 49,
+      "icon": {
+        "id": "ars_nouveau:creative_spell_book",
+        "Count": 1
+      },
+      "prerequisites": [
+        "abd5fc0a-7318-48b4-b22d-70e02594a6d8"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2834053b-d91f-4364-a701-e1d8f7840cfe",
+      "name": " The TFB Market",
+      "description": "    The TFB Market is available to automate the buying of Diamonds, Emeralds, and all Silent\u0027s Gems. To sell gems, you\u0027ll need a different TFB product.\n\n    So, what does TFB mean? Oh, just the name of one of my businesses, not to worry. ",
+      "x": 88,
+      "y": 50,
+      "icon": {
+        "id": "calemiutils:market",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "abd5fc0a-7318-48b4-b22d-70e02594a6d8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "93d19a2d-b8af-47c0-bc0f-1ef04c1af941",
+      "name": " TFB Shipping Crate (Sell)",
+      "description": "    Got some TFB Shipping Crates to sell? Toss em all to me!",
+      "x": 215,
+      "y": 16,
+      "icon": {
+        "id": "contenttweaker:shippingcrate",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:shippingcrate",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 100
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "67aa5479-cd2e-4225-847c-ab71686b5903",
+      "name": " TFB Debit Cards",
+      "description": "    Another way for you to hold and transfer eDubloons is by putting them into a Debit Card. The TFB Shipping System has an area for multiple Debit Cards. When you put a Debit Card in, all eDubloons are automatically deposited onto it. \n    Items you purchase will draw from the Cards first. You can\u0027t transfer eDubloons back into the Shipping Table, but you can transfer card to card by putting  card on the center of the right hand circle.",
+      "x": 118,
+      "y": 124,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {}
+        },
+        "id": "projecte:klein_star_ein",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "    The first tier of TFB Debit Card is the Copper tier. You can get a higher tier Debit Card by combining four lower tiers. Four Copper Debit Cards become an Iron Debit Card.\n   Keep going until you reach Singularity!",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "62d87f13-bbc5-40d4-97d9-b515f82eb734"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "ForgeCaps": {
+            "Parent": {}
+          },
+          "id": "projecte:klein_star_ein",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
