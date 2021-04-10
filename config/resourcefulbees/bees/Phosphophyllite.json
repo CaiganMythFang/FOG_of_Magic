@@ -12,13 +12,13 @@
   "MutationData": {
     "hasMutation": true,
     "mutationInput": "minecraft:stone",
-    "mutationOutput": "silentgem:phosphophyllite_ore",
+    "mutationOutput": "silentgems:phosphophyllite_ore",
     "chance": 0.2,
     "mutationType": "BLOCK_TO_BLOCK"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "silentgem:phosphophyllite",
+    "mainOutput": "silentgems:phosphophyllite",
     "mainOutputWeight": 0.5
   },
   "SpawnData": {

@@ -12,13 +12,13 @@
   "MutationData": {
     "hasMutation": true,
     "mutationInput": "minecraft:stone",
-    "mutationOutput": "silentgem:topaz_ore",
+    "mutationOutput": "silentgems:topaz_ore",
     "chance": 0.2,
     "mutationType": "BLOCK_TO_BLOCK"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "silentgem:topaz",
+    "mainOutput": "silentgems:topaz",
     "mainOutputWeight": 0.5
   },
   "SpawnData": {

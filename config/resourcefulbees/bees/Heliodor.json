@@ -12,13 +12,13 @@
   "MutationData": {
     "hasMutation": true,
     "mutationInput": "minecraft:stone",
-    "mutationOutput": "silentgem:heliodor_ore",
+    "mutationOutput": "silentgems:heliodor_ore",
     "chance": 0.2,
     "mutationType": "BLOCK_TO_BLOCK"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "silentgem:heliodor",
+    "mainOutput": "silentgems:heliodor",
     "mainOutputWeight": 0.5
   },
   "SpawnData": {

@@ -12,13 +12,13 @@
   "MutationData": {
     "hasMutation": true,
     "mutationInput": "minecraft:stone",
-    "mutationOutput": "silentgem:ruby_ore",
+    "mutationOutput": "silentgems:ruby_ore",
     "chance": 0.2,
     "mutationType": "BLOCK_TO_BLOCK"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "silentgem:ruby",
+    "mainOutput": "silentgems:ruby",
     "mainOutputWeight": 0.5
   },
   "SpawnData": {

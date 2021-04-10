@@ -12,13 +12,13 @@
   "MutationData": {
     "hasMutation": true,
     "mutationInput": "minecraft:stone",
-    "mutationOutput": "silentgem:green_sapphire_ore",
+    "mutationOutput": "silentgems:green_sapphire_ore",
     "chance": 0.2,
     "mutationType": "BLOCK_TO_BLOCK"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "silentgem:green_sapphire",
+    "mainOutput": "silentgems:green_sapphire",
     "mainOutputWeight": 0.5
   },
   "SpawnData": {
