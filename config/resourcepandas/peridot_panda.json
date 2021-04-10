@@ -1,9 +1,9 @@
 {
   "id": "peridot_panda",
   "inputs": [
-    "silentgem:peridot"
+    "silentgems:peridot"
   ],
-  "output": "silentgem:peridot",
+  "output": "silentgems:peridot",
   "hexColor": "#a5f040",
   "chance": 0.11,
   "alpha": 1.0

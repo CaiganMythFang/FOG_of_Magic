@@ -1,9 +1,9 @@
 {
   "id": "lightbluepetal_panda",
   "inputs": [
-    "botania:lightblue_petal"
+    "botania:light_blue_petal"
   ],
-  "output": "botania:lightblue_petal",
+  "output": "botania:light_blue_petal",
   "hexColor": "#3bb6de",
   "chance": 0.9,
   "alpha": 1.0

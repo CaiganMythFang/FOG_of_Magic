@@ -1,9 +1,9 @@
 {
   "id": "greensapphire_panda",
   "inputs": [
-    "silentgem:green_sapphire"
+    "silentgems:green_sapphire"
   ],
-  "output": "silentgem:green_sapphire",
+  "output": "silentgems:green_sapphire",
   "hexColor": "#6df178",
   "chance": 0.11,
   "alpha": 1.0

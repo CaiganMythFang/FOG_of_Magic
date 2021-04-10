@@ -1,9 +1,9 @@
 {
   "id": "heliodor_panda",
   "inputs": [
-    "silentgem:heliodor"
+    "silentgems:heliodor"
   ],
-  "output": "silentgem:heliodor",
+  "output": "silentgems:heliodor",
   "hexColor": "#fcfcd8",
   "chance": 0.11,
   "alpha": 1.0

@@ -1,9 +1,9 @@
 {
   "id": "garnet_panda",
   "inputs": [
-    "silentgem:garnet"
+    "silentgems:garnet"
   ],
-  "output": "silentgem:garnet",
+  "output": "silentgems:garnet",
   "hexColor": "#f06040",
   "chance": 0.11,
   "alpha": 1.0
