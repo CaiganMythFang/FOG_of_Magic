@@ -118,15 +118,17 @@
 			shape: "square",
 			subtitle: "&dTime to Bee a Bee Keeper",
 			description: [
-				"So magical beekeeping here is taking care of what the local mages call Resourceful Bees. They are a natural thing to come across while exploring.",
+				"So magical beekeeping here is taking care of what the local mages call Resourceful Bees. I can easily find them while exploring.",
 				"",
-				"I can reference this book called.... sigh... 50 Shades of Bees, for a little bit of basic info. But Kow says the types of bees are very dependant on each world, so it never really lists specifics.",
+				"I can reference this book called.... sigh... 50 Shades of Bees, for basic info on beekeeping itself.",
 				"",
-				"It IS good for basic equipment knowledge. ",
+				"Learning about bees themselves is a different book, apparently?",
 				"",
-				"But really, to get anywhere, I'm going to need to go exploring and find a couple of bees. I can Right Click an Empty Bee Jar on them to safely capture them and bring them home.",
+				"But really, to get anywhere, I'm going to need to go exploring and bees. I can Right Click an Empty Bee Jar on them to safely capture them and bring them home.",
 				"",
-				"I should... probably build a large enclosure for them. They like to fly around and get in trouble."
+				"I should... probably build a large enclosure for them. They like to fly around and get in trouble.",
+				"",
+				"&dYou may want to name them with a Nametag. My Brother sells them. Names have magic and may prevent them from disappearing as easily."
 			],
 			dependencies: ["4D23EBD071F8A8DE"],
 			id: "4AF1A75BF483B276",
