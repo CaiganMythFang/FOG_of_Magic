@@ -2011,7 +2011,7 @@
 				"",
 				"Linings go inside of Armor. Making it more comfortable, or more magical, or both.",
 				"",
-				"The Binding is a special modification. It only can be applied to an Elytra."
+				"The Binding is another modification that can be applied to many pieces of Silent Gear, like tools or your Elytra."
 			],
 			dependencies: ["590AC602C8D2AC1D"],
 			id: "5DD59877F8D03740",
