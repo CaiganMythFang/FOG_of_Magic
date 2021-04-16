@@ -703,6 +703,10 @@
     {
       "item": "#forge:ores/pearl",
       "emc": 6500
+    },
+    {
+      "item": "contenttweaker:shippingcrate",
+      "emc": 10000
     }
   ]
 }
