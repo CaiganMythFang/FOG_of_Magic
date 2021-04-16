@@ -78,6 +78,45 @@
       "commandrewards": []
     },
     {
+      "uuid": "f05fb4b3-eb54-41b0-b9ca-79c02f6e61aa",
+      "name": " Nametag (Buy)",
+      "description": "    Names have power in this world especially. And Nametags are a way to give creatures a proper name.\n    Creatures can benefit from being named, as they will usually not despawn like normal. Good for farm animals, bees, etc.",
+      "x": 24,
+      "y": 89,
+      "icon": {
+        "id": "minecraft:name_tag",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "    You will want to change the Nametag\u0027s name in an Anvil before Right Clicking it on a creature. That will become it\u0027s new name.",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 25
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:name_tag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "cba5ccd1-ff25-42c8-9012-6ab880aeff3a",
       "name": " Ice and Fire Dragon Eggs (buy)",
       "description": "    Dragons are notorious for being everywhere you don\u0027t want them to be, but quite tough to find when you are in search of them.\n    If you are having issue finding an egg, this may seem expensive but they are quite hard to come by.\n    You have to hatch and raise them yourself. Refer to my sister\u0027s teachings to explain things.",
