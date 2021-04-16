@@ -1064,6 +1064,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "ee539b25-8348-4bcb-b750-143dee9d2c4c",
+      "name": " Tin (Buy)",
+      "description": "    Tin is a common metal, used similarly to copper.",
+      "x": 90,
+      "y": 50,
+      "icon": {
+        "id": "silents_mechanisms:tin_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:tin_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c5c0ed2a-e859-4259-b580-e28724072225",
       "name": " Azure Silver (Buy)",
       "description": "    Azure Silver is a somewhat rare End metal that has slight antigravity properties.",
@@ -1511,6 +1549,44 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 20
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6fb143ad-bfbd-42a5-9f17-9346c72e3b11",
+      "name": " Tin (Sell)",
+      "description": "    Tin is a common metal, used similarly to copper.",
+      "x": 271,
+      "y": 18,
+      "icon": {
+        "id": "silents_mechanisms:tin_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "silents_mechanisms:tin_ingot",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 10
         }
       ],
       "rewardchoice": [],
