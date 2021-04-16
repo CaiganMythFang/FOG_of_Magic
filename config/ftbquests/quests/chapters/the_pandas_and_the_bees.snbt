@@ -590,7 +590,7 @@
 		{
 			title: "Bee Keepers Tools",
 			icon: "resourcefulbees:honey_dipper",
-			x: -2.5d,
+			x: -1.75d,
 			y: -1.25d,
 			shape: "square",
 			subtitle: "&dWhat's in the box? BEEEEEES!",
@@ -654,6 +654,69 @@
 			],
 			rewards: [{
 				id: "39DB6334C6A2ED0B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "The Bee Encyclopedia",
+			icon: "resourcefulbees:beepedia",
+			x: -1.75d,
+			y: 1.25d,
+			shape: "square",
+			subtitle: "&dGotta Buzz Em All",
+			description: [
+				"So the uh... questionably named Bee book is helpful in learning about the tools for taking care of bees. But the Beepedia is the best tool for cataloguing and learning about the bees themselves!",
+				"",
+				"It tells me all I need to know about what a bee's flower is, what it mutates things into, and more. Super useful!"
+			],
+			dependencies: ["7B32D707FE306D3B"],
+			id: "08ACB34ED109DC24",
+			tasks: [{
+				id: "546A04E5D862AEE2",
+				type: "item",
+				item: "resourcefulbees:beepedia"
+			}],
+			rewards: [{
+				id: "748761D755A76561",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Beecon of Hope",
+			icon: "resourcefulbees:ender_beecon",
+			x: -3.75d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dCircle of Bee",
+			description: [
+				"The Ender Beecon is really helpful since I have a large swarm of bees I need to take care of.",
+				"",
+				"By providing it with Honey, it protects a large area around it. My bees won't despawn like normal, making it less likely they'll up and vanish. I can also have the Beecon apply effects to the bees, like calming them down, at the cost of more honey over time.",
+				"",
+				"To keep the Beecon full of honey, I can stack Honey Tanks on top of it and fill those. I just need to Right Click Buckets or Bottles of Honey onto them.",
+				"",
+				"&dTraveler, this Beecon requires Purpur blocks, which need materials from deeper in the End. If you have not ventured there, be sure to talk to my Brother for some help."
+			],
+			dependencies: ["6289D8D8C464B37C"],
+			id: "0B11D677A2DCC6EE",
+			tasks: [
+				{
+					id: "04CECD741D8AD02D",
+					type: "item",
+					item: "resourcefulbees:ender_beecon"
+				},
+				{
+					id: "7A2845C9F794D75B",
+					type: "item",
+					item: "resourcefulbees:wooden_honey_tank"
+				}
+			],
+			rewards: [{
+				id: "38AB1D0F49BB3457",
 				type: "item",
 				item: "calemiutils:coin_dollar",
 				count: 20
