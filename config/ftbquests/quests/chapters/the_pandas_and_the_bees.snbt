@@ -586,6 +586,78 @@
 				item: "calemiutils:coin_dollar",
 				count: 15
 			}]
+		},
+		{
+			title: "Bee Keepers Tools",
+			icon: "resourcefulbees:honey_dipper",
+			x: -2.5d,
+			y: -1.25d,
+			shape: "square",
+			subtitle: "&dWhat's in the box? BEEEEEES!",
+			description: [
+				"Okay I have some tools that should help bee keeping. ",
+				"",
+				"The Honey Dipper lets me 'command' a bee. And by command I mean tell it where its home and stuff is. I Right Click it on the bee, then on the hive or flower I want it to use. This will clear the selection on the Honey Dipper, or I can Sneak + Right Click.",
+				"",
+				"The Bee Box is kind of like the Bee Jar. Except it holds TEN bees instead of just one very squished looking bee.",
+				"",
+				"I can release them all by Sneak + Right Clicking."
+			],
+			dependencies: ["7B32D707FE306D3B"],
+			id: "75B8D042D084AAFA",
+			tasks: [
+				{
+					id: "02B348505AF99CD4",
+					type: "item",
+					item: "resourcefulbees:honey_dipper"
+				},
+				{
+					id: "7F0E103B0E2F7173",
+					type: "item",
+					item: "resourcefulbees:bee_box"
+				}
+			],
+			rewards: [{
+				id: "76DABFD2B22EFA69",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Honey Honey",
+			icon: "resourcefulbees:bottomless_honey_pot",
+			x: -3.75d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dDon't get in a sticky situation",
+			description: [
+				"Now that I'm centrifuging lots of resources, I'm also getting lots of honey.",
+				"",
+				"If I'm generating too much Honey, I can get rid of it with the Bottomless Honey Pot. Putting the Honey into it basically makes it vanish. Probably to some hungry bear's pad.",
+				"",
+				"Or, I can store it by piping the honey into a Honey Congealer. When I pipe in enough liquid honey, it will turn it into Blocks of Honey. Yum."
+			],
+			dependencies: ["6289D8D8C464B37C"],
+			id: "76F534EF2B279116",
+			tasks: [
+				{
+					id: "705EE489068E2F5D",
+					type: "item",
+					item: "resourcefulbees:bottomless_honey_pot"
+				},
+				{
+					id: "7A746F2BA2FD9F23",
+					type: "item",
+					item: "resourcefulbees:honey_congealer"
+				}
+			],
+			rewards: [{
+				id: "39DB6334C6A2ED0B",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
 		}
 	]
 }
