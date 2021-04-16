@@ -518,7 +518,7 @@
     {
       "uuid": "45b7a7b4-e25d-41a8-8dc4-a3f0ddc06333",
       "name": " Silent\u0027s End Gems",
-      "description": " To sell any Silent\u0027s gemstones, please use your TFB Market.",
+      "description": " To sell any Silent\u0027s gemstones, please use your TFB Shipping System.",
       "x": 183,
       "y": 191,
       "icon": {
@@ -1942,7 +1942,7 @@
     {
       "uuid": "5b6bdaea-e0d1-4287-af6d-89fffa54a77d",
       "name": " Silent\u0027s Nether Gems",
-      "description": " To sell any Silent\u0027s gemstones, please use your TFB Market.",
+      "description": " To sell any Silent\u0027s gemstones, please use your TFB Shipping System.",
       "x": 183,
       "y": 163,
       "icon": {
@@ -1958,7 +1958,7 @@
     {
       "uuid": "001e2cfa-c26e-4082-b68e-84cdf4a1ff97",
       "name": " Silent\u0027s Overworld Gems",
-      "description": " To sell any Silent\u0027s gemstones, please use your TFB Market.",
+      "description": " To sell any Silent\u0027s gemstones, please use your TFB Shipping System.",
       "x": 183,
       "y": 135,
       "icon": {
