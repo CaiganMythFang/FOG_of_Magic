@@ -59,15 +59,17 @@
 			shape: "square",
 			subtitle: "&dMod: Advanced Chimneys",
 			description: [
-				"So, it seems especially here, most technology machines (and some magic based ones) produce an inordinate amount of smoke.",
+				"So, it seems especially here, most technology  and some magic machines produce smoke.",
 				"",
 				"This smoke is... mostly harmless? Except it can be quite distracting in an enclosed work room. So, to solve that, we can make Advanced Chimneys.",
 				"",
-				"To start, I need to set up some Vents near the top of the room. The sides need to be open, as thats what sucks up the Smoke.",
+				"I have two ways of getting rid of the smoke :",
 				"",
-				"I can put around 8 vents in a line, then put a Pump at the end of it. On top of this Pump, I stack Chimneys to the outside. When the Pump is powered by Redstone, it should suck up much of the Smoke and send it through the Chimney.",
+				"The simplest way is to place a Chimney against the side of the machine, and run the Chimneys up out of the roof. That can get cluttered real fast though.",
 				"",
-				"I can also put a Pump under the machine and then Vents along the side of the Pump, or Chimneys right beside the machines."
+				"The other way is to place a Pump, powered by a Redstone Signal, underneath the machine. I then place Vents  out from it, leading outside.",
+				"",
+				"One pump can only handle about 8 Vents, so I need to spread the Pumps around."
 			],
 			hide_dependency_lines: true,
 			dependencies: ["00000000000000F4"],
