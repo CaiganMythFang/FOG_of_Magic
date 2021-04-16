@@ -40,6 +40,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "82466827-b409-4f81-a60a-7a01245c18a8",
+      "name": " Chorus Flower (Buy)",
+      "description": "    The Chorus Flower is a special plant from the End dimension. It grows only on End Stone.",
+      "x": 54,
+      "y": 55,
+      "icon": {
+        "id": "minecraft:chorus_flower",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:chorus_flower",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "cba5ccd1-ff25-42c8-9012-6ab880aeff3a",
       "name": " Ice and Fire Dragon Eggs (buy)",
       "description": "    Dragons are notorious for being everywhere you don\u0027t want them to be, but quite tough to find when you are in search of them.\n    If you are having issue finding an egg, this may seem expensive but they are quite hard to come by.\n    You have to hatch and raise them yourself. Refer to my sister\u0027s teachings to explain things.",

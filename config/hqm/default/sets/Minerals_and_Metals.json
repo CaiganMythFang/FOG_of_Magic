@@ -1292,6 +1292,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "1649667f-7ad2-4620-a03a-e5101bcd94f8",
+      "name": " End Stone (Buy)",
+      "description": "    End Stone comes from the End. It isn\u0027t too difficult to get, but the price is for other reasons you\u0027ll understand later.",
+      "x": 66,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:end_stone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:end_stone",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "eef71099-4185-4fee-8b3b-3cdfe700a43e",
       "name": " Silver (Buy)",
       "description": "    Silver is a precious metal that is used by a few different things, from magical creations to chemical and scientific pursuits.",
