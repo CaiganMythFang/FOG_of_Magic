@@ -31,6 +31,8 @@
 	#How often Carbuncles spawn
 	#Range: 0 ~ 100
 	carbuncleWeight = 5
+	#Dimensions where hostile mobs will not spawn. Ex: minecraft:overworld. Run /forge dimensions for a list.
+	dimensionBlacklist = []
 
 #Mana
 [mana]

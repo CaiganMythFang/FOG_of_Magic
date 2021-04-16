@@ -166,4 +166,6 @@
 		#Note that disabling oil will make some items uncraftable unless recipes are changed
 		#Range: > 0
 		chance = 6
+		#The dimensions that oil lakes are not allow to generate in
+		dimensionBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
 

@@ -266,4 +266,6 @@
 	disableEnchantingTable = true
 	#Disable the Pingot pet (default:false)
 	disablePingot = false
+	#Enable Loot Pet with FTBUltimine installed (default:false)
+	enableLootWithFTBUltimine = false
 
