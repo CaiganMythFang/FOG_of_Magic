@@ -40,6 +40,49 @@
       "commandrewards": []
     },
     {
+      "uuid": "1b941922-d8ff-48d8-a124-7fb902b5f971",
+      "name": " TFB Major Scanner",
+      "description": "    Looking for material to sell to me? Well, the TFB Scanners are exactly what you need!\n    By Right Clicking on, say, a cave wall, it scans the area behind it and calculates the average eDubloon cost of all of them. The higher the eDubloons, the more valuable materials there are!\n    There are three sizes of Scanner, each one scanning farther back from where you Right Click.",
+      "x": 76,
+      "y": 49,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {}
+        },
+        "id": "projecte:divining_rod_3",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "ForgeCaps": {
+            "Parent": {}
+          },
+          "id": "projecte:divining_rod_3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "cb89f4a2-b1b9-4a0e-bc95-12c0a4774de4",
       "name": " Fae Essence (Buy)",
       "description": "    Fae Essence is a magical material needed by Mahou Tsukai users. It can sometimes be quite hard to find in world, but we have a little supply we collect for sale.",
@@ -109,6 +152,101 @@
       "reward": [
         {
           "id": "subpocket:key",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8a19db5e-3d7f-48ee-a89f-ae7a1cfa4ec4",
+      "name": " TFB Mini Scanner",
+      "description": "    Looking for material to sell to me? Well, the TFB Scanners are exactly what you need!\n    By Right Clicking on, say, a cave wall, it scans the area behind it and calculates the average eDubloon cost of all of them. The higher the eDubloons, the more valuable materials there are!\n    There are three sizes of Scanner, each one scanning farther back from where you Right Click.",
+      "x": 23,
+      "y": 49,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {}
+        },
+        "id": "projecte:divining_rod_1",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "ForgeCaps": {
+            "Parent": {}
+          },
+          "id": "projecte:divining_rod_1",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9ef7239f-c34e-4014-a64e-1e5f0b29eac5",
+      "name": " TFB Medium Scanner",
+      "description": "    Looking for material to sell to me? Well, the TFB Scanners are exactly what you need!\n    By Right Clicking on, say, a cave wall, it scans the area behind it and calculates the average eDubloon cost of all of them. The higher the eDubloons, the more valuable materials there are!\n    There are three sizes of Scanner, each one scanning farther back from where you Right Click.",
+      "x": 49,
+      "y": 49,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {}
+        },
+        "id": "projecte:divining_rod_2",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "ForgeCaps": {
+            "Parent": {}
+          },
+          "id": "projecte:divining_rod_2",
           "Count": 1
         }
       ],
