@@ -1,0 +1,12 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.boss.EntityKraken",
+  "modelFieldName": "head",
+  "headTopCenter": [
+    0.0,
+    0.0,
+    1.25
+  ],
+  "headScale": 3.0,
+  "hatTiltPitch": 93.75
+}

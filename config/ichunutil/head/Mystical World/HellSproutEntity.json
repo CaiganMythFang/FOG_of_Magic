@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "epicsquid.mysticalworld.entity.HellSproutEntity",
+  "modelFieldName": "head",
+  "headTopCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "headScale": 0.6
+}

@@ -1,0 +1,13 @@
+{
+  "author": "caigan",
+  "forClass": "chumbanotz.mutantbeasts.entity.mutant.MutantCreeperEntity",
+  "modelFieldName": "pelvis.body.neck.head",
+  "noFaceInfo": true,
+  "headTopCenter": [
+    0.0,
+    0.375,
+    -0.625
+  ],
+  "headScale": 1.2,
+  "hatTiltPitch": 89.6875
+}

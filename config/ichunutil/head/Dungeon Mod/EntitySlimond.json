@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.EntitySlimond",
+  "modelFieldName": "field_78200_a",
+  "headTopCenter": [
+    0.0,
+    -1.0625,
+    0.0
+  ],
+  "headScale": 0.7
+}

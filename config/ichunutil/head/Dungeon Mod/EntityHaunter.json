@@ -1,0 +1,10 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.EntityHaunter",
+  "modelFieldName": "Head",
+  "headTopCenter": [
+    0.0625,
+    1.625,
+    0.0
+  ]
+}

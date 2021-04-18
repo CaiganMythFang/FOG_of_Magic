@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.boss.EntityCrawler",
+  "modelFieldName": "body2.body1.headTop",
+  "headTopCenter": [
+    0.0,
+    0.5,
+    0.3125
+  ],
+  "headScale": 2.5
+}

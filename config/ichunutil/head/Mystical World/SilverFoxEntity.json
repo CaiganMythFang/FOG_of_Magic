@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "epicsquid.mysticalworld.entity.SilverFoxEntity",
+  "modelFieldName": "body1.neck.head",
+  "headTopCenter": [
+    0.0,
+    0.125,
+    0.09375
+  ],
+  "headScale": 0.5
+}

@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.EntityWhirlwind",
+  "modelFieldName": "wind1.wind2.wind3.wind4.wind5.wind6.wind7.wind8",
+  "headTopCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "headScale": 2.0
+}

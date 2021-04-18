@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.EntityLordSkeleton",
+  "modelFieldName": "mainBone.headTop",
+  "headTopCenter": [
+    0.0,
+    0.4375,
+    -0.1875
+  ],
+  "headScale": 0.9
+}

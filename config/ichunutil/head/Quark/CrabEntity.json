@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "vazkii.quark.content.mobs.entity.CrabEntity",
+  "modelFieldName": "group.body",
+  "headTopCenter": [
+    0.0,
+    0.125,
+    0.0
+  ],
+  "headScale": 0.7
+}

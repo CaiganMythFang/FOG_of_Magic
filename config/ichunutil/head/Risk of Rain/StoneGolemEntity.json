@@ -1,0 +1,10 @@
+{
+  "author": "caigan",
+  "forClass": "com.elcolomanco.riskofrainmod.entities.StoneGolemEntity",
+  "modelFieldName": "core.torso_axis.torso.torso2.torso3.torso4.torso5.neck_axis.neck.head_axis.head.head2.head3_2.head4_2.head5_2.head6",
+  "headTopCenter": [
+    0.0,
+    0.0625,
+    0.0
+  ]
+}

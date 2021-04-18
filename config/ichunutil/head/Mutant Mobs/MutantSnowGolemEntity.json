@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "chumbanotz.mutantbeasts.entity.mutant.MutantSnowGolemEntity",
+  "modelFieldName": "pelvis.abdomen.chest.head.chest_0_0.headCore",
+  "headTopCenter": [
+    0.0,
+    0.4375,
+    0.0
+  ],
+  "headScale": 0.8
+}

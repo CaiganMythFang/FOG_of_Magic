@@ -1,0 +1,10 @@
+{
+  "author": "caigan",
+  "forClass": "com.elcolomanco.riskofrainmod.entities.GunnerDroneEntity",
+  "modelFieldName": "core.eye.top_case.top_case_top",
+  "headTopCenter": [
+    0.0,
+    0.03125,
+    0.0
+  ]
+}

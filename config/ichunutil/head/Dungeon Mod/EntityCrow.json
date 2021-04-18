@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.EntityCrow",
+  "modelFieldName": "body.head",
+  "headTopCenter": [
+    0.0,
+    0.09375,
+    0.03125
+  ],
+  "headScale": 0.3
+}

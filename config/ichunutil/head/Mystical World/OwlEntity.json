@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "epicsquid.mysticalworld.entity.OwlEntity",
+  "modelFieldName": "body.head",
+  "headTopCenter": [
+    0.0,
+    0.375,
+    0.0
+  ],
+  "headScale": 0.9
+}

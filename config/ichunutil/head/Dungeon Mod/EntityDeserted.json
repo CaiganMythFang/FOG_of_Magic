@@ -1,0 +1,10 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.boss.EntityDeserted",
+  "modelFieldName": "Head",
+  "headTopCenter": [
+    0.0,
+    0.75,
+    0.0625
+  ]
+}

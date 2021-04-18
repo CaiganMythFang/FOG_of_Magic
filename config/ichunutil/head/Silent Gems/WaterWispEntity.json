@@ -1,0 +1,10 @@
+{
+  "author": "caigan",
+  "forClass": "net.silentchaos512.gems.entity.WaterWispEntity",
+  "modelFieldName": "mainBody",
+  "headTopCenter": [
+    0.0,
+    0.0625,
+    0.0
+  ]
+}

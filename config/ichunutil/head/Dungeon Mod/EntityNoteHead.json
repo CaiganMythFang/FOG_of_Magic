@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.EntityNoteHead",
+  "modelFieldName": "body.noteRight",
+  "headTopCenter": [
+    -0.5625,
+    0.5,
+    0.0
+  ],
+  "headScale": 1.7
+}

@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.elcolomanco.riskofrainmod.entities.LemurianEntity",
+  "modelFieldName": "core.stomach_axis.stomach.rib_cage_axis.rib_cage.neck_axis.neck.head_axis.head",
+  "headTopCenter": [
+    0.0,
+    0.0,
+    0.125
+  ],
+  "headScale": 0.6
+}

@@ -1,0 +1,6 @@
+{
+  "author": "caigan",
+  "forClass": "chumbanotz.mutantbeasts.entity.mutant.MutantZombieEntity",
+  "modelFieldName": "pelvis.waist.chest.head",
+  "headScale": 0.9
+}

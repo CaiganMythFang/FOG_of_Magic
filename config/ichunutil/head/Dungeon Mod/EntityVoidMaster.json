@@ -1,0 +1,11 @@
+{
+  "author": "caigan",
+  "forClass": "com.dainxt.dungeonsmod.entity.boss.EntityVoidMaster",
+  "modelFieldName": "head1",
+  "headTopCenter": [
+    0.0,
+    1.875,
+    0.0
+  ],
+  "headScale": 6.0
+}

@@ -1,0 +1,25 @@
+{
+  "author": "caigan",
+  "forClass": "com.mrbysco.instrumentalmobs.entities.MaracaSpiderEntity",
+  "modelFieldName": "spiderHead",
+  "affectedByInvisibility": false,
+  "eyeOffset": [
+    0.0,
+    0.0,
+    0.5
+  ],
+  "irisColour": [
+    0.8,
+    0.0,
+    0.0
+  ],
+  "halfInterpupillaryDistance": 0.0625,
+  "eyeScale": 0.8,
+  "eyeCount": 8,
+  "doesEyeGlow": true,
+  "headTopCenter": [
+    0.0,
+    0.25,
+    0.25
+  ]
+}
