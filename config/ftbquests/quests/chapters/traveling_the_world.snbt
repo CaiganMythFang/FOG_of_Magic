@@ -902,38 +902,6 @@
 			}]
 		},
 		{
-			title: "Risky Invaders",
-			icon: "riskofrainmod:tougher_times",
-			x: -3.25d,
-			y: 1.0d,
-			shape: "heart",
-			subtitle: "&dMod: Risk of Rain Mod",
-			description: [
-				"&dTraveller, there's a few invaders that have shown up in your dimension you should watch out for. ",
-				"",
-				"Invaders from where?",
-				"",
-				"&dA place called Petrichor V. There are two invaders: Lemurians and Stone Golems. ",
-				"",
-				"&dThey've also set up little bases and shrines you should explore. They have somewhat powerful artifacts in them. "
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "2FDC593419B15179",
-			tasks: [{
-				id: "732189F21B531142",
-				type: "kill",
-				entity: "riskofrainmod:stone_golem",
-				value: 2L
-			}],
-			rewards: [{
-				id: "0077ADDAF82EFABA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
-				count: 20
-			}]
-		},
-		{
 			title: "The Ultimate Pocket",
 			icon: "subpocket:key",
 			x: -3.25d,
