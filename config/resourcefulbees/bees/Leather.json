@@ -17,7 +17,7 @@
         "inputID": "minecraft:grass",
         "outputs": [
           {"outputID": "quark:bonded_leather", "weight": 2},
-          {"outputID": "minecraft:air", "weight": 8}
+          {"outputID": "minecraft:air", "weight": 8} 
         ]
       }
     ]
