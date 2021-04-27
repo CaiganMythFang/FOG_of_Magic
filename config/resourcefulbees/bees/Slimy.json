@@ -15,12 +15,16 @@
       {
         "type": "BLOCK",
         "inputID": "minecraft:honey_block",
-        "chance": 0.8,
         "outputs": [
-          {"outputID": "minecraft:slime_block", "weight": 10}
+          {"outputID": "minecraft:air", "weight": 5},
+          {"outputID": "minecraft:slime_block", "weight": 5}
         ]
       }
     ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:slime_ball"
   },
   "BreedData": {
     "isBreedable": true,

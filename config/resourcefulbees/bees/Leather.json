@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:grass_block",
-    "mutationOutput": "quark:bonded_leather",
-    "chance": 0.2,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:grass",
+        "outputs": [
+          {"outputID": "quark:bonded_leather", "weight": 2},
+          {"outputID": "minecraft:air", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "rats:fish_barrel",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
   "ColorData": {
@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:water",
-    "mutationOutput": "minecraft:dried_kelp_block",
-    "chance": 0.1,
-    "mutationType": "FLUID_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:grass",
+        "outputs": [
+          {"outputID": "minecraft:dried_kelp_block", "weight": 2},
+          {"outputID": "minecraft:air", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

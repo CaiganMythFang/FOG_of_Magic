@@ -11,15 +11,22 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:cobblestone",
-    "chance": 1.0,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:dirt",
+        "outputs": [
+          {"outputID": "silentgems:air", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:cobblestone",
-    "mainOutputWeight": 1.0
+    "mainOutputWeight": 1.0,
+    "mainOutputCount": 4
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "ANY",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "ColorData": {
@@ -11,9 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:grass",
-    "mutationOutput": "quark:apple_crate",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "minecraft:apple", "weight": 8},
+          {"outputID": "alexsmobs:moose_ribs", "weight": 2}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

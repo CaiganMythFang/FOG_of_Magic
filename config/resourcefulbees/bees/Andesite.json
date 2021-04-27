@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:dirt",
-    "mutationOutput": "minecraft:andesite",
-    "chance": 0.8,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:dirt",
+        "outputs": [
+          {"outputID": "minecraft:andesite", "weight": 8},
+          {"outputID": "minecraft:cobblestone", "weight": 2}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

@@ -15,8 +15,8 @@
         "type": "BLOCK",
         "inputID": "minecraft:blackstone",
         "outputs": [
-          {"outputID": "minecraft:gilded_blackstone", "weight": 10},
-          {"outputID": "minecraft:netherrack", "weight": 10}
+          {"outputID": "minecraft:ancient_debris", "weight": 2},
+          {"outputID": "minecraft:gilded_blackstone", "weight": 98}
         ]
       }
     ]

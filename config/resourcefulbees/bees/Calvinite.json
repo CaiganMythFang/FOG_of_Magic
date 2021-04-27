@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "resynth:calvinite_enhancer",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "ColorData": {
@@ -11,15 +11,21 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:netherrack",
-    "mutationOutput": "resynth:calvinite_netherrack",
-    "chance": 1.0,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:netherrack",
+        "outputs": [
+          {"outputID": "resynth:calvinite_netherrack", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "resynth:calvinite_crystal",
-    "mainOutputWeight": 1.0
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

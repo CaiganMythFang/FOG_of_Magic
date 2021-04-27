@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "botania:dragonstone_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "ColorData": {
@@ -19,7 +19,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "botania:dragonstone",
-    "mainOutputWeight": 0.3
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "minecraft:tnt",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "/creeper/creeper_bee",
@@ -17,10 +17,10 @@
     "mutations" : [
       {
         "type": "BLOCK",
-        "inputID": "minecraft:lava",
-        "chance": 0.75,
+        "inputID": "minecraft:sand",
         "outputs": [
-          {"outputID": "minecraft:mossy_cobblestone", "weight": 10}
+          {"outputID": "quark:gunpowder_sack", "weight": 1},
+          {"outputID": "minecraft:cobblestone", "weight": 9}
         ]
       }
     ]
@@ -28,7 +28,8 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:gunpowder",
-    "mainOutputCount": 4
+    "mainOutputCount": 4,
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

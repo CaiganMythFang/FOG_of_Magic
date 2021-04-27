@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/redstone_alloy",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
   "ColorData": {
@@ -19,7 +19,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "silents_mechanisms:redstone_alloy_ingot",
-    "mainOutputWeight": 0.7
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

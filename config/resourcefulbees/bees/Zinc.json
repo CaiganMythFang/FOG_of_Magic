@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/zinc",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
   "ColorData": {
@@ -11,15 +11,21 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "create:zinc_ore",
-    "chance": 0.5,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "create:zinc_ore", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "create:zinc_ingot",
-    "mainOutputWeight": 1.0
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

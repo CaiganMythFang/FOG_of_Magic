@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:grass",
-    "mutationOutput": "quark:bonded_rabbit_hide",
-    "chance": 0.2,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:grass",
+        "outputs": [
+          {"outputID": "quark:bonded_rabbit_hide", "weight": 2},
+          {"outputID": "minecraft:air", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "silentgems:ender_crystal_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
   "ColorData": {
@@ -11,15 +11,21 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:end_stone",
-    "mutationOutput": "silentgems:ender_ore",
-    "chance": 0.3,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:end_stone",
+        "outputs": [
+          {"outputID": "silentgems:ender_ore", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "silentgems:ender_crystal",
-    "mainOutputWeight": 0.3
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

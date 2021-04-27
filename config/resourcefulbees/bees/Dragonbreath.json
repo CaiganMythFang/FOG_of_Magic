@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "minecraft:end_stone",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "ColorData": {
@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:end_stone",
-    "chance": 0.5,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "minecraft:air", "weight": 5},
+          {"outputID": "minecraft:end_stone", "weight": 5}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

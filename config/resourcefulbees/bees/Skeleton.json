@@ -14,7 +14,8 @@
         "type": "BLOCK",
         "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "minecraft:gravel", "weight": 10}
+          {"outputID": "minecraft:air", "weight": 2},
+          {"outputID": "minecraft:gravel", "weight": 8}
         ]
       }
     ]

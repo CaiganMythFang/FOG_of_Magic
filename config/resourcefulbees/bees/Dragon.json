@@ -22,9 +22,9 @@
       {
         "type": "BLOCK",
         "inputID": "minecraft:stone",
-        "chance": 0.5,
         "outputs": [
-          {"outputID": "minecraft:end_stone", "weight": 10}
+          {"outputID": "minecraft:end_stone", "weight": 5},
+          {"outputID": "minecraft:air", "weight": 5}
         ]
       }
     ]

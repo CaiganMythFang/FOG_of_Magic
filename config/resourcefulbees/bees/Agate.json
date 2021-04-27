@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/agate",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "ColorData": {
@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "silentgems:agate_ore",
-    "chance": 0.2,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "silentgems:agate", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

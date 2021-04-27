@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/invar",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "ColorData": {

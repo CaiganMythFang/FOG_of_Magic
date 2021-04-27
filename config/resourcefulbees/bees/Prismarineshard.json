@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "minecraft:sea_lantern",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
   "ColorData": {
@@ -11,15 +11,21 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:gravel",
-    "mutationOutput": "minecraft:sea_lantern",
-    "chance": 0.1,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:gravel",
+        "outputs": [
+          {"outputID": "silentgems:prismarine", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:prismarine_shard",
-    "mainOutputWeight": 0.7
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

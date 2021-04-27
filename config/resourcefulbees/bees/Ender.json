@@ -14,10 +14,10 @@
     "mutations" : [
       {
         "type": "BLOCK",
-        "inputID": "minecraft:obsidian",
-        "chance": 0.5,
+        "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "minecraft:end_stone", "weight": 10}
+          {"outputID": "minecraft:end_stone", "weight": 5},
+          {"outputID": "minecraft:air", "weight": 5}
         ]
       }
     ]
@@ -25,6 +25,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:ender_pearl",
+    "mainOutputWeight": 0.5,
     "bottleOutput" : "minecraft:dragon_breath"
   },
   "SpawnData": {

@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:sand",
-    "mutationOutput": "minecraft:clay",
-    "chance": 0.8,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:sand",
+        "outputs": [
+          {"outputID": "minecraft:cobblestone", "weight": 5},
+          {"outputID": "minecraft:clay", "weight": 5}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

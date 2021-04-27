@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/aluminum",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "ColorData": {
@@ -11,13 +11,21 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "silents_mechanisms:bauxite_ore",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "silents_mechanisms:bauxite_ore", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "silents_mechanisms:aluminum_ingot"
+    "mainOutput": "silents_mechanisms:aluminum_ingot",
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

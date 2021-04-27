@@ -15,8 +15,8 @@
         "type": "BLOCK",
         "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "minecraft:lapis_ore", "weight": 10},
-          {"outputID": "minecraft:cobblestone", "weight": 10}
+          {"outputID": "minecraft:lapis_ore", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
         ]
       }
     ]
@@ -24,7 +24,8 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:lapis_lazuli",
-    "mainOutputCount": 8
+    "mainOutputCount": 4,
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

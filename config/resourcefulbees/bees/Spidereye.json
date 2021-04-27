@@ -11,15 +11,21 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:grass",
-    "mutationOutput": "minecraft:cobweb",
-    "chance": 0.5,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:grass",
+        "outputs": [
+          {"outputID": "minecraft:air", "weight": 5},
+          {"outputID": "minecraft:cobweb", "weight": 5}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:spider_eye",
-    "mainOutputWeight": 0.7
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -15,8 +15,8 @@
         "type": "BLOCK",
         "inputID": "minecraft:lava",
         "outputs": [
-          {"outputID": "minecraft:obsidian", "weight": 10},
-          {"outputID": "minecraft:stone", "weight": 10}
+          {"outputID": "minecraft:stone", "weight": 5},
+          {"outputID": "minecraft:obsidian", "weight": 5}
         ]
       }
     ]
@@ -24,7 +24,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:nether_star",
-    "mainOutputWeight": 0.01
+    "mainOutputWeight": 0.005
   },
   "SpawnData": {},
   "BreedData": {

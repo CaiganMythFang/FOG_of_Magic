@@ -13,10 +13,10 @@
     "mutations" : [
       {
         "type": "BLOCK",
-        "inputID": "minecraft:lava",
-        "chance": 0.75,
+        "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "minecraft:water", "weight": 10}
+          {"outputID": "minecraft:diamond_ore", "weight": 2},
+          {"outputID": "minecraft:lava", "weight": 8}
         ]
       }
     ]
@@ -24,7 +24,8 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:diamond",
-    "mainOutputCount": 1
+    "mainOutputCount": 1,
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

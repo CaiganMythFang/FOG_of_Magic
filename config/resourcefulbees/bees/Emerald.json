@@ -13,16 +13,17 @@
       {
         "type": "BLOCK",
         "inputID": "minecraft:stone",
-        "chance": 0.75,
         "outputs": [
-          {"outputID": "minecraft:lava", "weight": 10}
+          {"outputID": "minecraft:emerald_ore", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
         ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:emerald"
+    "mainOutput": "minecraft:emerald",
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -14,9 +14,9 @@
       {
         "type": "BLOCK",
         "inputID": "minecraft:stone",
-        "chance": 0.75,
         "outputs": [
-          {"outputID": "minecraft:coal_ore", "weight": 10}
+          {"outputID": "minecraft:coal_ore", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
         ]
       }
     ]
@@ -24,7 +24,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:coal",
-    "mainOutputCount": 16
+    "mainOutputCount": 4
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "botania:elementium_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 800,
   "ColorData": {
@@ -19,7 +19,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "botania:elementium_ingot",
-    "mainOutputWeight": 0.4
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

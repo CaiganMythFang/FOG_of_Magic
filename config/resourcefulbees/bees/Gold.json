@@ -15,15 +15,16 @@
         "type": "BLOCK",
         "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "minecraft:gold", "weight": 10},
-          {"outputID": "minecraft:cobblestone", "weight": 10}
+          {"outputID": "minecraft:gold_ore", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
         ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:gold_ingot"
+    "mainOutput": "minecraft:gold_ingot",
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

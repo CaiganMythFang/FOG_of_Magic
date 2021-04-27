@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "resynth:mineral_soil",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "ColorData": {
@@ -11,15 +11,22 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "resynth:mineral_stone",
-    "chance": 0.5,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "resynth:mineral_stone", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "resynth:mineral_crystal",
-    "mainOutputWeight": 1.0
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 2
   },
   "SpawnData": {
     "canSpawnInWorld": true,

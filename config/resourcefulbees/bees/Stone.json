@@ -11,15 +11,22 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:dirt",
-    "mutationOutput": "minecraft:stone",
-    "chance": 0.8,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:dirt",
+        "outputs": [
+          {"outputID": "minecraft:air", "weight": 2},
+          {"outputID": "minecraft:stone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:stone",
-    "mainOutputWeight": 1.0
+    "mainOutputWeight": 1.0,
+    "mainOutputCount": 4
   },
   "SpawnData": {
     "canSpawnInWorld": true,

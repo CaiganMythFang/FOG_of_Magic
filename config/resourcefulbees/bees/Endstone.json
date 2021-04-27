@@ -11,15 +11,22 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:end_stone",
-    "chance": 0.8,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "silentgems:air", "weight": 2},
+          {"outputID": "minecraft:end_stone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:end_stone",
-    "mainOutputWeight": 1.0
+    "mainOutputWeight": 1.0,
+    "mainOutputCount": 2
   },
   "SpawnData": {
     "canSpawnInWorld": true,

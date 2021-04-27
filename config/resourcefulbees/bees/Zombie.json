@@ -1,5 +1,5 @@
 {
-  "flower": "tag:minecraft:bee_growables",
+  "flower": "ANY",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "zombie/zombie_bee",
@@ -15,8 +15,8 @@
         "type": "BLOCK",
         "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "minecraft:cobblestone", "weight": 10},
-          {"outputID": "minecraft:cobblestone", "weight": 30}
+          {"outputID": "silentgems:dirt", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
         ]
       }
     ]

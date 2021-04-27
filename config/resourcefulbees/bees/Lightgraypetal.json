@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:botania/mystical_flowers",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
   "ColorData": {
@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:grass",
-    "mutationOutput": "botania:light_gray_petal_block",
-    "chance": 1.0,
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:grass",
+        "outputs": [
+          {"outputID": "botania:light_gray_petal_block", "weight": 2},
+          {"outputID": "minecraft:cobblestone", "weight": 8}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

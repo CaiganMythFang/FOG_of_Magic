@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/signalum",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
   "ColorData": {
@@ -19,7 +19,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "silents_mechanisms:signalum_ingot",
-    "mainOutputWeight": 0.4
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": true,

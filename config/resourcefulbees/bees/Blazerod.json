@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "minecraft:magma_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "ColorData": {
@@ -19,7 +19,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:blaze_rod",
-    "mainOutputWeight": 0.8
+    "mainOutputWeight": 0.75
   },
   "SpawnData": {
     "canSpawnInWorld": true,
