@@ -417,7 +417,13 @@
 							Damage: 0
 						}
 					},
-					item: "ars_nouveau:creative_spell_book"
+					item: {
+						id: "ars_nouveau:novice_hood",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
 				},
 				{
 					id: "0000000000000136",
