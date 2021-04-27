@@ -191,7 +191,7 @@
 	#
 	#Set this to false when you want to overwrite the default bee files. [true/false]
 	#This should be run at least once for initial generation.
-	generateDefaults = true
+	generateDefaults = false
 	#
 	#Amount of time in ticks required to finish processing a honey bottle.
 	#Range: 0 ~ 2400
