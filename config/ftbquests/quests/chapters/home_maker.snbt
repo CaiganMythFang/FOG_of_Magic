@@ -121,28 +121,42 @@
 		},
 		{
 			title: "Holy Poles, Batman!",
-			icon: "minecraft:iron_bars",
+			icon: "adpoles:iron_pole",
 			x: 0.0d,
 			y: -3.25d,
+			shape: "square",
 			subtitle: "&dMod: To The Bat Poles!",
 			description: [
 				"So, a neat thing I've found out. Stacking Iron Bars on top of each other in a single column, becomes a Bat Pole!",
 				"",
 				"&dFirehouse pole.",
 				"",
-				"Same thing. If I jump near the top, I can easily grab on and slide down it safely!"
+				"Same thing. If I jump near the top, I can easily grab on and slide down it safely!",
+				"",
+				"&dEven better, you craft a bunch of different Poles just for this ability. The Iron Pole is the most basic. Diamond is really fast.",
+				"",
+				"&dAnd the Redstone Pole can push you back UP it when a Redstone Signal is applied!"
 			],
 			hide_dependency_lines: true,
 			dependencies: ["00000000000000F4"],
 			id: "00000000000000FB",
-			tasks: [{
-				id: "00000000000000FD",
-				type: "checkmark"
-			}],
+			tasks: [
+				{
+					id: "02C3B1D2D1E8F924",
+					type: "item",
+					item: "adpoles:iron_pole"
+				},
+				{
+					id: "42F7A154E5C92909",
+					type: "item",
+					item: "adpoles:redstone_pole"
+				}
+			],
 			rewards: [{
 				id: "00000000000000FE",
 				type: "item",
-				item: "calemiutils:coin_dollar"
+				item: "calemiutils:coin_dollar",
+				count: 15
 			}]
 		},
 		{
