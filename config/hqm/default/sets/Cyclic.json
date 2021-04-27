@@ -944,13 +944,35 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "longDescription": "\n    Total Cost: 400",
           "items": [
             {
               "item": {
                 "id": "calemiutils:coin_dollar",
-                "Count": 44
+                "Count": 100
               },
-              "required": 300
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
             }
           ]
         }
