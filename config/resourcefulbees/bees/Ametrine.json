@@ -3,6 +3,7 @@
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "baseLayerTexture": "ores/ametrine/custom_bee",
+  "traits": ["nether"],
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#b02b7f",
@@ -36,5 +37,7 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"nether"}
+  "TraitData": {
+    "hasTraits": true
+  }
 }

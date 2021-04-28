@@ -36,5 +36,8 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"slimy","oreo","kitten"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["slimy","oreo","kitten"]
 }

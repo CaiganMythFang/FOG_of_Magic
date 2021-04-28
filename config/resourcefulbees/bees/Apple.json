@@ -37,5 +37,8 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"zombie"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["zombie"]
 }

@@ -30,5 +30,8 @@
   "BreedData": {
     "isBreedable": false
   },
-  "TraitData": {"ender"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["ender"]
 }

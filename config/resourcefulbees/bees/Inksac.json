@@ -35,5 +35,8 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"can_swim"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["can_swim"]
 }

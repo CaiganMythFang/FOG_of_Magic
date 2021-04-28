@@ -35,5 +35,8 @@
     "feedItem": "small",
     "feedAmount": 8
   },
-  "TraitData": {"zombie"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["zombie"]
 }

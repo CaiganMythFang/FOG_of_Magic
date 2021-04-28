@@ -30,5 +30,8 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"wither"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["wither"]
 }

@@ -30,5 +30,8 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"kitten","oreo"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["kitten","oreo"]
 }

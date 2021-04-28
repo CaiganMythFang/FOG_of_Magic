@@ -29,5 +29,8 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"nether","wither"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["nether","wither"]
 }

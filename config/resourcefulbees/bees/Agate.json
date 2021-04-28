@@ -17,7 +17,7 @@
         "type": "BLOCK",
         "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "silentgems:agate", "weight": 2},
+          {"outputID": "silentgems:agate_ore", "weight": 2},
           {"outputID": "minecraft:cobblestone", "weight": 8}
         ]
       }

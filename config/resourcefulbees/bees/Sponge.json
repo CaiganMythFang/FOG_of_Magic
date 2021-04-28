@@ -35,5 +35,8 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {"slimy"}
+  "TraitData": {
+    "hasTraits": true
+  },
+  "traits": ["slimy"]
 }
