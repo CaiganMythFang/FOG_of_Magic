@@ -27,7 +27,7 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:Mountain,Hills"
+    "biomeWhitelist": "TAG:overworld"
   },
   "BreedData": {
     "isBreedable": true,

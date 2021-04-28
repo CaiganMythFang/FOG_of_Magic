@@ -30,11 +30,11 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeWhitelist": "tag:wither",
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {}
+  "TraitData": {"end"}
 }

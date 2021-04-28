@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:water",
+  "flower": "ANY",
   "hasHoneycomb": false,
   "traits": ["can_swim"],
   "maxTimeInHive": 1200,
@@ -28,7 +28,9 @@
     "hasCentrifugeOutput": false
   },
   "SpawnData": {
-    "canSpawnInWorld": false
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
     "isBreedable": true

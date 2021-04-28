@@ -24,11 +24,11 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeWhitelist": "tag:end",
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {}
+  "TraitData": {"ender"}
 }

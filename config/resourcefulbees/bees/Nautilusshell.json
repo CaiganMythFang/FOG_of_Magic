@@ -29,5 +29,5 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {}
+  "TraitData": {"can_swim"}
 }

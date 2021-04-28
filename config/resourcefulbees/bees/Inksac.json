@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:water",
-    "chance": 0.6,
-    "mutationType": "BLOCK_TO_FLUID"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "minecraft:cobblestone", "weight": 6},
+          {"outputID": "mysticalworld:blackened_stone", "weight": 4}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -29,5 +35,5 @@
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {}
+  "TraitData": {"can_swim"}
 }

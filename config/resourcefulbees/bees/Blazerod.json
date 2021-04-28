@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:magma_block",
+  "flower": "quark:magma_bricks",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
   "ColorData": {
@@ -11,10 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:lava",
-    "chance": 0.3,
-    "mutationType": "BLOCK_TO_FLUID"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:netherrack",
+        "outputs": [
+          {"outputID": "minecraft:magma_block", "weight": 3},
+          {"outputID": "minecraft:air", "weight": 7}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -23,11 +29,11 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeWhitelist": "tag:nether",
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {}
+  "TraitData": {"nether"}
 }
