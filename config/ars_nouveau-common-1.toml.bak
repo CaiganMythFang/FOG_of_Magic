@@ -186,8 +186,6 @@
 	wither = true
 	#Knockback enabled?
 	gust = true
-	#Decoy enabled?
-	decoy = true
 
 #Spell Cost
 [spell_cost]
@@ -371,9 +369,6 @@
 	#Fell cost
 	#Range: > -2147483648
 	fell_cost = 150
-	#Decoy cost
-	#Range: > -2147483648
-	decoy_cost = 50
 
 #Starting Spells
 ["Starter Spells"]
