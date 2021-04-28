@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/amethyst",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/amethyst/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#924cd0",

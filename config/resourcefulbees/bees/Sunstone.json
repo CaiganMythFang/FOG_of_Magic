@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/sunstone",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/sunstone/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fc9273",

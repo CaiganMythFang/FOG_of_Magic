@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/mana",
   "hasHoneycomb": true,
   "maxTimeInHive": 800,
+  "baseLayerTexture": "ores/mana/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#ca65fc",

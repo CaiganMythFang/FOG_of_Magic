@@ -2,6 +2,7 @@
   "flower": "minecraft:sea_lantern",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
+  "baseLayerTexture": "ores/prismarine_shard/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#a2cfc0",

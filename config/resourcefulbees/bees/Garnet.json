@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/garnet",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/garnet/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f06040",

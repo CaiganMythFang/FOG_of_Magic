@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/moonstone",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/moonstone/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#e1e1e1",

@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/chaos",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/chaos/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f2e8e3",

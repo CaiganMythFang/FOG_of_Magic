@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/tanzanite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/tanzanite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#8b40f0",

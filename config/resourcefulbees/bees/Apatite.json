@@ -1,7 +1,8 @@
 {
-  "flower": "tag:forge:storage_blocks/amethyst",
+  "flower": "tag:forge:storage_blocks/apatite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/apatite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#94fcfc",

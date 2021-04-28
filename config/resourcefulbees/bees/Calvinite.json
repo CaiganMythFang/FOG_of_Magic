@@ -2,6 +2,7 @@
   "flower": "resynth:calvinite_enhancer",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/calvinite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#c3afcd",

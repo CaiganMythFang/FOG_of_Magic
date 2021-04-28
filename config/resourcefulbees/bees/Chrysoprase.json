@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/chrysoprase",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/chrysoprase/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#6bf330",

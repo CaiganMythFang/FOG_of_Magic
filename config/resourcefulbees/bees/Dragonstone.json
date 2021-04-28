@@ -2,6 +2,7 @@
   "flower": "botania:dragonstone_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/dragonstone/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f17cbc",

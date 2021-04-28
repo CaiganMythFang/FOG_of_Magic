@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/lumium",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/lumium/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f1f6dd",

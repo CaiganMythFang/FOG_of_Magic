@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/onyx",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/onyx/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#474747",

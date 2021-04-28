@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/amber",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/amber/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f9c902",

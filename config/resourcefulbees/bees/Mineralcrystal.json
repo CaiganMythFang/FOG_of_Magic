@@ -2,6 +2,7 @@
   "flower": "resynth:mineral_soil",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/mineral/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#00d3d3",

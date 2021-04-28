@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/biotite",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/biotite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#1e1e30",

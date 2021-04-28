@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/oratchalcum",
   "hasHoneycomb": true,
   "maxTimeInHive": 900,
+  "baseLayerTexture": "ores/oratchalcum/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fcf8ae",

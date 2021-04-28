@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/carnelian",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/carnelian/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#a82d00",

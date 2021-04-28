@@ -2,6 +2,7 @@
   "flower": "tag:forge:cheese_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
+  "baseLayerTexture": "crown/queen_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fce15d",

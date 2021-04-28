@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/lead",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/lead/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#7d8aae",

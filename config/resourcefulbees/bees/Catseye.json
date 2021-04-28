@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/cats_eye",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/cats_eye/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fcc96a",

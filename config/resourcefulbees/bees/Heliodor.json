@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/heliodor",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/heliodor/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fcfcd8",

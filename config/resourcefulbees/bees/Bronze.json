@@ -1,7 +1,8 @@
 {
-  "flower": "tag:forge:storage_blocks/amethyst",
+  "flower": "tag:forge:storage_blocks/bronze",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/bronze/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#d38e3a",

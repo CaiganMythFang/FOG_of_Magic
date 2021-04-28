@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/platinum",
   "hasHoneycomb": true,
   "maxTimeInHive": 900,
+  "baseLayerTexture": "ores/platinum/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#cdeef5",

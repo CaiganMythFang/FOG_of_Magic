@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/sapphire",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/sapphire/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#95abf2",

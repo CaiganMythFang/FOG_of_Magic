@@ -1,7 +1,8 @@
 {
-  "flower": "tag:forge:storage_blocks/amethyst",
+  "flower": "tag:forge:storage_blocks/azure_electrum",
   "hasHoneycomb": true,
   "maxTimeInHive": 800,
+  "baseLayerTexture": "ores/azure_electrum/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#4474e0",

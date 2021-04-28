@@ -2,12 +2,13 @@
   "flower": "ANY",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "mushroom/apple_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#da1725",
     "primaryColor": "#da1725",
     "secondaryColor": "#b2131e",
-    "modelType": "CROP"
+    "modelType": "MUSHROOM"
   },
   "MutationData": {
     "hasMutation": true,

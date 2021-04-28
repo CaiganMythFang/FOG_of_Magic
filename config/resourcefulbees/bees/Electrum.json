@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/electrum",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/electrum/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#ebeeb4",

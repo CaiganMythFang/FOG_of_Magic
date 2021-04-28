@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/peridot",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/peridot/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#a5f040",

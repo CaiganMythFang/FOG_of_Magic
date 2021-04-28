@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/coral",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/coral/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fc722e",

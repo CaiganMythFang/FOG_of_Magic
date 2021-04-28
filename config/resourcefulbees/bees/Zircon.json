@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/zircon",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/zircon/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#e5eda0",

@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/terrasteel",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/terrasteel/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#56fc09",

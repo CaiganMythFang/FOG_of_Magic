@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/spinel",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/spinel/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#de9d6c",

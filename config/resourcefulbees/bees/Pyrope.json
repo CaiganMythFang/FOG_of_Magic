@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/pyrope",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/pyrope/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fc405d",

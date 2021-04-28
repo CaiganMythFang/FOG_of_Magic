@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/morganite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/morganite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fcbdc2",

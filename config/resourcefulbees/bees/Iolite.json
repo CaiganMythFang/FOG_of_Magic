@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/iolite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/iolite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#ae69db",

@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/nickel",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/nickel/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f0f0cd",

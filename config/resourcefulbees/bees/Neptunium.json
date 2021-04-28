@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/neptunium",
   "hasHoneycomb": true,
   "maxTimeInHive": 800,
+  "baseLayerTexture": "ores/neptunium/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#8af8d9",

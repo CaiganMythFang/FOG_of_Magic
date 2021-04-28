@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/fluorite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/fluorite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#31def3",

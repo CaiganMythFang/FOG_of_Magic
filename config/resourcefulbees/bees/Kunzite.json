@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/kunzite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/kunzite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fb47ec",

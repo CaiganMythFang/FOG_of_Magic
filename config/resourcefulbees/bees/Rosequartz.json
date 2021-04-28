@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/rose_quartz",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/rose_quartz/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fc6abb",

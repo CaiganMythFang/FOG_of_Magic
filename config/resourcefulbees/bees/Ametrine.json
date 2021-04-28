@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/ametrine",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/ametrine/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#b02b7f",

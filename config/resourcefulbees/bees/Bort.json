@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/bort",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/bort/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#90a1cf",

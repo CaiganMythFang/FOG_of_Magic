@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/redstone_alloy",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
+  "baseLayerTexture": "ores/redstone_alloy/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#b3251d",

@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/bismuth_brass",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/bismuth_brass/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#e6d4dc",

@@ -2,6 +2,7 @@
   "flower": "silentgems:ender_crystal_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/ender_crystal/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#bae3dc",

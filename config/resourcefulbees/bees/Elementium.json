@@ -2,6 +2,7 @@
   "flower": "botania:elementium_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 800,
+  "baseLayerTexture": "ores/elementium/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f395c9",

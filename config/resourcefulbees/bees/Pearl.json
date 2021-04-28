@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/pearl",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/pearl/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#96aaca",

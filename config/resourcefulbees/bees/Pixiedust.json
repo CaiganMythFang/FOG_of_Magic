@@ -2,6 +2,7 @@
   "flower": "tag:botania/mystical_flowers",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/pixie_dust/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#fc94bb",

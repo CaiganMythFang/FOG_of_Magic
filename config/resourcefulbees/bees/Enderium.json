@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/enderium",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/enderium/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#c4e3d1",

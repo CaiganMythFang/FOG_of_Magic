@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/steel",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/steel/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#959595",

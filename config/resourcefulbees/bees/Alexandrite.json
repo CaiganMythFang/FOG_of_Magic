@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/alexandrite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/alexandrite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#da56da",

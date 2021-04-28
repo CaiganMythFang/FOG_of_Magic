@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/topaz",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/topaz/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#da7c17",

@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/copper",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/copper/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#f9c783",

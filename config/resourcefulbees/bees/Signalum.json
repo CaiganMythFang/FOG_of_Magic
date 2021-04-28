@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/signalum",
   "hasHoneycomb": true,
   "maxTimeInHive": 700,
+  "baseLayerTexture": "ores/signalum/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#a63313",

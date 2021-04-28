@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/zinc",
   "hasHoneycomb": true,
   "maxTimeInHive": 500,
+  "baseLayerTexture": "ores/zinc/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#edeee7",

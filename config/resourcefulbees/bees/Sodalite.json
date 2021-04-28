@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/sodalite",
   "hasHoneycomb": true,
   "maxTimeInHive": 1000,
+  "baseLayerTexture": "ores/sodalite/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#8386fc",

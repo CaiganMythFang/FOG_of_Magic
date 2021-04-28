@@ -2,6 +2,7 @@
   "flower": "tag:forge:storage_blocks/silver",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/silver/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#e8eff9",
