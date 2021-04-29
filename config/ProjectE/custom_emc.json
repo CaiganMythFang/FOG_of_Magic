@@ -707,6 +707,14 @@
     {
       "item": "contenttweaker:shippingcrate",
       "emc": 10000
+    },
+    {
+      "item": "#forge:ingots/tin",
+      "emc": 1000
+    },
+    {
+      "item": "#forge:ores/tin",
+      "emc": 1000
     }
   ]
 }
