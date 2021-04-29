@@ -10,3 +10,12 @@ import mods.projecte.CustomEMC;
 <recipetype:create:splashing>.removeRecipe(<item:immersiveengineering:nugget_lead>);
 <recipetype:create:splashing>.removeRecipe(<item:eidolon:lead_nugget>);
 <recipetype:create:splashing>.removeRecipe(<item:mysticalworld:lead_nugget>);
+
+
+<recipetype:create:splashing>.removeRecipe(<item:immersiveengineering:nugget_aluminum>);
+
+<recipetype:create:splashing>.removeRecipe(<item:immersiveengineering:nugget_silver>);
+<recipetype:create:splashing>.removeRecipe(<item:iceandfire:silver_nugget>);
+<recipetype:create:splashing>.removeRecipe(<item:mysticalworld:silver_nugget>);
+
+<recipetype:create:splashing>.removeRecipe(<item:immersiveengineering:nugget_nickel>);
