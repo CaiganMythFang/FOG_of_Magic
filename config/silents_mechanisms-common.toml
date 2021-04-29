@@ -74,7 +74,7 @@
 			maxHeight = 90
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 
 		[world.ores.bauxite]
 			#Minimum Y-coordinate (base height) of veins
