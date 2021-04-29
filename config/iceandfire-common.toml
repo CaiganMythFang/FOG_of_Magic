@@ -132,7 +132,7 @@
 	#Range: 1.0 ~ 10000.0
 	"Gorgon Max Health" = 100.0
 	#Whether to generate silver ore or not
-	"Generate Silver Ore" = true
+	"Generate Silver Ore" = false
 	#Turning this to true simplifies the dragon's pathfinding process, making them dumber when finding a path, but better for servers with many loaded dragons.
 	"Experimental Dragon path Finder" = false
 	#1 out of this number chance per chunk for generation
