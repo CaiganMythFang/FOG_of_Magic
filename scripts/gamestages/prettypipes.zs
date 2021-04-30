@@ -3,7 +3,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.util.text.MCTextComponent;
 import crafttweaker.api.util.text.MCStyle;
 
-// mods.recipestages.Recipes.setRecipeStageByMod("lost_knowledge_factory_follies", "prettypipes");
+mods.recipestages.Recipes.setRecipeStageByMod("lost_knowledge_factory_follies", "prettypipes");
 
 <item:prettypipes:blank_module>.addTooltip("§4Lost Knowledge - Factory Follies");
 <item:prettypipes:pipe_frame>.addTooltip("§4Lost Knowledge - Factory Follies");

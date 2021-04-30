@@ -182,7 +182,7 @@
     {
       "uuid": "94680fe9-bddd-4d1f-9ccd-35f45706035b",
       "name": " Pretty Pipe Modules 1",
-      "description": "    Crafting Modules use the connected block to craft, requesting items as needed.\n    The Round Robin module will send extracted items to other inventories in a round robin style, sending to each one in order.\n    The Random Sorting Module will send extracted items to random destinations.",
+      "description": "    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items. \n    The Round Robin module will send extracted items to other inventories in a round robin style, sending to each one in order.\n    The Random Sorting Module will send extracted items to random destinations.",
       "x": 123,
       "y": 44,
       "icon": {
@@ -466,7 +466,7 @@
     {
       "uuid": "8988ba1f-be7f-4d59-a92f-9d85c6231c68",
       "name": " Pretty Pipes Modules 8",
-      "description": "    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Crafting Modules use the connected block to craft, requesting items as needed.\n     Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.    ",
+      "description": "    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items.\n     Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.    ",
       "x": 195,
       "y": 75,
       "icon": {
@@ -565,7 +565,7 @@
     {
       "uuid": "6789c8df-0525-406a-88b3-f39fe01b799f",
       "name": " Pretty Pipe Modules 7",
-      "description": "    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Speed Increase Modules will make items extracted from the connected inventory move faster in the network. \n    Crafting Modules use the connected block to craft, requesting items as needed.\n     Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.    ",
+      "description": "    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Speed Increase Modules will make items extracted from the connected inventory move faster in the network. \n    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items.\n     Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.",
       "x": 171,
       "y": 75,
       "icon": {

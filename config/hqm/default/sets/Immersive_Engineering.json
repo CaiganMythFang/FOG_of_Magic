@@ -313,52 +313,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "33dc32bf-a686-495a-b121-7161777a901a",
-      "name": " Wire Relays",
-      "description": "    Wire Relays are anchor points for Wires, but do not transfer power to other machines.",
-      "x": 43,
-      "y": 81,
-      "icon": {
-        "id": "immersiveengineering:connector_lv_relay",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 5
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "immersiveengineering:connector_lv_relay",
-          "Count": 3
-        },
-        {
-          "id": "immersiveengineering:connector_mv_relay",
-          "Count": 2
-        },
-        {
-          "id": "immersiveengineering:connector_hv_relay",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "997643ec-71d5-4e7f-9d9e-49b33c8b5609",
       "name": " Conveyors - Chutes",
       "description": "    Chutes control where items and entities fall from Conveyors. They can put items into inventories, or onto belts.",
@@ -400,6 +354,52 @@
         },
         {
           "id": "immersiveengineering:chute_copper",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "33dc32bf-a686-495a-b121-7161777a901a",
+      "name": " Wire Relays",
+      "description": "    Wire Relays are anchor points for Wires, but do not transfer power to other machines.",
+      "x": 43,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:connector_lv_relay",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:connector_lv_relay",
+          "Count": 3
+        },
+        {
+          "id": "immersiveengineering:connector_mv_relay",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:connector_hv_relay",
           "Count": 1
         }
       ],
@@ -456,52 +456,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "7192d529-a3dd-4a35-a5dc-b0363bbb4324",
-      "name": " Kinetic Components",
-      "description": "    These components are for the Kinetic Dynamo to generate power with.\n    The Windmill Sail is used on a Windmill to generate even more power.",
-      "x": 92,
-      "y": 112,
-      "icon": {
-        "id": "immersiveengineering:watermill",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "immersiveengineering:watermill",
-          "Count": 1
-        },
-        {
-          "id": "immersiveengineering:windmill",
-          "Count": 1
-        },
-        {
-          "id": "immersiveengineering:windmill_sail",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "10cc1a39-cb98-47ad-bef8-0e69eab5fcc2",
       "name": " Wire Coils - Basic",
       "description": "    Wire Coils are used to hook up power to machines and other devices. The amount of power flowing through dictates which type of wire you should use so they don\u0027t burn out.",
@@ -543,6 +497,52 @@
         {
           "id": "immersiveengineering:wirecoil_steel",
           "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7192d529-a3dd-4a35-a5dc-b0363bbb4324",
+      "name": " Kinetic Components",
+      "description": "    These components are for the Kinetic Dynamo to generate power with.\n    The Windmill Sail is used on a Windmill to generate even more power.",
+      "x": 92,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:watermill",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:watermill",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:windmill",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:windmill_sail",
+          "Count": 1
         }
       ],
       "commandrewards": []
