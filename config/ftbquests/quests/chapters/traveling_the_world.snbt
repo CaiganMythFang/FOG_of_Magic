@@ -1251,6 +1251,205 @@
 				item: "calemiutils:coin_dollar",
 				count: 5
 			}]
+		},
+		{
+			title: "Diving Deep",
+			icon: {
+				id: "dungeonsmod:home_gem",
+				Count: 1b,
+				tag: {}
+			},
+			x: -3.25d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dMod: Dungeons Mod",
+			description: [
+				"&dThere are a lot of dangerous things underground, Traveller. But, of course, risk brings reward.",
+				"",
+				"&dBe careful about easy treasures. Some monsters like to dress themselves up as chests and wait. ",
+				"",
+				"&dOh, right. You can make yourself a Home Gem to escape any dungeon. I think some games from your old world called it an Escape Rope or similar?",
+				"",
+				"&dBut anyways, you can't be holding a shield when you use it. Hold Right Click and it'll charge up, then send you back to your bed, all safe and comfy.",
+				"",
+				"I mean, unless I decided to sleep in a dungeon or something I guess.",
+				"",
+				"&d...WHY would you do that?!"
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "24A41CD987E4F89C",
+			tasks: [{
+				id: "489E978CF284AB28",
+				type: "item",
+				item: "dungeonsmod:home_gem"
+			}],
+			rewards: [{
+				id: "5B42A39F463748D8",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Robust Enchants",
+			icon: {
+				id: "minecraft:fishing_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 4.0d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dMod: Random Enchants",
+			description: [
+				"&dTraveller, mages all over this dimension are always finding new and interesting enchantments in the fabric of magic.",
+				"",
+				"&dSome new ones that have popped up recently may interest you. But be warned, they can be a bit dangerous.",
+				"",
+				"&dTake the Grapple enchantment. It only goes onto fishing rods.",
+				"",
+				"Fishing Rods? What would you enchant onto a Fishing Rod?",
+				"",
+				"&dGrapple, like I said. And luck, for better fishing and treasures, but I'm talking about Grapple, okay?",
+				"",
+				"&dIt turns the fishing rod into an impromptu grappling hook. If you toss the line on top of a block, you can Right Click to launch yourself. Just... be sure to have slow fall or something, okay?"
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "4F71F19810C96BA2",
+			tasks: [{
+				id: "6FFE5C225D1B5B52",
+				type: "item",
+				item: {
+					id: "minecraft:fishing_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "648D887987FB35BF",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Pretty Fly Hat",
+			icon: {
+				ForgeCaps: {
+					Parent: {
+						hsbH: 0.0f,
+						partCount: 0,
+						clrR: 0.0f,
+						count: 1,
+						isNew: 0b,
+						hsbS: 0.0f,
+						clrG: 0.0f,
+						isShowing: 1b,
+						enchanted: 0b,
+						clrA: 0.0f,
+						clrB: 0.0f,
+						name: ":random",
+						hsbB: 0.0f,
+						isFavourite: 0b
+					}
+				},
+				id: "hats:hat_launcher",
+				Count: 1b,
+				tag: {
+					hats_hatPart: {
+						hsbH: 0.0f,
+						partCount: 0,
+						clrR: 0.0f,
+						count: 1,
+						isNew: 0b,
+						hsbS: 0.0f,
+						clrG: 0.0f,
+						isShowing: 1b,
+						enchanted: 0b,
+						clrA: 0.0f,
+						clrB: 0.0f,
+						name: ":random",
+						hsbB: 0.0f,
+						isFavourite: 0b
+					}
+				}
+			},
+			x: -4.5d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dMod: Hats",
+			description: [
+				"Kow, why are random creatures wearing weird... hats? I'm not sure what else I'd call some of these strange pieces of headware I'm seeing.",
+				"",
+				"&dI've noticed that too. It seems some new hat shop opened up and well... had an accident on day one. ",
+				"",
+				"Accident? What kind of accident does a hat shop get...",
+				"",
+				"&dMagical one. They magically exploded their entire stockpile and now you'll find hats everywhere. Which means you can collect them! But you'll have to uh... kill the creature it's on, unfortunately.",
+				"",
+				"Why?!",
+				"",
+				"&dMagic. But you can choose and customize hats you collect by hitting the H key. You can also make a Hat Cannon to launch any hat you've collected, to put it on another animal or give it to another Traveller!"
+			],
+			hide_dependency_lines: true,
+			dependencies: ["66191B31820EAEC9"],
+			id: "641854593854485F",
+			tasks: [{
+				id: "52A2711E37B4BD19",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							hsbH: 0.0f,
+							partCount: 0,
+							clrR: 0.0f,
+							count: 0,
+							isNew: 0b,
+							hsbS: 0.0f,
+							clrG: 0.0f,
+							isShowing: 0b,
+							enchanted: 0b,
+							clrA: 0.0f,
+							clrB: 0.0f,
+							name: "",
+							hsbB: 0.0f,
+							isFavourite: 0b
+						}
+					},
+					id: "hats:hat_launcher",
+					Count: 1b,
+					tag: {
+						hats_hatPart: {
+							hsbH: 0.0f,
+							partCount: 0,
+							clrR: 0.0f,
+							count: 0,
+							isNew: 0b,
+							hsbS: 0.0f,
+							clrG: 0.0f,
+							isShowing: 1b,
+							enchanted: 0b,
+							clrA: 0.0f,
+							clrB: 0.0f,
+							name: "",
+							hsbB: 0.0f,
+							isFavourite: 0b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0FFC41897AC057F6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
 		}
 	]
 }
