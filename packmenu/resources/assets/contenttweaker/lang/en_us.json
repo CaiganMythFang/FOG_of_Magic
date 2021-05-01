@@ -1,4 +1,13 @@
 {
 "item.contenttweaker.forbiddencoin": "Forbidden Knowledge Coin",
-"item.contenttweaker.shippingcrate": "TFB Shipping Crate"
+"item.contenttweaker.shippingcrate": "TFB Shipping Crate",
+"item.contenttweaker.lost_movement": "Lost Knowledge - Movement Inc",
+"item.contenttweaker.lost_construction": "Lost Knowledge - Construction United",
+"item.contenttweaker.lost_electronics": "Lost Knowledge - Electronics Depot",
+"item.contenttweaker.lost_wartime": "Lost Knowledge - Wartime Weapons",
+"item.contenttweaker.lost_factory": "Lost Knowledge - Factory Follies",
+"item.contenttweaker.lost_computer": "Lost Knowledge - CC Tweaked",
+"item.contenttweaker.lost_cyclic": "Lost Knowledge - Cyclic",
+"item.contenttweaker.lost_immersive": "Lost Knowledge - Immersive Engineering",
+"item.contenttweaker.lost_pneumatic": "Lost Knowledge - Pneumaticcraft"
 }
