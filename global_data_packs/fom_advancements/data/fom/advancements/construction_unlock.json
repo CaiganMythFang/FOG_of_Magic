@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Can You Build It?",
+            "bold": true,
+            "italic": false
+        },
+        "description": {
+            "text": "Obtain Lost Knowledge - Construction United"
+        },
+        "icon": {
+            "item": "buildinggadgets:gadget_building"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Construction Book Obtained": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "contenttweaker:lost_construction",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fom:unlock_construction"
+    },
+    "parent": "fom:root"
+}

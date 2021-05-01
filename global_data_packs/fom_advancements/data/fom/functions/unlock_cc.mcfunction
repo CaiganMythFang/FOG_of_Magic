@@ -1,0 +1,1 @@
+gamestage add @p lost_knowledge_cc_tweaked true

@@ -1,0 +1,1 @@
+gamestage add @p lost_knowledge_factory_follies true

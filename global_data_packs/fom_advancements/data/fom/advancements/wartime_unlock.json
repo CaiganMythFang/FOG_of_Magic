@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Boss of Battle",
+            "bold": true
+        },
+        "description": {
+            "text": "Obtain Lost Knowledge - Wartime Weapons"
+        },
+        "icon": {
+            "item": "gunswithoutroses:diamond_shotgun"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Obtain Wartime Book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "contenttweaker:lost_wartime",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fom:ujnlock_wartime"
+    },
+    "parent": "fom:root"
+}

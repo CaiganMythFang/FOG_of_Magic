@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Batteries Not Included"
+        },
+        "description": {
+            "text": "Obtain Lost Knowledge - Electronics Depot",
+            "bold": true
+        },
+        "icon": {
+            "item": "mininggadgets:mininggadget"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Electronics Book Obtained": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "contenttweaker:lost_electronics",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fom:unlock_electronics"
+    },
+    "parent": "fom:root"
+}
