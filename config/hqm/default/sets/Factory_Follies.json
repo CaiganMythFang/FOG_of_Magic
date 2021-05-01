@@ -2,101 +2,6 @@
   "name": "Factory Follies",
   "quests": [
     {
-      "uuid": "dc61b416-93bc-49e8-95dd-1b36f4d5d67c",
-      "name": " Power and Function",
-      "description": "    The Lava Generator consumes Lava and turns it into power.\n    The Electric Furnace is an electricity powered version of a normal Furnace.\n    The Pump picks up liquids nearby and puts them into Buckets or Cannisters.\n    The Mixer combines multiple liquids into one.",
-      "x": 59,
-      "y": 71,
-      "icon": {
-        "id": "silents_mechanisms:lava_generator",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 50
-              },
-              "required": 50
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silents_mechanisms:lava_generator",
-          "Count": 1
-        },
-        {
-          "id": "silents_mechanisms:electric_furnace",
-          "Count": 1
-        },
-        {
-          "id": "silents_mechanisms:pump",
-          "Count": 1
-        },
-        {
-          "id": "silents_mechanisms:mixer",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "be1089b5-3514-4885-9d7c-b5658c981bd7",
-      "name": " Silent\u0027s Upgrades 2",
-      "description": "    These Upgrades go into Silent\u0027s Mechanism\u0027s machines.",
-      "x": 37,
-      "y": 98,
-      "icon": {
-        "id": "silents_mechanisms:range_upgrade",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 50
-              },
-              "required": 50
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "silents_mechanisms:range_upgrade",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "1fb8dd3c-2f7f-43ac-8ed7-75d1b015e700",
       "name": " Silent\u0027s Mechanisms - Basics",
       "description": "    Silent\u0027s Mechanisms are a range of machines that work well in a factory setting. The machines can be moved and configued with a Wrench.\n    For nourishment, Drying Racks can be used to dry meat to last longer, or turn Rotten Meat from zombies into useable Leather.\n    Empty Canisters are used by Silent\u0027s Mechanisms to move fluids around.",
@@ -172,57 +77,13 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_factory",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_factory_follies true",
-        "me HAS LEARNED LOST KNOWLEDGE - FACTORY FOLLIES"
-      ]
-    },
-    {
-      "uuid": "94680fe9-bddd-4d1f-9ccd-35f45706035b",
-      "name": " Pretty Pipe Modules 1",
-      "description": "    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items. \n    The Round Robin module will send extracted items to other inventories in a round robin style, sending to each one in order.\n    The Random Sorting Module will send extracted items to random destinations.",
-      "x": 123,
-      "y": 44,
-      "icon": {
-        "id": "prettypipes:round_robin_sorting_modifier",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 50
-              },
-              "required": 50
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "prettypipes:low_crafting_module",
-          "Count": 1
-        },
-        {
-          "id": "prettypipes:round_robin_sorting_modifier",
-          "Count": 1
-        },
-        {
-          "id": "prettypipes:random_sorting_modifier",
-          "Count": 1
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -273,45 +134,6 @@
           "Count": 2
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3c66c213-7378-43fa-ad9c-f6bf48f6140f",
-      "name": " Faster Pipes",
-      "description": "     Connect a Pipe Pressurizer to your Pipe Network, and power it with RF, and it will dramatically speed everything up!",
-      "x": 147,
-      "y": 15,
-      "icon": {
-        "id": "prettypipes:pressurizer",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
-          "items": [
-            {
-              "item": {
-                "id": "contenttweaker:forbiddencoin",
-                "Count": 2
-              },
-              "required": 2
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "prettypipes:pressurizer",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -415,55 +237,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "2f266216-7085-4327-82b5-fbc5b0a53b68",
-      "name": " More Power",
-      "description": "    The Diesel Generator burns Diesel, obtained via the Refinery, to generate power.\n    The Battery Box is a large power storage block.",
-      "x": 36,
-      "y": 43,
-      "icon": {
-        "id": "silents_mechanisms:diesel_generator",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 75
-              },
-              "required": 75
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "silents_mechanisms:diesel_generator",
-          "Count": 1
-        },
-        {
-          "id": "silents_mechanisms:battery_box",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "8988ba1f-be7f-4d59-a92f-9d85c6231c68",
       "name": " Pretty Pipes Modules 8",
       "description": "    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items.\n     Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.    ",
@@ -557,109 +330,6 @@
         },
         {
           "id": "silents_mechanisms:processing_speed_upgrade",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6789c8df-0525-406a-88b3-f39fe01b799f",
-      "name": " Pretty Pipe Modules 7",
-      "description": "    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Speed Increase Modules will make items extracted from the connected inventory move faster in the network. \n    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items.\n     Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.",
-      "x": 171,
-      "y": 75,
-      "icon": {
-        "id": "prettypipes:medium_crafting_module",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 75
-              },
-              "required": 75
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "prettypipes:high_filter_module",
-          "Count": 1
-        },
-        {
-          "id": "prettypipes:high_speed_module",
-          "Count": 1
-        },
-        {
-          "id": "prettypipes:medium_crafting_module",
-          "Count": 1
-        },
-        {
-          "id": "prettypipes:medium_retrieval_module",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "c0ea55d0-dd09-4e2a-926d-e1602b38219e",
-      "name": " Pretty Pipes Modules 6",
-      "description": "    Extraction Modules pull items from connected inventories and put them into the network. \n        Filter Modules can help restrict or allow specific items into the connected inventory. \n    Speed Increase Modules will make items extracted from the connected inventory move faster in the network.",
-      "x": 147,
-      "y": 75,
-      "icon": {
-        "id": "prettypipes:medium_extraction_module",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 75
-              },
-              "required": 75
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "prettypipes:medium_extraction_module",
-          "Count": 1
-        },
-        {
-          "id": "prettypipes:medium_filter_module",
-          "Count": 1
-        },
-        {
-          "id": "prettypipes:medium_speed_module",
           "Count": 1
         }
       ],
@@ -809,6 +479,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "68276b0b-07f6-4bf4-8800-7ac296ee3f9a",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 184,
+      "y": 183,
+      "icon": {
+        "id": "contenttweaker:lost_factory",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1b9fa0e1-353e-4660-b6a0-d0f40e21d512"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_factory",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "a7585df7-936d-4c90-80e8-c046d96fa8ca",
       "name": " Pretty Pipes Modules 4",
       "description": "    Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.\n    Filter Modules can help restrict or allow specific items into the connected inventory.",
@@ -852,51 +564,6 @@
           "Count": 1
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "165ba8d6-1723-4f38-be05-2342ebf99592",
-      "name": " Silent\u0027s Upgrades 3",
-      "description": "    These Upgrades go into Silent\u0027s Mechanism\u0027s machines.",
-      "x": 60,
-      "y": 99,
-      "icon": {
-        "id": "silents_mechanisms:output_chance_upgrade",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 125
-              },
-              "required": 125
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "silents_mechanisms:output_chance_upgrade",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -949,59 +616,6 @@
           "Count": 1
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "315c1837-8e93-41f4-8eed-ec2027d0cf2d",
-      "name": " Crafting Terminal",
-      "description": "    Much like the Item Terminal, but also has a simple Crafting Grid on it as well, with the ability to request items to craft with.",
-      "x": 195,
-      "y": 15,
-      "icon": {
-        "id": "prettypipes:crafting_terminal",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
-          "items": [
-            {
-              "item": {
-                "id": "contenttweaker:forbiddencoin",
-                "Count": 4
-              },
-              "required": 4
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "prettypipes:crafting_terminal",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1059,6 +673,436 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc61b416-93bc-49e8-95dd-1b36f4d5d67c",
+      "name": " Power and Function",
+      "description": "    The Lava Generator consumes Lava and turns it into power.\n    The Electric Furnace is an electricity powered version of a normal Furnace.\n    The Pump picks up liquids nearby and puts them into Buckets or Cannisters.\n    The Mixer combines multiple liquids into one.",
+      "x": 59,
+      "y": 71,
+      "icon": {
+        "id": "silents_mechanisms:lava_generator",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:lava_generator",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:electric_furnace",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:pump",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:mixer",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "be1089b5-3514-4885-9d7c-b5658c981bd7",
+      "name": " Silent\u0027s Upgrades 2",
+      "description": "    These Upgrades go into Silent\u0027s Mechanism\u0027s machines.",
+      "x": 37,
+      "y": 98,
+      "icon": {
+        "id": "silents_mechanisms:range_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:range_upgrade",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "94680fe9-bddd-4d1f-9ccd-35f45706035b",
+      "name": " Pretty Pipe Modules 1",
+      "description": "    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items. \n    The Round Robin module will send extracted items to other inventories in a round robin style, sending to each one in order.\n    The Random Sorting Module will send extracted items to random destinations.",
+      "x": 123,
+      "y": 44,
+      "icon": {
+        "id": "prettypipes:round_robin_sorting_modifier",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "prettypipes:low_crafting_module",
+          "Count": 1
+        },
+        {
+          "id": "prettypipes:round_robin_sorting_modifier",
+          "Count": 1
+        },
+        {
+          "id": "prettypipes:random_sorting_modifier",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3c66c213-7378-43fa-ad9c-f6bf48f6140f",
+      "name": " Faster Pipes",
+      "description": "     Connect a Pipe Pressurizer to your Pipe Network, and power it with RF, and it will dramatically speed everything up!",
+      "x": 147,
+      "y": 15,
+      "icon": {
+        "id": "prettypipes:pressurizer",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "prettypipes:pressurizer",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f266216-7085-4327-82b5-fbc5b0a53b68",
+      "name": " More Power",
+      "description": "    The Diesel Generator burns Diesel, obtained via the Refinery, to generate power.\n    The Battery Box is a large power storage block.",
+      "x": 36,
+      "y": 43,
+      "icon": {
+        "id": "silents_mechanisms:diesel_generator",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "silents_mechanisms:diesel_generator",
+          "Count": 1
+        },
+        {
+          "id": "silents_mechanisms:battery_box",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6789c8df-0525-406a-88b3-f39fe01b799f",
+      "name": " Pretty Pipe Modules 7",
+      "description": "    Filter Modules can help restrict or allow specific items into the connected inventory. \n    Speed Increase Modules will make items extracted from the connected inventory move faster in the network. \n    Crafting Modules use the connected block to craft. It requires some sort of auto crafting block and does not auto extract items.\n     Retrieval Modules are the opposite of Extraction Modules. They will pull items from other inventories to the inventory connected.",
+      "x": 171,
+      "y": 75,
+      "icon": {
+        "id": "prettypipes:medium_crafting_module",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "prettypipes:high_filter_module",
+          "Count": 1
+        },
+        {
+          "id": "prettypipes:high_speed_module",
+          "Count": 1
+        },
+        {
+          "id": "prettypipes:medium_crafting_module",
+          "Count": 1
+        },
+        {
+          "id": "prettypipes:medium_retrieval_module",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c0ea55d0-dd09-4e2a-926d-e1602b38219e",
+      "name": " Pretty Pipes Modules 6",
+      "description": "    Extraction Modules pull items from connected inventories and put them into the network. \n        Filter Modules can help restrict or allow specific items into the connected inventory. \n    Speed Increase Modules will make items extracted from the connected inventory move faster in the network.",
+      "x": 147,
+      "y": 75,
+      "icon": {
+        "id": "prettypipes:medium_extraction_module",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 75
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "prettypipes:medium_extraction_module",
+          "Count": 1
+        },
+        {
+          "id": "prettypipes:medium_filter_module",
+          "Count": 1
+        },
+        {
+          "id": "prettypipes:medium_speed_module",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "165ba8d6-1723-4f38-be05-2342ebf99592",
+      "name": " Silent\u0027s Upgrades 3",
+      "description": "    These Upgrades go into Silent\u0027s Mechanism\u0027s machines.",
+      "x": 60,
+      "y": 99,
+      "icon": {
+        "id": "silents_mechanisms:output_chance_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "silents_mechanisms:output_chance_upgrade",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "315c1837-8e93-41f4-8eed-ec2027d0cf2d",
+      "name": " Crafting Terminal",
+      "description": "    Much like the Item Terminal, but also has a simple Crafting Grid on it as well, with the ability to request items to craft with.",
+      "x": 195,
+      "y": 15,
+      "icon": {
+        "id": "prettypipes:crafting_terminal",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\n    Due to the expense of these, we will have to charge Forbidden Knowledge Coins as well.",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 4
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "prettypipes:crafting_terminal",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {

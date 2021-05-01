@@ -313,6 +313,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "33dc32bf-a686-495a-b121-7161777a901a",
+      "name": " Wire Relays",
+      "description": "    Wire Relays are anchor points for Wires, but do not transfer power to other machines.",
+      "x": 43,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:connector_lv_relay",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:connector_lv_relay",
+          "Count": 3
+        },
+        {
+          "id": "immersiveengineering:connector_mv_relay",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:connector_hv_relay",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "997643ec-71d5-4e7f-9d9e-49b33c8b5609",
       "name": " Conveyors - Chutes",
       "description": "    Chutes control where items and entities fall from Conveyors. They can put items into inventories, or onto belts.",
@@ -354,52 +400,6 @@
         },
         {
           "id": "immersiveengineering:chute_copper",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "33dc32bf-a686-495a-b121-7161777a901a",
-      "name": " Wire Relays",
-      "description": "    Wire Relays are anchor points for Wires, but do not transfer power to other machines.",
-      "x": 43,
-      "y": 81,
-      "icon": {
-        "id": "immersiveengineering:connector_lv_relay",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 5
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "immersiveengineering:connector_lv_relay",
-          "Count": 3
-        },
-        {
-          "id": "immersiveengineering:connector_mv_relay",
-          "Count": 2
-        },
-        {
-          "id": "immersiveengineering:connector_hv_relay",
           "Count": 1
         }
       ],
@@ -456,52 +456,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "10cc1a39-cb98-47ad-bef8-0e69eab5fcc2",
-      "name": " Wire Coils - Basic",
-      "description": "    Wire Coils are used to hook up power to machines and other devices. The amount of power flowing through dictates which type of wire you should use so they don\u0027t burn out.",
-      "x": 132,
-      "y": 81,
-      "icon": {
-        "id": "immersiveengineering:wirecoil_copper",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 30
-              },
-              "required": 30
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "immersiveengineering:wirecoil_copper",
-          "Count": 2
-        },
-        {
-          "id": "immersiveengineering:wirecoil_electrum",
-          "Count": 1
-        },
-        {
-          "id": "immersiveengineering:wirecoil_steel",
-          "Count": 2
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "7192d529-a3dd-4a35-a5dc-b0363bbb4324",
       "name": " Kinetic Components",
       "description": "    These components are for the Kinetic Dynamo to generate power with.\n    The Windmill Sail is used on a Windmill to generate even more power.",
@@ -543,6 +497,52 @@
         {
           "id": "immersiveengineering:windmill_sail",
           "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "10cc1a39-cb98-47ad-bef8-0e69eab5fcc2",
+      "name": " Wire Coils - Basic",
+      "description": "    Wire Coils are used to hook up power to machines and other devices. The amount of power flowing through dictates which type of wire you should use so they don\u0027t burn out.",
+      "x": 132,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:wirecoil_copper",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 30
+              },
+              "required": 30
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:wirecoil_copper",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:wirecoil_electrum",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:wirecoil_steel",
+          "Count": 2
         }
       ],
       "commandrewards": []
@@ -933,6 +933,48 @@
           "Count": 2
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36acc958-23b5-4bc6-ab67-d9d45c041a88",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 185,
+      "y": 183,
+      "icon": {
+        "id": "contenttweaker:lost_immersive",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ef040ef2-a0df-4816-9092-8f0955bb53c0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_immersive",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1793,12 +1835,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_immersive",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_immersive_engineering true",
-        "me HAS LEARNED LOST KNOWLEDGE - IMMERSIVE ENGINEERING"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "06e097b6-2960-4613-b520-4937fbd55f87",

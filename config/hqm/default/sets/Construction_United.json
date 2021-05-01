@@ -2,6 +2,48 @@
   "name": "Construction United",
   "quests": [
     {
+      "uuid": "759308e1-18b5-4b49-bddf-671afb9e2542",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 182,
+      "y": 181,
+      "icon": {
+        "id": "contenttweaker:lost_construction",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d029cac0-edd1-4160-ac9a-2cbd873cb368"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_construction",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "5e506abd-60ac-4e95-9290-dca45c245f3e",
       "name": " Building Gadgets - Main",
       "description": "    Building Gadgets are a set of quick, helpful gadgets and blocks to aid in construction tasks.",
@@ -172,12 +214,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_construction",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_construction_united true",
-        "me HAS LEARNED LOST KNOWLEDGE - CONSTRUCTION UNITED"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "34ef938f-0615-44c3-ad64-3607c58f3ee7",

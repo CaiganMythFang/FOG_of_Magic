@@ -216,6 +216,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "ff241584-29df-45d7-a073-552478f2b9f7",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 183,
+      "y": 182,
+      "icon": {
+        "id": "contenttweaker:lost_wartime",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "44a53705-02a5-49f3-bb32-8832bc9bedc2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_wartime",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "bb7f78f4-c497-4355-92b9-012b7efb922d",
       "name": " Basic Bullets (Buy)",
       "description": "    Flint Ammo is the cheapest, and does the least damage.\n    Iron Ammo is more expensive, but a good middle ground with damage.\n    Blaze Bullets do even more damage, as well as set targets on fire.",
@@ -291,12 +333,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_wartime",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_wartime_weapons true",
-        "me HAS LEARNED LOST KNOWLEDGE - WARTIME WEAPONS"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "4c1d69be-9e8f-43d8-822b-b67e846e9430",

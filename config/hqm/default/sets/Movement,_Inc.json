@@ -241,12 +241,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_movement",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_movement_inc true",
-        "me HAS LEARNED LOST KNOWLEDGE - MOVEMENT, INC"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "80902ba7-3e40-4a46-b624-ed0429c0c3fc",
@@ -499,6 +501,48 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ccc31027-79dd-405f-97fd-5e91f49b9c87",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 182,
+      "y": 178,
+      "icon": {
+        "id": "contenttweaker:lost_movement",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3c77048b-9e92-4743-a586-e879650180be"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_movement",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {

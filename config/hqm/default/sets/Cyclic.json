@@ -489,6 +489,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "e71aa924-710d-4103-9d88-7c47ccee55dc",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 183,
+      "y": 182,
+      "icon": {
+        "id": "contenttweaker:lost_cyclic",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a25aea83-a3a0-43b1-924e-384434596372"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_cyclic",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "37f62777-2798-436b-a0fa-0d901ddc704a",
       "name": " Item Works",
       "description": "    The Crafting Machine can be used to automate making items with a bit of Power.\n    The Item Collector picks up items that drop near it.\n    The Crate stores items and is resistant to explosions.\n    The Trash Void outright deletes items you put into it, good for keeping things tidy.",
@@ -1646,12 +1688,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_cyclic",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_cyclic true",
-        "me HAS LEARNED LOST KNOWLEDGE - CYCLIC"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "c23e35ca-7c40-4569-9bcc-9b14ca58ce76",

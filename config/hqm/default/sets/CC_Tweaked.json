@@ -269,6 +269,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "451936e6-24a2-4cb4-af96-243cfae6af63",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 184,
+      "y": 183,
+      "icon": {
+        "id": "contenttweaker:lost_computer",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7f81c5b0-8cd3-429f-a71a-629a68f40e66"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_computer",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "8037b89a-8ef4-4e5f-838e-b6275094b9b1",
       "name": " Data Disks 3",
       "description": "    If you know how to program, you\u0027ll find CC: Tweaked quite useful indeed. With Computers, monitors, and more, you can run programs to do a wide range of things with the proper peripherals.",
@@ -595,12 +637,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_computer",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_cc_tweaked true",
-        "me HAS LEARNED LOST KNOWLEDGE - CC: TWEAKED"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "76fe5bca-af8e-4dd5-801b-6d73cc0b65c3",

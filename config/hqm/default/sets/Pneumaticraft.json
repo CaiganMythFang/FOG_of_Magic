@@ -374,52 +374,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "f878f034-1d16-42d7-90da-f41d917bcb24",
-      "name": " Upgrades 5",
-      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
-      "x": 278,
-      "y": 109,
-      "icon": {
-        "id": "pneumaticcraft:minigun_upgrade",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "pneumaticcraft:minigun_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:coordinate_tracker_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:volume_upgrade",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "b21fc1f0-7d71-4a43-9ae4-8a66a2aa7060",
       "name": " Upgrades 6",
       "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
@@ -467,6 +421,52 @@
         },
         {
           "id": "pneumaticcraft:search_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f878f034-1d16-42d7-90da-f41d917bcb24",
+      "name": " Upgrades 5",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 278,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:minigun_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:minigun_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:coordinate_tracker_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:volume_upgrade",
           "Count": 1
         }
       ],
@@ -2053,12 +2053,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_pneumatic",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_pneumaticcraft true",
-        "me HAS LEARNED LOST KNOWLEDGE - PNEUMATICRAFT"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "7ebe54eb-1126-4ae6-a34b-b669c97b47ad",
@@ -2531,6 +2533,48 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc924faa-3318-4cf8-b034-ec6d876a5418",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 183,
+      "y": 182,
+      "icon": {
+        "id": "contenttweaker:lost_pneumatic",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a3f4fbb3-bd49-4734-9e65-9a7b8d0946cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_pneumatic",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {

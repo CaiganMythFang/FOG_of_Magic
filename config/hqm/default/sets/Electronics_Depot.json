@@ -2,50 +2,6 @@
   "name": "Electronics Depot",
   "quests": [
     {
-      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
-      "name": " Mining Helmet",
-      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
-      "x": 49,
-      "y": 20,
-      "icon": {
-        "id": "mining_helmet:mining_helmet",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mining_helmet:mining_helmet",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "c76011ee-59c7-4c55-b30e-b5283135568f",
       "name": " Gadget Mod Table",
       "description": "    If you want to add modifications to your Mining Gadget, you will need this machine. ",
@@ -85,6 +41,50 @@
         {
           "id": "mininggadgets:modificationtable",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
+      "name": " Mining Helmet",
+      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
+      "x": 49,
+      "y": 20,
+      "icon": {
+        "id": "mining_helmet:mining_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mining_helmet:mining_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
         }
       ],
       "rewardchoice": [],
@@ -320,6 +320,48 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "defa0047-146a-4454-8ee2-66412f885202",
+      "name": " Replacement Book",
+      "description": "    Lost your knowledge book? Or did something happen to it?\n    No worries, I can send you a replacement for 10 Gold Dubloons, but it\u0027ll take a while between each time I can.",
+      "x": 183,
+      "y": 182,
+      "icon": {
+        "id": "contenttweaker:lost_electronics",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d949bb22-46a7-4b51-aff8-9f3408849f86"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_electronics",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -627,12 +669,14 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "contenttweaker:lost_electronics",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
-      "commandrewards": [
-        "gamestage add @p lost_knowledge_electronics_depot true",
-        "me HAS LEARNED LOST KNOWLEDGE - ELECTRONICS DEPOT"
-      ]
+      "commandrewards": []
     },
     {
       "uuid": "be8bf55d-0142-4b68-a7e1-b3037fb2dadf",
