@@ -9,7 +9,7 @@
 	#Whether Crimson Mosquitoes can transform into Warped Moscos if attacking a Mungus or any listed creature.
 	warpedMoscoTransformation = true
 	#Whether wild raccoons steal food from chests.
-	raccoonStealFromChests = true
+	raccoonStealFromChests = false
 	#Whether mimicream can be used to duplicate items.
 	mimicreamRepair = true
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
