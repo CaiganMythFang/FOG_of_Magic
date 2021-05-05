@@ -41,7 +41,7 @@
 	homing = "NORMAL"
 	#NORMAL,ANVIL,DISABLED
 	#Allowed Values: DISABLED, ANVIL, NORMAL
-	instant_death = "NORMAL"
+	instant_death = "DISABLED"
 	#NORMAL,ANVIL,DISABLED
 	#Allowed Values: DISABLED, ANVIL, NORMAL
 	lumberjack = "NORMAL"
