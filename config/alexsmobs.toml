@@ -276,7 +276,7 @@
 		warpedMoscoSpawnWeight = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		cockroachSpawnWeight = 4
+		cockroachSpawnWeight = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		gazelleSpawnWeight = 40
