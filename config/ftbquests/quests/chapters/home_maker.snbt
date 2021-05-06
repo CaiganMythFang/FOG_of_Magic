@@ -1281,10 +1281,13 @@
 					type: "item",
 					item: {
 						ForgeCaps: {
-							Parent: []
+							Parent: {}
 						},
-						id: "inventorypets:feed_bag",
-						Count: 1b
+						id: "inventorypets:feed_bag_new",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
 					}
 				}
 			],
