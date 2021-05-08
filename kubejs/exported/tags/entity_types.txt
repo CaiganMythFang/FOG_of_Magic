@@ -1,0 +1,500 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 8, 2021 10:00:56 AM
+
+#alexsmobs:snow_leopard_targets
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:horse
+- minecraft:llama
+- minecraft:parrot
+- minecraft:rabbit
+- minecraft:trader_llama
+- alexsmobs:roadrunner
+- alexsmobs:gazelle
+
+#alexsmobs:orca_targets
+- alexsmobs:moose
+- alexsmobs:seal
+- minecraft:polar_bear
+- minecraft:turtle
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#iceandfire:scares_cockatrices
+
+#alexsmobs:fly_hurt_targets
+- minecraft:zombie
+- minecraft:drowned
+- minecraft:husk
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#alexsmobs:sunbird_scorch_targets
+- #minecraft:skeletons
+- minecraft:zombie
+- minecraft:husk
+- minecraft:drowned
+- minecraft:phantom
+
+#alexsmobs:scatters_crows
+- #alexsmobs:neutral_land_animals
+
+#alexsmobs:crimson_mosquito_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:neutral_land_animals
+- #alexsmobs:villagers
+
+#alexsmobs:fly_annoy_targets
+- minecraft:player
+
+#iceandfire:fear_dragons
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:cat
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:strider
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:hoglin
+
+#iceandfire:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+
+#iceandfire:lightning_dragon_targets
+- #iceandfire:dragon_targets
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+
+#projecte:randomizer/peaceful
+- minecraft:sheep
+- minecraft:pig
+- minecraft:cow
+- minecraft:mooshroom
+- minecraft:chicken
+- minecraft:bat
+- minecraft:villager
+- minecraft:squid
+- minecraft:ocelot
+- minecraft:wolf
+- minecraft:horse
+- minecraft:rabbit
+- minecraft:donkey
+- minecraft:mule
+- minecraft:polar_bear
+- minecraft:llama
+- minecraft:parrot
+- minecraft:dolphin
+- minecraft:cod
+- minecraft:salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+- minecraft:turtle
+- minecraft:cat
+- minecraft:fox
+- minecraft:panda
+- minecraft:trader_llama
+- minecraft:wandering_trader
+- minecraft:strider
+
+#friendlyfire:general_protection
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#iceandfire:sheep
+- minecraft:sheep
+
+#projecte:randomizer/hostile
+- minecraft:zombie
+- minecraft:skeleton
+- minecraft:creeper
+- minecraft:spider
+- minecraft:enderman
+- minecraft:silverfish
+- minecraft:zombified_piglin
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:hoglin
+- minecraft:zoglin
+- minecraft:ghast
+- minecraft:blaze
+- minecraft:slime
+- minecraft:witch
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:stray
+- minecraft:wither_skeleton
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:guardian
+- minecraft:evoker
+- minecraft:vex
+- minecraft:vindicator
+- minecraft:shulker
+- minecraft:drowned
+- minecraft:phantom
+- minecraft:pillager
+
+#alexsmobs:crocodile_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:villagers
+- alexsmobs:kangaroo
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#projecte:blacklist/interdiction
+
+#iceandfire:dragon_targets
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:cat
+- minecraft:pillager
+- minecraft:cat
+- minecraft:strider
+- minecraft:piglin
+- minecraft:hoglin
+- minecraft:zoglin
+
+#alexsmobs:passive_land_animals
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:fox
+- minecraft:horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:rabbit
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:cat
+- minecraft:strider
+- alexsmobs:roadrunner
+- alexsmobs:gazelle
+- alexsmobs:capuchin_monkey
+- alexsmobs:seal
+- alexsmobs:shoebill
+- alexsmobs:mungus
+- alexsmobs:emu
+- alexsmobs:platypus
+- alexsmobs:tasmanian_devil
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#alexsmobs:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+
+#alexsmobs:neutral_land_animals
+- alexsmobs:grizzly_bear
+- alexsmobs:gorilla
+- minecraft:polar_bear
+- alexsmobs:endergrade
+- alexsmobs:rattlesnake
+- alexsmobs:moose
+- alexsmobs:elephant
+- alexsmobs:snow_leopard
+- alexsmobs:kangaroo
+
+#alexsmobs:mantis_shrimp_targets
+- alexsmobs:lobster
+- minecraft:shulker
+- minecraft:squid
+- minecraft:guardian
+- minecraft:elder_guardian
+- minecraft:tropical_fish
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- supplementaries:rope_arrow
+- supplementaries:brick_projectile
+- projecte:fire_projectile
+- projecte:lava_projectile
+- projecte:lens_projectile
+- projecte:swrg_projectile
+- projecte:water_projectile
+- mutantbeasts:throwable_block
+
+#alexsmobs:cachalot_whale_targets
+- minecraft:squid
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- resourcefulbees:dragonstone_bee
+- resourcefulbees:diamond_bee
+- resourcefulbees:slimy_bee
+- resourcefulbees:sponge_bee
+- resourcefulbees:apatite_bee
+- resourcefulbees:stone_bee
+- resourcefulbees:heliodor_bee
+- resourcefulbees:sodalite_bee
+- resourcefulbees:dragon_bee
+- resourcefulbees:enderium_bee
+- resourcefulbees:spidereye_bee
+- resourcefulbees:opal_bee
+- resourcefulbees:sand_bee
+- resourcefulbees:bismuth_bee
+- resourcefulbees:feather_bee
+- resourcefulbees:chaoscrystal_bee
+- resourcefulbees:wither_bee
+- resourcefulbees:granite_bee
+- resourcefulbees:greenpetal_bee
+- resourcefulbees:whitepetal_bee
+- resourcefulbees:lightgraypetal_bee
+- resourcefulbees:andesite_bee
+- resourcefulbees:lapis_bee
+- resourcefulbees:cobblestone_bee
+- resourcefulbees:iolite_bee
+- resourcefulbees:pinkpetal_bee
+- resourcefulbees:ammolite_bee
+- resourcefulbees:blazerod_bee
+- resourcefulbees:nickel_bee
+- resourcefulbees:fluorite_bee
+- resourcefulbees:amber_bee
+- resourcefulbees:chrysoprase_bee
+- resourcefulbees:elementium_bee
+- resourcefulbees:lepidolite_bee
+- resourcefulbees:peridot_bee
+- resourcefulbees:manasteel_bee
+- resourcefulbees:benitoite_bee
+- resourcefulbees:greensapphire_bee
+- resourcefulbees:rabbitfoot_bee
+- resourcefulbees:rosequartz_bee
+- resourcefulbees:zombie_bee
+- resourcefulbees:managem_bee
+- resourcefulbees:pearl_bee
+- resourcefulbees:yellowpetal_bee
+- resourcefulbees:jade_bee
+- resourcefulbees:topaz_bee
+- resourcefulbees:manapearl_bee
+- resourcefulbees:blackdiamond_bee
+- resourcefulbees:blackpetal_bee
+- resourcefulbees:zircon_bee
+- resourcefulbees:mineralcrystal_bee
+- resourcefulbees:bluepetal_bee
+- resourcefulbees:turquoise_bee
+- resourcefulbees:ghasttear_bee
+- resourcefulbees:sunstone_bee
+- resourcefulbees:gold_bee
+- resourcefulbees:jasper_bee
+- resourcefulbees:dragonbreath_bee
+- resourcefulbees:lightbluepetal_bee
+- resourcefulbees:invar_bee
+- resourcefulbees:garnet_bee
+- resourcefulbees:purplepetal_bee
+- resourcefulbees:bort_bee
+- resourcefulbees:creeper_bee
+- resourcefulbees:neptunium_bee
+- resourcefulbees:ametrine_bee
+- resourcefulbees:brownpetal_bee
+- resourcefulbees:diorite_bee
+- resourcefulbees:coral_bee
+- resourcefulbees:skeleton_bee
+- resourcefulbees:prismarinecrystals_bee
+- resourcefulbees:alexandrite_bee
+- resourcefulbees:bismuthbrass_bee
+- resourcefulbees:inksac_bee
+- resourcefulbees:netherrack_bee
+- resourcefulbees:azuresilver_bee
+- resourcefulbees:lead_bee
+- resourcefulbees:endstone_bee
+- resourcefulbees:kitten_bee
+- resourcefulbees:clay_bee
+- resourcefulbees:redpetal_bee
+- resourcefulbees:nautilusshell_bee
+- resourcefulbees:dungeon_bee
+- resourcefulbees:redstonealloy_bee
+- resourcefulbees:amethyst_bee
+- resourcefulbees:string_bee
+- resourcefulbees:tin_bee
+- resourcefulbees:magentapetal_bee
+- resourcefulbees:morganite_bee
+- resourcefulbees:redstone_bee
+- resourcefulbees:rgbee_bee
+- resourcefulbees:iron_bee
+- resourcefulbees:nether_quartz_bee
+- resourcefulbees:xpbottle_bee
+- resourcefulbees:ender_bee
+- resourcefulbees:shulker_bee
+- resourcefulbees:carnelian_bee
+- resourcefulbees:tanzanite_bee
+- resourcefulbees:malachite_bee
+- resourcefulbees:pixiedust_bee
+- resourcefulbees:pigman_bee
+- resourcefulbees:calvinite_bee
+- resourcefulbees:agate_bee
+- resourcefulbees:catseye_bee
+- resourcefulbees:aquamarine_bee
+- resourcefulbees:onyx_bee
+- resourcefulbees:spinel_bee
+- resourcefulbees:orangepetal_bee
+- resourcefulbees:moonstone_bee
+- resourcefulbees:copper_bee
+- resourcefulbees:signalum_bee
+- resourcefulbees:euclase_bee
+- resourcefulbees:citrine_bee
+- resourcefulbees:aluminum_bee
+- resourcefulbees:oreo_bee
+- resourcefulbees:tektite_bee
+- resourcefulbees:bismuthsteel_bee
+- resourcefulbees:azureelectrum_bee
+- resourcefulbees:cheese_bee
+- resourcefulbees:bronze_bee
+- resourcefulbees:kunzite_bee
+- resourcefulbees:emerald_bee
+- resourcefulbees:uranium_bee
+- resourcefulbees:coal_bee
+- resourcefulbees:lumium_bee
+- resourcefulbees:enderbiotite_bee
+- resourcefulbees:brass_bee
+- resourcefulbees:silver_bee
+- resourcefulbees:sushi_bee
+- resourcefulbees:endercrystal_bee
+- resourcefulbees:cookie_bee
+- resourcefulbees:moldavite_bee
+- resourcefulbees:limepetal_bee
+- resourcefulbees:graypetal_bee
+- resourcefulbees:kyanite_bee
+- resourcefulbees:zinc_bee
+- resourcefulbees:yellowdiamond_bee
+- resourcefulbees:sapphire_bee
+- resourcefulbees:gravel_bee
+- resourcefulbees:platinum_bee
+- resourcefulbees:apple_bee
+- resourcefulbees:netherite_bee
+- resourcefulbees:dirt_bee
+- resourcefulbees:phosphophyllite_bee
+- resourcefulbees:terrasteel_bee
+- resourcefulbees:steel_bee
+- resourcefulbees:cyanpetal_bee
+- resourcefulbees:electrum_bee
+- resourcefulbees:icy_bee
+- resourcefulbees:oratchalcum_bee
+- resourcefulbees:prismarineshard_bee
+- resourcefulbees:leather_bee
+- resourcefulbees:pyrope_bee
+- resourcefulbees:ruby_bee
+
+#iceandfire:chickens
+- minecraft:chicken
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- mutantbeasts:mutant_skeleton
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- supplementaries:rope_arrow
+- projecte:homing_arrow
+
+#projecte:blacklist/swrg
+
+#alexsmobs:warped_toad_targets
+- alexsmobs:crimson_mosquito
+- alexsmobs:fly
+- alexsmobs:cockroach
+- alexsmobs:warped_mosco
+- alexsmobs:leafcutter_ant
+
+#iceandfire:fire_dragon_targets
+- #iceandfire:dragon_targets
+
+#iceandfire:ice_dragon_targets
+- #iceandfire:dragon_targets
+- minecraft:turtle
+- minecraft:dolphin
+- minecraft:cod
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:tropical_fish
+
+#alexsmobs:komodo_dragon_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:villagers
+- alexsmobs:kangaroo

@@ -1,0 +1,130 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 8, 2021 10:00:56 AM
+
+#forge:lubricant
+- pneumaticcraft:lubricant
+- immersivepetroleum:lubricant
+
+#forge:crude_oil
+- pneumaticcraft:oil
+- immersivepetroleum:oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- mahoutsukai:murky_still
+- mahoutsukai:murky_flow
+
+#forge:biodiesel
+- pneumaticcraft:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+- create:flowing_milk
+- create:milk
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:biomass
+- cyclic:biomass
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethanol
+- pneumaticcraft:ethanol
+- immersiveengineering:ethanol
+
+#forge:ethane
+- silents_mechanisms:ethane
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- immersiveengineering:potion
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
+#forge:gasoline
+- pneumaticcraft:gasoline
+- immersivepetroleum:gasoline
+
+#forge:experience
+- pneumaticcraft:memory_essence
+- cyclic:xpjuice
+
+#forge:slime
+- cyclic:slime
+
+#forge:polyethylene
+- silents_mechanisms:polyethylene
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:diesel
+- silents_mechanisms:diesel
+- pneumaticcraft:diesel
+- immersivepetroleum:diesel
+
+#forge:oil
+- silents_mechanisms:oil
+
+#forge:magma
+- cyclic:magma
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid
+
+#forge:kerosene
+- pneumaticcraft:kerosene
+
+#forge:honey
+- resourcefulbees:honey
+- resourcefulbees:catnip_honey
+- cyclic:honey
+- create:flowing_honey
+- create:honey
+- resourcefulbees:rainbow_honey_flowing
+- resourcefulbees:rainbow_honey
+
+#forge:creosote
+- immersiveengineering:creosote
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight
+
+#forge:lpg
+- pneumaticcraft:lpg
+
+#forge:napalm
+- immersivepetroleum:napalm
