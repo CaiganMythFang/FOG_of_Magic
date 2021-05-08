@@ -11,11 +11,14 @@ global["UNIFY_ORE_GEN"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
-    "mekanism",
-    "thermal",
+    "create",
     "silents_mechanisms",
     "silentgems",
-    "chemlib"
+    "silentsgear",
+    "immersiveengineering",
+    "iceandfire",
+    "eidolon",
+    "mysticalworld"
 ]
 
 // Add oredictionary tags here to unify (or use javascript to generate it!)
@@ -54,6 +57,10 @@ var tagGen = [
     "uranium=storage_blocks,ingots,nuggets,dusts,ores",
     "iridium=storage_blocks,ingots,nuggets,dusts,ores",
     "zinc=storage_blocks,ingots,nuggets,dusts,ores",
+    "aquamarine=gems,storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
+    "sapphire=gems,storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
+    "electrum=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
+    "brass=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
     "osmium=ingots,ores",
     "sulfur=dusts,ores"
 ]
