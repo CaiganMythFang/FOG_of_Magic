@@ -28,7 +28,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": false
+    "isBreedable": true,
+    "parent1": "enderbiotite",
+    "parent2": "endercrystal",
+    "breedWeight": 50,
+    "feedItem": "tag:botania:mystical_flowers"
   },
   "TraitData": {
     "hasTraits": true

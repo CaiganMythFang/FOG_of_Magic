@@ -34,7 +34,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "netherrack",
+    "parent2": "ruby, garnet, topaz, amber, heliodor, peridot, greensapphire, phosphophyllite, aquamarine, sapphire, tanzanite, amethyst, agate, morganite, onyx, opal",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:ores"
   },
   "TraitData": {
     "hasTraits": true

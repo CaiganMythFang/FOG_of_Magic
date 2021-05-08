@@ -34,7 +34,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "rgbee",
+    "parent2": "sand",
+    "breedWeight": 50,
+    "feedItem": "tag:botania:mystical_flowers"
   },
   "TraitData": {
     "hasTraits": true

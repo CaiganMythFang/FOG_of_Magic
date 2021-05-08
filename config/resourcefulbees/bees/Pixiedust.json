@@ -28,7 +28,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "bort, manapearl, dragonstone",
+    "parent2": "bort, manapearl, dragonstone",
+    "breedWeight": 50,
+    "feedItem": "tag:botania:mystical_flowers"
   },
   "TraitData": {
     "hasTraits": true

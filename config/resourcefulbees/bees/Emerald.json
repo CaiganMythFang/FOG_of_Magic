@@ -31,7 +31,9 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "spawnWeight": 4
+    "parent1": "coal",
+    "parent2": "rgbee",
+    "breedWeight": 50
   },
   "TraitData": {}
 }

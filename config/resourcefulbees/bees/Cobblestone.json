@@ -29,7 +29,7 @@
     "mainOutputCount": 4
   },
   "SpawnData": {
-    "canSpawnInWorld": false,
+    "canSpawnInWorld": true,
     "biomeWhitelist": "tag:OVERWORLD",
     "biomeBlacklist": "tag:ocean"
   },

@@ -1,5 +1,5 @@
 {
-  "flower": "tag:forge:storage_blocks/coal",
+  "flower": "ALL",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/coal/coal_bee",
@@ -27,7 +27,7 @@
     "mainOutputCount": 4
   },
   "SpawnData": {
-    "canSpawnInWorld": false,
+    "canSpawnInWorld": true,
     "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:ocean"
   },

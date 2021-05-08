@@ -33,7 +33,10 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "emerald",
+    "parent2": "rgbee",
+    "breedWeight": 50
   },
   "TraitData": {}
 }

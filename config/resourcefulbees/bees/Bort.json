@@ -34,7 +34,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "manasteel, calvinite, chaoscrystal",
+    "parent2": "manasteel, calvinite, chaoscrystal",
+    "breedWeight": 50,
+    "feedItem": "tag:botania:mystical_flowers"
   },
   "TraitData": {}
 }

@@ -33,7 +33,9 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "cobblestone",
+    "parent2": "dirt"
   },
   "TraitData": {}
 }

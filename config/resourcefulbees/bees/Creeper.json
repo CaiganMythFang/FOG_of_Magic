@@ -38,7 +38,11 @@
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "skeleton, zombie, spidereye",
+    "parent2": "skeleton, zombie, spidereye",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:bones"
   },
   "TraitData": {
     "hasTraits": true

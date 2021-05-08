@@ -34,7 +34,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "pixiedust, elementium, dragonstone",
+    "parent2": "pixiedust, elementium, dragonstone",
+    "breedWeight": 50,
+    "feedItem": "tag:botania:mystical_flowers"
   },
   "TraitData": {
     "hasTraits": true

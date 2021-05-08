@@ -47,8 +47,10 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "minecraft:mossy_cobblestone",
-    "feedAmount": 4
+    "parent1": "shulker, wither",
+    "parent2": "dragon, dragonbreath",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:bones"
   },
   "TraitData": {
     "hasTraits": true

@@ -28,7 +28,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "apple",
+    "parent2": "cheese",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:bread"
   },
   "TraitData": {
     "hasTraits": true

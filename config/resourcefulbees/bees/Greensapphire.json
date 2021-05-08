@@ -34,7 +34,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "rgbee",
+    "parent2": "emerald",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:ores"
   },
   "TraitData": {}
 }

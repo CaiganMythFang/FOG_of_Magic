@@ -26,12 +26,16 @@
     "mainOutput": "minecraft:iron_ingot"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
+    "canSpawnInWorld": false,
     "biomeWhitelist": "tag:OVERWORLD",
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "stone",
+    "parent2": "coal",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:ores"
   },
   "TraitData": {}
 }

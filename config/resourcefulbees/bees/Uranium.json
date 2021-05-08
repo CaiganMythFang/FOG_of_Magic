@@ -34,7 +34,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "gold, oratchalcum, neptunium, silver",
+    "parent2": "gold, oratchalcum, neptunium, silver",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:ores"
   },
   "TraitData": {
     "hasTraits": true

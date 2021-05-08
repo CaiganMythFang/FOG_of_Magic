@@ -34,8 +34,9 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Coal",
-    "parent2": "Skeleton",
+    "parent1": "redstone, lapis, nether_quartz",
+    "parent2": "redstone, lapis, nether_quartz",
+    "breedWeight": 50,
     "feedItem": "tag:forge:ores"
   },
   "TraitData": {}

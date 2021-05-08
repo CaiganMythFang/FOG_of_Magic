@@ -33,7 +33,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "ender, blazerod, ghasttear",
+    "parent2": "ender, blazerod, ghasttear",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:bones"
   },
   "TraitData": {
     "hasTraits": true

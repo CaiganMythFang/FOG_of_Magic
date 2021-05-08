@@ -39,10 +39,10 @@
   "SpawnData": {},
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Wither",
-    "parent2": "Ender",
-    "feedItem": "minecraft:end_stone",
-    "feedAmount": 12
+    "parent1": "shulker",
+    "parent2": "wither",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:bones"
   },
   "TraitData": {
     "hasTraits": true

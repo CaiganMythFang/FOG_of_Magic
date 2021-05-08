@@ -32,7 +32,11 @@
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "leather, inksac, rabbitfoot",
+    "parent2": "leather, inksac, rabbitfoot",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:bones"
   },
   "TraitData": {
     "hasTraits": true

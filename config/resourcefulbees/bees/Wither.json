@@ -29,10 +29,10 @@
   "SpawnData": {},
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Coal",
-    "parent2": "Skeleton",
-    "feedItem": "minecraft:rotten_flesh",
-    "feedAmount": 12
+    "parent1": "ender, blazerod, ghasttear",
+    "parent2": "ender, blazerod, ghasttear",
+    "breedWeight": 50,
+    "feedItem": "tag:forge:bones"
   },
   "TraitData": {
     "hasTraits": true
