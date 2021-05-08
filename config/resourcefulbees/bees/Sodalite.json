@@ -29,7 +29,7 @@
     "mainOutputWeight": 0.5
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
+    "canSpawnInWorld": false,
     "biomeWhitelist": "tag:end",
     "biomeBlacklist": "tag:ocean"
   },

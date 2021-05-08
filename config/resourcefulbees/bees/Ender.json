@@ -29,7 +29,7 @@
     "bottleOutput" : "minecraft:dragon_breath"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
+    "canSpawnInWorld": false,
     "biomeWhitelist": "TAG:end",
     "lightLevel": "NIGHT",
     "spawnWeight": 20
