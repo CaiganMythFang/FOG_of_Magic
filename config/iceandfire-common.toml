@@ -14,7 +14,7 @@
 	"Cyclops Max Health" = 150.0
 	#Dread Lich spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Lich Spawn Weight" = 2
+	"Lich Spawn Weight" = 1
 	#Whether or not sea serpents can break weak blocks in their way
 	"Sea Serpent Griefing" = true
 	#True if pixie villages are allowed to spawn
@@ -24,7 +24,7 @@
 	"Cyclopes Sheep Search Length" = 17
 	#A double check to see if the game can spawn death worms. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
-	"Death Worm Spawn Check Chance" = 3
+	"Death Worm Spawn Check Chance" = 5
 	#Maximum cockatrice health
 	#Range: 1.0 ~ 10000.0
 	"Cockatrice Health" = 40.0
@@ -63,7 +63,7 @@
 	"Intelligent Dragon Pathfinding" = false
 	#Cockatrice spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Cockatrice Spawn Weight" = 4
+	"Cockatrice Spawn Weight" = 2
 	#True to make the screen pink when sirens attract players
 	"Use Siren Shader" = true
 	#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
@@ -101,7 +101,7 @@
 	blacklistDimensions = ["minecraft:overworld"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sea Serpent Chance" = 250
+	"Spawn Sea Serpent Chance" = 500
 	#Default sea serpent health, this is scaled to the sea serpent's particular size
 	#Range: 1.0 ~ 10000.0
 	"Sea Serpent Base Health" = 20.0
@@ -163,10 +163,10 @@
 	"Dragon Flight Speed Modifier" = 1.0
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Wandering Cyclops Chance" = 100
+	"Spawn Wandering Cyclops Chance" = 200
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Gorgon Chance" = 75
+	"Spawn Gorgon Chance" = 150
 	#Default durability value of dragonsteel sword.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000
@@ -200,7 +200,7 @@
 	"Myrmex Colony Gen Chance" = 150
 	#Hippogryph spawn weight. Lower = lower chance to spawn.
 	#Range: 1 ~ 10000
-	"Hippogryph Spawn Weight" = 2
+	"Hippogryph Spawn Weight" = 1
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Generate Dragon Roost Chance" = 360
@@ -224,10 +224,10 @@
 	"Trolls Drop Weapon" = true
 	#Troll spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Troll Spawn Weight" = 4
+	"Troll Spawn Weight" = 2
 	#Glacier Spawn Weight. Higher number = more common
 	#Range: 1 ~ 10000
-	"Glacier Spawn Weight" = 4
+	"Glacier Spawn Weight" = 2
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Generate Dragon Cave Chance" = 180
@@ -236,7 +236,7 @@
 	"Dragon Griefing" = 2
 	#A double check to see if the game can spawn cockatrices. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
-	"Cockatrice Spawn Check Chance" = 0
+	"Cockatrice Spawn Check Chance" = 4
 	#True if pixies are allowed to steal from players
 	"Pixies Steal Items" = false
 	#True if dragons can drop their heart on death.
@@ -268,10 +268,10 @@
 	blacklistedBreakBlocks = []
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Hippocampus Chance" = 40
+	"Spawn Hippocampus Chance" = 80
 	#Amphithere spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Amphithere Spawn Weight" = 50
+	"Amphithere Spawn Weight" = 25
 	#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 	#Range: 0 ~ 10000
 	"Dragon Flute Distance" = 4
@@ -286,7 +286,7 @@
 	"Amphithere Villager Search Length" = 64
 	#Deathworm spawn weight. Higher = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Death Worm Spawn Weight" = 30
+	"Death Worm Spawn Weight" = 60
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
 	#Range: 0.0 ~ 1.0
 	"Easter Egg Tinkers Tool Disarm chance" = 0.0
@@ -297,10 +297,10 @@
 	"Dragon Cave Ore Ratio" = 45
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Stymhphalian Bird Chance" = 80
+	"Spawn Stymhphalian Bird Chance" = 160
 	#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
-	"Troll Spawn Check Chance" = 0
+	"Troll Spawn Check Chance" = 4
 	#1/this number chance for a stymphalian feather to turn into an item before despawning. Zero means never.
 	#Range: 0 ~ 10000
 	"Stymphalian Bird Feather Drop Chance" = 25
@@ -352,7 +352,7 @@
 	"Dragon Attack Damage" = 17
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sirens Chance" = 400
+	"Spawn Sirens Chance" = 800
 	#Maximum troll health
 	#Range: 1.0 ~ 10000.0
 	"Troll Max Health" = 50.0
@@ -370,5 +370,5 @@
 	"Spawn Death Worms" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Pixies Chance" = 60
+	"Spawn Pixies Chance" = 120
 
