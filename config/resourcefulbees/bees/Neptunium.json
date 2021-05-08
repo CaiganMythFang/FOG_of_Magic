@@ -29,8 +29,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "zinc, nickel, lead, bismuth",
-    "parent2": "zinc, nickel, lead, bismuth",
+    "parent1": "zinc, nickel",
+    "parent2": "lead, bismuth",
     "breedWeight": 50,
     "feedItem": "tag:forge:ores"
   },

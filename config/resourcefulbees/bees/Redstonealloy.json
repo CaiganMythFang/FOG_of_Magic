@@ -29,8 +29,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "electrum, bismuthbrass, bismuthsteel",
-    "parent2": "electrum, bismuthbrass, bismuthsteel",
+    "parent1": "bismuthsteel",
+    "parent2": "electrum, bismuthbrass",
     "breedWeight": 50,
     "feedItem": "tag:forge:ores"
   },

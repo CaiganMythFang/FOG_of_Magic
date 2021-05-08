@@ -35,8 +35,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "pixiedust, elementium, dragonstone",
-    "parent2": "pixiedust, elementium, dragonstone",
+    "parent1": "dragonstone",
+    "parent2": "pixiedust, elementium",
     "breedWeight": 50,
     "feedItem": "tag:botania:mystical_flowers"
   },

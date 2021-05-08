@@ -29,8 +29,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "bort, manapearl, dragonstone",
-    "parent2": "bort, manapearl, dragonstone",
+    "parent1": "dragonstone",
+    "parent2": "bort, manapearl",
     "breedWeight": 50,
     "feedItem": "tag:botania:mystical_flowers"
   },

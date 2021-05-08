@@ -28,8 +28,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "skeleton, zombie, spidereye",
-    "parent2": "skeleton, zombie, spidereye",
+    "parent1": "spidereye",
+    "parent2": "skeleton, zombie",
     "breedWeight": 50,
     "feedItem": "tag:forge:bones",
     "parent1": "rgbee",

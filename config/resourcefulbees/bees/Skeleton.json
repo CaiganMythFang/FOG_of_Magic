@@ -32,8 +32,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "leather, inksac, rabbitfoot",
-    "parent2": "leather, inksac, rabbitfoot",
+    "parent1": "rabbitfoot",
+    "parent2": "leather, inksac",
     "breedWeight": 50,
     "feedItem": "tag:forge:bones"
   },

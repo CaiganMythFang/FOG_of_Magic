@@ -35,8 +35,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "tin, copper, iron, aluminum",
-    "parent2": "tin, copper, iron, aluminum",
+    "parent1": "iron, aluminum",
+    "parent2": "tin, copper",
     "breedWeight": 50,
     "feedItem": "tag:forge:ores"
   },

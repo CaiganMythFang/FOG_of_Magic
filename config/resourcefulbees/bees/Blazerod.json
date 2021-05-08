@@ -34,8 +34,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "slimy, creeper, pigman",
-    "parent2": "slimy, creeper, pigman",
+    "parent1": "slimy, creeper",
+    "parent2": "pigman",
     "breedWeight": 50,
     "feedItem": "tag:forge:bones"
   },

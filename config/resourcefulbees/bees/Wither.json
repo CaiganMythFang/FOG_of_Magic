@@ -29,8 +29,8 @@
   "SpawnData": {},
   "BreedData": {
     "isBreedable": true,
-    "parent1": "ender, blazerod, ghasttear",
-    "parent2": "ender, blazerod, ghasttear",
+    "parent1": "ender",
+    "parent2": "blazerod, ghasttear",
     "breedWeight": 50,
     "feedItem": "tag:forge:bones"
   },

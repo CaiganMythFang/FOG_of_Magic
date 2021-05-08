@@ -35,8 +35,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "gold, oratchalcum, neptunium, silver",
-    "parent2": "gold, oratchalcum, neptunium, silver",
+    "parent1": "gold, oratchalcum",
+    "parent2": "neptunium, silver",
     "breedWeight": 50,
     "feedItem": "tag:forge:ores"
   },
