@@ -680,7 +680,7 @@
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Marble" = true
+		"Enable Marble" = false
 		"Enable Myalite" = true
 		"Enable Jasper" = true
 		"Enable Voidstone" = true
