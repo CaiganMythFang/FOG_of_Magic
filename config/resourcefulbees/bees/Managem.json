@@ -1,5 +1,5 @@
 {
-  "flower": "tag:forge:storage_blocks/mana",
+  "flower": "ars_nouveau:mana_gem_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 800,
   "baseLayerTexture": "ores/mana/custom_bee",

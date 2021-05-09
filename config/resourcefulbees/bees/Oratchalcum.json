@@ -1,5 +1,5 @@
 {
-  "flower": "tag:forge:storage_blocks/oratchalcum",
+  "flower": "rats:oratchalcum_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 900,
   "baseLayerTexture": "ores/oratchalcum/custom_bee",
