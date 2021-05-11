@@ -1,0 +1,48 @@
+[{
+    "dimension": "minecraft:overworld",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 100,
+      "mod": "alexsmobs",
+      "hostile": true,
+      "passive": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "vanilla",
+    "mincount": {
+      "amount": 400,
+      "mod": "vanilla",
+      "hostile": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "iceandfire",
+    "mincount": {
+      "amount": 100,
+      "mod": "iceandfire",
+      "hostile": true,
+      "passive": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mincount": {
+      "amount": 700,
+      "hostile": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mincount": {
+      "amount": 300,
+      "hostile": true
+    },
+    "result": "deny"
+  }]
