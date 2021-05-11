@@ -191,3 +191,7 @@
 		#Range: 0 ~ 100
 		patchCount = 1
 
+[other]
+	#Set to false to remove the text from tooltips
+	showWipText = true
+
