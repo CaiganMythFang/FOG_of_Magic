@@ -45,4 +45,25 @@
       "hostile": true
     },
     "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "aquaculture",
+    "mincount": {
+      "amount": 100,
+      "mod": "aquaculture",
+      "passive": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "sushigocrafting",
+    "mincount": {
+      "amount": 100,
+      "mod": "sushigocrafting",
+      "block": ["minecraft:water"],
+      "passive": true
+    },
+    "result": "deny"
   }]
