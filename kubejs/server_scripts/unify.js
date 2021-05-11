@@ -14,7 +14,6 @@ global["unifypriorities"] = [
     "create",
     "silents_mechanisms",
     "silentgems",
-    "silentsgear",
     "immersiveengineering",
     "iceandfire",
     "eidolon",
@@ -23,8 +22,7 @@ global["unifypriorities"] = [
 
 // Add oredictionary tags here to unify (or use javascript to generate it!)
 var tags = [
-    "forge:plates/iron",
-    "forge:gears/iron"
+    "forge:plates/iron"
 ]
 // Block tags for ore gen unification (an equal item tag is required for this to work, which is the case with ores normally)
 /*var btags = [
@@ -43,26 +41,22 @@ var tags = [
 ]*/
 // Easier way to add multiple tags (feel free to add empty extra tags, this will ignore them)
 var tagGen = [
-    "gold=gears,plates",
-    "diamond=gears,plates",
-    "copper=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "tin=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "aluminum=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "lead=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "silver=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "nickel=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "bronze=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "steel=storage_blocks,ingots,nuggets,dusts",
+    "gold=plates",
+    "copper=storage_blocks,ingots,nuggets,dusts,ores,plates",
+    "tin=storage_blocks,ingots,nuggets,dusts,ores",
+    "aluminum=storage_blocks,ingots,nuggets,dusts,ores,plates",
+    "lead=storage_blocks,ingots,nuggets,dusts,ores,plates",
+    "silver=storage_blocks,ingots,nuggets,dusts,ores,plates",
+    "nickel=storage_blocks,ingots,nuggets,dusts,ores,plates",
+    "bronze=storage_blocks,ingots,nuggets,dusts",
+    "steel=storage_blocks,ingots,nuggets",
     "platinum=storage_blocks,ingots,nuggets,dusts,ores",
-    "uranium=storage_blocks,ingots,nuggets,dusts,ores",
-    "iridium=storage_blocks,ingots,nuggets,dusts,ores",
+    "uranium=storage_blocks,ingots,nuggets,dusts,ores,plates",
     "zinc=storage_blocks,ingots,nuggets,dusts,ores",
-    "aquamarine=gems,storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "sapphire=gems,storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "electrum=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "brass=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "osmium=ingots,ores",
-    "sulfur=dusts,ores"
+    "aquamarine=storage_blocks,nuggets,ores",
+    "sapphire=storage_blocks,nuggets,ores",
+    "electrum=storage_blocks,ingots,nuggets,dusts",
+    "brass=storage_blocks,ingots,nuggets,dusts,plates"
 ]
 for (let line of tagGen) {
     let data = line.split("=")
