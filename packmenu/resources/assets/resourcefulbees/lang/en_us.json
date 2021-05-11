@@ -426,10 +426,10 @@
 	"item.resourcefulbees.prismarineshard_honeycomb": "Prismarine Shard Honeycomb",
 	"item.resourcefulbees.prismarineshard_bee_spawn_egg": "Prismarine Shard Bee Spawn Egg",
     
-    "entity.resourcefulbees.prismarinecrystal_bee": "Prismarine Crystal Bee",
-	"block.resourcefulbees.prismarinecrystal_honeycomb_block": "Prismarine Crystal Honeycomb Block",
-	"item.resourcefulbees.prismarinecrystal_honeycomb": "Prismarine Crystal Honeycomb",
-	"item.resourcefulbees.prismarinecrystal_bee_spawn_egg": "Prismarine Crystal Bee Spawn Egg",
+    "entity.resourcefulbees.prismarinecrystals_bee": "Prismarine Crystals Bee",
+	"block.resourcefulbees.prismarinecrystals_honeycomb_block": "Prismarine Crystals Honeycomb Block",
+	"item.resourcefulbees.prismarinecrystals_honeycomb": "Prismarine Crystals Honeycomb",
+	"item.resourcefulbees.prismarinecrystals_bee_spawn_egg": "Prismarine Crystals Bee Spawn Egg",
     
     "entity.resourcefulbees.leather_bee": "Leather Bee",
 	"block.resourcefulbees.leather_honeycomb_block": "Leather Honeycomb Block",
