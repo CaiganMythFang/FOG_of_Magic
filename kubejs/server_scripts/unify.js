@@ -44,19 +44,15 @@ var tagGen = [
     "gold=plates",
     "copper=storage_blocks,ingots,nuggets,dusts,ores,plates",
     "tin=storage_blocks,ingots,nuggets,dusts,ores",
-    "aluminum=storage_blocks,ingots,nuggets,dusts,ores,plates",
-    "lead=storage_blocks,ingots,nuggets,dusts,ores,plates",
-    "silver=storage_blocks,ingots,nuggets,dusts,ores,plates",
-    "nickel=storage_blocks,ingots,nuggets,dusts,ores,plates",
-    "bronze=storage_blocks,ingots,nuggets,dusts",
+    "aluminum=storage_blocks,ingots,nuggets,dusts,ores",
+    "lead=storage_blocks,ingots,nuggets,dusts,ores",
+    "silver=storage_blocks,ingots,nuggets,dusts,ores",
+    "nickel=storage_blocks,ingots,nuggets,dusts,ores",
     "steel=storage_blocks,ingots,nuggets",
-    "platinum=storage_blocks,ingots,nuggets,dusts,ores",
-    "uranium=storage_blocks,ingots,nuggets,dusts,ores,plates",
+    "uranium=storage_blocks,ingots,nuggets,ores",
     "zinc=storage_blocks,ingots,nuggets,dusts,ores",
-    "aquamarine=storage_blocks,nuggets,ores",
-    "sapphire=storage_blocks,nuggets,ores",
     "electrum=storage_blocks,ingots,nuggets,dusts",
-    "brass=storage_blocks,ingots,nuggets,dusts,plates"
+    "brass=storage_blocks,ingots,nuggets"
 ]
 for (let line of tagGen) {
     let data = line.split("=")
