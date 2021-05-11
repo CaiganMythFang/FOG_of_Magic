@@ -21,8 +21,6 @@
 	"Interpret Shulker Box Like Blocks" = true
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
-	#Allowed values: (0,)
-	"Advancement Visibility Depth" = 2
 
 [categories]
 	Building = true
@@ -338,7 +336,7 @@
 	"Simple Harvest" = true
 	"Hoe Harvesting" = true
 	"Reacharound Placing" = true
-	"Villagers Follow Emeralds" = false
+	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = true
 	"Skull Pikes" = true
 	"Note Block Mob Sounds" = true
@@ -424,6 +422,9 @@
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
 		"Percent Req" = 1.0
+
+	[tweaks.note_block_mob_sounds]
+		"Enable Vocaloid" = true
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
@@ -691,13 +692,13 @@
 
 			[world.new_stone_types.marble.oregen]
 				#Allowed values: [0,255]
-				"Max Height" = 0
+				"Max Height" = 255
 				#Allowed values: [0,)
-				"Cluster Count" = 0
+				"Cluster Count" = 10
 				#Allowed values: [0,255]
 				"Min Height" = 0
 				#Allowed values: [0,)
-				"Cluster Size" = 0
+				"Cluster Size" = 33
 
 			[world.new_stone_types.marble.dimensions]
 				Dimensions = ["minecraft:overworld"]

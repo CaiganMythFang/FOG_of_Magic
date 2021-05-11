@@ -680,7 +680,7 @@
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Marble" = false
+		"Enable Marble" = true
 		"Enable Myalite" = true
 		"Enable Jasper" = true
 		"Enable Voidstone" = true
@@ -691,13 +691,13 @@
 
 			[world.new_stone_types.marble.oregen]
 				#Allowed values: [0,255]
-				"Max Height" = 255
+				"Max Height" = 0
 				#Allowed values: [0,)
-				"Cluster Count" = 10
+				"Cluster Count" = 0
 				#Allowed values: [0,255]
 				"Min Height" = 0
 				#Allowed values: [0,)
-				"Cluster Size" = 33
+				"Cluster Size" = 0
 
 			[world.new_stone_types.marble.dimensions]
 				Dimensions = ["minecraft:overworld"]
