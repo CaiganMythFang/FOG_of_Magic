@@ -1,7 +1,7 @@
 // Whether or not to unify items in inventory
 global["INVENTORY_UNIFY"] = true
 // Whether or not to unify items in world
-global["ITEM_UNIFY"] = false
+global["ITEM_UNIFY"] = true
 // Whether or not to unify recipes
 global["RECIPE_UNIFY"] = true
 // Whether or not to hide not-first materials in jei (requires secondary script)
@@ -138,7 +138,7 @@ onEvent("entity.spawned", event => {
             // Check for every tag in the list
             for (let tag of global["unifytags"]) {
                 let ingr = Ingredient.of("#"+tag)
-                if (ingr && ingr.test(gItem)) {
+                if (gItem && ingr && ingr.test(gItem)) {
                     // If item is in tag, determine if it needs to be changed
                     let tItem = global["tagitems"][tag]
                     if (tItem != gItem.getId()) {
