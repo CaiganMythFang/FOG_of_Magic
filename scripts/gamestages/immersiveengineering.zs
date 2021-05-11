@@ -61,7 +61,7 @@ mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:plate_iron
 mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:dust_iron>);
 mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:plate_gold>);
 mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:dust_gold>);
-mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:storage_steel>
+mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:storage_steel>);
 
 <item:immersiveengineering:steel_wallmount>.addTooltip("Lost Knowledge - Immersive Engineering");
 <item:immersiveengineering:alu_wallmount>.addTooltip("Lost Knowledge - Immersive Engineering");

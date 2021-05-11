@@ -5,6 +5,11 @@ import crafttweaker.api.util.text.MCStyle;
 
 mods.recipestages.Recipes.setRecipeStageByMod("lost_knowledge_pneumaticcraft", "pneumaticcraft");
 
+// mods.recipestages.Recipes.clearRecipeStage(<item:minecraft:stone_hoe>);
+
+mods.recipestages.Recipes.clearRecipeStage(<item:pneumaticcraft:compressed_iron_block>);
+mods.recipestages.Recipes.clearRecipeStage(<item:pneumaticcraft:ingot_iron_compressed>);
+
 <item:pneumaticcraft:bandage>.addTooltip("Lost Knowledge - Pneumaticraft");
 <item:pneumaticcraft:reinforced_stone>.addTooltip("Lost Knowledge - Pneumaticraft");
 <item:pneumaticcraft:pressure_tube>.addTooltip("Lost Knowledge - Pneumaticraft");
