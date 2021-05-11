@@ -1,1 +1,11 @@
-[]
+[{
+    "dimension": "minecraft:overworld",
+    "mod": "aquaculture",
+    "mincount": {
+      "amount": 100,
+      "mod": "aquaculture",
+      "passive": true
+    },
+    "result": "deny"
+  }
+]
