@@ -338,7 +338,7 @@
 	"Simple Harvest" = true
 	"Hoe Harvesting" = true
 	"Reacharound Placing" = true
-	"Villagers Follow Emeralds" = true
+	"Villagers Follow Emeralds" = false
 	"Compasses Work Everywhere" = true
 	"Skull Pikes" = true
 	"Note Block Mob Sounds" = true
