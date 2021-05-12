@@ -117,6 +117,51 @@
       "commandrewards": []
     },
     {
+      "uuid": "7262b264-46c0-4800-8ac1-2d2dc282c74e",
+      "name": " Farm Animals - Small",
+      "description": "    The magical world has lots and lots of animals, and sometimes its a bit hard to find the specific one you want. Especially if its a bread and butter vanilla farm animal, with all this magic around at least.",
+      "x": 54,
+      "y": 127,
+      "icon": {
+        "id": "inventorypets:pet_chicken",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "cba5ccd1-ff25-42c8-9012-6ab880aeff3a",
       "name": " Ice and Fire Dragon Eggs (buy)",
       "description": "    Dragons are notorious for being everywhere you don\u0027t want them to be, but quite tough to find when you are in search of them.\n    If you are having issue finding an egg, this may seem expensive but they are quite hard to come by.\n    You have to hatch and raise them yourself. Refer to my sister\u0027s teachings to explain things.",
@@ -193,6 +238,48 @@
         },
         {
           "id": "iceandfire:dragonegg_electric",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a26c8a7a-0be7-43a7-8c89-879ffd6122fa",
+      "name": " Other Animals",
+      "description": "    The magical world has lots and lots of animals, and sometimes its a bit hard to find the specific one you want. Especially if its a bread and butter vanilla farm animal, with all this magic around at least.",
+      "x": 86,
+      "y": 127,
+      "icon": {
+        "id": "minecraft:leather_horse_armor",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:fox_spawn_egg",
           "Count": 1
         }
       ],
@@ -289,6 +376,55 @@
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e35cc27e-c90b-40b9-af07-c52c129101b7",
+      "name": " Farm Animals - Big",
+      "description": "    The magical world has lots and lots of animals, and sometimes its a bit hard to find the specific one you want. Especially if its a bread and butter vanilla farm animal, with all this magic around at least.",
+      "x": 24,
+      "y": 127,
+      "icon": {
+        "id": "inventorypets:pet_cow",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 50
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:pig_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:cow_spawn_egg",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     }
   ],
