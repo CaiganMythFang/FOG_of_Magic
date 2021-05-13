@@ -40,6 +40,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "b5022864-19c2-488c-953f-87465c51d092",
+      "name": " Oyster Sand (Buy)",
+      "description": "    Kow mentioned you might have some issue finding Oysters at the beach, due to all sorts of magical being loving to collect them.\n    I can offer you some Oyster Sand for a price, though. Just set it down and Right Click to collect oysters!",
+      "x": 24,
+      "y": 81,
+      "icon": {
+        "id": "turtlemancy:oyster_sand",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turtlemancy:oyster_sand",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1b941922-d8ff-48d8-a124-7fb902b5f971",
       "name": " TFB Major Scanner",
       "description": "    Looking for material to sell to me? Well, the TFB Scanners are exactly what you need!\n    By Right Clicking on, say, a cave wall, it scans the area behind it and calculates the average eDubloon cost of all of them. The higher the eDubloons, the more valuable materials there are!\n    There are three sizes of Scanner, each one scanning farther back from where you Right Click.",
