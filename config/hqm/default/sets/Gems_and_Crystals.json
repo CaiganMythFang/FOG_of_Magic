@@ -99,6 +99,9 @@
         "id": "silentgems:ender_crystal",
         "Count": 1
       },
+      "repeat": {
+        "type": "INSTANT"
+      },
       "tasks": [
         {
           "type": "CONSUME",
@@ -270,6 +273,44 @@
         {
           "id": "iceandfire:sapphire_ore",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e84eea5b-ad5a-4c68-83b5-01047db895b4",
+      "name": " Prismarine Crystals (Sell)",
+      "description": "    Prismarine Shards and Crystals come from Guardians deep in ocean temples. They are used for a lot of water magic, as well as some machinery.",
+      "x": 277,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:prismarine_crystals",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:prismarine_crystals",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -939,6 +980,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "b2101eab-73da-46e6-a89e-a3ffead1f1f7",
+      "name": " Prismarine Shard (Buy)",
+      "description": "    Prismarine Shards and Crystals come from Guardians deep in ocean temples. They are used for a lot of water magic, as well as some machinery.",
+      "x": 84,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:prismarine_shard",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:prismarine_shard",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "360d8a9f-edf5-4b9f-badf-ae5f601283ab",
       "name": " Mana Gem (Buy)",
       "description": "    Mana Gems, from Arcane Ore, are a keystone in learning how to formulate your own spells in Ars Nouveau. ",
@@ -1024,6 +1103,44 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d2fe5d5f-4fd3-4edf-bd13-cb9331a0cb48",
+      "name": " Prismarine Shard (Sell)",
+      "description": "    Prismarine Shards and Crystals come from Guardians deep in ocean temples. They are used for a lot of water magic, as well as some machinery.",
+      "x": 254,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:prismarine_shard",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:prismarine_shard",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1323,6 +1440,9 @@
       "icon": {
         "id": "silentgems:ender_crystal",
         "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {
@@ -1952,6 +2072,44 @@
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "66fafc21-4453-47c9-90b1-b209bcd51e5e",
+      "name": " Prismarine Crystals (Buy)",
+      "description": "    Prismarine Shards and Crystals come from Guardians deep in ocean temples. They are used for a lot of water magic, as well as some machinery.",
+      "x": 108,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:prismarine_crystals",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:prismarine_crystals",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
