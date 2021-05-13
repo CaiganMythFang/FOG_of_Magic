@@ -51,6 +51,7 @@
 				"No wait, my belt. Right, I had the company Building Gadget since I was supposed to construct more barriers in front of the door... this'll come in handy!"
 			],
 			dependencies: ["0000000000000006"],
+			hide: true,
 			id: "0000000000000008",
 			tasks: [{
 				id: "0000000000000009",
@@ -88,6 +89,7 @@
 				"Let's just grab some wood then."
 			],
 			dependencies: ["0000000000000008"],
+			hide: true,
 			id: "000000000000000A",
 			tasks: [{
 				id: "000000000000000B",
