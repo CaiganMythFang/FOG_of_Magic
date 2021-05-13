@@ -144,7 +144,7 @@
 			maxHeight = 30
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 11
+			veinSize = 13
 
 		[world.ores.bismuth]
 			#Minimum Y-coordinate (base height) of veins
