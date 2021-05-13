@@ -39,9 +39,9 @@
 
 	[tweaks.bedrock_pickaxe]
 		#False to disable the Bedrock Pickaxe. [Default: True]
-		exist = true
+		exist = false
 		#False to disable the Turtlemy recipe that turns 1 Bedrock into 9 Fragments of Bedrock. [Default: True]
-		turtlemy_tweak = true
+		turtlemy_tweak = false
 
 [spells]
 
