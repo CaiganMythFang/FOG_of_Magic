@@ -281,6 +281,10 @@
         {
           "id": "minecraft:fox_spawn_egg",
           "Count": 1
+        },
+        {
+          "id": "minecraft:turtle_egg",
+          "Count": 1
         }
       ],
       "commandrewards": []
