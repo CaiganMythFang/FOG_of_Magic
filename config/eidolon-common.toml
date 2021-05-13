@@ -17,7 +17,7 @@
 	leadOreVeinSize = 6
 	#Number of lead ore veins per chunk
 	#Range: 0 ~ 255
-	leadOreVeinCount = 6
+	leadOreVeinCount = 0
 	#Rarity of the lab structure. Higher numbers mean rarer structures.
 	#Range: 1.0 ~ 1000.0
 	labRarity = 4.0
