@@ -715,6 +715,14 @@
     {
       "item": "#forge:ores/tin",
       "emc": 1000
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "emc": 250
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "emc": 500
     }
   ]
 }
