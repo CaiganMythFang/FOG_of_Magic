@@ -5,5 +5,19 @@
     "stackNBT": "",
     "amount": 1,
     "value": 10000
+  },
+  "Terrasteel Ingot": {
+    "index": 1,
+    "stackStr": "botania:terrasteel_ingot",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 2500
+  },
+  "Emerald Ore": {
+    "index": 2,
+    "stackStr": "resynth:mineral_rock",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 200
   }
 }
