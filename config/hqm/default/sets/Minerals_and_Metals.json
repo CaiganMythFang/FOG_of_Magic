@@ -269,44 +269,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
-      "name": " Lead (Buy)",
-      "description": "    Lead is a heavy metal, good for protective barriers.",
-      "x": 65,
-      "y": 81,
-      "icon": {
-        "id": "eidolon:lead_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 15
-              },
-              "required": 15
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "eidolon:lead_ore",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
       "name": " Redium Ingot (Sell)",
       "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
@@ -340,6 +302,44 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
+      "name": " Lead (Buy)",
+      "description": "    Lead is a heavy metal, good for protective barriers.",
+      "x": 65,
+      "y": 81,
+      "icon": {
+        "id": "eidolon:lead_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:lead_ore",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -416,6 +416,81 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 10
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "29805f8a-8426-4307-b69d-8f7966c10697",
+      "name": " Quicksilver (Buy)",
+      "description": "    Quicksilver is a magical (well, more magical) alternate to normal Silver. This is NOT mercury, despite the name.",
+      "x": 15,
+      "y": 168,
+      "icon": {
+        "id": "mysticalworld:quicksilver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mysticalworld:quicksilver_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "027f3558-2055-433d-9d74-d88e4325c98a",
+      "name": " Mineral Rock (Sell)",
+      "description": "   Mineral Rock is a somewhat magical material that enables you to grow Resynth plants.\n    I don\u0027t sell the stuff, it\u0027s pretty easy to find deep in the ground, but if you got some surplus I can buy it from ya for a few coins.",
+      "x": 199,
+      "y": 193,
+      "icon": {
+        "id": "resynth:mineral_rock",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "resynth:mineral_rock",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -1473,6 +1548,44 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 35
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d9539e4e-0224-486f-a334-1515e74848d7",
+      "name": " Quicksilver (Sell)",
+      "description": "    Quicksilver is a magical (well, more magical) alternate to normal Silver. This is NOT mercury, despite the name.",
+      "x": 222,
+      "y": 194,
+      "icon": {
+        "id": "mysticalworld:quicksilver_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalworld:quicksilver_ingot",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "calemiutils:coin_dollar",
+          "Count": 20
         }
       ],
       "rewardchoice": [],
