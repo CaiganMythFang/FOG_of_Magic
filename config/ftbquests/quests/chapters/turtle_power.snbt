@@ -1,0 +1,977 @@
+{
+	id: "08C1F6D98B956CA9",
+	group: "",
+	order_index: 17,
+	filename: "turtle_power",
+	title: "Turtle Power",
+	icon: "turtlemancy:mine_turtle",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Hard Shell Life",
+			icon: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "turtlemancy:turtlenomicon"
+				}
+			},
+			x: 1.0d,
+			y: -1.25d,
+			shape: "square",
+			subtitle: "&dMod: Turtlemancy",
+			description: [
+				"&dTraveler, there seems to be a new brand of mage around you maybe interested in learning from.",
+				"",
+				"New? What do you mean?",
+				"",
+				"&dI've never seen one before. Nor have wizards there I've talked to. ",
+				"",
+				"So what kind of...",
+				"",
+				"&dTurtles.",
+				"",
+				"Pardon?",
+				"",
+				"&dTurtles.",
+				"",
+				"...Okay I'll bite. How do I get started?",
+				"",
+				"&dGet yourself an Oyster from the beach. If you can't find one, talk to my brother. Then make the... sigh... Turtlenomicon."
+			],
+			dependencies: ["0000000000000025"],
+			id: "76A219CE9768FE40",
+			tasks: [
+				{
+					id: "5B16332260228186",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "turtlemancy:turtlenomicon"
+						}
+					}
+				},
+				{
+					id: "7424F589C6BE9CE9",
+					type: "item",
+					item: "turtlemancy:oyster"
+				}
+			],
+			rewards: [{
+				id: "2EE42AFBB0A44DE4",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Blessings of the Turtle",
+			icon: "minecraft:scute",
+			x: 1.25d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dTurtles are Friends?",
+			description: [
+				"So, to properly befriend a turtle, I need to go up to it and Sneak while staring at it.",
+				"",
+				"Eventually it will accept me as a friend. I mean, as long as I haven't killed a turtle... if I have then I have a problem...",
+				"",
+				"Well, I can fix that problem later. For now, when I befriend a turtle like this, I may get a Blessing! This will be useful later.",
+				"",
+				"Oh, usually the way to get Scutes (the bony plate scale things on a Turtle) would be to kill them... but I can get them by raising a baby turtle. It will drop a Scute when it grows up.",
+				"",
+				"Or, I can dig through the beach Sand and eventually find a discarded one.",
+				"",
+				"&dTraveler, if you are having trouble finding a normal Turtle, my brother has some turtle eggs he likes to raise. He may sell one to you if you take care of it."
+			],
+			dependencies: ["76A219CE9768FE40"],
+			id: "72C71EDF2E84DDFD",
+			tasks: [{
+				id: "29403545ED0154C4",
+				type: "item",
+				item: "minecraft:scute"
+			}],
+			rewards: [{
+				id: "6DA5902C53CECA06",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Turtle Alchemist",
+			icon: "turtlemancy:turtle_cauldron",
+			x: 3.0d,
+			y: -1.25d,
+			shape: "square",
+			subtitle: "&dNo bubbling cauldron, just nice and chill",
+			description: [
+				"So, alchemy as a Turtlemancer(called Turtlemy I guess?) is interesting. I use a Turtlemancer Cauldron, filled with water.",
+				"",
+				"But I don't use any heat? No need for a lit fire or magical heating elements. Just the cauldron and some water.",
+				"",
+				"The most basic thing I can do is toss an Oyster in. The magic of Turtlemy will not only cook the oyster, but extract the Pearl safely. These will be useful, like making a larger pearl with them for later.",
+				"",
+				"I can also... dry... Kelp?",
+				"",
+				"&dWhat?",
+				"",
+				"I'm not kidding. I can dry Kelp in the WATER of a Turtlemancer Cauldron.",
+				"",
+				"&d...Turtlemancers are weird."
+			],
+			dependencies: ["72C71EDF2E84DDFD"],
+			id: "3ACEDDCAA44B54F2",
+			tasks: [
+				{
+					id: "509ED68E986BC919",
+					type: "item",
+					item: "turtlemancy:turtle_cauldron"
+				},
+				{
+					id: "1D36A3ACE81EAB9C",
+					type: "item",
+					item: "turtlemancy:pearl"
+				},
+				{
+					id: "27B9CBFBE1E1E80A",
+					type: "item",
+					item: "turtlemancy:cooked_oyster"
+				},
+				{
+					id: "3A8F3BE7508EF965",
+					type: "item",
+					item: "minecraft:dried_kelp"
+				},
+				{
+					id: "09E10547602A4783",
+					type: "item",
+					item: "turtlemancy:empty_pearl"
+				}
+			],
+			rewards: [{
+				id: "1DADF98320377914",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Essences One",
+			icon: "turtlemancy:turtle_essence",
+			x: 2.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dEau de Turtle",
+			description: [
+				"So, Turtlemy and Rituals require different kinds of Essences to do different things.",
+				"",
+				"I can collect them by Right Clicking a Glass Bottle onto the related creature.",
+				"",
+				"Turtles for Turtle Essence.",
+				"",
+				"Fish or Dolphins or Squids for Watery Creature Essence.",
+				"",
+				"Most any passive creature for Animal Essence.",
+				"",
+				"Villagers or other Travellers for Human Essence."
+			],
+			dependencies: ["3ACEDDCAA44B54F2"],
+			id: "341D0809FECA586D",
+			tasks: [
+				{
+					id: "53B97D77B8945E06",
+					type: "item",
+					item: "turtlemancy:turtle_essence"
+				},
+				{
+					id: "2FFF8CA9CFFFE753",
+					type: "item",
+					item: "turtlemancy:water_creature_essence"
+				},
+				{
+					id: "7E19B9CF0C077DA2",
+					type: "item",
+					item: "turtlemancy:animal_essence"
+				},
+				{
+					id: "750299A2A2651D0F",
+					type: "item",
+					item: "turtlemancy:human_essence"
+				}
+			],
+			rewards: [{
+				id: "6DB65AC02153D7E4",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			icon: "turtlemancy:arthropod_essence",
+			x: 3.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dEau de Leggy",
+			description: [
+				"Turtlemy and Rituals require essences from various creatures, which I can collect by Right Clicking a Glass Bottle on the related creature.",
+				"",
+				"Spiders for Arthropod Essence.",
+				"",
+				"Zombies for Undead Essence.",
+				"",
+				"Endermen for... obviously, Endermen Essence."
+			],
+			dependencies: ["3ACEDDCAA44B54F2"],
+			id: "47D451F320EEE5F9",
+			tasks: [
+				{
+					id: "3D6F67AA45C15844",
+					type: "item",
+					item: "turtlemancy:arthropod_essence"
+				},
+				{
+					id: "6612262CF34C006E",
+					type: "item",
+					item: "turtlemancy:undead_essence"
+				},
+				{
+					id: "04B91FEC04CE7B4E",
+					type: "item",
+					item: "turtlemancy:enderman_essence"
+				}
+			],
+			rewards: [{
+				id: "7C617709F90B2029",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "A Little Flick of the Wrist",
+			icon: {
+				id: "turtlemancy:turtlemancer_basic_wand",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 4.5d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dAh, here's the bubbles",
+			description: [
+				"Turtlemancers can cast a small variety of spells by using a Turtlemancer Wand. The first wand I'll want is the Basic Wand, of course.",
+				"",
+				"Wands have Mana, and can be recharged with Turtle Blessings.",
+				"",
+				"If I hold Right Click, I will launch out a bubble that will encapsulate whatever it hits for a few moments. Or, I can hit C and surround myself in a bubble and slowly float for a bit. That should be useful, cause the bubble heals a bit!",
+				"",
+				"But, if I hold Right Click on a Chicken, well... poof? Weird."
+			],
+			dependencies: ["3ACEDDCAA44B54F2"],
+			id: "28D2FF95942F05BD",
+			tasks: [{
+				id: "35884AD1C96AF697",
+				type: "item",
+				item: {
+					id: "turtlemancy:turtlemancer_basic_wand",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "7ACD1E84C46DED18",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Better Turtle Magic",
+			icon: {
+				id: "turtlemancy:turtlemancer_wand",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 7.0d,
+			y: -1.5d,
+			shape: "square",
+			subtitle: "&dBigger Bubbles and Pops",
+			description: [
+				"Making a better wand lets me use bigger, better Turtlemancy spells.",
+				"",
+				"It also improves my other spells, like the bubble spell. Now it lasts longer, and heals more.",
+				"",
+				"It also makes lets me use the pop spell on more creatures... like Sheep and Squids.",
+				"",
+				"&dI'm still questioning what the heck is with that spell..",
+				"",
+				"Even stranger? If I have a fully charged wand, I can use it on Bedrock. The full force of the wand will... chip a tiny piece of it off.",
+				"",
+				"&dWell, I guess the bedrock is like... the shell of a turtle... I guess?"
+			],
+			dependencies: ["28D2FF95942F05BD"],
+			id: "6CCEB5D99303100A",
+			tasks: [
+				{
+					id: "360C05ABD9FABB66",
+					type: "item",
+					icon: {
+						id: "turtlemancy:turtlemancer_wand",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					item: {
+						id: "turtlemancy:turtlemancer_wand",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "048DDD181B7CB2D6",
+					type: "item",
+					item: "turtlemancy:little_fragment_of_bedrock"
+				}
+			],
+			rewards: [{
+				id: "3E8F9F432E0317D0",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Fire Turtle",
+			icon: "turtlemancy:magma_scute",
+			x: 3.0d,
+			y: 1.25d,
+			shape: "square",
+			subtitle: "&dThrough the Lava and Flames",
+			description: [
+				"It seems there are some magical fire turtles I can find the Nether. They may be a bit difficult to find, though.",
+				"",
+				"At least, with Turtlemy I can make their fire infused Scutes for use."
+			],
+			dependencies: [
+				"341D0809FECA586D",
+				"47D451F320EEE5F9",
+				"72C71EDF2E84DDFD"
+			],
+			id: "65225EB9F7DE6768",
+			tasks: [{
+				id: "12A915C30BB43EE9",
+				type: "item",
+				item: "turtlemancy:magma_scute"
+			}],
+			rewards: [{
+				id: "6FB76B51151A60B7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Humanity Found",
+			icon: "turtlemancy:blessed_pearl",
+			x: 3.0d,
+			y: 2.75d,
+			shape: "square",
+			subtitle: "&dYearning to Trade",
+			description: [
+				"With Essences and things, I can fill Empty Pearls and make them do interesting things, similar to Ender Pearls.",
+				"",
+				"Like the Human Pearl. It works like an Eye of Ender, except it locates Villages instead of Strongholds.",
+				"",
+				"The Blessed Pearl, using Turtle Blessings, instead will seek out Ocean Monuments. Good for finding Guardian temples and stuff."
+			],
+			dependencies: ["65225EB9F7DE6768"],
+			id: "0D6AD0C184DAB124",
+			tasks: [
+				{
+					id: "0FD6B199F6831B7F",
+					type: "item",
+					item: "turtlemancy:human_pearl"
+				},
+				{
+					id: "63DC7C7A671A3E39",
+					type: "item",
+					item: "turtlemancy:blessed_pearl"
+				}
+			],
+			rewards: [{
+				id: "1F0C4DB62E5EDD3F",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Turtle Rock",
+			icon: "turtlemancy:improved_scute",
+			x: 4.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dStrong World",
+			description: [
+				"With the chips of Bedrock I can get using a decent Turtlemancer Wand, I can combine them with Scutes to make Improved Scutes.",
+				"",
+				"These have a lot of good uses, in rituals and items."
+			],
+			dependencies: [
+				"65225EB9F7DE6768",
+				"28D2FF95942F05BD"
+			],
+			id: "0E8E0D59C7CF25FD",
+			tasks: [
+				{
+					id: "2815AB08653B39E7",
+					type: "item",
+					item: "turtlemancy:improved_scute"
+				},
+				{
+					id: "1623A507C7F477F5",
+					type: "item",
+					item: "turtlemancy:improved_magma_scute"
+				}
+			],
+			rewards: [{
+				id: "3DC3EA09C146686E",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Ritual of the Shells",
+			icon: "turtlemancy:turtle_altar",
+			x: 7.0d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "&dBlessed and Cursed",
+			description: [
+				"Looks like not only do Turtlemancers have wands and alchemy, it only stands to reason they dabble in rituals too. The altar is pretty cute at least.",
+				"",
+				"&dI agree there.",
+				"",
+				"So, I build the altar, then I Right Click three Blessings or three Curses onto the Altar to 'power' it. It'll change colors when its ready.",
+				"",
+				"The first ritual I should make is for Betwitched Shells. To get Turtlemancer rituals going, I first have to charge the Altar. Then Right Click the Oyster shell onto the Altar so its holding it.",
+				"",
+				"Then I drop the other ritual ingredients next to the Altar. For this, 10 Lapis Lazuli.",
+				"",
+				"Then bam, glowy shell!",
+				"",
+				"&dA neat thing. You can also transform a Human Pearl into an Evil Human Pearl. It'll seek out Outposts, like Pillager bad guy ones."
+			],
+			dependencies: [
+				"0E8E0D59C7CF25FD",
+				"65A3333CC5439DAF"
+			],
+			id: "0760E152AFB0471E",
+			tasks: [
+				{
+					id: "7997BEBE6FEF38F9",
+					type: "item",
+					item: "turtlemancy:turtle_altar"
+				},
+				{
+					id: "1497A1C8F3C17CB3",
+					type: "item",
+					item: "turtlemancy:bewitched_shell"
+				},
+				{
+					id: "5714EB18E12E1622",
+					type: "item",
+					item: "turtlemancy:evil_human_pearl"
+				}
+			],
+			rewards: [{
+				id: "7931248A263F98C6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Bad Turtle",
+			icon: "turtlemancy:turtle_curse",
+			x: 4.5d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dPoor Decisions Averted",
+			description: [
+				"So, I need to be careful to not kill Turtles, right? If I do, when I try to get a blessing, I'll get a curse instead!",
+				"",
+				"But, the thing is, a good turtlemancer knows balance. Or at least I do. Good and bad. So, the Turtle Curses can be useful too. ",
+				"",
+				"&dPlus the turtlemancer that wrote your book there talked about everything you can do with Curses so...",
+				"",
+				"Turtlemancers are weird.",
+				"",
+				"&dTurtlemancers are weird.",
+				"",
+				"But hey, I can make a Turtle Curse in a Turtle Cauldron with a bit of work, that's not bad."
+			],
+			dependencies: ["0E8E0D59C7CF25FD"],
+			id: "65A3333CC5439DAF",
+			tasks: [{
+				id: "46CF49FEC401B7CD",
+				type: "item",
+				item: "turtlemancy:turtle_curse"
+			}],
+			rewards: [{
+				id: "58CAED71FA489472",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Turtle Armor",
+			icon: {
+				id: "turtlemancy:turtle_helmet",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 5.5d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "&dHalf Shell, Whole Guard",
+			description: [
+				"So this turtle armor comes in two different styles. The 'regular' stuff is pretty strong, and also boosts my health if I wear a full set, which is awesome.",
+				"",
+				"But the magmatic set? I get less health, but it sets anything that hits me on fire. Even if they hit me with an arrow. Amazing."
+			],
+			dependencies: [
+				"0E8E0D59C7CF25FD",
+				"0760E152AFB0471E"
+			],
+			id: "549CAC3598DDF8DE",
+			tasks: [
+				{
+					id: "263DDE7968E9D89E",
+					type: "item",
+					item: {
+						id: "turtlemancy:turtle_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "319F17C5D8FB3733",
+					type: "item",
+					item: {
+						id: "turtlemancy:magmatic_turtle_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "3BDCD7343AC80535",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Dark Turtles",
+			icon: {
+				id: "turtlemancy:dark_turtlemancer_wand",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 4.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dEvil Balanced?",
+			description: [
+				"I see there are some... evil spells and stuff Turtlemancers can get into. But they feel like... I don't know, nice still in a way?",
+				"",
+				"&dWell, tell that to the chickens you explode.",
+				"",
+				"Point, but I mean... The 'evil' bubble spell pulls the target towards you. And heals it? ",
+				"",
+				"&dReally? That's weird.",
+				"",
+				"Oh, here. Speaking of exploding, I guess you can make Traders explode like chickens? That IS kind of evil.",
+				"",
+				"&dA bit. Though that might just be balancing out things in a different way. I don't know."
+			],
+			hide_dependency_lines: true,
+			dependencies: [
+				"0D6AD0C184DAB124",
+				"65A3333CC5439DAF",
+				"28D2FF95942F05BD"
+			],
+			id: "0E86F2FEC8C05A68",
+			tasks: [{
+				id: "5629395A61898C86",
+				type: "item",
+				item: {
+					id: "turtlemancy:dark_turtlemancer_wand",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "4EBCA27ADB9F19AF",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Boom and Boat",
+			icon: "turtlemancy:mine_turtle",
+			x: 5.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "&dWhat weird items",
+			description: [
+				"I can make such weird, varied items with Scute. Well, not a lot, but theres a few interesting items I guess?",
+				"",
+				"Take the Turtle Mine. I can put it down, and anything that steps on it will set it off to explode.",
+				"",
+				"&dExcept in Turtlemancer fashion, it... doesn't do a lot? Except hurt creatures, but not the land. Which is both very Turtlemancer and very not at the same time...",
+				"",
+				"True. But at least theres the Turtle Boat. Much faster than a normal boat.",
+				"",
+				"&dYou can also make some nice looking, if weird as hell, doors out of Scute.",
+				"",
+				"...You know, Scute is such a weird word itself.",
+				"",
+				"&dEverything with turtles is!"
+			],
+			dependencies: ["0E8E0D59C7CF25FD"],
+			id: "59D54D19AC0FB6F3",
+			tasks: [
+				{
+					id: "11E14994523D5FFB",
+					type: "item",
+					item: "turtlemancy:mine_turtle"
+				},
+				{
+					id: "0A36CA112E5C8F3C",
+					type: "item",
+					item: "turtlemancy:turtle_boat"
+				},
+				{
+					id: "697D40BBB8F7A5C5",
+					type: "item",
+					item: "turtlemancy:improved_turtle_door"
+				},
+				{
+					id: "59AC77F55E2E9A82",
+					type: "item",
+					item: "turtlemancy:turtle_door"
+				}
+			],
+			rewards: [{
+				id: "261AC23DD9B9B831",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 25
+			}]
+		},
+		{
+			title: "More Magic Pearls",
+			icon: "turtlemancy:indestructible_pearl",
+			x: 6.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dPretty orbs",
+			description: [
+				"Rituals and stuff let me make a few different pearls and items that'll be useful.",
+				"",
+				"The Cursed Pearl is pretty useful for me, given the dangerous maze the Nether can be. It's like an Eye of Ender, but it seeks out Nether Fortresses instead.",
+				"",
+				"The Indestructable Pearl doesn't do much on its own, but its a key item to becoming the strongest Turtlemancer."
+			],
+			dependencies: [
+				"6CCEB5D99303100A",
+				"65A3333CC5439DAF",
+				"0760E152AFB0471E",
+				"0E86F2FEC8C05A68"
+			],
+			id: "402043677C0736F4",
+			tasks: [
+				{
+					id: "2C991F86D20E4385",
+					type: "item",
+					item: "turtlemancy:cursed_pearl"
+				},
+				{
+					id: "05EF8916A4B7DE48",
+					type: "item",
+					item: "turtlemancy:indestructible_pearl"
+				}
+			],
+			rewards: [{
+				id: "742C4449258CD5CA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Forgiveness",
+			icon: "turtlemancy:nether_star_of_forgiveness",
+			x: 7.0d,
+			y: 2.75d,
+			shape: "square",
+			subtitle: "&dSuch a steep price...",
+			description: [
+				"Oh. Wow. So, killing a Turtle is a crazy offense to the Turtlemancer goddess. But there is a way to ask forgiveness.",
+				"",
+				"&dHow do... oh, geez that's expensive.",
+				"",
+				"Yeah, a ritual with a ghast tear and a Nether Star? I guess if I want to do more good Turtle spells and stuff...",
+				"",
+				"&dYou haven't killed a turtle yet though.",
+				"",
+				"Haven't I? Some of my other magic is probably going to have collateral damage at some point...",
+				"",
+				"&d...Touche."
+			],
+			dependencies: ["0760E152AFB0471E"],
+			id: "5447DAAA6003E6B0",
+			tasks: [{
+				id: "4F87ED206CA59A2F",
+				type: "item",
+				item: "turtlemancy:nether_star_of_forgiveness"
+			}],
+			rewards: [{
+				id: "6238D1C324D133E6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 50
+			}]
+		},
+		{
+			title: "The Master Turtle Wands",
+			icon: {
+				id: "turtlemancy:turtlemancer_advanced_wand",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 9.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dPowerful Turtle Sticks",
+			description: [
+				"It's only natural that the two wands, the Turtlemancer and Dark Turtlemancer wands, can be upgraded even further. The abilities they both have improve as well.",
+				"",
+				"For the 'good' Turtlemancer wand, it can make Cows explode.",
+				"",
+				"&dWHAT THE H....",
+				"",
+				"It can also just... 'delete' Sand, Dirt, Stone, etc that I use it on. Neat.",
+				"",
+				"The Dark Turtlemancer Wand, though, can also make Turtles explode.",
+				"",
+				"&d...Turtlemancers are messed up."
+			],
+			dependencies: [
+				"402043677C0736F4",
+				"0E86F2FEC8C05A68",
+				"65A3333CC5439DAF",
+				"1D8006AD5F994793",
+				"2CFA4519E9FE8702"
+			],
+			id: "6712414E75B23A14",
+			tasks: [
+				{
+					id: "689C94CD327EC249",
+					type: "item",
+					item: {
+						id: "turtlemancy:turtlemancer_advanced_wand",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "62C7DCE519169482",
+					type: "item",
+					item: {
+						id: "turtlemancy:dark_turtlemancer_advanced_wand",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "14C921E022F8AB15",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 50
+			}]
+		},
+		{
+			title: "Go, Shell Ball!",
+			icon: "turtlemancy:shell_of_encapsulation",
+			x: 7.5d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "&dAlmost cartoonish in thought...",
+			description: [
+				"The Shell of Encapsulation is a magical shell that I can use to 'capture' a passive creature.",
+				"",
+				"Though... it doesn't seem to work on a lot of creatures. It says it works on non monsters, but it doesn't seem to?",
+				"",
+				"&dWell, it looks like it works on sheeps, cows, chickens, etc. I guess keep trying, Traveler."
+			],
+			dependencies: ["0760E152AFB0471E"],
+			id: "73AFFB2FEDBBBB32",
+			tasks: [{
+				id: "69DF16E4D5F574EA",
+				type: "item",
+				item: "turtlemancy:shell_of_encapsulation"
+			}],
+			rewards: [{
+				id: "2DEC54CBEBF0A095",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Water Charms",
+			icon: "turtlemancy:bewitched_shell_necklace",
+			x: 8.5d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "&dFor Good Turtles",
+			description: [
+				"I can make some pretty good water based Curios.",
+				"",
+				"&dOnly makes sense, since its Turtlemancy.",
+				"",
+				"Yeah. Like the Bewitched Shell Necklac.e It lets me breath and see underwater all the time.",
+				"",
+				"Or the Bracelet of the Sea. This one especially is good. It lowers the cost of mana of casting spells, and speeds up casting too.",
+				"",
+				"The Tidal Ring will let my good Bubble spells do damage instead, cause a good defense is offense."
+			],
+			dependencies: [
+				"0760E152AFB0471E",
+				"6CCEB5D99303100A"
+			],
+			id: "2CFA4519E9FE8702",
+			tasks: [
+				{
+					id: "58EE0AC41845405F",
+					type: "item",
+					item: "turtlemancy:bewitched_shell_necklace"
+				},
+				{
+					id: "5216099A0C3F6849",
+					type: "item",
+					item: "turtlemancy:heart_of_the_sea_bracelet"
+				},
+				{
+					id: "36F3E4A476F731FA",
+					type: "item",
+					item: "turtlemancy:tidal_ring"
+				}
+			],
+			rewards: [{
+				id: "4392D30F2ADDD462",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "Fire Charms",
+			icon: "turtlemancy:magma_heart",
+			x: 8.5d,
+			y: 1.0d,
+			shape: "square",
+			subtitle: "&dFor Dangerous Turtles",
+			description: [
+				"Dark Turtlemancers have some neat curios that help them too.",
+				"",
+				"The Magma Heart heals me and feeds me every time I kill something.",
+				"",
+				"The Tephra Ring will turn my dark bubble spell into a damaging version instead.",
+				"",
+				"Finally, the Nautilus Ring will be super helpful in the Nether. It absorbs all fall damage if I wear it."
+			],
+			dependencies: ["0760E152AFB0471E"],
+			id: "1D8006AD5F994793",
+			tasks: [
+				{
+					id: "679DC0CA3628268F",
+					type: "item",
+					item: "turtlemancy:magma_heart"
+				},
+				{
+					id: "7BB9FB03786D8797",
+					type: "item",
+					item: "turtlemancy:tephra_ring"
+				},
+				{
+					id: "1A33D95AEBCD1F5B",
+					type: "item",
+					item: "turtlemancy:nautilus_belt"
+				}
+			],
+			rewards: [{
+				id: "2604F57004CBF8F7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 30
+			}]
+		},
+		{
+			title: "&dLesson Complete: Turtlemancey",
+			icon: "contenttweaker:forbiddencoin",
+			x: 0.0d,
+			y: -1.25d,
+			shape: "pentagon",
+			hide_dependency_lines: true,
+			dependencies: [
+				"76A219CE9768FE40",
+				"0D6AD0C184DAB124",
+				"5447DAAA6003E6B0",
+				"6712414E75B23A14"
+			],
+			size: 1.25d,
+			id: "54370396EBA3C2E2",
+			rewards: [{
+				id: "028595A6CE9CEB35",
+				type: "item",
+				item: "contenttweaker:forbiddencoin"
+			}]
+		}
+	]
+}
