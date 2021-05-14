@@ -1,0 +1,1 @@
+craftingTable.removeRecipe(<minecraft:bedrock>);
