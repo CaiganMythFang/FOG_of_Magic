@@ -216,7 +216,7 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = false
+	"Inventory Sorting" = true
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true
@@ -1007,14 +1007,14 @@
 
 		[world.big_stone_clusters.marble]
 			#Allowed values: [0,)
-			"Horizontal Size" = 14
+			"Horizontal Size" = 0
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
