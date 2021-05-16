@@ -2,6 +2,48 @@
   "name": "Plants and Wildlife",
   "quests": [
     {
+      "uuid": "46dc6aa5-51ae-4dde-82cc-c88eba2df442",
+      "name": " Sushi Ingredients",
+      "description": "    A few ingredients you need for good Sushi can be a bit difficult to find in older parts of the world.\n    To correct this, I have some Seaweed and Avocado Saplings for sale.",
+      "x": 54,
+      "y": 90,
+      "icon": {
+        "id": "sushigocrafting:avocado",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 10
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pamhc2trees:avocado_sapling",
+          "Count": 1
+        },
+        {
+          "id": "sushigocrafting:seaweed",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "5657267a-9915-43a2-907d-d27871d8c982",
       "name": "Ratglove",
       "description": "    This rare plant can usually only be found in Ratlantis, and even then it is super rare.\n    Thankfully, Kow has been able to make a small cultivation of it in a magical greenhouse.",
