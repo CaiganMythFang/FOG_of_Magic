@@ -1121,6 +1121,45 @@
 				item: "contenttweaker:forbiddencoin",
 				count: 3
 			}]
+		},
+		{
+			title: "A Grand Ritual",
+			icon: "ars_nouveau:ritual_cloudshaping",
+			x: -5.0d,
+			y: 5.0d,
+			shape: "square",
+			subtitle: "&dMagic in the air",
+			description: [
+				"It looks like there are some specific, bigger spells I can cast called Rituals. They require a Ritual Pedestal, a Tablet of the Ritual I want to cast, and some other items depending on the Ritual.",
+				"",
+				"To start off, I'll need to place down a Ritual Pedestal, and some Mana Jars within 6 blocks for some of the rituals.",
+				"",
+				"Then I need to craft one of the Tablets, like this Cloudshaping one, which lets me change the weather.",
+				"",
+				"I then Right Click the Tablet onto the Ritual Pedestal. I can then drop items to augment some Rituals, like dropping Gunpowder will make the Cloudshaper ritual cause rain instead of clear the skies. ",
+				"",
+				"When all is ready, I Right Click the Pedestal again with an empty hand to activate the Ritual."
+			],
+			dependencies: ["0000000000000125"],
+			id: "38E9B064DE5AA4D8",
+			tasks: [
+				{
+					id: "3511742C1AC1685C",
+					type: "item",
+					item: "ars_nouveau:ritual"
+				},
+				{
+					id: "53634EBB568996AE",
+					type: "item",
+					item: "ars_nouveau:ritual_cloudshaping"
+				}
+			],
+			rewards: [{
+				id: "581C017BE05271C7",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
 		}
 	]
 }
