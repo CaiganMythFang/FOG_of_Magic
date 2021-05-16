@@ -386,7 +386,7 @@ customization {
   fadeinspeed = 1.0
   x = -6
   width = 150
-  actionid = cc119680-ae07-43b0-af64-79cab091d7981621102795030
+  actionid = 8ba62fee-b0d6-44ca-b6f6-04d42a2344431621130697278
   action = addbutton
   y = 56
   delayappearance = true
@@ -437,7 +437,7 @@ customization {
   y = -15
   delayappearance = true
   alignment = left
-  value = Version §l§d1.3.0§r §f(May 15 2021)
+  value = Version §l§d1.3.0§r §f(May 16 2021)
   delayappearanceeverytime = false
 }
 
@@ -597,13 +597,14 @@ customization {
 customization {
   orientation = top-right
   buttonaction = openlink
-  x = -84
-  width = 78
-  actionid = 408c0a58-71f0-414e-aa79-421afed7adc51621102795073
-  action = addbutton
-  y = 15
   backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
   label = 
+  hoverlabel = §dCLICK FOR OFFER!
+  x = -101
+  width = 78
+  actionid = a44858a1-dcb3-4f3b-8d1f-7a303d0055921621130697316
+  action = addbutton
+  y = 15
   backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
   value = https://bisecthosting.com/ferretbusiness
   height = 21
@@ -612,7 +613,7 @@ customization {
 customization {
   orientation = top-right
   shadow = false
-  x = -69
+  x = -84
   action = addtext
   actionid = a7ed042f-f495-46df-aa09-299ddb885de31621101512310
   y = 9
@@ -624,12 +625,12 @@ customization {
 customization {
   orientation = top-right
   shadow = false
-  x = -76
+  x = -119
   action = addtext
   actionid = a7ed042f-f495-46df-aa09-299ddb885de31621101512310
   y = 38
   scale = 0.7
   alignment = left
-  value = For Great Servers
+  value = DISCOUNT CODE : FERRETBUSINESS
 }
 
