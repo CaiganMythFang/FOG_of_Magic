@@ -1,0 +1,635 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = openloader/resources/fom_resources/assets/fom/textures/menu/background.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -6
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=400298%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/singleplayer.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = Play Singleplayer
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -6
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=400322%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/multiplayer.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = Play Multiplayer
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = 93
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=604382%
+  width = 49
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank-small.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/accesability.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = sethoverlabel
+  label = Accessability
+}
+
+customization {
+  identifier = %id=604382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -6
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=400382%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/options.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = Change Options
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -6
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=502382%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/quit.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = Quit Game
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = 45
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=376382%
+  width = 49
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank-small.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/lang.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = sethoverlabel
+  label = Language
+}
+
+customization {
+  identifier = %id=376382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -6
+  action = movebutton
+  y = 18
+}
+
+customization {
+  identifier = %id=400346%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/mods.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = Mod List and Config
+}
+
+customization {
+  identifier = %id=400346%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = -3
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=376346%
+  width = 49
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank-small.png
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/quark.png
+}
+
+customization {
+  identifier = %id=376346%
+  action = sethoverlabel
+  label = Quark
+}
+
+customization {
+  identifier = %id=376346%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 1.0
+  path = openloader/resources/fom_resources/assets/fom/textures/menu/scroll-parchment.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -165
+  width = 160
+  action = addtexture
+  actionid = 4201def0-8fd4-4cc8-810a-a47cbc5bcedd1621094446881
+  y = -40
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 135
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 1.0
+  buttonaction = openlink
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
+  label = 
+  hoverlabel = Report Issues
+  fadein = true
+  fadeinspeed = 1.0
+  x = -6
+  width = 150
+  actionid = cc119680-ae07-43b0-af64-79cab091d7981621102795030
+  action = addbutton
+  y = 56
+  delayappearance = true
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/help.png
+  value = https://github.com/CaiganMythFang/FOG_of_Magic/issues
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  path = openloader/resources/fom_resources/assets/fom/textures/menu/fom_logo.png
+  orientation = top-centered
+  x = -81
+  width = 155
+  action = addtexture
+  actionid = b95cec0b-754b-4ca9-9a3c-463fd8bda0951621094912308
+  y = 3
+  height = 85
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -86
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = -26
+  delayappearance = true
+  alignment = centered
+  value = §l§n§5Welcome %playername% !
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -154
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = -15
+  delayappearance = true
+  alignment = left
+  value = Version §l§d1.3.0§r §f(May 15 2021)
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -152
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = -6
+  delayappearance = true
+  alignment = left
+  value = §m----------------------
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -152
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = 12
+  delayappearance = true
+  alignment = left
+  value = §m----------------------
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -141
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = 3
+  delayappearance = true
+  alignment = left
+  value = §0MOST RECENT CHANGES
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -152
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = 22
+  delayappearance = true
+  alignment = left
+  value = New Mods : 
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -152
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = 32
+  delayappearance = true
+  alignment = left
+  value =    Turtlemancy, Plush Life
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -152
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = 42
+  delayappearance = true
+  alignment = left
+  value = New Main Menu
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -152
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = 52
+  delayappearance = true
+  alignment = left
+  value = 20+ New Quests
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -152
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = 62
+  delayappearance = true
+  alignment = left
+  value = New Shop Items
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  delayappearanceseconds = 3.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -155
+  action = addtext
+  actionid = b74d261b-7c36-4579-bb7d-c9961d0166f61621095773214
+  y = 99
+  delayappearance = true
+  alignment = left
+  value = §l§n§dMAIN MENU MUSIC - UNDERGROUND REVOLUTION BY TEKNOAXE
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = top-right
+  buttonaction = openlink
+  x = -84
+  width = 78
+  actionid = 408c0a58-71f0-414e-aa79-421afed7adc51621102795073
+  action = addbutton
+  y = 15
+  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
+  label = 
+  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
+  value = https://bisecthosting.com/ferretbusiness
+  height = 21
+}
+
+customization {
+  orientation = top-right
+  shadow = false
+  x = -69
+  action = addtext
+  actionid = a7ed042f-f495-46df-aa09-299ddb885de31621101512310
+  y = 9
+  scale = 0.7
+  alignment = left
+  value = Partnered With
+}
+
+customization {
+  orientation = top-right
+  shadow = false
+  x = -76
+  action = addtext
+  actionid = a7ed042f-f495-46df-aa09-299ddb885de31621101512310
+  y = 38
+  scale = 0.7
+  alignment = left
+  value = For Great Servers
+}
+
