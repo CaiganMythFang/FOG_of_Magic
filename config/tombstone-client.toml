@@ -10,8 +10,8 @@
 	equip_elytra_in_priority = false
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]
 	show_info_on_enchantment = true
-	#Defines your grave placement logic (nearest or ideal placement) [SAFER/NORMAL/NEAREST|default:NORMAL]
-	#Allowed Values: SAFER, NORMAL, NEAREST
+	#Defines your grave placement logic (nearest or ideal placement) [SAFEST/NORMAL/NEAREST|default:NORMAL]
+	#Allowed Values: SAFEST, NORMAL, NEAREST
 	grave_spawn_rule = "NORMAL"
 	#Decimal value for the color of the particles when using magic items [0..16777215|default:125656]
 	#Range: 0 ~ 16777215
@@ -64,4 +64,7 @@
 	display_knowledge_message = true
 	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
 	date_in_mc_time = false
+	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
+	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
+	auto_equip_rule = "ALWAYS"
 
