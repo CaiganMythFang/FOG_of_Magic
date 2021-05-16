@@ -58,3 +58,5 @@ mod backups/
 config/config.zip
 
 config/resourcefulbees/bees.zip
+
+servers.dat_old

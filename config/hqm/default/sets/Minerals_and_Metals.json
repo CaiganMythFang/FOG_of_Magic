@@ -269,6 +269,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
+      "name": " Lead (Buy)",
+      "description": "    Lead is a heavy metal, good for protective barriers.",
+      "x": 65,
+      "y": 81,
+      "icon": {
+        "id": "eidolon:lead_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:lead_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "2849ad5a-5498-4cbd-945c-6702450507e2",
       "name": " Redium Ingot (Sell)",
       "description": "    Redium is a strong material somewhere between Diamond and Netherrite.",
@@ -302,44 +340,6 @@
         {
           "id": "calemiutils:coin_dollar",
           "Count": 5
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
-      "name": " Lead (Buy)",
-      "description": "    Lead is a heavy metal, good for protective barriers.",
-      "x": 65,
-      "y": 81,
-      "icon": {
-        "id": "eidolon:lead_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 15
-              },
-              "required": 15
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "eidolon:lead_ore",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
