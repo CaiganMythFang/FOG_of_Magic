@@ -386,7 +386,7 @@ customization {
   fadeinspeed = 1.0
   x = -6
   width = 150
-  actionid = 8ba62fee-b0d6-44ca-b6f6-04d42a2344431621130697278
+  actionid = 763080dd-c583-4f4b-bfb1-b92120a2ddcb1621177284830
   action = addbutton
   y = 56
   delayappearance = true
@@ -437,7 +437,7 @@ customization {
   y = -15
   delayappearance = true
   alignment = left
-  value = Version §l§d1.3.0§r §f(May 16 2021)
+  value = Version        §f(May 16 2021)
   delayappearanceeverytime = false
 }
 
@@ -556,7 +556,7 @@ customization {
   y = 52
   delayappearance = true
   alignment = left
-  value = 20+ New Quests
+  value = 25+ New Quests
   delayappearanceeverytime = false
 }
 
@@ -602,7 +602,7 @@ customization {
   hoverlabel = §dCLICK FOR OFFER!
   x = -101
   width = 78
-  actionid = a44858a1-dcb3-4f3b-8d1f-7a303d0055921621130697316
+  actionid = 46941f24-5226-4bd0-b409-5eb1d13517341621177284873
   action = addbutton
   y = 15
   backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
@@ -632,5 +632,22 @@ customization {
   scale = 0.7
   alignment = left
   value = DISCOUNT CODE : FERRETBUSINESS
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 2.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -111
+  action = addtext
+  actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
+  y = -14
+  delayappearance = true
+  alignment = left
+  value = §l§d1.3.0
+  delayappearanceeverytime = false
 }
 
