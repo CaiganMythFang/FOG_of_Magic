@@ -2851,7 +2851,7 @@
 		{
 			title: "Pictures From Another Dimension",
 			x: -6.75d,
-			y: -2.5d,
+			y: -1.75d,
 			shape: "square",
 			subtitle: "&dMod: Modern Online Picture Frame",
 			description: [
@@ -3035,6 +3035,296 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Comfortable Friends",
+			icon: "plush_life:isabelle_plush",
+			x: -6.75d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "&dMod: Plush Life",
+			description: [
+				"&dSomething that seems to be taking hold slowly in this world is comforting toys. Specifically: Plushies.",
+				"",
+				"&dYou can make some too. These ones are fairly flat for now, good for putting up in Item Frames. It starts with Plush Stuffing, which you combine with another item to make the plush.",
+				"",
+				"These are quite cute! These should brighten up my workshop nicely."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "5D1681FE4C25567D",
+			tasks: [
+				{
+					id: "3AC4C6E25914747F",
+					type: "item",
+					item: "plush_life:plush_stuffing"
+				},
+				{
+					id: "2FA0DE038423E58C",
+					type: "item",
+					item: "plush_life:isabelle_plush"
+				},
+				{
+					id: "420FFFDB2149C730",
+					type: "item",
+					item: "plush_life:froggy_plush"
+				}
+			],
+			rewards: [{
+				id: "62C4801493E0CC04",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Sushi For the Soul",
+			icon: "sushigocrafting:salmon_nigiri",
+			x: 5.75d,
+			y: -1.75d,
+			shape: "square",
+			subtitle: "&dMod : Sushi Go Crafting",
+			description: [
+				"I really really miss sushi. I know theres a pretty simple roll that is popular around here, but I want more unique rolls. Stuff with Tobiko. Shrimp.",
+				"",
+				"&dLuckily, Sushi making is getting more popular in this place. There's even a guide being written by a Sushimancer that explains the fine arts.",
+				"",
+				"Sushimancy? Is it magical?",
+				"",
+				"&dNo...but yes. Perfectly made sushi seems to have some magical effect.",
+				"",
+				"How?!",
+				"",
+				"&dWell, first, get yourself the Becoming an Itemae book. And start gathering your ingredients. Seaweed can be found in the ocean and grows underwater on dirt and sand. Other seeds drop from breaking grass. Soybeans grow like normal crops, while Rice has to be grown under water."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "45296312EE57AA62",
+			tasks: [
+				{
+					id: "77D220E9C588A313",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "sushigocrafting:sushigocrafting"
+						}
+					}
+				},
+				{
+					id: "50ECA12DA91C6F14",
+					type: "item",
+					item: "sushigocrafting:seaweed"
+				},
+				{
+					id: "7F8B41B2452C6FCD",
+					type: "item",
+					item: "sushigocrafting:soy_bean"
+				},
+				{
+					id: "649E0B6D7C335584",
+					type: "item",
+					item: "sushigocrafting:rice"
+				}
+			],
+			rewards: [{
+				id: "2221D2F58D4EB707",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
+		},
+		{
+			title: "Tools of the Chef",
+			icon: "sushigocrafting:rice_cooker",
+			x: 6.75d,
+			y: -1.75d,
+			shape: "square",
+			subtitle: "&dSharp. Simple. Elegant.",
+			description: [
+				"So a good sushi chef has a few tools on hand. Quality things.",
+				"",
+				"A Rice Cooker is a must. Perfect rice, just put water in it with a Water Bucket, some Rice, and something to heat the Rice Cooker, like coal. ",
+				"",
+				"A Cutting Board and Knife. Right Click the ingredient, like Salmon, onto the Board, then Right Click with the Knife a few times to chop it up.",
+				"",
+				"&dTraveller, note that each ingredient you prepare will give you different amounts. You can combine smaller amounts of an item to save room.",
+				"",
+				"Handy. Okay, last thing I'll need is the Roller. This will be necessary to put together the Sushi."
+			],
+			dependencies: ["45296312EE57AA62"],
+			id: "41872A508EE4D1A6",
+			tasks: [
+				{
+					id: "184987830EB43059",
+					type: "item",
+					item: "sushigocrafting:rice_cooker"
+				},
+				{
+					id: "18096ED77091C0C7",
+					type: "item",
+					item: "sushigocrafting:cutting_board"
+				},
+				{
+					id: "0929D2537F6312FE",
+					type: "item",
+					item: "sushigocrafting:cleaver_knife"
+				},
+				{
+					id: "20F5E99C8036B48A",
+					type: "item",
+					item: "sushigocrafting:roller"
+				}
+			],
+			rewards: [{
+				id: "6F866B6E559787FA",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "So Many Ingredients",
+			icon: "sushigocrafting:nori_sheets",
+			x: 5.75d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dLots of choices, don't freeze!",
+			description: [
+				"Some of the more tricky ingredients I'll need is Nori, or pressed dried seaweed. To make it, I need to cook some Seaweed in a Furnace to dry it out, make it into a Block, then press it with a Piston onto an Iron Block.",
+				"",
+				"In other words. Place the Seaweed Block on top of an Iron Block, then use a Piston to press it flat. Easy peasy!",
+				"",
+				"Another thing I'll need is some  Avocado. The trees grow naturally in some places, I just need to find them. I can Right Click the leaves when I see there is a fully grown avocado in them.",
+				"",
+				"&dTraveller, if you are having trouble finding either, which is certainly the case in older parts of the world, my brother has some of both for sale."
+			],
+			dependencies: ["45296312EE57AA62"],
+			id: "246C0879E503707D",
+			tasks: [
+				{
+					id: "04380E5954CEA5E9",
+					type: "item",
+					item: "sushigocrafting:nori_sheets"
+				},
+				{
+					id: "6D92CAA7FE58728E",
+					type: "item",
+					item: "sushigocrafting:avocado"
+				}
+			],
+			rewards: [{
+				id: "600D58EC164607FB",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
+			}]
+		},
+		{
+			title: "Good Food, Good Thoughts",
+			icon: "sushigocrafting:onigiri",
+			x: 6.75d,
+			y: -0.75d,
+			shape: "square",
+			subtitle: "&dTasty tasty tasty",
+			description: [
+				"Now we get to the culmination of the hard work gathering and preparing ingredients.",
+				"",
+				"I first need my handy dandy Roller. In it, I can select the type of Sushi I want to make. Then I put in the ingredients it needs, as long as they have enough weight to them.",
+				"",
+				"&dBut can you make the perfect roll?",
+				"",
+				"Oh right! So, each ingredient I add, I can change how much of it I put into a roll. The perfect roll is a balance of ingredients.",
+				"",
+				"Left and Right Clicking the small slider next to an ingredient will change how much I add. ",
+				"",
+				"When I have everything ready, I Left Click the Roller few times to put together the sushi. If nothing happens, I probably don't have enough of an ingredient."
+			],
+			dependencies: [
+				"41872A508EE4D1A6",
+				"246C0879E503707D"
+			],
+			id: "76BD56D7B6A6D930",
+			tasks: [
+				{
+					id: "45EC429580A395F2",
+					type: "item",
+					item: "sushigocrafting:onigiri"
+				},
+				{
+					id: "1C57FAFB223BCBA5",
+					type: "item",
+					item: "sushigocrafting:salmon_nigiri"
+				},
+				{
+					id: "0F73C2E8B141195F",
+					type: "item",
+					item: "sushigocrafting:crab_cucumber_california"
+				}
+			],
+			rewards: [{
+				id: "33B23BAB07B892EC",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
+			}]
+		},
+		{
+			title: "Chiseled Good Looks",
+			icon: "chiseled:hazard_yellow",
+			x: 6.0d,
+			y: -4.25d,
+			shape: "square",
+			subtitle: "&dMod: Chiseled",
+			description: [
+				"&dTraveller, good architectual designs incorporate a lot of different visual textures to draw the eye and ease the mind.",
+				"",
+				"...What?",
+				"",
+				"&dVariety in your designs looks good.",
+				"",
+				"Oh.",
+				"",
+				"&dOne of the tools my brother and I like to use is Chiseled. It's not as grand as it used to be, but it still has a lot of useful things in it! You'll need a special Chisel and a Chisel Station, then you can alter certain blocks to  wide variety of designs."
+			],
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F4"],
+			id: "058D2E7898943014",
+			tasks: [
+				{
+					id: "6C71BAD2C3FED878",
+					type: "item",
+					item: {
+						id: "chiseled:iron_chisel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "66FEBF10503D08A7",
+					type: "item",
+					item: "chiseled:chisel_station_light"
+				},
+				{
+					id: "1EAA0BB08FE28BF5",
+					type: "item",
+					item: "chiseled:science_block"
+				},
+				{
+					id: "3E7D44B6A31D945D",
+					type: "item",
+					item: "chiseled:hazard_yellow"
+				}
+			],
+			rewards: [{
+				id: "5ACE38794E26D866",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 15
+			}]
 		}
 	]
 }
