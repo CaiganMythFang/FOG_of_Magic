@@ -286,6 +286,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "c551db7f-b931-495d-81b2-fd4080225615",
+      "name": " Villager Assistance",
+      "description": "    Traveller, I know you sometimes come across villages that are abandoned, or contain the once living inhabitants, shambling about.\n    Well, we have contacts with mages who are nurturing villages to expand, and have villagers who want to move out to set up new villages. For a cost, you can help a villager move out.\n    Why a cost? Call it insurance, as we don\u0027t know what will happen to them. A possible weregild, perhaps? ",
+      "x": 24,
+      "y": 161,
+      "icon": {
+        "id": "minecraft:bell",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:villager_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "a26c8a7a-0be7-43a7-8c89-879ffd6122fa",
       "name": " Other Animals",
       "description": "    The magical world has lots and lots of animals, and sometimes its a bit hard to find the specific one you want. Especially if its a bread and butter vanilla farm animal, with all this magic around at least.",
