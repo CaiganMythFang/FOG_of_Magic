@@ -1160,6 +1160,24 @@
 				item: "calemiutils:coin_dollar",
 				count: 20
 			}]
+		},
+		{
+			x: -3.5d,
+			y: 5.0d,
+			shape: "square",
+			dependencies: ["0000000000000132"],
+			id: "0E3CF42C2F0F3A05",
+			tasks: [{
+				id: "1CD3E5B93B69F2F0",
+				type: "item",
+				item: {
+					id: "ars_nouveau:enchanters_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }
