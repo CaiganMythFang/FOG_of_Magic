@@ -216,7 +216,7 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = false
+	"Inventory Sorting" = true
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true
@@ -1007,14 +1007,14 @@
 
 		[world.big_stone_clusters.marble]
 			#Allowed values: [0,)
-			"Horizontal Size" = 14
+			"Horizontal Size" = 0
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1683,7 +1683,7 @@
 		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
 		"Allow Influencing" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
-		"Disallowed Enchantments" = []
+		"Disallowed Enchantments" = ["randomenchants:instant_death"]
 		#The maximum enchanting power the matrix enchanter can accept
 		"Max Bookshelves" = 15
 		#How much to multiply the frequency of pieces where at least one of the same type has been generated

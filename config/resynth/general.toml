@@ -182,8 +182,11 @@
 	#This option is available if you wish to be able turn seeds mined from ores into the
 	#resource that would normally drop, without having to grow it, or for any other reason.
 	#Set this option to 'true' to enable the functionality.
-	#(type=boolean, default=false)
+	#(type=boolean, default=true)
 	enable-crafting-crystalline-seeds = false
+	#Allows turning on or off the use of random plant items for item tabs.
+	#(type=boolean, default=true)
+	use-random-plant-item-tabs = true
 
 [sylvanite]
 
