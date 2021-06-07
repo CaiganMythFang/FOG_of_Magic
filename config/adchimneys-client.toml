@@ -15,6 +15,8 @@
 	#Affects probability of coloring smoke by chimneys
 	#Range: 0.0 ~ 1.0
 	coloringFactor = 0.10000000149011612
+	#Whether or not to colorize smoke particles
+	colorize = true
 
 [MaterialGroups]
 
