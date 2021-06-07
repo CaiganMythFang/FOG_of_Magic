@@ -19,8 +19,6 @@ import stdlib.List;
 
 <tag:items:crafttweaker:cfm_cooler>.add([<item:cfm:black_cooler>, <item:cfm:red_cooler>, <item:cfm:green_cooler>, <item:cfm:brown_cooler>, <item:cfm:blue_cooler>, <item:cfm:purple_cooler>, <item:cfm:cyan_cooler>, <item:cfm:white_cooler>, <item:cfm:orange_cooler>, <item:cfm:magenta_cooler>, <item:cfm:light_blue_cooler>, <item:cfm:yellow_cooler>, <item:cfm:lime_cooler>, <item:cfm:pink_cooler>, <item:cfm:gray_cooler>, <item:cfm:light_gray_cooler>]);
 
-<tag:items:crafttweaker:cfm_trampoline>.add([<item:cfm:black_trampoline>, <item:cfm:red_trampoline>, <item:cfm:green_trampoline>, <item:cfm:brown_trampoline>, <item:cfm:blue_trampoline>, <item:cfm:purple_trampoline>, <item:cfm:cyan_trampoline>, <item:cfm:white_trampoline>, <item:cfm:orange_trampoline>, <item:cfm:magenta_trampoline>, <item:cfm:light_blue_trampoline>, <item:cfm:yellow_trampoline>, <item:cfm:lime_trampoline>, <item:cfm:pink_trampoline>, <item:cfm:gray_trampoline>, <item:cfm:light_gray_trampoline>]);
-
 <tag:items:crafttweaker:cfm_hedge>.add([<item:cfm:dark_oak_hedge>, <item:cfm:acacia_hedge>, <item:cfm:jungle_hedge>, <item:cfm:birch_hedge>, <item:cfm:spruce_hedge>, <item:cfm:oak_hedge>]);
 
 <tag:items:crafttweaker:cfm_mailbox>.add([<item:cfm:stripped_dark_oak_mail_box>, <item:cfm:stripped_acacia_mail_box>, <item:cfm:stripped_jungle_mail_box>, <item:cfm:oak_mail_box>, <item:cfm:spruce_mail_box>, <item:cfm:birch_mail_box>, <item:cfm:jungle_mail_box>, <item:cfm:acacia_mail_box>, <item:cfm:dark_oak_mail_box>, <item:cfm:stripped_oak_mail_box>, <item:cfm:stripped_spruce_mail_box>, <item:cfm:stripped_birch_mail_box>]);
