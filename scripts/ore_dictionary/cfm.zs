@@ -17,7 +17,7 @@ import stdlib.List;
 
 <tag:items:crafttweaker:cfm_grill>.add([<item:cfm:black_grill>, <item:cfm:red_grill>, <item:cfm:green_grill>, <item:cfm:brown_grill>, <item:cfm:blue_grill>, <item:cfm:purple_grill>, <item:cfm:cyan_grill>, <item:cfm:white_grill>, <item:cfm:orange_grill>, <item:cfm:magenta_grill>, <item:cfm:light_blue_grill>, <item:cfm:yellow_grill>, <item:cfm:lime_grill>, <item:cfm:pink_grill>, <item:cfm:gray_grill>, <item:cfm:light_gray_grill>]);
 
-<tag:items:crafttweaker:cfm_cooler>.add([<item:cfm:black_cooler>, <item:cfm:red_cooler>, <item:cfm:green_cooler>, <item:cfm:brown_cooler>, <item:cfm:blue_cooler>, <item:cfm:purple_cooler>, <item:cfm:cyan_cooler>, <item:cfm:white_cooler>, <item:cfm:orange_cooler>, <item:cfm:magenta_cooler>, <item:cfm:light_blue_cooler>, <item:cfm:yellow_cooler>, <item:cfm:lime_cooler>, <item:cfm:pink_cooler>, <item:cfm:gray_cooler>, <item:cfm:light_gray_cooler>]);
+<tag:items:crafttweaker:cfm_cooler>.add([<item:cfm:black_cooler>, <item:cfm:red_cooler>, <item:cfm:green_cooler>, <item:cfm:brown_cooler>, <item:cfm:blue_cooler>, <item:cfm:purple_cooler>, <item:cfm:cyan_cooler>, <item:cfm:white_cooler>, <item:cfm:orange_cooler>, <item:cfm:magenta_cooler>, <item:cfm:light_blue_cooler>, <item:cfm:yellow_cooler>, <item:cfm:lime_cooler>, <item:cfm:pink_cooler>, <item:cfm:gray_cooler>, <item:cfm:light_gray_cooler>]); 
 
 <tag:items:crafttweaker:cfm_hedge>.add([<item:cfm:dark_oak_hedge>, <item:cfm:acacia_hedge>, <item:cfm:jungle_hedge>, <item:cfm:birch_hedge>, <item:cfm:spruce_hedge>, <item:cfm:oak_hedge>]);
 
