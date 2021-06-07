@@ -374,52 +374,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "f878f034-1d16-42d7-90da-f41d917bcb24",
-      "name": " Upgrades 5",
-      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
-      "x": 278,
-      "y": 109,
-      "icon": {
-        "id": "pneumaticcraft:minigun_upgrade",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "pneumaticcraft:minigun_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:coordinate_tracker_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:volume_upgrade",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "b21fc1f0-7d71-4a43-9ae4-8a66a2aa7060",
       "name": " Upgrades 6",
       "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
@@ -467,6 +421,52 @@
         },
         {
           "id": "pneumaticcraft:search_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f878f034-1d16-42d7-90da-f41d917bcb24",
+      "name": " Upgrades 5",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 278,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:minigun_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:minigun_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:coordinate_tracker_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:volume_upgrade",
           "Count": 1
         }
       ],
@@ -2547,8 +2547,8 @@
       },
       "repeat": {
         "type": "INTERVAL",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

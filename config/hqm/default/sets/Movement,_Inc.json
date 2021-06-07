@@ -60,51 +60,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "304f73a4-c84e-4a6e-a12e-252f87587154",
-      "name": " Vehicle Parts 7",
-      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
-      "x": 95,
-      "y": 138,
-      "icon": {
-        "id": "vehicle:gold_large_engine",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 125
-              },
-              "required": 125
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 125
-              },
-              "required": 125
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "vehicle:gold_large_engine",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "7f5785c7-2361-4641-88a5-bae99af0298a",
       "name": " Vehicle Parts 5",
       "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
@@ -159,6 +114,51 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "304f73a4-c84e-4a6e-a12e-252f87587154",
+      "name": " Vehicle Parts 7",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 95,
+      "y": 138,
+      "icon": {
+        "id": "vehicle:gold_large_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "vehicle:gold_large_engine",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -515,8 +515,8 @@
       },
       "repeat": {
         "type": "INTERVAL",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

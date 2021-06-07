@@ -2,6 +2,46 @@
   "name": "Rules of My Shop",
   "quests": [
     {
+      "uuid": "876d175d-b915-4487-aaca-0471fb1ba022",
+      "name": " Vending Machine (Buy)",
+      "description": "    So, despite what my sister may have told you, you might have some issues finding Vending Machines in villages.\n    Yeah, seems some hooligans have been seen stealing them and throwing them in Lava? Apparently they say it makes pretty neat colors but...it just kind of lights on fire and dissappears....\n    Anyways I have some for sale at least. A bit expensive but there ya go.",
+      "x": 41,
+      "y": 129,
+      "icon": {
+        "id": "vm:vending_machine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "contenttweaker:forbiddencoin",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2289bd8-3cae-4c58-90d5-0a64cd39402d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "vm:vending_machine",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "9a401591-1e66-4ff0-a80c-9f023617189f",
       "name": " TFB Portable Shipping System",
       "description": "    If you\u0027ve not noticed, it does not matter which TFB Shipping System you use, you always see your OWN Shipping Interface. That\u0027s part of the magic my sister has programmed into this.\n    We have available a.... smartphone version of the Shipping System. Same idea, just useable on the go.",

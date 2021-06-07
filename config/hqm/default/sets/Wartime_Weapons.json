@@ -227,8 +227,8 @@
       },
       "repeat": {
         "type": "INTERVAL",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
