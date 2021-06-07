@@ -1471,16 +1471,10 @@
 					item: "cfm:diving_board"
 				},
 				{
-					id: "63622F6D19B19111",
+					id: "516A7C8B8858C9EA",
 					type: "item",
 					title: "Any MrCrayfish Trampoline",
-					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
-						tag: {
-							value: "crafttweaker:cfm_trampoline"
-						}
-					}
+					item: "cfm:trampoline"
 				}
 			],
 			rewards: [{
