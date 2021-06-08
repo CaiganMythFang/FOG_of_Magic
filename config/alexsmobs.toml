@@ -11,7 +11,7 @@
 	#Whether wild raccoons steal food from chests.
 	raccoonStealFromChests = false
 	#Whether mimicream can be used to duplicate items.
-	mimicreamRepair = true
+	mimicreamRepair = false
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
 	acaciaBlossomsDropFromLeaves = true
 	#Whether lava can be bottled with a right click of a glass bottle.
