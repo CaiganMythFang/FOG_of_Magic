@@ -1960,6 +1960,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "402849f8-0305-4708-8862-127b37a57d02",
+      "name": " Logic Circuits",
+      "description": "    A new engineering feat (at least for this world) is the ability to miniaturize the semi-magical Redstone creations known as Logic Circuits.\n    I\u0027m not sure if you took any electronics classes where you came from, but things like AND, OR, NOT gates, etc. These can be done with Redstone, but take up a bunch of room! But the Logic Circuit Table lets you take Backplanes, Soldering Wire, and Vacuum Tubes and make miniaturized versions.",
+      "x": 156,
+      "y": 52,
+      "icon": {
+        "id": "immersiveengineering:circuit_table",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_dollar",
+                "Count": 100
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:circuit_table",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:circuit_board",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "54fe7328-27a8-4da4-b37d-a5adf749b6a6",
       "name": " Wire Coils - Insulated",
       "description": "    Redstone Wire transmits redstone signals.\n    Insulated Wires will not electrocute you if you touch them.",
