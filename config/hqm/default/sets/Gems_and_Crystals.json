@@ -797,9 +797,9 @@
             {
               "item": {
                 "id": "quark:biotite",
-                "Count": 2
+                "Count": 5
               },
-              "required": 2
+              "required": 5
             }
           ]
         }
@@ -809,7 +809,7 @@
       "reward": [
         {
           "id": "calemiutils:coin_dollar",
-          "Count": 12
+          "Count": 30
         }
       ],
       "rewardchoice": [],
