@@ -386,7 +386,7 @@ customization {
   fadeinspeed = 1.0
   x = -6
   width = 150
-  actionid = 763080dd-c583-4f4b-bfb1-b92120a2ddcb1621177284830
+  actionid = 5ce7d714-ff97-4ee2-bca8-490443237da41623171065252
   action = addbutton
   y = 56
   delayappearance = true
@@ -437,7 +437,7 @@ customization {
   y = -15
   delayappearance = true
   alignment = left
-  value = Version        §f(May 16 2021)
+  value = Version        §f(June 8 2021)
   delayappearanceeverytime = false
 }
 
@@ -516,13 +516,13 @@ customization {
   scale = 1.0
   fadein = true
   fadeinspeed = 1.0
-  x = -152
+  x = -151
   action = addtext
   actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
   y = 32
   delayappearance = true
   alignment = left
-  value =    Turtlemancy, Plush Life
+  value =    Biome ID Fixer
   delayappearanceeverytime = false
 }
 
@@ -539,7 +539,7 @@ customization {
   y = 42
   delayappearance = true
   alignment = left
-  value = New Main Menu
+  value =    Akashic Tome
   delayappearanceeverytime = false
 }
 
@@ -556,7 +556,7 @@ customization {
   y = 52
   delayappearance = true
   alignment = left
-  value = 25+ New Quests
+  value = New and Updated Quests
   delayappearanceeverytime = false
 }
 
@@ -570,10 +570,10 @@ customization {
   x = -152
   action = addtext
   actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
-  y = 62
+  y = 63
   delayappearance = true
   alignment = left
-  value = New Shop Items
+  value = Purchase Vending Machines!
   delayappearanceeverytime = false
 }
 
@@ -602,7 +602,7 @@ customization {
   hoverlabel = §dCLICK FOR OFFER!
   x = -101
   width = 78
-  actionid = 46941f24-5226-4bd0-b409-5eb1d13517341621177284873
+  actionid = fbbc4ec6-c0d1-40cb-8354-6a64479dcd341623171065289
   action = addbutton
   y = 15
   backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
@@ -647,7 +647,19 @@ customization {
   y = -14
   delayappearance = true
   alignment = left
-  value = §l§d1.3.0
+  value = §l§d1.3.5
   delayappearanceeverytime = false
+}
+
+customization {
+  orientation = top-left
+  shadow = true
+  x = 168
+  action = addtext
+  actionid = 42f03033-3545-476d-8636-bcf7a0c557ad1623171038340
+  y = 243
+  scale = 1.0
+  alignment = left
+  value = Lots of Bug Fixes!
 }
 
