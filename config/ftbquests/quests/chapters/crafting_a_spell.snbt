@@ -1105,7 +1105,8 @@
 				"0000000000000172",
 				"0000000000000175",
 				"000000000000014E",
-				"0000000000000152"
+				"0000000000000152",
+				"0E3CF42C2F0F3A05"
 			],
 			size: 1.25d,
 			id: "379177301F86B21E",
@@ -1162,21 +1163,60 @@
 			}]
 		},
 		{
+			title: "Tank Mage",
+			icon: {
+				id: "ars_nouveau:enchanters_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
 			x: -3.5d,
 			y: 5.0d,
 			shape: "square",
+			subtitle: "&dWell, Tank Enchanter I guess?",
+			description: [
+				"One of the more recent trends in wizardry is for mages to do a bit more than spell casting. ",
+				"",
+				"&dDiversifying your skills is good for survival.",
+				"",
+				"For sure. It seems some mages like to carry knives. I heard of one that liked to carry throwing daggers.",
+				"",
+				"&dAnd others like to carry revolvers.",
+				"",
+				"Not sure they normally have those here... But yeah. One popular set is an Enchanter's Sword and Shield. I can write a spell onto them that gets casted when used. As long as the spell doesn't have a Method I guess..."
+			],
 			dependencies: ["0000000000000132"],
 			id: "0E3CF42C2F0F3A05",
-			tasks: [{
-				id: "1CD3E5B93B69F2F0",
-				type: "item",
-				item: {
-					id: "ars_nouveau:enchanters_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1CD3E5B93B69F2F0",
+					type: "item",
+					item: {
+						id: "ars_nouveau:enchanters_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3AB051C0AC2FA63D",
+					type: "item",
+					item: {
+						id: "ars_nouveau:enchanters_shield",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
 					}
 				}
+			],
+			rewards: [{
+				id: "3FADCC3468DD4393",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 20
 			}]
 		}
 	]
