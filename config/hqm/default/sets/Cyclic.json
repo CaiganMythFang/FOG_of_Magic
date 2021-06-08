@@ -500,8 +500,8 @@
       },
       "repeat": {
         "type": "INTERVAL",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -778,16 +778,30 @@
             {
               "item": {
                 "id": "calemiutils:coin_dollar",
-                "Count": 35
+                "Count": 40
               },
-              "required": 35
+              "required": 40
             }
           ]
         }
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "ForgeCaps": {
+            "Parent": {
+              "Size": 9,
+              "Items": []
+            }
+          },
+          "id": "cyclic:filter_data",
+          "Count": 1,
+          "tag": {
+            "itemCount": 0
+          }
+        }
+      ],
       "rewardchoice": [
         {
           "id": "cyclic:cable_wrench",
