@@ -143,7 +143,7 @@
 				"",
 				'Right. The Cheese Stick lets me command them around, the Rat Whistle lets me send them back to their "home", and the Rat Flute lets me gather all Rats around me.',
 				"",
-				"&dOh, if a Rat isn't following orders, Right Click a Rat Sack on it. It'll put it in time out until you release it. Usually helps."
+				"&dOh, if a Rat isn't following orders, using the Rat Whistle can snap them out of whatever day dream they are having. Usually helps."
 			],
 			dependencies: ["0000000000000030"],
 			id: "0000000000000038",
@@ -884,8 +884,8 @@
 		{
 			title: "A Cure",
 			icon: "rats:purifying_liquid",
-			x: 2.0d,
-			y: 2.0d,
+			x: 1.5d,
+			y: 1.75d,
 			shape: "square",
 			subtitle: "&dNot just for rats, of course.",
 			description: [
@@ -1164,6 +1164,42 @@
 				type: "item",
 				item: "contenttweaker:forbiddencoin",
 				count: 3
+			}]
+		},
+		{
+			title: "Rats On Guard",
+			icon: {
+				id: "rats:patrol_stick",
+				Count: 1b,
+				tag: {}
+			},
+			x: 2.5d,
+			y: 2.5d,
+			shape: "square",
+			subtitle: "&dTiny Guards",
+			description: [
+				"With the Rat Patrol Staff, I can set a patrol route for my guard rats.",
+				"",
+				"This is great to have a patrol protecting my farm animals, since some creatures like jumping into the pens and killing everything.",
+				"",
+				"I Right Click the staff on a Rat to select it, then Right Click each Block I want it to patrol to."
+			],
+			dependencies: ["0000000000000038"],
+			id: "37F27B6D02A81DEC",
+			tasks: [{
+				id: "21EBCCC09EB78DF7",
+				type: "item",
+				item: {
+					id: "rats:patrol_stick",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "09032947DDD68954",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 10
 			}]
 		}
 	]
