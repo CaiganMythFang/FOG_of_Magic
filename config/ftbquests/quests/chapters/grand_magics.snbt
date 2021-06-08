@@ -1447,7 +1447,7 @@
 					Damage: 0
 				}
 			},
-			x: -4.25d,
+			x: -5.1607142857142705d,
 			y: 3.25d,
 			shape: "square",
 			subtitle: "&dGolden Sword of the Victorious",
@@ -1716,7 +1716,7 @@
 					mahoutsukai_clarent_attack: 0.0f
 				}
 			},
-			x: -2.5d,
+			x: -3.4107142857142705d,
 			y: 3.25d,
 			shape: "square",
 			subtitle: "&dRadiant and Brilliant Royal Sword",
@@ -1808,6 +1808,45 @@
 				type: "item",
 				item: "contenttweaker:forbiddencoin",
 				count: 3
+			}]
+		},
+		{
+			title: "The Ultimate Defense",
+			icon: "mahoutsukai:replica",
+			x: -1.6607142857142705d,
+			y: 3.25d,
+			shape: "square",
+			subtitle: "&dDon't understimate Maple...",
+			description: [
+				"So, another one of these legendary weapons has been created. But this time it's a shield.",
+				"",
+				"Replica is a massive shield I use as my main hand weapon. I can use it to defend my friends, absorb massive amounts of damage, and protect everyone.",
+				"",
+				"To create it though, is quite a process...",
+				"",
+				"I need to have Damage Absorption stacks maxed out. I have to have very high defense. I have to have Immunity Exchange active.",
+				"",
+				"And I have to have over 100 Death Souls collected.",
+				"",
+				"When I have all that, I need to Strengthen a Shield, and block an Arrow with it. If all is right, then I will be bestowed the Replica."
+			],
+			dependencies: [
+				"506DEE8B4E4CB915",
+				"614AAF35026026BB",
+				"6AE26BE2FE748BC0",
+				"3793CF966C1FD95B"
+			],
+			id: "5DB37130078FBB6A",
+			tasks: [{
+				id: "1E97C34ACEB79186",
+				type: "item",
+				item: "mahoutsukai:replica"
+			}],
+			rewards: [{
+				id: "67D16360DD8E3CB6",
+				type: "item",
+				item: "calemiutils:coin_dollar",
+				count: 50
 			}]
 		}
 	]
