@@ -33,7 +33,7 @@
         }
     },
     "rewards": {
-        "function": "fom:ujnlock_wartime"
+        "function": "fom:unlock_wartime"
     },
     "parent": "fom:root"
 }
