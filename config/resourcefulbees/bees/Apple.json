@@ -1,5 +1,5 @@
 {
-  "flower": "ANY",
+  "flower": "ALL",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "baseLayerTexture": "mushroom/apple_bee",
