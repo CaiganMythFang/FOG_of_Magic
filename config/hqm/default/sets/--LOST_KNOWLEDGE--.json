@@ -1,6 +1,36 @@
 {
   "name": "--LOST KNOWLEDGE--",
-  "quests": [],
+  "quests": [
+    {
+      "uuid": "5cb22aa5-a606-4f80-9935-783b91c2ae49",
+      "name": " Nothing to See Here",
+      "description": "    There is no quests in this section, it is merely a deliniator to seperate out the Lost Knowledge sections.",
+      "x": 153,
+      "y": 100,
+      "icon": {
+        "id": "ftbquests:book",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ftbquests:book",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
   "reputationBar": [],
   "description": "    Welcome to the Lost Knowledge library. The pages below are organized in the different schools of Lost Knowledge.\n    Each page has one or more mods dedicated to it. At the bottom center, is the Lost Knowledge Purchase that will let you craft everything on that page yourself."
 }
