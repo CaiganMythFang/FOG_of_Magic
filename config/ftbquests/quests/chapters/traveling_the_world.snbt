@@ -1,1454 +1,1485 @@
 {
-	id: "040FDEE0103CABA8",
-	group: "",
-	order_index: 2,
-	filename: "traveling_the_world",
-	title: "Traveling the World",
-	icon: "minecraft:allium",
-	default_quest_shape: "",
+	id: "040FDEE0103CABA8"
+	group: ""
+	order_index: 2
+	filename: "traveling_the_world"
+	title: "Traveling the World"
+	icon: "minecraft:allium"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Exploring the World",
-			icon: "astralsorcery:tree_beacon",
-			x: -0.75d,
-			y: -1.5d,
-			subtitle: "&dSettle in for the long haul",
+			title: "Exploring the World"
+			icon: "astralsorcery:tree_beacon"
+			x: -0.75d
+			y: -1.5d
+			subtitle: "&dSettle in for the long haul"
 			description: [
-				"&dThis world is a lot different than you are used to, Traveler. It's good to know what you might find.",
-				"",
-				"Definitely. Anything you can tell me?",
-				"",
-				"&dDon't die if you can help it.",
-				"",
-				"I... mean something less obvious, Kow.",
-				"",
-				"&dBe vigilant. [Here, I'll give you an Antique Atlas, it'd be good to mark down interesting things you find for later.]",
-				"",
-				"&6Antique Atlas is currently removed, but will come back in an update!]",
-				"",
+				"&dThis world is a lot different than you are used to, Traveler. It's good to know what you might find."
+				""
+				"Definitely. Anything you can tell me?"
+				""
+				"&dDon't die if you can help it."
+				""
+				"I... mean something less obvious, Kow."
+				""
+				"&dBe vigilant. [Here, I'll give you an Antique Atlas, it'd be good to mark down interesting things you find for later.]"
+				""
+				"&6Antique Atlas is currently removed, but will come back in an update!]"
+				""
 				"&6This quest page is for small mods, centered around exploration, combat, etc"
-			],
-			dependencies: ["0000000000000025"],
-			size: 1.5d,
-			id: "66191B31820EAEC9",
+			]
+			dependencies: ["0000000000000025"]
+			size: 1.5d
+			id: "66191B31820EAEC9"
 			tasks: [{
-				id: "2419F1923BC2E755",
+				id: "2419F1923BC2E755"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Magical World",
-			icon: "losttrinkets:tha_wizard",
-			x: -0.6964285714285694d,
-			y: -0.4464285714285694d,
-			subtitle: "&dMod: Lost Trinkets",
+			title: "Magical World"
+			icon: "losttrinkets:tha_wizard"
+			x: -0.6964285714285694d
+			y: -0.4464285714285694d
+			subtitle: "&dMod: Lost Trinkets"
 			description: [
-				"&dTraveler, since you have a knack of magic, this dimension will benefit you more than you think.",
-				"",
-				"I'm not sure I follow.",
-				"",
-				"&dJust by doing normal things. Fighting. Chopping wood. Mining. You will slowly attune yourself to the magical fields. And rarely, you will unlock what is known as a Lost Trinket.",
-				"",
-				"Trinket? Do I wear it or....",
-				"",
-				"&dBy pressing R, you can see what Lost Trinkets you have 'unlocked', and choose which ones to use. You only have one slot, however.",
-				"",
-				"How do I get more?",
-				"",
+				"&dTraveler, since you have a knack of magic, this dimension will benefit you more than you think."
+				""
+				"I'm not sure I follow."
+				""
+				"&dJust by doing normal things. Fighting. Chopping wood. Mining. You will slowly attune yourself to the magical fields. And rarely, you will unlock what is known as a Lost Trinket."
+				""
+				"Trinket? Do I wear it or...."
+				""
+				"&dBy pressing R, you can see what Lost Trinkets you have 'unlocked', and choose which ones to use. You only have one slot, however."
+				""
+				"How do I get more?"
+				""
 				"&dBy gaining experience, which you can then use to unlock more spots. You may only have 5 total, however."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "7903CBDF0B395E09",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "7903CBDF0B395E09"
 			tasks: [{
-				id: "72C28A4D9156C326",
-				type: "checkmark",
+				id: "72C28A4D9156C326"
+				type: "checkmark"
 				title: "Magical World"
-			}],
+			}]
 			rewards: [{
-				id: "79F63097DC704CCE",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "79F63097DC704CCE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Animals by Alex",
-			icon: "alexsmobs:animal_dictionary",
-			x: 1.75d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dMod: Alex's Mobs",
+			title: "Animals by Alex"
+			icon: "alexsmobs:animal_dictionary"
+			x: 1.75d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dMod: Alex's Mobs"
 			description: [
-				"There's a whole lot of animals here, some of them I have back home in my old dimension, and some of them... are very different, or altogether new. ",
-				"",
-				"&dHere, make this Animal Book. It's the &djournal of Alex, an explorer who &dwrote down notes on many of the &danimals.",
-				"",
+				"There's a whole lot of animals here, some of them I have back home in my old dimension, and some of them... are very different, or altogether new. "
+				""
+				"&dHere, make this Animal Book. It's the &djournal of Alex, an explorer who &dwrote down notes on many of the &danimals."
+				""
 				"Not all of them? I guess there ARE too many for one person to study. "
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "00000000000001CD",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "00000000000001CD"
 			tasks: [{
-				id: "00000000000001CE",
-				type: "item",
+				id: "00000000000001CE"
+				type: "item"
 				item: "alexsmobs:animal_dictionary"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001CF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001CF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Musical Monstrosities",
+			title: "Musical Monstrosities"
 			icon: {
-				id: "instrumentalmobs:french_horn",
-				Count: 1b,
+				id: "instrumentalmobs:french_horn"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -0.75d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dMod: Instrumental Mobs",
+			}
+			x: -0.75d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dMod: Instrumental Mobs"
 			description: [
-				"&dLooks like a lot of the undead are trying to start a band.",
-				"",
-				"What? What does...",
-				"",
-				"&dJust look, Traveler. Sometimes you can see one of them holding an instrument. Seem to know how to use em too...",
-				"",
-				"Oh. Hey, I want some of those instruments.",
-				"",
-				"&dAh, how about getting one of those French Horns? ",
-				"",
-				"Why?",
-				"",
+				"&dLooks like a lot of the undead are trying to start a band."
+				""
+				"What? What does..."
+				""
+				"&dJust look, Traveler. Sometimes you can see one of them holding an instrument. Seem to know how to use em too..."
+				""
+				"Oh. Hey, I want some of those instruments."
+				""
+				"&dAh, how about getting one of those French Horns? "
+				""
+				"Why?"
+				""
 				"&dNo reason."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "2F2CFDCE6C21C9DE",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "2F2CFDCE6C21C9DE"
 			tasks: [{
-				id: "30E4854A233340AE",
-				type: "item",
+				id: "30E4854A233340AE"
+				type: "item"
 				item: {
-					id: "instrumentalmobs:french_horn",
-					Count: 1b,
+					id: "instrumentalmobs:french_horn"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "7B26DA86F7F0D9D7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "7B26DA86F7F0D9D7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Waystones of Life",
-			icon: "waystones:waystone",
-			x: -0.75d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dMod: Waystones",
+			title: "Waystones of Life"
+			icon: "waystones:waystone"
+			x: -0.75d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dMod: Waystones"
 			description: [
-				"There's these interesting stone statue things I started to see around, sometimes in villages, sometimes at the top of these tall towers.",
-				"",
-				"When I asked Kow, she said they were called Waystones, and that I can make them myself as well. They are basically part of a magical teleport network.",
-				"",
+				"There's these interesting stone statue things I started to see around, sometimes in villages, sometimes at the top of these tall towers."
+				""
+				"When I asked Kow, she said they were called Waystones, and that I can make them myself as well. They are basically part of a magical teleport network."
+				""
 				"I can use a Waystone to teleport to other Waystones, but only if I've visited and Right Clicked them before. I can also use a Waystone gem to do the same from anywhere, but it has limited uses."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "0000000000000100",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "0000000000000100"
 			tasks: [
 				{
-					id: "0000000000000101",
-					type: "item",
-					item: "waystones:waystone",
+					id: "0000000000000101"
+					type: "item"
+					item: "waystones:waystone"
 					consume_items: false
-				},
+				}
 				{
-					id: "0000000000000104",
-					type: "item",
+					id: "0000000000000104"
+					type: "item"
 					item: {
-						id: "waystones:warp_stone",
-						Count: 1b,
+						id: "waystones:warp_stone"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
-					},
+					}
 					consume_items: false
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000105",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000105"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Warping Scrolls",
-			icon: "waystones:return_scroll",
-			x: -0.75d,
-			y: -5.0d,
-			shape: "square",
-			subtitle: "&dCheaper and just as useful",
+			title: "Warping Scrolls"
+			icon: "waystones:return_scroll"
+			x: -0.75d
+			y: -5.0d
+			shape: "square"
+			subtitle: "&dCheaper and just as useful"
 			description: [
-				"If I don't want to fight with a Waystone gem and recharging it, I can use a Warp Scroll to get around.",
-				"",
-				"&dIf you've found some out of the &dWaystones, Traveler, you can share &dtheir location with a Bound Scroll. &dRight Click a Bound Scroll on the &dWaystone, then have your friend use &dthe scroll to learn it's location.",
-				"",
+				"If I don't want to fight with a Waystone gem and recharging it, I can use a Warp Scroll to get around."
+				""
+				"&dIf you've found some out of the &dWaystones, Traveler, you can share &dtheir location with a Bound Scroll. &dRight Click a Bound Scroll on the &dWaystone, then have your friend use &dthe scroll to learn it's location."
+				""
 				"Good idea. The Return Scrolls are also super useful. They teleport you back to the last Waystone you used. Good for a quick escape without wasting time choosing a location."
-			],
-			dependencies: ["0000000000000100"],
-			id: "0000000000000102",
+			]
+			dependencies: ["0000000000000100"]
+			id: "0000000000000102"
 			tasks: [
 				{
-					id: "0000000000000103",
-					type: "item",
+					id: "0000000000000103"
+					type: "item"
 					item: "waystones:warp_scroll"
-				},
+				}
 				{
-					id: "0000000000000106",
-					type: "item",
+					id: "0000000000000106"
+					type: "item"
 					item: "waystones:bound_scroll"
-				},
+				}
 				{
-					id: "0000000000000107",
-					type: "item",
+					id: "0000000000000107"
+					type: "item"
 					item: "waystones:return_scroll"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000108",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000108"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Carry More In Style",
-			icon: "usefulbackpacks:backpack_small",
-			x: 1.75d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dMod: Useful Backpacks",
+			title: "Carry More In Style"
+			icon: "usefulbackpacks:backpack_small"
+			x: 1.75d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dMod: Useful Backpacks"
 			description: [
-				"Backpacks are super useful to have, and I should probably make one as soon as possible.",
-				"",
-				"Small and Medium backpacks are super easy to make, at least.",
-				"",
+				"Backpacks are super useful to have, and I should probably make one as soon as possible."
+				""
+				"Small and Medium backpacks are super easy to make, at least."
+				""
 				"If I equip them to my Curios back slot, I can hit B to open my backpack at any time."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "0000000000000189",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "0000000000000189"
 			tasks: [
 				{
-					id: "000000000000018A",
-					type: "item",
+					id: "000000000000018A"
+					type: "item"
 					item: "usefulbackpacks:backpack_small"
-				},
+				}
 				{
-					id: "000000000000018B",
-					type: "item",
+					id: "000000000000018B"
+					type: "item"
 					item: "usefulbackpacks:backpack_medium"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000018C",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000018C"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Even More Useful Backpacks",
-			x: 2.75d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dCarry it all",
+			title: "Even More Useful Backpacks"
+			x: 2.75d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dCarry it all"
 			description: [
-				"Large backpacks are the logical extension of medium backpacks, of course. But the Ender Backpack...",
-				"",
-				"&dThere is a chest called an Ender &dChest. It's keyed to your soul. Any &dEnder Chest you open, opens YOUR &dEnder Chest.",
-				"",
-				"That's kind of neat. So the Ender Backpack...",
-				"",
+				"Large backpacks are the logical extension of medium backpacks, of course. But the Ender Backpack..."
+				""
+				"&dThere is a chest called an Ender &dChest. It's keyed to your soul. Any &dEnder Chest you open, opens YOUR &dEnder Chest."
+				""
+				"That's kind of neat. So the Ender Backpack..."
+				""
 				"&dOpens that same Ender Chest."
-			],
-			dependencies: ["0000000000000189"],
-			id: "000000000000018F",
+			]
+			dependencies: ["0000000000000189"]
+			id: "000000000000018F"
 			tasks: [{
-				id: "0000000000000190",
-				type: "item",
+				id: "0000000000000190"
+				type: "item"
 				item: "usefulbackpacks:backpack_enderchest"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001E3",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001E3"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Quick Naps",
-			icon: "comforts:sleeping_bag_purple",
-			x: -2.0d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dMod: Comforts",
+			title: "Quick Naps"
+			icon: "comforts:sleeping_bag_purple"
+			x: -2.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dMod: Comforts"
 			description: [
-				"So this dimension is so steeped in magic that I can resurrect after death usually, right? And I appear at the last bed I slept in?",
-				"",
-				"&dCorrect. Though some magic items will &dact &dlike a bed to set your Spawn &dPoint.",
-				"",
-				"Right, but if I'm exploring far away without a teleport scroll or whatever, I don't want to set my Spawn Point to a new spot. So what do I do? Just twiddle my thumbs in a dirt hole?",
-				"",
-				"&dI suggest using a Sleeping Bag. They &daren't that comfortable, but they don't &dreset your Spawn Point.",
-				"",
-				"That's super useful. Why can't it be a hammock, though? Well, I guess being out in the open at night is dangerous...",
-				"",
+				"So this dimension is so steeped in magic that I can resurrect after death usually, right? And I appear at the last bed I slept in?"
+				""
+				"&dCorrect. Though some magic items will &dact &dlike a bed to set your Spawn &dPoint."
+				""
+				"Right, but if I'm exploring far away without a teleport scroll or whatever, I don't want to set my Spawn Point to a new spot. So what do I do? Just twiddle my thumbs in a dirt hole?"
+				""
+				"&dI suggest using a Sleeping Bag. They &daren't that comfortable, but they don't &dreset your Spawn Point."
+				""
+				"That's super useful. Why can't it be a hammock, though? Well, I guess being out in the open at night is dangerous..."
+				""
 				"&dHammocks let you sleep the day away. &dThough to set one up, you need to set &dthe Rope and Nail on two walls exactly &d4 spaces apart first."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "00000000000002FB",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "00000000000002FB"
 			tasks: [
 				{
-					id: "00000000000002FC",
-					type: "item",
-					item: "comforts:rope_and_nail",
+					id: "00000000000002FC"
+					type: "item"
+					item: "comforts:rope_and_nail"
 					count: 2L
-				},
+				}
 				{
-					id: "00000000000002FD",
-					type: "item",
+					id: "00000000000002FD"
+					type: "item"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:sleeping_bags"
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000002FE",
-					type: "item",
+					id: "00000000000002FE"
+					type: "item"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:hammocks"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002FF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002FF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Death Isn't The End",
+			title: "Death Isn't The End"
 			icon: {
-				id: "tombstone:decorative_grave_simple",
-				Count: 1b,
+				id: "tombstone:decorative_grave_simple"
+				Count: 1b
 				tag: {
 					model_texture: 0
 				}
-			},
-			x: 3.0d,
-			y: -2.75d,
-			shape: "square",
-			subtitle: "&dMod: Corail Tombstone",
+			}
+			x: 3.0d
+			y: -2.75d
+			shape: "square"
+			subtitle: "&dMod: Corail Tombstone"
 			description: [
-				"So death isn't the finality it is in my home dimension. There's so much magic, that many folks either become undead, or just resurrect.",
-				"",
-				"&dEventually death catches up to &deveryone, even the undead.",
-				"",
-				"True that. But for now, I can use death to my advantage. Each time, I learn a bit more, and can... as weird as this sounds, specialize death by hitting the N key.",
-				"",
-				"&dYou know, that really does sound &dweird...",
-				"",
-				"Yeah. But hey, I can also make decorative graves so...that's neat?",
-				"",
+				"So death isn't the finality it is in my home dimension. There's so much magic, that many folks either become undead, or just resurrect."
+				""
+				"&dEventually death catches up to &deveryone, even the undead."
+				""
+				"True that. But for now, I can use death to my advantage. Each time, I learn a bit more, and can... as weird as this sounds, specialize death by hitting the N key."
+				""
+				"&dYou know, that really does sound &dweird..."
+				""
+				"Yeah. But hey, I can also make decorative graves so...that's neat?"
+				""
 				"&dSo... weird..."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "0000000000000315",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "0000000000000315"
 			tasks: [{
-				id: "0000000000000316",
-				type: "item",
-				title: "Any Decorative Gravestone",
+				id: "0000000000000316"
+				type: "item"
+				title: "Any Decorative Gravestone"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "tombstone:decorative_graves"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000317",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000317"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "The Culture of Fishing",
+			title: "The Culture of Fishing"
 			icon: {
-				id: "aquaculture:iron_fishing_rod",
-				Count: 1b,
+				id: "aquaculture:iron_fishing_rod"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -3.25d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dMod: Aquaculture",
+			}
+			x: -3.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dMod: Aquaculture"
 			description: [
-				"I know fishing was somewhat popular back home, it's own sort of crazy culture and deep end of things you could get into. All sorts of rods, bait, fishing types, ways to fish... and it seems that exists here too. ",
-				"",
-				"&dPerhaps fishing culture is eternal.",
-				"",
-				"As long as there is fish? Anyways, Aquaculture is what they call it here. And it starts with a Fishing Rod.",
-				"",
-				"Aquaculture has its own Fishing Rods that can use special equipment, like hooks. Or, optionally, Bait like Worms, which you can get with a Worm Farm.",
-				"",
-				"The Worm Farm is like a Compost Bin. Right Click plants, food, etc into it to compost them, then Right Click with an open hand to dig out some Worms!",
-				"",
+				"I know fishing was somewhat popular back home, it's own sort of crazy culture and deep end of things you could get into. All sorts of rods, bait, fishing types, ways to fish... and it seems that exists here too. "
+				""
+				"&dPerhaps fishing culture is eternal."
+				""
+				"As long as there is fish? Anyways, Aquaculture is what they call it here. And it starts with a Fishing Rod."
+				""
+				"Aquaculture has its own Fishing Rods that can use special equipment, like hooks. Or, optionally, Bait like Worms, which you can get with a Worm Farm."
+				""
+				"The Worm Farm is like a Compost Bin. Right Click plants, food, etc into it to compost them, then Right Click with an open hand to dig out some Worms!"
+				""
 				"Oh, and to hold it all? I can set out a Tackle Box!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "00000000000001DB",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "00000000000001DB"
 			tasks: [
 				{
-					id: "00000000000001DC",
-					type: "item",
+					id: "00000000000001DC"
+					type: "item"
 					item: "aquaculture:worm_farm"
-				},
+				}
 				{
-					id: "00000000000001DD",
-					type: "item",
+					id: "00000000000001DD"
+					type: "item"
 					item: {
-						id: "aquaculture:iron_fishing_rod",
-						Count: 1b,
+						id: "aquaculture:iron_fishing_rod"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000001E0",
-					type: "item",
+					id: "00000000000001E0"
+					type: "item"
 					item: "aquaculture:iron_hook"
-				},
+				}
 				{
-					id: "00000000000001E2",
-					type: "item",
+					id: "00000000000001E2"
+					type: "item"
 					item: "aquaculture:tackle_box"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000001E1",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001E1"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "A Reel of Your Own",
-			icon: "aquaculture:fishing_line",
-			x: -4.25d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dHook, Line, and Sinker...",
+			title: "A Reel of Your Own"
+			icon: "aquaculture:fishing_line"
+			x: -4.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dHook, Line, and Sinker..."
 			description: [
-				"Seems a lot of Aquaculture Enthusiasts like to add special Fishing Lines and Bobbers to their tacklebox, both of which are able to be dyed to personalize them.",
-				"",
-				"There's also the Fish Sign, which I can use to display my prize catches, if I so wanted.",
-				"",
-				"But for the fish I don't want to display? Well, the Fillet Knife comes up then...I can trim down a fish into fillets, and make things like... Sushi.",
-				"",
+				"Seems a lot of Aquaculture Enthusiasts like to add special Fishing Lines and Bobbers to their tacklebox, both of which are able to be dyed to personalize them."
+				""
+				"There's also the Fish Sign, which I can use to display my prize catches, if I so wanted."
+				""
+				"But for the fish I don't want to display? Well, the Fillet Knife comes up then...I can trim down a fish into fillets, and make things like... Sushi."
+				""
 				"&dYou have Kai's attention now."
-			],
-			dependencies: ["00000000000001DB"],
-			id: "00000000000001E4",
+			]
+			dependencies: ["00000000000001DB"]
+			id: "00000000000001E4"
 			tasks: [
 				{
-					id: "00000000000001E5",
-					type: "item",
+					id: "00000000000001E5"
+					type: "item"
 					item: "aquaculture:fishing_line"
-				},
+				}
 				{
-					id: "00000000000001E6",
-					type: "item",
+					id: "00000000000001E6"
+					type: "item"
 					item: "aquaculture:bobber"
-				},
+				}
 				{
-					id: "00000000000001E7",
-					type: "item",
+					id: "00000000000001E7"
+					type: "item"
 					item: "aquaculture:oak_fish_mount"
-				},
+				}
 				{
-					id: "00000000000001E8",
-					type: "item",
+					id: "00000000000001E8"
+					type: "item"
 					item: {
-						id: "aquaculture:iron_fillet_knife",
-						Count: 1b,
+						id: "aquaculture:iron_fillet_knife"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000001E9",
-					type: "item",
+					id: "00000000000001E9"
+					type: "item"
 					item: "aquaculture:sushi"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000001EA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001EA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Treasures of the Sea",
-			icon: "aquaculture:neptunium_ingot",
-			x: -5.25d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dPower of the Deep",
+			title: "Treasures of the Sea"
+			icon: "aquaculture:neptunium_ingot"
+			x: -5.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dPower of the Deep"
 			description: [
-				"So while fishing, I've been finding some interesting things. Messages in a bottles that seem very familiar. Odd pieces of trash. Things like that.",
-				"",
-				"But a few things are much more useful. Treasure chests with iron, gold, and a strange metal I've never seen that Kow calls Neptunium.",
-				"",
+				"So while fishing, I've been finding some interesting things. Messages in a bottles that seem very familiar. Odd pieces of trash. Things like that."
+				""
+				"But a few things are much more useful. Treasure chests with iron, gold, and a strange metal I've never seen that Kow calls Neptunium."
+				""
 				"It seems to be quite attuned with the sea. Armor made with it, each piece gives some other water based boon. Like breathing under water, which is super useful. It can also make some nice fishing gear!"
-			],
-			dependencies: ["00000000000001DB"],
-			id: "00000000000001EB",
+			]
+			dependencies: ["00000000000001DB"]
+			id: "00000000000001EB"
 			tasks: [{
-				id: "00000000000001EC",
-				type: "item",
+				id: "00000000000001EC"
+				type: "item"
 				item: "aquaculture:neptunium_ingot"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001ED",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001ED"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "PACK NOTES 4",
-			icon: "ars_nouveau:belt_of_unstable_gifts",
-			x: 0.25d,
-			y: -2.25d,
-			shape: "gear",
-			subtitle: "&dCurios Accessories",
+			title: "PACK NOTES 4"
+			icon: "ars_nouveau:belt_of_unstable_gifts"
+			x: 0.25d
+			y: -2.25d
+			shape: "gear"
+			subtitle: "&dCurios Accessories"
 			description: [
-				"&6In your inventory, to the upper left &6of your portrait, you can see a little &6circle gem shaped button. If you &6press it, you open up your Curios &6Equip menu.",
-				"",
+				"&6In your inventory, to the upper left &6of your portrait, you can see a little &6circle gem shaped button. If you &6press it, you open up your Curios &6Equip menu."
+				""
 				"&6Many mods, especially magical ones, &6add accessories you can equip in &6these slots. They act like normal &6equipment, giving you stats and &6abilities while equipped. "
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "000000000000018D",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "000000000000018D"
 			tasks: [{
-				id: "000000000000018E",
-				type: "checkmark",
-				title: "Curios",
+				id: "000000000000018E"
+				type: "checkmark"
+				title: "Curios"
 				icon: "usefulbackpacks:backpack_small"
-			}],
-			rewards: [{
-				id: "1F72086F9AAD9CB7",
-				type: "item",
-				item: "calemiutils:coin_dollar"
 			}]
-		},
+			rewards: [{
+				id: "1F72086F9AAD9CB7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+			}]
+		}
 		{
-			title: "Digging These Arrows",
-			icon: "minecraft:fletching_table",
-			x: -3.25d,
-			y: -2.75d,
-			shape: "square",
-			subtitle: "&dMod: Apotheosis",
+			title: "Digging These Arrows"
+			icon: "minecraft:fletching_table"
+			x: -4.25d
+			y: -2.75d
+			shape: "square"
 			description: [
-				"The Fletching Table is fairly useful, mostly for making special arrows.",
-				"",
-				"A couple I should consider making more of are the Exploding Arrow and Mining Arrow.",
-				"",
-				"The Exploding Arrow does what it says on the tin, really. It makes an especially big boom if it hits a monster.",
-				"",
+				"The Fletching Table is fairly useful, mostly for making special arrows."
+				""
+				"A couple I should consider making more of are the Exploding Arrow and Mining Arrow."
+				""
+				"The Exploding Arrow does what it says on the tin, really. It makes an especially big boom if it hits a monster."
+				""
 				"The Mining Arrow comes in two types, and mines things like I used that pickaxe. Useful for getting stuff off the Nether ceiling I think!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "00000000000001D0",
+			]
+			dependencies: ["6FCA4416F9B79BAF"]
+			id: "00000000000001D0"
 			tasks: [
 				{
-					id: "00000000000001D1",
-					type: "item",
+					id: "00000000000001D1"
+					type: "item"
 					item: "minecraft:fletching_table"
-				},
+				}
 				{
-					id: "00000000000001D3",
-					type: "item",
+					id: "00000000000001D3"
+					type: "item"
 					item: "apotheosis:explosive_arrow"
-				},
+				}
 				{
-					id: "00000000000001D4",
-					type: "item",
+					id: "00000000000001D4"
+					type: "item"
 					item: "apotheosis:iron_mining_arrow"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000001D2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001D2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Magical Summoning Malarky",
-			icon: "minecraft:spawner",
-			x: -4.25d,
-			y: -2.75d,
-			shape: "square",
-			subtitle: "&dA dangerous game",
+			title: "Magical Summoning Malarky"
+			icon: "minecraft:spawner"
+			x: -5.25d
+			y: -2.75d
+			shape: "square"
+			subtitle: "&dA dangerous game"
 			description: [
-				"Some of these dungeons here have weird cages with spinning monsters in them. Monster Spawners. Usually I just destroy them so I can loot in safety, but Kow informed me that I can actually use them for my own purposes.",
-				"",
-				"I'll need to enchant a Pickaxe with Silk Touch, then use that on the Spawner. It will REALLY damage the Pickaxe so I should be careful. I can then place the new Monster Spawner down somewhere and customize it.",
-				"",
-				"There's a few different things I can do. Make it spawn in a wider, or smaller, area. Spawn faster or slower. I can even change what monster pops out of it!",
-				"",
+				"Some of these dungeons here have weird cages with spinning monsters in them. Monster Spawners. Usually I just destroy them so I can loot in safety, but Kow informed me that I can actually use them for my own purposes."
+				""
+				"I'll need to enchant a Pickaxe with Silk Touch, then use that on the Spawner. It will REALLY damage the Pickaxe so I should be careful. I can then place the new Monster Spawner down somewhere and customize it."
+				""
+				"There's a few different things I can do. Make it spawn in a wider, or smaller, area. Spawn faster or slower. I can even change what monster pops out of it!"
+				""
 				"Though for that, I'll need a Spawn Egg of the creature, which I can only get by killing a creature with a weapon enchanted with Capture... and even then, Kow says it is pretty rare."
-			],
-			dependencies: ["00000000000001D0"],
-			id: "00000000000001D8",
+			]
+			dependencies: ["00000000000001D0"]
+			id: "00000000000001D8"
 			tasks: [{
-				id: "00000000000001D9",
-				type: "item",
+				id: "00000000000001D9"
+				type: "item"
 				item: "minecraft:spawner"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001DA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001DA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Charm'd Potions",
+			title: "Charm'd Potions"
 			icon: {
-				id: "apotheosis:potion_charm",
-				Count: 1b,
+				id: "apotheosis:potion_charm"
+				Count: 1b
 				tag: {
-					Damage: 0,
+					Damage: 0
 					Potion: "minecraft:night_vision"
 				}
-			},
-			x: -3.25d,
-			y: -3.75d,
-			shape: "square",
-			subtitle: "&dEasy to ration",
+			}
+			x: -3.25d
+			y: -3.75d
+			shape: "square"
+			subtitle: "&dEasy to ration"
 			description: [
-				"One thing I don't like with Potions is that I can't just... you know, sip a little bit now, and a little bit later, right? I have to chug 12 ounces of magical brew very time.",
-				"",
+				"One thing I don't like with Potions is that I can't just... you know, sip a little bit now, and a little bit later, right? I have to chug 12 ounces of magical brew very time."
+				""
 				"Someone here came up with Potion Charms, which is super useful. They last longer than normal potions, and I can turn them on when I need their ability, then back off afterwards."
-			],
-			dependencies: ["00000000000001D0"],
-			id: "00000000000001D5",
+			]
+			dependencies: ["00000000000001D0"]
+			id: "00000000000001D5"
 			tasks: [{
-				id: "03304611992BE05D",
-				type: "item",
-				title: "Any Potion Charm",
+				id: "03304611992BE05D"
+				type: "item"
+				title: "Any Potion Charm"
 				item: {
-					id: "apotheosis:potion_charm",
-					Count: 1b,
+					id: "apotheosis:potion_charm"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001D7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001D7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Unseating the Competition",
+			title: "Unseating the Competition"
 			icon: {
-				id: "jousting:lance_wood",
-				Count: 1b,
+				id: "jousting:lance_wood"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: 0.5d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dMod: Jousting",
+			}
+			x: 0.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dMod: Jousting"
 			description: [
-				"So, this is a magical world, lacking tech right? So, medieval?",
-				"",
-				"&dSomewhat. You'll have some advances in knowledge with how advanced magic is, but not everyone uses magic.",
-				"",
-				"&dSo things like old fashioned duels still exist. And jousting tournaments. Actually, you may want to know about Jousting.",
-				"",
-				"Why?",
-				"",
-				"&dWho knows who may challenge you? You can make Jousting Lances out of many things. The heavier they are, the more power they have to unseat your opponent, but are harder to keep holding up.",
-				"",
+				"So, this is a magical world, lacking tech right? So, medieval?"
+				""
+				"&dSomewhat. You'll have some advances in knowledge with how advanced magic is, but not everyone uses magic."
+				""
+				"&dSo things like old fashioned duels still exist. And jousting tournaments. Actually, you may want to know about Jousting."
+				""
+				"Why?"
+				""
+				"&dWho knows who may challenge you? You can make Jousting Lances out of many things. The heavier they are, the more power they have to unseat your opponent, but are harder to keep holding up."
+				""
 				"&dWhen you have a lance and are on a horse, you can hold Right Click to lower the lance and speed up. But you'll eventually get tired, so timing it is key."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "3F3A608A864D91F7",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "3F3A608A864D91F7"
 			tasks: [{
-				id: "032CE09A0572AC49",
-				type: "item",
+				id: "032CE09A0572AC49"
+				type: "item"
 				item: {
-					id: "jousting:lance_wood",
-					Count: 1b,
+					id: "jousting:lance_wood"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "116CDD6ABDA60297",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "116CDD6ABDA60297"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "My Chemical Horror",
-			icon: "mutantbeasts:chemical_x",
-			x: 0.5d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dOh lord",
+			title: "My Chemical Horror"
+			icon: "mutantbeasts:chemical_x"
+			x: 0.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dOh lord"
 			description: [
-				"So very rarely, I can find a heavily mutated monster roaming the land. It could be a mutated Zombie, Skeleton, Creeper, or Enderman. I need to be careful facing them. They hit like a truck for one.",
-				"",
-				"But if I can take one down, I have the chance at some mutated gear. Like a Creeper Shard or a Hulk Hammer or an Endersoul Hand.",
-				"",
-				"While I could use these as a weapon or similar, Kow says I can make a rare potion by Brewing these with a Splash Thick Potion.",
-				"",
-				"&dWhy are you making Chemical X?",
-				"",
-				"You said....",
-				"",
+				"So very rarely, I can find a heavily mutated monster roaming the land. It could be a mutated Zombie, Skeleton, Creeper, or Enderman. I need to be careful facing them. They hit like a truck for one."
+				""
+				"But if I can take one down, I have the chance at some mutated gear. Like a Creeper Shard or a Hulk Hammer or an Endersoul Hand."
+				""
+				"While I could use these as a weapon or similar, Kow says I can make a rare potion by Brewing these with a Splash Thick Potion."
+				""
+				"&dWhy are you making Chemical X?"
+				""
+				"You said...."
+				""
 				"&dI said don't unless you really want a challenge. You can throw it at one of those creatures you listed, and it might transform into one of those mutant beasts."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "5659E52B5B0C545E",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "5659E52B5B0C545E"
 			tasks: [{
-				id: "131D766D32E159B7",
-				type: "item",
+				id: "131D766D32E159B7"
+				type: "item"
 				item: "mutantbeasts:chemical_x"
-			}],
+			}]
 			rewards: [{
-				id: "1DE6E9CEB703FAA8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "1DE6E9CEB703FAA8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Pumpkings",
-			icon: "mystical_pumpkins:infusion_table",
-			x: -2.0d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dDangerous Gourd",
+			title: "Pumpkings"
+			icon: "mystical_pumpkins:infusion_table"
+			x: -2.0d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dDangerous Gourd"
 			description: [
-				"&dYou may have noticed large orange creatures wandering around. These unfriendly creatures are called Dragourds.",
-				"",
-				"Whoa, weird. Dragon pumpkins?",
-				"",
-				"&dSort of? It's hard to tell. But they drop this interesting pumpkin essence, that you can use in a Pumpkin Infusion Table to magically infuse pumpkins with abilities.",
-				"",
+				"&dYou may have noticed large orange creatures wandering around. These unfriendly creatures are called Dragourds."
+				""
+				"Whoa, weird. Dragon pumpkins?"
+				""
+				"&dSort of? It's hard to tell. But they drop this interesting pumpkin essence, that you can use in a Pumpkin Infusion Table to magically infuse pumpkins with abilities."
+				""
 				"&dFor example, you can make this Pumpkin that, when worn, lets you float down from high places safely."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "6C1DB8024703537F",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "6C1DB8024703537F"
 			tasks: [
 				{
-					id: "61536813643F3992",
-					type: "item",
+					id: "61536813643F3992"
+					type: "item"
 					item: "mystical_pumpkins:pumpkin_essence"
-				},
+				}
 				{
-					id: "1C5B004ED891C56E",
-					type: "item",
+					id: "1C5B004ED891C56E"
+					type: "item"
 					item: "mystical_pumpkins:infusion_table"
-				},
+				}
 				{
-					id: "6FDAA18025ACCA3A",
-					type: "item",
+					id: "6FDAA18025ACCA3A"
+					type: "item"
 					item: "mystical_pumpkins:floating_pumpkin"
 				}
-			],
+			]
 			rewards: [{
-				id: "3D3A12F18382F040",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3D3A12F18382F040"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Finding the Way",
+			title: "Finding the Way"
 			icon: {
-				id: "naturescompass:naturescompass",
-				Count: 1b,
-				tag: {}
-			},
-			x: 1.75d,
-			y: -2.75d,
-			shape: "square",
-			subtitle: "&dMod: Nature's Compass",
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.75d
+			y: -2.75d
+			shape: "square"
+			subtitle: "&dMod: Nature's Compass"
 			description: [
-				"There are so many interesting sights and places to see in this world. And quite beautiful too. But sometimes, I just want to find the ocean to go boating, or the swamp to fight ogres, right?",
-				"",
-				"With Nature's Compass, I can search easier for these biomes. If I Right Click with it, it will let me choose what biome to search for. It'll let me know if it finds something, and the compass needle will point towards it.",
-				"",
+				"There are so many interesting sights and places to see in this world. And quite beautiful too. But sometimes, I just want to find the ocean to go boating, or the swamp to fight ogres, right?"
+				""
+				"With Nature's Compass, I can search easier for these biomes. If I Right Click with it, it will let me choose what biome to search for. It'll let me know if it finds something, and the compass needle will point towards it."
+				""
 				"If it doesn't find the biome, I should keep exploring. The compass will instead point at the World Spawn, the center of the 'world' or something."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "12E4A5297316FB14",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "12E4A5297316FB14"
 			tasks: [{
-				id: "6A89EF6CC018323D",
-				type: "item",
+				id: "6A89EF6CC018323D"
+				type: "item"
 				item: {
-					id: "naturescompass:naturescompass",
-					Count: 1b,
-					tag: {}
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
 				}
-			}],
+			}]
 			rewards: [{
-				id: "300DB5EEC7C58035",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "300DB5EEC7C58035"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Sweet Spooks",
-			icon: "neverenoughcandy:candy_halloween",
-			x: 1.75d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: Never Enough Candy",
+			title: "Sweet Spooks"
+			icon: "neverenoughcandy:candy_halloween"
+			x: 1.75d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: Never Enough Candy"
 			description: [
-				"So, I don't think they quite celebrate Halloween here, at least not as a singular holiday.",
-				"",
-				"&dNah, here Halloween is sort of a... state of being I guess? It's a festivity that can be celebrated all year. The monsters especially enjoy it, it's one of the few times they and normal living creatures can agree on something.",
-				"",
-				"Wait, agree on what?",
-				"",
-				"&dCandy is good.",
-				"",
-				"Oh. Duh.",
-				"",
+				"So, I don't think they quite celebrate Halloween here, at least not as a singular holiday."
+				""
+				"&dNah, here Halloween is sort of a... state of being I guess? It's a festivity that can be celebrated all year. The monsters especially enjoy it, it's one of the few times they and normal living creatures can agree on something."
+				""
+				"Wait, agree on what?"
+				""
+				"&dCandy is good."
+				""
+				"Oh. Duh."
+				""
 				"&dYes. Every monster can have candy on them. Sometimes you'll find a rare Boozle Bean, but I emphasize rare. Otherwise, creatures like Skeletons drop their favorite candy: Gummy Skulls."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "3DF1D5CD0BA31EB5",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "3DF1D5CD0BA31EB5"
 			tasks: [
 				{
-					id: "4072A538AC8462B5",
-					type: "item",
+					id: "4072A538AC8462B5"
+					type: "item"
 					item: "neverenoughcandy:candy_halloween"
-				},
+				}
 				{
-					id: "19337A701B3669E0",
-					type: "item",
+					id: "19337A701B3669E0"
+					type: "item"
 					item: "neverenoughcandy:candy_skull"
 				}
-			],
+			]
 			rewards: [{
-				id: "30B8EAEC993C3061",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "30B8EAEC993C3061"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "The Ultimate Pocket",
-			icon: "subpocket:key",
-			x: -3.25d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: subpocket",
+			title: "The Ultimate Pocket"
+			icon: "subpocket:key"
+			x: -3.25d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: subpocket"
 			description: [
-				"&dOkay, listen carefully Traveller. You may find something called a Subspatial Key in a Stronghold chest, or very very rarely, when you kill an Enderman.",
-				"",
-				"&dThis is your key to a near bottomless pocket to hold items. The cavaet? There is no easy sorting of items. You basically throw them into a bag randomly and hope to keep it sorted. From your world, ever play a game called Ultima Online? That's the subpocket inventory.",
-				"",
-				"&dTo unlock this pocket, you'll need to take the Subspatial Key, and a normal Ender Chest into the End.",
-				"",
-				"&dThen, you must break the Ender Chest with the Key. This will take a long time. It will steadily hurt you while you try, so you need to figure out how to get around that.",
-				"",
+				"&dOkay, listen carefully Traveller. You may find something called a Subspatial Key in a Stronghold chest, or very very rarely, when you kill an Enderman."
+				""
+				"&dThis is your key to a near bottomless pocket to hold items. The cavaet? There is no easy sorting of items. You basically throw them into a bag randomly and hope to keep it sorted. From your world, ever play a game called Ultima Online? That's the subpocket inventory."
+				""
+				"&dTo unlock this pocket, you'll need to take the Subspatial Key, and a normal Ender Chest into the End."
+				""
+				"&dThen, you must break the Ender Chest with the Key. This will take a long time. It will steadily hurt you while you try, so you need to figure out how to get around that."
+				""
 				"&dGood Luck."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "46C8D73D702CD4D5",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "46C8D73D702CD4D5"
 			tasks: [{
-				id: "28A807FF448AF814",
-				type: "item",
+				id: "28A807FF448AF814"
+				type: "item"
 				item: "subpocket:key"
-			}],
+			}]
 			rewards: [{
-				id: "4CF43668E52A9FF9",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4CF43668E52A9FF9"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Magic Doorway",
-			icon: "magic_doorknob:magic_doorknob_iron",
-			x: -4.5d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: The Magic Doorknob",
+			title: "Magic Doorway"
+			icon: "magic_doorknob:magic_doorknob_iron"
+			x: -4.5d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: The Magic Doorknob"
 			description: [
-				"&dEver dream of opening a door to a magical world, Traveller?",
-				"",
-				"Of course. Who hasn't?",
-				"",
-				"&dTrue. Well, these magic doorknobs aren't quite like that. I mean, unless you use them into a crystal cavern or a wizard's convention I guess.",
-				"",
-				"Wait, what do these do?",
-				"",
+				"&dEver dream of opening a door to a magical world, Traveller?"
+				""
+				"Of course. Who hasn't?"
+				""
+				"&dTrue. Well, these magic doorknobs aren't quite like that. I mean, unless you use them into a crystal cavern or a wizard's convention I guess."
+				""
+				"Wait, what do these do?"
+				""
 				"&dThey basically create a magical pathway through solid materials. The stronger the doorknob's material, the further they go. But be careful, when you close the door, it returns all the material it 'vanished' to make the path."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "45775E488EBB4536",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "45775E488EBB4536"
 			tasks: [{
-				id: "347AE7875DAEEE05",
-				type: "item",
+				id: "347AE7875DAEEE05"
+				type: "item"
 				item: "magic_doorknob:magic_doorknob_iron"
-			}],
+			}]
 			rewards: [{
-				id: "6C2C010B3F77A544",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6C2C010B3F77A544"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "At Least One Red Balloon",
-			icon: "bountifulbaubles:balloon",
-			x: 1.75d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dMod: Bountiful Baubles",
+			title: "At Least One Red Balloon"
+			icon: "bountifulbaubles:balloon"
+			x: 1.75d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dMod: Bountiful Baubles"
 			description: [
-				"&dTraveller, there is a way to turn some of that extra dungeon loot into something useful. I mean, other than selling a bit of it to a villager or my brother.",
-				"",
-				"It's pretty useful stuff, but what did you have in mind?",
-				"",
-				"&dThis Disintegration Tablet can turn powerful or expensive items into something called Spectral Silt. This is a good material to make magical curios with.",
-				"",
+				"&dTraveller, there is a way to turn some of that extra dungeon loot into something useful. I mean, other than selling a bit of it to a villager or my brother."
+				""
+				"It's pretty useful stuff, but what did you have in mind?"
+				""
+				"&dThis Disintegration Tablet can turn powerful or expensive items into something called Spectral Silt. This is a good material to make magical curios with."
+				""
 				"&dLike this Red Balloon here. You get to jump higher AND fall farther without taking damage. Handy, if you ask me."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "185620E1C9278503",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "185620E1C9278503"
 			tasks: [
 				{
-					id: "2BB0111507578B34",
-					type: "item",
+					id: "2BB0111507578B34"
+					type: "item"
 					item: "bountifulbaubles:disintegration_tablet"
-				},
+				}
 				{
-					id: "5F59F8297EEEF541",
-					type: "item",
+					id: "5F59F8297EEEF541"
+					type: "item"
 					item: "bountifulbaubles:spectral_silt"
-				},
+				}
 				{
-					id: "5996A898B0368CDA",
-					type: "item",
+					id: "5996A898B0368CDA"
+					type: "item"
 					item: "bountifulbaubles:balloon"
 				}
-			],
+			]
 			rewards: [{
-				id: "72219B5522409B97",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "72219B5522409B97"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "&6PACK NOTES #5",
+			title: "&6PACK NOTES #5"
 			icon: {
-				id: "rats:exterminator_hat",
-				Count: 1b,
+				id: "rats:exterminator_hat"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -1.75d,
-			y: -1.0d,
-			shape: "gear",
-			subtitle: "&dMod: Cosmetic Armor Reworked",
+			}
+			x: -1.75d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "&dMod: Cosmetic Armor Reworked"
 			description: [
-				"&6In your paperdoll in your Inventory, in the lower right, is a small armor icon.",
-				"",
-				"&6If you click it, you will open up an extra tab of Armor slots. These are Cosmetic slots.",
-				"",
+				"&6In your paperdoll in your Inventory, in the lower right, is a small armor icon."
+				""
+				"&6If you click it, you will open up an extra tab of Armor slots. These are Cosmetic slots."
+				""
 				"&6Any armor you wear here will not effect you, neither in stats nor in buffs. Only their visual style will be shown."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "5AD6DDBD1E9C5BD4",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "5AD6DDBD1E9C5BD4"
 			tasks: [{
-				id: "55F5C107B500497C",
+				id: "55F5C107B500497C"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "246EB7BE738DBACA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "246EB7BE738DBACA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "A Strange World",
-			icon: "mysticalworld:aubergine",
-			x: 3.0d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: Mystical World",
+			title: "A Strange World"
+			icon: "mysticalworld:aubergine"
+			x: 3.0d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: Mystical World"
 			description: [
-				"&dThere is plenty to see and do in this world, beyond surviving. Though some of it also helps survive.",
-				"",
-				"That sounds pretty normal actually.",
-				"",
-				"&dGood, you understand. The world is always a bit mystical, especially here. You can find all sorts of interesting metals and foods and animals and more.",
-				"",
+				"&dThere is plenty to see and do in this world, beyond surviving. Though some of it also helps survive."
+				""
+				"That sounds pretty normal actually."
+				""
+				"&dGood, you understand. The world is always a bit mystical, especially here. You can find all sorts of interesting metals and foods and animals and more."
+				""
 				"&dTake the Silkworm. You can find them by breaking Oak Leaves. You can then place and let them grow into Cocoons. These can be turned into Silk Thread, or used with a Spindle to make even more. It's a great alternative to String."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "21800542B284BDF2",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "21800542B284BDF2"
 			tasks: [
 				{
-					id: "7750AD7B3539A210",
-					type: "item",
+					id: "7750AD7B3539A210"
+					type: "item"
 					item: "mysticalworld:encyclopedia"
-				},
+				}
 				{
-					id: "19598609DD17FA84",
-					type: "item",
+					id: "19598609DD17FA84"
+					type: "item"
 					item: "mysticalworld:silkworm_egg"
-				},
+				}
 				{
-					id: "01E39C7E47726F18",
-					type: "item",
+					id: "01E39C7E47726F18"
+					type: "item"
 					item: {
-						id: "mysticalworld:spindle",
-						Count: 1b,
+						id: "mysticalworld:spindle"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "5B3B56BA40119040",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5B3B56BA40119040"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "What Does the Friend Say?",
-			icon: "cyclic:heart",
-			x: 4.0d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dScreaming, I guess?",
+			title: "What Does the Friend Say?"
+			icon: "cyclic:heart"
+			x: 4.0d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dScreaming, I guess?"
 			description: [
-				"Oh hey, Foxes. Neat!",
-				"",
-				"&dDid you know you can befriend them with Apples, much like you use Bones for Wolves?",
-				"",
+				"Oh hey, Foxes. Neat!"
+				""
+				"&dDid you know you can befriend them with Apples, much like you use Bones for Wolves?"
+				""
 				"...I need an Apple Orchard. Now."
-			],
-			dependencies: ["21800542B284BDF2"],
-			id: "05930542EE0CF7AB",
+			]
+			dependencies: ["21800542B284BDF2"]
+			id: "05930542EE0CF7AB"
 			tasks: [{
-				id: "12EDF69FEDF45E24",
-				type: "item",
+				id: "12EDF69FEDF45E24"
+				type: "item"
 				item: "minecraft:apple"
-			}],
+			}]
 			rewards: [{
-				id: "38DF115645578631",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "38DF115645578631"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "A Loot of My Own",
-			icon: "lootr:lootr_chest",
-			x: 0.25d,
-			y: -1.0d,
-			shape: "circle",
-			subtitle: "&dMod: Lootr",
+			title: "A Loot of My Own"
+			icon: "lootr:lootr_chest"
+			x: 0.25d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "&dMod: Lootr"
 			description: [
-				"&dTraveller, you may notice that some chests, like at the top of the dangerous towers called Towers of the Wild, are edged with gold or silver.",
-				"",
-				"Yeah, what's that about?",
-				"",
-				"&dYou see, with magic comes adventuring. And the quote unquote Gods watch these adventurers like a game. But they feel its only fair if every one of them gets rewarded.",
-				"",
-				"&dSo these are Loot Chests. When the chest is Gold, you have not opened it yet. The possibilities inside are infinite.",
-				"",
+				"&dTraveller, you may notice that some chests, like at the top of the dangerous towers called Towers of the Wild, are edged with gold or silver."
+				""
+				"Yeah, what's that about?"
+				""
+				"&dYou see, with magic comes adventuring. And the quote unquote Gods watch these adventurers like a game. But they feel its only fair if every one of them gets rewarded."
+				""
+				"&dSo these are Loot Chests. When the chest is Gold, you have not opened it yet. The possibilities inside are infinite."
+				""
 				"&dIf it is Silver? You have already looked inside."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "270FBF89888F66E0",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "270FBF89888F66E0"
 			tasks: [{
-				id: "59D093001D356D34",
+				id: "59D093001D356D34"
 				type: "checkmark"
-			}],
-			rewards: [{
-				id: "32409EFD052B8734",
-				type: "item",
-				item: "calemiutils:coin_dollar"
 			}]
-		},
-		{
-			title: "For the Crows",
-			icon: "minecraft:carved_pumpkin",
-			x: 2.75d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dFlying Pains",
-			description: [
-				"So, I noticed my dang crops were being eaten by birds. Again.",
-				"",
-				"&dTraveller, might I suggest a scary visage to keep them away?",
-				"",
-				"I'm not sure crows in this world really fall for the whole scarecrow thing.",
-				"",
-				"&dNo, but a carved pumpkin scares them. For good reason.",
-				"",
-				"Wait, what reason?",
-				"",
-				"&dYou'll find out. You can easily carve a pumpkin by setting it out, and Right Clicking some Shears onto it. Scary, huh?",
-				"",
-				"WHY are they scary for a good reason?!"
-			],
-			dependencies: ["00000000000001CD"],
-			id: "0407BFB681E81350",
-			tasks: [{
-				id: "4E07D8C8CBD23747",
-				type: "item",
-				item: "minecraft:carved_pumpkin"
-			}],
 			rewards: [{
-				id: "77555B1B642B4093",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "32409EFD052B8734"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+			}]
+		}
+		{
+			title: "For the Crows"
+			icon: "minecraft:carved_pumpkin"
+			x: 2.75d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dFlying Pains"
+			description: [
+				"So, I noticed my dang crops were being eaten by birds. Again."
+				""
+				"&dTraveller, might I suggest a scary visage to keep them away?"
+				""
+				"I'm not sure crows in this world really fall for the whole scarecrow thing."
+				""
+				"&dNo, but a carved pumpkin scares them. For good reason."
+				""
+				"Wait, what reason?"
+				""
+				"&dYou'll find out. You can easily carve a pumpkin by setting it out, and Right Clicking some Shears onto it. Scary, huh?"
+				""
+				"WHY are they scary for a good reason?!"
+			]
+			dependencies: ["00000000000001CD"]
+			id: "0407BFB681E81350"
+			tasks: [{
+				id: "4E07D8C8CBD23747"
+				type: "item"
+				item: "minecraft:carved_pumpkin"
+			}]
+			rewards: [{
+				id: "77555B1B642B4093"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Around the World",
-			icon: "supplementaries:globe",
-			x: -0.6964285714285623d,
-			y: -2.5714285714285694d,
-			subtitle: "&dMod: FTB Chunks",
+			title: "Around the World"
+			icon: "supplementaries:globe"
+			x: -0.6964285714285623d
+			y: -2.5714285714285694d
+			subtitle: "&dMod: FTB Chunks"
 			description: [
-				"&dSo you've probably noticed I've... expanded... the use of that Map app from your Smartphone, into your Journal as well.",
-				"",
-				"Oh right. There's not GPS here so I figured it was something magical.",
-				"",
-				"&dYou're welcome. You can hit M to open up a bigger map. Right Click on the map to set waypoints, helps mark out important areas.",
-				"",
-				"&dYou can also Right Click on waypoints already there to edit them, or delete them.",
-				"",
+				"&dSo you've probably noticed I've... expanded... the use of that Map app from your Smartphone, into your Journal as well."
+				""
+				"Oh right. There's not GPS here so I figured it was something magical."
+				""
+				"&dYou're welcome. You can hit M to open up a bigger map. Right Click on the map to set waypoints, helps mark out important areas."
+				""
+				"&dYou can also Right Click on waypoints already there to edit them, or delete them."
+				""
 				"&dAs well, if you are in a world with other Travellers, you may want to 'claim' sections of land. In the upper left is a Claim Land button. You can claim sections of land, so that only you and your Allies (another button up there) can build or interact there."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "17491114D344EBD8",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "17491114D344EBD8"
 			tasks: [{
-				id: "02E7271AFB88F99D",
+				id: "02E7271AFB88F99D"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "37B7E75379D59212",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "37B7E75379D59212"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Parkour!",
-			icon: "quark:myalite_bricks_wall",
-			x: -1.75d,
-			y: -2.25d,
-			subtitle: "&dMod: Wall Jump!",
+			title: "Parkour!"
+			icon: "quark:myalite_bricks_wall"
+			x: -1.75d
+			y: -2.25d
+			subtitle: "&dMod: Wall Jump!"
 			description: [
-				"Huh, I think with my working to survive in this world, I'm kind of building my actual muscles on top of my magical ones.",
-				"",
-				"&dThat's unsurprising. Surviving helps build the body. ",
-				"",
-				"True. I think I can start getting around a bit easier. If I hold Shift while jumping against a wall, I can brace myself in place.",
-				"",
-				"Then if I keep holding forward (W usually) and let go of Shift, I will wall jump. If I am near a ledge, I can hit Space instead to mantle on top instead.",
-				"",
-				"Wait, this means if two walls are close enough, I can wall climb... I can Parkour!",
-				"",
+				"Huh, I think with my working to survive in this world, I'm kind of building my actual muscles on top of my magical ones."
+				""
+				"&dThat's unsurprising. Surviving helps build the body. "
+				""
+				"True. I think I can start getting around a bit easier. If I hold Shift while jumping against a wall, I can brace myself in place."
+				""
+				"Then if I keep holding forward (W usually) and let go of Shift, I will wall jump. If I am near a ledge, I can hit Space instead to mantle on top instead."
+				""
+				"Wait, this means if two walls are close enough, I can wall climb... I can Parkour!"
+				""
 				"&dYou have to yell PARKOUR while you do it, though."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "0A60D4208FE2ED05",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "0A60D4208FE2ED05"
 			tasks: [{
-				id: "583DD3F32A140793",
+				id: "583DD3F32A140793"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "3DE5E33EAA68666B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3DE5E33EAA68666B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Diving Deep",
+			title: "Diving Deep"
 			icon: {
-				id: "dungeonsmod:home_gem",
-				Count: 1b,
-				tag: {}
-			},
-			x: -3.25d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dMod: Dungeons Mod",
+				id: "dungeonsmod:home_gem"
+				Count: 1b
+				tag: { }
+			}
+			x: -3.25d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dMod: Dungeons Mod"
 			description: [
-				"&dThere are a lot of dangerous things underground, Traveller. But, of course, risk brings reward.",
-				"",
-				"&dBe careful about easy treasures. Some monsters like to dress themselves up as chests and wait. ",
-				"",
-				"&dOh, right. You can make yourself a Home Gem to escape any dungeon. I think some games from your old world called it an Escape Rope or similar?",
-				"",
-				"&dBut anyways, you can't be holding a shield when you use it. Hold Right Click and it'll charge up, then send you back to your bed, all safe and comfy.",
-				"",
-				"I mean, unless I decided to sleep in a dungeon or something I guess.",
-				"",
+				"&dThere are a lot of dangerous things underground, Traveller. But, of course, risk brings reward."
+				""
+				"&dBe careful about easy treasures. Some monsters like to dress themselves up as chests and wait. "
+				""
+				"&dOh, right. You can make yourself a Home Gem to escape any dungeon. I think some games from your old world called it an Escape Rope or similar?"
+				""
+				"&dBut anyways, you can't be holding a shield when you use it. Hold Right Click and it'll charge up, then send you back to your bed, all safe and comfy."
+				""
+				"I mean, unless I decided to sleep in a dungeon or something I guess."
+				""
 				"&d...WHY would you do that?!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "24A41CD987E4F89C",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "24A41CD987E4F89C"
 			tasks: [{
-				id: "489E978CF284AB28",
-				type: "item",
+				id: "489E978CF284AB28"
+				type: "item"
 				item: "dungeonsmod:home_gem"
-			}],
+			}]
 			rewards: [{
-				id: "5B42A39F463748D8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5B42A39F463748D8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Robust Enchants",
+			title: "Robust Enchants"
 			icon: {
-				id: "minecraft:fishing_rod",
-				Count: 1b,
+				id: "minecraft:fishing_rod"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: 4.0d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dMod: Random Enchants",
+			}
+			x: 4.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dMod: Random Enchants"
 			description: [
-				"&dTraveller, mages all over this dimension are always finding new and interesting enchantments in the fabric of magic.",
-				"",
-				"&dSome new ones that have popped up recently may interest you. But be warned, they can be a bit dangerous.",
-				"",
-				"&dTake the Grapple enchantment. It only goes onto fishing rods.",
-				"",
-				"Fishing Rods? What would you enchant onto a Fishing Rod?",
-				"",
-				"&dGrapple, like I said. And luck, for better fishing and treasures, but I'm talking about Grapple, okay?",
-				"",
+				"&dTraveller, mages all over this dimension are always finding new and interesting enchantments in the fabric of magic."
+				""
+				"&dSome new ones that have popped up recently may interest you. But be warned, they can be a bit dangerous."
+				""
+				"&dTake the Grapple enchantment. It only goes onto fishing rods."
+				""
+				"Fishing Rods? What would you enchant onto a Fishing Rod?"
+				""
+				"&dGrapple, like I said. And luck, for better fishing and treasures, but I'm talking about Grapple, okay?"
+				""
 				"&dIt turns the fishing rod into an impromptu grappling hook. If you toss the line on top of a block, you can Right Click to launch yourself. Just... be sure to have slow fall or something, okay?"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "4F71F19810C96BA2",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "4F71F19810C96BA2"
 			tasks: [{
-				id: "6FFE5C225D1B5B52",
-				type: "item",
+				id: "6FFE5C225D1B5B52"
+				type: "item"
 				item: {
-					id: "minecraft:fishing_rod",
-					Count: 1b,
+					id: "minecraft:fishing_rod"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "648D887987FB35BF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "648D887987FB35BF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Pretty Fly Hat",
+			title: "Pretty Fly Hat"
 			icon: {
-				ForgeCaps: {
-					Parent: {
-						hsbH: 0.0f,
-						partCount: 0,
-						clrR: 0.0f,
-						count: 1,
-						isNew: 0b,
-						hsbS: 0.0f,
-						clrG: 0.0f,
-						isShowing: 1b,
-						enchanted: 0b,
-						clrA: 0.0f,
-						clrB: 0.0f,
-						name: ":random",
-						hsbB: 0.0f,
-						isFavourite: 0b
-					}
-				},
-				id: "hats:hat_launcher",
-				Count: 1b,
+				id: "hats:hat_launcher"
+				Count: 1b
 				tag: {
 					hats_hatPart: {
-						hsbH: 0.0f,
-						partCount: 0,
-						clrR: 0.0f,
-						count: 1,
-						isNew: 0b,
-						hsbS: 0.0f,
-						clrG: 0.0f,
-						isShowing: 1b,
-						enchanted: 0b,
-						clrA: 0.0f,
-						clrB: 0.0f,
-						name: ":random",
-						hsbB: 0.0f,
+						hsbH: 0.0f
+						partCount: 0
+						clrR: 0.0f
+						count: 1
+						isNew: 0b
+						hsbS: 0.0f
+						clrG: 0.0f
+						isShowing: 1b
+						enchanted: 0b
+						clrA: 0.0f
+						clrB: 0.0f
+						name: ":random"
+						hsbB: 0.0f
 						isFavourite: 0b
 					}
 				}
-			},
-			x: -4.5d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dMod: Hats",
+				ForgeCaps: {
+					Parent: {
+						hsbH: 0.0f
+						partCount: 0
+						clrR: 0.0f
+						count: 1
+						isNew: 0b
+						hsbS: 0.0f
+						clrG: 0.0f
+						isShowing: 1b
+						enchanted: 0b
+						clrA: 0.0f
+						clrB: 0.0f
+						name: ":random"
+						hsbB: 0.0f
+						isFavourite: 0b
+					}
+				}
+			}
+			x: -4.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dMod: Hats"
 			description: [
-				"Kow, why are random creatures wearing weird... hats? I'm not sure what else I'd call some of these strange pieces of headware I'm seeing.",
-				"",
-				"&dI've noticed that too. It seems some new hat shop opened up and well... had an accident on day one. ",
-				"",
-				"Accident? What kind of accident does a hat shop get...",
-				"",
-				"&dMagical one. They magically exploded their entire stockpile and now you'll find hats everywhere. Which means you can collect them! But you'll have to uh... kill the creature it's on, unfortunately.",
-				"",
-				"Why?!",
-				"",
+				"Kow, why are random creatures wearing weird... hats? I'm not sure what else I'd call some of these strange pieces of headware I'm seeing."
+				""
+				"&dI've noticed that too. It seems some new hat shop opened up and well... had an accident on day one. "
+				""
+				"Accident? What kind of accident does a hat shop get..."
+				""
+				"&dMagical one. They magically exploded their entire stockpile and now you'll find hats everywhere. Which means you can collect them! But you'll have to uh... kill the creature it's on, unfortunately."
+				""
+				"Why?!"
+				""
 				"&dMagic. But you can choose and customize hats you collect by hitting the H key. You can also make a Hat Cannon to launch any hat you've collected, to put it on another animal or give it to another Traveller!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["66191B31820EAEC9"],
-			id: "641854593854485F",
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "641854593854485F"
 			tasks: [{
-				id: "52A2711E37B4BD19",
-				type: "item",
+				id: "52A2711E37B4BD19"
+				type: "item"
 				item: {
-					ForgeCaps: {
-						Parent: {
-							hsbH: 0.0f,
-							partCount: 0,
-							clrR: 0.0f,
-							count: 0,
-							isNew: 0b,
-							hsbS: 0.0f,
-							clrG: 0.0f,
-							isShowing: 0b,
-							enchanted: 0b,
-							clrA: 0.0f,
-							clrB: 0.0f,
-							name: "",
-							hsbB: 0.0f,
-							isFavourite: 0b
-						}
-					},
-					id: "hats:hat_launcher",
-					Count: 1b,
+					id: "hats:hat_launcher"
+					Count: 1b
 					tag: {
 						hats_hatPart: {
-							hsbH: 0.0f,
-							partCount: 0,
-							clrR: 0.0f,
-							count: 0,
-							isNew: 0b,
-							hsbS: 0.0f,
-							clrG: 0.0f,
-							isShowing: 1b,
-							enchanted: 0b,
-							clrA: 0.0f,
-							clrB: 0.0f,
-							name: "",
-							hsbB: 0.0f,
+							hsbH: 0.0f
+							partCount: 0
+							clrR: 0.0f
+							count: 0
+							isNew: 0b
+							hsbS: 0.0f
+							clrG: 0.0f
+							isShowing: 1b
+							enchanted: 0b
+							clrA: 0.0f
+							clrB: 0.0f
+							name: ""
+							hsbB: 0.0f
+							isFavourite: 0b
+						}
+					}
+					ForgeCaps: {
+						Parent: {
+							hsbH: 0.0f
+							partCount: 0
+							clrR: 0.0f
+							count: 0
+							isNew: 0b
+							hsbS: 0.0f
+							clrG: 0.0f
+							isShowing: 0b
+							enchanted: 0b
+							clrA: 0.0f
+							clrB: 0.0f
+							name: ""
+							hsbB: 0.0f
 							isFavourite: 0b
 						}
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "0FFC41897AC057F6",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0FFC41897AC057F6"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
+			}]
+		}
+		{
+			title: "Book of Shadows"
+			x: -3.25d
+			y: -2.75d
+			shape: "square"
+			subtitle: "&dMod: Apotheosis"
+			description: [
+				"Looks like I can make this... interesting book to learn about a newer branch of... magic?"
+				""
+				"I think its a bit of magic and a bit of just natural stuff. Should be quite helpful."
+			]
+			hide_dependency_lines: true
+			dependencies: ["66191B31820EAEC9"]
+			id: "6FCA4416F9B79BAF"
+			tasks: [{
+				id: "45FFFAE844DCE622"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+			}]
+			rewards: [{
+				id: "449A559EFC525907"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 5
 			}]
 		}
 	]
