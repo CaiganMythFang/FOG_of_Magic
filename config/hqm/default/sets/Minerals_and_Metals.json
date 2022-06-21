@@ -32,7 +32,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -58,7 +58,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 5
               },
               "required": 5
@@ -108,7 +108,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 20
         }
       ],
@@ -134,7 +134,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -185,7 +185,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -223,7 +223,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 15
         }
       ],
@@ -261,46 +261,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 20
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
-      "name": " Lead (Buy)",
-      "description": "    Lead is a heavy metal, good for protective barriers.",
-      "x": 65,
-      "y": 81,
-      "icon": {
-        "id": "eidolon:lead_ingot",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 15
-              },
-              "required": 15
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "eidolon:lead_ore",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -338,8 +300,46 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0dd2274f-1c46-4beb-b699-b947a556c7b7",
+      "name": " Lead (Buy)",
+      "description": "    Lead is a heavy metal, good for protective barriers.",
+      "x": 65,
+      "y": 81,
+      "icon": {
+        "id": "eidolon:lead_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 15
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:lead_ore",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -376,7 +376,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -414,7 +414,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -440,7 +440,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -489,7 +489,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 2
         }
       ],
@@ -526,7 +526,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 14
         }
       ],
@@ -564,7 +564,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
         }
       ],
@@ -602,7 +602,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 30
         }
       ],
@@ -641,7 +641,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -678,7 +678,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 16
         }
       ],
@@ -704,7 +704,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 15
               },
               "required": 15
@@ -753,7 +753,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 25
         }
       ],
@@ -779,7 +779,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -829,7 +829,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 15
         }
       ],
@@ -867,7 +867,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 15
         }
       ],
@@ -893,7 +893,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 70
               },
               "required": 70
@@ -942,7 +942,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 50
         }
       ],
@@ -980,7 +980,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -1018,7 +1018,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 20
         }
       ],
@@ -1055,7 +1055,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 12
         }
       ],
@@ -1093,7 +1093,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
         }
       ],
@@ -1119,7 +1119,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 80
               },
               "required": 80
@@ -1157,7 +1157,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -1195,7 +1195,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 65
               },
               "required": 65
@@ -1245,7 +1245,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -1271,7 +1271,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -1309,7 +1309,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 5
               },
               "required": 5
@@ -1359,7 +1359,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
         }
       ],
@@ -1385,7 +1385,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1423,7 +1423,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -1472,7 +1472,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 13
         }
       ],
@@ -1509,7 +1509,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 16
         }
       ],
@@ -1546,7 +1546,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 35
         }
       ],
@@ -1584,7 +1584,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 20
         }
       ],
@@ -1622,7 +1622,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
         }
       ],
@@ -1648,7 +1648,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -1698,7 +1698,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 20
         }
       ],
@@ -1736,7 +1736,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -1774,7 +1774,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -1813,7 +1813,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
         }
       ],
@@ -1851,7 +1851,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 20
         }
       ],
@@ -1877,7 +1877,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -1915,7 +1915,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 70
               },
               "required": 70
@@ -1965,7 +1965,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -2003,7 +2003,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 10
         }
       ],
@@ -2040,7 +2040,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 15
         }
       ],
@@ -2078,7 +2078,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
         }
       ],

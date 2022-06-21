@@ -10,9 +10,7 @@
       "icon": {
         "id": "adhooks:pudge_launcher",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -23,7 +21,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -38,25 +36,64 @@
         {
           "id": "adhooks:web_launcher",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "adhooks:spear_launcher",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "adhooks:pudge_launcher",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "304f73a4-c84e-4a6e-a12e-252f87587154",
+      "name": " Vehicle Parts 7",
+      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
+      "x": 95,
+      "y": 138,
+      "icon": {
+        "id": "vehicle:gold_large_engine",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 125
+              },
+              "required": 125
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 125
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "vehicle:gold_large_engine",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -78,14 +115,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 60
               },
               "required": 60
@@ -117,51 +154,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "304f73a4-c84e-4a6e-a12e-252f87587154",
-      "name": " Vehicle Parts 7",
-      "description": "    Some vehicles require specific parts to build. Each part handles differently, and especially engines can have different stats.\n    You can improve a Vehicle by upgrading its engine or tires.",
-      "x": 95,
-      "y": 138,
-      "icon": {
-        "id": "vehicle:gold_large_engine",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 125
-              },
-              "required": 125
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 125
-              },
-              "required": 125
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "vehicle:gold_large_engine",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "1a2d1370-be19-47b5-816b-b3e0e1933fe5",
       "name": " MrCrayfish\u0027s Vehicle Mod",
       "description": "    MrCrayfish is quite a prolific inventor and designer across multiple dimensions.\n    He has a line of vehicles that work quite well in all sorts of dimensions. The cost seems cheap for the Workstation to build them, but you must provide the parts and pieces yourself!\n    You can Sneak + Right Click a Vehicle to pick it up and place it onto a Jack.\n    You can use Traffic Cones to stop vehicles, or wear it. Either or.",
@@ -180,7 +172,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -221,9 +213,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -269,7 +259,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -319,7 +309,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -342,9 +332,7 @@
         {
           "id": "vehicle:hammer",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "vehicle:spray_can",
@@ -372,7 +360,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -465,14 +453,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -524,7 +512,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -564,14 +552,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 80
               },
               "required": 80
@@ -609,7 +597,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -659,7 +647,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 5
               },
               "required": 5
@@ -709,14 +697,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -758,7 +746,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 90
               },
               "required": 90

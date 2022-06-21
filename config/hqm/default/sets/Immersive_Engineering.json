@@ -20,7 +20,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -58,12 +58,6 @@
       "x": 272,
       "y": 174,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 4,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:chemthrower",
         "Count": 1
       },
@@ -77,21 +71,21 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -104,12 +98,6 @@
       "reward": [],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 4,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:chemthrower",
           "Count": 1
         },
@@ -143,7 +131,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 5
               },
               "required": 5
@@ -193,7 +181,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -243,7 +231,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 2
               },
               "required": 2
@@ -285,7 +273,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -313,52 +301,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "33dc32bf-a686-495a-b121-7161777a901a",
-      "name": " Wire Relays",
-      "description": "    Wire Relays are anchor points for Wires, but do not transfer power to other machines.",
-      "x": 43,
-      "y": 81,
-      "icon": {
-        "id": "immersiveengineering:connector_lv_relay",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 5
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "immersiveengineering:connector_lv_relay",
-          "Count": 3
-        },
-        {
-          "id": "immersiveengineering:connector_mv_relay",
-          "Count": 2
-        },
-        {
-          "id": "immersiveengineering:connector_hv_relay",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "997643ec-71d5-4e7f-9d9e-49b33c8b5609",
       "name": " Conveyors - Chutes",
       "description": "    Chutes control where items and entities fall from Conveyors. They can put items into inventories, or onto belts.",
@@ -374,7 +316,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -406,6 +348,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "33dc32bf-a686-495a-b121-7161777a901a",
+      "name": " Wire Relays",
+      "description": "    Wire Relays are anchor points for Wires, but do not transfer power to other machines.",
+      "x": 43,
+      "y": 81,
+      "icon": {
+        "id": "immersiveengineering:connector_lv_relay",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 5
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:connector_lv_relay",
+          "Count": 3
+        },
+        {
+          "id": "immersiveengineering:connector_mv_relay",
+          "Count": 2
+        },
+        {
+          "id": "immersiveengineering:connector_hv_relay",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "ca1ed527-e182-4868-a6fb-ea16887d8367",
       "name": " Structural Connectors",
       "description": "    These are different ways to mount cable connectors. Except the ladder, that\u0027s just a way to go up and down.",
@@ -424,7 +412,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 3
               },
               "required": 3
@@ -456,52 +444,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "7192d529-a3dd-4a35-a5dc-b0363bbb4324",
-      "name": " Kinetic Components",
-      "description": "    These components are for the Kinetic Dynamo to generate power with.\n    The Windmill Sail is used on a Windmill to generate even more power.",
-      "x": 92,
-      "y": 112,
-      "icon": {
-        "id": "immersiveengineering:watermill",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "immersiveengineering:watermill",
-          "Count": 1
-        },
-        {
-          "id": "immersiveengineering:windmill",
-          "Count": 1
-        },
-        {
-          "id": "immersiveengineering:windmill_sail",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "10cc1a39-cb98-47ad-bef8-0e69eab5fcc2",
       "name": " Wire Coils - Basic",
       "description": "    Wire Coils are used to hook up power to machines and other devices. The amount of power flowing through dictates which type of wire you should use so they don\u0027t burn out.",
@@ -520,7 +462,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 30
               },
               "required": 30
@@ -548,6 +490,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "7192d529-a3dd-4a35-a5dc-b0363bbb4324",
+      "name": " Kinetic Components",
+      "description": "    These components are for the Kinetic Dynamo to generate power with.\n    The Windmill Sail is used on a Windmill to generate even more power.",
+      "x": 92,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:watermill",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "immersiveengineering:watermill",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:windmill",
+          "Count": 1
+        },
+        {
+          "id": "immersiveengineering:windmill_sail",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "f1399c22-59c5-43ba-8ba9-6120b9760cb5",
       "name": " Fabric Creations",
       "description": "    Jump Cushions safely break your fall if you land on them.\n    Strip Curtains can be used in doorways to block vision. But they also emit redstone signal when passed through.\n    The Balloon can be placed in mid-air, and acts like an anchor for cables.",
@@ -566,7 +554,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -589,7 +577,7 @@
         {
           "id": "immersiveengineering:balloon",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "commandrewards": []
@@ -601,15 +589,9 @@
       "x": 132,
       "y": 143,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 5,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:drill",
         "Count": 1,
-        "tag": {}
+        "tag": "{}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -621,14 +603,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -641,15 +623,9 @@
       "reward": [],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 5,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:drill",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         },
         {
           "id": "immersiveengineering:drillhead_iron",
@@ -677,7 +653,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -691,9 +667,7 @@
         {
           "id": "immersiveengineering:wirecutter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
@@ -736,14 +710,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -777,12 +751,6 @@
       "x": 219,
       "y": 81,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 23,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:toolbox",
         "Count": 1
       },
@@ -795,7 +763,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -813,22 +781,10 @@
       ],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 23,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:toolbox",
           "Count": 1
         },
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 2,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:skyhook",
           "Count": 1
         },
@@ -862,7 +818,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -881,9 +837,7 @@
         {
           "id": "immersiveengineering:hammer",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:screwdriver",
@@ -908,7 +862,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -956,7 +910,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -996,7 +950,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 15
               },
               "required": 15
@@ -1047,14 +1001,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1100,7 +1054,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40
@@ -1146,7 +1100,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -1192,14 +1146,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1245,7 +1199,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1292,14 +1246,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1354,14 +1308,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1407,14 +1361,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -1428,20 +1382,12 @@
         {
           "id": "immersiveengineering:fluorescent_tube",
           "Count": 1,
-          "tag": {
-            "rgb": {
-              "r": 1,
-              "b": 1,
-              "g": 1
-            }
-          }
+          "tag": "{rgb:{r:1b,b:1b,g:1b}}"
         },
         {
           "id": "immersiveengineering:survey_tools",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
@@ -1469,9 +1415,7 @@
       "icon": {
         "id": "immersiveengineering:rockcutter",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1483,28 +1427,28 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1524,9 +1468,7 @@
         {
           "id": "immersiveengineering:rockcutter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1550,14 +1492,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1608,7 +1550,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1651,17 +1593,9 @@
       "x": 298,
       "y": 144,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 2,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:shield",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "tasks": [
         {
@@ -1669,7 +1603,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -1682,17 +1616,9 @@
       "reward": [],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 2,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:shield",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:toolupgrade_shield_flash",
@@ -1728,7 +1654,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40
@@ -1778,7 +1704,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1815,9 +1741,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -1863,7 +1787,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -1903,9 +1827,7 @@
       "icon": {
         "id": "immersiveengineering:armor_faraday_chest",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1916,7 +1838,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1931,30 +1853,22 @@
         {
           "id": "immersiveengineering:armor_faraday_head",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:armor_faraday_chest",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:armor_faraday_legs",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:armor_faraday_feet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1978,7 +1892,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2020,7 +1934,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 65
               },
               "required": 65
@@ -2066,7 +1980,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 15
               },
               "required": 15
@@ -2112,7 +2026,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -2146,12 +2060,6 @@
       "x": 220,
       "y": 174,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 3,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:railgun",
         "Count": 1
       },
@@ -2178,12 +2086,6 @@
       "reward": [],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 3,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:railgun",
           "Count": 1
         }
@@ -2197,15 +2099,9 @@
       "x": 132,
       "y": 113,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 5,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:buzzsaw",
         "Count": 1,
-        "tag": {}
+        "tag": "{}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2216,7 +2112,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2229,22 +2125,14 @@
       "reward": [],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 5,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:buzzsaw",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         },
         {
           "id": "immersiveengineering:sawblade",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2256,17 +2144,9 @@
       "x": 272,
       "y": 143,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 8,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:speedloader",
         "Count": 1,
-        "tag": {
-          "bullets": []
-        }
+        "tag": "{bullets:[]}"
       },
       "tasks": [
         {
@@ -2274,7 +2154,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -2291,17 +2171,9 @@
           "Count": 1
         },
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 8,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:speedloader",
           "Count": 1,
-          "tag": {
-            "bullets": []
-          }
+          "tag": "{bullets:[]}"
         }
       ],
       "commandrewards": []
@@ -2315,9 +2187,7 @@
       "icon": {
         "id": "immersiveengineering:pickaxe_steel",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2328,7 +2198,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -2342,39 +2212,29 @@
         {
           "id": "immersiveengineering:hoe_steel",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
         {
           "id": "immersiveengineering:pickaxe_steel",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:shovel_steel",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:axe_steel",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:sword_steel",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2398,7 +2258,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 5
               },
               "required": 5
@@ -2441,28 +2301,28 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -2512,7 +2372,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -2558,7 +2418,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2592,17 +2452,9 @@
       "x": 219,
       "y": 142,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {
-            "Size": 21,
-            "Items": []
-          }
-        },
         "id": "immersiveengineering:revolver",
         "Count": 1,
-        "tag": {
-          "bullets": []
-        }
+        "tag": "{bullets:[]}"
       },
       "tasks": [
         {
@@ -2610,7 +2462,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2623,17 +2475,9 @@
       "reward": [],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 21,
-              "Items": []
-            }
-          },
           "id": "immersiveengineering:revolver",
           "Count": 1,
-          "tag": {
-            "bullets": []
-          }
+          "tag": "{bullets:[]}"
         },
         {
           "id": "immersiveengineering:toolupgrade_revolver_magazine",
@@ -2655,9 +2499,7 @@
       "icon": {
         "id": "immersiveengineering:blueprint",
         "Count": 1,
-        "tag": {
-          "blueprint": "bannerpatterns"
-        }
+        "tag": "{blueprint:\"bannerpatterns\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2668,7 +2510,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2683,30 +2525,22 @@
         {
           "id": "immersiveengineering:blueprint",
           "Count": 1,
-          "tag": {
-            "blueprint": "bannerpatterns"
-          }
+          "tag": "{blueprint:\"bannerpatterns\"}"
         },
         {
           "id": "immersiveengineering:blueprint",
           "Count": 1,
-          "tag": {
-            "blueprint": "bullet"
-          }
+          "tag": "{blueprint:\"bullet\"}"
         },
         {
           "id": "immersiveengineering:blueprint",
           "Count": 1,
-          "tag": {
-            "blueprint": "components"
-          }
+          "tag": "{blueprint:\"components\"}"
         },
         {
           "id": "immersiveengineering:blueprint",
           "Count": 1,
-          "tag": {
-            "blueprint": "molds"
-          }
+          "tag": "{blueprint:\"molds\"}"
         }
       ],
       "commandrewards": []
@@ -2730,7 +2564,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 7
               },
               "required": 7
@@ -2770,9 +2604,7 @@
       "icon": {
         "id": "immersiveengineering:armor_steel_chest",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2783,7 +2615,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40
@@ -2798,30 +2630,22 @@
         {
           "id": "immersiveengineering:armor_steel_head",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:armor_steel_chest",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:armor_steel_legs",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "immersiveengineering:armor_steel_feet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2845,7 +2669,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -2887,7 +2711,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2937,7 +2761,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40

@@ -10,9 +10,7 @@
       "icon": {
         "id": "gunswithoutroses:iron_gun",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -23,7 +21,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -37,9 +35,7 @@
         {
           "id": "gunswithoutroses:iron_gun",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [],
@@ -54,7 +50,7 @@
       "icon": {
         "id": "gunswithoutroses:hunger_bullet",
         "Count": 1,
-        "tag": {}
+        "tag": "{}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -65,28 +61,28 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -101,7 +97,7 @@
         {
           "id": "gunswithoutroses:hunger_bullet",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "commandrewards": []
@@ -115,9 +111,7 @@
       "icon": {
         "id": "gunswithoutroses:diamond_gatling",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -128,14 +122,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -149,9 +143,7 @@
         {
           "id": "gunswithoutroses:diamond_gatling",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [],
@@ -166,9 +158,7 @@
       "icon": {
         "id": "gunswithoutroses:diamond_shotgun",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -179,14 +169,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -201,16 +191,12 @@
         {
           "id": "gunswithoutroses:diamond_shotgun",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "gunswithoutroses:diamond_sniper",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -236,7 +222,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -276,7 +262,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -313,9 +299,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -351,9 +335,7 @@
       "icon": {
         "id": "gunswithoutroses:gold_gun",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -364,7 +346,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -378,9 +360,7 @@
         {
           "id": "gunswithoutroses:gold_gun",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [],

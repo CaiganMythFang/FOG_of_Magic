@@ -32,7 +32,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 15
         }
       ],
@@ -61,7 +61,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25

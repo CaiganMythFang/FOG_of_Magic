@@ -32,7 +32,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 15
         }
       ],
@@ -58,7 +58,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 15
               },
               "required": 15
@@ -84,9 +84,6 @@
       "x": 76,
       "y": 49,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {}
-        },
         "id": "projecte:divining_rod_3",
         "Count": 1
       },
@@ -110,9 +107,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "ForgeCaps": {
-            "Parent": {}
-          },
           "id": "projecte:divining_rod_3",
           "Count": 1
         }
@@ -139,7 +133,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -203,9 +197,6 @@
       "x": 23,
       "y": 49,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {}
-        },
         "id": "projecte:divining_rod_1",
         "Count": 1
       },
@@ -218,7 +209,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -230,9 +221,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "ForgeCaps": {
-            "Parent": {}
-          },
           "id": "projecte:divining_rod_1",
           "Count": 1
         }
@@ -247,9 +235,6 @@
       "x": 49,
       "y": 49,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {}
-        },
         "id": "projecte:divining_rod_2",
         "Count": 1
       },
@@ -262,14 +247,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -281,9 +266,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "ForgeCaps": {
-            "Parent": {}
-          },
           "id": "projecte:divining_rod_2",
           "Count": 1
         }

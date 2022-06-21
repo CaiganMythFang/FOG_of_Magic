@@ -2,6 +2,46 @@
   "name": "Electronics Depot",
   "quests": [
     {
+      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
+      "name": " Mining Helmet",
+      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
+      "x": 49,
+      "y": 20,
+      "icon": {
+        "id": "mining_helmet:mining_helmet",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 20
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mining_helmet:mining_helmet",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c76011ee-59c7-4c55-b30e-b5283135568f",
       "name": " Gadget Mod Table",
       "description": "    If you want to add modifications to your Mining Gadget, you will need this machine. ",
@@ -20,14 +60,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -41,50 +81,6 @@
         {
           "id": "mininggadgets:modificationtable",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "595564b8-c920-41f9-bc61-e4f144d232f6",
-      "name": " Mining Helmet",
-      "description": "    This mining helmet lights up the area around you as you walk around. Great for exploring caves with limited torches.",
-      "x": 49,
-      "y": 20,
-      "icon": {
-        "id": "mining_helmet:mining_helmet",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 20
-              },
-              "required": 20
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mining_helmet:mining_helmet",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
         }
       ],
       "rewardchoice": [],
@@ -148,7 +144,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -186,14 +182,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -242,14 +238,14 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -291,7 +287,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 35
               },
               "required": 35
@@ -343,7 +339,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -373,7 +369,7 @@
       "icon": {
         "id": "mininggadgets:mininggadget",
         "Count": 1,
-        "tag": {}
+        "tag": "{}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -391,14 +387,14 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -412,7 +408,7 @@
         {
           "id": "mininggadgets:mininggadget",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "rewardchoice": [],
@@ -437,14 +433,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -494,7 +490,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -532,7 +528,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -574,7 +570,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -612,7 +608,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40
@@ -649,9 +645,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -705,14 +699,14 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -761,7 +755,7 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -811,14 +805,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -872,14 +866,14 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -911,9 +905,7 @@
       "icon": {
         "id": "camera:camera",
         "Count": 1,
-        "tag": {
-          "active": 0
-        }
+        "tag": "{active:0b}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -924,7 +916,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -939,9 +931,7 @@
         {
           "id": "camera:camera",
           "Count": 1,
-          "tag": {
-            "active": 0
-          }
+          "tag": "{active:0b}"
         },
         {
           "id": "camera:image_frame",

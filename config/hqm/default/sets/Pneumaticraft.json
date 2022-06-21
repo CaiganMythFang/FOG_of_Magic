@@ -20,7 +20,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 65
               },
               "required": 65
@@ -70,7 +70,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -112,7 +112,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -152,9 +152,7 @@
       "icon": {
         "id": "patchouli:guide_book",
         "Count": 1,
-        "tag": {
-          "patchouli:book": "pneumaticcraft:book"
-        }
+        "tag": "{\"patchouli:book\":\"pneumaticcraft:book\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -165,7 +163,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -180,9 +178,7 @@
         {
           "id": "patchouli:guide_book",
           "Count": 1,
-          "tag": {
-            "patchouli:book": "pneumaticcraft:book"
-          }
+          "tag": "{\"patchouli:book\":\"pneumaticcraft:book\"}"
         },
         {
           "id": "pneumaticcraft:bandage",
@@ -238,9 +234,7 @@
       "icon": {
         "id": "pneumaticcraft:gun_ammo_ap",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -251,14 +245,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -273,16 +267,12 @@
         {
           "id": "pneumaticcraft:gun_ammo_weighted",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:gun_ammo_ap",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -306,7 +296,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 80
               },
               "required": 80
@@ -338,9 +328,7 @@
       "icon": {
         "id": "pneumaticcraft:gun_ammo",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -351,7 +339,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -365,65 +353,10 @@
         {
           "id": "pneumaticcraft:gun_ammo",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b21fc1f0-7d71-4a43-9ae4-8a66a2aa7060",
-      "name": " Upgrades 6",
-      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
-      "x": 301,
-      "y": 109,
-      "icon": {
-        "id": "pneumaticcraft:item_life_upgrade",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 100
-              },
-              "required": 100
-            },
-            {
-              "item": {
-                "id": "calemiutils:coin_dollar",
-                "Count": 40
-              },
-              "required": 40
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "pneumaticcraft:jumping_upgrade_1",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:item_life_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:search_upgrade",
-          "Count": 1
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -445,7 +378,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -467,6 +400,59 @@
         },
         {
           "id": "pneumaticcraft:volume_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b21fc1f0-7d71-4a43-9ae4-8a66a2aa7060",
+      "name": " Upgrades 6",
+      "description": "    Upgrades are placed into various Pneumaticraft tools, machines, and equipment to improve them.",
+      "x": 301,
+      "y": 109,
+      "icon": {
+        "id": "pneumaticcraft:item_life_upgrade",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 100
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "calemiutils:coin_platinum",
+                "Count": 40
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:jumping_upgrade_1",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:item_life_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:search_upgrade",
           "Count": 1
         }
       ],
@@ -530,14 +516,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -569,9 +555,7 @@
       "icon": {
         "id": "pneumaticcraft:gun_ammo_explosive",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -582,7 +566,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -597,23 +581,17 @@
         {
           "id": "pneumaticcraft:gun_ammo_incendiary",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:gun_ammo_explosive",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:gun_ammo_freezing",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -637,7 +615,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 65
               },
               "required": 65
@@ -683,7 +661,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 30
               },
               "required": 30
@@ -725,7 +703,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -776,7 +754,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 12
               },
               "required": 12
@@ -826,7 +804,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -876,14 +854,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -933,14 +911,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -972,9 +950,7 @@
       "icon": {
         "id": "pneumaticcraft:pneumatic_chestplate",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -985,14 +961,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -1007,30 +983,22 @@
         {
           "id": "pneumaticcraft:pneumatic_helmet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:pneumatic_chestplate",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:pneumatic_leggings",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:pneumatic_boots",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1054,7 +1022,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -1096,14 +1064,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 60
               },
               "required": 60
@@ -1145,7 +1113,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1191,14 +1159,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -1236,7 +1204,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 65
               },
               "required": 65
@@ -1286,21 +1254,21 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1346,7 +1314,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1392,7 +1360,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 30
               },
               "required": 30
@@ -1438,7 +1406,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -1488,21 +1456,21 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1548,14 +1516,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1593,7 +1561,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 80
               },
               "required": 80
@@ -1616,12 +1584,7 @@
         {
           "id": "pneumaticcraft:micromissiles",
           "Count": 1,
-          "tag": {
-            "damage": 0,
-            "topSpeed": 0,
-            "Damage": 0,
-            "turnSpeed": 0
-          }
+          "tag": "{damage:0b,topSpeed:0b,turnSpeed:0b,Damage:0}"
         },
         {
           "id": "pneumaticcraft:transfer_gadget",
@@ -1649,7 +1612,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -1699,14 +1662,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40
@@ -1760,7 +1723,7 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1802,7 +1765,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 45
               },
               "required": 45
@@ -1852,7 +1815,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 85
               },
               "required": 85
@@ -1910,7 +1873,7 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -1948,21 +1911,21 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2000,7 +1963,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -2033,9 +1996,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -2081,7 +2042,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -2127,7 +2088,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2173,7 +2134,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -2230,14 +2191,14 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2275,7 +2236,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -2317,14 +2278,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2370,7 +2331,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 30
               },
               "required": 30
@@ -2451,7 +2412,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2501,14 +2462,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2556,7 +2517,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -2596,7 +2557,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2619,12 +2580,7 @@
         {
           "id": "pneumaticcraft:minigun",
           "Count": 1,
-          "tag": {
-            "soundCounter": -1,
-            "triggerTimeout": 0,
-            "speed": 0,
-            "activated": 0
-          }
+          "tag": "{soundCounter:-1b,triggerTimeout:0b,speed:0b,activated:0b}"
         },
         {
           "id": "pneumaticcraft:gps_tool",
@@ -2652,7 +2608,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 5
               },
               "required": 5
@@ -2694,14 +2650,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -2739,7 +2695,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2794,7 +2750,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2840,21 +2796,21 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2896,7 +2852,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2936,9 +2892,7 @@
       "icon": {
         "id": "pneumaticcraft:compressed_iron_chestplate",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2949,7 +2903,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2964,30 +2918,22 @@
         {
           "id": "pneumaticcraft:compressed_iron_helmet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:compressed_iron_chestplate",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:compressed_iron_leggings",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "pneumaticcraft:compressed_iron_boots",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []

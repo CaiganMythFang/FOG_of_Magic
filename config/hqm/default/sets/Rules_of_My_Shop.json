@@ -139,14 +139,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -210,10 +210,6 @@
       "description": "    Now, Kow is providing you some rewards for following her lessons right? Well, and selling her some stuff she requests, of course. That\u0027s all good.\n    But she generally will only make the offer good once. I, however, will always purchase things I list.\n    Most things I wish to purchase will be on the RIGHT side of the tablet, okay? For example, I\u0027ll always buy simple Sushi. ",
       "x": 189,
       "y": 16,
-      "icon": {
-        "id": "calemiutils:coin_penny",
-        "Count": 1
-      },
       "repeat": {
         "type": "INSTANT"
       },
@@ -235,7 +231,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 1
         }
       ],
@@ -263,7 +259,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -300,7 +296,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 1
               },
               "precision": "NBT_FUZZY"
@@ -314,7 +310,7 @@
         {
           "id": "calemiutils:wallet",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "rewardchoice": [],
@@ -341,7 +337,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -431,7 +427,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 5
         }
       ],
@@ -468,7 +464,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "calemiutils:coin_dollar",
+          "id": "calemiutils:coin_platinum",
           "Count": 100
         }
       ],
@@ -482,9 +478,6 @@
       "x": 118,
       "y": 124,
       "icon": {
-        "ForgeCaps": {
-          "Parent": {}
-        },
         "id": "projecte:klein_star_ein",
         "Count": 1
       },
@@ -511,9 +504,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "ForgeCaps": {
-            "Parent": {}
-          },
           "id": "projecte:klein_star_ein",
           "Count": 1
         }

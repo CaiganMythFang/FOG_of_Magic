@@ -10,12 +10,7 @@
       "icon": {
         "id": "computercraft:pocket_computer_normal",
         "Count": 1,
-        "tag": {
-          "Instanceid": 2,
-          "Upgrade": "computercraft:wireless_modem_normal",
-          "SessionId": 1575222759,
-          "ComputerId": 1
-        }
+        "tag": "{Instanceid:2b,Upgrade:\"computercraft:wireless_modem_normal\",SessionId:1575222759,ComputerId:1b}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -26,14 +21,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -48,22 +43,12 @@
         {
           "id": "computercraft:pocket_computer_normal",
           "Count": 1,
-          "tag": {
-            "Instanceid": 2,
-            "Upgrade": "computercraft:wireless_modem_normal",
-            "SessionId": 1575222759,
-            "ComputerId": 1
-          }
+          "tag": "{Instanceid:2b,Upgrade:\"computercraft:wireless_modem_normal\",SessionId:1575222759,ComputerId:1b}"
         },
         {
           "id": "computercraft:pocket_computer_normal",
           "Count": 1,
-          "tag": {
-            "Instanceid": 1,
-            "Upgrade": "computercraft:speaker",
-            "SessionId": 1575222759,
-            "ComputerId": 3
-          }
+          "tag": "{Instanceid:1b,Upgrade:\"computercraft:speaker\",SessionId:1575222759,ComputerId:3b}"
         }
       ],
       "commandrewards": []
@@ -77,11 +62,7 @@
       "icon": {
         "id": "computercraft:pocket_computer_advanced",
         "Count": 1,
-        "tag": {
-          "Instanceid": 3,
-          "SessionId": 1575222759,
-          "ComputerId": 4
-        }
+        "tag": "{Instanceid:3b,SessionId:1575222759,ComputerId:4b}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -93,21 +74,21 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -122,21 +103,12 @@
         {
           "id": "computercraft:pocket_computer_normal",
           "Count": 1,
-          "tag": {
-            "Instanceid": 4,
-            "Upgrade": "computercraft:wireless_modem_advanced",
-            "SessionId": 1575222759,
-            "ComputerId": 2
-          }
+          "tag": "{Instanceid:4b,Upgrade:\"computercraft:wireless_modem_advanced\",SessionId:1575222759,ComputerId:2b}"
         },
         {
           "id": "computercraft:pocket_computer_advanced",
           "Count": 1,
-          "tag": {
-            "Instanceid": 3,
-            "SessionId": 1575222759,
-            "ComputerId": 4
-          }
+          "tag": "{Instanceid:3b,SessionId:1575222759,ComputerId:4b}"
         },
         {
           "id": "computercraft:turtle_advanced",
@@ -154,9 +126,7 @@
       "icon": {
         "id": "computercraft:disk",
         "Count": 1,
-        "tag": {
-          "Color": 3368652
-        }
+        "tag": "{Color:3368652}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -167,7 +137,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -182,30 +152,22 @@
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 3368652
-          }
+          "tag": "{Color:3368652}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 11691749
-          }
+          "tag": "{Color:11691749}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 5020082
-          }
+          "tag": "{Color:5020082}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 10066329
-          }
+          "tag": "{Color:10066329}"
         }
       ],
       "commandrewards": []
@@ -219,12 +181,7 @@
       "icon": {
         "id": "computercraft:pocket_computer_advanced",
         "Count": 1,
-        "tag": {
-          "Instanceid": 7,
-          "Upgrade": "computercraft:wireless_modem_advanced",
-          "SessionId": 1575222759,
-          "ComputerId": 6
-        }
+        "tag": "{Instanceid:7b,Upgrade:\"computercraft:wireless_modem_advanced\",SessionId:1575222759,ComputerId:6b}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -251,19 +208,12 @@
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "computercraft:wireless_modem_advanced"
-          }
+          "tag": "{RightUpgrade:\"computercraft:wireless_modem_advanced\"}"
         },
         {
           "id": "computercraft:pocket_computer_advanced",
           "Count": 1,
-          "tag": {
-            "Instanceid": 7,
-            "Upgrade": "computercraft:wireless_modem_advanced",
-            "SessionId": 1575222759,
-            "ComputerId": 6
-          }
+          "tag": "{Instanceid:7b,Upgrade:\"computercraft:wireless_modem_advanced\",SessionId:1575222759,ComputerId:6b}"
         }
       ],
       "commandrewards": []
@@ -289,7 +239,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -319,9 +269,7 @@
       "icon": {
         "id": "computercraft:disk",
         "Count": 1,
-        "tag": {
-          "Color": 5000268
-        }
+        "tag": "{Color:5000268}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -332,7 +280,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -347,30 +295,22 @@
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 5000268
-          }
+          "tag": "{Color:5000268}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 15905484
-          }
+          "tag": "{Color:15905484}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 8375321
-          }
+          "tag": "{Color:8375321}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 14605932
-          }
+          "tag": "{Color:14605932}"
         }
       ],
       "commandrewards": []
@@ -384,9 +324,7 @@
       "icon": {
         "id": "computercraft:turtle_normal",
         "Count": 1,
-        "tag": {
-          "RightUpgrade": "minecraft:diamond_sword"
-        }
+        "tag": "{RightUpgrade:\"minecraft:diamond_sword\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -397,7 +335,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 88
               },
               "required": 600
@@ -412,23 +350,17 @@
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_sword"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_sword\"}"
         },
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_axe"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_axe\"}"
         },
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_pickaxe"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_pickaxe\"}"
         }
       ],
       "commandrewards": []
@@ -442,9 +374,7 @@
       "icon": {
         "id": "computercraft:turtle_advanced",
         "Count": 1,
-        "tag": {
-          "RightUpgrade": "minecraft:crafting_table"
-        }
+        "tag": "{RightUpgrade:\"minecraft:crafting_table\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -471,23 +401,17 @@
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_shovel"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_shovel\"}"
         },
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_hoe"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_hoe\"}"
         },
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:crafting_table"
-          }
+          "tag": "{RightUpgrade:\"minecraft:crafting_table\"}"
         }
       ],
       "commandrewards": []
@@ -501,9 +425,7 @@
       "icon": {
         "id": "computercraft:disk",
         "Count": 1,
-        "tag": {
-          "Color": 10072818
-        }
+        "tag": "{Color:10072818}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -514,7 +436,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -529,30 +451,22 @@
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 10072818
-          }
+          "tag": "{Color:10072818}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 15040472
-          }
+          "tag": "{Color:15040472}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 15905331
-          }
+          "tag": "{Color:15905331}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 15790320
-          }
+          "tag": "{Color:15790320}"
         }
       ],
       "commandrewards": []
@@ -576,7 +490,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -617,9 +531,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -655,9 +567,7 @@
       "icon": {
         "id": "computercraft:disk",
         "Count": 1,
-        "tag": {
-          "Color": 1118481
-        }
+        "tag": "{Color:1118481}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -668,7 +578,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -683,30 +593,22 @@
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 1118481
-          }
+          "tag": "{Color:1118481}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 13388876
-          }
+          "tag": "{Color:13388876}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 5744206
-          }
+          "tag": "{Color:5744206}"
         },
         {
           "id": "computercraft:disk",
           "Count": 1,
-          "tag": {
-            "Color": 8349260
-          }
+          "tag": "{Color:8349260}"
         }
       ],
       "commandrewards": []
@@ -720,9 +622,7 @@
       "icon": {
         "id": "computercraft:turtle_normal",
         "Count": 1,
-        "tag": {
-          "RightUpgrade": "minecraft:crafting_table"
-        }
+        "tag": "{RightUpgrade:\"minecraft:crafting_table\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -733,7 +633,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 88
               },
               "required": 600
@@ -748,23 +648,17 @@
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_shovel"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_shovel\"}"
         },
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_hoe"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_hoe\"}"
         },
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:crafting_table"
-          }
+          "tag": "{RightUpgrade:\"minecraft:crafting_table\"}"
         }
       ],
       "commandrewards": []
@@ -788,7 +682,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -835,7 +729,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 44
               },
               "required": 300
@@ -875,9 +769,7 @@
       "icon": {
         "id": "computercraft:turtle_advanced",
         "Count": 1,
-        "tag": {
-          "RightUpgrade": "computercraft:speaker"
-        }
+        "tag": "{RightUpgrade:\"computercraft:speaker\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -896,14 +788,14 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -918,36 +810,22 @@
         {
           "id": "computercraft:pocket_computer_advanced",
           "Count": 1,
-          "tag": {
-            "Instanceid": 5,
-            "Upgrade": "computercraft:speaker",
-            "SessionId": 1575222759,
-            "ComputerId": 8
-          }
+          "tag": "{Instanceid:5b,Upgrade:\"computercraft:speaker\",SessionId:1575222759,ComputerId:8b}"
         },
         {
           "id": "computercraft:pocket_computer_advanced",
           "Count": 1,
-          "tag": {
-            "Instanceid": 6,
-            "Upgrade": "computercraft:wireless_modem_normal",
-            "SessionId": 1575222759,
-            "ComputerId": 5
-          }
+          "tag": "{Instanceid:6b,Upgrade:\"computercraft:wireless_modem_normal\",SessionId:1575222759,ComputerId:5b}"
         },
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "computercraft:speaker"
-          }
+          "tag": "{RightUpgrade:\"computercraft:speaker\"}"
         },
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "computercraft:wireless_modem_normal"
-          }
+          "tag": "{RightUpgrade:\"computercraft:wireless_modem_normal\"}"
         }
       ],
       "commandrewards": []
@@ -961,9 +839,7 @@
       "icon": {
         "id": "computercraft:turtle_normal",
         "Count": 1,
-        "tag": {
-          "RightUpgrade": "computercraft:wireless_modem_normal"
-        }
+        "tag": "{RightUpgrade:\"computercraft:wireless_modem_normal\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -975,14 +851,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -997,32 +873,22 @@
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "computercraft:speaker"
-          }
+          "tag": "{RightUpgrade:\"computercraft:speaker\"}"
         },
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "computercraft:wireless_modem_advanced"
-          }
+          "tag": "{RightUpgrade:\"computercraft:wireless_modem_advanced\"}"
         },
         {
           "id": "computercraft:turtle_normal",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "computercraft:wireless_modem_normal"
-          }
+          "tag": "{RightUpgrade:\"computercraft:wireless_modem_normal\"}"
         },
         {
           "id": "computercraft:pocket_computer_normal",
           "Count": 1,
-          "tag": {
-            "Instanceid": 0,
-            "SessionId": 1575222759,
-            "ComputerId": 0
-          }
+          "tag": "{Instanceid:0b,SessionId:1575222759,ComputerId:0b}"
         }
       ],
       "commandrewards": []
@@ -1036,9 +902,7 @@
       "icon": {
         "id": "computercraft:turtle_advanced",
         "Count": 1,
-        "tag": {
-          "RightUpgrade": "minecraft:diamond_sword"
-        }
+        "tag": "{RightUpgrade:\"minecraft:diamond_sword\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1065,23 +929,17 @@
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_sword"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_sword\"}"
         },
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_axe"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_axe\"}"
         },
         {
           "id": "computercraft:turtle_advanced",
           "Count": 1,
-          "tag": {
-            "RightUpgrade": "minecraft:diamond_pickaxe"
-          }
+          "tag": "{RightUpgrade:\"minecraft:diamond_pickaxe\"}"
         }
       ],
       "commandrewards": []
@@ -1105,7 +963,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100

@@ -22,7 +22,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -52,15 +52,7 @@
       "icon": {
         "id": "buildinggadgets:gadget_building",
         "Count": 1,
-        "tag": {
-          "state": {
-            "serializer": "buildinggadgets:dummy_serializer",
-            "state": {
-              "Name": "minecraft:air"
-            },
-            "data": {}
-          }
-        }
+        "tag": "{state:{data:{},serializer:\"buildinggadgets:dummy_serializer\",state:{Name:\"minecraft:air\"}}}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -72,7 +64,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -87,28 +79,12 @@
         {
           "id": "buildinggadgets:gadget_building",
           "Count": 1,
-          "tag": {
-            "state": {
-              "serializer": "buildinggadgets:dummy_serializer",
-              "state": {
-                "Name": "minecraft:air"
-              },
-              "data": {}
-            }
-          }
+          "tag": "{state:{data:{},serializer:\"buildinggadgets:dummy_serializer\",state:{Name:\"minecraft:air\"}}}"
         },
         {
           "id": "buildinggadgets:gadget_exchanging",
           "Count": 1,
-          "tag": {
-            "state": {
-              "serializer": "buildinggadgets:dummy_serializer",
-              "state": {
-                "Name": "minecraft:air"
-              },
-              "data": {}
-            }
-          }
+          "tag": "{state:{data:{},serializer:\"buildinggadgets:dummy_serializer\",state:{Name:\"minecraft:air\"}}}"
         }
       ],
       "commandrewards": []
@@ -122,15 +98,7 @@
       "icon": {
         "id": "buildinggadgets:gadget_copy_paste",
         "Count": 1,
-        "tag": {
-          "mode": 0,
-          "template_id": [
-            1319745652,
-            -1912585197,
-            -1553290696,
-            53675072
-          ]
-        }
+        "tag": "{mode:0b,template_id:[I;1319745652,-1912585197,-1553290696,53675072]}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -141,7 +109,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -156,23 +124,12 @@
         {
           "id": "buildinggadgets:gadget_copy_paste",
           "Count": 1,
-          "tag": {
-            "mode": 0,
-            "template_id": [
-              1319745652,
-              -1912585197,
-              -1553290696,
-              53675072
-            ]
-          }
+          "tag": "{mode:0b,template_id:[I;1319745652,-1912585197,-1553290696,53675072]}"
         },
         {
           "id": "buildinggadgets:gadget_destruction",
           "Count": 1,
-          "tag": {
-            "overlay": 1,
-            "fuzzy": 1
-          }
+          "tag": "{overlay:1b,fuzzy:1b}"
         },
         {
           "id": "buildinggadgets:construction_paste_container_t1",
@@ -195,9 +152,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -242,7 +197,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -292,28 +247,28 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100

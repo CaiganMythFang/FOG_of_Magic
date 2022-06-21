@@ -10,9 +10,7 @@
       "icon": {
         "id": "patchouli:guide_book",
         "Count": 1,
-        "tag": {
-          "patchouli:book": "cyclic:cyclic_guide_book"
-        }
+        "tag": "{\"patchouli:book\":\"cyclic:cyclic_guide_book\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -23,7 +21,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 5
               },
               "required": 5
@@ -37,9 +35,7 @@
         {
           "id": "patchouli:guide_book",
           "Count": 1,
-          "tag": {
-            "patchouli:book": "cyclic:cyclic_guide_book"
-          }
+          "tag": "{\"patchouli:book\":\"cyclic:cyclic_guide_book\"}"
         }
       ],
       "rewardchoice": [],
@@ -65,14 +61,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -86,7 +82,7 @@
         {
           "id": "cyclic:location",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "rewardchoice": [
@@ -128,7 +124,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -178,7 +174,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -229,14 +225,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -250,7 +246,7 @@
         {
           "id": "cyclic:settings_data",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "rewardchoice": [
@@ -300,7 +296,7 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -342,7 +338,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40
@@ -356,7 +352,7 @@
         {
           "id": "cyclic:lever_remote",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "rewardchoice": [
@@ -384,7 +380,7 @@
       "icon": {
         "id": "cyclic:shape_data",
         "Count": 1,
-        "tag": {}
+        "tag": "{}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -396,14 +392,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -417,12 +413,12 @@
         {
           "id": "cyclic:location",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         },
         {
           "id": "cyclic:location",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "rewardchoice": [
@@ -437,7 +433,7 @@
         {
           "id": "cyclic:shape_data",
           "Count": 10,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "commandrewards": []
@@ -462,14 +458,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -509,7 +505,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 10
               },
               "required": 10
@@ -549,7 +545,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -589,9 +585,7 @@
       "icon": {
         "id": "cyclic:build_scepter",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -603,14 +597,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -625,30 +619,22 @@
         {
           "id": "cyclic:build_scepter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:replace_scepter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:offset_scepter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:randomize_scepter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -673,14 +659,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -727,7 +713,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 119
               },
               "required": 375
@@ -777,7 +763,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 40
               },
               "required": 40
@@ -789,24 +775,16 @@
       "optionlinks": [],
       "reward": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 9,
-              "Items": []
-            }
-          },
           "id": "cyclic:filter_data",
           "Count": 1,
-          "tag": {
-            "itemCount": 0
-          }
+          "tag": "{itemCount:0b}"
         }
       ],
       "rewardchoice": [
         {
           "id": "cyclic:cable_wrench",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         },
         {
           "id": "cyclic:item_pipe",
@@ -843,14 +821,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -896,7 +874,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -941,9 +919,7 @@
       "icon": {
         "id": "cyclic:glowing_helmet",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -955,14 +931,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -976,9 +952,7 @@
         {
           "id": "cyclic:glowing_helmet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [],
@@ -1004,28 +978,28 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1065,9 +1039,7 @@
       "icon": {
         "id": "cyclic:boomerang_stun",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1078,7 +1050,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -1093,16 +1065,12 @@
         {
           "id": "cyclic:boomerang_stun",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:boomerang_damage",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1116,9 +1084,7 @@
       "icon": {
         "id": "cyclic:spelunker",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1130,14 +1096,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1152,9 +1118,7 @@
         {
           "id": "cyclic:spelunker",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:spawner_seeker",
@@ -1163,16 +1127,12 @@
         {
           "id": "cyclic:ender_eye_reuse",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:antigravity",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1196,7 +1156,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -1232,9 +1192,7 @@
       "icon": {
         "id": "cyclic:torch_launcher",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1245,7 +1203,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -1260,23 +1218,17 @@
         {
           "id": "cyclic:torch_launcher",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:charm_torch",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:charm_torch_cave",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1300,7 +1252,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 124
               },
               "required": 1000
@@ -1332,9 +1284,7 @@
       "icon": {
         "id": "cyclic:scythe_harvest",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1345,7 +1295,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 35
               },
               "required": 35
@@ -1359,39 +1309,29 @@
         {
           "id": "cyclic:shears_flint",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
         {
           "id": "cyclic:scythe_harvest",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:scythe_brush",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:scythe_leaves",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:shears_obsidian",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1415,7 +1355,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 20
               },
               "required": 20
@@ -1429,7 +1369,7 @@
         {
           "id": "cyclic:location",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         }
       ],
       "rewardchoice": [
@@ -1471,7 +1411,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 75
               },
               "required": 75
@@ -1517,7 +1457,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 25
               },
               "required": 25
@@ -1537,28 +1477,18 @@
         {
           "id": "cyclic:sleeping_mat",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:stirrups",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:tile_transporter_empty",
           "Count": 1
         },
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 9,
-              "Items": []
-            }
-          },
           "id": "cyclic:crafting_bag",
           "Count": 1
         }
@@ -1574,7 +1504,7 @@
       "icon": {
         "id": "cyclic:glove_climb",
         "Count": 1,
-        "tag": {}
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1585,7 +1515,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -1600,28 +1530,22 @@
         {
           "id": "cyclic:mattock",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:scythe_forage",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:boomerang_carry",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:glove_climb",
           "Count": 1,
-          "tag": {}
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1645,7 +1569,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 15
               },
               "required": 15
@@ -1682,9 +1606,7 @@
       "icon": {
         "id": "botania:king_key",
         "Count": 1,
-        "tag": {
-          "soulbindUUID": "5bd0a231-15f4-487f-b1fc-dc88153152aa"
-        }
+        "tag": "{soulbindUUID:\"5bd0a231-15f4-487f-b1fc-dc88153152aa\"}"
       },
       "tasks": [
         {
@@ -1730,7 +1652,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -1744,9 +1666,7 @@
         {
           "id": "cyclic:wrench",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
@@ -1757,16 +1677,12 @@
         {
           "id": "cyclic:charm_world",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:charm_home",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:eye_teleport",
@@ -1784,9 +1700,7 @@
       "icon": {
         "id": "cyclic:crystal_chestplate",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1813,30 +1727,22 @@
         {
           "id": "cyclic:crystal_leggings",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:crystal_chestplate",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:crystal_helmet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:crystal_boots",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1850,9 +1756,7 @@
       "icon": {
         "id": "cyclic:charm_void",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -1863,7 +1767,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 19
               },
               "required": 275
@@ -1878,30 +1782,22 @@
         {
           "id": "cyclic:charm_wither",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:charm_antidote",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:charm_fire",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:charm_void",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -1925,7 +1821,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 60
               },
               "required": 60
@@ -2004,9 +1900,7 @@
       "icon": {
         "id": "cyclic:ender_pearl_reuse",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2017,7 +1911,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 125
               },
               "required": 125
@@ -2032,30 +1926,22 @@
         {
           "id": "cyclic:elevation_wand",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:teleport_wand",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:ender_pearl_reuse",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:ender_pearl_mounted",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2069,9 +1955,7 @@
       "icon": {
         "id": "cyclic:ice_scepter",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2098,30 +1982,22 @@
         {
           "id": "cyclic:ice_scepter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:fire_scepter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:lightning_scepter",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:evoker_fang",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2135,9 +2011,7 @@
       "icon": {
         "id": "cyclic:antimatter_wand",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2149,14 +2023,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2170,30 +2044,24 @@
         {
           "id": "cyclic:flippers",
           "Count": 1,
-          "tag": {}
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
         {
           "id": "cyclic:spell_water",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:spell_ice",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:antimatter_wand",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2218,14 +2086,14 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 50
               },
               "required": 50
@@ -2238,15 +2106,9 @@
       "reward": [],
       "rewardchoice": [
         {
-          "ForgeCaps": {
-            "Parent": {
-              "Size": 81,
-              "Items": []
-            }
-          },
           "id": "cyclic:storage_bag",
           "Count": 1,
-          "tag": {}
+          "tag": "{}"
         },
         {
           "id": "cyclic:magic_net",
@@ -2264,9 +2126,7 @@
       "icon": {
         "id": "cyclic:emerald_chestplate",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2285,7 +2145,7 @@
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2300,30 +2160,22 @@
         {
           "id": "cyclic:emerald_helmet",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:emerald_boots",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:emerald_chestplate",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:emerald_leggings",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2337,9 +2189,7 @@
       "icon": {
         "id": "cyclic:charm_ultimate",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2365,9 +2215,7 @@
         {
           "id": "cyclic:charm_ultimate",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [],
@@ -2382,9 +2230,7 @@
       "icon": {
         "id": "cyclic:emerald_pickaxe",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2395,7 +2241,7 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 80
               },
               "required": 80
@@ -2409,39 +2255,29 @@
         {
           "id": "cyclic:emerald_hoe",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
         {
           "id": "cyclic:emerald_shovel",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:emerald_axe",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:emerald_pickaxe",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:emerald_sword",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
@@ -2455,9 +2291,7 @@
       "icon": {
         "id": "cyclic:crystal_pickaxe",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -2469,21 +2303,21 @@
           "items": [
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
             },
             {
               "item": {
-                "id": "calemiutils:coin_dollar",
+                "id": "calemiutils:coin_platinum",
                 "Count": 100
               },
               "required": 100
@@ -2497,39 +2331,29 @@
         {
           "id": "cyclic:crystal_hoe",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
         {
           "id": "cyclic:crystal_sword",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:crystal_pickaxe",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:crystal_axe",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         },
         {
           "id": "cyclic:crystal_shovel",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "commandrewards": []
