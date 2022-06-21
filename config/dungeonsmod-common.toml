@@ -38,6 +38,16 @@
 		[items.activations.unstable_map]
 			Enable = true
 
+	[items.legendary]
+		#Range: 1 ~ 100
+		"Crown Armor Durability Factor" = 13
+		"Crown Gold Armor Values (Boots, Leggins, Chestplate, Crown), only the last value is used" = [1, 3, 5, 1]
+		#Range: 1 ~ 100
+		"Crawler Armor Durability Factor" = 60
+		"Crawler Armor Values (Boots, Leggins, Chestplate, Helmet)" = [3, 5, 8, 2]
+		#Range: 7.0 ~ 1000.0
+		"Void Tome Damage" = 8.0
+
 [mobs]
 
 	[mobs.rogue]
@@ -121,6 +131,8 @@
 		"Blacklisted Biomes" = ["minecraft:modified_jungle_edge"]
 
 [structures]
+	#Center Structures on Biomes (Could lead to incompatibilities with other mods)
+	"Center On Biomes" = false
 
 	[structures.the_ship]
 		#Range: > 0
@@ -270,7 +282,7 @@
 
 [traveler]
 	#Traveler does not spawn in this radius if theres another traveler near
-	#Range: 0 ~ 256
+	#Range: 0 ~ 1024
 	"The One radius" = 10
 
 [bosses]
@@ -312,4 +324,9 @@
 	"Lord Skeleton Invocation" = true
 	#Enable Winter Hunter invocation
 	"Winter Hunter Invocation" = true
+
+[loot]
+	#Chance in % that have the bosses to drop legendary items
+	#Range: 0.0 ~ 100.0
+	"Legendary %" = 33.0
 

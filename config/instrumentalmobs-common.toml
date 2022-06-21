@@ -9,4 +9,7 @@
 	#The area in which the instruments react with mobs. [default: 10.0D]
 	#Range: 0.01 ~ 128.0
 	instrumentRange = 10.0
+	#The chance of instrument dropping from a mob holding one [default: 0.5D]
+	#Range: 0.0 ~ 1.0
+	instrumentDropChance = 0.5
 

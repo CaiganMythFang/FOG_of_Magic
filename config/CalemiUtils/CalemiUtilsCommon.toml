@@ -1,10 +1,4 @@
 
-[Tooltips]
-	#Show Controls On Tooltips
-	showControlsOnTooltips = true
-	#Show Information On Tooltips
-	showInfoOnTooltips = true
-
 [WorldGen]
 	#Raritanium Ore Gen
 	raritaniumOreGen = true
@@ -17,23 +11,7 @@
 	#Raritanium Vein Size
 	raritaniumVeinSize = 8
 
-[BlockScans]
-	#Vein Scan Max Size
-	#The Vein Scan is a system used by Blueprints, Scaffolds and Networks.
-	#It scans for blocks in a chain. The max size is how many chains will occur. Lower values run faster on servers.
-	#2304 is the maximum count of blocks in a single Player inventory. There is no real reason to set it above, but the option is there
-	#Range: 0 ~ 5000
-	veinScanMaxSize = 2304
-	#Brush Max Size
-	#0 to Disable. The max size of blocks the Brush can place. Lower values run faster on servers.
-	#Range: 0 ~ 20000
-	worldEditMaxSize = 5000
-
 [Economy]
-	#Trading Post Currency Capacity
-	#The max amount of currency the Trading Post can store.
-	#Range: 0 ~ 99999999
-	postCurrencyCapacity = 1000000
 	#Rich Money Bag Minimum Coins Amount
 	#The minimum of the random amount of currency the Rich Money Bag gives.
 	#Range: 0 ~ 10000
@@ -97,4 +75,16 @@
 	#The max amount of Blueprint the Blueprint Filler can scan.
 	#Range: 1 ~ 1000000
 	blueprintFillerMaxScan = 100000
+
+["Link Book"]
+	#Link Book Travel
+	#Enable this allow traveling via Link Book or Link Portal.
+	linkBookTravel = true
+	#Link Book Portable Travel
+	#Enable this allow traveling via Link Book while in hand.
+	linkBookPortableTravel = true
+	#Link Book Travel Cost Per Chunk
+	#The cost per chunk when traveling with via Link Book or Link Portal. Set value to 0 for free travel.
+	#Range: 0.0 ~ 10000.0
+	linkBookTravelCostPerChunk = 1.0
 
