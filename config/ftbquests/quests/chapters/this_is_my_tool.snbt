@@ -1,2769 +1,2761 @@
 {
-	id: "46F7AC63C25A26DB",
-	group: "",
-	order_index: 13,
-	filename: "this_is_my_tool",
-	title: "This Is My Tool",
+	id: "46F7AC63C25A26DB"
+	group: ""
+	order_index: 13
+	filename: "this_is_my_tool"
+	title: "This Is My Tool"
 	icon: {
-		id: "silentgear:sickle",
-		Count: 1b,
+		id: "silentgear:sickle"
+		Count: 1b
 		tag: {
 			SGear_UUID: [I;
-				425626701,
-				-1120974976,
-				-1911710992,
+				425626701
+				-1120974976
+				-1911710992
 				-269488770
-			],
-			Damage: 0,
+			]
+			Damage: 0
 			SGear_Data: {
 				Construction: {
-					IsExample: 1b,
+					IsExample: 1b
 					Parts: [
 						{
 							Item: {
-								id: "silentgear:sickle_blade",
-								Count: 1b,
+								id: "silentgear:sickle_blade"
+								Count: 1b
 								tag: {
 									Materials: [
 										{
 											Item: {
-												id: "silents_mechanisms:compressed_iron_ingot",
+												id: "silents_mechanisms:compressed_iron_ingot"
 												Count: 1b
-											},
+											}
 											ID: "silentgear:compressed_iron"
-										},
+										}
 										{
 											Item: {
-												id: "iceandfire:amythest_gem",
+												id: "iceandfire:amythest_gem"
 												Count: 1b
-											},
+											}
 											ID: "silentgems:amethyst"
-										},
+										}
 										{
 											Item: {
-												id: "silentgems:heliodor",
+												id: "silentgems:heliodor"
 												Count: 1b
-											},
+											}
 											ID: "silentgems:heliodor"
 										}
 									]
 								}
-							},
+							}
 							ID: "silentgear:sickle_blade"
-						},
+						}
 						{
 							Item: {
-								id: "silentgear:rod",
-								Count: 1b,
+								id: "silentgear:rod"
+								Count: 1b
 								tag: {
 									Materials: [{
 										Item: {
-											id: "minecraft:air",
-											Count: 1b,
+											id: "minecraft:air"
+											Count: 1b
 											tag: {
 												Damage: 0
 											}
-										},
+										}
 										ID: "silentgear:end_rod"
 									}]
 								}
-							},
+							}
 							ID: "silentgear:rod"
-						},
+						}
 						{
 							Item: {
-								id: "silentgear:tip",
-								Count: 1b,
+								id: "silentgear:tip"
+								Count: 1b
 								tag: {
 									Materials: [{
 										Item: {
-											id: "silentgear:crimson_iron_ingot",
+											id: "silentgear:crimson_iron_ingot"
 											Count: 1b
-										},
+										}
 										ID: "silentgear:crimson_iron"
 									}]
 								}
-							},
+							}
 							ID: "silentgear:tip"
 						}
 					]
-				},
+				}
 				Properties: {
-					ModVersion: "2.6.5+225",
+					ModVersion: "2.6.5+225"
 					Stats: {
-						"silentgear:enchantability": 13.637701f,
-						"silentgear:harvest_speed": 15.356957f,
-						"silentgems:chargeability": 0.9733527f,
-						"silentgear:harvest_level": 3.0f,
-						"silentgear:durability": 1363.9956f,
-						"silentgear:melee_damage": 7.961544f,
-						"silentgear:magic_damage": 1.5609455f,
-						"silentgear:attack_speed": -1.922654f,
-						"silentgear:rarity": 48.99638f,
+						"silentgear:enchantability": 13.637701f
+						"silentgear:harvest_speed": 15.356957f
+						"silentgems:chargeability": 0.9733527f
+						"silentgear:harvest_level": 3.0f
+						"silentgear:durability": 1363.9956f
+						"silentgear:melee_damage": 7.961544f
+						"silentgear:magic_damage": 1.5609455f
+						"silentgear:attack_speed": -1.922654f
+						"silentgear:rarity": 48.99638f
 						"silentgear:repair_efficiency": 1.0f
-					},
-					LockStats: 0b,
+					}
+					LockStats: 0b
 					Traits: [
 						{
-							Level: 2b,
+							Level: 2b
 							Name: "silentgear:hard"
-						},
+						}
 						{
-							Level: 1b,
+							Level: 1b
 							Name: "silentgems:imperial"
-						},
+						}
 						{
-							Level: 1b,
+							Level: 1b
 							Name: "silentgear:lucky"
-						},
+						}
 						{
-							Level: 1b,
+							Level: 1b
 							Name: "silentgear:brittle"
-						},
+						}
 						{
-							Level: 1b,
+							Level: 1b
 							Name: "silentgear:chipping"
-						},
+						}
 						{
-							Level: 2b,
+							Level: 2b
 							Name: "silentgear:flexible"
-						},
+						}
 						{
-							Level: 1b,
+							Level: 1b
 							Name: "silentgear:refractive"
 						}
 					]
-				},
+				}
 				Rendering: {
 					ModelKey: "sickle:sickle_blade{compressed_iron,silentgems:amethyst,silentgems:heliodor},rod{end_rod},tip{crimson_iron},"
 				}
 			}
 		}
-	},
-	default_quest_shape: "",
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "There Are Many Like It",
+			title: "There Are Many Like It"
 			icon: {
-				id: "silentgear:katana",
-				Count: 1b,
+				id: "silentgear:katana"
+				Count: 1b
 				tag: {
 					SGear_UUID: [I;
-						-344872040,
-						-1798946791,
-						-1083879973,
+						-344872040
+						-1798946791
+						-1083879973
 						1216981250
-					],
-					Damage: 0,
+					]
+					Damage: 0
 					SGear_Data: {
 						Construction: {
 							Parts: [
 								{
 									Item: {
-										id: "silentgear:katana_blade",
-										Count: 1b,
+										id: "silentgear:katana_blade"
+										Count: 1b
 										tag: {
 											Materials: [
 												{
 													Item: {
-														id: "silentgems:amethyst",
+														id: "silentgems:amethyst"
 														Count: 1b
-													},
+													}
 													ID: "silentgems:amethyst"
-												},
+												}
 												{
 													Item: {
-														id: "silentgems:amethyst",
+														id: "silentgems:amethyst"
 														Count: 1b
-													},
+													}
 													ID: "silentgems:amethyst"
-												},
+												}
 												{
 													Item: {
-														id: "silentgems:amethyst",
+														id: "silentgems:amethyst"
 														Count: 1b
-													},
+													}
 													ID: "silentgems:amethyst"
 												}
 											]
 										}
-									},
+									}
 									ID: "silentgear:katana_blade"
-								},
+								}
 								{
 									Item: {
-										id: "silentgear:rod",
-										Count: 1b,
+										id: "silentgear:rod"
+										Count: 1b
 										tag: {
 											Materials: [{
 												Item: {
-													id: "minecraft:iron_ingot",
+													id: "minecraft:iron_ingot"
 													Count: 1b
-												},
+												}
 												ID: "silentgear:iron"
 											}]
 										}
-									},
+									}
 									ID: "silentgear:rod"
 								}
 							]
-						},
+						}
 						Properties: {
-							ModVersion: "2.6.5+225",
+							ModVersion: "2.6.5+225"
 							Stats: {
-								"silentgear:enchantability": 8.799999f,
-								"silentgear:harvest_speed": 8.999999f,
-								"silentgems:chargeability": 1.3f,
-								"silentgear:harvest_level": 2.0f,
-								"silentgear:durability": 471.04f,
-								"silentgear:magic_damage": 3.0f,
-								"silentgear:melee_damage": 5.3f,
-								"silentgear:rarity": 25.857864f,
-								"silentgear:attack_speed": -2.3f,
+								"silentgear:enchantability": 8.799999f
+								"silentgear:harvest_speed": 8.999999f
+								"silentgems:chargeability": 1.3f
+								"silentgear:harvest_level": 2.0f
+								"silentgear:durability": 471.04f
+								"silentgear:magic_damage": 3.0f
+								"silentgear:melee_damage": 5.3f
+								"silentgear:rarity": 25.857864f
+								"silentgear:attack_speed": -2.3f
 								"silentgear:repair_efficiency": 0.75f
-							},
-							LockStats: 0b,
+							}
+							LockStats: 0b
 							Traits: [
 								{
-									Level: 1b,
+									Level: 1b
 									Name: "silentgems:imperial"
-								},
+								}
 								{
-									Level: 2b,
+									Level: 2b
 									Name: "silentgear:lucky"
-								},
+								}
 								{
-									Level: 2b,
+									Level: 2b
 									Name: "silentgear:brittle"
-								},
+								}
 								{
-									Level: 3b,
+									Level: 3b
 									Name: "silentgear:magnetic"
 								}
 							]
-						},
+						}
 						Rendering: {
 							ModelKey: "katana:katana_blade{silentgems:amethyst,silentgems:amethyst,silentgems:amethyst},rod{iron},"
 						}
 					}
 				}
-			},
-			x: 0.0d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dMods: Silent's Gear, Silent's Gems, Dragon Gear, Mana Gear",
+			}
+			x: 0.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dMods: Silent's Gear, Silent's Gems, Dragon Gear, Mana Gear"
 			description: [
-				"&dTraveler, this next lesson is going to be a bit of a doozy.",
-				"",
-				"I mean, some stuff I've learned from you is already pretty heavy.",
-				"",
-				"&dA fair point, but this lesson is a bit more... open ended. It is over a simple, yet complex, area of knowledge called Silent's Gear. With it, you can craft custom tools, weapons, and more.",
-				"",
-				"&dGet yourself some Blueprint paper to start with. This will be important. Meanwhile, you can convert your normal Vanilla tools to the Silent's system by crafting them alone. Try it with a Stone Pickaxe.",
-				"",
+				"&dTraveler, this next lesson is going to be a bit of a doozy."
+				""
+				"I mean, some stuff I've learned from you is already pretty heavy."
+				""
+				"&dA fair point, but this lesson is a bit more... open ended. It is over a simple, yet complex, area of knowledge called Silent's Gear. With it, you can craft custom tools, weapons, and more."
+				""
+				"&dGet yourself some Blueprint paper to start with. This will be important. Meanwhile, you can convert your normal Vanilla tools to the Silent's system by crafting them alone. Try it with a Stone Pickaxe."
+				""
 				"&dEven better, use the converted Pickaxe a bit, then put it in your Crafting Grid with some Cobblestone to easily repair it."
-			],
-			dependencies: ["0000000000000025"],
-			id: "39755936A1D50EB2",
+			]
+			dependencies: ["0000000000000025"]
+			id: "39755936A1D50EB2"
 			tasks: [
 				{
-					id: "0805A4D9AA42459C",
-					type: "item",
+					id: "0805A4D9AA42459C"
+					type: "item"
 					item: "silentgear:blueprint_paper"
-				},
+				}
 				{
-					id: "18FFF0AD61F40460",
-					type: "item",
-					title: "Silent's Pickaxe",
+					id: "18FFF0AD61F40460"
+					type: "item"
+					title: "Silent's Pickaxe"
 					icon: {
-						id: "silentgear:pickaxe",
-						Count: 1b,
+						id: "silentgear:pickaxe"
+						Count: 1b
 						tag: {
 							SGear_UUID: [I;
-								622498744,
-								2003454724,
-								-1104183381,
+								622498744
+								2003454724
+								-1104183381
 								-162070841
-							],
-							Damage: 0,
+							]
+							Damage: 0
 							SGear_Data: {
 								Construction: {
 									Parts: [
 										{
 											Item: {
-												id: "silentgear:pickaxe_head",
-												Count: 1b,
+												id: "silentgear:pickaxe_head"
+												Count: 1b
 												tag: {
 													Materials: [{
 														ID: "silentgear:stone"
 													}]
 												}
-											},
+											}
 											ID: "silentgear:pickaxe_head"
-										},
+										}
 										{
 											Item: {
-												id: "silentgear:rod",
-												Count: 1b,
+												id: "silentgear:rod"
+												Count: 1b
 												tag: {
 													Materials: [{
 														ID: "silentgear:wood"
 													}]
 												}
-											},
+											}
 											ID: "silentgear:rod"
 										}
 									]
-								},
+								}
 								Properties: {
-									ModVersion: "2.6.5+225",
+									ModVersion: "2.6.5+225"
 									Stats: {
-										"silentgear:enchantability": 5.5f,
-										"silentgear:harvest_speed": 4.0f,
-										"silentgems:chargeability": 0.5f,
-										"silentgear:harvest_level": 1.0f,
-										"silentgear:durability": 131.0f,
-										"silentgear:melee_damage": 2.0f,
-										"silentgear:magic_damage": 0.0f,
-										"silentgear:attack_speed": -2.8f,
-										"silentgear:rarity": 2.757359f,
+										"silentgear:enchantability": 5.5f
+										"silentgear:harvest_speed": 4.0f
+										"silentgems:chargeability": 0.5f
+										"silentgear:harvest_level": 1.0f
+										"silentgear:durability": 131.0f
+										"silentgear:melee_damage": 2.0f
+										"silentgear:magic_damage": 0.0f
+										"silentgear:attack_speed": -2.8f
+										"silentgear:rarity": 2.757359f
 										"silentgear:repair_efficiency": 1.0f
-									},
-									LockStats: 0b,
+									}
+									LockStats: 0b
 									Traits: [
 										{
-											Level: 1b,
+											Level: 1b
 											Name: "silentgear:ancient"
-										},
+										}
 										{
-											Level: 1b,
+											Level: 1b
 											Name: "silentgear:flexible"
 										}
 									]
-								},
+								}
 								Rendering: {
 									ModelKey: "pickaxe:pickaxe_head{stone},rod{wood},"
 								}
 							}
 						}
-					},
+					}
 					item: {
-						id: "silentgear:pickaxe",
-						Count: 1b,
+						id: "silentgear:pickaxe"
+						Count: 1b
 						tag: {
-							Damage: 0,
+							Damage: 0
 							SGear_Data: {
-								Construction: {},
-								Properties: {},
-								Rendering: {}
+								Construction: { }
+								Properties: { }
+								Rendering: { }
 							}
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "3FD7A78BA62FB9D8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3FD7A78BA62FB9D8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Field Repairs",
+			title: "Field Repairs"
 			icon: {
-				id: "silentgear:crude_repair_kit",
-				Count: 1b,
+				id: "silentgear:crude_repair_kit"
+				Count: 1b
 				tag: {
-					Storage: {}
+					Storage: { }
 				}
-			},
-			x: 0.0d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dKeeping Tip Top Shape",
+			}
+			x: 0.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dKeeping Tip Top Shape"
 			description: [
-				"With the variety of materials I can make Silent's Gear with, I don't really have the space for all the repair materials as well.",
-				"",
-				"So a good solution is to carry with me some Repair Kits. Each one can be crafted with the piece of Silent's Gear to repair it.",
-				"",
-				"First though, I need to fill the repair kit with suitable material by crafting the two together. When repairing Gear, the repair kit should be filled with the same or higher Tier of material, or it won't work.  Better repair kits hold more, as well as repair more materials.",
-				"",
-				"And are, of course, more efficient at repairs. ",
-				"",
+				"With the variety of materials I can make Silent's Gear with, I don't really have the space for all the repair materials as well."
+				""
+				"So a good solution is to carry with me some Repair Kits. Each one can be crafted with the piece of Silent's Gear to repair it."
+				""
+				"First though, I need to fill the repair kit with suitable material by crafting the two together. When repairing Gear, the repair kit should be filled with the same or higher Tier of material, or it won't work.  Better repair kits hold more, as well as repair more materials."
+				""
+				"And are, of course, more efficient at repairs. "
+				""
 				"&dIf you need to, Traveler, you can craft any Repair Kit with a wood stick to empty it."
-			],
-			dependencies: ["39755936A1D50EB2"],
-			id: "70D1490AA241F000",
+			]
+			dependencies: ["39755936A1D50EB2"]
+			id: "70D1490AA241F000"
 			tasks: [{
-				id: "0277FEC3485AECDF",
-				type: "item",
+				id: "0277FEC3485AECDF"
+				type: "item"
 				item: {
-					id: "silentgear:crude_repair_kit",
-					Count: 1b,
+					id: "silentgear:crude_repair_kit"
+					Count: 1b
 					tag: {
-						Storage: {}
+						Storage: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "5293FC53DB2ECC00",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5293FC53DB2ECC00"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Instructions for Success",
+			title: "Instructions for Success"
 			icon: {
-				id: "silentgear:blueprint_book",
-				Count: 1b,
+				id: "silentgear:blueprint_book"
+				Count: 1b
 				tag: {
-					Inventory: {}
+					Inventory: { }
 				}
-			},
-			x: 0.0d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dClean Guidelines",
+			}
+			x: 0.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dClean Guidelines"
 			description: [
-				"To properly start in making Silent's Gear (instead of converting simple tools), I'll need a Blueprint.",
-				"",
-				"There are LOTS of blueprints for all sorts of things. The first things I should make, though, are a Knife Blueprint, and... a knife!",
-				"",
-				"With this, I can turn Logs into Template boards, which I'll need for a few things. Like a...",
-				"",
-				"&dYou should make a Blueprint Book, Traveler, BEFORE your inventory becomes hard to manage.",
-				"",
-				"I was getting to that! But yeah, I can Right Click while holding the Blueprint Book to open it, and place all the Blueprints inside. Then Ctrl + Click one to select it.",
-				"",
+				"To properly start in making Silent's Gear (instead of converting simple tools), I'll need a Blueprint."
+				""
+				"There are LOTS of blueprints for all sorts of things. The first things I should make, though, are a Knife Blueprint, and... a knife!"
+				""
+				"With this, I can turn Logs into Template boards, which I'll need for a few things. Like a..."
+				""
+				"&dYou should make a Blueprint Book, Traveler, BEFORE your inventory becomes hard to manage."
+				""
+				"I was getting to that! But yeah, I can Right Click while holding the Blueprint Book to open it, and place all the Blueprints inside. Then Ctrl + Click one to select it."
+				""
 				"Then I can craft the Gear like it was a normal Blueprint!"
-			],
-			dependencies: ["39755936A1D50EB2"],
-			id: "1339B70B2638F579",
+			]
+			dependencies: ["39755936A1D50EB2"]
+			id: "1339B70B2638F579"
 			tasks: [
 				{
-					id: "41FAD9B9CDBA1626",
-					type: "item",
+					id: "41FAD9B9CDBA1626"
+					type: "item"
 					item: "silentgear:knife_blueprint"
-				},
+				}
 				{
-					id: "5EEF989797C835E6",
-					type: "item",
-					title: "Any Silent's Knife",
+					id: "5EEF989797C835E6"
+					type: "item"
+					title: "Any Silent's Knife"
 					icon: {
-						id: "silentgear:knife",
-						Count: 1b,
+						id: "silentgear:knife"
+						Count: 1b
 						tag: {
 							SGear_UUID: [I;
-								1218511128,
-								-687519454,
-								-1157848617,
+								1218511128
+								-687519454
+								-1157848617
 								-649711206
-							],
-							Damage: 0,
+							]
+							Damage: 0
 							SGear_Data: {
 								Construction: {
 									Parts: [
 										{
 											Item: {
-												id: "silentgear:knife_blade",
-												Count: 1b,
+												id: "silentgear:knife_blade"
+												Count: 1b
 												tag: {
 													Materials: [{
 														Item: {
-															id: "silentgems:moonstone",
+															id: "silentgems:moonstone"
 															Count: 1b
-														},
+														}
 														ID: "silentgems:moonstone"
 													}]
 												}
-											},
+											}
 											ID: "silentgear:knife_blade"
-										},
+										}
 										{
 											Item: {
-												id: "silentgear:rod",
-												Count: 1b,
+												id: "silentgear:rod"
+												Count: 1b
 												tag: {
 													Materials: [{
 														Item: {
-															id: "create:granite_cobblestone",
+															id: "create:granite_cobblestone"
 															Count: 1b
-														},
+														}
 														ID: "silentgear:stone"
 													}]
 												}
-											},
+											}
 											ID: "silentgear:rod"
 										}
 									]
-								},
+								}
 								Properties: {
-									ModVersion: "2.6.5+225",
+									ModVersion: "2.6.5+225"
 									Stats: {
-										"silentgear:enchantability": 20.0f,
-										"silentgear:harvest_speed": 9.6f,
-										"silentgems:chargeability": 1.1f,
-										"silentgear:harvest_level": 2.0f,
-										"silentgear:durability": 864.0f,
-										"silentgear:melee_damage": 2.5f,
-										"silentgear:magic_damage": 3.0f,
-										"silentgear:attack_speed": -1.8000001f,
-										"silentgear:rarity": 27.188816f,
+										"silentgear:enchantability": 20.0f
+										"silentgear:harvest_speed": 9.6f
+										"silentgems:chargeability": 1.1f
+										"silentgear:harvest_level": 2.0f
+										"silentgear:durability": 864.0f
+										"silentgear:melee_damage": 2.5f
+										"silentgear:magic_damage": 3.0f
+										"silentgear:attack_speed": -1.8000001f
+										"silentgear:rarity": 27.188816f
 										"silentgear:repair_efficiency": 2.0f
-									},
-									LockStats: 0b,
+									}
+									LockStats: 0b
 									Traits: [
 										{
-											Level: 4b,
+											Level: 4b
 											Name: "silentgems:luna"
-										},
+										}
 										{
-											Level: 2b,
+											Level: 2b
 											Name: "silentgear:brittle"
-										},
+										}
 										{
-											Level: 2b,
+											Level: 2b
 											Name: "silentgear:crushing"
 										}
 									]
-								},
+								}
 								Rendering: {
 									ModelKey: "knife:knife_blade{silentgems:moonstone},rod{stone},"
 								}
 							}
 						}
-					},
+					}
 					item: {
-						id: "silentgear:knife",
-						Count: 1b,
+						id: "silentgear:knife"
+						Count: 1b
 						tag: {
-							Damage: 0,
+							Damage: 0
 							SGear_Data: {
-								Construction: {},
-								Properties: {},
-								Rendering: {}
+								Construction: { }
+								Properties: { }
+								Rendering: { }
 							}
 						}
 					}
-				},
+				}
 				{
-					id: "19230E4D5E39A873",
-					type: "item",
+					id: "19230E4D5E39A873"
+					type: "item"
 					item: "silentgear:template_board"
-				},
+				}
 				{
-					id: "6FDF5A81EEDC467B",
-					type: "item",
+					id: "6FDF5A81EEDC467B"
+					type: "item"
 					item: "silentgear:blueprint_book"
 				}
-			],
+			]
 			rewards: [{
-				id: "3A70ECD69A4997CF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3A70ECD69A4997CF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "One Blueprint, Multiple Paths",
-			icon: "silentgear:pickaxe_blueprint",
-			x: 1.5d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dMany ways to skin...wait...",
+			title: "One Blueprint, Multiple Paths"
+			icon: "silentgear:pickaxe_blueprint"
+			x: 1.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dMany ways to skin...wait..."
 			description: [
-				"Okay, now that I have some blueprints, I can focus on making Gear.",
-				"",
-				"Many blueprints allow me to make the item as a whole, or the main component. I can press U while highlighting the blueprint in my inventory to see what I can make.",
-				"",
-				"Since I use Pickaxes a whole lot, it's a good idea to use the best materials I can for it. Metals, gems, etc. And making it with different materials is a great idea.",
-				"",
-				"Though I have to remember, the mining level of the pickaxe is dependant on the main material of the pickaxe head.",
-				"",
+				"Okay, now that I have some blueprints, I can focus on making Gear."
+				""
+				"Many blueprints allow me to make the item as a whole, or the main component. I can press U while highlighting the blueprint in my inventory to see what I can make."
+				""
+				"Since I use Pickaxes a whole lot, it's a good idea to use the best materials I can for it. Metals, gems, etc. And making it with different materials is a great idea."
+				""
+				"Though I have to remember, the mining level of the pickaxe is dependant on the main material of the pickaxe head."
+				""
 				"The TOP LEFT most material I put in the Crafting Grid is the Main Material, which has the biggest effect on stats as well!"
-			],
-			dependencies: ["1339B70B2638F579"],
-			id: "590AC602C8D2AC1D",
+			]
+			dependencies: ["1339B70B2638F579"]
+			id: "590AC602C8D2AC1D"
 			tasks: [
 				{
-					id: "49D62ED8732C19BF",
-					type: "item",
+					id: "49D62ED8732C19BF"
+					type: "item"
 					item: "silentgear:pickaxe_blueprint"
-				},
+				}
 				{
-					id: "665DB2BF6B9725A7",
-					type: "item",
+					id: "665DB2BF6B9725A7"
+					type: "item"
 					item: "silentgear:rod_blueprint"
-				},
+				}
 				{
-					id: "48A2C48F8851051C",
-					type: "item",
-					title: "Any Silent's Pickaxe Head",
+					id: "48A2C48F8851051C"
+					type: "item"
+					title: "Any Silent's Pickaxe Head"
 					icon: {
-						id: "silentgear:pickaxe_head",
-						Count: 1b,
+						id: "silentgear:pickaxe_head"
+						Count: 1b
 						tag: {
-							CraftedCount: 1,
+							CraftedCount: 1
 							Materials: [
 								{
 									Item: {
-										id: "silentgems:euclase",
+										id: "silentgems:euclase"
 										Count: 1b
-									},
+									}
 									ID: "silentgems:euclase"
-								},
+								}
 								{
 									Item: {
-										id: "silentgems:euclase",
+										id: "silentgems:euclase"
 										Count: 1b
-									},
+									}
 									ID: "silentgems:euclase"
-								},
+								}
 								{
 									Item: {
-										id: "silentgems:euclase",
+										id: "silentgems:euclase"
 										Count: 1b
-									},
+									}
 									ID: "silentgems:euclase"
 								}
 							]
 						}
-					},
-					item: {
-						id: "silentgear:pickaxe_head",
-						Count: 1b,
-						tag: {}
 					}
-				},
-				{
-					id: "31DE8FB327FE49A0",
-					type: "item",
-					title: "Any Silent's Tool Rod",
-					icon: {
-						id: "silentgear:rod",
-						Count: 1b,
-						tag: {
-							CraftedCount: 4,
-							Materials: [
-								{
-									Item: {
-										id: "iceandfire:silver_ingot",
-										Count: 1b
-									},
-									ID: "silentgear:silver"
-								},
-								{
-									Item: {
-										id: "iceandfire:silver_ingot",
-										Count: 1b
-									},
-									ID: "silentgear:silver"
-								}
-							]
-						}
-					},
 					item: {
-						id: "silentgear:rod",
-						Count: 1b,
-						tag: {}
+						id: "silentgear:pickaxe_head"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+				{
+					id: "31DE8FB327FE49A0"
+					type: "item"
+					title: "Any Silent's Tool Rod"
+					icon: {
+						id: "silentgear:rod"
+						Count: 1b
+						tag: {
+							CraftedCount: 4
+							Materials: [
+								{
+									Item: {
+										id: "iceandfire:silver_ingot"
+										Count: 1b
+									}
+									ID: "silentgear:silver"
+								}
+								{
+									Item: {
+										id: "iceandfire:silver_ingot"
+										Count: 1b
+									}
+									ID: "silentgear:silver"
+								}
+							]
+						}
+					}
+					item: {
+						id: "silentgear:rod"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 			rewards: [{
-				id: "4A1CC47EAA453817",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4A1CC47EAA453817"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Stepping Up",
-			icon: "silentgear:tip_blueprint",
-			x: 0.75d,
-			y: 3.0d,
-			shape: "square",
-			subtitle: "&dLittle Upgrades",
+			title: "Stepping Up"
+			icon: "silentgear:tip_blueprint"
+			x: 0.75d
+			y: 3.0d
+			shape: "square"
+			subtitle: "&dLittle Upgrades"
 			description: [
-				"Hm, I don't quite have enough diamonds for a full pickaxe head, unfortunately...",
-				"",
-				"&dTraveler, why not use a Tip Upgrade?",
-				"",
-				"Hm?",
-				"",
+				"Hm, I don't quite have enough diamonds for a full pickaxe head, unfortunately..."
+				""
+				"&dTraveler, why not use a Tip Upgrade?"
+				""
+				"Hm?"
+				""
 				"&dA tip upgrade lets you improve the mining level of a pickaxe. Craft a Diamond Tip Upgrade, and combine it with your Silent's Pickaxe, will let it mine Obsidian level materials."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "39B45C7A70BE70EB",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "39B45C7A70BE70EB"
 			tasks: [{
-				id: "181B9848B25BC1E4",
-				type: "item",
+				id: "181B9848B25BC1E4"
+				type: "item"
 				item: "silentgear:tip_blueprint"
-			}],
+			}]
 			rewards: [{
-				id: "110B62E675A604F9",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "110B62E675A604F9"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Many Materials, Many Options",
-			icon: {
-				id: "minecraft:iron_ingot",
-				Count: 64b
-			},
-			x: 6.0d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dMakes Your Head Spin",
+			title: "Many Materials, Many Options"
+			icon: { id: "minecraft:iron_ingot", Count: 64b }
+			x: 6.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dMakes Your Head Spin"
 			description: [
-				"Okay, there are TONS of materials that I can make Silent's Gear out of. They all are good for something. Whether is cheap to find, strong, magical, or more.",
-				"",
-				"Many materials also have special traits.",
-				"",
-				"This is going to complex fast, so... I think I'll mark down interesting traits and some of the materials that have it.",
-				"",
-				"I will probably not list all the materials here, yeah?",
-				"",
-				"For example : Iron here is Magnetic, so items dropped by mining will move towards me.",
-				"",
+				"Okay, there are TONS of materials that I can make Silent's Gear out of. They all are good for something. Whether is cheap to find, strong, magical, or more."
+				""
+				"Many materials also have special traits."
+				""
+				"This is going to complex fast, so... I think I'll mark down interesting traits and some of the materials that have it."
+				""
+				"I will probably not list all the materials here, yeah?"
+				""
+				"For example : Iron here is Magnetic, so items dropped by mining will move towards me."
+				""
 				"OH! I have to remember! Many materials only give traits when used in certain parts! If I highlight an item in my inventory and use [ and ], I can see the stats and traits for each Gear part!"
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "274791BF806407C0",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "274791BF806407C0"
 			tasks: [{
-				id: "01427F61667860C9",
-				type: "item",
+				id: "01427F61667860C9"
+				type: "item"
 				item: "minecraft:iron_ingot"
-			}],
+			}]
 			rewards: [{
-				id: "0EECEA19545407DE",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0EECEA19545407DE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Light as a Feather",
-			icon: "silentgear:azure_silver_ingot",
-			x: 4.75d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dI prefer a thriller",
+			title: "Light as a Feather"
+			icon: "silentgear:azure_silver_ingot"
+			x: 4.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dI prefer a thriller"
 			description: [
-				"The Moonwalking trait, when on some kind of footwear, makes your own gravity much lighter, so you jump higher and fall slower.",
-				"",
-				"It can only be found on Azure Silver, which is found in The End. ",
-				"",
-				"Speaking of the moon, Kyanite and Iolite have the Stellar property, which also let you jump higher.",
-				"",
+				"The Moonwalking trait, when on some kind of footwear, makes your own gravity much lighter, so you jump higher and fall slower."
+				""
+				"It can only be found on Azure Silver, which is found in The End. "
+				""
+				"Speaking of the moon, Kyanite and Iolite have the Stellar property, which also let you jump higher."
+				""
 				"Kyanite can be found in the End, and Iolite in the Nether."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "061A48D7178373B0",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "061A48D7178373B0"
 			tasks: [
 				{
-					id: "128C83308F221C54",
-					type: "item",
+					id: "128C83308F221C54"
+					type: "item"
 					item: "silentgear:azure_silver_ingot"
-				},
+				}
 				{
-					id: "325E8511631DC473",
-					type: "item",
+					id: "325E8511631DC473"
+					type: "item"
 					item: "silentgems:iolite"
-				},
+				}
 				{
-					id: "19274FB2239F347A",
-					type: "item",
+					id: "19274FB2239F347A"
+					type: "item"
 					item: "silentgems:kyanite"
 				}
-			],
+			]
 			rewards: [{
-				id: "5E706BB94A5CC352",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5E706BB94A5CC352"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Faster",
-			icon: "silentgear:azure_electrum_ingot",
-			x: 3.5d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dAnd Faster",
+			title: "Faster"
+			icon: "silentgear:azure_electrum_ingot"
+			x: 3.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dAnd Faster"
 			description: [
-				"Azure Electrum is an alloy of Azure Silver, Gold, and Ender Pearls. It is a great material for both tools and armor.",
-				"",
-				"For tools, it has the Accelerate ability, which makes them faster the more damage they have.",
-				"",
-				"For armor, it has Light, which makes you move faster the more armor pieces that have the trait.",
-				"",
+				"Azure Electrum is an alloy of Azure Silver, Gold, and Ender Pearls. It is a great material for both tools and armor."
+				""
+				"For tools, it has the Accelerate ability, which makes them faster the more damage they have."
+				""
+				"For armor, it has Light, which makes you move faster the more armor pieces that have the trait."
+				""
 				"You can also find Light on Phantom Membranes, when you use it for armor lining."
-			],
-			dependencies: ["061A48D7178373B0"],
-			id: "27CCA4C73A8DA7D1",
+			]
+			dependencies: ["061A48D7178373B0"]
+			id: "27CCA4C73A8DA7D1"
 			tasks: [
 				{
-					id: "722C4E72A3E0A6BB",
-					type: "item",
+					id: "722C4E72A3E0A6BB"
+					type: "item"
 					item: "silentgear:azure_electrum_ingot"
-				},
+				}
 				{
-					id: "43C7AB7B5B98B3F8",
-					type: "item",
+					id: "43C7AB7B5B98B3F8"
+					type: "item"
 					item: "minecraft:phantom_membrane"
 				}
-			],
+			]
 			rewards: [{
-				id: "47D8D134ADDDEB2C",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "47D8D134ADDDEB2C"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Insistantly Versatile",
-			icon: "silentgems:tanzanite",
-			x: 6.0d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dStrong World Shaping",
+			title: "Insistantly Versatile"
+			icon: "silentgems:tanzanite"
+			x: 6.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dStrong World Shaping"
 			description: [
-				"Things like Tanzanite and Nickel have the Adamant trait, which do extra damage against creatures that have a lot of health. Great for fighting some of these big boss types for sure.",
-				"",
-				"The problem with Tanzanite is it is Brittle, which means it takes extra damage sometimes. Conversely, Nickel and other metals like Zinc have Malleable, which absorbs damage sometimes and helps the Gear last longer.",
-				"",
+				"Things like Tanzanite and Nickel have the Adamant trait, which do extra damage against creatures that have a lot of health. Great for fighting some of these big boss types for sure."
+				""
+				"The problem with Tanzanite is it is Brittle, which means it takes extra damage sometimes. Conversely, Nickel and other metals like Zinc have Malleable, which absorbs damage sometimes and helps the Gear last longer."
+				""
 				"Being Malleable is good, but tools should resist being Soft. Copper is a good example, the Soft trait slows the tool down the more damage it has."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "4C9C24B87D5B20A0",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "4C9C24B87D5B20A0"
 			tasks: [
 				{
-					id: "057D5F7F9052E6B4",
-					type: "item",
+					id: "057D5F7F9052E6B4"
+					type: "item"
 					item: "silentgems:tanzanite"
-				},
+				}
 				{
-					id: "4CCD27D391513D95",
-					type: "item",
+					id: "4CCD27D391513D95"
+					type: "item"
 					item: "silents_mechanisms:nickel_ingot"
-				},
+				}
 				{
-					id: "209C4CB4B9FBBF7E",
-					type: "item",
+					id: "209C4CB4B9FBBF7E"
+					type: "item"
 					item: "create:zinc_ingot"
-				},
+				}
 				{
-					id: "70D78B07ABE45B4C",
-					type: "item",
+					id: "70D78B07ABE45B4C"
+					type: "item"
 					item: "create:copper_ingot"
 				}
-			],
+			]
 			rewards: [{
-				id: "43F6C4AE06F3B972",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "43F6C4AE06F3B972"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Old and New",
-			icon: "silentgems:benitoite",
-			x: 6.0d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dBig and Small",
+			title: "Old and New"
+			icon: "silentgems:benitoite"
+			x: 6.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dBig and Small"
 			description: [
-				"Coral, an Overworld gem, has the Ancient trait, which is good for getting extra XP from mining and monster slaying. ",
-				"",
-				"While Cobblestone also has Ancient, it also has Crushing. This is both a good and a bad trait, depending on what I make with it. Weapons? Bad, it does less damage the more it's damaged. Armor? Good, it gets more protective the more it's damaged.",
-				"",
-				"The same trait is on Terracota, which isn't exactly super durable. It does, however, have Chipping, which does similar. The more damage a tool has, the faster it works. But Chipped armor protects you less.",
-				"",
+				"Coral, an Overworld gem, has the Ancient trait, which is good for getting extra XP from mining and monster slaying. "
+				""
+				"While Cobblestone also has Ancient, it also has Crushing. This is both a good and a bad trait, depending on what I make with it. Weapons? Bad, it does less damage the more it's damaged. Armor? Good, it gets more protective the more it's damaged."
+				""
+				"The same trait is on Terracota, which isn't exactly super durable. It does, however, have Chipping, which does similar. The more damage a tool has, the faster it works. But Chipped armor protects you less."
+				""
 				"Though, a better material to have Chipping on would be Benitoite, a Nether gem."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "3697182782DB1469",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "3697182782DB1469"
 			tasks: [
 				{
-					id: "456F850D8E396793",
-					type: "item",
+					id: "456F850D8E396793"
+					type: "item"
 					item: "silentgems:coral"
-				},
+				}
 				{
-					id: "0D85048DA80BC483",
-					type: "item",
+					id: "0D85048DA80BC483"
+					type: "item"
 					item: "minecraft:cobblestone"
-				},
+				}
 				{
-					id: "1F881A9ED91266E3",
-					type: "item",
+					id: "1F881A9ED91266E3"
+					type: "item"
 					item: "minecraft:terracotta"
-				},
+				}
 				{
-					id: "7E25D2C2C946D7C3",
-					type: "item",
+					id: "7E25D2C2C946D7C3"
+					type: "item"
 					item: "silentgems:benitoite"
 				}
-			],
+			]
 			rewards: [{
-				id: "6701EB1BF459113D",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6701EB1BF459113D"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Water Works",
-			icon: "astralsorcery:aquamarine",
-			x: 7.25d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dLike a Fish",
+			title: "Water Works"
+			icon: "astralsorcery:aquamarine"
+			x: 7.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dLike a Fish"
 			description: [
-				"Aquamarine has, surprise, the trait Aquatic. When you make a full armor set with Aquamarine, you can breath underwater.",
-				"",
-				"Prismarine Scales also have Aquatic, but if I use them for a Coating, I can get Swim Speed, making me move underwater faster.",
-				"",
-				"If I'm going to do some fighting under the water, I should make things out of Serpent Scales. Tide Guardian will increase the damage I do while submerged.",
-				"",
+				"Aquamarine has, surprise, the trait Aquatic. When you make a full armor set with Aquamarine, you can breath underwater."
+				""
+				"Prismarine Scales also have Aquatic, but if I use them for a Coating, I can get Swim Speed, making me move underwater faster."
+				""
+				"If I'm going to do some fighting under the water, I should make things out of Serpent Scales. Tide Guardian will increase the damage I do while submerged."
+				""
 				"Oh, and I guess if I don't want to make a full suit of Aquamarine, I could make a helmet out of Scute from Turtles. I get the Turtle trait, of course, which lets me hold my breath much longer. It's not breathing indefinitely, but it's close enough."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "3D4FE2960BF0AE62",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "3D4FE2960BF0AE62"
 			tasks: [
 				{
-					id: "67A394137B62DFB9",
-					type: "item",
+					id: "67A394137B62DFB9"
+					type: "item"
 					item: "astralsorcery:aquamarine"
-				},
+				}
 				{
-					id: "30D4D244EAECDD8B",
-					type: "item",
+					id: "30D4D244EAECDD8B"
+					type: "item"
 					item: "minecraft:prismarine_crystals"
-				},
+				}
 				{
-					id: "2CB277699270EE70",
-					type: "item",
-					title: "Any Serpent Scale",
+					id: "2CB277699270EE70"
+					type: "item"
+					title: "Any Serpent Scale"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "iafgear:serpent_scale"
 						}
 					}
-				},
+				}
 				{
-					id: "5EB7D2F672A131EB",
-					type: "item",
+					id: "5EB7D2F672A131EB"
+					type: "item"
 					item: "minecraft:scute"
 				}
-			],
+			]
 			rewards: [{
-				id: "2DCC6C3EABF44308",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "2DCC6C3EABF44308"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Protective",
-			icon: "minecraft:diamond",
-			x: 8.5d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dLike a Fortress",
+			title: "Protective"
+			icon: "minecraft:diamond"
+			x: 8.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dLike a Fortress"
 			description: [
-				"Diamond, when used as an Adornment, gives the Bastion trait. This increases the armor provided. But when used as the main material, it becomes Lustrous.",
-				"",
-				"Lustrous, also found in things like the Overworld gem Topaz, make tools that harvest faster in the light.",
-				"",
-				"Topaz also has the Refractive trait, same as Glowstone Dust, which causes temporary shiny lights to appear when I use the Gear. Great for protecting myself in dark caves.",
-				"",
+				"Diamond, when used as an Adornment, gives the Bastion trait. This increases the armor provided. But when used as the main material, it becomes Lustrous."
+				""
+				"Lustrous, also found in things like the Overworld gem Topaz, make tools that harvest faster in the light."
+				""
+				"Topaz also has the Refractive trait, same as Glowstone Dust, which causes temporary shiny lights to appear when I use the Gear. Great for protecting myself in dark caves."
+				""
 				"Oh, speaking of shiny! Glowstone and Blaze Gold both have the Brilliant trait. I'm not sure what it does, but Piglins sure like it."
-			],
-			dependencies: ["3D4FE2960BF0AE62"],
-			id: "344B6627FF3C6CD4",
+			]
+			dependencies: ["3D4FE2960BF0AE62"]
+			id: "344B6627FF3C6CD4"
 			tasks: [
 				{
-					id: "4BD5CA2465A9E8B4",
-					type: "item",
+					id: "4BD5CA2465A9E8B4"
+					type: "item"
 					item: "minecraft:diamond"
-				},
+				}
 				{
-					id: "725915043CBE6FBC",
-					type: "item",
+					id: "725915043CBE6FBC"
+					type: "item"
 					item: "silentgems:topaz"
-				},
+				}
 				{
-					id: "3F0B6FAB74187B3E",
-					type: "item",
+					id: "3F0B6FAB74187B3E"
+					type: "item"
 					item: "minecraft:glowstone_dust"
-				},
+				}
 				{
-					id: "6BE5AF619B7B33CD",
-					type: "item",
+					id: "6BE5AF619B7B33CD"
+					type: "item"
 					item: "silentgear:blaze_gold_ingot"
 				}
-			],
+			]
 			rewards: [{
-				id: "4CF0D5366ACAA39E",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4CF0D5366ACAA39E"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Chaos",
-			icon: "silentgems:chaos_crystal",
-			x: -2.5d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dNot Just For Emeralds",
+			title: "Chaos"
+			icon: "silentgems:chaos_crystal"
+			x: -2.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dNot Just For Emeralds"
 			description: [
-				"So, Chaos is an interesting thing I'll need to keep an eye on.",
-				"",
-				"Chaos is a natural thing in the world. Order, chaos. Us Travelers have our own chaos to us, that leaks out into the world.",
-				"",
-				"Usually, this isn't an issue, it stays pretty low as its regularly dissipating. But more can generate and gather, which can cause strange things like lightning on a sunny day.",
-				"",
-				"Chaos can solidify and be found underground as Chaos Crystals. These make powerful items, but also release Chaos into the air.",
-				"",
+				"So, Chaos is an interesting thing I'll need to keep an eye on."
+				""
+				"Chaos is a natural thing in the world. Order, chaos. Us Travelers have our own chaos to us, that leaks out into the world."
+				""
+				"Usually, this isn't an issue, it stays pretty low as its regularly dissipating. But more can generate and gather, which can cause strange things like lightning on a sunny day."
+				""
+				"Chaos can solidify and be found underground as Chaos Crystals. These make powerful items, but also release Chaos into the air."
+				""
 				"It would be good to carry a Chaos Orb of some sort with me to absorb Chaos and keep it to safe levels."
-			],
-			dependencies: ["1339B70B2638F579"],
-			id: "3558288C6C3FE6DC",
+			]
+			dependencies: ["1339B70B2638F579"]
+			id: "3558288C6C3FE6DC"
 			tasks: [
 				{
-					id: "72ED77330941A7E6",
-					type: "item",
+					id: "72ED77330941A7E6"
+					type: "item"
 					item: "silentgems:chaos_crystal"
-				},
+				}
 				{
-					id: "355C1AA4CB032BEC",
-					type: "item",
+					id: "355C1AA4CB032BEC"
+					type: "item"
 					item: {
-						id: "silentgems:fragile_chaos_orb",
-						Count: 1b,
+						id: "silentgems:fragile_chaos_orb"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "2933A69627C5745D",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "2933A69627C5745D"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Chaos and Synergy",
-			icon: "silentgems:citrine",
-			x: 7.25d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dA Delicate Balance",
+			title: "Chaos and Synergy"
+			icon: "silentgems:citrine"
+			x: 7.25d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dA Delicate Balance"
 			description: [
-				"Some powerful materials, like Chaos Iron and the Nether gem Citrine, have the Chaotic trait. This is a bit of a drawback, as I explain in my Chaos notes (though its also a boon, if I'm careful!). Using the Gear with Chaotic traits generates more Chaos.",
-				"",
-				"Speaking of a careful balance, Synergy is something else I should keep in mind. Again, my notes are elsewhere on this, but there are traits that hurt or help Synergy.",
-				"",
+				"Some powerful materials, like Chaos Iron and the Nether gem Citrine, have the Chaotic trait. This is a bit of a drawback, as I explain in my Chaos notes (though its also a boon, if I'm careful!). Using the Gear with Chaotic traits generates more Chaos."
+				""
+				"Speaking of a careful balance, Synergy is something else I should keep in mind. Again, my notes are elsewhere on this, but there are traits that hurt or help Synergy."
+				""
 				"Crude traits, like on the Rough rod, hurt Synergy. In opposite, Synergistic traits like on Emeralds, boost the Synergy of Gear."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "7043438E4B4945A3",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "7043438E4B4945A3"
 			tasks: [
 				{
-					id: "6B431D558DB1ABFF",
-					type: "item",
+					id: "6B431D558DB1ABFF"
+					type: "item"
 					item: "silentgems:chaos_iron_ingot"
-				},
+				}
 				{
-					id: "1D74987464054355",
-					type: "item",
+					id: "1D74987464054355"
+					type: "item"
 					item: "silentgems:citrine"
-				},
+				}
 				{
-					id: "2D9D0CF39159AD2F",
-					type: "item",
+					id: "2D9D0CF39159AD2F"
+					type: "item"
 					item: "silentgear:rough_rod"
-				},
+				}
 				{
-					id: "2236FE14EAF7EB0D",
-					type: "item",
+					id: "2236FE14EAF7EB0D"
+					type: "item"
 					item: "minecraft:emerald"
 				}
-			],
+			]
 			rewards: [{
-				id: "27688138CC61A2E8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "27688138CC61A2E8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "A Controlled Enchantment",
-			icon: "silentgems:blank_token",
-			x: -2.5d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dReward with a Risk",
+			title: "A Controlled Enchantment"
+			icon: "silentgems:blank_token"
+			x: -2.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dReward with a Risk"
 			description: [
-				"Silent's Gear provides a more...controlled way to enchant my tools, weapons, armor, etc. It is called Token Enchanting.",
-				"",
-				"First I'll need some Blank Tokens, and a Token Enchanter. I can then Left Click the arrow inside the Token Enchanter to see all the Tokens I can make, and what they require. ",
-				"",
-				"The Token I make can be crafted with the item I want toe Enchantment on. One token per crafting slot.",
-				"",
+				"Silent's Gear provides a more...controlled way to enchant my tools, weapons, armor, etc. It is called Token Enchanting."
+				""
+				"First I'll need some Blank Tokens, and a Token Enchanter. I can then Left Click the arrow inside the Token Enchanter to see all the Tokens I can make, and what they require. "
+				""
+				"The Token I make can be crafted with the item I want toe Enchantment on. One token per crafting slot."
+				""
 				"The downside, however, is each thing I craft in the Token Enchanter releases Chaos into the air."
-			],
-			dependencies: ["3558288C6C3FE6DC"],
-			id: "66D26F15D0EA947C",
+			]
+			dependencies: ["3558288C6C3FE6DC"]
+			id: "66D26F15D0EA947C"
 			tasks: [
 				{
-					id: "7DCBDB76F1809030",
-					type: "item",
+					id: "7DCBDB76F1809030"
+					type: "item"
 					item: "silentgems:blank_token"
-				},
+				}
 				{
-					id: "297EA31814A280A3",
-					type: "item",
+					id: "297EA31814A280A3"
+					type: "item"
 					item: "silentgems:token_enchanter"
 				}
-			],
+			]
 			rewards: [{
-				id: "5E2AA1482718CE73",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5E2AA1482718CE73"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Bort Bort Bort",
-			icon: "silentgear:bort",
-			x: 1.5d,
-			y: 0.0d,
-			shape: "square",
-			subtitle: "&dNot a misspelling",
+			title: "Bort Bort Bort"
+			icon: "silentgear:bort"
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "&dNot a misspelling"
 			description: [
-				"Bort is... a name. That's for sure. I didn't realize that was the name for non-gem grade Diamonds. The kind of thing you would use for drill tips and whatnot. ",
-				"",
-				"&dIt's such a weird name.",
-				"",
-				"Right? But yeah, it seems the magic of this place makes most Diamonds jewelery grade diamonds, which is very weird to me.",
-				"",
+				"Bort is... a name. That's for sure. I didn't realize that was the name for non-gem grade Diamonds. The kind of thing you would use for drill tips and whatnot. "
+				""
+				"&dIt's such a weird name."
+				""
+				"Right? But yeah, it seems the magic of this place makes most Diamonds jewelery grade diamonds, which is very weird to me."
+				""
 				"But hey, I can still find Bort. It's a little rarer, but has fewer uses. I can make a Gem Bag to hold all these gems I find, or use it for Adornments."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "19FF1BFB9243B175",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "19FF1BFB9243B175"
 			tasks: [
 				{
-					id: "36087AC326C81360",
-					type: "item",
+					id: "36087AC326C81360"
+					type: "item"
 					item: "silentgear:bort"
-				},
+				}
 				{
-					id: "183DA97CD2669AA0",
-					type: "item",
+					id: "183DA97CD2669AA0"
+					type: "item"
 					item: "silentgems:gem_bag"
 				}
-			],
+			]
 			rewards: [{
-				id: "4AD0F9C07729538C",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4AD0F9C07729538C"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "From A To B",
-			icon: "silentgems:tanzanite_teleporter",
-			x: -3.75d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dOr C to B, really",
+			title: "From A To B"
+			icon: "silentgems:tanzanite_teleporter"
+			x: -3.75d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dOr C to B, really"
 			description: [
-				"Teleporters are great ways to get around, though at a bit of a cost.",
-				"",
-				"There are two kinds of Teleporters: Normal and Redstone. The only difference is Redstone ones can teleport when given a Redstone signal, and teleport non-Travellers this way.",
-				"",
-				"To connect two Teleporters, I need to use a Teleport Linker. I can also make and link a Teleport Anchor if I want a Teleporter to only go one way. Handy!",
-				"",
+				"Teleporters are great ways to get around, though at a bit of a cost."
+				""
+				"There are two kinds of Teleporters: Normal and Redstone. The only difference is Redstone ones can teleport when given a Redstone signal, and teleport non-Travellers this way."
+				""
+				"To connect two Teleporters, I need to use a Teleport Linker. I can also make and link a Teleport Anchor if I want a Teleporter to only go one way. Handy!"
+				""
 				"The downside is, unless I'm teleporting fairly close, the process will generate Chaos. The longer the distance, the more Chaos."
-			],
-			dependencies: ["66D26F15D0EA947C"],
-			id: "324AC7C3BE67A48C",
+			]
+			dependencies: ["66D26F15D0EA947C"]
+			id: "324AC7C3BE67A48C"
 			tasks: [
 				{
-					id: "000D7B4AEF6137A4",
-					type: "item",
-					title: "Any Silent's Teleporter",
+					id: "000D7B4AEF6137A4"
+					type: "item"
+					title: "Any Silent's Teleporter"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "silentgems:teleporters"
 						}
 					}
-				},
+				}
 				{
-					id: "0B5BA8907CA24335",
-					type: "item",
-					title: "Any Silent's Return Home Charm",
+					id: "0B5BA8907CA24335"
+					type: "item"
+					title: "Any Silent's Return Home Charm"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "silentgems:return_home_charms"
 						}
 					}
-				},
+				}
 				{
-					id: "727C6348536DB253",
-					type: "item",
+					id: "727C6348536DB253"
+					type: "item"
 					item: "silentgems:teleporter_anchor"
-				},
+				}
 				{
-					id: "11B9B650B185B1D4",
-					type: "item",
+					id: "11B9B650B185B1D4"
+					type: "item"
 					item: {
-						id: "silentgems:teleporter_linker",
-						Count: 1b,
-						tag: {}
+						id: "silentgems:teleporter_linker"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "62A8DA653DBD5BF6",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "62A8DA653DBD5BF6"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Souls for the Soul",
+			title: "Souls for the Soul"
 			icon: {
-				id: "silentgems:soul_gem",
-				Count: 1b,
-				tag: {}
-			},
-			x: -2.5d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dA Unique Identity",
+				id: "silentgems:soul_gem"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dA Unique Identity"
 			description: [
-				"Souls are an interesting concept. But through my learning with Kow, I've found that... there isn't some solid definition for them.",
-				"",
-				"&dI mean there is, but...",
-				"",
-				"I mean when some wizard or priest talks about a Soul. They could THINK they are talking about the actual soul, but are actually talking about something else. Take Silent's Gear stuff, every creature has a chance of leaving behind their Soul when they die.",
-				"",
-				"But that Soul? Is more of a... concentration of magic. Each creature's soul has different magical properties, and they are different between Worlds.",
-				"",
+				"Souls are an interesting concept. But through my learning with Kow, I've found that... there isn't some solid definition for them."
+				""
+				"&dI mean there is, but..."
+				""
+				"I mean when some wizard or priest talks about a Soul. They could THINK they are talking about the actual soul, but are actually talking about something else. Take Silent's Gear stuff, every creature has a chance of leaving behind their Soul when they die."
+				""
+				"But that Soul? Is more of a... concentration of magic. Each creature's soul has different magical properties, and they are different between Worlds."
+				""
 				"I should collect all I can, honestly."
-			],
-			dependencies: ["1339B70B2638F579"],
-			id: "3C8FF11D4544213F",
+			]
+			dependencies: ["1339B70B2638F579"]
+			id: "3C8FF11D4544213F"
 			tasks: [{
-				id: "5841C3A71A9734F9",
-				type: "item",
+				id: "5841C3A71A9734F9"
+				type: "item"
 				item: {
-					id: "silentgems:soul_gem",
-					Count: 1b,
-					tag: {}
+					id: "silentgems:soul_gem"
+					Count: 1b
+					tag: { }
 				}
-			}],
+			}]
 			rewards: [{
-				id: "0ED391A133CA14D5",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0ED391A133CA14D5"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Soul Bound Gear",
+			title: "Soul Bound Gear"
 			icon: {
-				id: "silentgems:gear_soul",
-				Count: 1b,
+				id: "silentgems:gear_soul"
+				Count: 1b
 				tag: {
 					SG_GearSoul: {
-						skills: [],
-						xp: 0,
-						element1: "METAL",
-						level: 1,
+						skills: [ ]
+						xp: 0
+						element1: "METAL"
+						level: 1
 						element2: "FIRE"
 					}
 				}
-			},
-			x: -5.0d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dNot Bound Like You Think...",
+			}
+			x: -5.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dNot Bound Like You Think..."
 			description: [
-				"So, now that I've collected some different Silent's Souls, I should put them to use.",
-				"",
-				"I can craft a Soul Shell to start with, then combine 4 Silent's Souls with it. I should pay attention to the magical Properties of each Soul, and choose Souls that have things that I want or work together.",
-				"",
+				"So, now that I've collected some different Silent's Souls, I should put them to use."
+				""
+				"I can craft a Soul Shell to start with, then combine 4 Silent's Souls with it. I should pay attention to the magical Properties of each Soul, and choose Souls that have things that I want or work together."
+				""
 				"What I get from combining the Souls and the Shell is called a Gear Soul. I can add these to a Silent's Gear to augment it. Each Gear Soul levels up on its own, getting more powerful as the Gear gets used."
-			],
-			dependencies: ["3C8FF11D4544213F"],
-			id: "24F21304BAAC9E10",
+			]
+			dependencies: ["3C8FF11D4544213F"]
+			id: "24F21304BAAC9E10"
 			tasks: [
 				{
-					id: "46E4EF4122FCFD80",
-					type: "item",
+					id: "46E4EF4122FCFD80"
+					type: "item"
 					item: "silentgems:soul_shell"
-				},
+				}
 				{
-					id: "0203E8AE1E7B70FB",
-					type: "item",
+					id: "0203E8AE1E7B70FB"
+					type: "item"
 					item: {
-						id: "silentgems:gear_soul",
-						Count: 1b,
+						id: "silentgems:gear_soul"
+						Count: 1b
 						tag: {
-							SG_GearSoul: {}
+							SG_GearSoul: { }
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "73BDC1ED1469B487",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "73BDC1ED1469B487"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Soul Storage",
-			x: -5.0d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dCarrying Life",
+			title: "Soul Storage"
+			x: -5.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dCarrying Life"
 			description: [
-				"So, Souls can be used to create Soul Urns, neat little storage containers.",
-				"",
-				"&dAnd a tiny bit morbid, honestly.",
-				"",
-				"Yeah... I'll agree there. But they are still pretty neat.",
-				"",
-				"I can craft a Soul Urn alone to take the lid off of it before placing it out like a Chest. Any items that fall on top of it will stored inside it instead. And if I break the urn, it will keep all the items safely inside it.",
-				"",
+				"So, Souls can be used to create Soul Urns, neat little storage containers."
+				""
+				"&dAnd a tiny bit morbid, honestly."
+				""
+				"Yeah... I'll agree there. But they are still pretty neat."
+				""
+				"I can craft a Soul Urn alone to take the lid off of it before placing it out like a Chest. Any items that fall on top of it will stored inside it instead. And if I break the urn, it will keep all the items safely inside it."
+				""
 				"The gem displayed on the urn depends on which gem I make the urn with. I can also color the urn like I would Leather Armor : Combine it with 1 or more dyes in a crafting bench."
-			],
-			dependencies: ["3C8FF11D4544213F"],
-			id: "74BFB7AF147D9164",
+			]
+			dependencies: ["3C8FF11D4544213F"]
+			id: "74BFB7AF147D9164"
 			tasks: [{
-				id: "55857844A70BC81E",
-				type: "item",
+				id: "55857844A70BC81E"
+				type: "item"
 				item: {
-					id: "silentgems:soul_urn",
-					Count: 1b,
+					id: "silentgems:soul_urn"
+					Count: 1b
 					tag: {
-						BlockEntityTag: {}
+						BlockEntityTag: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "4FC5BC0765CAAF58",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4FC5BC0765CAAF58"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "A Better Urn",
-			icon: {
-				id: "silentgems:vacuum_urn_upgrade",
-				Count: 63b
-			},
-			x: -5.0d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dA strange thing to upgrade?",
+			title: "A Better Urn"
+			icon: { id: "silentgems:vacuum_urn_upgrade", Count: 63b }
+			x: -5.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dA strange thing to upgrade?"
 			description: [
-				"So these Soul Urns have a couple upgrades they can be augmented with. As strange as that sounds...",
-				"",
-				"But the Vaccuum Urn upgrade will make the urn suck in items dropped nearby if its placed out with the lid open.",
-				"",
-				"The Planter Upgrade is a strange one, and very picky. If there are seeds in the Urn, it will slowly grow the corresponding plant.",
-				"",
-				"The issue is it only seems to work with 'vanilla' seeds and a couple others. So wheat seeds, pumpkins, melons, etc. ",
-				"",
+				"So these Soul Urns have a couple upgrades they can be augmented with. As strange as that sounds..."
+				""
+				"But the Vaccuum Urn upgrade will make the urn suck in items dropped nearby if its placed out with the lid open."
+				""
+				"The Planter Upgrade is a strange one, and very picky. If there are seeds in the Urn, it will slowly grow the corresponding plant."
+				""
+				"The issue is it only seems to work with 'vanilla' seeds and a couple others. So wheat seeds, pumpkins, melons, etc. "
+				""
 				"To install these upgrades (again, what an odd thing...), I just craft the urn and them together."
-			],
+			]
 			dependencies: [
-				"66D26F15D0EA947C",
-				"74BFB7AF147D9164",
+				"66D26F15D0EA947C"
+				"74BFB7AF147D9164"
 				"0A828F5DB5D7EA6A"
-			],
-			id: "5A26396539D91389",
+			]
+			id: "5A26396539D91389"
 			tasks: [
 				{
-					id: "57210348A7994E81",
-					type: "item",
+					id: "57210348A7994E81"
+					type: "item"
 					item: "silentgems:vacuum_urn_upgrade"
-				},
+				}
 				{
-					id: "0BE9BDA126E9EB85",
-					type: "item",
+					id: "0BE9BDA126E9EB85"
+					type: "item"
 					item: "silentgems:planter_urn_upgrade"
 				}
-			],
+			]
 			rewards: [{
-				id: "0FB3A61493E9CA27",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0FB3A61493E9CA27"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Glowing Flowers",
-			icon: "silentgems:peridot_glowrose",
-			x: -1.25d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dFloral Radiance",
+			title: "Glowing Flowers"
+			icon: "silentgems:peridot_glowrose"
+			x: -1.25d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dFloral Radiance"
 			description: [
-				"I see these Glowroses all over the place. They are fairly pretty and stand out a lot.",
-				"",
-				"&dTraveler, I suggest collecting some of them. You can plant them in a pot and they will shine even brighter.",
-				"",
-				"Oh? Interesting!",
-				"",
-				"&dAs well, the gemstone color the Glowstone is, is usually a gemstone you can find underground nearby.",
-				"",
+				"I see these Glowroses all over the place. They are fairly pretty and stand out a lot."
+				""
+				"&dTraveler, I suggest collecting some of them. You can plant them in a pot and they will shine even brighter."
+				""
+				"Oh? Interesting!"
+				""
+				"&dAs well, the gemstone color the Glowstone is, is usually a gemstone you can find underground nearby."
+				""
 				"Even better! I should make a basket to hold the roses I do collect."
-			],
-			dependencies: ["39755936A1D50EB2"],
-			id: "0A828F5DB5D7EA6A",
+			]
+			dependencies: ["39755936A1D50EB2"]
+			id: "0A828F5DB5D7EA6A"
 			tasks: [
 				{
-					id: "7D744DD0213181A0",
-					type: "item",
-					title: "Any 5 Glowroses",
+					id: "7D744DD0213181A0"
+					type: "item"
+					title: "Any 5 Glowroses"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "silentgems:glowroses"
 						}
-					},
+					}
 					count: 5L
-				},
+				}
 				{
-					id: "124C9AE1ABE90046",
-					type: "item",
+					id: "124C9AE1ABE90046"
+					type: "item"
 					item: "silentgems:glowrose_basket"
 				}
-			],
+			]
 			rewards: [{
-				id: "775259F7AF918BFC",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "775259F7AF918BFC"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "A Good Grade",
-			icon: "silentgear:material_grader",
-			x: 8.5d,
-			y: -2.0d,
-			shape: "square",
-			subtitle: "&dGood Test Taking",
+			title: "A Good Grade"
+			icon: "silentgear:material_grader"
+			x: 8.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "&dGood Test Taking"
 			description: [
-				"There's one thing about choosing good materials for the Gear I'm making. And then there's the next step, which is Grading each piece of the material.",
-				"",
-				"With Material Analyzer, I can give a grade to every piece of material.",
-				"",
-				"The higher the grade, the higher the bonus to the stats of the material. Which, of course, improves the stats of the Gear I make with it.",
-				"",
-				"Grades go, from lowest to highest : E, D, C, B, A, S, SS, SSS.",
-				"",
-				"To grade material, I need to put it into the Analyzer with a Catalyst, either Glowing Dust, Blazing Dust, or Glittery Dust. Glittery Dust gives me the highest chance of a good grade.",
-				"",
+				"There's one thing about choosing good materials for the Gear I'm making. And then there's the next step, which is Grading each piece of the material."
+				""
+				"With Material Analyzer, I can give a grade to every piece of material."
+				""
+				"The higher the grade, the higher the bonus to the stats of the material. Which, of course, improves the stats of the Gear I make with it."
+				""
+				"Grades go, from lowest to highest : E, D, C, B, A, S, SS, SSS."
+				""
+				"To grade material, I need to put it into the Analyzer with a Catalyst, either Glowing Dust, Blazing Dust, or Glittery Dust. Glittery Dust gives me the highest chance of a good grade."
+				""
 				"I can also try to upgrade a material's grade just by analyzing it again. It's grade cannot go lower, at least."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "51F531D70CDED069",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "51F531D70CDED069"
 			tasks: [
 				{
-					id: "3C0029CEDA40F4D9",
-					type: "item",
+					id: "3C0029CEDA40F4D9"
+					type: "item"
 					item: "silentgear:material_grader"
-				},
+				}
 				{
-					id: "6E7CE15410C75CCC",
-					type: "item",
+					id: "6E7CE15410C75CCC"
+					type: "item"
 					item: "silentgear:glowing_dust"
-				},
+				}
 				{
-					id: "15B0DD6AC8D795EB",
-					type: "item",
+					id: "15B0DD6AC8D795EB"
+					type: "item"
 					item: "silentgear:blazing_dust"
-				},
+				}
 				{
-					id: "0A58BE44C3E8DC20",
-					type: "item",
+					id: "0A58BE44C3E8DC20"
+					type: "item"
 					item: "silentgear:glittery_dust"
 				}
-			],
+			]
 			rewards: [{
-				id: "68275CE964845A89",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "68275CE964845A89"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Hot Swappable",
+			title: "Hot Swappable"
 			icon: {
-				id: "silentgear:mod_kit",
-				Count: 1b,
-				tag: {}
-			},
-			x: 1.5d,
-			y: 4.0d,
-			shape: "square",
-			subtitle: "&dUpgrading your Upgrade",
+				id: "silentgear:mod_kit"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.5d
+			y: 4.0d
+			shape: "square"
+			subtitle: "&dUpgrading your Upgrade"
 			description: [
-				"Things like tip upgrades, linings, coatings, can all be removed from my Gear and replaced with new, better ones. Which is great since I don't want to remake my good tools when I finally get some good materials.",
-				"",
+				"Things like tip upgrades, linings, coatings, can all be removed from my Gear and replaced with new, better ones. Which is great since I don't want to remake my good tools when I finally get some good materials."
+				""
 				"Using the Gear Mod Kit is easy. I put it into the crafting grid and use [ and ] to cycle to the Upgrade type I want to remove. Then I add the Gear to the crafting grid, and I can then remove said upgrade. Handy!"
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "20380718FE82F5A8",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "20380718FE82F5A8"
 			tasks: [{
-				id: "21468326D4FA105E",
-				type: "item",
+				id: "21468326D4FA105E"
+				type: "item"
 				item: {
-					id: "silentgear:mod_kit",
-					Count: 1b,
-					tag: {}
+					id: "silentgear:mod_kit"
+					Count: 1b
+					tag: { }
 				}
-			}],
+			}]
 			rewards: [{
-				id: "6A71ADDE54BD42E7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6A71ADDE54BD42E7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Synergizing",
+			title: "Synergizing"
 			icon: {
-				id: "silentgear:bracelet",
-				Count: 1b,
+				id: "silentgear:bracelet"
+				Count: 1b
 				tag: {
 					SGear_UUID: [I;
-						-2111768427,
-						-1597356031,
-						-1956262557,
+						-2111768427
+						-1597356031
+						-1956262557
 						108689166
-					],
+					]
 					SGear_Data: {
 						Construction: {
 							Parts: [
 								{
 									Item: {
-										id: "silentgear:bracelet_band",
-										Count: 1b,
+										id: "silentgear:bracelet_band"
+										Count: 1b
 										tag: {
 											Materials: [
 												{
 													Item: {
-														id: "silents_mechanisms:refined_iron_ingot",
+														id: "silents_mechanisms:refined_iron_ingot"
 														Count: 1b
-													},
+													}
 													ID: "silentgear:refined_iron"
-												},
+												}
 												{
 													Item: {
-														id: "silents_mechanisms:refined_iron_ingot",
+														id: "silents_mechanisms:refined_iron_ingot"
 														Count: 1b
-													},
+													}
 													ID: "silentgear:refined_iron"
-												},
+												}
 												{
 													Item: {
-														id: "silents_mechanisms:refined_iron_ingot",
+														id: "silents_mechanisms:refined_iron_ingot"
 														Count: 1b
-													},
+													}
 													ID: "silentgear:refined_iron"
 												}
 											]
 										}
-									},
+									}
 									ID: "silentgear:bracelet_band"
-								},
+								}
 								{
 									Item: {
-										id: "silentgear:adornment",
-										Count: 1b,
+										id: "silentgear:adornment"
+										Count: 1b
 										tag: {
-											CraftedCount: 1,
+											CraftedCount: 1
 											Materials: [{
 												Item: {
-													id: "silentgems:amethyst",
+													id: "silentgems:amethyst"
 													Count: 1b
-												},
+												}
 												ID: "silentgems:amethyst"
 											}]
 										}
-									},
+									}
 									ID: "silentgear:adornment"
 								}
 							]
-						},
+						}
 						Properties: {
-							ModVersion: "2.6.5+225",
+							ModVersion: "2.6.5+225"
 							Stats: {
-								"silentgems:chargeability": 0.8f,
+								"silentgems:chargeability": 0.8f
 								"silentgear:durability": 512.0f
-							},
-							LockStats: 0b,
+							}
+							LockStats: 0b
 							Traits: [
 								{
-									Level: 4b,
+									Level: 4b
 									Name: "silentgear:malleable"
-								},
+								}
 								{
-									Level: 1b,
+									Level: 1b
 									Name: "silentgear:stellar"
 								}
 							]
-						},
+						}
 						Rendering: {
 							ModelKey: "bracelet:bracelet_band{refined_iron,refined_iron,refined_iron},adornment{silentgems:amethyst},"
 						}
 					}
 				}
-			},
-			x: 3.75d,
-			y: -1.0d,
-			subtitle: "&dWorking Together",
+			}
+			x: 3.75d
+			y: -1.0d
+			subtitle: "&dWorking Together"
 			description: [
-				"&dTraveler, we should discuss Synergies real quick.",
-				"",
-				"Good idea, I need to double check my understanding of them.",
-				"",
-				"&dSmart thinking. So, pop quiz, how do you get higher Synergy?",
-				"",
-				"By having multiple different materials in a piece of Gear.",
-				"",
-				"&dIs that all?",
-				"",
-				"No, the materials should be around the same Tier and Rarity. The closer, the higher they will synergize.",
-				"",
-				"&dAnd a higher Synergy means...",
-				"",
+				"&dTraveler, we should discuss Synergies real quick."
+				""
+				"Good idea, I need to double check my understanding of them."
+				""
+				"&dSmart thinking. So, pop quiz, how do you get higher Synergy?"
+				""
+				"By having multiple different materials in a piece of Gear."
+				""
+				"&dIs that all?"
+				""
+				"No, the materials should be around the same Tier and Rarity. The closer, the higher they will synergize."
+				""
+				"&dAnd a higher Synergy means..."
+				""
 				"A bigger boost to the stats of the Gear."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "65ADEA973F95F940",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "65ADEA973F95F940"
 			tasks: [{
-				id: "43BC7C762E2D167D",
+				id: "43BC7C762E2D167D"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "6086D8D2E4F5DD6D",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6086D8D2E4F5DD6D"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Fancy Decoration",
+			title: "Fancy Decoration"
 			icon: {
-				id: "silentgear:adornment",
-				Count: 1b,
+				id: "silentgear:adornment"
+				Count: 1b
 				tag: {
 					Materials: [{
 						ID: "silentgear:example"
 					}]
 				}
-			},
-			x: 2.5d,
-			y: -2.0d,
-			shape: "square",
-			subtitle: "&dSparkly And Bright",
+			}
+			x: 2.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "&dSparkly And Bright"
 			description: [
-				"A simple, quick way to customize any of my Curio Gear is to add an Adornment to it.",
-				"",
-				"Adornments are usually gems I've crafted with Jeweler Tools so that they socket nicely into either Rings or Bracelets.",
-				"",
+				"A simple, quick way to customize any of my Curio Gear is to add an Adornment to it."
+				""
+				"Adornments are usually gems I've crafted with Jeweler Tools so that they socket nicely into either Rings or Bracelets."
+				""
 				"Most gems do not give any kind of bonus to stats or Traits, but instead what Adornments do is help improve an item's Synergy by increasing the number of materials I use in them."
-			],
-			dependencies: ["4E585523BC85BFD5"],
-			id: "647077C483897440",
+			]
+			dependencies: ["4E585523BC85BFD5"]
+			id: "647077C483897440"
 			tasks: [
 				{
-					id: "616F62EA2AFAA92D",
-					type: "item",
+					id: "616F62EA2AFAA92D"
+					type: "item"
 					item: {
-						id: "silentgear:adornment",
-						Count: 1b,
-						tag: {}
+						id: "silentgear:adornment"
+						Count: 1b
+						tag: { }
 					}
-				},
+				}
 				{
-					id: "0E3198B5AF0AFAB4",
-					type: "item",
+					id: "0E3198B5AF0AFAB4"
+					type: "item"
 					item: "silentgear:jeweler_tools"
 				}
-			],
+			]
 			rewards: [{
-				id: "16120CE8158F8BA2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "16120CE8158F8BA2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Accessorizing",
-			icon: "silentgear:bracelet_blueprint",
-			x: 1.5d,
-			y: -2.0d,
-			shape: "square",
-			subtitle: "&dCurios and Curioser",
+			title: "Accessorizing"
+			icon: "silentgear:bracelet_blueprint"
+			x: 1.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "&dCurios and Curioser"
 			description: [
-				"Always a good thing I don't think folks back home would think about is stuff like rings and bracelets. It's not really a modern thing you think of when you consider armor and tools and weapons, right?",
-				"",
-				"But magically, they are just another piece of kit to help you survive. Magic rings, special bracelets, all great.",
-				"",
+				"Always a good thing I don't think folks back home would think about is stuff like rings and bracelets. It's not really a modern thing you think of when you consider armor and tools and weapons, right?"
 				""
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "4E585523BC85BFD5",
+				"But magically, they are just another piece of kit to help you survive. Magic rings, special bracelets, all great."
+				""
+				""
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "4E585523BC85BFD5"
 			tasks: [
 				{
-					id: "181C0C160E760BCA",
-					type: "item",
+					id: "181C0C160E760BCA"
+					type: "item"
 					item: "silentgear:bracelet_blueprint"
-				},
+				}
 				{
-					id: "7E18F1564E39B813",
-					type: "item",
+					id: "7E18F1564E39B813"
+					type: "item"
 					item: "silentgear:ring_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "60DD9A1C945190F8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "60DD9A1C945190F8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Temporary Pattern",
-			icon: "silentgear:template_board",
-			x: -1.25d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dOne Off Spot",
+			title: "Temporary Pattern"
+			icon: "silentgear:template_board"
+			x: -1.25d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dOne Off Spot"
 			description: [
-				"Okay, I realize I might not have a lot of Paper to be making all these Blueprints with. But these custom Gear things are quite useful.",
-				"",
+				"Okay, I realize I might not have a lot of Paper to be making all these Blueprints with. But these custom Gear things are quite useful."
+				""
 				"To that, I can make one shot blueprints called Templates out of the Template Board."
-			],
-			dependencies: ["1339B70B2638F579"],
-			dependency_requirement: "all_started",
-			hide_text_until_complete: false,
-			id: "67B5D200BBCB5C1E",
+			]
+			dependencies: ["1339B70B2638F579"]
+			dependency_requirement: "all_started"
+			hide_text_until_complete: false
+			id: "67B5D200BBCB5C1E"
 			tasks: [{
-				id: "6EFD1D6BC22C4AFD",
-				type: "item",
+				id: "6EFD1D6BC22C4AFD"
+				type: "item"
 				item: "silentgear:template_board"
-			}],
+			}]
 			rewards: [{
-				id: "3A2F074571D8A726",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3A2F074571D8A726"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Charging Forward",
-			icon: "silentgems:supercharger",
-			x: 8.5d,
-			y: 0.0d,
-			shape: "square",
-			subtitle: "&dAbsolute Power",
+			title: "Charging Forward"
+			icon: "silentgems:supercharger"
+			x: 8.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "&dAbsolute Power"
 			description: [
-				"Okay, I'm hoping I can understand my own instructions later. Simply put, Supercharging is... as it says. Really powering up my materials, but it requires a specific setup : ",
-				"",
-				"In the center, I put a Supercharger. I then count out THREE diagonally from each corner, and place a Chaos Iron block there. On top of each of these, I place a Gem Block.",
-				"",
-				"&dIt may take a minute for the Supercharger to connect to the pillars. When you do, you can put materials and Charging Agent into the Supercharger to start the process.",
-				"",
-				"There is... looks like three tiers of Supercharging Agent, so there's 3 tiers the Pillars can go to. ",
-				"",
+				"Okay, I'm hoping I can understand my own instructions later. Simply put, Supercharging is... as it says. Really powering up my materials, but it requires a specific setup : "
+				""
+				"In the center, I put a Supercharger. I then count out THREE diagonally from each corner, and place a Chaos Iron block there. On top of each of these, I place a Gem Block."
+				""
+				"&dIt may take a minute for the Supercharger to connect to the pillars. When you do, you can put materials and Charging Agent into the Supercharger to start the process."
+				""
+				"There is... looks like three tiers of Supercharging Agent, so there's 3 tiers the Pillars can go to. "
+				""
 				"&dCareful, Traveler. Supercharging materials WILL release Chaos."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "65E9216AECA6570B",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "65E9216AECA6570B"
 			tasks: [
 				{
-					id: "3E86BB0C3218CAE4",
-					type: "item",
+					id: "3E86BB0C3218CAE4"
+					type: "item"
 					item: "silentgems:supercharger"
-				},
+				}
 				{
-					id: "08BEDCF692DA0C7A",
-					type: "item",
-					item: "silentgems:chaos_iron_block",
+					id: "08BEDCF692DA0C7A"
+					type: "item"
+					item: "silentgems:chaos_iron_block"
 					count: 4L
-				},
+				}
 				{
-					id: "590B1B4582F335E5",
-					type: "item",
-					title: "Any 4 Silent's Gem Blocks",
+					id: "590B1B4582F335E5"
+					type: "item"
+					title: "Any 4 Silent's Gem Blocks"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "silentgems:gem_blocks"
 						}
-					},
+					}
 					count: 4L
-				},
+				}
 				{
-					id: "5B1D3E11A9E1CA74",
-					type: "item",
+					id: "5B1D3E11A9E1CA74"
+					type: "item"
 					item: "silentgems:charging_agent"
 				}
-			],
+			]
 			rewards: [{
-				id: "5E71EE3E6A4E12DB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5E71EE3E6A4E12DB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Slash Slash Slash",
-			icon: "silentgear:katana_blueprint",
-			x: 1.5d,
-			y: -3.0d,
-			shape: "square",
-			subtitle: "&dBigger and Bigger Swords",
+			title: "Slash Slash Slash"
+			icon: "silentgear:katana_blueprint"
+			x: 1.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "&dBigger and Bigger Swords"
 			description: [
-				"Swords are the go to weapon here, so it is no surprise there are a few styles I can make.",
-				"",
-				"The classic sword cant be beat, honestly. But the Katana can be swung faster, though it sacrifices a bit of damage. The Machete is the opposite, a little slower, but does more damage.",
-				"",
+				"Swords are the go to weapon here, so it is no surprise there are a few styles I can make."
+				""
+				"The classic sword cant be beat, honestly. But the Katana can be swung faster, though it sacrifices a bit of damage. The Machete is the opposite, a little slower, but does more damage."
+				""
 				"As a bonus, the Machete chops like an axe, though a lot slower. It also clears small amounts of foliage, similar to how a Scythe works."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "3032B4A8D6F10B7B",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "3032B4A8D6F10B7B"
 			tasks: [
 				{
-					id: "569B7FF0182D8D37",
-					type: "item",
+					id: "569B7FF0182D8D37"
+					type: "item"
 					item: "silentgear:sword_blueprint"
-				},
+				}
 				{
-					id: "1B4A50F6EEDF4D4D",
-					type: "item",
+					id: "1B4A50F6EEDF4D4D"
+					type: "item"
 					item: "silentgear:katana_blueprint"
-				},
+				}
 				{
-					id: "5063E708B8B69660",
-					type: "item",
+					id: "5063E708B8B69660"
+					type: "item"
 					item: "silentgear:machete_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "73DAE48B2C060EF2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "73DAE48B2C060EF2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Long and Short Weaponry",
-			icon: "silentgear:spear_blueprint",
-			x: 1.5d,
-			y: -4.0d,
-			shape: "square",
-			subtitle: "&dStabbing Either Way",
+			title: "Long and Short Weaponry"
+			icon: "silentgear:spear_blueprint"
+			x: 1.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "&dStabbing Either Way"
 			description: [
-				"Daggers are fantastic for up close fighting. They attack very fast, and the short delay between each possible strike is low.",
-				"",
+				"Daggers are fantastic for up close fighting. They attack very fast, and the short delay between each possible strike is low."
+				""
 				"Spears, on the other paw, are much much slower. They make up for it in having longer reach."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "6195505AC331480B",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "6195505AC331480B"
 			tasks: [
 				{
-					id: "372E369579600458",
-					type: "item",
+					id: "372E369579600458"
+					type: "item"
 					item: "silentgear:spear_blueprint"
-				},
+				}
 				{
-					id: "6596F7D37FDDEBC4",
-					type: "item",
+					id: "6596F7D37FDDEBC4"
+					type: "item"
 					item: "silentgear:dagger_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "2E48F5D95FE54ADB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "2E48F5D95FE54ADB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Full Suit",
-			icon: "silentgear:chestplate_blueprint",
-			x: 1.5d,
-			y: 1.0d,
-			shape: "square",
-			subtitle: "&dA Style of Your Own",
+			title: "Full Suit"
+			icon: "silentgear:chestplate_blueprint"
+			x: 1.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "&dA Style of Your Own"
 			description: [
-				"Armor is important to survival in this world, and being able to make a powerful full set of armor is a good idea.",
-				"",
+				"Armor is important to survival in this world, and being able to make a powerful full set of armor is a good idea."
+				""
 				"Some magical traits on armor only work if all pieces of armor have the trait, so I'll need to keep that in mind when choosing materials."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "7D501DA75F8059A5",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "7D501DA75F8059A5"
 			tasks: [
 				{
-					id: "0727FE9C86C6D7E6",
-					type: "item",
+					id: "0727FE9C86C6D7E6"
+					type: "item"
 					item: "silentgear:chestplate_blueprint"
-				},
+				}
 				{
-					id: "3DF17ABED5CD505F",
-					type: "item",
+					id: "3DF17ABED5CD505F"
+					type: "item"
 					item: "silentgear:helmet_blueprint"
-				},
+				}
 				{
-					id: "26457D889A28A5B2",
-					type: "item",
+					id: "26457D889A28A5B2"
+					type: "item"
 					item: "silentgear:leggings_blueprint"
-				},
+				}
 				{
-					id: "75686E998A6A25A4",
-					type: "item",
+					id: "75686E998A6A25A4"
+					type: "item"
 					item: "silentgear:boots_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "690B68E61EF8D5CF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "690B68E61EF8D5CF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Defensive Moves",
-			icon: "silentgear:elytra_blueprint",
-			x: 1.5d,
-			y: 2.0d,
-			shape: "square",
-			subtitle: "&dJust need a dodgeroll now",
+			title: "Defensive Moves"
+			icon: "silentgear:elytra_blueprint"
+			x: 1.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "&dJust need a dodgeroll now"
 			description: [
-				"Being able to make my own Elytra is... amazing. It's tough finding one, since I have to chase down the Ender Dragon and then explore the End Cities right?",
-				"",
-				"And thats if another Traveler didn't find it first. Ugh. ",
-				"",
+				"Being able to make my own Elytra is... amazing. It's tough finding one, since I have to chase down the Ender Dragon and then explore the End Cities right?"
+				""
+				"And thats if another Traveler didn't find it first. Ugh. "
+				""
 				"But hey, being able to make my own shield is good too. I can't put a banner on it like a normal shield, but having a super strong, magical shield makes up for it."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "54D92AB122AD38D4",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "54D92AB122AD38D4"
 			tasks: [
 				{
-					id: "624FCC160CF631FB",
-					type: "item",
+					id: "624FCC160CF631FB"
+					type: "item"
 					item: "silentgear:elytra_blueprint"
-				},
+				}
 				{
-					id: "1B0FB7D56D756C02",
-					type: "item",
+					id: "1B0FB7D56D756C02"
+					type: "item"
 					item: "silentgear:shield_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "4CE2483E55F7909D",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4CE2483E55F7909D"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Special Additions",
-			icon: "silentgear:coating_blueprint",
-			x: 2.25d,
-			y: 3.0d,
-			shape: "square",
-			subtitle: "&dPoison. Soft Lining. What else to add...",
+			title: "Special Additions"
+			icon: "silentgear:coating_blueprint"
+			x: 2.25d
+			y: 3.0d
+			shape: "square"
+			subtitle: "&dPoison. Soft Lining. What else to add..."
 			description: [
-				"Silent Armor, Weapons, and Tools can all be augmented further than just the materials I make them with. Each one can be further customized with modifications.",
-				"",
-				"Each of these can be crafted and applied to a different piece of Gear. It's simple, just craft the Gear and the Modification together.",
-				"",
-				"Coatings can be applited to Weapons, as they are basically like Poisons or other things you coat a blade in.",
-				"",
-				"Linings go inside of Armor. Making it more comfortable, or more magical, or both.",
-				"",
+				"Silent Armor, Weapons, and Tools can all be augmented further than just the materials I make them with. Each one can be further customized with modifications."
+				""
+				"Each of these can be crafted and applied to a different piece of Gear. It's simple, just craft the Gear and the Modification together."
+				""
+				"Coatings can be applited to Weapons, as they are basically like Poisons or other things you coat a blade in."
+				""
+				"Linings go inside of Armor. Making it more comfortable, or more magical, or both."
+				""
 				"The Binding is another modification that can be applied to many pieces of Silent Gear, like tools or your Elytra."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "5DD59877F8D03740",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "5DD59877F8D03740"
 			tasks: [
 				{
-					id: "3D62A496ABE1A069",
-					type: "item",
+					id: "3D62A496ABE1A069"
+					type: "item"
 					item: "silentgear:coating_blueprint"
-				},
+				}
 				{
-					id: "41704603957E8392",
-					type: "item",
+					id: "41704603957E8392"
+					type: "item"
 					item: "silentgear:lining_blueprint"
-				},
+				}
 				{
-					id: "02787600C8532C7A",
-					type: "item",
+					id: "02787600C8532C7A"
+					type: "item"
 					item: "silentgear:binding_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "343B83B336CD5140",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "343B83B336CD5140"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Keeping Distance",
-			icon: "silentgear:bow_blueprint",
-			x: 1.5d,
-			y: -6.0d,
-			shape: "square",
-			subtitle: "&dGoing for the Long Shot",
+			title: "Keeping Distance"
+			icon: "silentgear:bow_blueprint"
+			x: 1.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "&dGoing for the Long Shot"
 			description: [
-				"The classic bow and crossbow can be made of course, and even arrows can be custom made for use.",
-				"",
+				"The classic bow and crossbow can be made of course, and even arrows can be custom made for use."
+				""
 				"The Slingshot is a special weapon. It only fires pebbles, which you can make with a hammer or mattock and some cobblestone."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "1DD5F7DF81B86A19",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "1DD5F7DF81B86A19"
 			tasks: [
 				{
-					id: "13CAB3A6B23D5E6B",
-					type: "item",
+					id: "13CAB3A6B23D5E6B"
+					type: "item"
 					item: "silentgear:bow_blueprint"
-				},
+				}
 				{
-					id: "66166869D7078958",
-					type: "item",
+					id: "66166869D7078958"
+					type: "item"
 					item: "silentgear:crossbow_blueprint"
-				},
+				}
 				{
-					id: "04B6B755E9ED76EA",
-					type: "item",
+					id: "04B6B755E9ED76EA"
+					type: "item"
 					item: "silentgear:arrow_blueprint"
-				},
+				}
 				{
-					id: "4F6E55463DDDD973",
-					type: "item",
+					id: "4F6E55463DDDD973"
+					type: "item"
 					item: "silentgear:slingshot_blueprint"
-				},
+				}
 				{
-					id: "21C5B06DFC03D198",
-					type: "item",
+					id: "21C5B06DFC03D198"
+					type: "item"
 					item: "silentgear:pebble"
 				}
-			],
+			]
 			rewards: [{
-				id: "6F1213F16EDA6D08",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6F1213F16EDA6D08"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Tools Aplenty",
-			icon: "silentgear:shears_blueprint",
-			x: 0.75d,
-			y: -5.0d,
-			shape: "square",
-			subtitle: "&dSnip Shovel and See",
+			title: "Tools Aplenty"
+			icon: "silentgear:shears_blueprint"
+			x: 0.75d
+			y: -5.0d
+			shape: "square"
+			subtitle: "&dSnip Shovel and See"
 			description: [
-				"Shears and Shovels are standard tools made much better by customizing them.",
-				"",
-				"The Excavator is great when I'm terraforming. It digs up larger plots of dirt, sand, gravel, and more.",
-				"",
-				"Mattocks are a combination of shovel, hoe, and axe, but is slower than any one of those alone. Saves inventory space though!",
-				"",
+				"Shears and Shovels are standard tools made much better by customizing them."
+				""
+				"The Excavator is great when I'm terraforming. It digs up larger plots of dirt, sand, gravel, and more."
+				""
+				"Mattocks are a combination of shovel, hoe, and axe, but is slower than any one of those alone. Saves inventory space though!"
+				""
 				"The Hammer is a miner's best friend, as it can mine larger areas of stone and ore at once."
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "0CDC0527C0096F51",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "0CDC0527C0096F51"
 			tasks: [
 				{
-					id: "051FE9FF05A18188",
-					type: "item",
+					id: "051FE9FF05A18188"
+					type: "item"
 					item: "silentgear:shears_blueprint"
-				},
+				}
 				{
-					id: "3B2FD36B36CE19A8",
-					type: "item",
+					id: "3B2FD36B36CE19A8"
+					type: "item"
 					item: "silentgear:shovel_blueprint"
-				},
+				}
 				{
-					id: "4719391118753595",
-					type: "item",
+					id: "4719391118753595"
+					type: "item"
 					item: "silentgear:excavator_blueprint"
-				},
+				}
 				{
-					id: "19A35D3E5DE20303",
-					type: "item",
+					id: "19A35D3E5DE20303"
+					type: "item"
 					item: "silentgear:mattock_blueprint"
-				},
+				}
 				{
-					id: "081C6A303537FF0E",
-					type: "item",
+					id: "081C6A303537FF0E"
+					type: "item"
 					item: "silentgear:hammer_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "3518C77A0278DB50",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3518C77A0278DB50"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Multiple Tools",
-			icon: "silentgear:axe_blueprint",
-			x: 2.25d,
-			y: -5.0d,
-			shape: "square",
-			subtitle: "&dChop and Smash",
+			title: "Multiple Tools"
+			icon: "silentgear:axe_blueprint"
+			x: 2.25d
+			y: -5.0d
+			shape: "square"
+			subtitle: "&dChop and Smash"
 			description: [
-				"A custom made Axe is a dream to have, but even better would be a Saw. When I cut the base of a tree with a Saw, (usually) the rest of the tree follows suit!",
-				"",
-				"Though, when mining, a Prospectors Hammer should be worth carrying, since it mines like a pickaxe, but also Right Clicking on a block can  tell me what ores and other interesting things are ahead of said block.",
-				"",
+				"A custom made Axe is a dream to have, but even better would be a Saw. When I cut the base of a tree with a Saw, (usually) the rest of the tree follows suit!"
+				""
+				"Though, when mining, a Prospectors Hammer should be worth carrying, since it mines like a pickaxe, but also Right Clicking on a block can  tell me what ores and other interesting things are ahead of said block."
+				""
 				"The last tool here is a Paxel. Which.... I don't trust it. It's a pickaxe, a shovel, and an axe all in one. At least isn't a hoe as well, right? "
-			],
-			dependencies: ["590AC602C8D2AC1D"],
-			id: "27F56E7E83177A18",
+			]
+			dependencies: ["590AC602C8D2AC1D"]
+			id: "27F56E7E83177A18"
 			tasks: [
 				{
-					id: "3CF604849F049C0C",
-					type: "item",
+					id: "3CF604849F049C0C"
+					type: "item"
 					item: "silentgear:axe_blueprint"
-				},
+				}
 				{
-					id: "1AAA022EA68BFB3C",
-					type: "item",
+					id: "1AAA022EA68BFB3C"
+					type: "item"
 					item: "silentgear:saw_blueprint"
-				},
+				}
 				{
-					id: "66F8F951F782B53E",
-					type: "item",
+					id: "66F8F951F782B53E"
+					type: "item"
 					item: "silentgear:prospector_hammer_blueprint"
-				},
+				}
 				{
-					id: "5B3469D91C277AB4",
-					type: "item",
+					id: "5B3469D91C277AB4"
+					type: "item"
 					item: "silentgear:sickle_blueprint"
-				},
+				}
 				{
-					id: "2F334ED1BA3B06F3",
-					type: "item",
+					id: "2F334ED1BA3B06F3"
+					type: "item"
 					item: "silentgear:paxel_blueprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "78AC09A7E3862D3D",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "78AC09A7E3862D3D"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Recovering Waste",
-			icon: "silentgear:salvager",
-			x: -3.75d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dRepurposing Things",
-			description: ["The Salvager is a handy tool for recovering materials or other things from various items. Old tools I don't need are a good example."],
-			dependencies: ["3558288C6C3FE6DC"],
-			id: "20060A09B102DAAE",
+			title: "Recovering Waste"
+			icon: "silentgear:salvager"
+			x: -3.75d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dRepurposing Things"
+			description: ["The Salvager is a handy tool for recovering materials or other things from various items. Old tools I don't need are a good example."]
+			dependencies: ["3558288C6C3FE6DC"]
+			id: "20060A09B102DAAE"
 			tasks: [{
-				id: "143E79C4AE8420B7",
-				type: "item",
+				id: "143E79C4AE8420B7"
+				type: "item"
 				item: "silentgear:salvager"
 			}]
-		},
+		}
 		{
-			title: "Keeping Things Sane",
-			icon: "silentgems:purifier",
-			x: -3.75d,
-			y: -5.5d,
-			shape: "square",
-			subtitle: "&dNot sure if Sane is the right word?",
+			title: "Keeping Things Sane"
+			icon: "silentgems:purifier"
+			x: -3.75d
+			y: -5.5d
+			shape: "square"
+			subtitle: "&dNot sure if Sane is the right word?"
 			description: [
-				"Given a lot of our more powerful things generate Chaos, it would be a good idea to keep it in check, and Chaos Orbs don't fully cut it.",
-				"",
-				"Purifying Powder can be used in a Chaos Purifier to help cleanse the area around it. It'd be good to use this once in a while.",
-				"",
-				"Heck, using a Chaos Meter would be a great way to make sure I don't have too much building up.",
-				"",
+				"Given a lot of our more powerful things generate Chaos, it would be a good idea to keep it in check, and Chaos Orbs don't fully cut it."
+				""
+				"Purifying Powder can be used in a Chaos Purifier to help cleanse the area around it. It'd be good to use this once in a while."
+				""
+				"Heck, using a Chaos Meter would be a great way to make sure I don't have too much building up."
+				""
 				"The downside is I need some Corrupted dirt or stone, which only happens if I let the Chaos get too high and it starts shifting the ground itself."
-			],
-			dependencies: ["66D26F15D0EA947C"],
-			id: "2D5310696A2EC63B",
+			]
+			dependencies: ["66D26F15D0EA947C"]
+			id: "2D5310696A2EC63B"
 			tasks: [
 				{
-					id: "26BE0A152656A0DD",
-					type: "item",
+					id: "26BE0A152656A0DD"
+					type: "item"
 					item: "silentgems:purifier"
-				},
+				}
 				{
-					id: "22D73A3BFD79F301",
-					type: "item",
+					id: "22D73A3BFD79F301"
+					type: "item"
 					item: "silentgems:purifying_powder"
-				},
+				}
 				{
-					id: "143BF8274AA51AED",
-					type: "item",
+					id: "143BF8274AA51AED"
+					type: "item"
 					item: {
-						id: "silentgems:chaos_meter",
-						Count: 1b,
-						tag: {}
+						id: "silentgems:chaos_meter"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "18AB4089D32CAA1F",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "18AB4089D32CAA1F"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Transmugemtational",
-			icon: "silentgems:transmutation_altar",
-			x: -1.25d,
-			y: -5.5d,
-			shape: "square",
-			subtitle: "&dThat is quite a word...",
+			title: "Transmugemtational"
+			icon: "silentgems:transmutation_altar"
+			x: -1.25d
+			y: -5.5d
+			shape: "square"
+			subtitle: "&dThat is quite a word..."
 			description: [
-				"Okay, so I seem to have a surplus of Overworld gems, but a shortage of End gems. Though I guess that's obvious why, even without the Ender Dragon the End is pretty rough.",
-				"",
-				"So, to fix that I can use a Transmutation Altar to convert gems between Overworld, Nether, and End ones. It just needs a Catalyst of the appropriate type.",
-				"",
+				"Okay, so I seem to have a surplus of Overworld gems, but a shortage of End gems. Though I guess that's obvious why, even without the Ender Dragon the End is pretty rough."
+				""
+				"So, to fix that I can use a Transmutation Altar to convert gems between Overworld, Nether, and End ones. It just needs a Catalyst of the appropriate type."
+				""
 				"But, of course, this is with a price. And that is, of course, Chaos generating each time I transform a gem."
-			],
-			dependencies: ["66D26F15D0EA947C"],
-			id: "53B50FBC69BF6135",
+			]
+			dependencies: ["66D26F15D0EA947C"]
+			id: "53B50FBC69BF6135"
 			tasks: [
 				{
-					id: "2610088ECBC542B0",
-					type: "item",
+					id: "2610088ECBC542B0"
+					type: "item"
 					item: "silentgems:transmutation_altar"
-				},
+				}
 				{
-					id: "7AA7826BDD494B19",
-					type: "item",
+					id: "7AA7826BDD494B19"
+					type: "item"
 					item: "silentgems:slime_crystal"
-				},
+				}
 				{
-					id: "661EBA6B4E7AA11E",
-					type: "item",
+					id: "661EBA6B4E7AA11E"
+					type: "item"
 					item: "silentgems:magma_cream_crystal"
-				},
+				}
 				{
-					id: "782ED0D31D08B0E5",
-					type: "item",
+					id: "782ED0D31D08B0E5"
+					type: "item"
 					item: "silentgems:ender_slime_crystal"
 				}
-			],
+			]
 			rewards: [{
-				id: "6AA02822CAC9F7F0",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6AA02822CAC9F7F0"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "A Useful Display",
-			icon: "silentgems:stone_pedestal",
-			x: -3.75d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dShowing off and Helping Out",
+			title: "A Useful Display"
+			icon: "silentgems:stone_pedestal"
+			x: -3.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dShowing off and Helping Out"
 			description: [
-				"These special pedestals are quite useful. Not only can I display an item on them, some items also do useful things when on display!",
-				"",
-				"For example, Chaos Orbs will keep absorbing Chaos from the area when on display (Until they break at least....)",
-				"",
+				"These special pedestals are quite useful. Not only can I display an item on them, some items also do useful things when on display!"
+				""
+				"For example, Chaos Orbs will keep absorbing Chaos from the area when on display (Until they break at least....)"
+				""
 				"There's a bunch of other things that do interesting things, I'll have to experiment."
-			],
-			dependencies: ["66D26F15D0EA947C"],
-			id: "30C041BC024CF581",
+			]
+			dependencies: ["66D26F15D0EA947C"]
+			id: "30C041BC024CF581"
 			tasks: [{
-				id: "5B3A7EB4A273254C",
-				type: "item",
+				id: "5B3A7EB4A273254C"
+				type: "item"
 				item: "silentgems:stone_pedestal"
-			}],
+			}]
 			rewards: [{
-				id: "50CD26E53E56E0AA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "50CD26E53E56E0AA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Chaos Gems",
+			title: "Chaos Gems"
 			icon: {
-				id: "silentgems:chaos_malachite",
-				Count: 1b,
-				tag: {}
-			},
-			x: -2.5d,
-			y: -6.25d,
-			shape: "square",
-			subtitle: "&dDefinitely need to collect them all...",
+				id: "silentgems:chaos_malachite"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.5d
+			y: -6.25d
+			shape: "square"
+			subtitle: "&dDefinitely need to collect them all..."
 			description: [
-				"Chaos Gems are an interesting alternative to lugging around a pack of potions. Each one takes a full Gem Block to make, and produces a bit of Chaos in the process.",
-				"",
-				"I can make some Chaos Runes, each one providing a different potion style effect while the Chaos Gem is active.",
-				"",
-				"Each Chaos Gem can hold 20 slots worth of effects, and each Rune takes a certain amount of slots, regardless of what level of effect is installed.",
-				"",
+				"Chaos Gems are an interesting alternative to lugging around a pack of potions. Each one takes a full Gem Block to make, and produces a bit of Chaos in the process."
+				""
+				"I can make some Chaos Runes, each one providing a different potion style effect while the Chaos Gem is active."
+				""
+				"Each Chaos Gem can hold 20 slots worth of effects, and each Rune takes a certain amount of slots, regardless of what level of effect is installed."
+				""
 				"I can turn the Chaos Gem on and off by holding it and Right Clicking. But while it is active, it will generate Chaos around me, so I should keep that in mind."
-			],
-			dependencies: ["66D26F15D0EA947C"],
-			id: "14D689260A1AD65D",
+			]
+			dependencies: ["66D26F15D0EA947C"]
+			id: "14D689260A1AD65D"
 			tasks: [
 				{
-					id: "78A537B214A26D9C",
-					type: "item",
-					title: "Any Chaos Gem",
+					id: "78A537B214A26D9C"
+					type: "item"
+					title: "Any Chaos Gem"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "silentgems:chaos_gems"
 						}
 					}
-				},
+				}
 				{
-					id: "2DE5057D55154FA4",
-					type: "item",
+					id: "2DE5057D55154FA4"
+					type: "item"
 					item: {
-						id: "silentgems:chaos_rune",
-						Count: 1b,
+						id: "silentgems:chaos_rune"
+						Count: 1b
 						tag: {
 							SGems_BuffRune: "silentgems:night_vision"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "781BDB39F4F21AD2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "781BDB39F4F21AD2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Glowing Up",
-			icon: "silentgems:glowrose_fertilizer",
-			x: -1.25d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dA bright flowerbed",
+			title: "Glowing Up"
+			icon: "silentgems:glowrose_fertilizer"
+			x: -1.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dA bright flowerbed"
 			description: [
-				"Glowroses are beautiful flowers, but sometimes its hard to find just the right color for my garden.",
-				"",
-				"&dGarden?",
-				"",
-				"Yeah, there's a lot of wonderful flowers around here, so I figured having a garden would offset some of the darkness of the undead wandering around.",
-				"",
-				"&dNot a bad idea. If you want to gamble a bit, you can make some Glowrose Fertilizer, which will get you a random Glowrose. Maybe you'll find what you like.",
-				"",
+				"Glowroses are beautiful flowers, but sometimes its hard to find just the right color for my garden."
+				""
+				"&dGarden?"
+				""
+				"Yeah, there's a lot of wonderful flowers around here, so I figured having a garden would offset some of the darkness of the undead wandering around."
+				""
+				"&dNot a bad idea. If you want to gamble a bit, you can make some Glowrose Fertilizer, which will get you a random Glowrose. Maybe you'll find what you like."
+				""
 				"Oh, then I'll plant it in a Luminous Pot. That'll let it glow brighter, as well as spread its glowing power even further."
-			],
+			]
 			dependencies: [
-				"0A828F5DB5D7EA6A",
+				"0A828F5DB5D7EA6A"
 				"3558288C6C3FE6DC"
-			],
-			id: "0ABD089E989B2CBD",
+			]
+			id: "0ABD089E989B2CBD"
 			tasks: [
 				{
-					id: "265D7B5AB8648118",
-					type: "item",
+					id: "265D7B5AB8648118"
+					type: "item"
 					item: "silentgems:glowrose_fertilizer"
-				},
+				}
 				{
-					id: "71DE72AF7398D19F",
-					type: "item",
+					id: "71DE72AF7398D19F"
+					type: "item"
 					item: "silentgems:luminous_flower_pot"
 				}
-			],
+			]
 			rewards: [{
-				id: "458DB2263AA9CF00",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "458DB2263AA9CF00"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Wisps of Chaos",
-			icon: "silentgems:chaos_wisp_essence",
-			x: -2.5d,
-			y: -5.0d,
-			shape: "square",
-			subtitle: "&dTrouble in the Air",
+			title: "Wisps of Chaos"
+			icon: "silentgems:chaos_wisp_essence"
+			x: -2.5d
+			y: -5.0d
+			shape: "square"
+			subtitle: "&dTrouble in the Air"
 			description: [
-				"It seems that when the Chaos level is very high, it can spawn creatures like Wisps.",
-				"",
+				"It seems that when the Chaos level is very high, it can spawn creatures like Wisps."
+				""
 				"This is bad, but some of the Wisps have materials I can use in some specific creations."
-			],
-			dependencies: ["66D26F15D0EA947C"],
-			id: "42810EEA7F308F6B",
+			]
+			dependencies: ["66D26F15D0EA947C"]
+			id: "42810EEA7F308F6B"
 			tasks: [{
-				id: "34E1C8C8C93E870C",
-				type: "item",
+				id: "34E1C8C8C93E870C"
+				type: "item"
 				item: "silentgems:chaos_wisp_essence"
-			}],
+			}]
 			rewards: [{
-				id: "55B06B87F03D409B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "55B06B87F03D409B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Bringing the Pet to You",
-			icon: "silentgems:summon_puppy",
-			x: 7.5d,
-			y: -1.0d,
-			shape: "square",
-			subtitle: "&dAdoption Delivery Services",
+			title: "Bringing the Pet to You"
+			icon: "silentgems:summon_puppy"
+			x: 7.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "&dAdoption Delivery Services"
 			description: [
-				"Okay, there are so many animals around, and I just want to try finding a dog or cat.",
-				"",
-				"&dSilent's Gear has a few things to help you, Traveler. You can create an item to summon a dog or cat for yourself.",
-				"",
+				"Okay, there are so many animals around, and I just want to try finding a dog or cat."
+				""
+				"&dSilent's Gear has a few things to help you, Traveler. You can create an item to summon a dog or cat for yourself."
+				""
 				"Okay that is weird but very useful."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "70DFFE178E2418EF",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "70DFFE178E2418EF"
 			tasks: [
 				{
-					id: "6A029C89D45BF21D",
-					type: "item",
+					id: "6A029C89D45BF21D"
+					type: "item"
 					item: "silentgems:summon_puppy"
-				},
+				}
 				{
-					id: "0E4C0CAF44895930",
-					type: "item",
+					id: "0E4C0CAF44895930"
+					type: "item"
 					item: "silentgems:summon_kitty"
 				}
-			],
+			]
 			rewards: [{
-				id: "755EE5D2E9E8983A",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "755EE5D2E9E8983A"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Elemental Work",
-			icon: "silentgems:sodalite",
-			x: 8.5d,
-			y: 2.0d,
-			shape: "square",
-			subtitle: "&dHot and Cold and Shocking",
+			title: "Elemental Work"
+			icon: "silentgems:sodalite"
+			x: 8.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "&dHot and Cold and Shocking"
 			description: [
-				"Sodalite in the End has the Chilled trait, which causes weapons to do more damage to Nether and flame based creatures.",
-				"",
-				"Conversely, Fiery does similar, adding the Fire Aspect or Flames to weapons. It's easily found in the Overworld on Garnet.",
-				"",
-				"For the undead directly, you can add Holy to a weapon by upgrading the tip with Lapis Lazuli.",
-				"",
+				"Sodalite in the End has the Chilled trait, which causes weapons to do more damage to Nether and flame based creatures."
+				""
+				"Conversely, Fiery does similar, adding the Fire Aspect or Flames to weapons. It's easily found in the Overworld on Garnet."
+				""
+				"For the undead directly, you can add Holy to a weapon by upgrading the tip with Lapis Lazuli."
+				""
 				"And finally, Zircon from the Nether brings out the Sparking trait, which gives weapons a Lightning aspect."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "4C592D8D0560B3E5",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "4C592D8D0560B3E5"
 			tasks: [
 				{
-					id: "6BB4FC8EB883674F",
-					type: "item",
+					id: "6BB4FC8EB883674F"
+					type: "item"
 					item: "silentgems:sodalite"
-				},
+				}
 				{
-					id: "106CB6B3646AEED1",
-					type: "item",
+					id: "106CB6B3646AEED1"
+					type: "item"
 					item: "silentgems:garnet"
-				},
+				}
 				{
-					id: "1A3EABFDFFA9C0C3",
-					type: "item",
+					id: "1A3EABFDFFA9C0C3"
+					type: "item"
 					item: "minecraft:lapis_lazuli"
-				},
+				}
 				{
-					id: "744E0C4A816FD842",
-					type: "item",
+					id: "744E0C4A816FD842"
+					type: "item"
 					item: "silentgems:zircon"
 				}
-			],
+			]
 			rewards: [{
-				id: "34219968BAC8CBF0",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "34219968BAC8CBF0"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Striking Harder",
-			icon: "silentgems:ametrine",
-			x: 6.0d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dBy Day and Night",
+			title: "Striking Harder"
+			icon: "silentgems:ametrine"
+			x: 6.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dBy Day and Night"
 			description: [
-				"Ametrine from the Nether is great as it adds the Critical trait, which gives me better chance of hitting a weak point for massive (or at least decent) damage.",
-				"",
-				"Flint, however, is easier to find. It gives the Jagged trait, which increases my melee damage while the weapon takes damage, but conversely lowers ranged damage at the same time.",
-				"",
+				"Ametrine from the Nether is great as it adds the Critical trait, which gives me better chance of hitting a weak point for massive (or at least decent) damage."
+				""
+				"Flint, however, is easier to find. It gives the Jagged trait, which increases my melee damage while the weapon takes damage, but conversely lowers ranged damage at the same time."
+				""
 				"For fighting at night, getting some Cat's Eye from the End provides Luna, increases my damage in the moonlight. The opposite, Sunstone, is also found in the End. Instead of moonlight, the Sol trait increases my damage in the daylight."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "6F46CF87F6CFE878",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "6F46CF87F6CFE878"
 			tasks: [
 				{
-					id: "7E730D7D80DF968C",
-					type: "item",
+					id: "7E730D7D80DF968C"
+					type: "item"
 					item: "silentgems:ametrine"
-				},
+				}
 				{
-					id: "3BE36CED99D67809",
-					type: "item",
+					id: "3BE36CED99D67809"
+					type: "item"
 					item: "minecraft:flint"
-				},
+				}
 				{
-					id: "7F2DBA2C86F6B22D",
-					type: "item",
+					id: "7F2DBA2C86F6B22D"
+					type: "item"
 					item: "silentgems:cats_eye"
-				},
+				}
 				{
-					id: "12655EE1EA854746",
-					type: "item",
+					id: "12655EE1EA854746"
+					type: "item"
 					item: "silentgems:sunstone"
 				}
-			],
+			]
 			rewards: [{
-				id: "6C3FC9E6D8A90D41",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6C3FC9E6D8A90D41"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Like a Dragon",
-			icon: "iceandfire:dragonsteel_fire_ingot",
-			x: 6.0d,
-			y: 2.0d,
-			shape: "square",
-			subtitle: "&dStrong like Scales",
+			title: "Like a Dragon"
+			icon: "iceandfire:dragonsteel_fire_ingot"
+			x: 6.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "&dStrong like Scales"
 			description: [
-				"Facing dragons in the overworld is tough. They are ancient, dangerous creatures. So using Dragon borne materials is the proper solution to fighting them.",
-				"",
-				"Each of the three materials : Fire, Ice, and Lightning Dragonsteel, can be used in both weapons and armor.",
-				"",
+				"Facing dragons in the overworld is tough. They are ancient, dangerous creatures. So using Dragon borne materials is the proper solution to fighting them."
+				""
+				"Each of the three materials : Fire, Ice, and Lightning Dragonsteel, can be used in both weapons and armor."
+				""
 				"Each one provides extra damage against the element of the dragon they are made from if on a weapon, or against that type of dragon's breath if its on armor."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "39B3500E817B1D5E",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "39B3500E817B1D5E"
 			tasks: [
 				{
-					id: "23A2F786A4987D20",
-					type: "item",
+					id: "23A2F786A4987D20"
+					type: "item"
 					item: "iceandfire:dragonsteel_fire_ingot"
-				},
+				}
 				{
-					id: "7681A0BF6BEA3B1A",
-					type: "item",
+					id: "7681A0BF6BEA3B1A"
+					type: "item"
 					item: "iceandfire:dragonsteel_ice_ingot"
-				},
+				}
 				{
-					id: "070E8E8D2076B99E",
-					type: "item",
+					id: "070E8E8D2076B99E"
+					type: "item"
 					item: "iceandfire:dragonsteel_lightning_ingot"
 				}
-			],
+			]
 			rewards: [{
-				id: "26BCD62B99F0DEE0",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "26BCD62B99F0DEE0"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Building a Path",
-			icon: "silentgear:spoon_upgrade",
-			x: 4.75d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dThe Road of Good Intentions",
+			title: "Building a Path"
+			icon: "silentgear:spoon_upgrade"
+			x: 4.75d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dThe Road of Good Intentions"
 			description: [
-				"Chrysoprase, from the End, adds the Terminus trait. When Right Clicked with the tool, it creates and places Stone where I aim it. Jasper, from the Nether, does similarly with its Racker trait, places Netherrack instead. Both of these abilities consume durability on the tool though.",
-				"",
-				"Then there are two special upgrades that require using a Smithing Table to apply. This means it doesn't require me to use one of my other material spots and possibly mess up my synergy.",
-				"",
-				"The Road Maker upgrade lets a tool carve dirt into grass paths when Right Clicked. ",
-				"",
+				"Chrysoprase, from the End, adds the Terminus trait. When Right Clicked with the tool, it creates and places Stone where I aim it. Jasper, from the Nether, does similarly with its Racker trait, places Netherrack instead. Both of these abilities consume durability on the tool though."
+				""
+				"Then there are two special upgrades that require using a Smithing Table to apply. This means it doesn't require me to use one of my other material spots and possibly mess up my synergy."
+				""
+				"The Road Maker upgrade lets a tool carve dirt into grass paths when Right Clicked. "
+				""
 				"The other upgrade is a Spoon Upgrade, which can only be applied to Pickaxes. It lets the pickaxe mine through Dirt, Sand, Gravel, and more just like it was a shovel as well."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "1F0C54423CE96FB0",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "1F0C54423CE96FB0"
 			tasks: [
 				{
-					id: "046CDBF191542824",
-					type: "item",
+					id: "046CDBF191542824"
+					type: "item"
 					item: "silentgems:chrysoprase"
-				},
+				}
 				{
-					id: "634155820C07F7C2",
-					type: "item",
+					id: "634155820C07F7C2"
+					type: "item"
 					item: "silentgems:jasper"
-				},
+				}
 				{
-					id: "1DC2E77437150B91",
-					type: "item",
+					id: "1DC2E77437150B91"
+					type: "item"
 					item: "silentgear:road_maker_upgrade"
-				},
+				}
 				{
-					id: "7F9C3121FD3840F1",
-					type: "item",
+					id: "7F9C3121FD3840F1"
+					type: "item"
 					item: "silentgear:spoon_upgrade"
 				}
-			],
+			]
 			rewards: [{
-				id: "6450A74A0362F7A2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6450A74A0362F7A2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Magic Touch",
-			icon: "botania:manasteel_ingot",
-			x: 3.5d,
-			y: 2.0d,
-			shape: "square",
-			subtitle: "&dImproving things well",
+			title: "Magic Touch"
+			icon: "botania:manasteel_ingot"
+			x: 3.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "&dImproving things well"
 			description: [
-				"Kunzite grants Silky trait to your tools, which acts like Silk Touch.",
-				"",
-				"Speaking of magic... Making tools out of Manasteel, Terrasteel, or Elementium lets me slowly repair my Mana based armor and weapons.",
-				"",
-				"As well, Elementium gives the Pixilate trait, which summons pixies to my defense when I take damage with Elementium based armor, or when I hit things with Elementium based tools and weapons.",
-				"",
+				"Kunzite grants Silky trait to your tools, which acts like Silk Touch."
+				""
+				"Speaking of magic... Making tools out of Manasteel, Terrasteel, or Elementium lets me slowly repair my Mana based armor and weapons."
+				""
+				"As well, Elementium gives the Pixilate trait, which summons pixies to my defense when I take damage with Elementium based armor, or when I hit things with Elementium based tools and weapons."
+				""
 				"Lastly, the Phantasmal ingot gives the Phantasm Trait, which summons ghostly swords when I attack with it."
-			],
-			dependencies: ["274791BF806407C0"],
-			id: "13170913A788220A",
+			]
+			dependencies: ["274791BF806407C0"]
+			id: "13170913A788220A"
 			tasks: [
 				{
-					id: "232EB610FB6B8D0A",
-					type: "item",
+					id: "232EB610FB6B8D0A"
+					type: "item"
 					item: "silentgems:kunzite"
-				},
+				}
 				{
-					id: "438164D1957A4F9C",
-					type: "item",
+					id: "438164D1957A4F9C"
+					type: "item"
 					item: "botania:manasteel_ingot"
-				},
+				}
 				{
-					id: "348D82D638310D29",
-					type: "item",
+					id: "348D82D638310D29"
+					type: "item"
 					item: "botania:elementium_ingot"
-				},
+				}
 				{
-					id: "2D368EAF2630E8CD",
-					type: "item",
+					id: "2D368EAF2630E8CD"
+					type: "item"
 					item: "iceandfire:ghost_ingot"
 				}
-			],
+			]
 			rewards: [{
-				id: "35D1CB287E8BCBC1",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "35D1CB287E8BCBC1"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "&dLesson Complete: Silent's Gear, Silent's Gems, Mana Gear, Dragon Gear",
-			icon: {
-				id: "contenttweaker:forbiddencoin",
-				Count: 46b
-			},
-			x: -1.25d,
-			y: 0.9375d,
-			shape: "pentagon",
-			hide_dependency_lines: true,
+			title: "&dLesson Complete: Silent's Gear, Silent's Gems, Mana Gear, Dragon Gear"
+			icon: { id: "contenttweaker:forbiddencoin", Count: 46b }
+			x: -1.25d
+			y: 0.9375d
+			shape: "pentagon"
+			hide_dependency_lines: true
 			dependencies: [
-				"2D5310696A2EC63B",
-				"14D689260A1AD65D",
-				"53B50FBC69BF6135",
-				"30C041BC024CF581",
-				"24F21304BAAC9E10",
-				"42810EEA7F308F6B",
-				"70D1490AA241F000",
-				"0ABD089E989B2CBD",
-				"0CDC0527C0096F51",
-				"1DD5F7DF81B86A19",
-				"27F56E7E83177A18",
-				"6195505AC331480B",
-				"3032B4A8D6F10B7B",
-				"647077C483897440",
-				"19FF1BFB9243B175",
-				"7D501DA75F8059A5",
-				"54D92AB122AD38D4",
-				"39B45C7A70BE70EB",
-				"5DD59877F8D03740",
-				"20380718FE82F5A8",
-				"27CCA4C73A8DA7D1",
-				"3697182782DB1469",
-				"4C9C24B87D5B20A0",
-				"344B6627FF3C6CD4",
-				"3D4FE2960BF0AE62",
-				"51F531D70CDED069",
-				"70DFFE178E2418EF",
-				"65E9216AECA6570B",
-				"7043438E4B4945A3",
-				"4C592D8D0560B3E5",
-				"6F46CF87F6CFE878",
-				"39B3500E817B1D5E",
-				"1F0C54423CE96FB0",
-				"13170913A788220A",
+				"2D5310696A2EC63B"
+				"14D689260A1AD65D"
+				"53B50FBC69BF6135"
+				"30C041BC024CF581"
+				"24F21304BAAC9E10"
+				"42810EEA7F308F6B"
+				"70D1490AA241F000"
+				"0ABD089E989B2CBD"
+				"0CDC0527C0096F51"
+				"1DD5F7DF81B86A19"
+				"27F56E7E83177A18"
+				"6195505AC331480B"
+				"3032B4A8D6F10B7B"
+				"647077C483897440"
+				"19FF1BFB9243B175"
+				"7D501DA75F8059A5"
+				"54D92AB122AD38D4"
+				"39B45C7A70BE70EB"
+				"5DD59877F8D03740"
+				"20380718FE82F5A8"
+				"27CCA4C73A8DA7D1"
+				"3697182782DB1469"
+				"4C9C24B87D5B20A0"
+				"344B6627FF3C6CD4"
+				"3D4FE2960BF0AE62"
+				"51F531D70CDED069"
+				"70DFFE178E2418EF"
+				"65E9216AECA6570B"
+				"7043438E4B4945A3"
+				"4C592D8D0560B3E5"
+				"6F46CF87F6CFE878"
+				"39B3500E817B1D5E"
+				"1F0C54423CE96FB0"
+				"13170913A788220A"
 				"65ADEA973F95F940"
-			],
-			size: 1.25d,
-			id: "74751CA5DE38D347",
+			]
+			size: 1.25d
+			id: "74751CA5DE38D347"
 			tasks: [{
-				id: "59FCEFBBB8A71E38",
+				id: "59FCEFBBB8A71E38"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "64621B5FEF0C5764",
-				type: "item",
-				item: "contenttweaker:forbiddencoin",
+				id: "64621B5FEF0C5764"
+				type: "item"
+				item: "contenttweaker:forbiddencoin"
 				count: 3
 			}]
 		}

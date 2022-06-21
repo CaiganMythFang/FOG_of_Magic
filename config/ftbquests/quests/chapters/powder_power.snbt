@@ -1,515 +1,510 @@
 {
-	id: "0000000000000197",
-	group: "",
-	order_index: 7,
-	filename: "powder_power",
-	title: "Powder Power",
-	icon: "powder_power:blend_quadrilium",
-	default_quest_shape: "",
+	id: "0000000000000197"
+	group: ""
+	order_index: 7
+	filename: "powder_power"
+	title: "Powder Power"
+	icon: "powder_power:blend_quadrilium"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "To The Next Power",
+			title: "To The Next Power"
 			icon: {
-				id: "powder_power:hammer_alchemist",
-				Count: 1b,
+				id: "powder_power:hammer_alchemist"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -0.5d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dMod: Powder Power",
+			}
+			x: -0.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dMod: Powder Power"
 			description: [
-				"So... this is pretty heavy stuff, but Kow has clued me in to materials that are stronger than Diamonds. Stronger than Netherite even, and thats the big new one I only recently heard of.",
-				"",
-				"They are called Powder Power materials. One of them sits between Diamond and Netherrite, but each of the others is one step higher than the last.",
-				"",
-				"And the best part? They are made basically by alloying normal, vanilla materials over and over again to create it.",
-				"",
+				"So... this is pretty heavy stuff, but Kow has clued me in to materials that are stronger than Diamonds. Stronger than Netherite even, and thats the big new one I only recently heard of."
+				""
+				"They are called Powder Power materials. One of them sits between Diamond and Netherrite, but each of the others is one step higher than the last."
+				""
+				"And the best part? They are made basically by alloying normal, vanilla materials over and over again to create it."
+				""
 				"To start, I'll need to make an Alchemist Hammer and Mortar and Pestle."
-			],
-			dependencies: ["0000000000000025"],
-			id: "0000000000000198",
+			]
+			dependencies: ["0000000000000025"]
+			id: "0000000000000198"
 			tasks: [
 				{
-					id: "0000000000000199",
-					type: "item",
+					id: "0000000000000199"
+					type: "item"
 					item: {
-						id: "powder_power:hammer_alchemist",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "000000000000019A",
-					type: "item",
-					item: {
-						id: "powder_power:motar_pestle",
-						Count: 1b,
+						id: "powder_power:hammer_alchemist"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "000000000000019A"
+					type: "item"
+					item: {
+						id: "powder_power:motar_pestle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "000000000000019B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000019B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Redium and Lapium",
-			x: -0.5d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dRed vs Blue, of course",
+			title: "Redium and Lapium"
+			x: -0.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dRed vs Blue, of course"
 			description: [
-				"Okay, so the first Powder Power material is, actually, two materials. But they are basically the same? Redium and Lapium.",
-				"",
+				"Okay, so the first Powder Power material is, actually, two materials. But they are basically the same? Redium and Lapium."
+				""
 				"&dRedium and Lapium sit somewhere &dbetween Diamond and Netherite. As &dwell, Lapium armor gives water &dbreathing and poison protection, while &dRedium gives fire and wither &dprotection."
-			],
-			dependencies: ["0000000000000198"],
-			id: "000000000000019C",
+			]
+			dependencies: ["0000000000000198"]
+			id: "000000000000019C"
 			tasks: [
 				{
-					id: "000000000000019D",
-					type: "item",
-					title: "Any forge:ingots/redium",
+					id: "000000000000019D"
+					type: "item"
+					title: "Any forge:ingots/redium"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "forge:ingots/redium"
 						}
 					}
-				},
+				}
 				{
-					id: "000000000000019E",
-					type: "item",
-					title: "Any forge:ingots/lapium",
+					id: "000000000000019E"
+					type: "item"
+					title: "Any forge:ingots/lapium"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "forge:ingots/lapium"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000019F",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000019F"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "An Extra Life",
-			x: -2.0d,
-			y: -0.5d,
-			shape: "square",
-			subtitle: "&dDon't waste it, now",
+			title: "An Extra Life"
+			x: -2.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&dDon't waste it, now"
 			description: [
-				"Powder Power gives me some unique Curios I can equip for various things. But one of the best things? I just gotta keep on my hotbar!",
-				"",
+				"Powder Power gives me some unique Curios I can equip for various things. But one of the best things? I just gotta keep on my hotbar!"
+				""
 				"The Healing Token will break and heal me if I ever am about to die. Kind of expensive, but that's better than losing my stuff in a grave at the bottom of the Nether lava sea."
-			],
-			dependencies: ["000000000000019C"],
-			id: "00000000000001A0",
+			]
+			dependencies: ["000000000000019C"]
+			id: "00000000000001A0"
 			tasks: [{
-				id: "00000000000001A1",
-				type: "item",
+				id: "00000000000001A1"
+				type: "item"
 				item: "powder_power:token_healing"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001A8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001A8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Safe landing",
-			icon: "powder_power:token_no_fall",
-			x: -2.0d,
-			y: 1.5d,
-			shape: "square",
-			subtitle: "&dMore stylish than Long Fall Boots",
-			description: ["The No Fall Damage Token is a fantastic accessory when traversing the Nether, with its tall walls and long falls."],
-			dependencies: ["000000000000019C"],
-			id: "00000000000001A2",
+			title: "Safe landing"
+			icon: "powder_power:token_no_fall"
+			x: -2.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "&dMore stylish than Long Fall Boots"
+			description: ["The No Fall Damage Token is a fantastic accessory when traversing the Nether, with its tall walls and long falls."]
+			dependencies: ["000000000000019C"]
+			id: "00000000000001A2"
 			tasks: [{
-				id: "00000000000001A3",
-				type: "item",
+				id: "00000000000001A3"
+				type: "item"
 				item: "powder_power:token_no_fall"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001A9",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001A9"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Abrakablammo",
+			title: "Abrakablammo"
 			icon: {
-				id: "powder_power:wand_alchemist",
-				Count: 1b,
+				id: "powder_power:wand_alchemist"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: 1.0d,
-			y: -0.5d,
-			shape: "square",
-			subtitle: "&dWhat?",
+			}
+			x: 1.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&dWhat?"
 			description: [
-				"The Alchemist Wand lets me magically transform Overworld blocks to Nether, and Nether to End. It works on specific blocks only, but its a good way to save myself a trip to either place when I'm short on something.",
-				"",
+				"The Alchemist Wand lets me magically transform Overworld blocks to Nether, and Nether to End. It works on specific blocks only, but its a good way to save myself a trip to either place when I'm short on something."
+				""
 				"A good example is turning Dirt into Netherrack into Magma into Basalt into Blackstone. Or Granite into Purpur. Or Diorite into Endstone."
-			],
-			dependencies: ["000000000000019C"],
-			id: "00000000000001A4",
+			]
+			dependencies: ["000000000000019C"]
+			id: "00000000000001A4"
 			tasks: [{
-				id: "00000000000001A5",
-				type: "item",
+				id: "00000000000001A5"
+				type: "item"
 				item: {
-					id: "powder_power:wand_alchemist",
-					Count: 1b,
+					id: "powder_power:wand_alchemist"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001AA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001AA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "A Jump To The Sky",
-			icon: "powder_power:token_jump_boost",
-			x: 1.0d,
-			y: 1.5d,
-			shape: "square",
-			subtitle: "&dTurns into a kick?",
-			description: ["The Jump Boost Token is fun, giving me bigger hops, which makes traversing the high cliffs of the mountains much easier. "],
-			dependencies: ["000000000000019C"],
-			id: "00000000000001A6",
+			title: "A Jump To The Sky"
+			icon: "powder_power:token_jump_boost"
+			x: 1.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "&dTurns into a kick?"
+			description: ["The Jump Boost Token is fun, giving me bigger hops, which makes traversing the high cliffs of the mountains much easier. "]
+			dependencies: ["000000000000019C"]
+			id: "00000000000001A6"
 			tasks: [{
-				id: "00000000000001A7",
-				type: "item",
+				id: "00000000000001A7"
+				type: "item"
 				item: "powder_power:token_jump_boost"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001AB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001AB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Gemium",
-			icon: "powder_power:gem_gemium",
-			x: 2.5d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dRefined and Bolstered Diamonds",
+			title: "Gemium"
+			icon: "powder_power:gem_gemium"
+			x: 2.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dRefined and Bolstered Diamonds"
 			description: [
-				"If Redium and Lapium are just under Netherite, then Gemium is just above it. ",
-				"",
+				"If Redium and Lapium are just under Netherite, then Gemium is just above it. "
+				""
 				"As a bonus, Gemium armor gives the benefits of both Redium and Lapium buffs, as well as a little regeneration and slow fall."
-			],
-			dependencies: ["000000000000019C"],
-			id: "00000000000001AC",
+			]
+			dependencies: ["000000000000019C"]
+			id: "00000000000001AC"
 			tasks: [{
-				id: "00000000000001AD",
-				type: "item",
+				id: "00000000000001AD"
+				type: "item"
 				item: "powder_power:gem_gemium"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001AE",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001AE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Not Seen, Not Heard",
-			icon: "powder_power:token_unseen",
-			x: 3.5d,
-			y: -0.5d,
-			shape: "square",
-			subtitle: "&dMay as well be Cliff Racers...",
+			title: "Not Seen, Not Heard"
+			icon: "powder_power:token_unseen"
+			x: 3.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&dMay as well be Cliff Racers..."
 			description: [
-				"It seems this dimension really wants me to get a good night's sleep, right? These Phantoms like to show up when I haven't actually slept properly for a few nights, and it is quite annoying.",
-				"",
-				"Thankfully, I can make an Unseen Token, which makes me invisible to them. They are still there, they just can't see me, at least.",
-				"",
+				"It seems this dimension really wants me to get a good night's sleep, right? These Phantoms like to show up when I haven't actually slept properly for a few nights, and it is quite annoying."
+				""
+				"Thankfully, I can make an Unseen Token, which makes me invisible to them. They are still there, they just can't see me, at least."
+				""
 				"And to boot, I don't even have to wear it. Just carrying it in my pocket works."
-			],
-			dependencies: ["00000000000001AC"],
-			id: "00000000000001AF",
+			]
+			dependencies: ["00000000000001AC"]
+			id: "00000000000001AF"
 			tasks: [{
-				id: "00000000000001B0",
-				type: "item",
+				id: "00000000000001B0"
+				type: "item"
 				item: "powder_power:token_unseen"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001B3",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001B3"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Bright Days Ahead",
-			icon: "powder_power:token_sunshine",
-			x: 3.5d,
-			y: 1.5d,
-			shape: "square",
-			subtitle: "&dBring Sunglasses",
+			title: "Bright Days Ahead"
+			icon: "powder_power:token_sunshine"
+			x: 3.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "&dBring Sunglasses"
 			description: [
-				"It's amazing how often it rains here. And sometimes I just want to explore in peace without carrying an umbrella, right?",
-				"",
+				"It's amazing how often it rains here. And sometimes I just want to explore in peace without carrying an umbrella, right?"
+				""
 				"The Sunshine Token can be Right Clicked to banish the rain. Fantastic! "
-			],
-			dependencies: ["00000000000001AC"],
-			id: "00000000000001B1",
+			]
+			dependencies: ["00000000000001AC"]
+			id: "00000000000001B1"
 			tasks: [{
-				id: "00000000000001B2",
-				type: "item",
+				id: "00000000000001B2"
+				type: "item"
 				item: "powder_power:token_sunshine"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001B4",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001B4"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Trilium",
-			icon: "powder_power:ingot_trilium",
-			x: -3.5d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dPowerfully Pink",
+			title: "Trilium"
+			icon: "powder_power:ingot_trilium"
+			x: -3.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dPowerfully Pink"
 			description: [
-				"These materials are getting more intense. And not just in how durable they are. This is really pink, and I approve.",
-				"",
+				"These materials are getting more intense. And not just in how durable they are. This is really pink, and I approve."
+				""
 				"Trilium sits at about double Redium/Lapis in durability. It also adds onto Gemium's armor buffs with levitation protection, and the ability to swim faster around Dolphins which... is weird?"
-			],
-			dependencies: ["00000000000001AC"],
-			id: "00000000000001B5",
+			]
+			dependencies: ["00000000000001AC"]
+			id: "00000000000001B5"
 			tasks: [{
-				id: "00000000000001B6",
-				type: "item",
+				id: "00000000000001B6"
+				type: "item"
 				item: "powder_power:ingot_trilium"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001B7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001B7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Underwate Prowess",
-			icon: "powder_power:token_conduit_power",
-			x: -4.5d,
-			y: 1.5d,
-			shape: "square",
-			subtitle: "&dLike a weird fish",
+			title: "Underwate Prowess"
+			icon: "powder_power:token_conduit_power"
+			x: -4.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "&dLike a weird fish"
 			description: [
-				"The Conduit Power Token basically turns me into a mermaid.",
-				"",
-				"&dUh... no.",
-				"",
+				"The Conduit Power Token basically turns me into a mermaid."
+				""
+				"&dUh... no."
+				""
 				"Fine fine, it makes me swim better, see under water, and most important breath underwater."
-			],
-			dependencies: ["00000000000001B5"],
-			id: "00000000000001B8",
+			]
+			dependencies: ["00000000000001B5"]
+			id: "00000000000001B8"
 			tasks: [{
-				id: "00000000000001B9",
-				type: "item",
+				id: "00000000000001B9"
+				type: "item"
 				item: "powder_power:token_conduit_power"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001BD",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001BD"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Healthier",
-			x: -4.5d,
-			y: -0.5d,
-			shape: "square",
-			subtitle: "&dJust Tank It",
-			description: ["The Absorption Token adds more health to me, making me able to survive more hits. Quite simple, really."],
-			dependencies: ["00000000000001B5"],
-			id: "00000000000001BA",
+			title: "Healthier"
+			x: -4.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&dJust Tank It"
+			description: ["The Absorption Token adds more health to me, making me able to survive more hits. Quite simple, really."]
+			dependencies: ["00000000000001B5"]
+			id: "00000000000001BA"
 			tasks: [{
-				id: "00000000000001BB",
-				type: "item",
+				id: "00000000000001BB"
+				type: "item"
 				item: "powder_power:token_absorption"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001BC",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001BC"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Quadrilium",
-			icon: "powder_power:ingot_quadrilium",
-			x: -0.5d,
-			y: 2.6964285714285694d,
-			shape: "square",
-			subtitle: "&dMy Purple Theory continues...",
+			title: "Quadrilium"
+			icon: "powder_power:ingot_quadrilium"
+			x: -0.5d
+			y: 2.6964285714285694d
+			shape: "square"
+			subtitle: "&dMy Purple Theory continues..."
 			description: [
-				"Quadrilium. The best of the best, the dark purple powerhouse. It takes a lot to make this, including making Netherite for it.",
-				"",
+				"Quadrilium. The best of the best, the dark purple powerhouse. It takes a lot to make this, including making Netherite for it."
+				""
 				"Over twice as strong as Netherrite, twice and protective, and dang stylish to boot."
-			],
+			]
 			dependencies: [
-				"00000000000001B5",
-				"00000000000001AC",
+				"00000000000001B5"
+				"00000000000001AC"
 				"000000000000019C"
-			],
-			id: "00000000000001BE",
+			]
+			id: "00000000000001BE"
 			tasks: [{
-				id: "00000000000001BF",
-				type: "item",
+				id: "00000000000001BF"
+				type: "item"
 				item: "powder_power:ingot_quadrilium"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001C0",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001C0"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 40
 			}]
-		},
+		}
 		{
-			title: "A Quick Cure",
-			icon: "powder_power:token_curing",
-			x: -1.5d,
-			y: 3.75d,
-			shape: "square",
-			subtitle: "&dThe Essence of Milk",
+			title: "A Quick Cure"
+			icon: "powder_power:token_curing"
+			x: -1.5d
+			y: 3.75d
+			shape: "square"
+			subtitle: "&dThe Essence of Milk"
 			description: [
-				"A lot of these really tough monsters hit hard not just to my health directly, but they like to slow me down, disorient me, poison me, and more.",
-				"",
+				"A lot of these really tough monsters hit hard not just to my health directly, but they like to slow me down, disorient me, poison me, and more."
+				""
 				"The Curing Token cuts that silliness out. It automatically cures me of most ailments when they hit me, as long as I have the Token in my inventory."
-			],
-			dependencies: ["00000000000001BE"],
-			id: "00000000000001C1",
+			]
+			dependencies: ["00000000000001BE"]
+			id: "00000000000001C1"
 			tasks: [{
-				id: "00000000000001C2",
-				type: "item",
+				id: "00000000000001C2"
+				type: "item"
 				item: "powder_power:token_curing"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001C7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001C7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Flight of the Dragons",
-			icon: "powder_power:token_dragon",
-			x: 0.5d,
-			y: 3.75d,
-			shape: "square",
-			subtitle: "&dFire Breath Not Included",
-			description: ["Do I want to fly? Heck yeah I do. And the Dragon Token lets me do just that!"],
-			dependencies: ["00000000000001BE"],
-			id: "00000000000001C3",
+			title: "Flight of the Dragons"
+			icon: "powder_power:token_dragon"
+			x: 0.5d
+			y: 3.75d
+			shape: "square"
+			subtitle: "&dFire Breath Not Included"
+			description: ["Do I want to fly? Heck yeah I do. And the Dragon Token lets me do just that!"]
+			dependencies: ["00000000000001BE"]
+			id: "00000000000001C3"
 			tasks: [{
-				id: "00000000000001C4",
-				type: "item",
+				id: "00000000000001C4"
+				type: "item"
 				item: "powder_power:token_dragon"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001C8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001C8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Ultimate Resistance",
-			icon: "powder_power:token_supreme_resistance",
-			x: -0.5d,
-			y: 4.75d,
-			shape: "square",
-			subtitle: "&dDon't need to dodge if it doesn't hurt",
+			title: "Ultimate Resistance"
+			icon: "powder_power:token_supreme_resistance"
+			x: -0.5d
+			y: 4.75d
+			shape: "square"
+			subtitle: "&dDon't need to dodge if it doesn't hurt"
 			description: [
-				"So, there isn't really a step above Quadrillion when it comes to material... but there is when it comes to these magic Tokens. ",
-				"",
+				"So, there isn't really a step above Quadrillion when it comes to material... but there is when it comes to these magic Tokens. "
+				""
 				"By folding multiple Attack Resistance tokens into each other, with some Netherite as well, we get basically the absolute ultimate Attack Resistance Token."
-			],
-			dependencies: ["00000000000001BE"],
-			id: "00000000000001C5",
+			]
+			dependencies: ["00000000000001BE"]
+			id: "00000000000001C5"
 			tasks: [{
-				id: "00000000000001C6",
-				type: "item",
+				id: "00000000000001C6"
+				type: "item"
 				item: "powder_power:token_supreme_resistance"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001C9",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001C9"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "&dCompleted Lesson: Powder Power",
-			icon: {
-				id: "contenttweaker:forbiddencoin",
-				Count: 51b
-			},
-			x: -0.5d,
-			y: 3.75d,
-			shape: "pentagon",
-			hide_dependency_lines: true,
+			title: "&dCompleted Lesson: Powder Power"
+			icon: { id: "contenttweaker:forbiddencoin", Count: 51b }
+			x: -0.5d
+			y: 3.75d
+			shape: "pentagon"
+			hide_dependency_lines: true
 			dependencies: [
-				"00000000000001BA",
-				"00000000000001B8",
-				"00000000000001B0",
-				"00000000000001B1",
-				"00000000000001C1",
-				"00000000000001C5",
-				"00000000000001C3",
-				"00000000000001A4",
+				"00000000000001BA"
+				"00000000000001B8"
+				"00000000000001B0"
+				"00000000000001B1"
+				"00000000000001C1"
+				"00000000000001C5"
+				"00000000000001C3"
+				"00000000000001A4"
 				"00000000000001A0"
-			],
-			hide: true,
-			size: 1.25d,
-			id: "6A13C9FD6E97558B",
+			]
+			hide: true
+			size: 1.25d
+			id: "6A13C9FD6E97558B"
 			tasks: [{
-				id: "1811434A1D38814E",
-				type: "checkmark",
-				icon: {
-					id: "contenttweaker:forbiddencoin",
-					Count: 51b
-				}
-			}],
+				id: "1811434A1D38814E"
+				type: "checkmark"
+				icon: { id: "contenttweaker:forbiddencoin", Count: 51b }
+			}]
 			rewards: [{
-				id: "110A56D3D272911A",
-				type: "item",
-				item: "contenttweaker:forbiddencoin",
+				id: "110A56D3D272911A"
+				type: "item"
+				item: "contenttweaker:forbiddencoin"
 				count: 4
 			}]
 		}

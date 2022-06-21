@@ -1,682 +1,677 @@
 {
-	id: "00000000000003BD",
-	group: "",
-	order_index: 11,
-	filename: "dark_magics",
-	title: "Dark Magics",
-	icon: "eidolon:unholy_symbol",
-	default_quest_shape: "",
+	id: "00000000000003BD"
+	group: ""
+	order_index: 11
+	filename: "dark_magics"
+	title: "Dark Magics"
+	icon: "eidolon:unholy_symbol"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "The Other Side of the Magic Coin",
-			icon: "eidolon:codex",
-			x: 0.25d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dMod : Eidolon",
+			title: "The Other Side of the Magic Coin"
+			icon: "eidolon:codex"
+			x: 0.25d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dMod : Eidolon"
 			description: [
-				"So... Dark Magic? Really?",
-				"",
-				"&dYes. To properly progress in your &dmagical knowledge, you must know how &dto harness both light and dark.",
-				"",
-				"But wouldn't practicing dark magic make me evil?",
-				"",
-				"&dNo. Healing does not always make you &da saint. Hurting does not always make &dyou a sinner. How, why, and when are &dwhat matters.",
-				"",
-				"Okay...",
-				"",
+				"So... Dark Magic? Really?"
+				""
+				"&dYes. To properly progress in your &dmagical knowledge, you must know how &dto harness both light and dark."
+				""
+				"But wouldn't practicing dark magic make me evil?"
+				""
+				"&dNo. Healing does not always make you &da saint. Hurting does not always make &dyou a sinner. How, why, and when are &dwhat matters."
+				""
+				"Okay..."
+				""
 				"&dI will explain. First, make the magic &dbook Ars Ecclesia. It will be your &dguide. Then find Lead, and make &dPewter with it. Then finally, Smelt some &dBone into Enchanted Ash. You can &dplace this like Redstone, but it will &dward off many types of Undead &dinstead."
-			],
-			dependencies: ["0000000000000025"],
-			id: "00000000000003BE",
+			]
+			dependencies: ["0000000000000025"]
+			id: "00000000000003BE"
 			tasks: [
 				{
-					id: "00000000000003BF",
-					type: "item",
+					id: "00000000000003BF"
+					type: "item"
 					item: "eidolon:codex"
-				},
+				}
 				{
-					id: "00000000000003C0",
-					type: "item",
-					title: "Lead Ingot",
+					id: "00000000000003C0"
+					type: "item"
+					title: "Lead Ingot"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "forge:ingots/lead"
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000003C1",
-					type: "item",
+					id: "00000000000003C1"
+					type: "item"
 					item: "eidolon:pewter_ingot"
-				},
+				}
 				{
-					id: "00000000000003C2",
-					type: "item",
+					id: "00000000000003C2"
+					type: "item"
 					item: "eidolon:enchanted_ash"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003C3",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003C3"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "A Ritual Setup",
-			icon: "eidolon:brazier",
-			x: 0.25d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dHands in the Air",
+			title: "A Ritual Setup"
+			icon: "eidolon:brazier"
+			x: 0.25d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dHands in the Air"
 			description: [
-				"Interesting, so Kow explained a few things. Very interesting things to think about!",
-				"",
-				"But anyways, to get started with this dark magic, I need to make a ritual area. Not a big one, but my first steps I'll want to be able to lead some Zombies and Skeletons close to it.",
-				"",
-				"I place the Brazier in the center, this holds the main item of the Ritual. Then near it, I place a bunch of Stone Hands. These hold other parts of the spell.",
-				"",
-				"I can use a Necrotic Focus instead of a Stone Hand. It works the same, but some Rituals I can do need more powerful items, and the Necrotic Focus is what holds them. I just question why it's a dang skull, yeah?",
-				"",
+				"Interesting, so Kow explained a few things. Very interesting things to think about!"
+				""
+				"But anyways, to get started with this dark magic, I need to make a ritual area. Not a big one, but my first steps I'll want to be able to lead some Zombies and Skeletons close to it."
+				""
+				"I place the Brazier in the center, this holds the main item of the Ritual. Then near it, I place a bunch of Stone Hands. These hold other parts of the spell."
+				""
+				"I can use a Necrotic Focus instead of a Stone Hand. It works the same, but some Rituals I can do need more powerful items, and the Necrotic Focus is what holds them. I just question why it's a dang skull, yeah?"
+				""
 				"&dSkulls represent death. Poison, etc. &dYou know what I mean."
-			],
-			dependencies: ["00000000000003BE"],
-			id: "00000000000003C4",
+			]
+			dependencies: ["00000000000003BE"]
+			id: "00000000000003C4"
 			tasks: [
 				{
-					id: "00000000000003C5",
-					type: "item",
+					id: "00000000000003C5"
+					type: "item"
 					item: "eidolon:brazier"
-				},
+				}
 				{
-					id: "00000000000003C6",
-					type: "item",
+					id: "00000000000003C6"
+					type: "item"
 					item: "eidolon:stone_hand"
-				},
+				}
 				{
-					id: "00000000000003C7",
-					type: "item",
+					id: "00000000000003C7"
+					type: "item"
 					item: "eidolon:necrotic_focus"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003C8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003C8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "My First Ritual",
-			icon: "eidolon:soul_shard",
-			x: 2.25d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dEnergy in Undeath",
+			title: "My First Ritual"
+			icon: "eidolon:soul_shard"
+			x: 2.25d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dEnergy in Undeath"
 			description: [
-				"Now that I have a ritual area set up, I need to try out my first ritual.",
-				"",
-				"First I need to gather up some living undead. Or... alive undead? Not dead undead? Skeletons and zombies! And husks and strays and stuff, but zombies and skeletons are easiest.",
-				"",
-				"I need them really close to the Brazier. I can probably trap them close by with Enchanted Ash on the ground. I then put some Bonemeal in the Brazier, and then two pieces of Redstone Dust in the Stone Hands.",
-				"",
+				"Now that I have a ritual area set up, I need to try out my first ritual."
+				""
+				"First I need to gather up some living undead. Or... alive undead? Not dead undead? Skeletons and zombies! And husks and strays and stuff, but zombies and skeletons are easiest."
+				""
+				"I need them really close to the Brazier. I can probably trap them close by with Enchanted Ash on the ground. I then put some Bonemeal in the Brazier, and then two pieces of Redstone Dust in the Stone Hands."
+				""
 				"When I'm ready, I Right Click a Flint and Steel on the Brazier and stand back to watch. I should get these Soul Shards if all goes well!"
-			],
+			]
 			dependencies: [
-				"00000000000003C4",
+				"00000000000003C4"
 				"00000000000003EC"
-			],
-			id: "00000000000003C9",
+			]
+			id: "00000000000003C9"
 			tasks: [{
-				id: "00000000000003CA",
-				type: "item",
+				id: "00000000000003CA"
+				type: "item"
 				item: "eidolon:soul_shard"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000003CB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003CB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "A Brewing Alternative",
-			icon: "eidolon:wooden_brewing_stand",
-			x: 4.25d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dA Bargain in Heating",
+			title: "A Brewing Alternative"
+			icon: "eidolon:wooden_brewing_stand"
+			x: 4.25d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dA Bargain in Heating"
 			description: [
-				"So, the problem I have with Brewing Stands is that I have to use Blaze Powder to heat up the concoction and infusion process. And that gets a little expensive since I usually have to go hunt down Blazes. ",
-				"",
-				"Not to mention farm up Nether Wart, of course.",
-				"",
-				"But I have a solution.... if I make a Crucible, and heat it from below like a cauldron, I can create something called Sprouting Fungus. The Recipe is in the Ars Ecclesia. ",
-				"",
+				"So, the problem I have with Brewing Stands is that I have to use Blaze Powder to heat up the concoction and infusion process. And that gets a little expensive since I usually have to go hunt down Blazes. "
+				""
+				"Not to mention farm up Nether Wart, of course."
+				""
+				"But I have a solution.... if I make a Crucible, and heat it from below like a cauldron, I can create something called Sprouting Fungus. The Recipe is in the Ars Ecclesia. "
+				""
 				"But even better, I can place this Apothecary on top of the bubbling Cauldron, and it'll act like Blaze Powder in a Brewing Stand. I just can't concentrate potions as much."
-			],
-			dependencies: ["00000000000003C9"],
-			id: "00000000000003CC",
+			]
+			dependencies: ["00000000000003C9"]
+			id: "00000000000003CC"
 			tasks: [
 				{
-					id: "00000000000003CD",
-					type: "item",
+					id: "00000000000003CD"
+					type: "item"
 					item: "eidolon:crucible"
-				},
+				}
 				{
-					id: "00000000000003CE",
-					type: "item",
+					id: "00000000000003CE"
+					type: "item"
 					item: "eidolon:fungus_sprouts"
-				},
+				}
 				{
-					id: "00000000000003CF",
-					type: "item",
+					id: "00000000000003CF"
+					type: "item"
 					item: "eidolon:wooden_brewing_stand"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003D1",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003D1"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Shinier Gold",
-			icon: "eidolon:arcane_gold_ingot",
-			x: 4.25d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dSparkling with Magic",
+			title: "Shinier Gold"
+			icon: "eidolon:arcane_gold_ingot"
+			x: 4.25d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dSparkling with Magic"
 			description: [
-				"Now that I have the Crucible, I can make some magical materials more useful in the ah... dark arts, I guess?",
-				"",
-				"One of them is a more magical gold. By combining Gold, Redstone, and Soul Shards, I can make Arcane Gold.",
-				"",
-				"With this, I can make Tallow by putting Rotten Flesh in a Blast Furnace to purify it into Tallow, make a Candle out of it, then put it on a bit of Arcane Gold to make a Candlestick. These look much nicer than torches, and are definitely more magical.",
-				"",
-				"&dMight be more magical.",
-				"",
+				"Now that I have the Crucible, I can make some magical materials more useful in the ah... dark arts, I guess?"
+				""
+				"One of them is a more magical gold. By combining Gold, Redstone, and Soul Shards, I can make Arcane Gold."
+				""
+				"With this, I can make Tallow by putting Rotten Flesh in a Blast Furnace to purify it into Tallow, make a Candle out of it, then put it on a bit of Arcane Gold to make a Candlestick. These look much nicer than torches, and are definitely more magical."
+				""
+				"&dMight be more magical."
+				""
 				"Definitely might be more magical."
-			],
-			dependencies: ["00000000000003CC"],
-			id: "00000000000003D2",
+			]
+			dependencies: ["00000000000003CC"]
+			id: "00000000000003D2"
 			tasks: [
 				{
-					id: "00000000000003D3",
-					type: "item",
+					id: "00000000000003D3"
+					type: "item"
 					item: "eidolon:arcane_gold_ingot"
-				},
+				}
 				{
-					id: "00000000000003D4",
-					type: "item",
+					id: "00000000000003D4"
+					type: "item"
 					item: "eidolon:tallow"
-				},
+				}
 				{
-					id: "00000000000003D5",
-					type: "item",
+					id: "00000000000003D5"
+					type: "item"
 					item: "eidolon:candle"
-				},
+				}
 				{
-					id: "00000000000003D6",
-					type: "item",
+					id: "00000000000003D6"
+					type: "item"
 					item: "eidolon:candlestick"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003D7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003D7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Bigger Crystals",
-			icon: "eidolon:lesser_soul_gem",
-			x: 2.25d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dPrettier and More Powerful",
+			title: "Bigger Crystals"
+			icon: "eidolon:lesser_soul_gem"
+			x: 2.25d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dPrettier and More Powerful"
 			description: [
-				"Alright, so I'm starting to need a bit more power and magic in these creations. The little soul gems I get from the undead aren't going to cut it on their own...",
-				"",
-				"Thankfully with the Crucible, and some of the magical reagents I can craft with it, I can make some more concentrated magical sources.",
-				"",
-				"First, I should probably condense some of these Soul Shards into a Lesser Soul Gem.",
-				"",
+				"Alright, so I'm starting to need a bit more power and magic in these creations. The little soul gems I get from the undead aren't going to cut it on their own..."
+				""
+				"Thankfully with the Crucible, and some of the magical reagents I can craft with it, I can make some more concentrated magical sources."
+				""
+				"First, I should probably condense some of these Soul Shards into a Lesser Soul Gem."
+				""
 				"Next, it's a bit more complex, but I can shift some of the Soul Shards with some Nether materials into a Shadow Gem."
-			],
+			]
 			dependencies: [
-				"00000000000003D2",
+				"00000000000003D2"
 				"00000000000003EC"
-			],
-			id: "00000000000003D8",
+			]
+			id: "00000000000003D8"
 			tasks: [
 				{
-					id: "00000000000003D9",
-					type: "item",
+					id: "00000000000003D9"
+					type: "item"
 					item: "eidolon:lesser_soul_gem"
-				},
+				}
 				{
-					id: "00000000000003DA",
-					type: "item",
+					id: "00000000000003DA"
+					type: "item"
 					item: "eidolon:shadow_gem"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003DB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003DB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Magical Table",
-			icon: "eidolon:worktable",
-			x: 3.25d,
-			y: -0.5d,
-			shape: "square",
-			subtitle: "&dRed and Magical",
+			title: "Magical Table"
+			icon: "eidolon:worktable"
+			x: 3.25d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&dRed and Magical"
 			description: [
-				"Hmm, I need a better crafting table for these creations. Something where I can have extra tools and ingredients in reach...",
-				"",
+				"Hmm, I need a better crafting table for these creations. Something where I can have extra tools and ingredients in reach..."
+				""
 				"Oh, here. The book explains how to make a Magic Workbench. Perfect. It'll work like a normal Crafting Table too, which is always helpful."
-			],
+			]
 			dependencies: [
-				"00000000000003D8",
+				"00000000000003D8"
 				"00000000000003C9"
-			],
-			id: "00000000000003DC",
+			]
+			id: "00000000000003DC"
 			tasks: [{
-				id: "00000000000003DD",
-				type: "item",
+				id: "00000000000003DD"
+				type: "item"
 				item: "eidolon:worktable"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000003E2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003E2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Ghastly in Undeath",
-			icon: "eidolon:tattered_cloth",
-			x: 1.25d,
-			y: -1.75d,
-			shape: "diamond",
-			subtitle: "&dSpooky bedsheets",
+			title: "Ghastly in Undeath"
+			icon: "eidolon:tattered_cloth"
+			x: 1.25d
+			y: -1.75d
+			shape: "diamond"
+			subtitle: "&dSpooky bedsheets"
 			description: [
-				"&dBe wary at night. Zombies are fairly &dnormal, but you may also come across &dWraiths and other ghostly things.",
-				"",
-				"Wraiths? Are they in search of a ring?",
-				"",
-				"&dNo, just the living to consume their &dsoul.",
-				"",
+				"&dBe wary at night. Zombies are fairly &dnormal, but you may also come across &dWraiths and other ghostly things."
+				""
+				"Wraiths? Are they in search of a ring?"
+				""
+				"&dNo, just the living to consume their &dsoul."
+				""
 				"Oh. That's less fun."
-			],
-			dependencies: ["00000000000003BE"],
-			id: "00000000000003DE",
+			]
+			dependencies: ["00000000000003BE"]
+			id: "00000000000003DE"
 			tasks: [{
-				id: "00000000000003E1",
-				type: "kill",
-				title: "Kill 3 Wraith",
-				icon: "eidolon:tattered_cloth",
-				entity: "eidolon:wraith",
+				id: "00000000000003E1"
+				type: "kill"
+				title: "Kill 3 Wraith"
+				icon: "eidolon:tattered_cloth"
+				entity: "eidolon:wraith"
 				value: 3L
-			}],
+			}]
 			rewards: [{
-				id: "00000000000003E0",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003E0"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Soulful Accessories",
-			icon: "eidolon:void_amulet",
-			x: 6.0d,
-			y: 2.75d,
-			shape: "square",
-			subtitle: "&dProtecting your own soul",
+			title: "Soulful Accessories"
+			icon: "eidolon:void_amulet"
+			x: 6.0d
+			y: 2.75d
+			shape: "square"
+			subtitle: "&dProtecting your own soul"
 			description: [
-				"I think it's probably a good time as any to shape some of these soul filled materials into some useful items. Accessories are a good idea, of course, lots of different things to wear, lots of things I can use.",
-				"",
-				"The Void Amulet will be a good idea when fighing off both skeletons and illagers. It can absorb an arrow or other projectile every 10 seconds or so. Which... well, its less the arrow that's the problem, its the knockback that gets me in trouble, yeah?",
-				"",
-				"Speaking of knockback... the Gravity Belt looks like it'll be another helpful thing. It'll slow down my falling so getting knocked off a cliff is less dangerous.",
-				"",
+				"I think it's probably a good time as any to shape some of these soul filled materials into some useful items. Accessories are a good idea, of course, lots of different things to wear, lots of things I can use."
+				""
+				"The Void Amulet will be a good idea when fighing off both skeletons and illagers. It can absorb an arrow or other projectile every 10 seconds or so. Which... well, its less the arrow that's the problem, its the knockback that gets me in trouble, yeah?"
+				""
+				"Speaking of knockback... the Gravity Belt looks like it'll be another helpful thing. It'll slow down my falling so getting knocked off a cliff is less dangerous."
+				""
 				"Hm... a lot of good things in this book, but this Prestigious Palm is very interesting. It lets me use and place things farther away. Like I'm using one of those grabby claw helper tools, yeah? That sounds great."
-			],
+			]
 			dependencies: [
-				"00000000000003DC",
-				"00000000000003D8",
+				"00000000000003DC"
+				"00000000000003D8"
 				"00000000000003F4"
-			],
-			id: "00000000000003E3",
+			]
+			id: "00000000000003E3"
 			tasks: [
 				{
-					id: "00000000000003E4",
-					type: "item",
+					id: "00000000000003E4"
+					type: "item"
 					item: "eidolon:void_amulet"
-				},
+				}
 				{
-					id: "00000000000003E5",
-					type: "item",
+					id: "00000000000003E5"
+					type: "item"
 					item: "eidolon:gravity_belt"
-				},
+				}
 				{
-					id: "00000000000003E6",
-					type: "item",
+					id: "00000000000003E6"
+					type: "item"
 					item: "eidolon:prestigious_palm"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003E7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003E7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Soulful Armor",
-			icon: "eidolon:warded_mail",
-			x: 6.0d,
-			y: -3.75d,
-			shape: "square",
-			subtitle: "&dBody and Soul",
+			title: "Soulful Armor"
+			icon: "eidolon:warded_mail"
+			x: 6.0d
+			y: -3.75d
+			shape: "square"
+			subtitle: "&dBody and Soul"
 			description: [
-				"Alright I'm getting into some more dangerous magics, so I need to protect myself against them.",
-				"",
-				"The Warded Mail fits under my normal armor, and should help protect against some magical attacks.",
-				"",
+				"Alright I'm getting into some more dangerous magics, so I need to protect myself against them."
+				""
+				"The Warded Mail fits under my normal armor, and should help protect against some magical attacks."
+				""
 				"Though if I want to fit the bill of a dark mage right, I should make some Warlock's gear. Like the hat at least, right? They should protect me against magic and make my own stronger at the same time."
-			],
+			]
 			dependencies: [
-				"00000000000003DC",
+				"00000000000003DC"
 				"00000000000003F4"
-			],
-			id: "00000000000003E8",
+			]
+			id: "00000000000003E8"
 			tasks: [
 				{
-					id: "00000000000003E9",
-					type: "item",
+					id: "00000000000003E9"
+					type: "item"
 					item: "eidolon:warded_mail"
-				},
+				}
 				{
-					id: "00000000000003EA",
-					type: "item",
+					id: "00000000000003EA"
+					type: "item"
 					item: {
-						id: "eidolon:warlock_hat",
-						Count: 1b,
+						id: "eidolon:warlock_hat"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003EB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003EB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Altar'd Theory",
-			icon: "eidolon:straw_effigy",
-			x: 1.25d,
-			y: -0.5d,
-			shape: "square",
-			subtitle: "&dDark Arts School",
+			title: "Altar'd Theory"
+			icon: "eidolon:straw_effigy"
+			x: 1.25d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&dDark Arts School"
 			description: [
-				"&dTraveler, before you get too deep &dinto that book, I suggest you seek the &dadvice of another practitioner.",
-				"",
-				"What, like a mage? Or, well, a warlock?",
-				"",
-				"&dClose. A Witch.",
-				"",
-				"Uh... witch's here don't quite like me, right? How can I learn from them...",
-				"",
-				"&dLet's just say, they are testing you. &dIf you drop your Ars Ecclecia next to &dthem and avoid their attacks, they'll &dshare their knowledge with you. Then I &dsuggest running, or winning the fight &dafter they drop the book.",
-				"",
-				"That... is a very weird way to test someone.",
-				"",
+				"&dTraveler, before you get too deep &dinto that book, I suggest you seek the &dadvice of another practitioner."
+				""
+				"What, like a mage? Or, well, a warlock?"
+				""
+				"&dClose. A Witch."
+				""
+				"Uh... witch's here don't quite like me, right? How can I learn from them..."
+				""
+				"&dLet's just say, they are testing you. &dIf you drop your Ars Ecclecia next to &dthem and avoid their attacks, they'll &dshare their knowledge with you. Then I &dsuggest running, or winning the fight &dafter they drop the book."
+				""
+				"That... is a very weird way to test someone."
+				""
 				"&dOnly slightly. But you should also make &dyourself an Altar. It will be very &dimportant later. Take 6 of these &dWooden Altar tables, and make a 2x3 &dtable. Then make and place a Straw &dEffigy on top."
-			],
+			]
 			dependencies: [
-				"00000000000003BE",
+				"00000000000003BE"
 				"00000000000003C4"
-			],
-			id: "00000000000003EC",
+			]
+			id: "00000000000003EC"
 			tasks: [
 				{
-					id: "00000000000003ED",
-					type: "item",
-					item: "eidolon:wooden_altar",
+					id: "00000000000003ED"
+					type: "item"
+					item: "eidolon:wooden_altar"
 					count: 6L
-				},
+				}
 				{
-					id: "00000000000003EE",
-					type: "item",
+					id: "00000000000003EE"
+					type: "item"
 					item: "eidolon:straw_effigy"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003EF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003EF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Of Sacrifices",
-			icon: "eidolon:goblet",
-			x: 3.25d,
-			y: -2.75d,
-			shape: "square",
-			subtitle: "&dBlood of Blood",
+			title: "Of Sacrifices"
+			icon: "eidolon:goblet"
+			x: 3.25d
+			y: -2.75d
+			shape: "square"
+			subtitle: "&dBlood of Blood"
 			description: [
-				"Okay, I have an altar set up, I have this... Wicked sign the Witch taught me. Now I... hmm, oh, I see. ",
-				"",
-				"If I go to my Signs tab in the book, I can Left Click on signs to prepare a chant. I need to click the Wicked sign 3 times, then Chant in front of the Altar. But... why?",
-				"",
-				"&dYou chant a prayer to that sign's &dGod... or, what you would consider a &dGod in a way. Just a more powerful &dentity.",
-				"",
-				"But what does that get me?",
-				"",
-				"&dChant enough and it will provide you &dmore knowledge. BUT, Traveler, only &dchant once per day! These powerful &dentities anger easily. Quite childish...",
-				"",
+				"Okay, I have an altar set up, I have this... Wicked sign the Witch taught me. Now I... hmm, oh, I see. "
+				""
+				"If I go to my Signs tab in the book, I can Left Click on signs to prepare a chant. I need to click the Wicked sign 3 times, then Chant in front of the Altar. But... why?"
+				""
+				"&dYou chant a prayer to that sign's &dGod... or, what you would consider a &dGod in a way. Just a more powerful &dentity."
+				""
+				"But what does that get me?"
+				""
+				"&dChant enough and it will provide you &dmore knowledge. BUT, Traveler, only &dchant once per day! These powerful &dentities anger easily. Quite childish..."
+				""
 				"&dThis chant should get you the sign of &dBlood. Place a Goblet on your Altar, &dthen kill an animal near to fill it. Then &dyou may do the Sacrifice chant."
-			],
-			dependencies: ["00000000000003EC"],
-			id: "00000000000003F1",
+			]
+			dependencies: ["00000000000003EC"]
+			id: "00000000000003F1"
 			tasks: [{
-				id: "00000000000003F2",
-				type: "item",
+				id: "00000000000003F2"
+				type: "item"
 				item: "eidolon:goblet"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000003F3",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003F3"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Unholy Diver",
-			icon: "eidolon:unholy_symbol",
-			x: 5.5d,
-			y: -0.5d,
-			shape: "square",
-			subtitle: "&dRide the Tiger",
+			title: "Unholy Diver"
+			icon: "eidolon:unholy_symbol"
+			x: 5.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&dRide the Tiger"
 			description: [
-				"Whoa, sacrificing animals? Really?",
-				"",
-				"&dPause, traveller. Remember how I said &dit all depends on why and how? ",
-				"",
-				"Yes...",
-				"",
-				"&dI trust you have a farm going? Or at &dleast some sheep or chickens? Quite &duseful for food. You can fulfill two &dtasks at once by just changing where &dyou dispense with them.",
-				"",
-				"&dOr, I'm sure you've noticed, if you do &dnot sleep for a few nights, some &dundead flying creatures will harass &dyou. They too count for blood letting.",
-				"",
-				"Oh... okay. So, I do the Sacrifice chant, which consumes the blood. And I get the Soul sign. Interesting... I get what you are trying to teach me now.",
-				"",
+				"Whoa, sacrificing animals? Really?"
+				""
+				"&dPause, traveller. Remember how I said &dit all depends on why and how? "
+				""
+				"Yes..."
+				""
+				"&dI trust you have a farm going? Or at &dleast some sheep or chickens? Quite &duseful for food. You can fulfill two &dtasks at once by just changing where &dyou dispense with them."
+				""
+				"&dOr, I'm sure you've noticed, if you do &dnot sleep for a few nights, some &dundead flying creatures will harass &dyou. They too count for blood letting."
+				""
+				"Oh... okay. So, I do the Sacrifice chant, which consumes the blood. And I get the Soul sign. Interesting... I get what you are trying to teach me now."
+				""
 				"Okay, according to the book, if I drop a Pewter Inlay and do the Touch of Darkness chant, it will transform into a useful tool."
-			],
+			]
 			dependencies: [
-				"00000000000003F1",
+				"00000000000003F1"
 				"00000000000003CC"
-			],
-			id: "00000000000003F4",
+			]
+			id: "00000000000003F4"
 			tasks: [
 				{
-					id: "00000000000003F5",
-					type: "item",
+					id: "00000000000003F5"
+					type: "item"
 					item: "eidolon:pewter_inlay"
-				},
+				}
 				{
-					id: "00000000000003F6",
-					type: "item",
+					id: "00000000000003F6"
+					type: "item"
 					item: "eidolon:unholy_symbol"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003F7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003F7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Tools of the Reaper",
+			title: "Tools of the Reaper"
 			icon: {
-				id: "eidolon:reaper_scythe",
-				Count: 1b,
+				id: "eidolon:reaper_scythe"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: 7.5d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dA More Personal Touch",
+			}
+			x: 7.5d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dA More Personal Touch"
 			description: [
-				"Hm, I need some better tools for harvesting undead souls. Let's look at the Ars Ecclesia a bit and... yes... hm... Ah, okay.",
-				"",
-				"So, I can make the classic Reaper's Scythe. That should help slice through the hordes of undead and more easily harvest their souls instead of having to do that ritual.",
-				"",
+				"Hm, I need some better tools for harvesting undead souls. Let's look at the Ars Ecclesia a bit and... yes... hm... Ah, okay."
+				""
+				"So, I can make the classic Reaper's Scythe. That should help slice through the hordes of undead and more easily harvest their souls instead of having to do that ritual."
+				""
 				"Though, another neat weapon I see is this Axe of Cleaving. Seems best suited to beheading the undead. And well.... other creatures I guess."
-			],
-			dependencies: ["00000000000003F4"],
-			id: "00000000000003F8",
+			]
+			dependencies: ["00000000000003F4"]
+			id: "00000000000003F8"
 			tasks: [
 				{
-					id: "00000000000003F9",
-					type: "item",
+					id: "00000000000003F9"
+					type: "item"
 					item: {
-						id: "eidolon:reaper_scythe",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "00000000000003FA",
-					type: "item",
-					item: {
-						id: "eidolon:cleaving_axe",
-						Count: 1b,
+						id: "eidolon:reaper_scythe"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "00000000000003FA"
+					type: "item"
+					item: {
+						id: "eidolon:cleaving_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "00000000000003FB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003FB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "A More Solid Altar",
-			icon: "eidolon:unholy_effigy",
-			x: 7.5d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dA hard choice, as well",
+			title: "A More Solid Altar"
+			icon: "eidolon:unholy_effigy"
+			x: 7.5d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dA hard choice, as well"
 			description: [
-				"Hm, I think this wooden altar and straw effigy isn't going to be enough now. The book explains about making a Stone Altar and Elder Statue now, I should make those.",
-				"",
-				"&dAs well, adorn your altar with each of &dthe decorations &dthe book lists. A skull. &dA Wither Rose. &dA candlestick. ",
-				"",
-				"Oh, a good idea since they also increase the limits of the table. I should probably keep sacrificing animal blood until these gods or whatever reveal more to me.",
-				"",
-				"&dTraveler. The next bit of knowledge &dwill be the last one I touched. You will &dhave to choose whether to continue &dor not, if the cost of blood is worth it.",
-				"",
-				"&dPerhaps I could have found a Villager &dthat had done evil. But I couldn't be &dsure. Good luck to you, Traveller.",
-				"",
+				"Hm, I think this wooden altar and straw effigy isn't going to be enough now. The book explains about making a Stone Altar and Elder Statue now, I should make those."
+				""
+				"&dAs well, adorn your altar with each of &dthe decorations &dthe book lists. A skull. &dA Wither Rose. &dA candlestick. "
+				""
+				"Oh, a good idea since they also increase the limits of the table. I should probably keep sacrificing animal blood until these gods or whatever reveal more to me."
+				""
+				"&dTraveler. The next bit of knowledge &dwill be the last one I touched. You will &dhave to choose whether to continue &dor not, if the cost of blood is worth it."
+				""
+				"&dPerhaps I could have found a Villager &dthat had done evil. But I couldn't be &dsure. Good luck to you, Traveller."
+				""
 				"&6(This is the current end of the mod)"
-			],
-			dependencies: ["00000000000003F4"],
-			id: "00000000000003FC",
+			]
+			dependencies: ["00000000000003F4"]
+			id: "00000000000003FC"
 			tasks: [
 				{
-					id: "00000000000003FD",
-					type: "item",
-					item: "eidolon:stone_altar",
+					id: "00000000000003FD"
+					type: "item"
+					item: "eidolon:stone_altar"
 					count: 6L
-				},
+				}
 				{
-					id: "00000000000003FE",
-					type: "item",
+					id: "00000000000003FE"
+					type: "item"
 					item: "eidolon:unholy_effigy"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003FF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003FF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "&dLesson Complete: Eidolon",
-			icon: {
-				id: "contenttweaker:forbiddencoin",
-				Count: 51b
-			},
-			x: 8.0d,
-			y: -0.5d,
-			shape: "pentagon",
-			hide_dependency_lines: true,
+			title: "&dLesson Complete: Eidolon"
+			icon: { id: "contenttweaker:forbiddencoin", Count: 51b }
+			x: 8.0d
+			y: -0.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
 			dependencies: [
-				"00000000000003E3",
-				"00000000000003E8",
-				"00000000000003F8",
+				"00000000000003E3"
+				"00000000000003E8"
+				"00000000000003F8"
 				"00000000000003FC"
-			],
-			size: 1.25d,
-			id: "05C5F91E1EDF2552",
+			]
+			size: 1.25d
+			id: "05C5F91E1EDF2552"
 			tasks: [{
-				id: "07B6A54BC92DBE98",
-				type: "checkmark",
-				icon: {
-					id: "contenttweaker:forbiddencoin",
-					Count: 51b
-				}
-			}],
+				id: "07B6A54BC92DBE98"
+				type: "checkmark"
+				icon: { id: "contenttweaker:forbiddencoin", Count: 51b }
+			}]
 			rewards: [{
-				id: "41ABDB69A3EEE4A6",
-				type: "item",
-				item: "contenttweaker:forbiddencoin",
+				id: "41ABDB69A3EEE4A6"
+				type: "item"
+				item: "contenttweaker:forbiddencoin"
 				count: 2
 			}]
 		}

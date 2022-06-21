@@ -1,3322 +1,3236 @@
 {
-	id: "00000000000000F3",
-	group: "",
-	order_index: 3,
-	filename: "home_maker",
-	title: "Home Maker",
-	icon: "minecraft:purple_bed",
-	default_quest_shape: "",
+	id: "00000000000000F3"
+	group: ""
+	order_index: 3
+	filename: "home_maker"
+	title: "Home Maker"
+	icon: "minecraft:purple_bed"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "A House, a Home",
+			title: "A House, a Home"
 			icon: {
-				id: "inventorypets:pet_house",
-				Count: 1b,
+				id: "inventorypets:pet_house"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -1.0d,
-			y: -2.5d,
-			subtitle: "&dSettle in for the long haul",
+			}
+			x: -1.0d
+			y: -2.5d
+			subtitle: "&dSettle in for the long haul"
 			description: [
-				"&dTraveler, I highly suggest not just &dmaking a little shack to live in. You are &dgoing to be here for... a long time. &dMaybe forever.",
-				"",
-				"Seriously?",
-				"",
-				"&dLeave nothing to chance. You may be &dable to respawn in this world, but &dsomething may undo that ability. It is, &dafter all, a very magical world.",
-				"",
-				"&dSo, I will teach you how to design and &dmake things for your comfort as well.",
-				"",
+				"&dTraveler, I highly suggest not just &dmaking a little shack to live in. You are &dgoing to be here for... a long time. &dMaybe forever."
+				""
+				"Seriously?"
+				""
+				"&dLeave nothing to chance. You may be &dable to respawn in this world, but &dsomething may undo that ability. It is, &dafter all, a very magical world."
+				""
+				"&dSo, I will teach you how to design and &dmake things for your comfort as well."
+				""
 				"&6This quest page is for small mods, centered around home/base functions such as decoration, cooking, pets, defense, etc."
-			],
-			dependencies: ["0000000000000025"],
-			size: 1.5d,
-			id: "00000000000000F4",
+			]
+			dependencies: ["0000000000000025"]
+			size: 1.5d
+			id: "00000000000000F4"
 			tasks: [{
-				id: "00000000000000F5",
-				type: "checkmark",
-				title: "A House, A Home",
+				id: "00000000000000F5"
+				type: "checkmark"
+				title: "A House, A Home"
 				icon: {
-					id: "inventorypets:pet_house",
-					Count: 1b,
+					id: "inventorypets:pet_house"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
-			rewards: [{
-				id: "00000000000000F6",
-				type: "item",
-				item: "calemiutils:coin_dollar"
 			}]
-		},
+			rewards: [{
+				id: "00000000000000F6"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+			}]
+		}
 		{
-			title: "The Smoke of Industry",
-			icon: "adchimneys:bricks_chimney",
-			x: 1.25d,
-			y: -3.0d,
-			shape: "square",
-			subtitle: "&dMod: Advanced Chimneys",
+			title: "The Smoke of Industry"
+			icon: "adchimneys:bricks_chimney"
+			x: 1.25d
+			y: -3.0d
+			shape: "square"
+			subtitle: "&dMod: Advanced Chimneys"
 			description: [
-				"So, it seems especially here, most technology  and some magic machines produce smoke.",
-				"",
-				"This smoke is... mostly harmless? Except it can be quite distracting in an enclosed work room. So, to solve that, we can make Advanced Chimneys.",
-				"",
-				"I have two ways of getting rid of the smoke :",
-				"",
-				"The simplest way is to place a Chimney against the side of the machine, and run the Chimneys up out of the roof. That can get cluttered real fast though.",
-				"",
-				"The other way is to place a Pump, powered by a Redstone Signal, underneath the machine. I then place Vents  out from it, leading outside.",
-				"",
+				"So, it seems especially here, most technology  and some magic machines produce smoke."
+				""
+				"This smoke is... mostly harmless? Except it can be quite distracting in an enclosed work room. So, to solve that, we can make Advanced Chimneys."
+				""
+				"I have two ways of getting rid of the smoke :"
+				""
+				"The simplest way is to place a Chimney against the side of the machine, and run the Chimneys up out of the roof. That can get cluttered real fast though."
+				""
+				"The other way is to place a Pump, powered by a Redstone Signal, underneath the machine. I then place Vents  out from it, leading outside."
+				""
 				"One pump can only handle about 8 Vents, so I need to spread the Pumps around."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "00000000000000F7",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "00000000000000F7"
 			tasks: [
 				{
-					id: "00000000000000F8",
-					type: "item",
-					title: "Any Chimney",
+					id: "00000000000000F8"
+					type: "item"
+					title: "Any Chimney"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:chimneys"
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000000F9",
-					type: "item",
-					title: "Any Chimney Vent",
+					id: "00000000000000F9"
+					type: "item"
+					title: "Any Chimney Vent"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:vents"
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000000FA",
-					type: "item",
-					title: "Any Chimney Pump",
+					id: "00000000000000FA"
+					type: "item"
+					title: "Any Chimney Pump"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:pumps"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000000FF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000000FF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Holy Poles, Batman!",
-			icon: "adpoles:iron_pole",
-			x: 0.0d,
-			y: -3.25d,
-			shape: "square",
-			subtitle: "&dMod: To The Bat Poles!",
+			title: "Holy Poles, Batman!"
+			icon: "adpoles:iron_pole"
+			x: 0.0d
+			y: -3.25d
+			shape: "square"
+			subtitle: "&dMod: To The Bat Poles!"
 			description: [
-				"So, a neat thing I've found out. Stacking Iron Bars on top of each other in a single column, becomes a Bat Pole!",
-				"",
-				"&dFirehouse pole.",
-				"",
-				"Same thing. If I jump near the top, I can easily grab on and slide down it safely!",
-				"",
-				"&dEven better, you craft a bunch of different Poles just for this ability. The Iron Pole is the most basic. Diamond is really fast.",
-				"",
+				"So, a neat thing I've found out. Stacking Iron Bars on top of each other in a single column, becomes a Bat Pole!"
+				""
+				"&dFirehouse pole."
+				""
+				"Same thing. If I jump near the top, I can easily grab on and slide down it safely!"
+				""
+				"&dEven better, you craft a bunch of different Poles just for this ability. The Iron Pole is the most basic. Diamond is really fast."
+				""
 				"&dAnd the Redstone Pole can push you back UP it when a Redstone Signal is applied!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "00000000000000FB",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "00000000000000FB"
 			tasks: [
 				{
-					id: "02C3B1D2D1E8F924",
-					type: "item",
+					id: "02C3B1D2D1E8F924"
+					type: "item"
 					item: "adpoles:iron_pole"
-				},
+				}
 				{
-					id: "42F7A154E5C92909",
-					type: "item",
+					id: "42F7A154E5C92909"
+					type: "item"
 					item: "adpoles:redstone_pole"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000000FE",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000000FE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Botany Pots",
-			icon: "botanypots:botany_pot",
-			x: -4.5d,
-			y: -5.75d,
-			shape: "square",
-			subtitle: "&dMods: Botony Pots and Trees",
+			title: "Botany Pots"
+			icon: "botanypots:botany_pot"
+			x: -4.5d
+			y: -5.75d
+			shape: "square"
+			subtitle: "&dMods: Botony Pots and Trees"
 			description: [
-				"Botany Pots let me grow both plants and trees safely indoors. They aren't as luxurious as an actual farm, nor do they provide magical benefits from natural crops growing.",
-				"",
+				"Botany Pots let me grow both plants and trees safely indoors. They aren't as luxurious as an actual farm, nor do they provide magical benefits from natural crops growing."
+				""
 				"But the benefit is I can harvest them, and they automatically replant themselves. I just need to fill a Botany Pot with the right soil (dirt for wheat, soul sand for nether wart for example), then plant the seed and... wait!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "0000000000000191",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "0000000000000191"
 			tasks: [{
-				id: "0000000000000192",
-				type: "item",
-				title: "Any normal Botany Pot",
+				id: "0000000000000192"
+				type: "item"
+				title: "Any normal Botany Pot"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "botanypots:botany_pots"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000193",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000193"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Hopped Up Pots",
-			icon: "botanypots:hopper_botany_pot",
-			x: -4.5d,
-			y: -4.75d,
-			shape: "square",
-			subtitle: "&dSlow and steady and self sufficient",
+			title: "Hopped Up Pots"
+			icon: "botanypots:hopper_botany_pot"
+			x: -4.5d
+			y: -4.75d
+			shape: "square"
+			subtitle: "&dSlow and steady and self sufficient"
 			description: [
-				"There's a better version of a Botany Pot I can make, and that's the Hopper Botany Pot.",
-				"",
-				"As long as it is on top of an Inventory, it will automatically harvest and replant itself, and put the harvested items into the inventory automatically!",
-				"",
+				"There's a better version of a Botany Pot I can make, and that's the Hopper Botany Pot."
+				""
+				"As long as it is on top of an Inventory, it will automatically harvest and replant itself, and put the harvested items into the inventory automatically!"
+				""
 				"It isn't super fast, but it is automatic."
-			],
-			dependencies: ["0000000000000191"],
-			id: "0000000000000194",
+			]
+			dependencies: ["0000000000000191"]
+			id: "0000000000000194"
 			tasks: [{
-				id: "0000000000000195",
-				type: "item",
-				title: "Any Hopper Botany Pot",
+				id: "0000000000000195"
+				type: "item"
+				title: "Any Hopper Botany Pot"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "botanypots:hopper_botany_pots"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000196",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000196"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Food Journal",
-			icon: "solcarrot:food_book",
-			x: -0.25d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dMod: Spice of Life: Carrot Edition",
+			title: "Food Journal"
+			icon: "solcarrot:food_book"
+			x: -0.25d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dMod: Spice of Life: Carrot Edition"
 			description: [
-				"&dTraveler, you'll probably want to keep &dyour diet quite diversified.",
-				"",
-				"How come?",
-				"",
-				"&dWell, around here, the more variety of &ddishes you try, the healthier you are. &dSomething about the God of Cooking, &daccording to the villagers?",
-				"",
-				"G... God of cooking?!",
-				"",
+				"&dTraveler, you'll probably want to keep &dyour diet quite diversified."
+				""
+				"How come?"
+				""
+				"&dWell, around here, the more variety of &ddishes you try, the healthier you are. &dSomething about the God of Cooking, &daccording to the villagers?"
+				""
+				"G... God of cooking?!"
+				""
 				"&dGod, no God, whatever. But you can't &ddeny that the more foods you try, the &dhealthier you are. You can use a Food &dBook to track what you've tried."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "00000000000001CA",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "00000000000001CA"
 			tasks: [{
-				id: "00000000000001CB",
-				type: "item",
+				id: "00000000000001CB"
+				type: "item"
 				item: "solcarrot:food_book"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000001CC",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000001CC"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Home Cooking",
-			icon: "cookingforblockheads:cooking_table",
-			x: 1.25d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: Cooking With Blockheads",
+			title: "Home Cooking"
+			icon: "cookingforblockheads:cooking_table"
+			x: 1.25d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: Cooking With Blockheads"
 			description: [
-				"&dTraveler, do you have a Kitchen set &dup yet?",
-				"",
-				"No, why?",
-				"",
-				"&dBecause even Kitchens are a bit &dmagical in this dimension. Even &dBlockheads can cook with this kitchen &dsetup.",
-				"",
-				"Cooking for Blockheads huh? Alright, I'll bite.",
-				"",
-				"&dThat's a good one. With a Recipe book, &dyou can see all you can make with the &dingredients on you. But if you want &dto &dtake good advantage? Make a kitchen &dwhere this Cooking Table, Oven, and &dKitchen Sink are connected.. ",
-				"",
+				"&dTraveler, do you have a Kitchen set &dup yet?"
+				""
+				"No, why?"
+				""
+				"&dBecause even Kitchens are a bit &dmagical in this dimension. Even &dBlockheads can cook with this kitchen &dsetup."
+				""
+				"Cooking for Blockheads huh? Alright, I'll bite."
+				""
+				"&dThat's a good one. With a Recipe book, &dyou can see all you can make with the &dingredients on you. But if you want &dto &dtake good advantage? Make a kitchen &dwhere this Cooking Table, Oven, and &dKitchen Sink are connected.. "
+				""
 				"Oh nice, I automatically get water, and the ability to heat items for recipes."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "0000000000000300",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "0000000000000300"
 			tasks: [
 				{
-					id: "0000000000000301",
-					type: "item",
+					id: "0000000000000301"
+					type: "item"
 					item: "cookingforblockheads:recipe_book"
-				},
+				}
 				{
-					id: "0000000000000302",
-					type: "item",
+					id: "0000000000000302"
+					type: "item"
 					item: "cookingforblockheads:cooking_table"
-				},
+				}
 				{
-					id: "0000000000000303",
-					type: "item",
+					id: "0000000000000303"
+					type: "item"
 					item: "cookingforblockheads:oven"
-				},
+				}
 				{
-					id: "0000000000000304",
-					type: "item",
+					id: "0000000000000304"
+					type: "item"
 					item: "cookingforblockheads:sink"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000305",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000305"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Kitchen Storage",
-			icon: "cookingforblockheads:counter",
-			x: 2.25d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dFull but still can't find anything to eat",
+			title: "Kitchen Storage"
+			icon: "cookingforblockheads:counter"
+			x: 2.25d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dFull but still can't find anything to eat"
 			description: [
-				"Kitchens need some kind of storage for all the food and cans and goodies, right?",
-				"",
-				"&dYes, and these Kitchen Counters magically hook up with the other kitchen pieces as well. The Cooking Table will see all the items in your inventory and in the counters and show you what recipes you can make.",
-				"",
+				"Kitchens need some kind of storage for all the food and cans and goodies, right?"
+				""
+				"&dYes, and these Kitchen Counters magically hook up with the other kitchen pieces as well. The Cooking Table will see all the items in your inventory and in the counters and show you what recipes you can make."
+				""
 				"Well, as long as all the kitchen pieces are touching at least one other kitchen piece."
-			],
-			dependencies: ["0000000000000300"],
-			id: "0000000000000306",
+			]
+			dependencies: ["0000000000000300"]
+			id: "0000000000000306"
 			tasks: [
 				{
-					id: "0000000000000307",
-					type: "item",
+					id: "0000000000000307"
+					type: "item"
 					item: "cookingforblockheads:counter"
-				},
+				}
 				{
-					id: "0000000000000308",
-					type: "item",
+					id: "0000000000000308"
+					type: "item"
 					item: "cookingforblockheads:cabinet"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000309",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000309"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Kitchen Accessories",
-			icon: "cookingforblockheads:fruit_basket",
-			x: 1.25d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dA place for your knife, and your fruit",
+			title: "Kitchen Accessories"
+			icon: "cookingforblockheads:fruit_basket"
+			x: 1.25d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dA place for your knife, and your fruit"
 			description: [
-				"No kitchen is complete without somewhere to put your fruit.",
-				"",
-				"&dYou mean knives.",
-				"",
-				"Both? Well, like the other Cooking With Blockheads items, if these all are part of the kitchen touching at least one other part, they can all see each other's inventories.",
-				"",
-				"You can Right Click pots and pans and stuff onto the Tool Rack. Fruit you place in the Fruit Basket can show up so you can see at a glance what you have.",
-				"",
+				"No kitchen is complete without somewhere to put your fruit."
+				""
+				"&dYou mean knives."
+				""
+				"Both? Well, like the other Cooking With Blockheads items, if these all are part of the kitchen touching at least one other part, they can all see each other's inventories."
+				""
+				"You can Right Click pots and pans and stuff onto the Tool Rack. Fruit you place in the Fruit Basket can show up so you can see at a glance what you have."
+				""
 				"&dAs well, if you stack two Fridges on &dtop of each other, they combine into one big &done."
-			],
-			dependencies: ["0000000000000300"],
-			id: "000000000000030A",
+			]
+			dependencies: ["0000000000000300"]
+			id: "000000000000030A"
 			tasks: [
 				{
-					id: "000000000000030B",
-					type: "item",
+					id: "000000000000030B"
+					type: "item"
 					item: "cookingforblockheads:fruit_basket"
-				},
+				}
 				{
-					id: "000000000000030C",
-					type: "item",
+					id: "000000000000030C"
+					type: "item"
 					item: "cookingforblockheads:tool_rack"
-				},
+				}
 				{
-					id: "000000000000030D",
-					type: "item",
+					id: "000000000000030D"
+					type: "item"
 					item: "cookingforblockheads:spice_rack"
-				},
+				}
 				{
-					id: "000000000000030E",
-					type: "item",
+					id: "000000000000030E"
+					type: "item"
 					item: "cookingforblockheads:milk_jar"
-				},
+				}
 				{
-					id: "000000000000030F",
-					type: "item",
+					id: "000000000000030F"
+					type: "item"
 					item: "cookingforblockheads:fridge"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000310",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000310"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Kitchen upgrades!",
-			icon: "cookingforblockheads:heating_unit",
-			x: 2.25d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dHot and Cold",
+			title: "Kitchen upgrades!"
+			icon: "cookingforblockheads:heating_unit"
+			x: 2.25d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dHot and Cold"
 			description: [
-				"A couple of these kitchen things can take some neat upgrades. I'm kind of surprised they aren't tech locked out from all the magic.",
-				"",
-				"&dWe looked into it. They are considered &djust low tech enough to squeak under &dthe radar, at best guess.",
-				"",
+				"A couple of these kitchen things can take some neat upgrades. I'm kind of surprised they aren't tech locked out from all the magic."
+				""
+				"&dWe looked into it. They are considered &djust low tech enough to squeak under &dthe radar, at best guess."
+				""
 				"So, one adds ice and snow to recipes. The other lets the Oven be powered by electricity instead of coal. Not SUPER useful but nice nonetheless!"
-			],
+			]
 			dependencies: [
-				"0000000000000300",
+				"0000000000000300"
 				"000000000000030A"
-			],
-			id: "0000000000000311",
+			]
+			id: "0000000000000311"
 			tasks: [
 				{
-					id: "0000000000000312",
-					type: "item",
+					id: "0000000000000312"
+					type: "item"
 					item: "cookingforblockheads:heating_unit"
-				},
+				}
 				{
-					id: "0000000000000314",
-					type: "item",
+					id: "0000000000000314"
+					type: "item"
 					item: "cookingforblockheads:preservation_chamber"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000313",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000313"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "A Helpful Station",
-			icon: "craftingstation:crafting_station",
-			x: 1.25d,
-			y: -4.25d,
-			shape: "square",
-			subtitle: "&dMod: Crafting Station",
+			title: "A Helpful Station"
+			icon: "craftingstation:crafting_station"
+			x: 1.25d
+			y: -4.25d
+			shape: "square"
+			subtitle: "&dMod: Crafting Station"
 			description: [
-				"Legend tells of a crafting table that will keep the items you place into it to craft with.",
-				"",
-				"&dTraveler...",
-				"",
-				"When you close the interface, the item's don't drop back into your inventory...",
-				"",
+				"Legend tells of a crafting table that will keep the items you place into it to craft with."
+				""
+				"&dTraveler..."
+				""
+				"When you close the interface, the item's don't drop back into your inventory..."
+				""
 				"&dTraveler. Just making a Crafting &dStation..."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "0000000000000318",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "0000000000000318"
 			tasks: [
 				{
-					id: "0000000000000319",
-					type: "item",
+					id: "0000000000000319"
+					type: "item"
 					item: "craftingstation:crafting_station"
-				},
+				}
 				{
-					id: "000000000000031A",
-					type: "item",
+					id: "000000000000031A"
+					type: "item"
 					item: "craftingstation:crafting_station_slab"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000031B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000031B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Food Combos Galore",
+			title: "Food Combos Galore"
 			icon: {
-				id: "culinaryconstruct:sandwich",
-				Count: 1b,
+				id: "culinaryconstruct:sandwich"
+				Count: 1b
 				tag: {
-					Size: 5,
-					Saturation: 1.0f,
-					Quality: 4,
+					Size: 5
+					Saturation: 1.0f
+					Quality: 4
 					Ingredients: {
 						Items: [
 							{
-								Slot: 0b,
-								id: "minecraft:nether_star",
+								Slot: 0b
+								id: "minecraft:nether_star"
 								Count: 1b
-							},
+							}
 							{
-								Slot: 1b,
-								id: "minecraft:nether_star",
+								Slot: 1b
+								id: "minecraft:nether_star"
 								Count: 1b
-							},
+							}
 							{
-								Slot: 2b,
-								id: "minecraft:nether_star",
+								Slot: 2b
+								id: "minecraft:nether_star"
 								Count: 1b
-							},
+							}
 							{
-								Slot: 3b,
-								id: "minecraft:nether_star",
+								Slot: 3b
+								id: "minecraft:nether_star"
 								Count: 1b
-							},
+							}
 							{
-								Slot: 4b,
-								id: "minecraft:nether_star",
+								Slot: 4b
+								id: "minecraft:nether_star"
 								Count: 1b
 							}
 						]
-					},
+					}
 					Base: {
-						id: "minecraft:bread",
+						id: "minecraft:bread"
 						Count: 1b
-					},
+					}
 					Food: 20
 				}
-			},
-			x: -0.25d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: Culinary Construct",
+			}
+			x: -0.25d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: Culinary Construct"
 			description: [
-				"&dWhat are you doing?",
-				"",
-				"Making a sandwich. ",
-				"",
-				"&dWhat the heck are you putting into &dthat?",
-				"",
-				"Yes.",
-				"",
-				"&dThat's not a valid answer.",
-				"",
+				"&dWhat are you doing?"
+				""
+				"Making a sandwich. "
+				""
+				"&dWhat the heck are you putting into &dthat?"
+				""
+				"Yes."
+				""
+				"&dThat's not a valid answer."
+				""
 				"Sure it is. With the Culinary Station, I can take bread, and then stuff any other food into it. Or heck, I can put a wooden bowl in there and make a low carb bowl or something too."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "000000000000031C",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "000000000000031C"
 			tasks: [
 				{
-					id: "000000000000031D",
-					type: "item",
+					id: "000000000000031D"
+					type: "item"
 					item: "culinaryconstruct:culinary_station"
-				},
+				}
 				{
-					id: "000000000000031E",
-					type: "item",
-					title: "Any Culinary Construct Sandwich",
+					id: "000000000000031E"
+					type: "item"
+					title: "Any Culinary Construct Sandwich"
 					icon: {
-						id: "culinaryconstruct:sandwich",
-						Count: 1b,
+						id: "culinaryconstruct:sandwich"
+						Count: 1b
 						tag: {
-							SolidsSize: 2,
-							Size: 1,
-							Saturation: 1.235f,
-							Quality: 3,
+							SolidsSize: 2
+							Size: 1
+							Saturation: 1.235f
+							Quality: 3
 							Ingredients: {
 								Items: [{
-									Slot: 0b,
-									id: "pamhc2foodcore:pumpkinbreaditem",
+									Slot: 0b
+									id: "pamhc2foodcore:pumpkinbreaditem"
 									Count: 1b
 								}]
-							},
+							}
 							Solids: {
 								Items: [
 									{
-										Slot: 0b,
-										id: "pamhc2foodcore:pumpkinbreaditem",
+										Slot: 0b
+										id: "pamhc2foodcore:pumpkinbreaditem"
 										Count: 1b
-									},
+									}
 									{
-										Slot: 1b,
-										id: "minecraft:bread",
+										Slot: 1b
+										id: "minecraft:bread"
 										Count: 1b
 									}
 								]
-							},
+							}
 							Base: {
-								id: "minecraft:bread",
+								id: "minecraft:bread"
 								Count: 1b
-							},
+							}
 							Food: 6
 						}
-					},
-					item: {
-						id: "culinaryconstruct:sandwich",
-						Count: 1b,
-						tag: {}
 					}
-				},
+					item: {
+						id: "culinaryconstruct:sandwich"
+						Count: 1b
+						tag: { }
+					}
+				}
 				{
-					id: "000000000000031F",
-					type: "item",
-					title: "Any Culinary Bowl of Food",
+					id: "000000000000031F"
+					type: "item"
+					title: "Any Culinary Bowl of Food"
 					icon: {
-						id: "culinaryconstruct:food_bowl",
-						Count: 1b,
+						id: "culinaryconstruct:food_bowl"
+						Count: 1b
 						tag: {
-							SolidsSize: 1,
-							Size: 1,
-							Saturation: 1.2f,
-							Quality: 2,
+							SolidsSize: 1
+							Size: 1
+							Saturation: 1.2f
+							Quality: 2
 							Ingredients: {
 								Items: [{
-									Slot: 0b,
-									id: "pamhc2foodcore:carrotbreaditem",
+									Slot: 0b
+									id: "pamhc2foodcore:carrotbreaditem"
 									Count: 1b
 								}]
-							},
+							}
 							Solids: {
 								Items: [{
-									Slot: 0b,
-									id: "pamhc2foodcore:carrotbreaditem",
+									Slot: 0b
+									id: "pamhc2foodcore:carrotbreaditem"
 									Count: 1b
 								}]
-							},
+							}
 							Base: {
-								id: "minecraft:bowl",
+								id: "minecraft:bowl"
 								Count: 1b
-							},
+							}
 							Food: 7
 						}
-					},
+					}
 					item: {
-						id: "culinaryconstruct:food_bowl",
-						Count: 1b,
-						tag: {}
+						id: "culinaryconstruct:food_bowl"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000320",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000320"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "For a Biscuit",
-			icon: "doggytalents:doggy_charm",
-			x: -3.25d,
-			y: -2.5d,
-			shape: "square",
-			subtitle: "&dMod: Doggy Talents",
+			title: "For a Biscuit"
+			icon: "doggytalents:doggy_charm"
+			x: -3.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "&dMod: Doggy Talents"
 			description: [
-				"Hm, I could use a friendly companion pet to follow me around. I don't think there are like... pet stores around here, so I gotta go tame my own pets.",
-				"",
-				"According to Kow, I can tame Wolves by feeding them Bones from Skeletons. When they get hearts, they are now my pet! Handy!",
-				"",
-				"&dBut like that, they are not trained. &dThey know how to sit and stay and &dguard you, that's about it.",
-				"",
-				"Okay, I'll give the wolf a Training Biscuit. That'll make it trainable!",
-				"",
+				"Hm, I could use a friendly companion pet to follow me around. I don't think there are like... pet stores around here, so I gotta go tame my own pets."
+				""
+				"According to Kow, I can tame Wolves by feeding them Bones from Skeletons. When they get hearts, they are now my pet! Handy!"
+				""
+				"&dBut like that, they are not trained. &dThey know how to sit and stay and &dguard you, that's about it."
+				""
+				"Okay, I'll give the wolf a Training Biscuit. That'll make it trainable!"
+				""
 				"I can then teach my dog by Right Clicking a Stick on them."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "0000000000000321",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "0000000000000321"
 			tasks: [
 				{
-					id: "0000000000000322",
-					type: "item",
+					id: "0000000000000322"
+					type: "item"
 					item: "doggytalents:training_treat"
-				},
+				}
 				{
-					id: "0000000000000329",
-					type: "item",
+					id: "0000000000000329"
+					type: "item"
 					item: "minecraft:stick"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000323",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000323"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Training for the Top",
-			icon: "doggytalents:super_treat",
-			x: -4.25d,
-			y: -3.0d,
-			shape: "square",
-			subtitle: "&dGood treats for good dogs",
+			title: "Training for the Top"
+			icon: "doggytalents:super_treat"
+			x: -4.25d
+			y: -3.0d
+			shape: "square"
+			subtitle: "&dGood treats for good dogs"
 			description: [
-				"So, the more Training Treats I give my dog, the better they become. But at some point, the Training Treats aren't enough.",
-				"",
-				"There are better treats to make and give, until eventually they get the Best of Treats, the Dire Treat! ",
-				"",
+				"So, the more Training Treats I give my dog, the better they become. But at some point, the Training Treats aren't enough."
+				""
+				"There are better treats to make and give, until eventually they get the Best of Treats, the Dire Treat! "
+				""
 				"Apparently when I start feeding my dog Dire Treats, they become immortal? What?"
-			],
-			dependencies: ["0000000000000321"],
-			id: "0000000000000324",
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000000324"
 			tasks: [
 				{
-					id: "0000000000000325",
-					type: "item",
+					id: "0000000000000325"
+					type: "item"
 					item: "doggytalents:super_treat"
-				},
+				}
 				{
-					id: "0000000000000326",
-					type: "item",
+					id: "0000000000000326"
+					type: "item"
 					item: "doggytalents:master_treat"
-				},
+				}
 				{
-					id: "0000000000000327",
-					type: "item",
+					id: "0000000000000327"
+					type: "item"
 					item: "doggytalents:dire_treat"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000328",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000328"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Well Treated",
-			icon: "doggytalents:treat_bag",
-			x: -3.25d,
-			y: -3.5d,
-			shape: "square",
-			subtitle: "&dGood Dog",
+			title: "Well Treated"
+			icon: "doggytalents:treat_bag"
+			x: -3.25d
+			y: -3.5d
+			shape: "square"
+			subtitle: "&dGood Dog"
 			description: [
-				"There's a lot of ways for me to take care of my dog as I train them. I mean, they deserve it right?!",
-				"",
-				"I can fill a Treat Bag with treats like Chew Sticks and other things. I can also Right Click the Treat Bag to fill the Food Bowl if I need to.",
-				"",
-				"I can also get a Dog Bath going, but it doesn't do all that much other than make the dog wet. Which means they shake the water off everywhere. But maybe... if I teach them to fish... hmmm....",
-				"",
-				"&dFishing in a dog bowl... what?",
-				"",
+				"There's a lot of ways for me to take care of my dog as I train them. I mean, they deserve it right?!"
+				""
+				"I can fill a Treat Bag with treats like Chew Sticks and other things. I can also Right Click the Treat Bag to fill the Food Bowl if I need to."
+				""
+				"I can also get a Dog Bath going, but it doesn't do all that much other than make the dog wet. Which means they shake the water off everywhere. But maybe... if I teach them to fish... hmmm...."
+				""
+				"&dFishing in a dog bowl... what?"
+				""
 				"Anyways! I should also make a Dog Bed! That'd be good!"
-			],
-			dependencies: ["0000000000000321"],
-			id: "000000000000032A",
+			]
+			dependencies: ["0000000000000321"]
+			id: "000000000000032A"
 			tasks: [
 				{
-					id: "000000000000032B",
-					type: "item",
+					id: "000000000000032B"
+					type: "item"
 					item: "doggytalents:treat_bag"
-				},
+				}
 				{
-					id: "000000000000032C",
-					type: "item",
+					id: "000000000000032C"
+					type: "item"
 					item: "doggytalents:chew_stick"
-				},
+				}
 				{
-					id: "000000000000032D",
-					type: "item",
+					id: "000000000000032D"
+					type: "item"
 					item: "doggytalents:food_bowl"
-				},
+				}
 				{
-					id: "000000000000032E",
-					type: "item",
+					id: "000000000000032E"
+					type: "item"
 					item: "doggytalents:dog_bath"
-				},
+				}
 				{
-					id: "000000000000032F",
-					type: "item",
+					id: "000000000000032F"
+					type: "item"
 					item: "doggytalents:dog_bed"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000330",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000330"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Well Dressed",
+			title: "Well Dressed"
 			icon: {
-				id: "doggytalents:wool_collar",
-				Count: 1b,
+				id: "doggytalents:wool_collar"
+				Count: 1b
 				tag: {
 					display: {
 						color: 16777215
 					}
 				}
-			},
-			x: -3.25d,
-			y: -1.5d,
-			shape: "square",
-			subtitle: "&dAnd Quite Snazzy",
+			}
+			x: -3.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "&dAnd Quite Snazzy"
 			description: [
-				"So, when I first tamed the wolf, I put a collar on them. But when I gave them the Training Biscuit, I removed it. Or well, it vanished. I don't know why.",
-				"",
-				"I can take a Wool Collar and put it on my pet by Right Clicking it onto them. I can also Dye this collar colors like it is Leather Armor, by Crafting the Wool Collar with the dye, or just Right Clicking the Dye on the pet.",
-				"",
-				"I can also toss some cute little outfits on them. Like this spiffy Leather Jacket and Dog Sunglasses.",
-				"",
+				"So, when I first tamed the wolf, I put a collar on them. But when I gave them the Training Biscuit, I removed it. Or well, it vanished. I don't know why."
+				""
+				"I can take a Wool Collar and put it on my pet by Right Clicking it onto them. I can also Dye this collar colors like it is Leather Armor, by Crafting the Wool Collar with the dye, or just Right Clicking the Dye on the pet."
+				""
+				"I can also toss some cute little outfits on them. Like this spiffy Leather Jacket and Dog Sunglasses."
+				""
 				"Oh, and if I ever need to take the collar off, I can use the Collar Shears. But I have to be careful because this is also how I untame my pet and send them back into the wild..."
-			],
-			dependencies: ["0000000000000321"],
-			id: "0000000000000331",
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000000331"
 			tasks: [
 				{
-					id: "0000000000000332",
-					type: "item",
+					id: "0000000000000332"
+					type: "item"
 					item: "doggytalents:wool_collar"
-				},
+				}
 				{
-					id: "0000000000000333",
-					type: "item",
+					id: "0000000000000333"
+					type: "item"
 					item: "doggytalents:leather_jacket"
-				},
+				}
 				{
-					id: "0000000000000334",
-					type: "item",
+					id: "0000000000000334"
+					type: "item"
 					item: "doggytalents:sunglasses"
-				},
+				}
 				{
-					id: "0000000000000335",
-					type: "item",
+					id: "0000000000000335"
+					type: "item"
 					item: "doggytalents:collar_shears"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000336",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000336"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Free Roaming Woof",
-			icon: "doggytalents:radio_collar",
-			x: -4.25d,
-			y: -2.0d,
-			shape: "square",
-			subtitle: "&dSniffing into every corner",
+			title: "Free Roaming Woof"
+			icon: "doggytalents:radio_collar"
+			x: -4.25d
+			y: -2.0d
+			shape: "square"
+			subtitle: "&dSniffing into every corner"
 			description: [
-				"I might want to put a collar on my pet. A radio collar that is. This world seems a lot easier to get lost in, with all these ruins and caves everywhere.",
-				"",
+				"I might want to put a collar on my pet. A radio collar that is. This world seems a lot easier to get lost in, with all these ruins and caves everywhere."
+				""
 				"That way, I can use this magical Radar to figure out where my dogs hve wandered off to."
-			],
-			dependencies: ["0000000000000321"],
-			id: "0000000000000337",
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000000337"
 			tasks: [
 				{
-					id: "0000000000000338",
-					type: "item",
+					id: "0000000000000338"
+					type: "item"
 					item: "doggytalents:radio_collar"
-				},
+				}
 				{
-					id: "0000000000000339",
-					type: "item",
+					id: "0000000000000339"
+					type: "item"
 					item: "doggytalents:radar"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000033A",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000033A"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Market Forces",
-			icon: "calemiutils:market",
-			x: -1.4464285714285694d,
-			y: -4.75d,
-			shape: "square",
-			subtitle: "&dMod : Calemi Utils",
+			title: "Market Forces"
+			icon: "calemiutils:market"
+			x: -1.4464285714285694d
+			y: -4.75d
+			shape: "square"
+			subtitle: "&dMod : Calemi Utils"
 			description: [
-				"&dTraveler, I have unlocked a bit of &dtechnology for free.",
-				"",
-				"Oh?",
-				"",
-				"&dThese contain utilities for managing &dyour money, among other things.",
-				"",
-				"&dThe Trading Post lets you set an item &dto buy and sell. You can configure it &dwith the Security Wrench. Remember: &dGold Dubloons are worth 100 &dDubloons.",
-				"",
-				"&dThe Market is an automated way to buy Silent's Gems and sell TFB Shipping Crates with my brother Kai.",
-				"",
-				"&dThe Bank lets you store Dubloons and withdraw them into your Wallet.",
-				"",
+				"&dTraveler, I have unlocked a bit of &dtechnology for free."
+				""
+				"Oh?"
+				""
+				"&dThese contain utilities for managing &dyour money, among other things."
+				""
+				"&dThe Trading Post lets you set an item &dto buy and sell. You can configure it &dwith the Security Wrench. Remember: &dGold Dubloons are worth 100 &dDubloons."
+				""
+				"&dThe Market is an automated way to buy Silent's Gems and sell TFB Shipping Crates with my brother Kai."
+				""
+				"&dThe Bank lets you store Dubloons and withdraw them into your Wallet."
+				""
 				"&dYou can hook all three up with &dnetwork cable to share money and &ditems."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "00000000000003A8",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "00000000000003A8"
 			tasks: [
 				{
-					id: "00000000000003A9",
-					type: "item",
+					id: "00000000000003A9"
+					type: "item"
 					item: "calemiutils:trading_post"
-				},
+				}
 				{
-					id: "00000000000003AA",
-					type: "item",
+					id: "00000000000003AA"
+					type: "item"
 					item: "calemiutils:market"
-				},
+				}
 				{
-					id: "00000000000003AB",
-					type: "item",
+					id: "00000000000003AB"
+					type: "item"
 					item: "calemiutils:bank"
-				},
+				}
 				{
-					id: "00000000000003AC",
-					type: "item",
+					id: "00000000000003AC"
+					type: "item"
 					item: "calemiutils:network_cable"
-				},
+				}
 				{
-					id: "00000000000003AD",
-					type: "item",
+					id: "00000000000003AD"
+					type: "item"
 					item: "calemiutils:security_wrench"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003AE",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003AE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "A Link to The World",
+			title: "A Link to The World"
 			icon: {
-				id: "calemiutils:link_book_location",
-				Count: 1b,
-				tag: {}
-			},
-			x: 0.0d,
-			y: -5.75d,
-			shape: "square",
-			subtitle: "&dGotta build your own puzzles, though",
+				id: "calemiutils:link_book_location"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: -5.75d
+			shape: "square"
+			subtitle: "&dGotta build your own puzzles, though"
 			description: [
-				"Okay, so Kow showed me a few things here. One of them is a Link Book, which I can bind to a location. I can then Right Click while holding the book and teleport to that location again",
-				"",
+				"Okay, so Kow showed me a few things here. One of them is a Link Book, which I can bind to a location. I can then Right Click while holding the book and teleport to that location again"
+				""
 				"I can also make a Link Stand and set the book on it. Then just Right Clicking the book with an open hand will let me use it quickly."
-			],
-			dependencies: ["00000000000003A8"],
-			id: "00000000000003AF",
+			]
+			dependencies: ["00000000000003A8"]
+			id: "00000000000003AF"
 			tasks: [
 				{
-					id: "00000000000003B0",
-					type: "item",
+					id: "00000000000003B0"
+					type: "item"
 					item: "calemiutils:book_stand"
-				},
+				}
 				{
-					id: "00000000000003B1",
-					type: "item",
+					id: "00000000000003B1"
+					type: "item"
 					item: {
-						id: "calemiutils:link_book_location",
-						Count: 1b,
-						tag: {}
+						id: "calemiutils:link_book_location"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003B2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003B2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Helpful Items",
-			icon: "calemiutils:item_stand",
-			x: -1.0d,
-			y: -5.75d,
-			shape: "square",
-			subtitle: "&dA little of this, a little of that",
+			title: "Helpful Items"
+			icon: "calemiutils:item_stand"
+			x: -1.0d
+			y: -5.75d
+			shape: "square"
+			subtitle: "&dA little of this, a little of that"
 			description: [
-				"I find so many interesting things, I can use the Item Stand to display them nicely.",
-				"",
-				"But I need a place to put them. So while building, I can use Iron Scaffolding to move around my structure easier while I am constructing it.",
-				"",
+				"I find so many interesting things, I can use the Item Stand to display them nicely."
+				""
+				"But I need a place to put them. So while building, I can use Iron Scaffolding to move around my structure easier while I am constructing it."
+				""
 				"Then to wrap it up, I can use the Torch Placer to light the place up properly, at least temporarily until I can install some decent lights..."
-			],
-			dependencies: ["00000000000003A8"],
-			id: "00000000000003B3",
+			]
+			dependencies: ["00000000000003A8"]
+			id: "00000000000003B3"
 			tasks: [
 				{
-					id: "00000000000003B4",
-					type: "item",
+					id: "00000000000003B4"
+					type: "item"
 					item: "calemiutils:item_stand"
-				},
+				}
 				{
-					id: "00000000000003B5",
-					type: "item",
+					id: "00000000000003B5"
+					type: "item"
 					item: "calemiutils:iron_scaffold"
-				},
+				}
 				{
-					id: "00000000000003B6",
-					type: "item",
+					id: "00000000000003B6"
+					type: "item"
 					item: "calemiutils:torch_placer"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000003B7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003B7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "More Helpful Items",
+			title: "More Helpful Items"
 			icon: {
-				id: "calemiutils:blender",
-				Count: 1b,
-				tag: {}
-			},
-			x: -2.0d,
-			y: -5.75d,
-			shape: "square",
-			subtitle: "&dEven more of that over there",
+				id: "calemiutils:blender"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: -5.75d
+			shape: "square"
+			subtitle: "&dEven more of that over there"
 			description: [
-				"So, this Sledgehammer comes in a lot of materials. But all of them work around the same. I can use it like an axe, shovel, or pickaxe. I can break things like normal, or I can hold Right Click to charge it up and unleash its full power.",
-				"",
-				"The Blender is a good way to keep my inventory pretty open. If I Sneak + Right Click, I can turn on Blend mode. Any food items in my inventory are immediately blended into juice. I can then Sneak + Right Click to turn Blend Mode off and drink meals!",
-				"",
+				"So, this Sledgehammer comes in a lot of materials. But all of them work around the same. I can use it like an axe, shovel, or pickaxe. I can break things like normal, or I can hold Right Click to charge it up and unleash its full power."
+				""
+				"The Blender is a good way to keep my inventory pretty open. If I Sneak + Right Click, I can turn on Blend mode. Any food items in my inventory are immediately blended into juice. I can then Sneak + Right Click to turn Blend Mode off and drink meals!"
+				""
 				"The Torch Belt, as long as it and Torches are in my inventory, will automatically place them around me to keep the area lit up nicely."
-			],
-			dependencies: ["00000000000003A8"],
-			id: "00000000000003B8",
+			]
+			dependencies: ["00000000000003A8"]
+			id: "00000000000003B8"
 			tasks: [
 				{
-					id: "00000000000003B9",
-					type: "item",
+					id: "00000000000003B9"
+					type: "item"
 					item: {
-						id: "calemiutils:sledgehammer_wood",
-						Count: 1b,
+						id: "calemiutils:sledgehammer_wood"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000003BA",
-					type: "item",
+					id: "00000000000003BA"
+					type: "item"
 					item: {
-						id: "calemiutils:blender",
-						Count: 1b,
-						tag: {}
-					}
-				},
-				{
-					id: "00000000000003BB",
-					type: "item",
-					item: {
-						id: "calemiutils:torch_belt",
-						Count: 1b,
-						tag: {}
+						id: "calemiutils:blender"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+				{
+					id: "00000000000003BB"
+					type: "item"
+					item: {
+						id: "calemiutils:torch_belt"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 			rewards: [{
-				id: "00000000000003BC",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000003BC"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Solid State Chests",
-			icon: "ironchest:iron_chest",
-			x: 1.25d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dMod: Iron Chests",
+			title: "Solid State Chests"
+			icon: "ironchest:iron_chest"
+			x: 1.25d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dMod: Iron Chests"
 			description: [
-				"Alright I'm finding a whole lot of items I should keep around. And I'm running out of space to store it. Wood chests aren't cutting it...",
-				"",
-				"&dTraveler. Start making your chests &dout of metal.",
-				"",
-				"That's probably a good idea. They can hold more that way. But what about all these Wood chests now?",
-				"",
-				"&dLook at these Upgraders. They have a &dbit of magic to them, and will transform &done chest type into another. Without &dhaving to empty the chests.",
-				"",
+				"Alright I'm finding a whole lot of items I should keep around. And I'm running out of space to store it. Wood chests aren't cutting it..."
+				""
+				"&dTraveler. Start making your chests &dout of metal."
+				""
+				"That's probably a good idea. They can hold more that way. But what about all these Wood chests now?"
+				""
+				"&dLook at these Upgraders. They have a &dbit of magic to them, and will transform &done chest type into another. Without &dhaving to empty the chests."
+				""
 				"That is super useful. Thanks, Kow."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "0000000000000400",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "0000000000000400"
 			tasks: [
 				{
-					id: "0000000000000401",
-					type: "item",
+					id: "0000000000000401"
+					type: "item"
 					item: "ironchest:iron_chest"
-				},
+				}
 				{
-					id: "0000000000000402",
-					type: "item",
+					id: "0000000000000402"
+					type: "item"
 					item: "ironchest:wood_to_iron_chest_upgrade"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000403",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000403"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "A Farmer's Market",
-			icon: "farmingforblockheads:market",
-			x: -1.75d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: Farming for Blockheads",
+			title: "A Farmer's Market"
+			icon: "farmingforblockheads:market"
+			x: -1.75d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: Farming for Blockheads"
 			description: [
-				"Wow, there's a lot of different things I can grow. Vegetables. Fruits. Roots. But where the heck do I find some of these seeds?",
-				"",
-				"&dTraveler. Construct yourself a &dMarket.",
-				"",
-				"Okay... one, that's neat. Two, where the heck did they come from...",
-				"",
-				"&dMagic.",
-				"",
-				"Right right. Uh. Wow, thats more seeds than I was thinking. Now if I could grow them faster....",
-				"",
-				"&dTry the Red Fertilizer bag on tilled &dsoil.",
-				"",
+				"Wow, there's a lot of different things I can grow. Vegetables. Fruits. Roots. But where the heck do I find some of these seeds?"
+				""
+				"&dTraveler. Construct yourself a &dMarket."
+				""
+				"Okay... one, that's neat. Two, where the heck did they come from..."
+				""
+				"&dMagic."
+				""
+				"Right right. Uh. Wow, thats more seeds than I was thinking. Now if I could grow them faster...."
+				""
+				"&dTry the Red Fertilizer bag on tilled &dsoil."
+				""
 				"Oh..."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "0000000000000404",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "0000000000000404"
 			tasks: [
 				{
-					id: "0000000000000405",
-					type: "item",
+					id: "0000000000000405"
+					type: "item"
 					item: "farmingforblockheads:market"
-				},
+				}
 				{
-					id: "0000000000000406",
-					type: "item",
+					id: "0000000000000406"
+					type: "item"
 					item: "farmingforblockheads:red_fertilizer"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000407",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000407"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Animal Assistance",
-			icon: "farmingforblockheads:feeding_trough",
-			x: -1.75d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dA Helping Claw",
+			title: "Animal Assistance"
+			icon: "farmingforblockheads:feeding_trough"
+			x: -1.75d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dA Helping Claw"
 			description: [
-				"Alright then, what about help with my chickens?",
-				"",
-				"&dMake a Chicken Nest to collect the &deggs.",
-				"",
-				"A nest. Of course. And to feed the animals a...",
-				"",
+				"Alright then, what about help with my chickens?"
+				""
+				"&dMake a Chicken Nest to collect the &deggs."
+				""
+				"A nest. Of course. And to feed the animals a..."
+				""
 				"&dFeeding Trough, of course."
-			],
-			dependencies: ["0000000000000404"],
-			id: "0000000000000408",
+			]
+			dependencies: ["0000000000000404"]
+			id: "0000000000000408"
 			tasks: [
 				{
-					id: "0000000000000409",
-					type: "item",
+					id: "0000000000000409"
+					type: "item"
 					item: "farmingforblockheads:feeding_trough"
-				},
+				}
 				{
-					id: "000000000000040A",
-					type: "item",
+					id: "000000000000040A"
+					type: "item"
 					item: "farmingforblockheads:chicken_nest"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000040B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000040B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Pull the Lever!",
-			icon: "rsgauges:industrial_small_lever",
-			x: 2.5d,
-			y: -4.25d,
-			shape: "square",
-			subtitle: "&dMod: Gauges and Switches",
+			title: "Pull the Lever!"
+			icon: "rsgauges:industrial_small_lever"
+			x: 2.5d
+			y: -4.25d
+			shape: "square"
+			subtitle: "&dMod: Gauges and Switches"
 			description: [
-				"These wooden buttons and flat little pressure plates kind of lack... style, you know?",
-				"",
-				"&dThere's many options for Gauges and &dSwitches, Traveler. From big buttons &dto pull chains &dto even magical &ddetectors to automatically open &ddoors.",
-				"",
-				"Those... aren't quite magical but... oh wait, how do I configure these things? ",
-				"",
-				"&dSimply Right Click with a Redstone &dTorch. ",
-				"",
-				"Fancy. Okay, do I have any like...Redstone Wire or something to hook these up with?",
-				"",
+				"These wooden buttons and flat little pressure plates kind of lack... style, you know?"
+				""
+				"&dThere's many options for Gauges and &dSwitches, Traveler. From big buttons &dto pull chains &dto even magical &ddetectors to automatically open &ddoors."
+				""
+				"Those... aren't quite magical but... oh wait, how do I configure these things? "
+				""
+				"&dSimply Right Click with a Redstone &dTorch. "
+				""
+				"Fancy. Okay, do I have any like...Redstone Wire or something to hook these up with?"
+				""
 				"&dBetter. You can Wirelessly hook these &dup by Right Clicking an Ender Pearl &donto it to make it a Linking Pearl."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "000000000000040C",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "000000000000040C"
 			tasks: [
 				{
-					id: "000000000000040D",
-					type: "item",
+					id: "000000000000040D"
+					type: "item"
 					item: "rsgauges:industrial_small_lever"
-				},
+				}
 				{
-					id: "000000000000040E",
-					type: "item",
+					id: "000000000000040E"
+					type: "item"
 					item: "rsgauges:oldfancy_spring_reset_chain"
-				},
+				}
 				{
-					id: "000000000000040F",
-					type: "item",
+					id: "000000000000040F"
+					type: "item"
 					item: "rsgauges:arrow_target"
-				},
+				}
 				{
-					id: "0000000000000410",
-					type: "item",
+					id: "0000000000000410"
+					type: "item"
 					item: "rsgauges:door_sensor_switch"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000411",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000411"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Pocket Pets",
+			title: "Pocket Pets"
 			icon: {
-				id: "inventorypets:pet_siamese",
-				Count: 1b,
+				id: "inventorypets:pet_siamese"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -5.5d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dMod: Inventory Pets",
+			}
+			x: -5.5d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dMod: Inventory Pets"
 			description: [
-				"I saw this weird thing in a chest while exploring. It was... a dirt block with a face? It was creepy so I left it.",
-				"",
-				"&dAh, an Inventory Pet. There's a lot of latent magic in the air, and it sometimes gives strange magical intelligence to various things.",
-				"",
-				"Yeah but... wait, a sentient dirt block?",
-				"",
-				"&dI've seen stranger. You can craft a lot of these Inventory Pets. Their magical powers are limited, and you need to feed them to use these powers.",
-				"",
-				"How do they work?",
-				"",
+				"I saw this weird thing in a chest while exploring. It was... a dirt block with a face? It was creepy so I left it."
+				""
+				"&dAh, an Inventory Pet. There's a lot of latent magic in the air, and it sometimes gives strange magical intelligence to various things."
+				""
+				"Yeah but... wait, a sentient dirt block?"
+				""
+				"&dI've seen stranger. You can craft a lot of these Inventory Pets. Their magical powers are limited, and you need to feed them to use these powers."
+				""
+				"How do they work?"
+				""
 				"&dAs long as they are in your inventory, as well as the food they like, you can use them. I suggest having a Feed bag full if you have multiple pets."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "391252B5E8C8E4BD",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "391252B5E8C8E4BD"
 			tasks: [
 				{
-					id: "16FEA981302E68F1",
-					type: "item",
+					id: "16FEA981302E68F1"
+					type: "item"
 					item: {
-						id: "inventorypets:pet_pixie",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "25EEBFD254440E5F",
-					type: "item",
-					item: {
-						ForgeCaps: {
-							Parent: {}
-						},
-						id: "inventorypets:feed_bag_new",
-						Count: 1b,
+						id: "inventorypets:pet_pixie"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "25EEBFD254440E5F"
+					type: "item"
+					item: {
+						id: "inventorypets:feed_bag_new"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "1CA8CCCBDCB0C1BA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "1CA8CCCBDCB0C1BA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Great Housing",
-			icon: "mcwdoors:oak_western_door",
-			x: 2.5d,
-			y: -3.0d,
-			shape: "square",
-			subtitle: "&dMods: Macaw's Doors, Macaw's Windows, Macaw's Roofs",
+			title: "Great Housing"
+			icon: "mcwdoors:oak_western_door"
+			x: 2.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "&dMods: Macaw's Doors, Macaw's Windows, Macaw's Roofs"
 			description: [
-				"Hmmm, I need some better building designs. I'm not good at this sort of thing.",
-				"",
-				"&dNone of us are all that great at this home design thing. Well, most of us aren't. But we have a lot of options.",
-				"",
-				"Such as?",
-				"",
+				"Hmmm, I need some better building designs. I'm not good at this sort of thing."
+				""
+				"&dNone of us are all that great at this home design thing. Well, most of us aren't. But we have a lot of options."
+				""
+				"Such as?"
+				""
 				"&dMacaw's stuff is pretty good. A lot of variety in doors, windows, roofs, etc. I'd give them a check, Traveler. "
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "755F57A34081F1C7",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "755F57A34081F1C7"
 			tasks: [
 				{
-					id: "2A097E617D3DAA2A",
-					type: "item",
+					id: "2A097E617D3DAA2A"
+					type: "item"
 					item: "mcwdoors:oak_western_door"
-				},
+				}
 				{
-					id: "6F5288032B271941",
-					type: "item",
+					id: "6F5288032B271941"
+					type: "item"
 					item: "mcwroofs:oak_lower_roof"
-				},
+				}
 				{
-					id: "4123E689206061AE",
-					type: "item",
+					id: "4123E689206061AE"
+					type: "item"
 					item: "mcwwindows:oak_win_2tall"
 				}
-			],
+			]
 			rewards: [{
-				id: "350A96DA09031B7B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "350A96DA09031B7B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Well Furnished Living Room",
-			icon: "cfm:white_sofa",
-			x: 1.5d,
-			y: -5.5d,
-			shape: "square",
-			subtitle: "&dMod: MrCrayfish's Furniture Mod",
+			title: "Well Furnished Living Room"
+			icon: "cfm:white_sofa"
+			x: 1.5d
+			y: -5.5d
+			shape: "square"
+			subtitle: "&dMod: MrCrayfish's Furniture Mod"
 			description: [
-				"&dMrCrayfish is a well known artisan in this world, Traveler, and even outside it. You'll find some of his stuff in the shop as well.",
-				"",
-				"Really? Is he a Traveler like me?",
-				"",
-				"&dSomewhat, he's kind of like my brother and I. Multidimensional explorers and entrepeneurs. ",
-				"",
-				"Oh, I see.",
-				"",
-				"&dThis is his furniture line. Easy to make, quite functional, and also decent to look at. You can see why it is popular.",
-				"",
-				"&dThese are a few of the living room things. When you place multiple Sofa pieces next to each other, they will connect. Same with the coffee tables.",
-				"",
+				"&dMrCrayfish is a well known artisan in this world, Traveler, and even outside it. You'll find some of his stuff in the shop as well."
+				""
+				"Really? Is he a Traveler like me?"
+				""
+				"&dSomewhat, he's kind of like my brother and I. Multidimensional explorers and entrepeneurs. "
+				""
+				"Oh, I see."
+				""
+				"&dThis is his furniture line. Easy to make, quite functional, and also decent to look at. You can see why it is popular."
+				""
+				"&dThese are a few of the living room things. When you place multiple Sofa pieces next to each other, they will connect. Same with the coffee tables."
+				""
 				"&dHere, let me show you what else is available."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "143ADA387867822C",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "143ADA387867822C"
 			tasks: [
 				{
-					id: "3458515BF874502F",
-					type: "item",
-					title: "Any MrCrayfish Sofa",
+					id: "3458515BF874502F"
+					type: "item"
+					title: "Any MrCrayfish Sofa"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_sofa"
 						}
 					}
-				},
+				}
 				{
-					id: "2C708577CDF8D398",
-					type: "item",
-					title: "Any MrCrayfish Coffee Table",
+					id: "2C708577CDF8D398"
+					type: "item"
+					title: "Any MrCrayfish Coffee Table"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_coffee_table"
 						}
 					}
-				},
+				}
 				{
-					id: "0CD451743AA7B459",
-					type: "item",
-					title: "Any MrCrayfish Blinds",
+					id: "0CD451743AA7B459"
+					type: "item"
+					title: "Any MrCrayfish Blinds"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_blindes"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "2E48ABC4BF2C26E2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "2E48ABC4BF2C26E2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Back Yard Boons",
-			icon: "cfm:white_grill",
-			x: 2.5d,
-			y: -5.5d,
-			shape: "square",
-			subtitle: "&dBrats and Bellyflops",
+			title: "Back Yard Boons"
+			icon: "cfm:white_grill"
+			x: 2.5d
+			y: -5.5d
+			shape: "square"
+			subtitle: "&dBrats and Bellyflops"
 			description: [
-				"No backyard back home is complete without a grill and a cooler for cold drinks, honestly.",
-				"",
-				"Don't forget the Spatula of course.",
-				"",
-				"And if you are lucky, you also got a pool in the backyard. Though you had to be rich, or at least well off, to also have a diving board for your pool!",
-				"",
+				"No backyard back home is complete without a grill and a cooler for cold drinks, honestly."
+				""
+				"Don't forget the Spatula of course."
+				""
+				"And if you are lucky, you also got a pool in the backyard. Though you had to be rich, or at least well off, to also have a diving board for your pool!"
+				""
 				"More likely, you were to have something like a Trampoline though. If you had anything other than balls to throw around I guess."
-			],
-			dependencies: ["143ADA387867822C"],
-			id: "72C39F4BB01F928B",
+			]
+			dependencies: ["143ADA387867822C"]
+			id: "72C39F4BB01F928B"
 			tasks: [
 				{
-					id: "6E1AF29180763B49",
-					type: "item",
-					title: "Any MrCrayfish Grill",
+					id: "6E1AF29180763B49"
+					type: "item"
+					title: "Any MrCrayfish Grill"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_grill"
 						}
 					}
-				},
+				}
 				{
-					id: "5C8DF5EE0A603DE0",
-					type: "item",
+					id: "5C8DF5EE0A603DE0"
+					type: "item"
 					item: {
-						id: "cfm:spatula",
-						Count: 1b,
+						id: "cfm:spatula"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "3538E5B76A4DD2FB",
-					type: "item",
-					title: "Any MrCrayfish Cooler",
+					id: "3538E5B76A4DD2FB"
+					type: "item"
+					title: "Any MrCrayfish Cooler"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_cooler"
 						}
 					}
-				},
+				}
 				{
-					id: "1A1E220BC98CED66",
-					type: "item",
+					id: "1A1E220BC98CED66"
+					type: "item"
 					item: "cfm:diving_board"
-				},
+				}
 				{
-					id: "516A7C8B8858C9EA",
-					type: "item",
-					title: "Any MrCrayfish Trampoline",
+					id: "516A7C8B8858C9EA"
+					type: "item"
+					title: "Any MrCrayfish Trampoline"
 					item: "cfm:trampoline"
 				}
-			],
+			]
 			rewards: [{
-				id: "3BE6EDD21D5D0A13",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3BE6EDD21D5D0A13"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Front Yard Follies",
-			icon: "cfm:oak_mail_box",
-			x: 3.5d,
-			y: -5.5d,
-			shape: "square",
-			subtitle: "&dTalk and Walk",
+			title: "Front Yard Follies"
+			icon: "cfm:oak_mail_box"
+			x: 3.5d
+			y: -5.5d
+			shape: "square"
+			subtitle: "&dTalk and Walk"
 			description: [
-				"Front Yard, the long walk along a Rock Path to the front door. Can't forget the Mailbox, of course.",
-				"",
+				"Front Yard, the long walk along a Rock Path to the front door. Can't forget the Mailbox, of course."
+				""
 				"And Hedges are a nice way to mark out the boundaries of my property."
-			],
-			dependencies: ["143ADA387867822C"],
-			id: "41E08392B5346BE2",
+			]
+			dependencies: ["143ADA387867822C"]
+			id: "41E08392B5346BE2"
 			tasks: [
 				{
-					id: "069D4BCF6B040B25",
-					type: "item",
-					title: "Any MrCrayfish Mailbox",
+					id: "069D4BCF6B040B25"
+					type: "item"
+					title: "Any MrCrayfish Mailbox"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_mailbox"
 						}
 					}
-				},
+				}
 				{
-					id: "301E2EF98613AFF3",
-					type: "item",
+					id: "301E2EF98613AFF3"
+					type: "item"
 					item: "cfm:rock_path"
-				},
+				}
 				{
-					id: "4400D7974279A068",
-					type: "item",
-					title: "Any MrCrayfish Hedge",
+					id: "4400D7974279A068"
+					type: "item"
+					title: "Any MrCrayfish Hedge"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_hedge"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "4BD4356907F82BBF",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4BD4356907F82BBF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Dining Room Delights",
-			icon: "cfm:spruce_table",
-			x: 1.5d,
-			y: -6.5d,
-			shape: "square",
-			subtitle: "&dSit Down, Relax",
+			title: "Dining Room Delights"
+			icon: "cfm:spruce_table"
+			x: 1.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "&dSit Down, Relax"
 			description: [
-				"Dining rooms are simple things. Tables that connect to each other and make larger tables. Chairs to sit down and relax in.",
-				"",
+				"Dining rooms are simple things. Tables that connect to each other and make larger tables. Chairs to sit down and relax in."
+				""
 				"Some folks like to keep random curiosities in Cabinets in their Dining Room. I know my parents did. "
-			],
-			dependencies: ["143ADA387867822C"],
-			id: "541DC4E97BDF8570",
+			]
+			dependencies: ["143ADA387867822C"]
+			id: "541DC4E97BDF8570"
 			tasks: [
 				{
-					id: "2E4CF4B8BF2E2F59",
-					type: "item",
-					title: "Any MrCrayfish Table",
+					id: "2E4CF4B8BF2E2F59"
+					type: "item"
+					title: "Any MrCrayfish Table"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_tables"
 						}
 					}
-				},
+				}
 				{
-					id: "0D47711C6FB3E837",
-					type: "item",
-					title: "Any MrCrayfish Chair",
+					id: "0D47711C6FB3E837"
+					type: "item"
+					title: "Any MrCrayfish Chair"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_chairs"
 						}
 					}
-				},
+				}
 				{
-					id: "3F2908E984A59276",
-					type: "item",
-					title: "Any MrCrayfish Cabinet",
+					id: "3F2908E984A59276"
+					type: "item"
+					title: "Any MrCrayfish Cabinet"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_cabinet"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "4AE6D9F02FF0704B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "4AE6D9F02FF0704B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Kitchen Keeper",
-			icon: "cfm:fridge_light",
-			x: 3.5d,
-			y: -6.5d,
-			shape: "square",
-			subtitle: "&dNever enough counter space",
+			title: "Kitchen Keeper"
+			icon: "cfm:fridge_light"
+			x: 3.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "&dNever enough counter space"
 			description: [
-				"Kitchens are always a place I never have enough room with. Kitchen Counter space is a premium, no matter how much I have.",
-				"",
-				"Even Kitchen Drawers never have enough room.",
-				"",
-				"Or the Kitchen Sink. One cooked meal and it's full quickly.",
-				"",
+				"Kitchens are always a place I never have enough room with. Kitchen Counter space is a premium, no matter how much I have."
+				""
+				"Even Kitchen Drawers never have enough room."
+				""
+				"Or the Kitchen Sink. One cooked meal and it's full quickly."
+				""
 				"And the Fridge? Simultaneously too full and never has anything I want. Thankfully I can at least stack two of them on top of each other to make a full Fridge."
-			],
-			dependencies: ["143ADA387867822C"],
-			id: "6EBE737CF4C9DECE",
+			]
+			dependencies: ["143ADA387867822C"]
+			id: "6EBE737CF4C9DECE"
 			tasks: [
 				{
-					id: "67DAB7FF37644E89",
-					type: "item",
+					id: "67DAB7FF37644E89"
+					type: "item"
 					item: "cfm:fridge_light"
-				},
+				}
 				{
-					id: "7CF5845E943A3CD0",
-					type: "item",
-					title: "Any MrCrayfish Kitchen Counter",
+					id: "7CF5845E943A3CD0"
+					type: "item"
+					title: "Any MrCrayfish Kitchen Counter"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_kitchen_counter"
 						}
 					}
-				},
+				}
 				{
-					id: "4B8F02A7A5C441FB",
-					type: "item",
-					title: "Any MrCrayfish Kitchen Sink",
+					id: "4B8F02A7A5C441FB"
+					type: "item"
+					title: "Any MrCrayfish Kitchen Sink"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_kitchen_sink"
 						}
 					}
-				},
+				}
 				{
-					id: "04A131094BC23A1E",
-					type: "item",
-					title: "Any MrCrayfish Kitchen Drawer",
+					id: "04A131094BC23A1E"
+					type: "item"
+					title: "Any MrCrayfish Kitchen Drawer"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_kitchen_drawer"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "1D2B2C9935EFD278",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "1D2B2C9935EFD278"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Simple Study",
-			icon: "cfm:acacia_desk",
-			x: 2.5d,
-			y: -6.5d,
-			shape: "square",
-			subtitle: "&dA Desk is all one needs in heck...",
+			title: "Simple Study"
+			icon: "cfm:acacia_desk"
+			x: 2.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "&dA Desk is all one needs in heck..."
 			description: [
-				"Desks are an excellent place to collect ones thoughts. And desk drawers excellent places to collect random nicknacks, right?",
-				"",
+				"Desks are an excellent place to collect ones thoughts. And desk drawers excellent places to collect random nicknacks, right?"
+				""
 				"I can place multiple desks and cabinets in a row to connect them all. It's quite handy."
-			],
-			dependencies: ["143ADA387867822C"],
-			id: "58A4534F0AC25084",
+			]
+			dependencies: ["143ADA387867822C"]
+			id: "58A4534F0AC25084"
 			tasks: [
 				{
-					id: "44E8B3C375557022",
-					type: "item",
-					title: "Any MrCrayfish Desk",
+					id: "44E8B3C375557022"
+					type: "item"
+					title: "Any MrCrayfish Desk"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_desk"
 						}
 					}
-				},
+				}
 				{
-					id: "3B9712824E34455B",
-					type: "item",
-					title: "Any Mrcrayfish Desk Cabinet",
+					id: "3B9712824E34455B"
+					type: "item"
+					title: "Any Mrcrayfish Desk Cabinet"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "crafttweaker:cfm_desk_cabinet"
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "1393DDEF2805FEA3",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "1393DDEF2805FEA3"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Going Up",
-			icon: "elevatorid:elevator_white",
-			x: 5.0d,
-			y: -3.0d,
-			shape: "square",
-			subtitle: "&dOr down.",
+			title: "Going Up"
+			icon: "elevatorid:elevator_white"
+			x: 5.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "&dOr down."
 			description: [
-				"This Elevator is a super handy thing to have around a base, when I don't want to have stairs or something like a ramp.",
-				"",
-				"I can place these above or below another Elevator, like between multiple floors. When I Jump, I go to any Elevator higher than the one I'm on, and if I Sneak I go down to the next Elevator.",
-				"",
-				"I can Right Click with an empty hand to set which way I face when I teleport to that elevator.",
-				"",
+				"This Elevator is a super handy thing to have around a base, when I don't want to have stairs or something like a ramp."
+				""
+				"I can place these above or below another Elevator, like between multiple floors. When I Jump, I go to any Elevator higher than the one I'm on, and if I Sneak I go down to the next Elevator."
+				""
+				"I can Right Click with an empty hand to set which way I face when I teleport to that elevator."
+				""
 				"I can also Right Click any block onto the Elevator to camoflague it."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "08E112B3F013E423",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "08E112B3F013E423"
 			tasks: [{
-				id: "156223A6B59D917D",
-				type: "item",
-				title: "Any color Elevator",
+				id: "156223A6B59D917D"
+				type: "item"
+				title: "Any color Elevator"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "elevatorid:elevators"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "18E0038AC985468E",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "18E0038AC985468E"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "A Good Meal",
-			icon: "pamhc2foodcore:cuttingboarditem",
-			x: 3.5d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMods : Pam's Harvestcraft Series",
+			title: "A Good Meal"
+			icon: "pamhc2foodcore:cuttingboarditem"
+			x: 3.5d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMods : Pam's Harvestcraft Series"
 			description: [
-				"Pam's, even back home the Harvestcraft line of food is fantastic. Good to see that its multidimensionally good.",
-				"",
-				"I should make a bunch of the kitchen tools first, and keep an eye out for the Gardens while I'm exploring. They are my main source of seeds for growing the wide variety of plants and vegetables I'll need.",
-				"",
+				"Pam's, even back home the Harvestcraft line of food is fantastic. Good to see that its multidimensionally good."
+				""
+				"I should make a bunch of the kitchen tools first, and keep an eye out for the Gardens while I'm exploring. They are my main source of seeds for growing the wide variety of plants and vegetables I'll need."
+				""
 				"And I should keep an eye out for fruit trees. I can harvest the fruits, then combine them with saplings later to grow new fruit trees."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "2CB0ED0F57CCC2AA",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "2CB0ED0F57CCC2AA"
 			tasks: [
 				{
-					id: "321A09DC402FE15F",
-					type: "item",
+					id: "321A09DC402FE15F"
+					type: "item"
 					item: "pamhc2foodcore:cuttingboarditem"
-				},
+				}
 				{
-					id: "20D576247DEEEEA4",
-					type: "item",
+					id: "20D576247DEEEEA4"
+					type: "item"
 					item: "pamhc2foodcore:bakewareitem"
-				},
+				}
 				{
-					id: "7A8A57538D600665",
-					type: "item",
+					id: "7A8A57538D600665"
+					type: "item"
 					item: "pamhc2foodcore:potitem"
-				},
+				}
 				{
-					id: "0482DE763CF7E426",
-					type: "item",
+					id: "0482DE763CF7E426"
+					type: "item"
 					item: "pamhc2foodcore:grinderitem"
-				},
+				}
 				{
-					id: "4FC0FD90D6AAA588",
-					type: "item",
+					id: "4FC0FD90D6AAA588"
+					type: "item"
 					item: "pamhc2foodcore:rolleritem"
-				},
+				}
 				{
-					id: "456CEDD611789E3F",
-					type: "item",
+					id: "456CEDD611789E3F"
+					type: "item"
 					item: "pamhc2foodcore:saucepanitem"
 				}
-			],
+			]
 			rewards: [{
-				id: "7D5459637BEDF888",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "7D5459637BEDF888"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Main Courses",
-			icon: "pamhc2foodcore:friedchickenitem",
-			x: 4.5d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dA Good Meal",
-			description: ["Pam's has a lot of great main dishes. Classics like Fried Chicken and BBQ Chicken Pizza always hit the spot."],
-			dependencies: ["2CB0ED0F57CCC2AA"],
-			id: "14033E73AAAF0A31",
+			title: "Main Courses"
+			icon: "pamhc2foodcore:friedchickenitem"
+			x: 4.5d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dA Good Meal"
+			description: ["Pam's has a lot of great main dishes. Classics like Fried Chicken and BBQ Chicken Pizza always hit the spot."]
+			dependencies: ["2CB0ED0F57CCC2AA"]
+			id: "14033E73AAAF0A31"
 			tasks: [
 				{
-					id: "756800C39287CE0E",
-					type: "item",
+					id: "756800C39287CE0E"
+					type: "item"
 					item: "pamhc2foodcore:friedchickenitem"
-				},
+				}
 				{
-					id: "4B99BE8701F7AC8A",
-					type: "item",
+					id: "4B99BE8701F7AC8A"
+					type: "item"
 					item: "pamhc2foodextended:bbqchickenpizzaitem"
 				}
-			],
+			]
 			rewards: [{
-				id: "025E3746F56F8015",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "025E3746F56F8015"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Quenching Drinks",
-			icon: "pamhc2foodextended:grapesodaitem",
-			x: 3.5d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dTake a Sip",
-			description: ["Pam's drinks vary wildly in flavors. From bubbly sodas to relaxing hot tea. "],
-			dependencies: ["2CB0ED0F57CCC2AA"],
-			id: "06568449EF3C7EDE",
+			title: "Quenching Drinks"
+			icon: "pamhc2foodextended:grapesodaitem"
+			x: 3.5d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dTake a Sip"
+			description: ["Pam's drinks vary wildly in flavors. From bubbly sodas to relaxing hot tea. "]
+			dependencies: ["2CB0ED0F57CCC2AA"]
+			id: "06568449EF3C7EDE"
 			tasks: [
 				{
-					id: "2729FD4BFBE184DB",
-					type: "item",
+					id: "2729FD4BFBE184DB"
+					type: "item"
 					item: "pamhc2foodextended:grapesodaitem"
-				},
+				}
 				{
-					id: "01A5A1BA10788B4B",
-					type: "item",
+					id: "01A5A1BA10788B4B"
+					type: "item"
 					item: "pamhc2crops:hotteaitem"
 				}
-			],
+			]
 			rewards: [{
-				id: "24CEF4761968EA3E",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "24CEF4761968EA3E"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Snack Time",
-			icon: "pamhc2foodcore:gummybearsitem",
-			x: 4.5d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dCan never over do",
-			description: ["Pam's has a ton of small snacks, good for taking the edge off hunger out in the field. Gummy bears, popcorn, chocolate, it's all so tasty."],
-			dependencies: ["2CB0ED0F57CCC2AA"],
-			id: "76ABA3D5FA03DBC7",
+			title: "Snack Time"
+			icon: "pamhc2foodcore:gummybearsitem"
+			x: 4.5d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dCan never over do"
+			description: ["Pam's has a ton of small snacks, good for taking the edge off hunger out in the field. Gummy bears, popcorn, chocolate, it's all so tasty."]
+			dependencies: ["2CB0ED0F57CCC2AA"]
+			id: "76ABA3D5FA03DBC7"
 			tasks: [
 				{
-					id: "2A522091AC61BF44",
-					type: "item",
+					id: "2A522091AC61BF44"
+					type: "item"
 					item: "pamhc2foodcore:gummybearsitem"
-				},
+				}
 				{
-					id: "08DF09E7DCB90B66",
-					type: "item",
+					id: "08DF09E7DCB90B66"
+					type: "item"
 					item: "pamhc2foodextended:theatreboxitem"
 				}
-			],
+			]
 			rewards: [{
-				id: "3F7BC2C71E661CC9",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3F7BC2C71E661CC9"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Pet Pat Pot",
+			title: "Pet Pat Pot"
 			icon: {
-				id: "inventorypets:pet_wolf",
-				Count: 1b,
+				id: "inventorypets:pet_wolf"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -2.0d,
-			y: -3.25d,
-			subtitle: "&dMod: Pet Your Wolf",
+			}
+			x: -2.0d
+			y: -3.25d
+			subtitle: "&dMod: Pet Your Wolf"
 			description: [
-				"&dHey.",
-				"",
-				"&dHey Traveler.",
-				"",
-				"&dYou better pet your pet wolf.",
-				"",
-				"&dLook at it.",
-				"",
-				"&dAnd hold the P key.",
-				"",
+				"&dHey."
+				""
+				"&dHey Traveler."
+				""
+				"&dYou better pet your pet wolf."
+				""
+				"&dLook at it."
+				""
+				"&dAnd hold the P key."
+				""
 				"&dYou better be petting that good dog."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "5E0D80004003E8C5",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "5E0D80004003E8C5"
 			tasks: [{
-				id: "0ECC98A320DD9B36",
+				id: "0ECC98A320DD9B36"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "5D8A5982753D7934",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5D8A5982753D7934"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "All the Little Things",
-			icon: "quark:paper_wall_sakura",
-			x: -3.25d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: Quark and Quark Oddities",
+			title: "All the Little Things"
+			icon: "quark:paper_wall_sakura"
+			x: -3.25d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: Quark and Quark Oddities"
 			description: [
-				"&dTraveler, you may like to know that this is one of many dimensions that the magical architect Vazkii has visited. ",
-				"",
-				"Oh?",
-				"",
-				"&dYes, they brought many unique schools of magic I have lessons on, but another thing they did was... little things. Little changes, little additions, little discoveries. We call these things Quark.",
-				"",
-				"Huh, interesting. What all does Quark entail?",
-				"",
-				"&dMany things. From building, to automation, to magic. It's nothing super deep or crazy intricate, thus no big lesson plan on it. But you'll see the changes all around.",
-				"",
+				"&dTraveler, you may like to know that this is one of many dimensions that the magical architect Vazkii has visited. "
+				""
+				"Oh?"
+				""
+				"&dYes, they brought many unique schools of magic I have lessons on, but another thing they did was... little things. Little changes, little additions, little discoveries. We call these things Quark."
+				""
+				"Huh, interesting. What all does Quark entail?"
+				""
+				"&dMany things. From building, to automation, to magic. It's nothing super deep or crazy intricate, thus no big lesson plan on it. But you'll see the changes all around."
+				""
 				"&dFor exmaple, things like this glowing item frame, which lets you see the item in it clearly even in pitch black."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "4BCD28E15AA684AD",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "4BCD28E15AA684AD"
 			tasks: [
 				{
-					id: "3DAD0356E32246C6",
-					type: "item",
+					id: "3DAD0356E32246C6"
+					type: "item"
 					item: "quark:paper_wall_sakura"
-				},
+				}
 				{
-					id: "2234F59A316491F9",
-					type: "item",
+					id: "2234F59A316491F9"
+					type: "item"
 					item: "quark:glowing_glass_item_frame"
 				}
-			],
+			]
 			rewards: [{
-				id: "3E6534A3588C3940",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3E6534A3588C3940"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Quite Oddities",
-			icon: "minecraft:enchanting_table",
-			x: -4.25d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dDun dundundun dundun",
+			title: "Quite Oddities"
+			icon: "minecraft:enchanting_table"
+			x: -4.25d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dDun dundundun dundun"
 			description: [
-				"Kow, I've heard some of the local mages talk about how Enchanting used to be different. It was... more of a gamble?",
-				"",
-				"&dYeah. Unless you had the Enchantments you want squirreled away in a book, you had to pray your enchanting table was lucky.",
-				"",
-				"&dQuark brought about an odd change to Enchanting, for the better.",
-				"",
-				"&dQuak brought us Matrix Enchanting. You still need a lot of bookshelves, or other magic like Pylons, for the best results.",
-				"",
-				"&dYou add puzzle pieces made of squares to the table, each one a different enchant.",
-				"",
+				"Kow, I've heard some of the local mages talk about how Enchanting used to be different. It was... more of a gamble?"
+				""
+				"&dYeah. Unless you had the Enchantments you want squirreled away in a book, you had to pray your enchanting table was lucky."
+				""
+				"&dQuark brought about an odd change to Enchanting, for the better."
+				""
+				"&dQuak brought us Matrix Enchanting. You still need a lot of bookshelves, or other magic like Pylons, for the best results."
+				""
+				"&dYou add puzzle pieces made of squares to the table, each one a different enchant."
+				""
 				"&dYou then add the ones you want to a grid so they don't overlap. Dropping a piece on another with the same enchant powers it up instead."
-			],
-			dependencies: ["4BCD28E15AA684AD"],
-			id: "7474F4E30DDC41C1",
+			]
+			dependencies: ["4BCD28E15AA684AD"]
+			id: "7474F4E30DDC41C1"
 			tasks: [{
-				id: "1440A39AF155002C",
-				type: "item",
+				id: "1440A39AF155002C"
+				type: "item"
 				item: "minecraft:enchanting_table"
-			}],
+			}]
 			rewards: [{
-				id: "7DA666405581CED1",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "7DA666405581CED1"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Interesting Uses",
-			icon: "quark:weather_sensor",
-			x: -3.25d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dA bit unique",
+			title: "Interesting Uses"
+			icon: "quark:weather_sensor"
+			x: -3.25d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dA bit unique"
 			description: [
-				"So I see Quark has a lot of interesting little things in it.",
-				"",
-				"Like this Magnet? It kind of only pulls or pushes Iron Blocks or various other blocks made with Iron Ingots. Like Hoppers. Some of these things do interesting things when pulled.",
-				"",
+				"So I see Quark has a lot of interesting little things in it."
+				""
+				"Like this Magnet? It kind of only pulls or pushes Iron Blocks or various other blocks made with Iron Ingots. Like Hoppers. Some of these things do interesting things when pulled."
+				""
 				"Or like the Weather Detector. Emits a Redstone Signal when the weather changes from sunny."
-			],
-			dependencies: ["4BCD28E15AA684AD"],
-			id: "195671B7A561AE5E",
+			]
+			dependencies: ["4BCD28E15AA684AD"]
+			id: "195671B7A561AE5E"
 			tasks: [
 				{
-					id: "2B5B664EDAB96F2E",
-					type: "item",
+					id: "2B5B664EDAB96F2E"
+					type: "item"
 					item: "quark:magnet"
-				},
+				}
 				{
-					id: "52762C0C04508776",
-					type: "item",
+					id: "52762C0C04508776"
+					type: "item"
 					item: "quark:weather_sensor"
 				}
-			],
+			]
 			rewards: [{
-				id: "7D03E7284E7EB09B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "7D03E7284E7EB09B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "A Place For Everything",
-			icon: "storagedrawers:oak_full_drawers_1",
-			x: 2.5d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dMod: Storage Drawers",
+			title: "A Place For Everything"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 2.5d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dMod: Storage Drawers"
 			description: [
-				"I have a lot of materials I use a lot, and sometimes just a room full of chests doesn't look great.",
-				"",
-				"&dAlso kind of hard to remember where some of  your materials are.",
-				"",
-				"True that. So, one of the things I've found that's popular here are Storage Drawers. They come in 1x1, 2x1, and 2x2 drawer sets. Each drawer holds a stack of a single item.",
-				"",
+				"I have a lot of materials I use a lot, and sometimes just a room full of chests doesn't look great."
+				""
+				"&dAlso kind of hard to remember where some of  your materials are."
+				""
+				"True that. So, one of the things I've found that's popular here are Storage Drawers. They come in 1x1, 2x1, and 2x2 drawer sets. Each drawer holds a stack of a single item."
+				""
 				"But if I use an upgrade on it, it can hold even more items. Or do a wide variety of other things!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "1A215F8B420FE5D3",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "1A215F8B420FE5D3"
 			tasks: [
 				{
-					id: "76C663813FF31163",
-					type: "item",
-					title: "Any Storage Drawer",
+					id: "76C663813FF31163"
+					type: "item"
+					title: "Any Storage Drawer"
 					item: {
-						id: "itemfilters:tag",
-						Count: 1b,
+						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "storagedrawers:drawers"
 						}
 					}
-				},
+				}
 				{
-					id: "3F8E5DE0C887D04E",
-					type: "item",
+					id: "3F8E5DE0C887D04E"
+					type: "item"
 					item: "storagedrawers:iron_storage_upgrade"
 				}
-			],
+			]
 			rewards: [{
-				id: "01281B9AE2E39205",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "01281B9AE2E39205"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Drawer Key",
-			icon: "storagedrawers:drawer_key",
-			x: 3.5d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dLock It",
+			title: "Drawer Key"
+			icon: "storagedrawers:drawer_key"
+			x: 3.5d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dLock It"
 			description: [
-				"There are two Drawer keys that can be used on the Storage Drawers.",
-				"",
-				"The Quantify Key can be used to show or hide the drawers from magically displaying the amount in them.",
-				"",
+				"There are two Drawer keys that can be used on the Storage Drawers."
+				""
+				"The Quantify Key can be used to show or hide the drawers from magically displaying the amount in them."
+				""
 				"The Drawer Key can be used to Lock a drawer to the items in it. If I take out all the items, they'll still only accept the items they show. Good way to keep things nice and organized."
-			],
-			dependencies: ["1A215F8B420FE5D3"],
-			id: "3FC3AFCAEAA8BD3C",
+			]
+			dependencies: ["1A215F8B420FE5D3"]
+			id: "3FC3AFCAEAA8BD3C"
 			tasks: [
 				{
-					id: "080B8B3B0C309691",
-					type: "item",
+					id: "080B8B3B0C309691"
+					type: "item"
 					item: "storagedrawers:quantify_key"
-				},
+				}
 				{
-					id: "46FD16C0B4BE1FD6",
-					type: "item",
+					id: "46FD16C0B4BE1FD6"
+					type: "item"
 					item: "storagedrawers:drawer_key"
 				}
-			],
+			]
 			rewards: [{
-				id: "54AF918C95C79C5B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "54AF918C95C79C5B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Magical Storage Drawers",
-			icon: "storagedrawers:compacting_drawers_3",
-			x: 4.5d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dAutomagically Sorted",
+			title: "Magical Storage Drawers"
+			icon: "storagedrawers:compacting_drawers_3"
+			x: 4.5d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dAutomagically Sorted"
 			description: [
-				"Compacting Drawers are useful for things like Iron Bars and Blocks of Iron. It will automatically swap between items that craft in 2x2 or 3x3 grid (like the aforementioned Blocks of Iron!)",
-				"",
-				"The Drawer Controller automatically sorts out items for me that I pipe in, whether by Right Clicking them directly, or using a hopper or pipes or rats.",
-				"",
-				"They'll put items into any Storage Drawer that is touching either it, or connected in a chain of Storage Drawers. It will prioritize filling drawers that already have the item, then start filling empty drawers.",
-				"",
+				"Compacting Drawers are useful for things like Iron Bars and Blocks of Iron. It will automatically swap between items that craft in 2x2 or 3x3 grid (like the aforementioned Blocks of Iron!)"
+				""
+				"The Drawer Controller automatically sorts out items for me that I pipe in, whether by Right Clicking them directly, or using a hopper or pipes or rats."
+				""
+				"They'll put items into any Storage Drawer that is touching either it, or connected in a chain of Storage Drawers. It will prioritize filling drawers that already have the item, then start filling empty drawers."
+				""
 				"The Drawer Slave basically expands how many 'sides' a Drawer Controller has so I can connect even more pipes and things to it."
-			],
-			dependencies: ["1A215F8B420FE5D3"],
-			id: "376D745B4B46393E",
+			]
+			dependencies: ["1A215F8B420FE5D3"]
+			id: "376D745B4B46393E"
 			tasks: [
 				{
-					id: "34A244D1DEFF7090",
-					type: "item",
+					id: "34A244D1DEFF7090"
+					type: "item"
 					item: "storagedrawers:compacting_drawers_3"
-				},
+				}
 				{
-					id: "1EF876F31143D5BA",
-					type: "item",
+					id: "1EF876F31143D5BA"
+					type: "item"
 					item: "storagedrawers:controller"
-				},
+				}
 				{
-					id: "6BA9AE5BC2E10764",
-					type: "item",
+					id: "6BA9AE5BC2E10764"
+					type: "item"
 					item: "storagedrawers:controller_slave"
 				}
-			],
+			]
 			rewards: [{
-				id: "1789462E7512CFEB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "1789462E7512CFEB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "A Simple Display",
-			icon: "pedestals:pedestal",
-			x: 3.75d,
-			y: -3.0d,
-			shape: "square",
-			subtitle: "&dMod: Theo's Pedestal",
+			title: "A Simple Display"
+			icon: "pedestals:pedestal"
+			x: 3.75d
+			y: -3.0d
+			shape: "square"
+			subtitle: "&dMod: Theo's Pedestal"
 			description: [
-				"This is a pretty simple thing: A stand to put an item on to show it off.",
-				"",
+				"This is a pretty simple thing: A stand to put an item on to show it off."
+				""
 				"I can Right Click an item onto the Pedestal to show it off. If I Sneak + Right Click with an empty hand, I can Lock or Unlock the pedestal from other Travellers using it."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "3D08D2769ABFF339",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "3D08D2769ABFF339"
 			tasks: [{
-				id: "5848CF7286590095",
-				type: "item",
+				id: "5848CF7286590095"
+				type: "item"
 				item: "pedestals:pedestal"
-			}],
+			}]
 			rewards: [{
-				id: "79695A53DAAB452B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "79695A53DAAB452B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "That's a BIG Torch",
-			icon: "torchmaster:megatorch",
-			x: 3.75d,
-			y: -4.25d,
-			shape: "square",
-			subtitle: "&dMod: Torchmaster",
+			title: "That's a BIG Torch"
+			icon: "torchmaster:megatorch"
+			x: 3.75d
+			y: -4.25d
+			shape: "square"
+			subtitle: "&dMod: Torchmaster"
 			description: [
-				"&dTraveller, there are a few magical torches and lights you should be aware of.",
-				"",
-				"&dThe Mega Torch lights up the area, but its main function is to stop monsters from appearing in a much larger area.",
-				"",
-				"That is quite useful. But... what if I want monsters? For some magic things, I need a lot of them ",
-				"",
+				"&dTraveller, there are a few magical torches and lights you should be aware of."
+				""
+				"&dThe Mega Torch lights up the area, but its main function is to stop monsters from appearing in a much larger area."
+				""
+				"That is quite useful. But... what if I want monsters? For some magic things, I need a lot of them "
+				""
 				"&dThen the Dread Lamp is what you want. It stops passive animals, farm animals, etc from appearing."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "00DE702097A2C8AA",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "00DE702097A2C8AA"
 			tasks: [
 				{
-					id: "3EDD9BE8D8B8D8A5",
-					type: "item",
+					id: "3EDD9BE8D8B8D8A5"
+					type: "item"
 					item: "torchmaster:megatorch"
-				},
+				}
 				{
-					id: "0299659C31E43609",
-					type: "item",
+					id: "0299659C31E43609"
+					type: "item"
 					item: "torchmaster:dreadlamp"
 				}
-			],
+			]
 			rewards: [{
-				id: "0DF686680BFF5B25",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0DF686680BFF5B25"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Faery Lights",
-			icon: "torchmaster:feral_flare_lantern",
-			x: 4.75d,
-			y: -4.25d,
-			shape: "square",
-			subtitle: "&dSpreading Light",
+			title: "Faery Lights"
+			icon: "torchmaster:feral_flare_lantern"
+			x: 4.75d
+			y: -4.25d
+			shape: "square"
+			subtitle: "&dSpreading Light"
 			description: [
-				"&dThe Feral Flare Lantern spreads lights out over a large area. But I'd be careful, they might get in your way in ways you don't expect.",
-				"",
+				"&dThe Feral Flare Lantern spreads lights out over a large area. But I'd be careful, they might get in your way in ways you don't expect."
+				""
 				"&dIf you need to get rid of some of the lights it generates, use the Frozen Pearl."
-			],
-			dependencies: ["00DE702097A2C8AA"],
-			id: "2125DEE0FE00985A",
+			]
+			dependencies: ["00DE702097A2C8AA"]
+			id: "2125DEE0FE00985A"
 			tasks: [
 				{
-					id: "54B86489C5BA9C9B",
-					type: "item",
+					id: "54B86489C5BA9C9B"
+					type: "item"
 					item: "torchmaster:feral_flare_lantern"
-				},
+				}
 				{
-					id: "7D936E657DD69BBE",
-					type: "item",
+					id: "7D936E657DD69BBE"
+					type: "item"
 					item: "torchmaster:frozen_pearl"
 				}
-			],
+			]
 			rewards: [{
-				id: "3C0437291E5F4BD8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3C0437291E5F4BD8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "To Bits",
+			title: "To Bits"
 			icon: {
-				id: "chiselsandbits:chisel_stone",
-				Count: 1b,
+				id: "chiselsandbits:chisel_stone"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -5.75d,
-			y: -5.75d,
-			shape: "square",
-			subtitle: "&dMod: Chisel and Bits",
+			}
+			x: -5.75d
+			y: -5.75d
+			shape: "square"
+			subtitle: "&dMod: Chisel and Bits"
 			description: [
-				"&dTraveller, you can get a much finer control on how you decorate with designs. You can split any material from a single block to a 16x16 set.",
-				"",
-				"That... is a lot of tiny blocks.",
-				"",
-				"&dYes. You can use a Chisel to chip away at a block. By hitting the H key, or Sneak + Mousewheel, you can swap chiseling modes.",
-				"",
-				"&dThe Saw can be used to cleanly slice blocks in a Crafting Table.",
-				"",
+				"&dTraveller, you can get a much finer control on how you decorate with designs. You can split any material from a single block to a 16x16 set."
+				""
+				"That... is a lot of tiny blocks."
+				""
+				"&dYes. You can use a Chisel to chip away at a block. By hitting the H key, or Sneak + Mousewheel, you can swap chiseling modes."
+				""
+				"&dThe Saw can be used to cleanly slice blocks in a Crafting Table."
+				""
 				"&dAnd the Chiseled Bit Storage is kind of like a Fluid Tank, but you can break the fluids into Chiseled Bits too."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "7D28F41729018508",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "7D28F41729018508"
 			tasks: [
 				{
-					id: "7B069D999D668DB5",
-					type: "item",
+					id: "7B069D999D668DB5"
+					type: "item"
 					item: {
-						id: "chiselsandbits:chisel_stone",
-						Count: 1b,
+						id: "chiselsandbits:chisel_stone"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "50A16DC6FE9F004D",
-					type: "item",
+					id: "50A16DC6FE9F004D"
+					type: "item"
 					item: {
-						id: "chiselsandbits:bitsaw_stone",
-						Count: 1b,
+						id: "chiselsandbits:bitsaw_stone"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "3D9F67D05A7C5B03",
-					type: "item",
+					id: "3D9F67D05A7C5B03"
+					type: "item"
 					item: "chiselsandbits:bit_storage"
 				}
-			],
+			]
 			rewards: [{
-				id: "38F6A679DD2556A6",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "38F6A679DD2556A6"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Copy That Bitty",
-			icon: "chiselsandbits:mirrorprint",
-			x: -6.75d,
-			y: -5.75d,
-			shape: "square",
-			subtitle: "&dFlipy Flopy Copy",
-			description: ["So, these three sheets of 'paper' are a way for me to copy and mirror and shift designs around. It makes things easier when I'm making complex designs."],
-			dependencies: ["7D28F41729018508"],
-			id: "11C01B61DCAFC754",
+			title: "Copy That Bitty"
+			icon: "chiselsandbits:mirrorprint"
+			x: -6.75d
+			y: -5.75d
+			shape: "square"
+			subtitle: "&dFlipy Flopy Copy"
+			description: ["So, these three sheets of 'paper' are a way for me to copy and mirror and shift designs around. It makes things easier when I'm making complex designs."]
+			dependencies: ["7D28F41729018508"]
+			id: "11C01B61DCAFC754"
 			tasks: [
 				{
-					id: "4BF1C28CF4D310CF",
-					type: "item",
+					id: "4BF1C28CF4D310CF"
+					type: "item"
 					item: "chiselsandbits:mirrorprint"
-				},
+				}
 				{
-					id: "423B6F8FA0483DB5",
-					type: "item",
+					id: "423B6F8FA0483DB5"
+					type: "item"
 					item: "chiselsandbits:positiveprint"
-				},
+				}
 				{
-					id: "63929E0DCD1B2DBD",
-					type: "item",
+					id: "63929E0DCD1B2DBD"
+					type: "item"
 					item: "chiselsandbits:negativeprint"
 				}
-			],
+			]
 			rewards: [{
-				id: "65E6DB5AD38BE787",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "65E6DB5AD38BE787"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Bitty Tools",
-			icon: "chiselsandbits:magnifying_glass",
-			x: -5.75d,
-			y: -4.75d,
-			shape: "square",
-			subtitle: "&dMeasure Twice, Turn Once",
+			title: "Bitty Tools"
+			icon: "chiselsandbits:magnifying_glass"
+			x: -5.75d
+			y: -4.75d
+			shape: "square"
+			subtitle: "&dMeasure Twice, Turn Once"
 			description: [
-				"The Magnifying Glass lets me see if a block of material can be turned into Bits.",
-				"",
-				"The Tape Measure lets me measure the distance, in Bits, something is. Or other things. I can hit the H key to see what other options it has.",
-				"",
+				"The Magnifying Glass lets me see if a block of material can be turned into Bits."
+				""
+				"The Tape Measure lets me measure the distance, in Bits, something is. Or other things. I can hit the H key to see what other options it has."
+				""
 				"The Wrench is a good tool for rotating blocks around."
-			],
-			dependencies: ["7D28F41729018508"],
-			id: "50CD3ED0593F1F88",
+			]
+			dependencies: ["7D28F41729018508"]
+			id: "50CD3ED0593F1F88"
 			tasks: [
 				{
-					id: "2803F1849F1C96F1",
-					type: "item",
+					id: "2803F1849F1C96F1"
+					type: "item"
 					item: "chiselsandbits:magnifying_glass"
-				},
+				}
 				{
-					id: "7536D419C7DA344B",
-					type: "item",
+					id: "7536D419C7DA344B"
+					type: "item"
 					item: "chiselsandbits:tape_measure"
-				},
+				}
 				{
-					id: "503C9B6A39FB01C4",
-					type: "item",
+					id: "503C9B6A39FB01C4"
+					type: "item"
 					item: {
-						id: "chiselsandbits:wrench_wood",
-						Count: 1b,
+						id: "chiselsandbits:wrench_wood"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "2CE73A666D0EC836",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "2CE73A666D0EC836"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "A Good Supplement",
-			icon: "supplementaries:hanging_sign_oak",
-			x: -5.5d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dMod: Supplementaries",
+			title: "A Good Supplement"
+			icon: "supplementaries:hanging_sign_oak"
+			x: -5.5d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dMod: Supplementaries"
 			description: [
-				"&dThere are a lot of little things that can help make your base feel more like a home. Or more like a base, either or.",
-				"",
-				"Oh?",
-				"",
-				"&dYes. Locals call these things Supplementaries. They supplement your main things. Yeah?",
-				"",
-				"Okay, I guess?",
-				"",
-				"&dWell, The checker floor for example. That's harder to find for your Kitchen than you think.",
-				"",
-				"&dThe Hanging Sign? You can put any item up there to advertise a shop.",
-				"",
+				"&dThere are a lot of little things that can help make your base feel more like a home. Or more like a base, either or."
+				""
+				"Oh?"
+				""
+				"&dYes. Locals call these things Supplementaries. They supplement your main things. Yeah?"
+				""
+				"Okay, I guess?"
+				""
+				"&dWell, The checker floor for example. That's harder to find for your Kitchen than you think."
+				""
+				"&dThe Hanging Sign? You can put any item up there to advertise a shop."
+				""
 				"&dThe Sign Post? Can only be placed on Fenceposts, and can help show people where to go."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "28710D6158CBC928",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "28710D6158CBC928"
 			tasks: [
 				{
-					id: "43753BF83485647F",
-					type: "item",
+					id: "43753BF83485647F"
+					type: "item"
 					item: "supplementaries:hanging_sign_oak"
-				},
+				}
 				{
-					id: "72E7BC71A782D855",
-					type: "item",
+					id: "72E7BC71A782D855"
+					type: "item"
 					item: "supplementaries:sign_post_oak"
-				},
+				}
 				{
-					id: "07985F4AB0383C27",
-					type: "item",
+					id: "07985F4AB0383C27"
+					type: "item"
 					item: "supplementaries:checker_block"
 				}
-			],
+			]
 			rewards: [{
-				id: "7689CEEE0C0E7234",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "7689CEEE0C0E7234"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Showing Off",
-			icon: "supplementaries:blackboard",
-			x: -5.5d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dPutting On a Show",
+			title: "Showing Off"
+			icon: "supplementaries:blackboard"
+			x: -5.5d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dPutting On a Show"
 			description: [
-				"Wow, Blackboards bring me back. Here, I can do simple drawings on them. Neat!",
-				"",
-				"The Notice Board, I can write in a Book and Quill and put it into the Notice Board to show the first page of text. Or I can put a map into them to display them.",
-				"",
+				"Wow, Blackboards bring me back. Here, I can do simple drawings on them. Neat!"
+				""
+				"The Notice Board, I can write in a Book and Quill and put it into the Notice Board to show the first page of text. Or I can put a map into them to display them."
+				""
 				"The Item Shelf, is a nice low profile way to show off an item compared to an Item Frame."
-			],
-			dependencies: ["28710D6158CBC928"],
-			id: "3356B34BCE177C77",
+			]
+			dependencies: ["28710D6158CBC928"]
+			id: "3356B34BCE177C77"
 			tasks: [
 				{
-					id: "7106A7049B2F7B68",
-					type: "item",
+					id: "7106A7049B2F7B68"
+					type: "item"
 					item: "supplementaries:notice_board"
-				},
+				}
 				{
-					id: "719D34963B49F1D4",
-					type: "item",
+					id: "719D34963B49F1D4"
+					type: "item"
 					item: "supplementaries:blackboard"
-				},
+				}
 				{
-					id: "1F48A49CF45D2688",
-					type: "item",
+					id: "1F48A49CF45D2688"
+					type: "item"
 					item: "supplementaries:item_shelf"
 				}
-			],
+			]
 			rewards: [{
-				id: "30D47A73D4C2D433",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "30D47A73D4C2D433"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Adventuring",
-			icon: "supplementaries:bamboo_spikes",
-			x: -6.5d,
-			y: -0.25d,
-			shape: "square",
-			subtitle: "&dPit Falls",
+			title: "Adventuring"
+			icon: "supplementaries:bamboo_spikes"
+			x: -6.5d
+			y: -0.25d
+			shape: "square"
+			subtitle: "&dPit Falls"
 			description: [
-				"Bamboo Spikes are a dangerous defensive thing I can place. Even more deadly, I can coat them in a potion to be even more deadly.",
-				"",
-				"Ropes can connect to the bottoms or sides of blocks, and extend downward. Good for climbing.",
-				"",
-				"They are made from Flax, which I can find the seeds in villages sometimes, or on the Wandering Trader.",
-				"",
+				"Bamboo Spikes are a dangerous defensive thing I can place. Even more deadly, I can coat them in a potion to be even more deadly."
+				""
+				"Ropes can connect to the bottoms or sides of blocks, and extend downward. Good for climbing."
+				""
+				"They are made from Flax, which I can find the seeds in villages sometimes, or on the Wandering Trader."
+				""
 				"These Ropes I can take and put into a Rope Arrow. Launching it, it'll extend a rope down from where it hits."
-			],
-			dependencies: ["28710D6158CBC928"],
-			id: "4FB1D039150ECACF",
+			]
+			dependencies: ["28710D6158CBC928"]
+			id: "4FB1D039150ECACF"
 			tasks: [
 				{
-					id: "293115E4B1B7DE4B",
-					type: "item",
+					id: "293115E4B1B7DE4B"
+					type: "item"
 					item: "supplementaries:bamboo_spikes"
-				},
+				}
 				{
-					id: "00C29A7C603DBAFD",
-					type: "item",
+					id: "00C29A7C603DBAFD"
+					type: "item"
 					item: "supplementaries:rope"
-				},
+				}
 				{
-					id: "27EC7A0A7513D8CA",
-					type: "item",
+					id: "27EC7A0A7513D8CA"
+					type: "item"
 					item: {
-						id: "supplementaries:rope_arrow",
-						Count: 1b,
+						id: "supplementaries:rope_arrow"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "7B5F5DB588748754",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "7B5F5DB588748754"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Home Helpers",
-			icon: "supplementaries:clock_block",
-			x: -6.5d,
-			y: 0.75d,
-			shape: "square",
-			subtitle: "&dTime to Hide",
+			title: "Home Helpers"
+			icon: "supplementaries:clock_block"
+			x: -6.5d
+			y: 0.75d
+			shape: "square"
+			subtitle: "&dTime to Hide"
 			description: [
-				"The Clock Block will accurately show the time in the world to everyone who looks at it. It looks nice too!",
-				"",
-				"The Doormat is a great way to keep boots clean. And to hide a single item under it, of course. Like, apparently, large packages sometimes.",
-				"",
+				"The Clock Block will accurately show the time in the world to everyone who looks at it. It looks nice too!"
+				""
+				"The Doormat is a great way to keep boots clean. And to hide a single item under it, of course. Like, apparently, large packages sometimes."
+				""
 				"The Cog Block is a special block, doens't quite fit here but its useful. By putting a Redstone Signal to one, it will pass the signal to each block touching it, but at one less strength. So a row of Cog Blocks will power up to 14 away."
-			],
-			dependencies: ["28710D6158CBC928"],
-			id: "47CC68B0A4571399",
+			]
+			dependencies: ["28710D6158CBC928"]
+			id: "47CC68B0A4571399"
 			tasks: [
 				{
-					id: "58C505A7BE12CB72",
-					type: "item",
+					id: "58C505A7BE12CB72"
+					type: "item"
 					item: "supplementaries:clock_block"
-				},
+				}
 				{
-					id: "435BDFBE15CC9B03",
-					type: "item",
+					id: "435BDFBE15CC9B03"
+					type: "item"
 					item: "supplementaries:doormat"
-				},
+				}
 				{
-					id: "6F98A9AEBA3AB987",
-					type: "item",
+					id: "6F98A9AEBA3AB987"
+					type: "item"
 					item: "supplementaries:cog_block"
 				}
-			],
+			]
 			rewards: [{
-				id: "369DB1D83CEC0353",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "369DB1D83CEC0353"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Knockoff Chandelier",
-			icon: "minecraft:torch",
-			x: -2.0d,
-			y: -1.75d,
-			subtitle: "&dMod: Ceiling Torch",
-			description: ["I need to remember I can place Torches directly on the ceiling. The magic of this world makes sure they won't light on fire, thankfully."],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "04BB17719BC7463B",
+			title: "Knockoff Chandelier"
+			icon: "minecraft:torch"
+			x: -2.0d
+			y: -1.75d
+			subtitle: "&dMod: Ceiling Torch"
+			description: ["I need to remember I can place Torches directly on the ceiling. The magic of this world makes sure they won't light on fire, thankfully."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "04BB17719BC7463B"
 			tasks: [{
-				id: "762EF410AA5CF736",
+				id: "762EF410AA5CF736"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "76E91E71E6C70E80",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "76E91E71E6C70E80"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Sleep Tight",
-			icon: "losttrinkets:pillow_of_secrets",
-			x: 0.0d,
-			y: -1.75d,
-			subtitle: "&dMod: Morpheus",
+			title: "Sleep Tight"
+			icon: "losttrinkets:pillow_of_secrets"
+			x: 0.0d
+			y: -1.75d
+			subtitle: "&dMod: Morpheus"
 			description: [
-				"&dTraveller, if you've found other Traveller friends, you'll probably notice that if you all sleep, the night passes quickly.",
-				"",
-				"&dThough one of you may be far away and not want to sleep, as if they die they won't reappear at home.",
-				"",
+				"&dTraveller, if you've found other Traveller friends, you'll probably notice that if you all sleep, the night passes quickly."
+				""
+				"&dThough one of you may be far away and not want to sleep, as if they die they won't reappear at home."
+				""
 				"&dThere is a being called Morpheus. If enough Travellers are sleeping, usually half of the amount of Travellers in your group, then the night will pass quickly."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "2B19AC0F526CD631",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "2B19AC0F526CD631"
 			tasks: [{
-				id: "36A7639C1FE066B5",
+				id: "36A7639C1FE066B5"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "02E1A0D2FC17F2A6",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "02E1A0D2FC17F2A6"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Afraid of the Dark",
-			icon: "mininggadgets:upgrade_light_placer",
-			x: -1.0d,
-			y: -3.5714285714285694d,
-			subtitle: "&dMod: Light Overlay",
+			title: "Afraid of the Dark"
+			icon: "mininggadgets:upgrade_light_placer"
+			x: -1.0d
+			y: -3.5714285714285694d
+			subtitle: "&dMod: Light Overlay"
 			description: [
-				"&dIf you have not noticed yet, Traveller, monsters have the dangerous ability to appear in the darkness.",
-				"",
-				"Dang grues.",
-				"",
-				"&dQuite. If a place is not lit enough, a monster may appear there, especially at night. It does not matter if the room has no doors or windows. ",
-				"",
-				"How do I stop that, then?",
-				"",
+				"&dIf you have not noticed yet, Traveller, monsters have the dangerous ability to appear in the darkness."
+				""
+				"Dang grues."
+				""
+				"&dQuite. If a place is not lit enough, a monster may appear there, especially at night. It does not matter if the room has no doors or windows. "
+				""
+				"How do I stop that, then?"
+				""
 				"&dLight the area. If you hit F7, you can see what the light level is around you. Yellow squares are only lit during the day. Red squares are always dark. Bring the light, Traveller."
-			],
-			dependencies: ["00000000000000F4"],
-			id: "246C3F6F71E788CA",
+			]
+			dependencies: ["00000000000000F4"]
+			id: "246C3F6F71E788CA"
 			tasks: [{
-				id: "14B4BDAFBFAAC1B8",
+				id: "14B4BDAFBFAAC1B8"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "62EC10FBF08C9B5E",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "62EC10FBF08C9B5E"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Comfort Foods",
-			icon: "foodexpansion:bacon_and_egg",
-			x: -5.5d,
-			y: -3.25d,
-			shape: "square",
-			subtitle: "&dMod: Food Expansion",
+			title: "Comfort Foods"
+			icon: "foodexpansion:bacon_and_egg"
+			x: -5.5d
+			y: -3.25d
+			shape: "square"
+			subtitle: "&dMod: Food Expansion"
 			description: [
-				"There's always foods that bring back good memories of home.",
-				"",
-				"Bacon and Eggs, a wonderful breakfast.",
-				"",
-				"Jelly, nice and wobbly and sweet.",
-				"",
+				"There's always foods that bring back good memories of home."
+				""
+				"Bacon and Eggs, a wonderful breakfast."
+				""
+				"Jelly, nice and wobbly and sweet."
+				""
 				"And even super simple roasted seeds. Just a bit of salt, or no salt even."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "1C01145739D114B3",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "1C01145739D114B3"
 			tasks: [
 				{
-					id: "1379A79FCEE53CA5",
-					type: "item",
+					id: "1379A79FCEE53CA5"
+					type: "item"
 					item: "foodexpansion:bacon_and_egg"
-				},
+				}
 				{
-					id: "4A5FC1019E6ED1C8",
-					type: "item",
+					id: "4A5FC1019E6ED1C8"
+					type: "item"
 					item: "foodexpansion:jelly"
-				},
+				}
 				{
-					id: "1636AF8B0BF02377",
-					type: "item",
+					id: "1636AF8B0BF02377"
+					type: "item"
 					item: "foodexpansion:roasted_seed"
 				}
-			],
+			]
 			rewards: [{
-				id: "37BFD725FAF7268B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "37BFD725FAF7268B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Many a Magic Chest",
-			icon: "enderstorage:ender_chest",
-			x: -3.25d,
-			y: -4.75d,
-			shape: "square",
-			subtitle: "&dMod: EnderStorage",
+			title: "Many a Magic Chest"
+			icon: "enderstorage:ender_chest"
+			x: -3.25d
+			y: -4.75d
+			shape: "square"
+			subtitle: "&dMod: EnderStorage"
 			description: [
-				"This vanilla Ender Chest is nice, each connected to the same private inventory. Handy, but its a bit... small?",
-				"",
-				"&dTraveller, there is another type of Ender Chest. If you look, you will see one that has three marks on top of it.",
-				"",
-				"Named the same. Kind of confusing but. Why? What is different with it?",
-				"",
-				"&dThis is an Ender Chest you can share with other Travellers. Right Click dye onto the three white marks to color them.",
-				"",
-				"&dAll Ender Chests with the same color combo are connected. You can Right Click an Ender Pouch onto an Ender Chest to copy the combo.",
-				"",
-				"But what if I don't want to share Ender Chests?",
-				"",
+				"This vanilla Ender Chest is nice, each connected to the same private inventory. Handy, but its a bit... small?"
+				""
+				"&dTraveller, there is another type of Ender Chest. If you look, you will see one that has three marks on top of it."
+				""
+				"Named the same. Kind of confusing but. Why? What is different with it?"
+				""
+				"&dThis is an Ender Chest you can share with other Travellers. Right Click dye onto the three white marks to color them."
+				""
+				"&dAll Ender Chests with the same color combo are connected. You can Right Click an Ender Pouch onto an Ender Chest to copy the combo."
+				""
+				"But what if I don't want to share Ender Chests?"
+				""
 				"&dRight Click a Diamond onto the markings. This will swap that chest to your personal network."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "6F9FEB9670F9B6D8",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "6F9FEB9670F9B6D8"
 			tasks: [
 				{
-					id: "74C4BD74DBE85360",
-					type: "item",
+					id: "74C4BD74DBE85360"
+					type: "item"
 					item: "enderstorage:ender_chest"
-				},
+				}
 				{
-					id: "676414A2CD3190DF",
-					type: "item",
+					id: "676414A2CD3190DF"
+					type: "item"
 					item: "enderstorage:ender_pouch"
 				}
-			],
+			]
 			rewards: [{
-				id: "3DA11DF68C91671A",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "3DA11DF68C91671A"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Magic Tank",
-			icon: "enderstorage:ender_tank",
-			x: -3.25d,
-			y: -5.75d,
-			shape: "square",
-			subtitle: "&dFluid Everywhere",
+			title: "Magic Tank"
+			icon: "enderstorage:ender_tank"
+			x: -3.25d
+			y: -5.75d
+			shape: "square"
+			subtitle: "&dFluid Everywhere"
 			description: [
-				"So, Kow showed me that not only is there the customizable Ender Chest network thingy, there's also a version of it for liquids called an Ender Tank.",
-				"",
+				"So, Kow showed me that not only is there the customizable Ender Chest network thingy, there's also a version of it for liquids called an Ender Tank."
+				""
 				"It works just like the Chests : Dye the three markings as a lock combo. Use a Diamond if I want to make it private. I can Right Click the center to swap it between input and output modes."
-			],
-			dependencies: ["6F9FEB9670F9B6D8"],
-			id: "1D24F6D817852EC9",
+			]
+			dependencies: ["6F9FEB9670F9B6D8"]
+			id: "1D24F6D817852EC9"
 			tasks: [{
-				id: "755F8823D465786C",
-				type: "item",
+				id: "755F8823D465786C"
+				type: "item"
 				item: "enderstorage:ender_tank"
-			}],
+			}]
 			rewards: [{
-				id: "70654E423F3C7EFA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "70654E423F3C7EFA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Nearly Bottomless Wallet",
+			title: "Nearly Bottomless Wallet"
 			icon: {
-				id: "calemiutils:wallet",
-				Count: 1b,
-				tag: {}
-			},
-			x: -0.4464285714285694d,
-			y: -4.75d,
-			shape: "square",
-			subtitle: "&dBut mostly empty...",
+				id: "calemiutils:wallet"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.4464285714285694d
+			y: -4.75d
+			shape: "square"
+			subtitle: "&dBut mostly empty..."
 			description: [
-				"&dTraveller, if you haven't yet, talk to my brother Kai. He'll give you a wallet for fairly cheap.",
-				"",
-				'"Give" and "Cheap" tend not to go in the same sentence.',
-				"",
-				"&dHeh. The wallet is quite helpful to you. You can carry it as a Curios, in a special spot just for your Wallet. If you die, your Wallet goes with you when you reappear.",
-				"",
-				"Okay that's handy.",
-				"",
-				"&dYou can open your wallet by hitting Shift+G. Put in and take out coins easily this way. And interacting with a Trading Post or Market will take it from your Wallet. Oh, and when taking coins out by hand? You can hold Shift or Ctrl to get larger stacks.",
-				"",
-				"Okay that's super handy. I still say those two words don't go together here.",
-				"",
+				"&dTraveller, if you haven't yet, talk to my brother Kai. He'll give you a wallet for fairly cheap."
+				""
+				"\"Give\" and \"Cheap\" tend not to go in the same sentence."
+				""
+				"&dHeh. The wallet is quite helpful to you. You can carry it as a Curios, in a special spot just for your Wallet. If you die, your Wallet goes with you when you reappear."
+				""
+				"Okay that's handy."
+				""
+				"&dYou can open your wallet by hitting Shift+G. Put in and take out coins easily this way. And interacting with a Trading Post or Market will take it from your Wallet. Oh, and when taking coins out by hand? You can hold Shift or Ctrl to get larger stacks."
+				""
+				"Okay that's super handy. I still say those two words don't go together here."
+				""
 				"&dFair enough. "
-			],
-			dependencies: ["00000000000003A8"],
-			id: "2D2638DF22193F08",
+			]
+			dependencies: ["00000000000003A8"]
+			id: "2D2638DF22193F08"
 			tasks: [{
-				id: "14602A6A1CBC3DA5",
-				type: "item",
+				id: "14602A6A1CBC3DA5"
+				type: "item"
 				item: "calemiutils:wallet"
-			}],
+			}]
 			rewards: [{
-				id: "63800A3FC92D0735",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "63800A3FC92D0735"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			x: -0.9821428571428612d,
-			y: -1.4285714285714306d,
-			subtitle: "&dMod: Polymorph",
+			x: -0.9821428571428612d
+			y: -1.4285714285714306d
+			subtitle: "&dMod: Polymorph"
 			description: [
-				"&dTraveller, when you are crafting things, you may notice an icon appear above the 'result'.",
-				"",
-				"&dBefore you finish crafting the item, I suggest clicking this, it is actually a button.",
-				"",
-				"Hm, I was wondering about that. What does it do?",
-				"",
-				"&dSome recipes have very very similar crafting recipes (you could say they are identical...) to others. Like, say, turning Coal into Coal Nuggets. There's two kinds of Nugget you can make. ",
-				"",
+				"&dTraveller, when you are crafting things, you may notice an icon appear above the 'result'."
+				""
+				"&dBefore you finish crafting the item, I suggest clicking this, it is actually a button."
+				""
+				"Hm, I was wondering about that. What does it do?"
+				""
+				"&dSome recipes have very very similar crafting recipes (you could say they are identical...) to others. Like, say, turning Coal into Coal Nuggets. There's two kinds of Nugget you can make. "
+				""
 				"Ah, I get it. This way, I can choose which of the items to make. "
-			],
-			dependencies: ["00000000000000F4"],
-			id: "1F797954256D1338",
+			]
+			dependencies: ["00000000000000F4"]
+			id: "1F797954256D1338"
 			tasks: [{
-				id: "547F2C2C0DABD0E9",
-				type: "checkmark",
-				title: "A Million Ways",
+				id: "547F2C2C0DABD0E9"
+				type: "checkmark"
+				title: "A Million Ways"
 				icon: "minecraft:crafting_table"
-			}],
+			}]
 			rewards: [{
-				id: "6ED1C12AF588B388",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6ED1C12AF588B388"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Pictures From Another Dimension",
-			x: -6.75d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dMod: Modern Online Picture Frame",
+			title: "Pictures From Another Dimension"
+			x: -6.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dMod: Modern Online Picture Frame"
 			description: [
-				"&dTraveller, I think with the constant connect I've gotten with your tablet, we can assist in sending you photos from your internet if you like.",
-				"",
-				"What? How? And what would I look at them on, my half broken smartphone?",
-				"",
-				"&dActually, you can make this Online Picture Frame, that let's you put in a URL (you remember what that is, right?) and it will display it for you.",
-				"",
+				"&dTraveller, I think with the constant connect I've gotten with your tablet, we can assist in sending you photos from your internet if you like."
+				""
+				"What? How? And what would I look at them on, my half broken smartphone?"
+				""
+				"&dActually, you can make this Online Picture Frame, that let's you put in a URL (you remember what that is, right?) and it will display it for you."
+				""
 				"&dYou can change how big the display is as well."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "3455E9A81F78D811",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "3455E9A81F78D811"
 			tasks: [{
-				id: "45490B5BC509CFF6",
-				type: "item",
+				id: "45490B5BC509CFF6"
+				type: "item"
 				item: "opf:opf"
-			}],
+			}]
 			rewards: [{
-				id: "402B3B3A27954775",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "402B3B3A27954775"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Getting The Band Together",
-			icon: "xercamusic:guitar",
-			x: 4.75d,
-			y: -5.5d,
-			shape: "square",
-			subtitle: "&dMod: Music Maker Mod",
+			title: "Getting The Band Together"
+			icon: "xercamusic:guitar"
+			x: 4.75d
+			y: -5.5d
+			shape: "square"
+			subtitle: "&dMod: Music Maker Mod"
 			description: [
-				"Ooo, I see this place has some good instruments I can make a melody with.  Guitar, piano...",
-				"",
-				"I should get a band together!",
-				"",
-				"&dReally? Well, be sure to have a metronome to keep time with, always difficult for a band to sync up at the start.",
-				"",
-				"Nah, no need. Just gotta get some instruments and play!",
-				"",
+				"Ooo, I see this place has some good instruments I can make a melody with.  Guitar, piano..."
+				""
+				"I should get a band together!"
+				""
+				"&dReally? Well, be sure to have a metronome to keep time with, always difficult for a band to sync up at the start."
+				""
+				"Nah, no need. Just gotta get some instruments and play!"
+				""
 				"&dI see. Well, Kai and I have a music note sheet gift for you. If you make these, you can write music yourself, and share it with others. Like so."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "7F961BAFFBCC8A63",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "7F961BAFFBCC8A63"
 			tasks: [
 				{
-					id: "2C97BEDCE48EF20D",
-					type: "item",
+					id: "2C97BEDCE48EF20D"
+					type: "item"
 					item: "xercamusic:guitar"
-				},
+				}
 				{
-					id: "7BB853B4F6F2B096",
-					type: "item",
+					id: "7BB853B4F6F2B096"
+					type: "item"
 					item: "xercamusic:piano"
-				},
+				}
 				{
-					id: "13E223C35E15951D",
-					type: "item",
+					id: "13E223C35E15951D"
+					type: "item"
 					item: "xercamusic:metronome"
 				}
-			],
+			]
 			rewards: [
 				{
-					id: "7F53440D261A64D0",
-					type: "item",
-					item: "calemiutils:coin_dollar",
+					id: "7F53440D261A64D0"
+					type: "item"
+					item: "calemiutils:coin_platinum"
 					count: 15
-				},
+				}
 				{
-					id: "53D36133CDC031CF",
-					type: "item",
+					id: "53D36133CDC031CF"
+					type: "item"
 					item: {
-						id: "xercamusic:music_sheet",
-						Count: 1b,
+						id: "xercamusic:music_sheet"
+						Count: 1b
 						tag: {
-							generation: 1,
-							music: [B;
-								0b,
-								25b,
-								0b,
-								0b,
-								25b,
-								0b,
-								0b,
-								34b,
-								0b,
-								0b,
-								0b,
-								0b,
-								29b,
-								0b,
-								0b,
-								0b,
-								0b,
-								0b,
-								28b,
-								0b,
-								0b,
-								0b,
-								0b,
-								28b,
-								0b,
-								0b,
-								0b,
-								0b,
-								27b,
-								0b,
-								0b,
-								0b,
-								27b,
-								0b,
-								0b,
-								0b,
-								25b,
-								0b,
-								0b,
-								27b,
-								0b,
-								0b,
-								0b,
-								28b,
-								0b,
-								0b,
-								0b,
-								0b,
-								25b,
-								0b,
-								0b,
-								25b,
-								0b,
-								0b,
-								34b,
-								0b,
-								0b,
-								0b,
-								29b,
-								0b,
-								0b,
-								0b,
-								0b,
-								0b,
-								28b,
-								0b,
-								0b,
-								0b,
-								0b,
-								0b,
-								28b,
-								0b,
-								0b,
-								0b,
-								0b,
-								27b,
-								0b,
-								0b,
-								0b,
-								27b,
-								0b,
-								0b,
-								0b,
-								25b,
-								0b,
-								0b,
-								0b,
-								27b,
-								0b,
-								0b,
-								0b,
-								28b
-							],
-							prevIns: -1b,
-							author: "Kow and Kai",
-							length: 92,
-							title: "A Difficult Era",
-							pause: 1b,
+							generation: 1
+							ver: 1
+							prevIns: -1b
+							bps: 20b
+							author: "Kow and Kai"
+							id: [I;
+								1492607913
+								1320832752
+								-1642401219
+								-788278297
+							]
+							title: "A Difficult Era"
+							l: 100
 							piLocked: 0b
 						}
 					}
 				}
 			]
-		},
+		}
 		{
-			title: "Comfortable Friends",
-			icon: "plush_life:isabelle_plush",
-			x: -6.75d,
-			y: -3.0d,
-			shape: "square",
-			subtitle: "&dMod: Plush Life",
+			title: "Comfortable Friends"
+			icon: "plush_life:isabelle_plush"
+			x: -6.75d
+			y: -3.0d
+			shape: "square"
+			subtitle: "&dMod: Plush Life"
 			description: [
-				"&dSomething that seems to be taking hold slowly in this world is comforting toys. Specifically: Plushies.",
-				"",
-				"&dYou can make some too. These ones are fairly flat for now, good for putting up in Item Frames. It starts with Plush Stuffing, which you combine with another item to make the plush.",
-				"",
+				"&dSomething that seems to be taking hold slowly in this world is comforting toys. Specifically: Plushies."
+				""
+				"&dYou can make some too. These ones are fairly flat for now, good for putting up in Item Frames. It starts with Plush Stuffing, which you combine with another item to make the plush."
+				""
 				"These are quite cute! These should brighten up my workshop nicely."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "5D1681FE4C25567D",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "5D1681FE4C25567D"
 			tasks: [
 				{
-					id: "3AC4C6E25914747F",
-					type: "item",
+					id: "3AC4C6E25914747F"
+					type: "item"
 					item: "plush_life:plush_stuffing"
-				},
+				}
 				{
-					id: "2FA0DE038423E58C",
-					type: "item",
+					id: "2FA0DE038423E58C"
+					type: "item"
 					item: "plush_life:isabelle_plush"
-				},
+				}
 				{
-					id: "420FFFDB2149C730",
-					type: "item",
+					id: "420FFFDB2149C730"
+					type: "item"
 					item: "plush_life:froggy_plush"
 				}
-			],
+			]
 			rewards: [{
-				id: "62C4801493E0CC04",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "62C4801493E0CC04"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Sushi For the Soul",
-			icon: "sushigocrafting:salmon_nigiri",
-			x: 5.75d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dMod : Sushi Go Crafting",
+			title: "Sushi For the Soul"
+			icon: "sushigocrafting:salmon_nigiri"
+			x: 5.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dMod : Sushi Go Crafting"
 			description: [
-				"I really really miss sushi. I know theres a pretty simple roll that is popular around here, but I want more unique rolls. Stuff with Tobiko. Shrimp.",
-				"",
-				"&dLuckily, Sushi making is getting more popular in this place. There's even a guide being written by a Sushimancer that explains the fine arts.",
-				"",
-				"Sushimancy? Is it magical?",
-				"",
-				"&dNo...but yes. Perfectly made sushi seems to have some magical effect.",
-				"",
-				"How?!",
-				"",
+				"I really really miss sushi. I know theres a pretty simple roll that is popular around here, but I want more unique rolls. Stuff with Tobiko. Shrimp."
+				""
+				"&dLuckily, Sushi making is getting more popular in this place. There's even a guide being written by a Sushimancer that explains the fine arts."
+				""
+				"Sushimancy? Is it magical?"
+				""
+				"&dNo...but yes. Perfectly made sushi seems to have some magical effect."
+				""
+				"How?!"
+				""
 				"&dWell, first, get yourself the Becoming an Itemae book. And start gathering your ingredients. Seaweed can be found in the ocean and grows underwater on dirt and sand. Other seeds drop from breaking grass. Soybeans grow like normal crops, while Rice has to be grown under water."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "45296312EE57AA62",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "45296312EE57AA62"
 			tasks: [
 				{
-					id: "77D220E9C588A313",
-					type: "item",
+					id: "77D220E9C588A313"
+					type: "item"
 					item: {
-						id: "patchouli:guide_book",
-						Count: 1b,
+						id: "patchouli:guide_book"
+						Count: 1b
 						tag: {
 							"patchouli:book": "sushigocrafting:sushigocrafting"
 						}
 					}
-				},
+				}
 				{
-					id: "50ECA12DA91C6F14",
-					type: "item",
+					id: "50ECA12DA91C6F14"
+					type: "item"
 					item: "sushigocrafting:seaweed"
-				},
+				}
 				{
-					id: "7F8B41B2452C6FCD",
-					type: "item",
+					id: "7F8B41B2452C6FCD"
+					type: "item"
 					item: "sushigocrafting:soy_bean"
-				},
+				}
 				{
-					id: "649E0B6D7C335584",
-					type: "item",
+					id: "649E0B6D7C335584"
+					type: "item"
 					item: "sushigocrafting:rice"
 				}
-			],
+			]
 			rewards: [{
-				id: "2221D2F58D4EB707",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "2221D2F58D4EB707"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Tools of the Chef",
-			icon: "sushigocrafting:rice_cooker",
-			x: 6.75d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dSharp. Simple. Elegant.",
+			title: "Tools of the Chef"
+			icon: "sushigocrafting:rice_cooker"
+			x: 6.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dSharp. Simple. Elegant."
 			description: [
-				"So a good sushi chef has a few tools on hand. Quality things.",
-				"",
-				"A Rice Cooker is a must. Perfect rice, just put water in it with a Water Bucket, some Rice, and something to heat the Rice Cooker, like coal. ",
-				"",
-				"A Cutting Board and Knife. Right Click the ingredient, like Salmon, onto the Board, then Right Click with the Knife a few times to chop it up.",
-				"",
-				"&dTraveller, note that each ingredient you prepare will give you different amounts. You can combine smaller amounts of an item to save room.",
-				"",
+				"So a good sushi chef has a few tools on hand. Quality things."
+				""
+				"A Rice Cooker is a must. Perfect rice, just put water in it with a Water Bucket, some Rice, and something to heat the Rice Cooker, like coal. "
+				""
+				"A Cutting Board and Knife. Right Click the ingredient, like Salmon, onto the Board, then Right Click with the Knife a few times to chop it up."
+				""
+				"&dTraveller, note that each ingredient you prepare will give you different amounts. You can combine smaller amounts of an item to save room."
+				""
 				"Handy. Okay, last thing I'll need is the Roller. This will be necessary to put together the Sushi."
-			],
-			dependencies: ["45296312EE57AA62"],
-			id: "41872A508EE4D1A6",
+			]
+			dependencies: ["45296312EE57AA62"]
+			id: "41872A508EE4D1A6"
 			tasks: [
 				{
-					id: "184987830EB43059",
-					type: "item",
+					id: "184987830EB43059"
+					type: "item"
 					item: "sushigocrafting:rice_cooker"
-				},
+				}
 				{
-					id: "18096ED77091C0C7",
-					type: "item",
+					id: "18096ED77091C0C7"
+					type: "item"
 					item: "sushigocrafting:cutting_board"
-				},
+				}
 				{
-					id: "0929D2537F6312FE",
-					type: "item",
+					id: "0929D2537F6312FE"
+					type: "item"
 					item: "sushigocrafting:cleaver_knife"
-				},
+				}
 				{
-					id: "20F5E99C8036B48A",
-					type: "item",
+					id: "20F5E99C8036B48A"
+					type: "item"
 					item: "sushigocrafting:roller"
 				}
-			],
+			]
 			rewards: [{
-				id: "6F866B6E559787FA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "6F866B6E559787FA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "So Many Ingredients",
-			icon: "sushigocrafting:nori_sheets",
-			x: 5.75d,
-			y: -0.75d,
-			shape: "square",
-			subtitle: "&dLots of choices, don't freeze!",
+			title: "So Many Ingredients"
+			icon: "sushigocrafting:nori_sheets"
+			x: 5.75d
+			y: -0.75d
+			shape: "square"
+			subtitle: "&dLots of choices, don't freeze!"
 			description: [
-				"Some of the more tricky ingredients I'll need is Nori, or pressed dried seaweed. To make it, I need to cook some Seaweed in a Furnace to dry it out, make it into a Block, then press it with a Piston onto an Iron Block.",
-				"",
-				"In other words. Place the Seaweed Block on top of an Iron Block, then use a Piston to press it flat. Easy peasy!",
-				"",
-				"Another thing I'll need is some  Avocado. The trees grow naturally in some places, I just need to find them. I can Right Click the leaves when I see there is a fully grown avocado in them.",
-				"",
+				"Some of the more tricky ingredients I'll need is Nori, or pressed dried seaweed. To make it, I need to cook some Seaweed in a Furnace to dry it out, make it into a Block, then press it with a Piston onto an Iron Block."
+				""
+				"In other words. Place the Seaweed Block on top of an Iron Block, then use a Piston to press it flat. Easy peasy!"
+				""
+				"Another thing I'll need is some  Avocado. The trees grow naturally in some places, I just need to find them. I can Right Click the leaves when I see there is a fully grown avocado in them."
+				""
 				"&dTraveller, if you are having trouble finding either, which is certainly the case in older parts of the world, my brother has some of both for sale."
-			],
-			dependencies: ["45296312EE57AA62"],
-			id: "246C0879E503707D",
+			]
+			dependencies: ["45296312EE57AA62"]
+			id: "246C0879E503707D"
 			tasks: [
 				{
-					id: "04380E5954CEA5E9",
-					type: "item",
+					id: "04380E5954CEA5E9"
+					type: "item"
 					item: "sushigocrafting:nori_sheets"
-				},
+				}
 				{
-					id: "6D92CAA7FE58728E",
-					type: "item",
+					id: "6D92CAA7FE58728E"
+					type: "item"
 					item: "sushigocrafting:avocado"
 				}
-			],
+			]
 			rewards: [{
-				id: "600D58EC164607FB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "600D58EC164607FB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Good Food, Good Thoughts",
-			icon: "sushigocrafting:onigiri",
-			x: 6.75d,
-			y: -0.75d,
-			shape: "square",
-			subtitle: "&dTasty tasty tasty",
+			title: "Good Food, Good Thoughts"
+			icon: "sushigocrafting:onigiri"
+			x: 6.75d
+			y: -0.75d
+			shape: "square"
+			subtitle: "&dTasty tasty tasty"
 			description: [
-				"Now we get to the culmination of the hard work gathering and preparing ingredients.",
-				"",
-				"I first need my handy dandy Roller. In it, I can select the type of Sushi I want to make. Then I put in the ingredients it needs, as long as they have enough weight to them.",
-				"",
-				"&dBut can you make the perfect roll?",
-				"",
-				"Oh right! So, each ingredient I add, I can change how much of it I put into a roll. The perfect roll is a balance of ingredients.",
-				"",
-				"Left and Right Clicking the small slider next to an ingredient will change how much I add. ",
-				"",
+				"Now we get to the culmination of the hard work gathering and preparing ingredients."
+				""
+				"I first need my handy dandy Roller. In it, I can select the type of Sushi I want to make. Then I put in the ingredients it needs, as long as they have enough weight to them."
+				""
+				"&dBut can you make the perfect roll?"
+				""
+				"Oh right! So, each ingredient I add, I can change how much of it I put into a roll. The perfect roll is a balance of ingredients."
+				""
+				"Left and Right Clicking the small slider next to an ingredient will change how much I add. "
+				""
 				"When I have everything ready, I Left Click the Roller few times to put together the sushi. If nothing happens, I probably don't have enough of an ingredient."
-			],
+			]
 			dependencies: [
-				"41872A508EE4D1A6",
+				"41872A508EE4D1A6"
 				"246C0879E503707D"
-			],
-			id: "76BD56D7B6A6D930",
+			]
+			id: "76BD56D7B6A6D930"
 			tasks: [
 				{
-					id: "45EC429580A395F2",
-					type: "item",
+					id: "45EC429580A395F2"
+					type: "item"
 					item: "sushigocrafting:onigiri"
-				},
+				}
 				{
-					id: "1C57FAFB223BCBA5",
-					type: "item",
+					id: "1C57FAFB223BCBA5"
+					type: "item"
 					item: "sushigocrafting:salmon_nigiri"
-				},
+				}
 				{
-					id: "0F73C2E8B141195F",
-					type: "item",
+					id: "0F73C2E8B141195F"
+					type: "item"
 					item: "sushigocrafting:crab_cucumber_california"
 				}
-			],
+			]
 			rewards: [{
-				id: "33B23BAB07B892EC",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "33B23BAB07B892EC"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Chiseled Good Looks",
-			icon: "chiseled:hazard_yellow",
-			x: 6.0d,
-			y: -4.25d,
-			shape: "square",
-			subtitle: "&dMod: Chiseled",
+			title: "Chiseled Good Looks"
+			icon: "chiseled:hazard_yellow"
+			x: 6.0d
+			y: -4.25d
+			shape: "square"
+			subtitle: "&dMod: Chiseled"
 			description: [
-				"&dTraveller, good architectual designs incorporate a lot of different visual textures to draw the eye and ease the mind.",
-				"",
-				"...What?",
-				"",
-				"&dVariety in your designs looks good.",
-				"",
-				"Oh.",
-				"",
+				"&dTraveller, good architectual designs incorporate a lot of different visual textures to draw the eye and ease the mind."
+				""
+				"...What?"
+				""
+				"&dVariety in your designs looks good."
+				""
+				"Oh."
+				""
 				"&dOne of the tools my brother and I like to use is Chiseled. It's not as grand as it used to be, but it still has a lot of useful things in it! You'll need a special Chisel and a Chisel Station, then you can alter certain blocks to  wide variety of designs."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["00000000000000F4"],
-			id: "058D2E7898943014",
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000000F4"]
+			id: "058D2E7898943014"
 			tasks: [
 				{
-					id: "6C71BAD2C3FED878",
-					type: "item",
+					id: "6C71BAD2C3FED878"
+					type: "item"
 					item: {
-						id: "chiseled:iron_chisel",
-						Count: 1b,
+						id: "chiseled:iron_chisel"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "66FEBF10503D08A7",
-					type: "item",
+					id: "66FEBF10503D08A7"
+					type: "item"
 					item: "chiseled:chisel_station_light"
-				},
+				}
 				{
-					id: "1EAA0BB08FE28BF5",
-					type: "item",
+					id: "1EAA0BB08FE28BF5"
+					type: "item"
 					item: "chiseled:science_block"
-				},
+				}
 				{
-					id: "3E7D44B6A31D945D",
-					type: "item",
+					id: "3E7D44B6A31D945D"
+					type: "item"
 					item: "chiseled:hazard_yellow"
 				}
-			],
+			]
 			rewards: [{
-				id: "5ACE38794E26D866",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "5ACE38794E26D866"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
 		}

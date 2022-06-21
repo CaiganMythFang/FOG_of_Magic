@@ -1,1802 +1,1797 @@
 {
-	id: "0000000000000248",
-	group: "",
-	order_index: 9,
-	filename: "flowers_with_power",
-	title: "Flowers with Power",
-	icon: "botania:hyacidus",
-	default_quest_shape: "",
+	id: "0000000000000248"
+	group: ""
+	order_index: 9
+	filename: "flowers_with_power"
+	title: "Flowers with Power"
+	icon: "botania:hyacidus"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "A Botanists Lexicon",
+			title: "A Botanists Lexicon"
 			icon: {
-				id: "botania:lexicon",
-				Count: 1b,
-				tag: {}
-			},
-			x: -1.5d,
-			y: 4.0d,
-			shape: "square",
-			subtitle: "&dMod: Botania",
+				id: "botania:lexicon"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.5d
+			y: 4.0d
+			shape: "square"
+			subtitle: "&dMod: Botania"
 			description: [
-				"&dTraveler, I suggest seeking a green &dthumb for the following lessons. And &dhaving a nice, clear area outside.",
-				"",
-				"For? Wait, green thumb?",
-				"",
-				"&dYes. Much magic can be gained from &dtending to flowers. From simply giving &dyou magical tools, to creating &delaborate automation components and &dmore.",
-				"",
-				"Wait, with magic? Or is this actually tech?",
-				"",
+				"&dTraveler, I suggest seeking a green &dthumb for the following lessons. And &dhaving a nice, clear area outside."
+				""
+				"For? Wait, green thumb?"
+				""
+				"&dYes. Much magic can be gained from &dtending to flowers. From simply giving &dyou magical tools, to creating &delaborate automation components and &dmore."
+				""
+				"Wait, with magic? Or is this actually tech?"
+				""
 				"&dThat is the question, is it not? Welcome &dto Botania, Traveler. You'll want the &dLexica Botania to start with. "
-			],
-			dependencies: ["0000000000000025"],
-			id: "0000000000000249",
+			]
+			dependencies: ["0000000000000025"]
+			id: "0000000000000249"
 			tasks: [{
-				id: "000000000000024A",
-				type: "item",
+				id: "000000000000024A"
+				type: "item"
 				item: "botania:lexicon"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000024B",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000024B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Flowers of the Rainbow",
-			icon: "botania:purple_mystical_flower",
-			x: -1.5d,
-			y: 2.25d,
-			shape: "square",
-			subtitle: "&dColors, shapes, all very pretty",
+			title: "Flowers of the Rainbow"
+			icon: "botania:purple_mystical_flower"
+			x: -1.5d
+			y: 2.25d
+			shape: "square"
+			subtitle: "&dColors, shapes, all very pretty"
 			description: [
-				"Okay, now that I have the Lexica Botania, I need to start collecting flowers. Not just any flowers, but Mystical Flowers.",
-				"",
-				"So, there are 16 colors of flower right? That's a lot of exploring. How many of these flowers will I need?",
-				"",
-				"&dMany. But worry not, you have multiple &dways to get all the colors. See?",
-				"",
-				"Oooh, okay. So, I can take a Mystical Flower, and turn it into Petals. If I Right Click a petal onto Grass, I plant it. If I use Bonemeal on it then, it'll grow into a full flower.",
-				"",
+				"Okay, now that I have the Lexica Botania, I need to start collecting flowers. Not just any flowers, but Mystical Flowers."
+				""
+				"So, there are 16 colors of flower right? That's a lot of exploring. How many of these flowers will I need?"
+				""
+				"&dMany. But worry not, you have multiple &dways to get all the colors. See?"
+				""
+				"Oooh, okay. So, I can take a Mystical Flower, and turn it into Petals. If I Right Click a petal onto Grass, I plant it. If I use Bonemeal on it then, it'll grow into a full flower."
+				""
 				"I can also grind the petals into Dye, and combine it with Bonemeal to make Floral Fertalizer. Which will grow random Mystical Flowers. Neat!"
-			],
-			dependencies: ["0000000000000249"],
-			id: "000000000000024C",
+			]
+			dependencies: ["0000000000000249"]
+			id: "000000000000024C"
 			tasks: [
 				{
-					id: "000000000000024D",
-					type: "item",
+					id: "000000000000024D"
+					type: "item"
 					item: "botania:purple_mystical_flower"
-				},
+				}
 				{
-					id: "000000000000024E",
-					type: "item",
+					id: "000000000000024E"
+					type: "item"
 					item: "botania:pestle_and_mortar"
-				},
+				}
 				{
-					id: "000000000000024F",
-					type: "item",
+					id: "000000000000024F"
+					type: "item"
 					item: "botania:fertilizer"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000250",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000250"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "A Floral Hunt",
-			icon: "botania:flower_bag",
-			x: -3.25d,
-			y: 2.25d,
-			shape: "diamond",
-			subtitle: "&dSo many flowers",
+			title: "A Floral Hunt"
+			icon: "botania:flower_bag"
+			x: -3.25d
+			y: 2.25d
+			shape: "diamond"
+			subtitle: "&dSo many flowers"
 			description: [
-				"&dA challenge for you, Traveler. Bring &dme 1 of each Mystical Flower color. ",
-				"",
-				"Oh? How come?",
-				"",
-				"&dBecause they are pretty and I want &dto add them to my garden. Plus it &dhelps you get all the colors yourself.",
-				"",
-				"&dAnd, I can say that you should make a &dFlower Pouch, which can hold all the &dMystical Flower colors. You don't need &dto send me one of these, as I feel &dyour journal there might send me the &done you are using.",
-				"",
-				"Wouldn't you just send it back to me?",
-				"",
+				"&dA challenge for you, Traveler. Bring &dme 1 of each Mystical Flower color. "
+				""
+				"Oh? How come?"
+				""
+				"&dBecause they are pretty and I want &dto add them to my garden. Plus it &dhelps you get all the colors yourself."
+				""
+				"&dAnd, I can say that you should make a &dFlower Pouch, which can hold all the &dMystical Flower colors. You don't need &dto send me one of these, as I feel &dyour journal there might send me the &done you are using."
+				""
+				"Wouldn't you just send it back to me?"
+				""
 				"&dAnd not add the flowers to my &dgarden? Please...."
-			],
-			dependencies: ["000000000000024C"],
-			id: "0000000000000251",
+			]
+			dependencies: ["000000000000024C"]
+			id: "0000000000000251"
 			tasks: [
 				{
-					id: "0000000000000252",
-					type: "item",
+					id: "0000000000000252"
+					type: "item"
 					item: "botania:flower_bag"
-				},
+				}
 				{
-					id: "0000000000000253",
-					type: "item",
-					item: "botania:white_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000254",
-					type: "item",
-					item: "botania:orange_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000255",
-					type: "item",
-					item: "botania:magenta_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000256",
-					type: "item",
-					item: "botania:light_blue_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000257",
-					type: "item",
-					item: "botania:yellow_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000258",
-					type: "item",
-					item: "botania:lime_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000259",
-					type: "item",
-					item: "botania:pink_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "000000000000025A",
-					type: "item",
-					item: "botania:gray_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "000000000000025B",
-					type: "item",
-					item: "botania:light_gray_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "000000000000025C",
-					type: "item",
-					item: "botania:cyan_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "000000000000025D",
-					type: "item",
-					item: "botania:purple_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "000000000000025E",
-					type: "item",
-					item: "botania:blue_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "000000000000025F",
-					type: "item",
-					item: "botania:brown_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000260",
-					type: "item",
-					item: "botania:green_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000261",
-					type: "item",
-					item: "botania:red_mystical_flower",
-					consume_items: true
-				},
-				{
-					id: "0000000000000262",
-					type: "item",
-					item: "botania:black_mystical_flower",
+					id: "0000000000000253"
+					type: "item"
+					item: "botania:white_mystical_flower"
 					consume_items: true
 				}
-			],
+				{
+					id: "0000000000000254"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000255"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000256"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000257"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000258"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000259"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "000000000000025A"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "000000000000025B"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "000000000000025C"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "000000000000025D"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "000000000000025E"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "000000000000025F"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000260"
+					type: "item"
+					item: "botania:green_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000261"
+					type: "item"
+					item: "botania:red_mystical_flower"
+					consume_items: true
+				}
+				{
+					id: "0000000000000262"
+					type: "item"
+					item: "botania:black_mystical_flower"
+					consume_items: true
+				}
+			]
 			rewards: [{
-				id: "0000000000000263",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000263"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "The First Flower",
-			icon: "botania:apothecary_default",
-			x: -1.5d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dPurifying ",
+			title: "The First Flower"
+			icon: "botania:apothecary_default"
+			x: -1.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dPurifying "
 			description: [
-				"So, new Botanists start with a Petal Apothecary. A simple thing that can be filled with water by Right Clicking a Bucket of Water onto it, or dropping the bucket onto it (apparently dispensers can fill buckets?)",
-				"",
-				"When its filled, I can drop Mystical Petals into it. Certain combinations make certain flowers. Like... a Pure Daisy, the first flower Kow says to make, is 4 white petals. Then I drop in some Seeds, and poof, a Pure Daisy!",
-				"",
-				"Pure Daisy, like many Botania flowers, can be planted on grass, When Wood logs or Stone are placed in the 8 spaces around the Pure Daisy, it will slowly purify them into Livingrock and Livingwood.",
-				"",
+				"So, new Botanists start with a Petal Apothecary. A simple thing that can be filled with water by Right Clicking a Bucket of Water onto it, or dropping the bucket onto it (apparently dispensers can fill buckets?)"
+				""
+				"When its filled, I can drop Mystical Petals into it. Certain combinations make certain flowers. Like... a Pure Daisy, the first flower Kow says to make, is 4 white petals. Then I drop in some Seeds, and poof, a Pure Daisy!"
+				""
+				"Pure Daisy, like many Botania flowers, can be planted on grass, When Wood logs or Stone are placed in the 8 spaces around the Pure Daisy, it will slowly purify them into Livingrock and Livingwood."
+				""
 				"&dTraveler, if you make a flower in a &dPetal Apothecary, if you are fast &denough, you can Right Click it with a &dfree hand to refill it with the same &dingredients. If they are in your &dinventory already, of course."
-			],
-			dependencies: ["000000000000024C"],
-			id: "0000000000000264",
+			]
+			dependencies: ["000000000000024C"]
+			id: "0000000000000264"
 			tasks: [
 				{
-					id: "0000000000000265",
-					type: "item",
+					id: "0000000000000265"
+					type: "item"
 					item: "botania:apothecary_default"
-				},
+				}
 				{
-					id: "0000000000000267",
-					type: "item",
+					id: "0000000000000267"
+					type: "item"
 					item: "botania:pure_daisy"
-				},
+				}
 				{
-					id: "0000000000000268",
-					type: "item",
+					id: "0000000000000268"
+					type: "item"
 					item: "botania:livingrock"
-				},
+				}
 				{
-					id: "0000000000000269",
-					type: "item",
+					id: "0000000000000269"
+					type: "item"
 					item: "botania:livingwood"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000266",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000266"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Flame and Wand",
-			icon: "botania:endoflame",
-			x: 2.25d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dAnd Mana, as well",
+			title: "Flame and Wand"
+			icon: "botania:endoflame"
+			x: 2.25d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dAnd Mana, as well"
 			description: [
-				"Now that I know how to make flowers, and some purer materials, I can start making some proper flowers and get this whole Mana thing going.",
-				"",
-				"I'll need a Mana Generating Flower first, that'll be the Endoflame. It will pick up any item dropped near it that it can burn for Fuel, like wood or coal, and generate Mana from it. ",
-				"",
-				"&dIt works about twice as fast as a &dFurnace, Traveler. But don't use too &ddense of a fuel, if it burns too long it &dgenerates much less Mana.",
-				"",
-				"Oh, good to know. So, I plant and feed these Endoflames, and then put down a Mana Spreader close by for the flowers to send the Mana too.",
-				"",
+				"Now that I know how to make flowers, and some purer materials, I can start making some proper flowers and get this whole Mana thing going."
+				""
+				"I'll need a Mana Generating Flower first, that'll be the Endoflame. It will pick up any item dropped near it that it can burn for Fuel, like wood or coal, and generate Mana from it. "
+				""
+				"&dIt works about twice as fast as a &dFurnace, Traveler. But don't use too &ddense of a fuel, if it burns too long it &dgenerates much less Mana."
+				""
+				"Oh, good to know. So, I plant and feed these Endoflames, and then put down a Mana Spreader close by for the flowers to send the Mana too."
+				""
 				"Finally, I make a Wand of the Forest and a Mana Pool. By Sneak+Right Clicking, I can direct a Mana Spreader to send the Mana to a Mana Pool. "
-			],
-			dependencies: ["0000000000000264"],
-			id: "000000000000026A",
+			]
+			dependencies: ["0000000000000264"]
+			id: "000000000000026A"
 			tasks: [
 				{
-					id: "000000000000026B",
-					type: "item",
+					id: "000000000000026B"
+					type: "item"
 					item: "botania:endoflame"
-				},
+				}
 				{
-					id: "000000000000026C",
-					type: "item",
+					id: "000000000000026C"
+					type: "item"
 					item: "botania:mana_spreader"
-				},
+				}
 				{
-					id: "000000000000026D",
-					type: "item",
+					id: "000000000000026D"
+					type: "item"
 					item: {
-						id: "botania:twig_wand",
-						Count: 1b,
-						tag: {}
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: { }
 					}
-				},
+				}
 				{
-					id: "000000000000026E",
-					type: "item",
+					id: "000000000000026E"
+					type: "item"
 					item: "botania:mana_pool"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000026F",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000026F"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Steeped in Mana",
-			icon: "botania:manasteel_ingot",
-			x: 2.25d,
-			y: 2.75d,
-			shape: "square",
-			subtitle: "&dInfused, not Steeped.",
+			title: "Steeped in Mana"
+			icon: "botania:manasteel_ingot"
+			x: 2.25d
+			y: 2.75d
+			shape: "square"
+			subtitle: "&dInfused, not Steeped."
 			description: [
-				"Now that I know how to generate Mana, I can make some Mana imbued materials I'll need. ",
-				"",
-				"The two most common ones I'll be using are Manasteel and Mana Diamonds. I get these by collecting enough Mana in a Pool, then tossing an Iron Ingot or Diamond into it. These can be used to make many Botanical items.",
-				"",
-				"Like the Manasteel can be used to make a Floral Obedience Stick. When used on a Mana Pool or Mana Spreader, it bind all flowers close by to it. ",
-				"",
-				"Meanwhile, the Mana Diamond can make a Mana Tablet to store Mana. I can change the mode the Wand of the Forest is in by Sneak + Right Clicking into the air. ",
-				"",
+				"Now that I know how to generate Mana, I can make some Mana imbued materials I'll need. "
+				""
+				"The two most common ones I'll be using are Manasteel and Mana Diamonds. I get these by collecting enough Mana in a Pool, then tossing an Iron Ingot or Diamond into it. These can be used to make many Botanical items."
+				""
+				"Like the Manasteel can be used to make a Floral Obedience Stick. When used on a Mana Pool or Mana Spreader, it bind all flowers close by to it. "
+				""
+				"Meanwhile, the Mana Diamond can make a Mana Tablet to store Mana. I can change the mode the Wand of the Forest is in by Sneak + Right Clicking into the air. "
+				""
 				"In Function mode, I can Sneak+Right Click a Mana Pool to swap it between Give or Take Mana from a Mana Tablet that is dropped on top of it."
-			],
-			dependencies: ["000000000000026A"],
-			id: "0000000000000270",
+			]
+			dependencies: ["000000000000026A"]
+			id: "0000000000000270"
 			tasks: [
 				{
-					id: "0000000000000271",
-					type: "item",
+					id: "0000000000000271"
+					type: "item"
 					item: "botania:manasteel_ingot"
-				},
+				}
 				{
-					id: "0000000000000272",
-					type: "item",
+					id: "0000000000000272"
+					type: "item"
 					item: "botania:mana_diamond"
-				},
+				}
 				{
-					id: "0000000000000273",
-					type: "item",
+					id: "0000000000000273"
+					type: "item"
 					item: "botania:obedience_stick"
-				},
+				}
 				{
-					id: "0000000000000274",
-					type: "item",
+					id: "0000000000000274"
+					type: "item"
 					item: {
-						id: "botania:mana_tablet",
-						Count: 1b,
-						tag: {}
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000275",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000275"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Blue Tools",
+			title: "Blue Tools"
 			icon: {
-				id: "botania:manasteel_pick",
-				Count: 1b,
+				id: "botania:manasteel_pick"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: 3.25d,
-			y: 2.25d,
-			shape: "diamond",
-			subtitle: "&dDablue dee...",
+			}
+			x: 3.25d
+			y: 2.25d
+			shape: "diamond"
+			subtitle: "&dDablue dee..."
 			description: [
-				"Manasteel is fantastic for making some tools and gear. They are just as useful as Iron gear, but they seem to be quite enchantable.",
-				"",
-				"Even better? The gear repairs itself if I have Mana in my inventory... like in my Mana Tablet! Quite useful I have to say.",
-				"",
-				"&dTraveler. If you would, send me a &dManasteel Pickaxe and Helmet.",
-				"",
-				"What, why?",
-				"",
+				"Manasteel is fantastic for making some tools and gear. They are just as useful as Iron gear, but they seem to be quite enchantable."
+				""
+				"Even better? The gear repairs itself if I have Mana in my inventory... like in my Mana Tablet! Quite useful I have to say."
+				""
+				"&dTraveler. If you would, send me a &dManasteel Pickaxe and Helmet."
+				""
+				"What, why?"
+				""
 				"&dI could use them in my next mining &dtrip &dI need to make for some Mushrooms..."
-			],
-			dependencies: ["0000000000000270"],
-			id: "0000000000000276",
+			]
+			dependencies: ["0000000000000270"]
+			id: "0000000000000276"
 			tasks: [
 				{
-					id: "0000000000000277",
-					type: "item",
+					id: "0000000000000277"
+					type: "item"
 					item: {
-						id: "botania:manasteel_pick",
-						Count: 1b,
+						id: "botania:manasteel_pick"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
-					},
-					consume_items: true
-				},
-				{
-					id: "0000000000000278",
-					type: "item",
-					item: {
-						id: "botania:manasteel_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
+					}
 					consume_items: true
 				}
-			],
+				{
+					id: "0000000000000278"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
 			rewards: [{
-				id: "0000000000000279",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000279"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 25
 			}]
-		},
+		}
 		{
-			title: "Craft on the Go",
+			title: "Craft on the Go"
 			icon: {
-				id: "botania:crafting_halo",
-				Count: 1b,
+				id: "botania:crafting_halo"
+				Count: 1b
 				tag: {
 					rotationBase: 446.22296f
 				}
-			},
-			x: 1.25d,
-			y: 3.25d,
-			shape: "square",
-			subtitle: "&dWhere's cooking on the go?",
+			}
+			x: 1.25d
+			y: 3.25d
+			shape: "square"
+			subtitle: "&dWhere's cooking on the go?"
 			description: [
-				"Botanists have a lot of neat little tools they can make. ",
-				"",
-				"The Assembly Halo is like a Crafting Table in my pocket. When I hold it, I get... I guess visions? Holograms? Around me. One of them is a Crafting Table, which I can Right Click to open and make something.",
-				"",
-				"Then I can Right Click another spot around me, and Memorize that crafting recipe to that spot. Then Right Click it any time to automatically craft it if I have the materials!",
-				"",
+				"Botanists have a lot of neat little tools they can make. "
+				""
+				"The Assembly Halo is like a Crafting Table in my pocket. When I hold it, I get... I guess visions? Holograms? Around me. One of them is a Crafting Table, which I can Right Click to open and make something."
+				""
+				"Then I can Right Click another spot around me, and Memorize that crafting recipe to that spot. Then Right Click it any time to automatically craft it if I have the materials!"
+				""
 				"By adding a Mana Diamond to the Crafting Halo, I turn it into a Manufactory Halo. It does the same thing, except automatically when I'm not holding it. I'll need to be careful about what recipes I Memorize..."
-			],
-			dependencies: ["0000000000000270"],
-			id: "000000000000027A",
+			]
+			dependencies: ["0000000000000270"]
+			id: "000000000000027A"
 			tasks: [
 				{
-					id: "000000000000027B",
-					type: "item",
+					id: "000000000000027B"
+					type: "item"
 					item: "botania:crafting_halo"
-				},
+				}
 				{
-					id: "000000000000027C",
-					type: "item",
+					id: "000000000000027C"
+					type: "item"
 					item: "botania:auto_crafting_halo"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000027D",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000027D"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Handy Manatools",
-			icon: "botania:sextant",
-			x: 1.25d,
-			y: 2.25d,
-			shape: "square",
-			subtitle: "&dUseful Sometimes",
+			title: "Handy Manatools"
+			icon: "botania:sextant"
+			x: 1.25d
+			y: 2.25d
+			shape: "square"
+			subtitle: "&dUseful Sometimes"
 			description: [
-				"There's a lot of little tools I can make I wish I had before, you know?",
-				"",
-				"The Worldshaper's Sextant for example. If I Right Click and hold it on a Block, I can tell it how big of a circle I want to make. It'll then show ghostly blocks at that radius. Or is it diameter? Anyways, it'll show me where to build my circle!",
-				"",
+				"There's a lot of little tools I can make I wish I had before, you know?"
+				""
+				"The Worldshaper's Sextant for example. If I Right Click and hold it on a Block, I can tell it how big of a circle I want to make. It'll then show ghostly blocks at that radius. Or is it diameter? Anyways, it'll show me where to build my circle!"
+				""
 				"Unrelated, the Spellbinding Cloth is useful to clean the enchantments off of an item. Cause some of the items I find off monsters are pretty bad."
-			],
-			dependencies: ["0000000000000270"],
-			id: "000000000000027E",
+			]
+			dependencies: ["0000000000000270"]
+			id: "000000000000027E"
 			tasks: [
 				{
-					id: "000000000000027F",
-					type: "item",
+					id: "000000000000027F"
+					type: "item"
 					item: "botania:sextant"
-				},
+				}
 				{
-					id: "0000000000000280",
-					type: "item",
+					id: "0000000000000280"
+					type: "item"
 					item: {
-						id: "botania:spell_cloth",
-						Count: 1b,
+						id: "botania:spell_cloth"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000281",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000281"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Flowers that Hurt, That Help",
-			icon: "botania:bellethorn",
-			x: 6.25d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dGlove over an iron fist? Maybe...",
+			title: "Flowers that Hurt, That Help"
+			icon: "botania:bellethorn"
+			x: 6.25d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dGlove over an iron fist? Maybe..."
 			description: [
-				"So flowers don't just Generate Mana, they can also consume it to do various things. Any Functioning Flower, as the book calls them, will consume Mana from nearby Mana Pools to work.",
-				"",
-				"The two examples I can use are the Bellethorne and the Bergamute.",
-				"",
-				"The Bellethorn will slowly hurt things nearby... except for other worlders like me, apparently.",
-				"",
-				"&dTry a Dreadthorne if you want to feel &dthe sting, Traveler.",
-				"",
-				"I'll pass. The other flower couldn't be any different. The Bergamute will absorb nearby sounds and mute them. Which is great for noisy animal farms....",
-				"",
-				"&dTechnically each sound it &dabsorbs &dgenerates a tiny bit of Mana, so...",
-				"",
+				"So flowers don't just Generate Mana, they can also consume it to do various things. Any Functioning Flower, as the book calls them, will consume Mana from nearby Mana Pools to work."
+				""
+				"The two examples I can use are the Bellethorne and the Bergamute."
+				""
+				"The Bellethorn will slowly hurt things nearby... except for other worlders like me, apparently."
+				""
+				"&dTry a Dreadthorne if you want to feel &dthe sting, Traveler."
+				""
+				"I'll pass. The other flower couldn't be any different. The Bergamute will absorb nearby sounds and mute them. Which is great for noisy animal farms...."
+				""
+				"&dTechnically each sound it &dabsorbs &dgenerates a tiny bit of Mana, so..."
+				""
 				"Shh, that's still Functional!"
-			],
-			dependencies: ["000000000000026A"],
-			id: "0000000000000282",
+			]
+			dependencies: ["000000000000026A"]
+			id: "0000000000000282"
 			tasks: [
 				{
-					id: "0000000000000283",
-					type: "item",
+					id: "0000000000000283"
+					type: "item"
 					item: "botania:bellethorn"
-				},
+				}
 				{
-					id: "0000000000000284",
-					type: "item",
+					id: "0000000000000284"
+					type: "item"
 					item: "botania:bergamute"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000285",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000285"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Mana Accessories",
+			title: "Mana Accessories"
 			icon: {
-				id: "botania:mana_ring",
-				Count: 1b,
+				id: "botania:mana_ring"
+				Count: 1b
 				tag: {
 					mana: 0
 				}
-			},
-			x: 2.25d,
-			y: 3.75d,
-			shape: "square",
-			subtitle: "&dSight beyond sight.",
+			}
+			x: 2.25d
+			y: 3.75d
+			shape: "square"
+			subtitle: "&dSight beyond sight."
 			description: [
-				"Manasteel is a great material for making curios, the nice little accessory baubles I can wear. ",
-				"",
-				"Probably the most useful thing would be to put the Mana Tablet into a Ring. The Band of Mana can be recharged like a Mana Tablet, but also be worn to free up my inventory a bit.",
-				"",
-				"Meanwhile, looking at all these locked entries in the Lexica Botania, I realize how... complicated my flower and Mana Spreader setups are going to end up. So the Manaseer Monocle should really help with that.",
-				"",
-				"With it I should be able to see all the Mana Bursts, even through walls. It will also tell me what range flowers will effect.",
-				"",
+				"Manasteel is a great material for making curios, the nice little accessory baubles I can wear. "
+				""
+				"Probably the most useful thing would be to put the Mana Tablet into a Ring. The Band of Mana can be recharged like a Mana Tablet, but also be worn to free up my inventory a bit."
+				""
+				"Meanwhile, looking at all these locked entries in the Lexica Botania, I realize how... complicated my flower and Mana Spreader setups are going to end up. So the Manaseer Monocle should really help with that."
+				""
+				"With it I should be able to see all the Mana Bursts, even through walls. It will also tell me what range flowers will effect."
+				""
 				"&dIt should also give you a little more &dinformation on Redstone things, &dTraveler."
-			],
-			dependencies: ["0000000000000270"],
-			id: "0000000000000286",
+			]
+			dependencies: ["0000000000000270"]
+			id: "0000000000000286"
 			tasks: [
 				{
-					id: "0000000000000287",
-					type: "item",
+					id: "0000000000000287"
+					type: "item"
 					item: {
-						id: "botania:mana_ring",
-						Count: 1b,
-						tag: {}
+						id: "botania:mana_ring"
+						Count: 1b
+						tag: { }
 					}
-				},
+				}
 				{
-					id: "0000000000000288",
-					type: "item",
+					id: "0000000000000288"
+					type: "item"
 					item: "botania:monocle"
 				}
-			],
+			]
 			rewards: [{
-				id: "0000000000000289",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000289"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Search and Collect",
-			icon: "botania:itemfinder",
-			x: 3.25d,
-			y: 3.25d,
-			shape: "square",
-			subtitle: "&dHow many chests do you have?",
+			title: "Search and Collect"
+			icon: "botania:itemfinder"
+			x: 3.25d
+			y: 3.25d
+			shape: "square"
+			subtitle: "&dHow many chests do you have?"
 			description: [
-				"I'll say it. I don't like paxels. Functionally they are great, but... something about combining ALL the tools into one rubs me the wrong way. I can't deny it's easier than swapping between tools constantly.",
-				"",
-				"But hey, Botanist accessories to the rescue, right? The Ring of Correction will automatically swap my tools around to what I need!",
-				"",
-				"As for other neat curios I've found, I like The Spectator. It will highlight items dropped on the ground if I hold Sneak, but that's not the best part.",
-				"",
-				"While holding an item, all other of that item nearby will glow, whether they are dropped on the ground, in a chest, or for trade by a villager. It won't highlight it if its a block placed out in the world, but that's fine!",
-				"",
+				"I'll say it. I don't like paxels. Functionally they are great, but... something about combining ALL the tools into one rubs me the wrong way. I can't deny it's easier than swapping between tools constantly."
+				""
+				"But hey, Botanist accessories to the rescue, right? The Ring of Correction will automatically swap my tools around to what I need!"
+				""
+				"As for other neat curios I've found, I like The Spectator. It will highlight items dropped on the ground if I hold Sneak, but that's not the best part."
+				""
+				"While holding an item, all other of that item nearby will glow, whether they are dropped on the ground, in a chest, or for trade by a villager. It won't highlight it if its a block placed out in the world, but that's fine!"
+				""
 				"&dYou should probably make a Trinket &dCase to hold all these..."
-			],
-			dependencies: ["0000000000000270"],
-			id: "000000000000028A",
+			]
+			dependencies: ["0000000000000270"]
+			id: "000000000000028A"
 			tasks: [
 				{
-					id: "000000000000028B",
-					type: "item",
+					id: "000000000000028B"
+					type: "item"
 					item: "botania:swap_ring"
-				},
+				}
 				{
-					id: "000000000000028C",
-					type: "item",
+					id: "000000000000028C"
+					type: "item"
 					item: "botania:itemfinder"
-				},
+				}
 				{
-					id: "000000000000028D",
-					type: "item",
+					id: "000000000000028D"
+					type: "item"
 					item: "botania:bauble_box"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000028E",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000028E"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Spark of Mana",
-			icon: "botania:spark",
-			x: 3.2559523809523867d,
-			y: -1.9166666666666679d,
-			shape: "square",
-			subtitle: "&dHelpful little thing",
+			title: "Spark of Mana"
+			icon: "botania:spark"
+			x: 3.2559523809523867d
+			y: -1.9166666666666679d
+			shape: "square"
+			subtitle: "&dHelpful little thing"
 			description: [
-				"These little things don't seem overly useful at first glance, but Kow says I should understand them now, as they'll become quite useful later.",
-				"",
-				"Sparks can be placed over Mana Pools and other blocks that accept Mana. They can be dyed before being placed, and Sparks of the same color connect to each other.",
-				"",
-				"If a block with a Spark needs Mana, it can pull it from a Mana Pool with the same color spark. I don't quite have many blocks that need Mana like that, however",
-				"",
+				"These little things don't seem overly useful at first glance, but Kow says I should understand them now, as they'll become quite useful later."
+				""
+				"Sparks can be placed over Mana Pools and other blocks that accept Mana. They can be dyed before being placed, and Sparks of the same color connect to each other."
+				""
+				"If a block with a Spark needs Mana, it can pull it from a Mana Pool with the same color spark. I don't quite have many blocks that need Mana like that, however"
+				""
 				"&dYet."
-			],
-			dependencies: ["000000000000026A"],
-			id: "000000000000028F",
+			]
+			dependencies: ["000000000000026A"]
+			id: "000000000000028F"
 			tasks: [{
-				id: "0000000000000290",
-				type: "item",
+				id: "0000000000000290"
+				type: "item"
 				item: "botania:spark"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000295",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000295"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Pylon of Knowledge",
-			icon: "botania:mana_pylon",
-			x: 2.25d,
-			y: -2.45d,
-			shape: "square",
-			subtitle: "&dJokes about construction here...",
+			title: "Pylon of Knowledge"
+			icon: "botania:mana_pylon"
+			x: 2.25d
+			y: -2.45d
+			shape: "square"
+			subtitle: "&dJokes about construction here..."
 			description: [
-				"Enchanting in this world is quite interesting. I heard tales from Villagers about it being mostly... luck of the gods in the old days. Now, you can enchant your items how you like, with a lot of skill and a little luck.",
-				"",
-				"What's also changed is the Enchanting Table used to only care about the esoteric knowledge from bookshelves. Now, many things can impart eldritch knowledge upon it. Such as the Mana Pylons, which look super neat to boot. ",
-				"",
+				"Enchanting in this world is quite interesting. I heard tales from Villagers about it being mostly... luck of the gods in the old days. Now, you can enchant your items how you like, with a lot of skill and a little luck."
+				""
+				"What's also changed is the Enchanting Table used to only care about the esoteric knowledge from bookshelves. Now, many things can impart eldritch knowledge upon it. Such as the Mana Pylons, which look super neat to boot. "
+				""
 				"Just TWO of the Mana Pylons gives the same enchanting boost as a whole slew of Bookshelves!"
-			],
-			dependencies: ["000000000000026A"],
-			id: "0000000000000291",
+			]
+			dependencies: ["000000000000026A"]
+			id: "0000000000000291"
 			tasks: [{
-				id: "0000000000000292",
-				type: "item",
+				id: "0000000000000292"
+				type: "item"
 				item: "botania:mana_pylon"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000296",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000296"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Transmutational Boost",
-			icon: "botania:alchemy_catalyst",
-			x: 1.2559523809523867d,
-			y: -1.8809523809523796d,
-			shape: "square",
-			subtitle: "&dMore options, better options",
+			title: "Transmutational Boost"
+			icon: "botania:alchemy_catalyst"
+			x: 1.2559523809523867d
+			y: -1.8809523809523796d
+			shape: "square"
+			subtitle: "&dMore options, better options"
 			description: [
-				"The Mana Pool has a lot of things it can infuse Mana into, and transform a few things. But it seems it can transmute so much more with the help of an Alchemy Catalyst.",
-				"",
-				"To use it, I have to place it directly under the Mana Pool. The Catalyst will show through the bottom of the Mana Pool, showing it's upgraded.",
-				"",
+				"The Mana Pool has a lot of things it can infuse Mana into, and transform a few things. But it seems it can transmute so much more with the help of an Alchemy Catalyst."
+				""
+				"To use it, I have to place it directly under the Mana Pool. The Catalyst will show through the bottom of the Mana Pool, showing it's upgraded."
+				""
 				"Then I can look through my Lexica Botania to see all the things I can transform."
-			],
-			dependencies: ["000000000000026A"],
-			id: "0000000000000293",
+			]
+			dependencies: ["000000000000026A"]
+			id: "0000000000000293"
 			tasks: [{
-				id: "0000000000000294",
-				type: "item",
+				id: "0000000000000294"
+				type: "item"
 				item: "botania:alchemy_catalyst"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000297",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "0000000000000297"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Believe in it",
-			icon: "botania:tiny_potato",
-			x: 2.25d,
-			y: -1.0d,
-			shape: "diamond",
-			subtitle: "&dWho believes in you",
+			title: "Believe in it"
+			icon: "botania:tiny_potato"
+			x: 2.25d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "&dWho believes in you"
 			description: [
-				"The base needs a mascot. And what better than a Tiny Potato?",
-				"",
-				"&dYou know, I actually agree here.",
-				"",
-				"I can give it items to hold. I can pet it with Right Click. It's great!",
-				"",
-				"&dVery. Now send me 5.",
-				"",
-				"Wh...",
-				"",
+				"The base needs a mascot. And what better than a Tiny Potato?"
+				""
+				"&dYou know, I actually agree here."
+				""
+				"I can give it items to hold. I can pet it with Right Click. It's great!"
+				""
+				"&dVery. Now send me 5."
+				""
+				"Wh..."
+				""
 				"&dDon't ask, just do."
-			],
-			dependencies: ["000000000000026A"],
-			id: "0000000000000298",
+			]
+			dependencies: ["000000000000026A"]
+			id: "0000000000000298"
 			tasks: [{
-				id: "0000000000000299",
-				type: "item",
-				item: "botania:tiny_potato",
-				count: 5L,
+				id: "0000000000000299"
+				type: "item"
+				item: "botania:tiny_potato"
+				count: 5L
 				consume_items: true
-			}],
+			}]
 			rewards: [{
-				id: "000000000000029A",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000029A"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Strong Etchings",
-			icon: "botania:runic_altar",
-			x: 10.25d,
-			y: 0.5d,
-			shape: "square",
-			subtitle: "&dMagical Symbolism",
+			title: "Strong Etchings"
+			icon: "botania:runic_altar"
+			x: 10.25d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dMagical Symbolism"
 			description: [
-				"There's only so much I can do with just Manasteel, Mana Diamonds, etc. I need to boost up the power, and Runes should do the trick.",
-				"",
-				"But to make them, I'll need to make a Runic Altar first. I then need to aim a Mana Spreader or two at it, preferably ones next to Mana Pools.",
-				"",
-				"Runes come in various flavors. Seasons, sins, etc. They are made by combining Mana infused items with items that match. Water needs a fishing rod, for example. I take all the items and either Right Click or drop them on top of the Runic Altar.",
-				"",
+				"There's only so much I can do with just Manasteel, Mana Diamonds, etc. I need to boost up the power, and Runes should do the trick."
+				""
+				"But to make them, I'll need to make a Runic Altar first. I then need to aim a Mana Spreader or two at it, preferably ones next to Mana Pools."
+				""
+				"Runes come in various flavors. Seasons, sins, etc. They are made by combining Mana infused items with items that match. Water needs a fishing rod, for example. I take all the items and either Right Click or drop them on top of the Runic Altar."
+				""
 				"They'll start floating in orbit above the Runic Altar. When all the items and enough Mana has been sent to the Runic Altar, I can drop a Livingrock on top, and Right Click with my Wand of the Forest to make the Rune!"
-			],
-			dependencies: ["0000000000000282"],
-			id: "000000000000029B",
+			]
+			dependencies: ["0000000000000282"]
+			id: "000000000000029B"
 			tasks: [
 				{
-					id: "000000000000029C",
-					type: "item",
+					id: "000000000000029C"
+					type: "item"
 					item: "botania:runic_altar"
-				},
+				}
 				{
-					id: "000000000000029D",
-					type: "item",
+					id: "000000000000029D"
+					type: "item"
 					item: "botania:rune_water"
 				}
-			],
+			]
 			rewards: [{
-				id: "000000000000029E",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "000000000000029E"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Hungry Flowers",
-			icon: "botania:gourmaryllis",
-			x: 8.75d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dDon't feed after midnight. Or do.",
+			title: "Hungry Flowers"
+			icon: "botania:gourmaryllis"
+			x: 8.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dDon't feed after midnight. Or do."
 			description: [
-				"Now that I have more powerful components, and the Runic Altar, I can make more powerful Generating Flora. The pair of flowers I have here are very... hungry.",
-				"",
-				"The first is the Gourmaryllis. It eats any food item that falls near it, and generates Mana from it. The only problem? It only makes Mana from the first food it starts eating, until all the Mana from it is gone.",
-				"",
-				"Timing with that flower is going to be difficult, but worth it I think.",
-				"",
-				"The other flower is the Entropynnum. Instead of food, this one eats... Explosions. Ones from regular TNT specifically, I don't want to even try testing other explosions, it already misses the occasional normal explosion.",
-				"",
+				"Now that I have more powerful components, and the Runic Altar, I can make more powerful Generating Flora. The pair of flowers I have here are very... hungry."
+				""
+				"The first is the Gourmaryllis. It eats any food item that falls near it, and generates Mana from it. The only problem? It only makes Mana from the first food it starts eating, until all the Mana from it is gone."
+				""
+				"Timing with that flower is going to be difficult, but worth it I think."
+				""
+				"The other flower is the Entropynnum. Instead of food, this one eats... Explosions. Ones from regular TNT specifically, I don't want to even try testing other explosions, it already misses the occasional normal explosion."
+				""
 				"But yeah, if I set off a TNT close to it, it will absorb the explosion and generate a big amount of Mana!"
-			],
-			dependencies: ["000000000000029B"],
-			id: "000000000000029F",
+			]
+			dependencies: ["000000000000029B"]
+			id: "000000000000029F"
 			tasks: [
 				{
-					id: "00000000000002A0",
-					type: "item",
+					id: "00000000000002A0"
+					type: "item"
 					item: "botania:gourmaryllis"
-				},
+				}
 				{
-					id: "00000000000002A1",
-					type: "item",
+					id: "00000000000002A1"
+					type: "item"
 					item: "botania:entropinnyum"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002A2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002A2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "A Rose by Any Name",
-			icon: "botania:rosa_arcana",
-			x: 9.25d,
-			y: -0.75d,
-			shape: "square",
-			subtitle: "&dAnd this one's name is Rosa &dArcana",
+			title: "A Rose by Any Name"
+			icon: "botania:rosa_arcana"
+			x: 9.25d
+			y: -0.75d
+			shape: "square"
+			subtitle: "&dAnd this one's name is Rosa &dArcana"
 			description: [
-				"The Rosa Arcana is a very pretty flower, and one that is really good about turning knowledge into power.",
-				"",
+				"The Rosa Arcana is a very pretty flower, and one that is really good about turning knowledge into power."
+				""
 				"Well, knowledge in the sense of Experience Points. It can take XP orbs and XP I've collected and convert it into Mana."
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002A3",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002A3"
 			tasks: [{
-				id: "00000000000002A4",
-				type: "item",
+				id: "00000000000002A4"
+				type: "item"
 				item: "botania:rosa_arcana"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002A5",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002A5"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Burning Mana",
-			icon: "botania:thermalily",
-			x: 9.0d,
-			y: -2.75d,
-			shape: "square",
-			subtitle: "&dBotanists Bring the Heat",
+			title: "Burning Mana"
+			icon: "botania:thermalily"
+			x: 9.0d
+			y: -2.75d
+			shape: "square"
+			subtitle: "&dBotanists Bring the Heat"
 			description: [
-				"Endoflame's are fantastic for burning solid Fuels. Wood, charcoal, etc etc. But they can't really handle something like Lava.",
-				"",
-				"That's what the Thermalilly is for. It will consume a Lava source block nearby, and pump out Mana steadily for about a minute.",
-				"",
+				"Endoflame's are fantastic for burning solid Fuels. Wood, charcoal, etc etc. But they can't really handle something like Lava."
+				""
+				"That's what the Thermalilly is for. It will consume a Lava source block nearby, and pump out Mana steadily for about a minute."
+				""
 				"But when that is over, it will have to cool down for about 5 minutes. This cool down period will also consume any Lava nearby, with no Mana in return, so I should be very careful."
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002A6",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002A6"
 			tasks: [{
-				id: "00000000000002A7",
-				type: "item",
+				id: "00000000000002A7"
+				type: "item"
 				item: "botania:thermalily"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002A8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002A8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Farm Flowers",
-			icon: "botania:agricarnation",
-			x: 11.25d,
-			y: -0.75d,
-			shape: "square",
-			subtitle: "&dA little care, a little love",
+			title: "Farm Flowers"
+			icon: "botania:agricarnation"
+			x: 11.25d
+			y: -0.75d
+			shape: "square"
+			subtitle: "&dA little care, a little love"
 			description: [
-				"There seems to be a nice, wide variety of these Functional Flora and what they can do. But I think the ones I like the most are the ones that can help me around the base, and help free me up for more of these magical classes.",
-				"",
-				"Like the Agricarnation. It will use Mana to encourage nearby crops to grow faster. Pretty simple, but quite useful.",
-				"",
-				"The Polidisiac, however, is a little more complex. Just a little, as it 'feeds' and encourages animals to have babies. But it only does that by picking up dropped food and feeding it to them. ",
-				"",
+				"There seems to be a nice, wide variety of these Functional Flora and what they can do. But I think the ones I like the most are the ones that can help me around the base, and help free me up for more of these magical classes."
+				""
+				"Like the Agricarnation. It will use Mana to encourage nearby crops to grow faster. Pretty simple, but quite useful."
+				""
+				"The Polidisiac, however, is a little more complex. Just a little, as it 'feeds' and encourages animals to have babies. But it only does that by picking up dropped food and feeding it to them. "
+				""
 				"The food, of course, depends on what the animals like. Wheat for cows, seeds for chickens, etc."
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002A9",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002A9"
 			tasks: [
 				{
-					id: "00000000000002AA",
-					type: "item",
+					id: "00000000000002AA"
+					type: "item"
 					item: "botania:agricarnation"
-				},
+				}
 				{
-					id: "00000000000002AB",
-					type: "item",
+					id: "00000000000002AB"
+					type: "item"
 					item: "botania:pollidisiac"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002AC",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002AC"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "It's Time to Stop",
-			icon: "botania:medumone",
-			x: 11.5d,
-			y: -1.75d,
-			shape: "square",
-			subtitle: "&dGuess it's kind of like The World...",
+			title: "It's Time to Stop"
+			icon: "botania:medumone"
+			x: 11.5d
+			y: -1.75d
+			shape: "square"
+			subtitle: "&dGuess it's kind of like The World..."
 			description: [
-				"Sometimes when wrangling animals around, it gets really aggrivating trying to get a stubborn one into the fenced area. Because that's when another one will take the opportunity to wander away and get into trouble. Then while saving that one...",
-				"",
-				"Anyways, something like the Medumone could help me. It consumes Mana to basically make a Time Stop field around it. Well, not time, just movement. All creatures, monsters, etc will stop in place.",
-				"",
-				"&dExcept for Other Worlders like us, &dapparently.",
-				"",
+				"Sometimes when wrangling animals around, it gets really aggrivating trying to get a stubborn one into the fenced area. Because that's when another one will take the opportunity to wander away and get into trouble. Then while saving that one..."
+				""
+				"Anyways, something like the Medumone could help me. It consumes Mana to basically make a Time Stop field around it. Well, not time, just movement. All creatures, monsters, etc will stop in place."
+				""
+				"&dExcept for Other Worlders like us, &dapparently."
+				""
 				"Yeah, thankfully. That'd be a disaster. Set it up, it starts using Mana from the big mana generating setup I have...and it never stops. "
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002AD",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002AD"
 			tasks: [{
-				id: "00000000000002AE",
-				type: "item",
+				id: "00000000000002AE"
+				type: "item"
 				item: "botania:medumone"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002B2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002B2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Jaded Fields",
-			icon: "botania:jaded_amaranthus",
-			x: 11.25d,
-			y: -2.75d,
-			shape: "square",
-			subtitle: "&dHome delivered florals",
+			title: "Jaded Fields"
+			icon: "botania:jaded_amaranthus"
+			x: 11.25d
+			y: -2.75d
+			shape: "square"
+			subtitle: "&dHome delivered florals"
 			description: [
-				"The Jaded Amaranthus is a pretty useful flower to have when I'm too busy to go exploring for new flowers, or juggling bonemeal and petals and stuff. ",
-				"",
+				"The Jaded Amaranthus is a pretty useful flower to have when I'm too busy to go exploring for new flowers, or juggling bonemeal and petals and stuff. "
+				""
 				"As long as the Jaded Amaranthus has Mana, it will grow Mystical Flowers around it."
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002AF",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002AF"
 			tasks: [{
-				id: "00000000000002B0",
-				type: "item",
+				id: "00000000000002B0"
+				type: "item"
 				item: "botania:jaded_amaranthus"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002B1",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002B1"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Magical Material Switcheroo",
-			icon: "botania:dirt_rod",
-			x: 9.69642857142857d,
-			y: -1.7261904761904816d,
-			shape: "square",
-			subtitle: "&dBuilders dream",
+			title: "Magical Material Switcheroo"
+			icon: "botania:dirt_rod"
+			x: 9.69642857142857d
+			y: -1.7261904761904816d
+			shape: "square"
+			subtitle: "&dBuilders dream"
 			description: [
-				"Okay, some of the structures I build have some rarer materials, and I don't always have them on paw, right?",
-				"",
-				"But using the Rod of the Shifting Crust, I can use temporary materials to start with. Like, instead of Marble, I can build with plentiful Wood. Then, using this Rod, I can swap this Wood out for Marble when I have more.",
-				"",
-				"To start, I Sneak + Right Click the Rod on the material I want to swap a block TO.  I can then Left Click a block in the world to swap it to that material. Right Click will swap all the highlighted blocks instead!",
-				"",
+				"Okay, some of the structures I build have some rarer materials, and I don't always have them on paw, right?"
+				""
+				"But using the Rod of the Shifting Crust, I can use temporary materials to start with. Like, instead of Marble, I can build with plentiful Wood. Then, using this Rod, I can swap this Wood out for Marble when I have more."
+				""
+				"To start, I Sneak + Right Click the Rod on the material I want to swap a block TO.  I can then Left Click a block in the world to swap it to that material. Right Click will swap all the highlighted blocks instead!"
+				""
 				"What's neat is this Rod works with certain other Rods, like the Rod of the Lands. If I'm swapping a block to Dirt, I just need the Rod of Lands and some Mana and it'll automatically create Dirt for me."
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002B3",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002B3"
 			tasks: [
 				{
-					id: "00000000000002B4",
-					type: "item",
+					id: "00000000000002B4"
+					type: "item"
 					item: {
-						id: "botania:exchange_rod",
-						Count: 1b,
-						tag: {}
+						id: "botania:exchange_rod"
+						Count: 1b
+						tag: { }
 					}
-				},
+				}
 				{
-					id: "00000000000002B5",
-					type: "item",
+					id: "00000000000002B5"
+					type: "item"
 					item: "botania:dirt_rod"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002B6",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002B6"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Sea and Sky",
+			title: "Sea and Sky"
 			icon: {
-				id: "botania:tornado_rod",
-				Count: 1b,
-				tag: {}
-			},
-			x: 10.587585034013607d,
-			y: -1.7304421768707456d,
-			shape: "square",
-			subtitle: "&dHighs and Lows",
+				id: "botania:tornado_rod"
+				Count: 1b
+				tag: { }
+			}
+			x: 10.587585034013607d
+			y: -1.7304421768707456d
+			shape: "square"
+			subtitle: "&dHighs and Lows"
 			description: [
-				"These Rods have a lot of nice uses. Very specific uses, but nice. ",
-				"",
-				"The Rod of the Skies is great for getting up and around. I can use it to launch up into the air, then land safely as it stops me from taking fall damage for a short bit after I leap to the sky.",
-				"",
-				"I just have to remember it only protects me for a SHORT bit. Some of these falls I can take are... quite doozies.",
-				"",
+				"These Rods have a lot of nice uses. Very specific uses, but nice. "
+				""
+				"The Rod of the Skies is great for getting up and around. I can use it to launch up into the air, then land safely as it stops me from taking fall damage for a short bit after I leap to the sky."
+				""
+				"I just have to remember it only protects me for a SHORT bit. Some of these falls I can take are... quite doozies."
+				""
 				"The Rod of the Seas is not really the counterpart to the Rod of the Skies. I don't swim like a fish with it. Instead, it lets me create water where I Right Click it. I can also use it to easily refill my Petal Apothecary!"
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002B7",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002B7"
 			tasks: [
 				{
-					id: "00000000000002B8",
-					type: "item",
+					id: "00000000000002B8"
+					type: "item"
 					item: {
-						id: "botania:tornado_rod",
-						Count: 1b,
-						tag: {}
+						id: "botania:tornado_rod"
+						Count: 1b
+						tag: { }
 					}
-				},
+				}
 				{
-					id: "00000000000002B9",
-					type: "item",
+					id: "00000000000002B9"
+					type: "item"
 					item: "botania:water_rod"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002BA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002BA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Run, Run, Run",
-			icon: "botania:speed_up_belt",
-			x: 10.148809523809526d,
-			y: -3.2380952380952337d,
-			shape: "square",
-			subtitle: "&dNever Stop",
+			title: "Run, Run, Run"
+			icon: "botania:speed_up_belt"
+			x: 10.148809523809526d
+			y: -3.2380952380952337d
+			shape: "square"
+			subtitle: "&dNever Stop"
 			description: [
-				"There seem to be a couple belts I can make with Runes, each one useful in a different way. But the one that caught my eye is the Plainstrider's Sash.",
-				"",
-				"The Soujourner's Sash, which this uses as a base, lets me climb up steeper things faster, which is neat but not really needed I guess. Instead, the Plainstrider Sash will gradually speed me up as long as I am running.",
-				"",
+				"There seem to be a couple belts I can make with Runes, each one useful in a different way. But the one that caught my eye is the Plainstrider's Sash."
+				""
+				"The Soujourner's Sash, which this uses as a base, lets me climb up steeper things faster, which is neat but not really needed I guess. Instead, the Plainstrider Sash will gradually speed me up as long as I am running."
+				""
 				"And as long as I keep running without stopping? I keep getting faster!"
-			],
-			dependencies: ["000000000000029B"],
-			id: "00000000000002BB",
+			]
+			dependencies: ["000000000000029B"]
+			id: "00000000000002BB"
 			tasks: [{
-				id: "00000000000002BC",
-				type: "item",
+				id: "00000000000002BC"
+				type: "item"
 				item: "botania:speed_up_belt"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002BD",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002BD"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Custom Spreaders",
+			title: "Custom Spreaders"
 			icon: {
-				id: "botania:lens_mine",
-				Count: 1b,
-				tag: {}
-			},
-			x: 7.75d,
-			y: 1.75d,
-			shape: "square",
-			subtitle: "&dSpecial Eyes, Special Clothes",
+				id: "botania:lens_mine"
+				Count: 1b
+				tag: { }
+			}
+			x: 7.75d
+			y: 1.75d
+			shape: "square"
+			subtitle: "&dSpecial Eyes, Special Clothes"
 			description: [
-				"So Mana Spreaders are the main way for me to get Mana from Flower to Pool, right? But there's more than just this, I can use Spreaders and special items to do more with Mana Bursts!",
-				"",
-				"First, I should probably Right Click some Wool on a Spreader to cover it, so I know it's not a normal Spreader. I can take the Wool off by Right Clicking with an empty hand.",
-				"",
-				"Next, I should add a Mana Lens to the Spreader. There's a lot of different lenses that do different things, but one I am interested in is the Bore.",
-				"",
+				"So Mana Spreaders are the main way for me to get Mana from Flower to Pool, right? But there's more than just this, I can use Spreaders and special items to do more with Mana Bursts!"
+				""
+				"First, I should probably Right Click some Wool on a Spreader to cover it, so I know it's not a normal Spreader. I can take the Wool off by Right Clicking with an empty hand."
+				""
+				"Next, I should add a Mana Lens to the Spreader. There's a lot of different lenses that do different things, but one I am interested in is the Bore."
+				""
 				"The Bore will break blocks that the Mana Burst hits. The problem? Mana Bursts usually only fire off towards Mana Pools. But, if I use a Pulse Mana Spreader, it fires when given a Redstone Signal instead!"
-			],
-			dependencies: ["0000000000000282"],
-			id: "00000000000002BE",
+			]
+			dependencies: ["0000000000000282"]
+			id: "00000000000002BE"
 			tasks: [
 				{
-					id: "00000000000002BF",
-					type: "item",
+					id: "00000000000002BF"
+					type: "item"
 					item: {
-						id: "botania:lens_mine",
-						Count: 1b,
-						tag: {}
+						id: "botania:lens_mine"
+						Count: 1b
+						tag: { }
 					}
-				},
+				}
 				{
-					id: "00000000000002C0",
-					type: "item",
+					id: "00000000000002C0"
+					type: "item"
 					item: "botania:redstone_spreader"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002C1",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002C1"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Terra Terror",
-			icon: "botania:terrasteel_ingot",
-			x: 10.255952380952387d,
-			y: 3.7261904761904816d,
-			shape: "square",
-			subtitle: "&dBright green and deadly",
+			title: "Terra Terror"
+			icon: "botania:terrasteel_ingot"
+			x: 10.255952380952387d
+			y: 3.7261904761904816d
+			shape: "square"
+			subtitle: "&dBright green and deadly"
 			description: [
-				"So Manasteel's good, but it's still around Iron for defensiveness. I can now make a lot more Mana, and manipulate it better with Runes.",
-				"",
-				"The Lexica Botania mentions Terrasteel, a powerful alloy of Manasteel, Mana Diamonds, and Mana Pearls. And, well, a ton of Mana, since it takes half a Mana Pool just to make one single ingot!",
-				"",
-				"It starts with making the Terrestrial Agglomation Plate. It needs to be built on a platform of Lapis Lazuli and Livingrock in a checkerboard. Then it's suggested I put a Spark linked to my Mana Pools.",
-				"",
-				"By dropping a Manasteel, Mana Diamond, and Mana Pearl on the plate, and having Mana flowing to it from Spreaders or Sparks (or both!), it will start fusing.",
-				"",
+				"So Manasteel's good, but it's still around Iron for defensiveness. I can now make a lot more Mana, and manipulate it better with Runes."
+				""
+				"The Lexica Botania mentions Terrasteel, a powerful alloy of Manasteel, Mana Diamonds, and Mana Pearls. And, well, a ton of Mana, since it takes half a Mana Pool just to make one single ingot!"
+				""
+				"It starts with making the Terrestrial Agglomation Plate. It needs to be built on a platform of Lapis Lazuli and Livingrock in a checkerboard. Then it's suggested I put a Spark linked to my Mana Pools."
+				""
+				"By dropping a Manasteel, Mana Diamond, and Mana Pearl on the plate, and having Mana flowing to it from Spreaders or Sparks (or both!), it will start fusing."
+				""
 				"I just shouldn't pick up the items before Terrasteel is made..."
-			],
+			]
 			dependencies: [
-				"000000000000028F",
+				"000000000000028F"
 				"000000000000029B"
-			],
-			id: "00000000000002C2",
+			]
+			id: "00000000000002C2"
 			tasks: [
 				{
-					id: "00000000000002C3",
-					type: "item",
+					id: "00000000000002C3"
+					type: "item"
 					item: "botania:terra_plate"
-				},
+				}
 				{
-					id: "00000000000002C4",
-					type: "item",
+					id: "00000000000002C4"
+					type: "item"
 					item: "botania:terrasteel_ingot"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002C5",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002C5"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Mirror Sights",
+			title: "Mirror Sights"
 			icon: {
-				id: "botania:mana_mirror",
-				Count: 1b,
-				tag: {}
-			},
-			x: 11.75d,
-			y: 3.0d,
-			shape: "square",
-			subtitle: "&dNo evil mirror you I hope",
+				id: "botania:mana_mirror"
+				Count: 1b
+				tag: { }
+			}
+			x: 11.75d
+			y: 3.0d
+			shape: "square"
+			subtitle: "&dNo evil mirror you I hope"
 			description: [
-				"Mana Tablets are nice for powering things like these Rods and my armor's healing, but uh...",
-				"",
-				"&dWhat?",
-				"",
-				"It's a pain in the tail to keep recharging the dang thing. Even with some of the extra tools, it takes a while, and I forget sometimes.",
-				"",
-				"&dIs there not another tool you can &duse? Reflect upon it.",
-				"",
+				"Mana Tablets are nice for powering things like these Rods and my armor's healing, but uh..."
+				""
+				"&dWhat?"
+				""
+				"It's a pain in the tail to keep recharging the dang thing. Even with some of the extra tools, it takes a while, and I forget sometimes."
+				""
+				"&dIs there not another tool you can &duse? Reflect upon it."
+				""
 				"Oh, hm. Okay, I see. The Mana Mirror. It connects to a Mana Pool right? By Sneak + Right Clicking the Mirror onto it. Then as long as I have Mana in the Mana Pool, it'll transfer through the Mirror to my tools and accessories."
-			],
-			dependencies: ["00000000000002C2"],
-			id: "00000000000002C6",
+			]
+			dependencies: ["00000000000002C2"]
+			id: "00000000000002C6"
 			tasks: [{
-				id: "00000000000002C7",
-				type: "item",
+				id: "00000000000002C7"
+				type: "item"
 				item: {
-					id: "botania:mana_mirror",
-					Count: 1b,
-					tag: {}
+					id: "botania:mana_mirror"
+					Count: 1b
+					tag: { }
 				}
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002C8",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002C8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 20
 			}]
-		},
+		}
 		{
-			title: "Mean Green Machine",
+			title: "Mean Green Machine"
 			icon: {
-				id: "botania:terrasteel_helmet",
-				Count: 1b,
+				id: "botania:terrasteel_helmet"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: 11.0d,
-			y: 2.0d,
-			shape: "square",
-			subtitle: "&dBetter Than Hulk Buster Armor",
+			}
+			x: 11.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "&dBetter Than Hulk Buster Armor"
 			description: [
-				"Now that I can make Terrasteel, the obvious first step? Make myself some armor.",
-				"",
+				"Now that I can make Terrasteel, the obvious first step? Make myself some armor."
+				""
 				"So, not only does it work like Manasteel armor, repairing with Mana and all, it also is like Diamond Armor in protection."
-			],
-			dependencies: ["00000000000002C2"],
-			id: "00000000000002C9",
+			]
+			dependencies: ["00000000000002C2"]
+			id: "00000000000002C9"
 			tasks: [{
-				id: "00000000000002CA",
-				type: "item",
+				id: "00000000000002CA"
+				type: "item"
 				item: {
-					id: "botania:terrasteel_helmet",
-					Count: 1b,
+					id: "botania:terrasteel_helmet"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002CB",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002CB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Here and Not Here",
-			icon: "botania:abstruse_platform",
-			x: 4.75d,
-			y: -0.75d,
-			shape: "square",
-			subtitle: "&dPlatforming the Right Way",
+			title: "Here and Not Here"
+			icon: "botania:abstruse_platform"
+			x: 4.75d
+			y: -0.75d
+			shape: "square"
+			subtitle: "&dPlatforming the Right Way"
 			description: [
-				"The Abtruse Platform is a neat little construction piece. ",
-				"",
-				"I can use it to make floors like normal, and 'hide' them by Right Clicking most any block onto them to copy it's looks onto the Platform.",
-				"",
+				"The Abtruse Platform is a neat little construction piece. "
+				""
+				"I can use it to make floors like normal, and 'hide' them by Right Clicking most any block onto them to copy it's looks onto the Platform."
+				""
 				"But the secret is these blocks aren't fully solid. If I jump up into them, I can phase through them. Or, if I Sneak on top of them, I'll phase right through them. Handy!"
-			],
-			dependencies: ["0000000000000282"],
-			id: "00000000000002CC",
+			]
+			dependencies: ["0000000000000282"]
+			id: "00000000000002CC"
 			tasks: [{
-				id: "00000000000002CD",
-				type: "item",
+				id: "00000000000002CD"
+				type: "item"
 				item: "botania:abstruse_platform"
 			}]
-		},
+		}
 		{
-			title: "Strike the Earth",
+			title: "Strike the Earth"
 			icon: {
-				id: "botania:terra_pick",
-				Count: 1b,
+				id: "botania:terra_pick"
+				Count: 1b
 				tag: {
-					mana: 9999,
+					mana: 9999
 					Damage: 0
 				}
-			},
-			x: 11.75d,
-			y: 4.25d,
-			shape: "square",
-			subtitle: "&dMoving mountains with style",
+			}
+			x: 11.75d
+			y: 4.25d
+			shape: "square"
+			subtitle: "&dMoving mountains with style"
 			description: [
-				"The Terra Shatterer. I'm not sure if I should be in awe of it or scared of it.",
-				"",
-				"&dLittle of A, little of B.",
-				"",
-				"Fair. The Terra Shatterer is like condensing a giant mining drill into a little pickaxe. And that's without it being fully powered up.",
-				"",
-				"If I Right Click, I can activate and deactivate the Terra Shatterer's power to mine large areas. But to expand the area it effects, I need to charge it with massive amounts of Mana.",
-				"",
-				"Charging the Terra Shatterer like a Mana Tablet will store the Mana permanently. When it has enough Mana, it.... basically levels up. And gets stronger and stronger. The area it can dig gets bigger and bigger when active.",
-				"",
+				"The Terra Shatterer. I'm not sure if I should be in awe of it or scared of it."
+				""
+				"&dLittle of A, little of B."
+				""
+				"Fair. The Terra Shatterer is like condensing a giant mining drill into a little pickaxe. And that's without it being fully powered up."
+				""
+				"If I Right Click, I can activate and deactivate the Terra Shatterer's power to mine large areas. But to expand the area it effects, I need to charge it with massive amounts of Mana."
+				""
+				"Charging the Terra Shatterer like a Mana Tablet will store the Mana permanently. When it has enough Mana, it.... basically levels up. And gets stronger and stronger. The area it can dig gets bigger and bigger when active."
+				""
 				"&dIf you want to limit its power, a Stone &dof Temperance can help, Traveler."
-			],
-			dependencies: ["00000000000002C2"],
-			id: "00000000000002CE",
+			]
+			dependencies: ["00000000000002C2"]
+			id: "00000000000002CE"
 			tasks: [
 				{
-					id: "00000000000002CF",
-					type: "item",
+					id: "00000000000002CF"
+					type: "item"
 					item: {
-						id: "botania:terra_pick",
-						Count: 1b,
+						id: "botania:terra_pick"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000002D0",
-					type: "item",
+					id: "00000000000002D0"
+					type: "item"
 					item: {
-						id: "botania:temperance_stone",
-						Count: 1b,
-						tag: {}
+						id: "botania:temperance_stone"
+						Count: 1b
+						tag: { }
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002D1",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002D1"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Flatlining",
-			icon: "botania:terraform_rod",
-			x: 11.0d,
-			y: 5.25d,
-			shape: "square",
-			subtitle: "&dSuperflat",
+			title: "Flatlining"
+			icon: "botania:terraform_rod"
+			x: 11.0d
+			y: 5.25d
+			shape: "square"
+			subtitle: "&dSuperflat"
 			description: [
-				"One of the big problems I've found building is the ground is really not flat. Which, you know, is kind of obvious when you think about it, but still.",
-				"",
-				"Leveling an area is quite an ordeal. Either I'm placing stacks of dirt, or digging through dirt and stone by the tons.",
-				"",
-				"The Rod of the Shifting Earth is the Botanists solution to this problem. It takes a lot of Mana, but using it will level the terrain as I move. It will place Dirt to fill holes, and destroy everything else to remove material.",
-				"",
+				"One of the big problems I've found building is the ground is really not flat. Which, you know, is kind of obvious when you think about it, but still."
+				""
+				"Leveling an area is quite an ordeal. Either I'm placing stacks of dirt, or digging through dirt and stone by the tons."
+				""
+				"The Rod of the Shifting Earth is the Botanists solution to this problem. It takes a lot of Mana, but using it will level the terrain as I move. It will place Dirt to fill holes, and destroy everything else to remove material."
+				""
 				"I need to write this again to remind myself : It will DESTROY things it digs up. No getting it back. Nada."
-			],
-			dependencies: ["00000000000002C2"],
-			id: "00000000000002D2",
+			]
+			dependencies: ["00000000000002C2"]
+			id: "00000000000002D2"
 			tasks: [{
-				id: "00000000000002D3",
-				type: "item",
+				id: "00000000000002D3"
+				type: "item"
 				item: "botania:terraform_rod"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002D4",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002D4"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Spiked Boomerang",
-			icon: "botania:thorn_chakram",
-			x: 9.5d,
-			y: 5.25d,
-			shape: "square",
-			subtitle: "&dWarrior Prince(ss)",
+			title: "Spiked Boomerang"
+			icon: "botania:thorn_chakram"
+			x: 9.5d
+			y: 5.25d
+			shape: "square"
+			subtitle: "&dWarrior Prince(ss)"
 			description: [
-				"A lot of the Terrasteel tools are quite conventional, being of the axes and swords and whatnot variety.",
-				"",
-				"The Thorn Chakram is a bit different. I can Right Click to throw it, and it'll bounce off blocks, pass through creatures, damage them, then eventually return like a boomerang. What's even better?",
-				"",
+				"A lot of the Terrasteel tools are quite conventional, being of the axes and swords and whatnot variety."
+				""
+				"The Thorn Chakram is a bit different. I can Right Click to throw it, and it'll bounce off blocks, pass through creatures, damage them, then eventually return like a boomerang. What's even better?"
+				""
 				"I can stack up to six of these things and throw them to make a bouncing death field!"
-			],
-			dependencies: ["00000000000002C2"],
-			id: "00000000000002D5",
+			]
+			dependencies: ["00000000000002C2"]
+			id: "00000000000002D5"
 			tasks: [{
-				id: "00000000000002D6",
-				type: "item",
+				id: "00000000000002D6"
+				type: "item"
 				item: "botania:thorn_chakram"
-			}],
+			}]
 			rewards: [{
-				id: "00000000000002D7",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002D7"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Elven Emissary",
-			icon: "botania:natura_pylon",
-			x: 6.25d,
-			y: 3.75d,
-			shape: "square",
-			subtitle: "&dEgh...",
+			title: "Elven Emissary"
+			icon: "botania:natura_pylon"
+			x: 6.25d
+			y: 3.75d
+			shape: "square"
+			subtitle: "&dEgh..."
 			description: [
-				"At one Elves lived here, which doesn't surprise me. But they moved to their own dimension called Alfheim, closed off to everyone from visiting... but not trade.",
-				"",
-				"So the first thing is making a Portal to Alfheim. The Lexica Botania has the frame layout, and I'll also need at least two Mana Pools with Natura Pylons placed atop them.",
-				"",
-				"I need to make sure I have lots of Mana, as opening the Gate takes a ton of power. When I'm ready, I Right Click my Wand of the Forest on the Elven Gateway Core, hopefully a portal!",
-				"",
+				"At one Elves lived here, which doesn't surprise me. But they moved to their own dimension called Alfheim, closed off to everyone from visiting... but not trade."
+				""
+				"So the first thing is making a Portal to Alfheim. The Lexica Botania has the frame layout, and I'll also need at least two Mana Pools with Natura Pylons placed atop them."
+				""
+				"I need to make sure I have lots of Mana, as opening the Gate takes a ton of power. When I'm ready, I Right Click my Wand of the Forest on the Elven Gateway Core, hopefully a portal!"
+				""
 				"If all is good, I can send a greeting and establish communication by throwing my Lexica Botania in to show how I work with nature. I can then toss some Livingwood in to test the trading."
-			],
-			dependencies: ["00000000000002C2"],
-			id: "00000000000002D8",
+			]
+			dependencies: ["00000000000002C2"]
+			id: "00000000000002D8"
 			tasks: [
 				{
-					id: "00000000000002D9",
-					type: "item",
+					id: "00000000000002D9"
+					type: "item"
 					item: "botania:natura_pylon"
-				},
+				}
 				{
-					id: "00000000000002DA",
-					type: "item",
+					id: "00000000000002DA"
+					type: "item"
 					item: "botania:alfheim_portal"
-				},
+				}
 				{
-					id: "00000000000002DB",
-					type: "item",
+					id: "00000000000002DB"
+					type: "item"
 					item: {
-						id: "botania:lexicon",
-						Count: 1b,
+						id: "botania:lexicon"
+						Count: 1b
 						tag: {
 							"botania:elven_unlock": 1b
 						}
 					}
-				},
+				}
 				{
-					id: "00000000000002DD",
-					type: "item",
+					id: "00000000000002DD"
+					type: "item"
 					item: "botania:dreamwood"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002DC",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002DC"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 40
 			}]
-		},
+		}
 		{
-			title: "Games of Cake",
-			icon: "botania:kekimurus",
-			x: 5.5d,
-			y: 2.0d,
-			shape: "square",
-			subtitle: "&dCake is simple, Conway is not.",
+			title: "Games of Cake"
+			icon: "botania:kekimurus"
+			x: 5.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "&dCake is simple, Conway is not."
 			description: [
-				"The Elves open up a whole new set of Generating Flora I can utilize in my garden. Some of them are very... weird.",
-				"",
-				"Take the Kekimuras. It... eats cake to generate Mana. Not any food like the Gourmialys, but only Cake. ",
-				"",
-				"In the end, that's pretty simple. What isn't simple is the Dandelifeon. It needs a big area, 25x25? Because it plays a game to generate Mana.",
-				"",
-				"I've only vaguely understand Conway's Game of Life, but the Dandelifeon plays by extra rules. I need to place Cellular Blocks in the play field, then pass a Redstone Signal to the flower to start.",
-				"",
+				"The Elves open up a whole new set of Generating Flora I can utilize in my garden. Some of them are very... weird."
+				""
+				"Take the Kekimuras. It... eats cake to generate Mana. Not any food like the Gourmialys, but only Cake. "
+				""
+				"In the end, that's pretty simple. What isn't simple is the Dandelifeon. It needs a big area, 25x25? Because it plays a game to generate Mana."
+				""
+				"I've only vaguely understand Conway's Game of Life, but the Dandelifeon plays by extra rules. I need to place Cellular Blocks in the play field, then pass a Redstone Signal to the flower to start."
+				""
 				"When a Cellular Block would 'grow' in the area directly around the Dandelifeon, it'll instead generate Mana. I can't start the game with it surrounded, since the Cellular Blocks need to 'grow' naturally according to the game rules."
-			],
-			dependencies: ["00000000000002D8"],
-			id: "00000000000002DE",
+			]
+			dependencies: ["00000000000002D8"]
+			id: "00000000000002DE"
 			tasks: [
 				{
-					id: "00000000000002DF",
-					type: "item",
+					id: "00000000000002DF"
+					type: "item"
 					item: "botania:kekimurus"
-				},
+				}
 				{
-					id: "00000000000002E0",
-					type: "item",
+					id: "00000000000002E0"
+					type: "item"
 					item: "botania:dandelifeon"
-				},
+				}
 				{
-					id: "00000000000002E1",
-					type: "item",
+					id: "00000000000002E1"
+					type: "item"
 					item: "botania:cell_block"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002E2",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002E2"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 30
 			}]
-		},
+		}
 		{
-			title: "Fights and Finds",
-			icon: "botania:heisei_dream",
-			x: 4.75d,
-			y: 3.0d,
-			shape: "square",
-			subtitle: "&dGoodies either way",
+			title: "Fights and Finds"
+			icon: "botania:heisei_dream"
+			x: 4.75d
+			y: 3.0d
+			shape: "square"
+			subtitle: "&dGoodies either way"
 			description: [
-				"Elven materials lets us make some pretty useful Functional Flora. ",
-				"",
-				"Like the Heisei Dream. Though its a nightmare for hostile enemies around me, as it causes them to see each other as the enemy, making them fight each other instead of me.",
-				"",
-				"On the more constructive side, the Orechild will use Mana to transform nearby Stone into Ore. Rarer ores will be less common, of course, but I can probably set up some sort of automated process to mine and refill the area.",
-				"",
+				"Elven materials lets us make some pretty useful Functional Flora. "
+				""
+				"Like the Heisei Dream. Though its a nightmare for hostile enemies around me, as it causes them to see each other as the enemy, making them fight each other instead of me."
+				""
+				"On the more constructive side, the Orechild will use Mana to transform nearby Stone into Ore. Rarer ores will be less common, of course, but I can probably set up some sort of automated process to mine and refill the area."
+				""
 				"I should also look into the Nether variation called the Orechild Ignem. "
-			],
-			dependencies: ["00000000000002D8"],
-			id: "00000000000002E3",
+			]
+			dependencies: ["00000000000002D8"]
+			id: "00000000000002E3"
 			tasks: [
 				{
-					id: "00000000000002E4",
-					type: "item",
+					id: "00000000000002E4"
+					type: "item"
 					item: "botania:heisei_dream"
-				},
+				}
 				{
-					id: "00000000000002E5",
-					type: "item",
+					id: "00000000000002E5"
+					type: "item"
 					item: "botania:orechid"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002E6",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002E6"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Element of Gear",
+			title: "Element of Gear"
 			icon: {
-				id: "botania:elementium_helmet",
-				Count: 1b,
+				id: "botania:elementium_helmet"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: 4.75d,
-			y: 4.25d,
-			shape: "square",
-			subtitle: "&dPinky Power",
+			}
+			x: 4.75d
+			y: 4.25d
+			shape: "square"
+			subtitle: "&dPinky Power"
 			description: [
-				"The Terrasteel Tools are quite amazing, but they are kind of... expensive to create. I need something somewhat easier to make, even if it isn't as powerful. And well, Elementium items fit the bill.",
-				"",
-				"Elementium Armor is nice as it provides a good bit of protection, and not just pure defense. Each piece I wear gives a chance at summoning a magical pixie to help defend me, since to them the best defense is offense I guess.",
-				"",
+				"The Terrasteel Tools are quite amazing, but they are kind of... expensive to create. I need something somewhat easier to make, even if it isn't as powerful. And well, Elementium items fit the bill."
+				""
+				"Elementium Armor is nice as it provides a good bit of protection, and not just pure defense. Each piece I wear gives a chance at summoning a magical pixie to help defend me, since to them the best defense is offense I guess."
+				""
 				"The tools won't be as destructively powerful as the Terra Shatterer, but they have their own benefits. Like the Elementium Shears, if I hold Right Click and charge it like I'm drawing an arrow, all nearby Sheep will be magically sheared."
-			],
-			dependencies: ["00000000000002D8"],
-			id: "00000000000002E7",
+			]
+			dependencies: ["00000000000002D8"]
+			id: "00000000000002E7"
 			tasks: [
 				{
-					id: "00000000000002E8",
-					type: "item",
+					id: "00000000000002E8"
+					type: "item"
 					item: {
-						id: "botania:elementium_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "00000000000002E9",
-					type: "item",
-					item: {
-						id: "botania:elementium_shears",
-						Count: 1b,
+						id: "botania:elementium_helmet"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "00000000000002E9"
+					type: "item"
+					item: {
+						id: "botania:elementium_shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "00000000000002EA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002EA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Bridges and Gravity",
-			icon: "botania:rainbow_rod",
-			x: 5.5d,
-			y: 5.25d,
-			shape: "square",
-			subtitle: "&dCrowbar not included",
+			title: "Bridges and Gravity"
+			icon: "botania:rainbow_rod"
+			x: 5.5d
+			y: 5.25d
+			shape: "square"
+			subtitle: "&dCrowbar not included"
 			description: [
-				"Elven materials make some great Rods, I have to say. ",
-				"",
-				"Like the Rod of the Bifrost. Legend says the Bifrost is a rainbow bridge connecting the mortal realm to the gods. Which would be neat, but I'm kind of glad this one only makes a normal, magical rainbow bridge. Dealing with The Gods sounds annoying.",
-				"",
-				"The Rod of the Shaded Mesa is sort of a... magical grabby tool. Kind of like those extended claw grip thingies. Or maybe some sort of gravity controlling gun.",
-				"",
+				"Elven materials make some great Rods, I have to say. "
+				""
+				"Like the Rod of the Bifrost. Legend says the Bifrost is a rainbow bridge connecting the mortal realm to the gods. Which would be neat, but I'm kind of glad this one only makes a normal, magical rainbow bridge. Dealing with The Gods sounds annoying."
+				""
+				"The Rod of the Shaded Mesa is sort of a... magical grabby tool. Kind of like those extended claw grip thingies. Or maybe some sort of gravity controlling gun."
+				""
 				"I can Right Click to 'pick up' creatures and stuff, then Right Click to release them. Or, Left Click to launch them away."
-			],
-			dependencies: ["00000000000002D8"],
-			id: "00000000000002EB",
+			]
+			dependencies: ["00000000000002D8"]
+			id: "00000000000002EB"
 			tasks: [
 				{
-					id: "00000000000002EC",
-					type: "item",
+					id: "00000000000002EC"
+					type: "item"
 					item: "botania:rainbow_rod"
-				},
+				}
 				{
-					id: "00000000000002ED",
-					type: "item",
+					id: "00000000000002ED"
+					type: "item"
 					item: "botania:gravity_rod"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002EE",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002EE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Magical Item Index",
-			icon: "botania:corporea_spark_master",
-			x: 7.0d,
-			y: 5.25d,
-			shape: "square",
-			subtitle: "&dComputer, find me some food",
+			title: "Magical Item Index"
+			icon: "botania:corporea_spark_master"
+			x: 7.0d
+			y: 5.25d
+			shape: "square"
+			subtitle: "&dComputer, find me some food"
 			description: [
-				"I have so many items to store and track, just using chests and drawers and stuff makes it easy to lose items. Advanced Botanists, however, have access to a system called Corporea.",
-				"",
-				"I make a Corporea Network by putting the Master Corporea Spark on an inventory, and other Inventories connect with normal Corporea Sparks. I can Dye them like normal Sparks, and each color is its own network.",
-				"",
-				"To access the network, I could use the Corporea Crystal Cube and right click an item on it to see how many of it are in the network. I can then Left Click to pull one out, or Sneak + Left Click to pull a stack out.",
-				"",
+				"I have so many items to store and track, just using chests and drawers and stuff makes it easy to lose items. Advanced Botanists, however, have access to a system called Corporea."
+				""
+				"I make a Corporea Network by putting the Master Corporea Spark on an inventory, and other Inventories connect with normal Corporea Sparks. I can Dye them like normal Sparks, and each color is its own network."
+				""
+				"To access the network, I could use the Corporea Crystal Cube and right click an item on it to see how many of it are in the network. I can then Left Click to pull one out, or Sneak + Left Click to pull a stack out."
+				""
 				"Alternatively, I can use the Corporea Index. I can get close to the Index, and just say what I'm looking for. Like \"3 Pumpkin Pie\" and if its in the network, it'll give them to me."
-			],
-			dependencies: ["00000000000002D8"],
-			id: "00000000000002EF",
+			]
+			dependencies: ["00000000000002D8"]
+			id: "00000000000002EF"
 			tasks: [
 				{
-					id: "00000000000002F0",
-					type: "item",
+					id: "00000000000002F0"
+					type: "item"
 					item: "botania:corporea_spark_master"
-				},
+				}
 				{
-					id: "00000000000002F1",
-					type: "item",
+					id: "00000000000002F1"
+					type: "item"
 					item: "botania:corporea_spark"
-				},
+				}
 				{
-					id: "00000000000002F2",
-					type: "item",
+					id: "00000000000002F2"
+					type: "item"
 					item: "botania:corporea_crystal_cube"
-				},
+				}
 				{
-					id: "00000000000002F3",
-					type: "item",
+					id: "00000000000002F3"
+					type: "item"
 					item: "botania:corporea_index"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002F4",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002F4"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 35
 			}]
-		},
+		}
 		{
-			title: "Earth's Guardian",
-			icon: "botania:life_essence",
-			x: 8.25d,
-			y: 4.5d,
-			shape: "square",
-			subtitle: "&dSuperkamiguru?",
+			title: "Earth's Guardian"
+			icon: "botania:life_essence"
+			x: 8.25d
+			y: 4.5d
+			shape: "square"
+			subtitle: "&dSuperkamiguru?"
 			description: [
-				"The elves speak of a great challenge to any warrior: Facing a spirit of Gaia, the Earth itself. It is a dangerous undertaking, but one that is supposed to yield powerful items and knowledge.",
-				"",
-				"I need to make a Beacon, and some Gaia Pylons for the arena. The arena needs to be big and flat, and I can't very easily cheese it with technology and magic. This is a warrior's test, so...",
-				"",
-				"I should have something like Elementium or Terrasteel armor, a powerful weapon, and a lot of potions and buffs. The fight is not only against Gaia, but a slew of monsters as well.",
-				"",
+				"The elves speak of a great challenge to any warrior: Facing a spirit of Gaia, the Earth itself. It is a dangerous undertaking, but one that is supposed to yield powerful items and knowledge."
+				""
+				"I need to make a Beacon, and some Gaia Pylons for the arena. The arena needs to be big and flat, and I can't very easily cheese it with technology and magic. This is a warrior's test, so..."
+				""
+				"I should have something like Elementium or Terrasteel armor, a powerful weapon, and a lot of potions and buffs. The fight is not only against Gaia, but a slew of monsters as well."
+				""
 				"When I'm ready to fight, I should Sneak + Right Click a terrasteel Ingot onto the Beacon. My reward for suviving is some rare drops, include Gaia Spirits, which make some of the most powerful items."
-			],
+			]
 			dependencies: [
-				"00000000000002D8",
+				"00000000000002D8"
 				"00000000000002C2"
-			],
-			id: "00000000000002F5",
+			]
+			id: "00000000000002F5"
 			tasks: [
 				{
-					id: "00000000000002F6",
-					type: "item",
+					id: "00000000000002F6"
+					type: "item"
 					item: "botania:gaia_pylon"
-				},
+				}
 				{
-					id: "00000000000002F9",
-					type: "item",
+					id: "00000000000002F9"
+					type: "item"
 					item: "botania:life_essence"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000002FA",
-				type: "item",
-				item: "calemiutils:coin_dollar",
+				id: "00000000000002FA"
+				type: "item"
+				item: "calemiutils:coin_platinum"
 				count: 40
 			}]
-		},
+		}
 		{
-			title: "A Second Challenge",
-			x: 8.25d,
-			y: 3.0d,
-			shape: "heart",
-			subtitle: "&dWhat is this, a Sensu Bean?",
+			title: "A Second Challenge"
+			x: 8.25d
+			y: 3.0d
+			shape: "heart"
+			subtitle: "&dWhat is this, a Sensu Bean?"
 			description: [
-				"Now that I've defeated the Gaia Guardian, the Elves mention that I can face an even greater challenge : By creating a Gaia Spirit Ingot, I can challenge the Gaia Guardian at their full power.",
-				"",
-				"Using it to summon the Gaia Guardian instead of a Terrasteel Ingot, will call them with way more health, power, and defenses. If I can survive and defeat them, my rewards are said to be almost godlike.",
-				"",
+				"Now that I've defeated the Gaia Guardian, the Elves mention that I can face an even greater challenge : By creating a Gaia Spirit Ingot, I can challenge the Gaia Guardian at their full power."
+				""
+				"Using it to summon the Gaia Guardian instead of a Terrasteel Ingot, will call them with way more health, power, and defenses. If I can survive and defeat them, my rewards are said to be almost godlike."
+				""
 				"&dFor my reward, however, all I'm asking &dyou is to defeat the Gaia Guardian, in &dwhichever form, at least one more &dtime."
-			],
-			dependencies: ["00000000000002F5"],
-			id: "00000000000002F7",
+			]
+			dependencies: ["00000000000002F5"]
+			id: "00000000000002F7"
 			tasks: [{
-				id: "00000000000002F8",
-				type: "kill",
-				icon: "botania:gaia_head",
-				entity: "botania:doppleganger",
+				id: "00000000000002F8"
+				type: "kill"
+				icon: "botania:gaia_head"
+				entity: "botania:doppleganger"
 				value: 1L
 			}]
-		},
+		}
 		{
-			title: "&dLesson Complete: Botania",
-			icon: {
-				id: "contenttweaker:forbiddencoin",
-				Count: 51b
-			},
-			x: 8.25d,
-			y: 5.75d,
-			shape: "pentagon",
-			hide_dependency_lines: true,
+			title: "&dLesson Complete: Botania"
+			icon: { id: "contenttweaker:forbiddencoin", Count: 51b }
+			x: 8.25d
+			y: 5.75d
+			shape: "pentagon"
+			hide_dependency_lines: true
 			dependencies: [
-				"0000000000000251",
-				"0000000000000298",
-				"0000000000000293",
-				"0000000000000291",
-				"00000000000002A3",
-				"000000000000029F",
-				"00000000000002A6",
-				"00000000000002BB",
-				"00000000000002AF",
-				"00000000000002B3",
-				"00000000000002B7",
-				"00000000000002AD",
-				"00000000000002A9",
-				"00000000000002C9",
-				"00000000000002C6",
-				"00000000000002CE",
-				"00000000000002D2",
-				"00000000000002D5",
-				"00000000000002F7",
-				"00000000000002EF",
-				"00000000000002EB",
-				"00000000000002E7",
-				"00000000000002E3",
+				"0000000000000251"
+				"0000000000000298"
+				"0000000000000293"
+				"0000000000000291"
+				"00000000000002A3"
+				"000000000000029F"
+				"00000000000002A6"
+				"00000000000002BB"
+				"00000000000002AF"
+				"00000000000002B3"
+				"00000000000002B7"
+				"00000000000002AD"
+				"00000000000002A9"
+				"00000000000002C9"
+				"00000000000002C6"
+				"00000000000002CE"
+				"00000000000002D2"
+				"00000000000002D5"
+				"00000000000002F7"
+				"00000000000002EF"
+				"00000000000002EB"
+				"00000000000002E7"
+				"00000000000002E3"
 				"00000000000002DE"
-			],
-			size: 1.25d,
-			id: "10B79772A824DC1A",
+			]
+			size: 1.25d
+			id: "10B79772A824DC1A"
 			tasks: [{
-				id: "28832D89E421C3CE",
-				type: "checkmark",
-				icon: {
-					id: "contenttweaker:forbiddencoin",
-					Count: 51b
-				}
-			}],
+				id: "28832D89E421C3CE"
+				type: "checkmark"
+				icon: { id: "contenttweaker:forbiddencoin", Count: 51b }
+			}]
 			rewards: [{
-				id: "12B274D922D073B7",
-				type: "item",
-				item: "contenttweaker:forbiddencoin",
+				id: "12B274D922D073B7"
+				type: "item"
+				item: "contenttweaker:forbiddencoin"
 				count: 4
 			}]
 		}

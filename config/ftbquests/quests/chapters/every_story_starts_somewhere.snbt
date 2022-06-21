@@ -1,135 +1,136 @@
 {
-	id: "0000000000000002",
-	group: "",
-	order_index: 0,
-	filename: "every_story_starts_somewhere",
-	title: "Every Story Starts Somewhere",
-	icon: "minecraft:writable_book",
-	default_quest_shape: "",
+	id: "0000000000000002"
+	group: ""
+	order_index: 0
+	filename: "every_story_starts_somewhere"
+	title: "Every Story Starts Somewhere"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "minecraft:crimson_door",
-			x: 0.5d,
-			y: -7.0d,
-			shape: "pentagon",
-			subtitle: "Here we go again...",
+			icon: "minecraft:crimson_door"
+			x: 0.5d
+			y: -7.0d
+			shape: "pentagon"
+			subtitle: "Here we go again..."
 			description: [
-				"How does this keep happening to you? First it was that lab test, then it was that trip home.... but this time you can only blame yourself.",
-				"",
-				"The door was, obviously, locked. It was covered in warnings. Heck, there was even a guard there, right?",
-				"",
-				"Okay, so you were said guard, right? But that's besides the point. You only got the job cause you needed to pay for some augments. And computer parts ain't cheap...",
-				"",
+				"How does this keep happening to you? First it was that lab test, then it was that trip home.... but this time you can only blame yourself."
+				""
+				"The door was, obviously, locked. It was covered in warnings. Heck, there was even a guard there, right?"
+				""
+				"Okay, so you were said guard, right? But that's besides the point. You only got the job cause you needed to pay for some augments. And computer parts ain't cheap..."
+				""
 				"Well, they can't blame you for checking behind the door. I mean, you aren't there to blame, right? Hey, at least you got your backpack with you! You were smart enough to do it off the clock, at least."
-			],
-			size: 1.75d,
-			id: "0000000000000006",
+			]
+			size: 1.75d
+			id: "0000000000000006"
 			tasks: [{
-				id: "0000000000000007",
-				type: "checkmark",
-				title: "Falling, Falling...",
+				id: "0000000000000007"
+				type: "checkmark"
+				title: "Falling, Falling..."
 				icon: "iceandfire:dreadwood_planks_lock"
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: -4.0d,
-			subtitle: "What's in my bag?",
+			x: 0.5d
+			y: -4.0d
+			subtitle: "What's in my bag?"
 			description: [
-				"Okay, don't panic. Let's take stock of what I have...",
-				"",
-				"My knife, always useful. Pops taught me well.",
-				"",
-				"My smartphone. An older model. And it doesn't seem to work right here...only people chatting are these weird guys that all say Hmmmm. ",
-				"",
-				"My tablet, which I'm typing this into. Though the name is now \"Quest Journal\" ? Weird...",
-				"",
-				"Oh neat, my book on animals, I forgot I packed that.",
-				"",
-				"And finally, my lunch. Mm, chicken sandwiches. I better ration them though...",
-				"",
+				"Okay, don't panic. Let's take stock of what I have..."
+				""
+				"My knife, always useful. Pops taught me well."
+				""
+				"My smartphone. An older model. And it doesn't seem to work right here...only people chatting are these weird guys that all say Hmmmm. "
+				""
+				"My tablet, which I'm typing this into. Though the name is now \"Quest Journal\" ? Weird..."
+				""
+				"Oh neat, my book on animals, I forgot I packed that."
+				""
+				"And finally, my lunch. Mm, chicken sandwiches. I better ration them though..."
+				""
 				"No wait, my belt. Right, I had the company Building Gadget since I was supposed to construct more barriers in front of the door... this'll come in handy!"
-			],
-			dependencies: ["0000000000000006"],
-			hide: true,
-			id: "0000000000000008",
+			]
+			dependencies: ["0000000000000006"]
+			hide: true
+			id: "0000000000000008"
 			tasks: [{
-				id: "0000000000000009",
-				type: "checkmark",
-				title: "Taking Stock",
+				id: "0000000000000009"
+				type: "checkmark"
+				title: "Taking Stock"
 				icon: {
-					id: "quark:seed_pouch",
-					Count: 1b,
+					id: "quark:seed_pouch"
+					Count: 1b
 					tag: {
 						storedItem: {
-							id: "pamhc2crops:rutabagaseeditem",
+							id: "pamhc2crops:rutabagaseeditem"
 							Count: 1b
-						},
-						Damage: 1,
+						}
+						Damage: 1
 						itemCount: 640
 					}
 				}
 			}]
-		},
+		}
 		{
-			title: "You know the tree.",
-			x: 0.5d,
-			y: -2.0d,
-			shape: "square",
-			subtitle: "Drill. I mean Drill.",
+			title: "You know the tree."
+			x: 0.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "Drill. I mean Drill."
 			description: [
-				"Okay... survival manual time... what did it say when lost in an entirely new world you've never seen, with creatures you've only read in story books?",
-				"",
-				"Right, uh... it said build a small shelter. Okay, I think we'll need wood for that. But I only have my knife...",
-				"",
-				"Well, we COULD use it to get a few logs at least, enough to make a wooden axe? What else did it say....",
-				"",
-				"OH, right! Wilderness Survival Tip 1 : When chopping wood, mining stone or ore, or generally breaking any material, if I hold ~ (grave key), it'll also break the same material touching it. ",
-				"",
+				"Okay... survival manual time... what did it say when lost in an entirely new world you've never seen, with creatures you've only read in story books?"
+				""
+				"Right, uh... it said build a small shelter. Okay, I think we'll need wood for that. But I only have my knife..."
+				""
+				"Well, we COULD use it to get a few logs at least, enough to make a wooden axe? What else did it say...."
+				""
+				"OH, right! Wilderness Survival Tip 1 : When chopping wood, mining stone or ore, or generally breaking any material, if I hold ~ (grave key), it'll also break the same material touching it. "
+				""
 				"Let's just grab some wood then."
-			],
-			dependencies: ["0000000000000008"],
-			hide: true,
-			id: "000000000000000A",
+			]
+			dependencies: ["0000000000000008"]
+			hide: true
+			id: "000000000000000A"
 			tasks: [{
-				id: "000000000000000B",
-				type: "item",
-				title: "10 Wooden Logs (any kind)",
+				id: "000000000000000B"
+				type: "item"
+				title: "10 Wooden Logs (any kind)"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "minecraft:logs"
 					}
-				},
+				}
 				count: 10L
 			}]
-		},
+		}
 		{
-			title: "&6Pack Notes 1",
-			icon: "smartphone:smartphone_item",
-			x: 3.0d,
-			y: -4.0d,
-			shape: "gear",
-			subtitle: "Things to Keep in Mind",
+			title: "&6Pack Notes 1"
+			icon: "smartphone:smartphone_item"
+			x: 3.0d
+			y: -4.0d
+			shape: "gear"
+			subtitle: "Things to Keep in Mind"
 			description: [
-				"&6Here are some helpful &6tips for &6navigating this QUEST Journal:",
-				"",
-				"&6Text Color is &6important! &fWhite text is your own voice. &5Other colors are &5NPCs or quest notes.",
-				"",
-				"&6Quest Shape denotes type of quest!",
-				"&6  Circles are Dialogue/Information!",
-				"&6  Squares are Collect (and keep) &6quests!",
-				"&6  Diamonds are Collect (and turn in) &6quests!",
-				"&6  Hearts are Kill quests!",
-				"&6  Gears are Side Info/Pack Maker &6Notes",
+				"&6Here are some helpful &6tips for &6navigating this QUEST Journal:"
+				""
+				"&6Text Color is &6important! &fWhite text is your own voice. &5Other colors are &5NPCs or quest notes."
+				""
+				"&6Quest Shape denotes type of quest!"
+				"&6  Circles are Dialogue/Information!"
+				"&6  Squares are Collect (and keep) &6quests!"
+				"&6  Diamonds are Collect (and turn in) &6quests!"
+				"&6  Hearts are Kill quests!"
+				"&6  Gears are Side Info/Pack Maker &6Notes"
 				"&6 Pentagons unlock when you complete a Questline fully!"
-			],
-			dependencies: ["0000000000000008"],
-			id: "000000000000000F",
+			]
+			dependencies: ["0000000000000008"]
+			id: "000000000000000F"
 			tasks: [{
-				id: "0000000000000010",
-				type: "checkmark",
+				id: "0000000000000010"
+				type: "checkmark"
 				title: "&6 Pack Notes"
 			}]
 		}

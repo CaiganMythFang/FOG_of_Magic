@@ -1,501 +1,502 @@
 {
-	id: "000000000000000C",
-	group: "",
-	order_index: 1,
-	filename: "listen_to_me_meow",
-	title: "Listen to Me, Meow",
-	icon: "botania:cosmetic_cat_ears",
-	default_quest_shape: "",
+	id: "000000000000000C"
+	group: ""
+	order_index: 1
+	filename: "listen_to_me_meow"
+	title: "Listen to Me, Meow"
+	icon: "botania:cosmetic_cat_ears"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	images: [{
-		x: 1.0d,
-		y: -0.5d,
-		width: 3.0d,
-		height: 3.0d,
-		rotation: 0.0d,
-		image: "fom:textures/quests/mysteriouscat.png",
-		hover: [],
-		click: "",
-		dev: false,
+		x: 1.0d
+		y: -0.5d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "fom:textures/quests/mysteriouscat.png"
+		hover: [ ]
+		click: ""
+		dev: false
 		corner: false
-	}],
+	}]
 	quests: [
 		{
-			title: "&dAnd Who Are You?",
-			icon: "botania:cosmetic_questgiver_mark",
-			x: 1.0d,
-			y: -2.0d,
-			subtitle: "A strange cat approaches?",
+			title: "&dAnd Who Are You?"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 1.0d
+			y: -2.0d
+			subtitle: "A strange cat approaches?"
 			description: [
-				"Okay, who the heck are you, and why are you in my tablet?",
-				"",
-				"&dNo, who are YOU? And... WHAT are you?",
-				"",
-				"I asked first, you know?",
-				"",
-				"&dTch, I guess the connection was &dsuccesful. Not what I expected, &dhowever...",
-				"",
-				"HEY, I asked a...",
-				"",
-				"&dQuiet! I'm making sure I didn't get the &dritual wrong...",
-				"",
+				"Okay, who the heck are you, and why are you in my tablet?"
+				""
+				"&dNo, who are YOU? And... WHAT are you?"
+				""
+				"I asked first, you know?"
+				""
+				"&dTch, I guess the connection was &dsuccesful. Not what I expected, &dhowever..."
+				""
+				"HEY, I asked a..."
+				""
+				"&dQuiet! I'm making sure I didn't get the &dritual wrong..."
+				""
 				"Ritual? What the heck are you talking about?!"
-			],
-			dependencies: ["000000000000000A"],
-			hide: true,
-			id: "000000000000000D",
+			]
+			dependencies: ["000000000000000A"]
+			hide: true
+			id: "000000000000000D"
 			tasks: [{
-				id: "000000000000000E",
+				id: "000000000000000E"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "&dDrat, It was successful...",
-			icon: "immersiveengineering:wire_copper",
-			x: 2.5d,
-			y: -0.5d,
-			subtitle: "The Stare Down",
+			title: "&dDrat, It was successful..."
+			icon: "immersiveengineering:wire_copper"
+			x: 2.5d
+			y: -0.5d
+			subtitle: "The Stare Down"
 			description: [
-				"Look, if you don't answer, I'm throwing this tablet into the nearest lake...",
-				"",
-				"&dGo ahead.",
-				"",
-				"Wait...what?",
-				"",
-				"&dDo it. It'd probably save both of us a &dheadache. ",
-				"",
-				"...",
-				"",
-				"&dDid you do it yet? Hurry up. Come on, &dmages don't have all day!",
-				"",
-				"Uh...",
-				"",
+				"Look, if you don't answer, I'm throwing this tablet into the nearest lake..."
+				""
+				"&dGo ahead."
+				""
+				"Wait...what?"
+				""
+				"&dDo it. It'd probably save both of us a &dheadache. "
+				""
+				"..."
+				""
+				"&dDid you do it yet? Hurry up. Come on, &dmages don't have all day!"
+				""
+				"Uh..."
+				""
 				"&dOh, listening now? "
-			],
-			dependencies: ["000000000000000D"],
-			id: "0000000000000011",
+			]
+			dependencies: ["000000000000000D"]
+			id: "0000000000000011"
 			tasks: [{
-				id: "0000000000000012",
-				type: "checkmark",
+				id: "0000000000000012"
+				type: "checkmark"
 				title: "A Strange Friend"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 1.0d,
-			subtitle: "A wizard with no hat?",
+			x: 1.0d
+			y: 1.0d
+			subtitle: "A wizard with no hat?"
 			description: [
-				"Wait, mage? Bull...",
-				"",
-				"&dLanguage. But yes. I'm a mage. &dTechnically a Technomancer, but can &dwe &dskip the whole 'O M G prove it' and &d'do &da trick!' rigamarole? It gets tired &dafter the 50th time...",
-				"",
-				"But how...",
-				"",
-				"&dI'm literally writing in your personal &dtablet, that has no internet &dconnection, and which is not running &dout of battery.",
-				"",
-				"Oh. Point.",
-				"",
+				"Wait, mage? Bull..."
+				""
+				"&dLanguage. But yes. I'm a mage. &dTechnically a Technomancer, but can &dwe &dskip the whole 'O M G prove it' and &d'do &da trick!' rigamarole? It gets tired &dafter the 50th time..."
+				""
+				"But how..."
+				""
+				"&dI'm literally writing in your personal &dtablet, that has no internet &dconnection, and which is not running &dout of battery."
+				""
+				"Oh. Point."
+				""
 				"&dFINALLY someone with a brain cell! Now &dwe can help each other."
-			],
-			dependencies: ["0000000000000011"],
-			id: "0000000000000013",
+			]
+			dependencies: ["0000000000000011"]
+			id: "0000000000000013"
 			tasks: [{
-				id: "0000000000000014",
-				type: "checkmark",
-				title: "&dYes, I said Mage",
+				id: "0000000000000014"
+				type: "checkmark"
+				title: "&dYes, I said Mage"
 				icon: {
-					id: "eidolon:warlock_hat",
-					Count: 1b,
+					id: "eidolon:warlock_hat"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			title: "A Test of Iron",
-			x: 0.0d,
-			y: 2.0d,
-			shape: "diamond",
-			subtitle: "Self Sufficiency",
+			title: "A Test of Iron"
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Self Sufficiency"
 			description: [
-				"So who the hell are you?",
-				"",
-				"&dAgain, language. But... well, you may call me Kow, pronounced like CO-operate. Technically a technomancer. That &dmeans I work magic with &dtechnology.",
-				"",
-				"Okay that sounds cool. So where are you?",
-				"",
-				"&dShouldn't you be asking where are &dYOU? That's more important, I think.",
-				"",
-				"Point...",
-				"",
-				"&dRight, you ain't in Kansas anymore, &dtraveler. I can tell you that much.",
-				"",
-				"No kidding!",
-				"",
+				"So who the hell are you?"
+				""
+				"&dAgain, language. But... well, you may call me Kow, pronounced like CO-operate. Technically a technomancer. That &dmeans I work magic with &dtechnology."
+				""
+				"Okay that sounds cool. So where are you?"
+				""
+				"&dShouldn't you be asking where are &dYOU? That's more important, I think."
+				""
+				"Point..."
+				""
+				"&dRight, you ain't in Kansas anymore, &dtraveler. I can tell you that much."
+				""
+				"No kidding!"
+				""
 				"&dSnarky and observant. We'll get along &dwell. Okay, traveler, I need you to &dprove you are self-sufficient while I &dexplain things to you. Go get me some &dIron Ingots."
-			],
-			dependencies: ["0000000000000013"],
-			hide: true,
-			id: "0000000000000015",
+			]
+			dependencies: ["0000000000000013"]
+			hide: true
+			id: "0000000000000015"
 			tasks: [{
-				id: "0000000000000016",
-				type: "item",
-				title: "2 Iron Ingots",
+				id: "0000000000000016"
+				type: "item"
+				title: "2 Iron Ingots"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "forge:ingots/iron"
 					}
-				},
+				}
 				count: 2L
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000017",
-				type: "item",
+				id: "0000000000000017"
+				type: "item"
 				item: {
-					id: "minecraft:potion",
-					Count: 1b,
+					id: "minecraft:potion"
+					Count: 1b
 					tag: {
 						Potion: "minecraft:healing"
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 2.0d,
-			subtitle: "Am I seriously in another one of these?!?!",
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Am I seriously in another one of these?!?!"
 			description: [
-				"&dOkay, so, I've figured out which &ddimension you are from...",
-				"",
-				"D...dimension?!",
-				"",
-				"&dStop interrupting. Yes, this is why I &dcall you Traveler. You've stepped out &dof your dimension and into... well, one &dI've not seen before.",
-				"",
-				"Oh no. Oh no no no I'm in an Isekai?!",
-				"",
-				"&dPhahahaha, not quite how I'd put it, but &dyeah, sure, think of it like that.",
-				"",
-				"Can you get me home?!",
-				"",
+				"&dOkay, so, I've figured out which &ddimension you are from..."
+				""
+				"D...dimension?!"
+				""
+				"&dStop interrupting. Yes, this is why I &dcall you Traveler. You've stepped out &dof your dimension and into... well, one &dI've not seen before."
+				""
+				"Oh no. Oh no no no I'm in an Isekai?!"
+				""
+				"&dPhahahaha, not quite how I'd put it, but &dyeah, sure, think of it like that."
+				""
+				"Can you get me home?!"
+				""
 				"&dMmm, by what I can tell? No..."
-			],
-			dependencies: ["0000000000000015"],
-			hide: true,
-			id: "0000000000000018",
+			]
+			dependencies: ["0000000000000015"]
+			hide: true
+			id: "0000000000000018"
 			tasks: [{
-				id: "0000000000000019",
-				type: "checkmark",
-				title: "Where in the World...",
+				id: "0000000000000019"
+				type: "checkmark"
+				title: "Where in the World..."
 				icon: "chanceglobe:chance_globe"
 			}]
-		},
+		}
 		{
-			title: "Breaking of Bread",
-			x: 0.0d,
-			y: 4.0d,
-			shape: "diamond",
-			subtitle: "What an old tradition....",
+			title: "Breaking of Bread"
+			x: 0.0d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "What an old tradition...."
 			description: [
-				"Where the heck did the Iron Ingots go?!",
-				"",
-				"&dMagic.",
-				"",
-				"...",
-				"",
-				"&dFine. I used some of my code-spell to &dinstall a matter transmitter to your &dtablet. That Iron was just to test it.",
-				"",
-				"Wait...a dimensional teleporter... And if it failed?!",
-				"",
-				"&dRemember the lake threat? No, but &dreally it'd probably just burn our &dconnection and you'd be on your own.",
-				"",
-				"Okay, so it works. Now what?",
-				"",
+				"Where the heck did the Iron Ingots go?!"
+				""
+				"&dMagic."
+				""
+				"..."
+				""
+				"&dFine. I used some of my code-spell to &dinstall a matter transmitter to your &dtablet. That Iron was just to test it."
+				""
+				"Wait...a dimensional teleporter... And if it failed?!"
+				""
+				"&dRemember the lake threat? No, but &dreally it'd probably just burn our &dconnection and you'd be on your own."
+				""
+				"Okay, so it works. Now what?"
+				""
 				"&dI got a bit more to explain to you. But &dbefore I &dreally start helping you, we &dneed to break bread."
-			],
+			]
 			dependencies: [
-				"0000000000000015",
+				"0000000000000015"
 				"0000000000000018"
-			],
-			hide: true,
-			id: "000000000000001A",
+			]
+			hide: true
+			id: "000000000000001A"
 			tasks: [{
-				id: "000000000000001B",
-				type: "item",
-				title: "Bread",
+				id: "000000000000001B"
+				type: "item"
+				title: "Bread"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "forge:bread/bread"
 					}
-				},
+				}
 				consume_items: true
 			}]
-		},
+		}
 		{
-			icon: "rats:rat_upgrade_angel",
-			x: 2.0d,
-			y: 4.0d,
-			subtitle: "Indecipherable Whims",
+			icon: "rats:rat_upgrade_angel"
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Indecipherable Whims"
 			description: [
-				"&dI know the next question. And the &danswer is: I don't know, but I have &dideas.",
-				"",
-				"You don't know why you can't get me home?",
-				"",
-				"&dBingo. This isn't the first time, really. &dLike I said... you get tired of this spiel &dafter fifty times, &dright?",
-				"",
-				"Ugh, right... So what is your idea?",
-				"",
-				"&dIdeas. The main thought is some God &dor Goddess has locked ya'll here for &da reason.",
-				"",
-				"Those don't...",
-				"",
-				"&dOh they exist, at least in your &ddimension. But you don't gotta believe &dIN them. Subtle difference.",
-				"",
-				"That is...a very weird way to put it...",
-				"",
+				"&dI know the next question. And the &danswer is: I don't know, but I have &dideas."
+				""
+				"You don't know why you can't get me home?"
+				""
+				"&dBingo. This isn't the first time, really. &dLike I said... you get tired of this spiel &dafter fifty times, &dright?"
+				""
+				"Ugh, right... So what is your idea?"
+				""
+				"&dIdeas. The main thought is some God &dor Goddess has locked ya'll here for &da reason."
+				""
+				"Those don't..."
+				""
+				"&dOh they exist, at least in your &ddimension. But you don't gotta believe &dIN them. Subtle difference."
+				""
+				"That is...a very weird way to put it..."
+				""
 				"&dBut true. Anyways, another &dthought is &dyour dimension is a one way &dtrip."
-			],
+			]
 			dependencies: [
-				"0000000000000018",
+				"0000000000000018"
 				"000000000000001A"
-			],
-			hide: true,
-			id: "000000000000001C",
+			]
+			hide: true
+			id: "000000000000001C"
 			tasks: [{
-				id: "000000000000001D",
-				type: "checkmark",
-				title: "Sticky Situation",
+				id: "000000000000001D"
+				type: "checkmark"
+				title: "Sticky Situation"
 				icon: "minecraft:map"
 			}]
-		},
+		}
 		{
-			title: "The Price of Knowledge",
-			icon: "calemiutils:coin_dollar",
-			x: -2.0d,
-			y: 4.0d,
-			shape: "diamond",
-			subtitle: "Knowledge is Power, and Money is Power",
+			title: "The Price of Knowledge"
+			icon: "calemiutils:coin_gold"
+			x: -2.0d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Knowledge is Power, and Money is Power"
 			description: [
-				"&dGood, the bread is broken. One last &dthing, traveler... you should probably &dget the help of my brother. You may call him Kai, which is prounced like o-KAY.",
-				"",
-				"Brother? Why?",
-				"",
-				"&dGiven where you come from, I think &dyou'll be missing more than just your &dsmartphone and your tablet soon.",
-				"",
-				"I don't understand.",
-				"",
-				'&dWell, this dimension? The "Gods" are mysterious, and have decided to disable technology. My brother and I, however, can help you.',
-				"",
-				"Let me guess, for a price?",
-				"",
+				"&dGood, the bread is broken. One last &dthing, traveler... you should probably &dget the help of my brother. You may call him Kai, which is prounced like o-KAY."
+				""
+				"Brother? Why?"
+				""
+				"&dGiven where you come from, I think &dyou'll be missing more than just your &dsmartphone and your tablet soon."
+				""
+				"I don't understand."
+				""
+				"&dWell, this dimension? The \"Gods\" are mysterious, and have decided to disable technology. My brother and I, however, can help you."
+				""
+				"Let me guess, for a price?"
+				""
 				"&dOn the nose. Bring him an Iron &dDubloon. You should be able to find &dthem on various monsters."
-			],
+			]
 			dependencies: [
-				"000000000000001A",
+				"000000000000001A"
 				"000000000000001C"
-			],
-			hide: true,
-			id: "000000000000001E",
+			]
+			hide: true
+			id: "000000000000001E"
 			tasks: [{
-				id: "000000000000001F",
-				type: "item",
-				item: "calemiutils:coin_nickel",
+				id: "000000000000001F"
+				type: "item"
+				item: "calemiutils:coin_silver"
 				consume_items: true
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000020",
-				type: "item",
+				id: "0000000000000020"
+				type: "item"
 				item: "hardcorequesting:quest_book"
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 4.0d,
-			subtitle: "Small Techs",
+			x: 4.0d
+			y: 4.0d
+			subtitle: "Small Techs"
 			description: [
-				"&dSorry, it kind of sucks to get stuck &dhere like this. But I'll help you out as &dmuch as I can.",
-				"",
-				"So why does this help come at a price for you and your brother?",
-				"",
-				"&dOnly some of it is at a price. Keeping &dthis interdimensional connection open &dis a bit costly in reagents.",
-				"",
-				"Oh. I'm going to guess wherever you are isn't some grand utopia.",
-				"",
-				"&dFull to the brim of free energy and &dunlimited resources. I damn well wish. ",
-				"",
-				"Damn.",
-				"",
+				"&dSorry, it kind of sucks to get stuck &dhere like this. But I'll help you out as &dmuch as I can."
+				""
+				"So why does this help come at a price for you and your brother?"
+				""
+				"&dOnly some of it is at a price. Keeping &dthis interdimensional connection open &dis a bit costly in reagents."
+				""
+				"Oh. I'm going to guess wherever you are isn't some grand utopia."
+				""
+				"&dFull to the brim of free energy and &dunlimited resources. I damn well wish. "
+				""
+				"Damn."
+				""
 				"&dWork with what we got. And as they &dsay, you scratch our back, we'll &dscratch yours, okay?"
-			],
+			]
 			dependencies: [
-				"000000000000001C",
+				"000000000000001C"
 				"000000000000001E"
-			],
-			hide: true,
-			id: "0000000000000021",
+			]
+			hide: true
+			id: "0000000000000021"
 			tasks: [{
-				id: "0000000000000022",
-				type: "checkmark",
-				title: "Grand Magics",
+				id: "0000000000000022"
+				type: "checkmark"
+				title: "Grand Magics"
 				icon: "ars_nouveau:mana_fiber"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 6.0d,
-			subtitle: "Sit up straight and take notes.",
+			x: 1.0d
+			y: 6.0d
+			subtitle: "Sit up straight and take notes."
 			description: [
-				"&dNow, Traveler. You'll have access to &dmy classes on various schools of &dmagic and tech available to you.",
-				"",
-				"I thought you said tech didn't work here?",
-				"",
-				"&dYOUR tech level doesn't without some &dexpensive rituals. But there are some &dsimple technologies robust enough to &dwork. ",
-				"",
-				"Do I gotta pay for these lessons?",
-				"",
-				"&dHere and there, but I'll make you a &ddeal. I'll reward you for following my &dlessons, and occasionally give you &dtasks for extra money. Deal?",
-				"",
-				"I don't quite trust you, but I guess I got little choice?",
-				"",
+				"&dNow, Traveler. You'll have access to &dmy classes on various schools of &dmagic and tech available to you."
+				""
+				"I thought you said tech didn't work here?"
+				""
+				"&dYOUR tech level doesn't without some &dexpensive rituals. But there are some &dsimple technologies robust enough to &dwork. "
+				""
+				"Do I gotta pay for these lessons?"
+				""
+				"&dHere and there, but I'll make you a &ddeal. I'll reward you for following my &dlessons, and occasionally give you &dtasks for extra money. Deal?"
+				""
+				"I don't quite trust you, but I guess I got little choice?"
+				""
 				"&dExcellent. Welcome to the F.O.G. of Magic school, Traveller!"
-			],
+			]
 			dependencies: [
-				"000000000000001E",
+				"000000000000001E"
 				"0000000000000021"
-			],
-			hide: true,
-			id: "0000000000000025",
+			]
+			hide: true
+			id: "0000000000000025"
 			tasks: [{
-				id: "0000000000000026",
-				type: "checkmark",
-				title: "&dClass Shall Begin",
+				id: "0000000000000026"
+				type: "checkmark"
+				title: "&dClass Shall Begin"
 				icon: "minecraft:lectern"
 			}]
-		},
+		}
 		{
-			icon: "minecraft:oak_sign",
-			x: 3.0d,
-			y: 6.0d,
-			shape: "gear",
-			subtitle: "Things to note!",
+			icon: "minecraft:oak_sign"
+			x: 3.0d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "Things to note!"
 			description: [
-				"&6Hey there! Pack maker Caigan here. &6This pack will go through many of the &6mods in it, but not like The Ferret &6Business did!",
-				"",
-				"&6I will not be going through nearly &6every single item in each mod. Instead &6I will go through various parts that &6are interesting, and nice starting &6points for players to work from.",
-				"",
-				"&6The main focus of the pack is just &6another open world Isekai adventure, &6with a way to trade in items and &6purchase items, as I tend to do.",
-				"",
+				"&6Hey there! Pack maker Caigan here. &6This pack will go through many of the &6mods in it, but not like The Ferret &6Business did!"
+				""
+				"&6I will not be going through nearly &6every single item in each mod. Instead &6I will go through various parts that &6are interesting, and nice starting &6points for players to work from."
+				""
+				"&6The main focus of the pack is just &6another open world Isekai adventure, &6with a way to trade in items and &6purchase items, as I tend to do."
+				""
 				"&6Hope you enjoy!"
-			],
-			dependencies: ["0000000000000025"],
-			id: "0000000000000027",
+			]
+			dependencies: ["0000000000000025"]
+			id: "0000000000000027"
 			tasks: [{
-				id: "0000000000000028",
-				type: "checkmark",
+				id: "0000000000000028"
+				type: "checkmark"
 				title: "PACK NOTES 2"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 8.0d,
-			shape: "gear",
+			x: 1.0d
+			y: 8.0d
+			shape: "gear"
 			description: [
-				"Okay... These lessons will probably be pretty detailed. I don't think I'll write down every single note in this QUEST Journal. ",
-				"",
-				"Instead I'll go through the important notes and figure out my next task.",
-				"",
-				"&dAnd I shall provide commentary for &dyou.",
-				"",
-				"Could you not?",
-				"",
-				"&dI'll take it into consideration. No.",
-				"",
-				"Sigh, fine. Let's just get started.",
-				"",
-				"&dYou may choose which lessons to &dfollow freely. But how about this... I will reward you for completing each lesson plan.",
-				"",
-				"Reward?",
-				"",
+				"Okay... These lessons will probably be pretty detailed. I don't think I'll write down every single note in this QUEST Journal. "
+				""
+				"Instead I'll go through the important notes and figure out my next task."
+				""
+				"&dAnd I shall provide commentary for &dyou."
+				""
+				"Could you not?"
+				""
+				"&dI'll take it into consideration. No."
+				""
+				"Sigh, fine. Let's just get started."
+				""
+				"&dYou may choose which lessons to &dfollow freely. But how about this... I will reward you for completing each lesson plan."
+				""
+				"Reward?"
+				""
 				"&dYes. Each completed lesson plan will earn you Forbidden Knowledge Coins. You'll find out what they are later, Traveler."
-			],
-			dependencies: ["0000000000000025"],
-			id: "000000000000002E",
+			]
+			dependencies: ["0000000000000025"]
+			id: "000000000000002E"
 			tasks: [{
-				id: "000000000000002F",
-				type: "checkmark",
-				title: "Lessons and Notes",
+				id: "000000000000002F"
+				type: "checkmark"
+				title: "Lessons and Notes"
 				icon: "contenttweaker:forbiddencoin"
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 7.0d,
-			shape: "gear",
+			x: 4.0d
+			y: 7.0d
+			shape: "gear"
 			description: [
-				"&6An important thing to note if you &6aren't used to modded Minecraft is the &6search and recipe look up function in &6your inventory!",
-				"",
-				"&6Down at the bottom center of the &6screen is a search bar. You can click &6it and start typing an item name to find &6it in the right panel.",
-				"",
-				"&6At the right, you can Left Click to see &6the recipe or how to obtain the item &6(usually). Right Click an item to see &6what recipes you can use it in!",
-				"",
+				"&6An important thing to note if you &6aren't used to modded Minecraft is the &6search and recipe look up function in &6your inventory!"
+				""
+				"&6Down at the bottom center of the &6screen is a search bar. You can click &6it and start typing an item name to find &6it in the right panel."
+				""
+				"&6At the right, you can Left Click to see &6the recipe or how to obtain the item &6(usually). Right Click an item to see &6what recipes you can use it in!"
+				""
 				"&6You can start the search with @ to &6find all items from a mod. Do @rats for &6Rat mod, or @botania for Botania for &6example!"
-			],
-			dependencies: ["0000000000000027"],
-			id: "0000000000000045",
+			]
+			dependencies: ["0000000000000027"]
+			id: "0000000000000045"
 			tasks: [{
-				id: "0000000000000046",
-				type: "checkmark",
-				title: "Pack Notes 3",
+				id: "0000000000000046"
+				type: "checkmark"
+				title: "Pack Notes 3"
 				icon: "pneumaticcraft:inventory_upgrade"
 			}]
-		},
+		}
 		{
-			title: "PACK NOTES 6",
-			icon: "psi:cad_battery_extended",
-			x: -1.0d,
-			y: 6.0d,
-			shape: "gear",
-			subtitle: "&dMod: Spark",
+			title: "PACK NOTES 6"
+			icon: "psi:cad_battery_extended"
+			x: -1.0d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "&dMod: Spark"
 			description: [
-				"&6If you are having odd lag issues, be sure to consult the modpack page on CurseForge for tips and java arguments!",
-				"",
+				"&6If you are having odd lag issues, be sure to consult the modpack page on CurseForge for tips and java arguments!"
+				""
 				"&6Included in the pack is Spark, which is quite helpful in tracking down lag issues."
-			],
-			dependencies: ["0000000000000025"],
-			id: "79027204AE910CFA",
+			]
+			dependencies: ["0000000000000025"]
+			id: "79027204AE910CFA"
 			tasks: [{
-				id: "422FC4F7685FD1B4",
+				id: "422FC4F7685FD1B4"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Wait, what?",
-			icon: "ftbquests:missing_item",
-			x: 1.0d,
-			y: 7.0d,
-			subtitle: "&dYou heard me.",
+			title: "Wait, what?"
+			icon: "ftbquests:missing_item"
+			x: 1.0d
+			y: 7.0d
+			subtitle: "&dYou heard me."
 			description: [
-				"What the heck does F.O.G. mean?",
-				"",
-				"&dWell, since it's, as I said, the quote unquote GODS messing with technology, I decided to name the school F.O.G.",
-				"",
-				"Again, which means....",
-				"",
-				"&dWell, F Off Gods of Magic.",
-				"",
-				".........really?",
-				"",
-				"&dNah, it means whatever you want it to mean. Or does it?",
-				"",
+				"What the heck does F.O.G. mean?"
+				""
+				"&dWell, since it's, as I said, the quote unquote GODS messing with technology, I decided to name the school F.O.G."
+				""
+				"Again, which means...."
+				""
+				"&dWell, F Off Gods of Magic."
+				""
+				".........really?"
+				""
+				"&dNah, it means whatever you want it to mean. Or does it?"
+				""
 				"We'll get along like a house on fire..."
-			],
-			dependencies: ["0000000000000025"],
-			id: "5F37DF7067EEC6B3",
+			]
+			dependencies: ["0000000000000025"]
+			id: "5F37DF7067EEC6B3"
 			tasks: [{
-				id: "1C60314A92FAC2AD",
+				id: "1C60314A92FAC2AD"
 				type: "checkmark"
 			}]
 		}
