@@ -2389,18 +2389,16 @@
 				{
 					id: "7536D419C7DA344B"
 					type: "item"
-					item: "chiselsandbits:tape_measure"
+					item: {
+						id: "chiselsandbits:measuring_tape"
+						Count: 1b
+						tag: { }
+					}
 				}
 				{
 					id: "503C9B6A39FB01C4"
 					type: "item"
-					item: {
-						id: "chiselsandbits:wrench_wood"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "chiselsandbits:wrench"
 				}
 			]
 			rewards: [{
