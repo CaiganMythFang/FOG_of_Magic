@@ -2282,8 +2282,6 @@
 				""
 				"&dYes. You can use a Chisel to chip away at a block. By hitting the H key, or Sneak + Mousewheel, you can swap chiseling modes."
 				""
-				"&dThe Saw can be used to cleanly slice blocks in a Crafting Table."
-				""
 				"&dAnd the Chiseled Bit Storage is kind of like a Fluid Tank, but you can break the fluids into Chiseled Bits too."
 			]
 			hide_dependency_lines: true
@@ -2295,17 +2293,6 @@
 					type: "item"
 					item: {
 						id: "chiselsandbits:chisel_stone"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "50A16DC6FE9F004D"
-					type: "item"
-					item: {
-						id: "chiselsandbits:bitsaw_stone"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -2327,29 +2314,47 @@
 		}
 		{
 			title: "Copy That Bitty"
-			icon: "chiselsandbits:mirrorprint"
+			icon: {
+				id: "chiselsandbits:quill"
+				Count: 1b
+				tag: { }
+			}
 			x: -6.75d
 			y: -5.75d
 			shape: "square"
 			subtitle: "&dFlipy Flopy Copy"
-			description: ["So, these three sheets of 'paper' are a way for me to copy and mirror and shift designs around. It makes things easier when I'm making complex designs."]
+			description: [
+				"So, if I have a block design I like, I can make a copy of it if I have a Quill, and some Paper in my off hand, then Right Click the Quill on the Chisel and Bits block. I can use the created Pattern to place out another copy of said block. (If I have the bits, of course)"
+				""
+				"I can then take the Pattern into a Modification Station to change it if I want. Mirroring it is pretty useful one, for example."
+				""
+				"And if I want to use the pattern multiple times, I can Seal it with Sealant to make a more permanent pattern."
+			]
 			dependencies: ["7D28F41729018508"]
 			id: "11C01B61DCAFC754"
 			tasks: [
 				{
 					id: "4BF1C28CF4D310CF"
 					type: "item"
-					item: "chiselsandbits:mirrorprint"
+					item: {
+						id: "chiselsandbits:quill"
+						Count: 1b
+						tag: { }
+					}
 				}
 				{
 					id: "423B6F8FA0483DB5"
 					type: "item"
-					item: "chiselsandbits:positiveprint"
+					item: "chiselsandbits:modification_table"
 				}
 				{
 					id: "63929E0DCD1B2DBD"
 					type: "item"
-					item: "chiselsandbits:negativeprint"
+					item: {
+						id: "chiselsandbits:sealant"
+						Count: 1b
+						tag: { }
+					}
 				}
 			]
 			rewards: [{
