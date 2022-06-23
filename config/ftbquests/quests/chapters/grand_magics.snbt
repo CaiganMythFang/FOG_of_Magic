@@ -456,10 +456,123 @@
 		{
 			title: "Spells - Projecting Teleports"
 			icon: {
-				id: "mysticalworld:amethyst_knife"
+				id: "silentgear:knife"
 				Count: 1b
 				tag: {
+					SGear_UUID: [I;
+						1263425629
+						-505657264
+						-1239368089
+						-1328998412
+					]
 					Damage: 0
+					SGear_Data: {
+						Construction: {
+							IsExample: 1b
+							Parts: [
+								{
+									Item: {
+										id: "silentgear:knife_blade"
+										Count: 1b
+										tag: {
+											Materials: [{
+												Item: {
+													id: "silentgems:agate"
+													Count: 1b
+												}
+												ID: "silentgems:agate"
+											}]
+										}
+									}
+									ID: "silentgear:knife_blade"
+								}
+								{
+									Item: {
+										id: "silentgear:rod"
+										Count: 1b
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "minecraft:emerald"
+														Count: 1b
+													}
+													ID: "silentgear:emerald"
+												}
+												{
+													Item: {
+														id: "mysticalworld:soft_obsidian"
+														Count: 1b
+													}
+													ID: "silentgear:obsidian"
+												}
+											]
+										}
+									}
+									ID: "silentgear:rod"
+								}
+								{
+									Item: {
+										id: "silentgear:tip"
+										Count: 1b
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "minecraft:emerald"
+														Count: 1b
+													}
+													ID: "silentgear:emerald"
+												}
+												{
+													Item: {
+														id: "botania:elementium_ingot"
+														Count: 1b
+													}
+													ID: "managear:elementium"
+												}
+											]
+										}
+									}
+									ID: "silentgear:tip"
+								}
+							]
+						}
+						Properties: {
+							ModVersion: "2.6.36"
+							Stats: {
+								"silentgear:enchantability": 14.0f
+								"silentgear:harvest_speed": 11.236613f
+								"silentgems:chargeability": 1.4f
+								"silentgear:attack_reach": 3.0f
+								"silentgear:harvest_level": 3.0f
+								"silentgear:durability": 876.3246f
+								"silentgear:melee_damage": 3.7408679f
+								"silentgear:magic_damage": 5.4817357f
+								"silentgear:rarity": 43.63961f
+								"silentgear:attack_speed": -1.5f
+								"silentgear:repair_efficiency": 2.0f
+							}
+							LockStats: 0b
+							Traits: [
+								{
+									Level: 5b
+									Name: "silentgear:brittle"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:synergistic"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:chipping"
+								}
+							]
+						}
+						Rendering: {
+							ModelKey: "knife:knife_blade{silentgems:agate},rod{emerald,obsidian},tip{emerald,managear:elementium},"
+						}
+					}
 				}
 			}
 			x: -6.0d
