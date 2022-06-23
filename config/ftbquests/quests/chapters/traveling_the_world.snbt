@@ -333,6 +333,7 @@
 				{
 					id: "00000000000002FD"
 					type: "item"
+					title: "Any Sleeping Bag"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -344,6 +345,7 @@
 				{
 					id: "00000000000002FE"
 					type: "item"
+					title: "Any Hammock Cloth"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
