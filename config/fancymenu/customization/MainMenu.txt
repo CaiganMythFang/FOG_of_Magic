@@ -2,7 +2,10 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
   renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
 }
 
 customization {
@@ -11,50 +14,12 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
-  orientation = mid-centered
-  x = -6
-  action = movebutton
-  y = -39
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
-  identifier = %id=400298%
-  width = 150
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/singleplayer.png
-}
-
-customization {
-  identifier = %id=400298%
-  action = sethoverlabel
-  label = Play Singleplayer
-}
-
-customization {
-  identifier = %id=400298%
-  seconds = 1.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = -6
   action = movebutton
@@ -62,33 +27,35 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 150
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/multiplayer.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\multiplayer.png
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = sethoverlabel
   label = Play Multiplayer
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   seconds = 1.0
   onlyfirsttime = true
   fadein = true
@@ -97,7 +64,7 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 93
   action = movebutton
@@ -105,33 +72,35 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   width = 49
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank-small.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/accesability.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank-small.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\accesability.png
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = sethoverlabel
   label = Accessability
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   seconds = 1.0
   onlyfirsttime = true
   fadein = true
@@ -140,7 +109,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -6
   action = movebutton
@@ -148,33 +117,35 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 150
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/options.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\options.png
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = sethoverlabel
   label = Change Options
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   seconds = 1.0
   onlyfirsttime = true
   fadein = true
@@ -183,7 +154,7 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = -6
   action = movebutton
@@ -191,33 +162,35 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 150
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/quit.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\quit.png
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = sethoverlabel
   label = Quit Game
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   seconds = 1.0
   onlyfirsttime = true
   fadein = true
@@ -226,7 +199,7 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
   x = 45
   action = movebutton
@@ -234,33 +207,35 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   width = 49
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank-small.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/lang.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank-small.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\lang.png
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = sethoverlabel
   label = Language
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   seconds = 1.0
   onlyfirsttime = true
   fadein = true
@@ -269,7 +244,52 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -6
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\singleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = Play Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = -6
   action = movebutton
@@ -277,33 +297,35 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 150
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/mods.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\mods.png
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = sethoverlabel
   label = Mod List and Config
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   seconds = 1.0
   onlyfirsttime = true
   fadein = true
@@ -312,7 +334,7 @@ customization {
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
@@ -339,9 +361,11 @@ customization {
 
 customization {
   identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank-small.png
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/quark.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank-small.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\quark.png
 }
 
 customization {
@@ -377,10 +401,12 @@ customization {
 
 customization {
   orientation = mid-centered
+  restartbackgroundanimations = true
   delayappearanceseconds = 1.0
   buttonaction = openlink
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/blank.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\blank.png
   label = 
+  loopbackgroundanimations = true
   hoverlabel = Report Issues
   fadein = true
   fadeinspeed = 1.0
@@ -390,7 +416,7 @@ customization {
   action = addbutton
   y = 56
   delayappearance = true
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/help.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\help.png
   value = https://github.com/CaiganMythFang/FOG_of_Magic/issues
   delayappearanceeverytime = false
   height = 20
@@ -431,13 +457,13 @@ customization {
   scale = 1.0
   fadein = true
   fadeinspeed = 1.0
-  x = -154
+  x = -157
   action = addtext
   actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
   y = -15
   delayappearance = true
   alignment = left
-  value = Version        §f(June 8 2021)
+  value = Version        §f(June 22 2022)
   delayappearanceeverytime = false
 }
 
@@ -522,7 +548,7 @@ customization {
   y = 32
   delayappearance = true
   alignment = left
-  value =    Biome ID Fixer
+  value =    BisectHosting Server Int
   delayappearanceeverytime = false
 }
 
@@ -539,7 +565,7 @@ customization {
   y = 42
   delayappearance = true
   alignment = left
-  value =    Akashic Tome
+  value = ALL MODS + FORGE UPDATED
   delayappearanceeverytime = false
 }
 
@@ -556,7 +582,7 @@ customization {
   y = 52
   delayappearance = true
   alignment = left
-  value = New and Updated Quests
+  value =   Primarily a maintenance
   delayappearanceeverytime = false
 }
 
@@ -573,7 +599,7 @@ customization {
   y = 63
   delayappearance = true
   alignment = left
-  value = Purchase Vending Machines!
+  value =   update. Should work with
   delayappearanceeverytime = false
 }
 
@@ -596,16 +622,18 @@ customization {
 
 customization {
   orientation = top-right
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
+  backgroundhovered = openloader\resources\fom_resources\assets\fom\textures\menu\vertical_light_text.png
   label = 
+  loopbackgroundanimations = true
   hoverlabel = §dCLICK FOR OFFER!
   x = -101
   width = 78
   actionid = fbbc4ec6-c0d1-40cb-8354-6a64479dcd341623171065289
   action = addbutton
   y = 15
-  backgroundnormal = openloader/resources/fom_resources/assets/fom/textures/menu/vertical_light_text.png
+  backgroundnormal = openloader\resources\fom_resources\assets\fom\textures\menu\vertical_light_text.png
   value = https://bisecthosting.com/ferretbusiness
   height = 21
 }
@@ -641,13 +669,13 @@ customization {
   scale = 1.0
   fadein = true
   fadeinspeed = 1.0
-  x = -111
+  x = -113
   action = addtext
   actionid = cd5dd80a-8dd1-4133-9f3d-c659ae70b9d91621095037187
   y = -14
   delayappearance = true
   alignment = left
-  value = §l§d1.3.5
+  value = §l§d1.4.0
   delayappearanceeverytime = false
 }
 
@@ -660,6 +688,6 @@ customization {
   y = 243
   scale = 1.0
   alignment = left
-  value = Lots of Bug Fixes!
+  value =   Vivecraft again as well.
 }
 
