@@ -62,8 +62,6 @@ Global Packs
     1.10.2 > 1.10.3
 Hats
     10.3.3 > 10.3.4
-Ice and Fire : Dragons
-    2.1.9 > 2.1.12
 IChunUtil
     10.6.1 > 10.7.0
 Immersive Petroleum
