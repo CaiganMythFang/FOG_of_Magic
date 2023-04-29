@@ -34,4 +34,6 @@
 	hatLauncherRandomHatSpeed = 5
 	#The config for the Hat Sorter. Please don't edit this by hand, do it through the Hats UI.
 	filterSorterConfig = ["filterUndiscovered", "sorterFavourite", "sorterRarity:inverse", "sorterAlphabetical"]
+	#Disable the toast pop-up that tells you that Hats is running in Client-Only Mode.
+	disableClientOnlyModeWarning = false
 
