@@ -1,0 +1,122 @@
+FORGE
+    36.2.35 > 36.2.39
+Advanced Chimneys
+    6.0.12.3 > 6.1.0.0
+Apotheosis
+    4.8.99F > 4.8.9A0
+Aquaculture 2
+    2.1.22 > 2.1.23
+Architectuary API
+    1.32.63 > 1.32.67
+Ars Noveau
+    1.25.1 > 1.25.10
+Bisect Hosting Server Integration
+    1.3 > 2.2
+Bookshelf
+    10.4.32 > 10.4.33
+Botania
+    420.2 > 420.3
+Building Gadgets
+    3.8.2 > 3.8.3
+CC: Tweaked
+    1.100.6 > 1.101.2
+Cloth Config API
+    4.14.64 > 4.16.91
+Collective
+    4.28 > 5.49
+Configurable Extra Mob Drops
+    1.8 > 2.5
+Configured
+    1.5.2 > 1.5.4
+Controlling
+    7.0.0.28 > 7.0.0.29
+Corail Tombstone
+    6.7.8 > 6.8.11
+CraftTweaker
+    7.1.2.511 > 7.1.2.520
+CreateTweaker
+    1.0.0.26 > 1.0.028
+Curios API
+    4.0.8.2 > 4.1.0.0
+Cyclic
+    1.5.15 > 1.5.20
+Extended Crafting
+    3.1.11 > 3.1.13
+Fancy Menu
+    2.8.0 > 2.14.7
+Fast Workbench
+    4.6.1 > 4.6.2
+Ferrite Core
+    2.1.0 > 2.1.1
+Forge Endertech
+    7.2.2.0 > 7.3.0.0
+FTB Chunks
+    3.2 > 3.4
+FTB Quests
+    3.6 > 3.7
+Gauge and Switches
+    1.2.15 > 1.2.16
+GeckoLib
+    3.0.79 > 3.0.106
+Global Packs
+    1.10.2 > 1.10.3
+Hats
+    10.3.3 > 10.3.4
+Ice and Fire : Dragons
+    2.1.9 > 2.1.12
+IChunUtil
+    10.6.1 > 10.7.0
+Immersive Petroleum
+    3.3.0-11 > 3.4.0-20
+In Control!
+    5.2.9 > 5.2.12
+Just Enough Calculation
+    3.8.6 > 3.9.2
+Just Enough Items
+    7.7.1.152 > 7.8.0.1009
+Konkrete
+    1.3.3 > 1.6.0
+Large Ore Deposits
+    4.1.9.2 > 4.1.10.0
+Lootr
+    0.1.12.43 > 0.2.17.48
+Macaw's Doors
+    1.0.6 > 1.0.9
+Macaw's Roofs
+    2.1.2 > 2.2.3
+Macaw's Windows
+    2.0.3 > 2.1.1
+Mahou Tsukai
+    1.34.25 > 1.34.43
+Mining Gadgets
+    1.7.5 > 1.7.6
+Music Maker Mod
+    2.0.2 > 2.1.1
+Patchoulli
+    53.2 > 53.3
+Placebo
+    4.7.0 > 4.7.1
+Pneumaticraft: Repressurized
+    2.15.10 > 2.15.12
+Polymorph
+    0.40 > 0.41
+Psi
+    97 > 97.474
+ReAuth
+    4.0.4 > 4.0.7
+ServerConfig Updater
+    1.3 > 1.3.2
+Starter Kit
+    3.1 > 4.1
+Supplementaries
+    0.18.4 > 1.18.5
+The Magic Doorknob
+    0.1.6.551 > 0.2.0.669
+Turtlemancy
+    1.6.4 > 1.6.5
+U Team Core
+    1.215 > 1.229
+Useful Backpacks
+    1.12.1.90 > 1.12.1.103
+Vending Machine
+    1.0.0.7 > 1.0.8
