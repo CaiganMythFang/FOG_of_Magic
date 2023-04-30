@@ -2,6 +2,7 @@
 
 MODS REMOVED
 Friendly Fire
+ReSynth
 
 FORGE
     36.2.35 > 36.2.39
