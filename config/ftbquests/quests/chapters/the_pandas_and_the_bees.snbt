@@ -13,17 +13,19 @@
 			icon: "ars_nouveau:glyph_harvest"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "&dMods: Resourceful Bees, Resource Pandas, and Resynth"
+			subtitle: "&dMods: Resourceful Bees, Resource Pandas"
 			description: [
 				"&dTraveller, there is such magic in the air here that it suffuses many plants and creatures. Maybe with a bit of prodding from us, on top."
 				""
 				"What does that mean?"
 				""
-				"&dDon't worry, nothing bad. It helps out Travellers like you. There are ways to not only GROW resources like Iron, but to take care of animals that create them, similarly to bees making honey."
+				"&dDon't worry, nothing bad. It helps out Travellers like you. There are ways to take care of animals that create resources for you, similarly to bees making honey. "
 				""
 				"&dIn fact, that's one of the creatures that can help you : Bees!"
 				""
-				"&dThere are also Pandas to take care of, and crops you can grow."
+				"&dThere are also Pandas to take care of for resources! "
+				""
+				"&dThere once was a way to grow Resources too, but alas it was lost."
 			]
 			dependencies: ["0000000000000025"]
 			size: 1.25d
@@ -446,100 +448,13 @@
 			}]
 		}
 		{
-			title: "Growing Resources"
-			icon: {
-				id: "resynth:mineral_hoe"
-				Count: 1b
-				tag: {
-					charges: 2
-				}
-			}
-			x: 2.5d
-			y: 0.0d
-			shape: "square"
-			subtitle: "&dGood Soil, Good Iron"
-			description: [
-				"To get started growing resource crops, I'll need to have the right kind of soil."
-				""
-				"I need to explore underground for a while, and keep my eye out for some Mineral Infused Stone. It will drop some Mineral Rock, which I'll need to make a Mineral Hoe."
-				""
-				"With this, I can Right Click it on some Dirt to make it Mineral Enriched. Resynth's Resource Crops will only grow on this soil."
-				""
-				"I can then plant the resource seeds. No need for water!"
-				""
-				"&dTraveller, the seed will grow VERY slowly unless you add as much Mineral Rock as you can to the Soil by Right Clicking it onto it."
-				""
-				"I can also Right Click in the air with my Mineral Hoe to consume extra Mineral Crystals in my inventory to repair the Hoe."
-			]
-			dependencies: ["7773A2225EA40568"]
-			id: "09DCE460DD3461FA"
-			tasks: [
-				{
-					id: "264A406FC735F6BE"
-					type: "item"
-					item: "resynth:mineral_rock"
-				}
-				{
-					id: "3CB9291D962F035B"
-					type: "item"
-					item: "resynth:mineral_hoe"
-				}
-			]
-			rewards: [{
-				id: "63BCB71C78629958"
-				type: "item"
-				item: "calemiutils:coin_platinum"
-				count: 20
-			}]
-		}
-		{
-			title: "Farm Enhancers"
-			icon: "resynth:calvinite_enhancer"
-			x: 3.75d
-			y: 0.0d
-			shape: "square"
-			subtitle: "&dBetter and Faster"
-			description: [
-				"Mineral Enriched Soil can only hold so much of the Mineral Rock before it's saturated and I need something else to boost it further."
-				""
-				"Calvinite is a rare material I can find in the End, and Sylvanite is another one I can find in the End."
-				""
-				"Both of them are quite useful in making Resynth Enhancers."
-				""
-				"These blocks I place directly under Enriched Farmland to make it even richer and better."
-				""
-				"As a bonus, I can place a Hopper underneath the Enhancer to automatically pull resources from the Resynth plant."
-			]
-			dependencies: ["09DCE460DD3461FA"]
-			id: "4BADE456D899EAEF"
-			tasks: [
-				{
-					id: "529309CC152CE38E"
-					type: "item"
-					item: "resynth:calvinite_enhancer"
-				}
-				{
-					id: "1737DAD5A9D5C678"
-					type: "item"
-					item: "resynth:sylvanite_enhancer"
-				}
-			]
-			rewards: [{
-				id: "5D3A762ECB22A209"
-				type: "item"
-				item: "calemiutils:coin_platinum"
-				count: 30
-			}]
-		}
-		{
-			title: "&dLesson Complete: Resynth, Resourceful Bees, Resource Pandas"
+			title: "&dLesson Complete: Resourceful Bees, Resource Pandas"
 			icon: "contenttweaker:forbiddencoin"
 			x: 5.25d
 			y: -0.0892857142857153d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: [
-				"4BADE456D899EAEF"
 				"4FA9342C68CD6F7E"
 				"51444ED6D16DAB54"
 				"3F3102ECAACE0569"
@@ -556,38 +471,6 @@
 				id: "22DF367E2CC3C499"
 				type: "item"
 				item: "contenttweaker:forbiddencoin"
-			}]
-		}
-		{
-			title: "Magic Beans"
-			icon: "resynth:metallic_seeds_iron"
-			x: 1.25d
-			y: 0.0d
-			shape: "square"
-			subtitle: "&dYou mean Seeds"
-			description: [
-				"Resynth seeds are an intriguing thing. They are condensed magics of creation and life. Sort of."
-				""
-				"It's hard to explain."
-				""
-				"&dNot really. You plant seed, you grow iron. Pretty simple."
-				""
-				"I... nevermind! So, most Resynth seeds can be gotten by either harvesting the related block (ore for metals, etc), hunt the related monster (spiders for string), or doing something like..."
-				""
-				"Blow Up Iron Ore with TNT. This has a chance of turning it into Iron Ingot Seeds."
-			]
-			dependencies: ["4D23EBD071F8A8DE"]
-			id: "7773A2225EA40568"
-			tasks: [{
-				id: "5B051C5934F3CB07"
-				type: "item"
-				item: "resynth:metallic_seeds_iron"
-			}]
-			rewards: [{
-				id: "2A436D349A3A1DA5"
-				type: "item"
-				item: "calemiutils:coin_platinum"
-				count: 15
 			}]
 		}
 		{
