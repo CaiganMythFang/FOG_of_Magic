@@ -1,3 +1,8 @@
+"C:\Program Files\Java\jdk1.8.0_131\bin\java.exe" -server -Xms2G -Xmx6G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dfml.readTimeout=180 -jar forge-1.16.5-36.2.39.jar nogui
+
+MODS REMOVED
+Friendly Fire
+
 FORGE
     36.2.35 > 36.2.39
 Advanced Chimneys
