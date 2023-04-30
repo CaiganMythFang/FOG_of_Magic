@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = J:/Curseforge Instances/Instances/FOG of Magic (dev)/saves/1_4_0 Update Test
-}
-

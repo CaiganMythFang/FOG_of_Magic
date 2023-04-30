@@ -60,3 +60,7 @@ config/config.zip
 config/resourcefulbees/bees.zip
 
 servers.dat_old
+
+menuworlds/
+
+fancymenu_data/

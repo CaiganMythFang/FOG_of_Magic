@@ -291,7 +291,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = -6
+  x = -5
   action = movebutton
   y = 18
 }
@@ -341,9 +341,9 @@ customization {
 customization {
   identifier = %id=376346%
   orientation = mid-centered
-  x = -4
+  x = -5
   action = movebutton
-  y = 38
+  y = 37
 }
 
 customization {
@@ -598,7 +598,7 @@ customization {
   y = 22
   delayappearance = true
   alignment = left
-  value = This is primarily another
+  value = MAJOR BUGFIX RELEASE
   delayappearanceeverytime = false
 }
 
@@ -615,7 +615,7 @@ customization {
   y = 32
   delayappearance = true
   alignment = left
-  value =   Maintenance Release!
+  value =   MODS REMOVED : ReAuth
   delayappearanceeverytime = false
 }
 
@@ -632,7 +632,7 @@ customization {
   y = 42
   delayappearance = true
   alignment = left
-  value = ALL MODS + FORGE UPDATED
+  value =     Friendly Fire, Resynth
   delayappearanceeverytime = false
 }
 
@@ -649,7 +649,7 @@ customization {
   y = 52
   delayappearance = true
   alignment = left
-  value =   No updates to quests
+  value = Forge + Most Mods Updated
   delayappearanceeverytime = false
 }
 
@@ -666,7 +666,7 @@ customization {
   y = 63
   delayappearance = true
   alignment = left
-  value =   mechanics to match new
+  value =   Resynth Quests removed
   delayappearanceeverytime = false
 }
 

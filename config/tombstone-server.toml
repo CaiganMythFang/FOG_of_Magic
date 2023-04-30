@@ -13,33 +13,21 @@
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	#Range: > 0
 	ghostly_shape_duration = 120
-	#Scroll duration [1200..120000|default:12000]
-	#Range: 1200 ~ 120000
-	scroll_duration = 12000
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
 	#Range: -1 ~ 100
 	chance_enchanted_grave_key = 0
 	#Defines the progression scale to be able to upgrade perks to higher level (based on the level in Knowledge of Death) [1..5|default:2]
 	#Range: 1 ~ 5
 	perk_progression_scale = 2
-	#Defines experience lost when storing experience in a Scroll of Knowledge
-	#Range: 0 ~ 90
-	scroll_of_knowledge_loss = 0
 
 #Allows to customize or disable the enchantments
 [enchantments]
 	#Enables the enchantment Plague Bringer [false/true|default:true]
 	enable_enchantment_plague_bringer = true
-	#Max level for Plague Bringer [1..10|default:5]
-	#Range: 1 ~ 10
-	max_level_plague_bringer = 5
 	#Enables the enchantment Shadow Step [false/true|default:true]
 	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
 	enable_enchantment_soulbound = true
-	#Max level for Magic Siphon [1..10|default:5]
-	#Range: 1 ~ 10
-	max_level_magic_siphon = 5
 	#Allows Plague Bringer to combine with Magic Siphon [false/true|default:false]
 	plague_bringer_combining_magic_siphon = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
@@ -54,37 +42,21 @@
 	curse_of_bones_enchanting_table = false
 	#Allows Blessing at enchanting table [false/true|default:false]
 	blessing_enchanting_table = false
-	#Max level for Curse of Bones [1..10|default:5]
-	#Range: 1 ~ 10
-	max_level_curse_of_bones = 5
-	#Shadow Step is only active while sneaking [false/true|default:false]
-	nerf_shadow_step_force_sneak = false
 	#Enables the enchantment Curse of Bones [false/true|default:true]
 	enable_enchantment_curse_of_bones = true
 	#Allows Soulbound at enchanting table [false/true|default:false]
 	soulbound_enchanting_table = true
 	#Allows Shadow Step at enchanting table [false/true|default:false]
 	shadow_step_enchanting_table = false
-	#Max level for Shadow Step [1..10|default:5]
-	#Range: 1 ~ 10
-	max_level_shadow_step = 5
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
-	#Maximum uses of a tablet [1..10|default:3]
-	#Range: 1 ~ 10
-	tablet_max_use = 10
 	#The cooldown in minutes to reset the perks with the ankh of Pray [20..1440|default:120]
 	#Range: 20 ~ 1440
 	cooldown_reset_perk = 20
 	#The cooldown in hours to pray with the Ankh [1..10|default:3]
 	#Range: 1 ~ 10
 	cooldown_to_pray = 3
-	#Cooldown in second after using a tablet [60..1200|default:300]
-	#Range: 60 ~ 1200
-	tablet_cooldown = 60
-	#Sets the decorative graves unbreakable [false/true|default:false]
-	unbreakable_decorative_grave = false
 
 #Allows to disable some magic items
 [allowedMagicItems]
@@ -96,8 +68,6 @@
 	allow_scroll_of_feather_fall = true
 	#Voodoo Poppet [false/true|default:true]
 	allow_voodoo_poppet = true
-	#Scroll of Unstable Intangibleness [false/true|default:true]
-	allow_scroll_of_unstable_intangibleness = true
 	#Dust of Vanishing [false/true|default:true]
 	allow_dust_of_vanishing = true
 	#Tablet of Cupidity [false/true|default:true]
@@ -136,6 +106,22 @@
 	allow_book_of_magic_impregnation = true
 	#Smoke Ball [false/true|default:true]
 	allow_smoke_ball = true
+	#Scroll of Unstable Intangibility [false/true|default:true]
+	allow_scroll_of_unstable_intangibility = true
+	#Scroll of Mercy [false/true|default:true]
+	allow_scroll_of_mercy = true
+	#Seeker Rod [false/true|default:true]
+	allow_seeker_rod = true
+	#Christmas Hat [false/true|default:true]
+	allow_christmas_hat = true
+	#Bag of Seeds [false/true|default:true]
+	allow_bag_of_seeds = true
+	#Magic Scroll [false/true|default:true]
+	allow_magic_scroll = true
+	#Familiar Stone [false/true|default:true]
+	allow_familiar_stone = true
+	#Merchant Stone [false/true|default:true]
+	allow_merchant_stone = true
 
 #Allows to change the chance to drop some items
 [loot]
@@ -145,10 +131,23 @@
 
 #Allows to enable some features related to others mods
 [compatibility]
-	#Ignore enchantment bonus provided by Astral Sorcery [false/true|default:true]
-	astral_sorcery_ignore_enchantment_bonus = false
 	#fix the custom name with anvil when the string is empty [false/true|default:true]
 	fix_anvil_custom_name = true
 	#fix the RepairCost:0 added by the anvil & grindstone in nbt preventing theses items to stack [false/true|default:true]
 	fix_repair_cost_zero = true
+
+#For settings related to magic items
+[magic_item]
+	#Scroll duration [1200..120000|default:12000]
+	#Range: 1200 ~ 120000
+	scroll_duration = 12000
+	#Defines experience lost when storing experience in a Scroll of Knowledge
+	#Range: 0 ~ 90
+	scroll_of_knowledge_loss = 0
+	#Maximum uses of a tablet [1..10|default:3]
+	#Range: 1 ~ 10
+	tablet_max_use = 3
+	#Cooldown in second after using a tablet [60..1200|default:300]
+	#Range: 60 ~ 1200
+	tablet_cooldown = 300
 
