@@ -9,6 +9,6 @@ import stdlib.List;
 
 // <tag:items:crafttweaker:chimneys>.add(<item:adchimneys:bone_chimney>);
 
-<tag:blocks:resourcefulbees:valid_apiary>.add([<block:resynth:calvinite_enhancer>]);
-<tag:items:resourcefulbees:valid_apiary>.add([<item:resynth:calvinite_enhancer>]);
+// <tag:blocks:resourcefulbees:valid_apiary>.add([<block:resynth:calvinite_enhancer>]);
+// <tag:items:resourcefulbees:valid_apiary>.add([<item:resynth:calvinite_enhancer>]);
 
